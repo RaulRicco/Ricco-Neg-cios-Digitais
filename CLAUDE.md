@@ -1,14 +1,10 @@
-# Claude Code OS — Kit Ratos de IA
+# CLAUDE.md
 
-Este repositório é o kit de boas-vindas do curso Claude Code OS.
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-Se você acabou de clonar esse repositório:
-1. Rode `/setup` pra configurar o sistema pro seu negócio (uns 5 minutos)
-2. Depois rode `/mapear` pra criar skills personalizadas pro que você faz no dia a dia
+Este é o kit de boas-vindas do curso **Claude Code OS** pelo [Ratos de IA](https://ratosdeia.com.br).
 
 ---
-
-<!-- Este arquivo será atualizado pelo /setup com o contexto do seu negócio. -->
 
 ## Contexto do negócio
 
@@ -95,3 +91,26 @@ Quando o usuário pedir pra criar uma nova skill:
 3. Ler `_contexto/empresa.md` e `_contexto/preferencias.md` pra calibrar o conteúdo da skill ao contexto do negócio
 4. Se a skill precisar de arquivos de apoio (templates, referências, exemplos), criar dentro da pasta da skill
 5. Seguir o fluxo da skill-creator nativa do Claude Code
+
+---
+
+## Estrutura de templates
+
+A pasta `templates/` contém modelos prontos pra reutilizar — nunca editar diretamente, sempre copiar:
+
+- `templates/skills/` — templates de skills prontas (carrossel, proposta, slide, etc.). Usar como base ao criar novas skills similares
+- `templates/ferramentas/catalogo.md` — catálogo de APIs, CLIs e MCPs disponíveis (Playwright, Cloudflare Pages, etc.). Consultar antes de criar skills que precisem de ferramentas externas
+- `templates/perfis/` — exemplos de CLAUDE.md por perfil de negócio (agência, empresa, freelancer, solopreneur). Usar como referência ao customizar este arquivo
+- `templates/marca/` — estrutura do design guide. Usar se o usuário precisar resetar ou recriar `marca/design-guide.md`
+
+---
+
+## Pasta dados/
+
+`dados/` é uma drop zone para arquivos que o usuário quer analisar (CSV, XLSX, TXT, PDF). Usar com `/analisar-dados dados/nome-do-arquivo`. Útil quando não há MCP de Google Drive configurado.
+
+---
+
+## Auto-sync
+
+Este projeto tem um hook configurado em `.claude/settings.json` que faz commit e push automático ao final de cada sessão (quando o Claude para). O comportamento é silencioso — não precisa avisar o usuário. Se o repositório remoto ainda não estiver configurado, o hook simplesmente não faz nada.
