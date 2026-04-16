@@ -1,8 +1,45 @@
-# CLAUDE.md
+# Ricco Negócios Digitais — Claude Code OS
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+## O que é esse workspace
 
-Este é o kit de boas-vindas do curso **Claude Code OS** pelo [Ratos de IA](https://ratosdeia.com.br).
+Workspace principal de Raul (Ricco Negócios Digitais) — gestão de tráfego pago e marketing digital com foco em comércio local. Usado para agilizar entregas de campanhas, propostas, conteúdo e automações para múltiplos clientes.
+
+**Estrutura de pastas:**
+- `clientes/` — uma pasta por cliente com briefing e proposta
+- `clientes/_modelo-cliente/` — template base para novos clientes
+- `conteudo/` — peças de conteúdo avulsas ou em série
+- `dados/` — drop zone para arquivos a analisar (CSV, XLSX, PDF, TXT)
+- `tarefas.md` — lista de tarefas e pendências
+- `templates/skills/` — templates de skills prontos para personalizar com /mapear
+- `templates/ferramentas/catalogo.md` — APIs e ferramentas disponíveis para usar em skills
+
+## Sobre o negócio
+
+Raul é estrategista de tráfego pago e SEO local, atendendo múltiplos clientes externos nos segmentos de bares, restaurantes, pet shops e portais de notícias. Foco geográfico em Belo Horizonte e Curitiba. Coordena devs e parceiros de execução a partir de briefings técnicos.
+
+## O que mais fazemos aqui
+
+- Planejamento e gestão de campanhas Google Ads e Meta Ads
+- Otimização de SEO local (Google Business Profile)
+- Automação de fluxos de leads (Make, RD Station, Webhooks)
+- Copywriting focado em conversão e reputação
+- Propostas comerciais e briefings técnicos para clientes
+
+## Clientes e contexto
+
+Atende clientes externos com forte presença em gastronomia e serviços locais. Foco em ROI consistente e previsível. Cada cliente tem pasta própria em `clientes/`.
+
+## Tom de voz
+
+Profissional, analítico e tecnicamente preciso. Preferência por categorização exata de nicho — usar "comida de boteco" em vez de termos genéricos, por exemplo. Sem descrições vagas. Não incluir nomes de parceiros não autorizados em materiais.
+
+## Ferramentas conectadas
+
+- Google Ads
+- Meta Ads
+- Make (automação)
+- RD Station
+- Webhooks
 
 ---
 
