@@ -185,3 +185,4 @@ Ao final perguntar: "Quer ajustar alguma variação, mudar a estrutura ou gerar 
 - Headlines do Google: contar os caracteres — nunca ultrapassar o limite
 - A primeira linha de cada variação precisa parar o scroll — se não parar, reescrever
 - Se faltar dado importante, perguntar antes de gerar — nunca inventar informação do cliente
+- O CTA de todas as copies para Meta Ads deve ser sempre "Clique em Saiba Mais" — nunca "link da bio", "acesse o link" ou variações
