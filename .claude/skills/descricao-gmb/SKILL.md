@@ -2,7 +2,8 @@
 name: descricao-gmb
 description: >
   Cria descrição otimizada para o Google Meu Negócio seguindo a fórmula de SEO local:
-  localizações primeiro, serviços depois. Limite de 750 caracteres, sem keyword stuffing.
+  palavra-chave principal + bairro + cidade, o que serve, diferenciais e CTA de visita.
+  Limite de 750 caracteres, tom de fundo de funil, sem marcas de escrita de IA.
   Use quando o usuário disser "cria descrição do GMB de [cliente]", "descrição Google Meu Negócio",
   "otimiza a descrição do perfil de [cliente]".
 ---
@@ -11,15 +12,14 @@ description: >
 
 ## Referência metodológica
 
-Baseada na fórmula de SEO local validada:
-**Localizações primeiro → Serviços depois**
+Fórmula de SEO local para Map Pack:
 
-Evitar:
-- Keyword stuffing (repetição forçada de termos)
-- Texto vago ou genérico ("venha nos visitar", "somos os melhores")
-- Descrições que não dizem claramente o que o negócio faz e onde
+1. Palavra-chave principal + bairro + cidade
+2. O que serve (produtos, pratos, bebidas, serviços)
+3. Diferenciais do negócio
+4. CTA para visita (fundo de funil)
 
-O objetivo é que o Google entenda com precisão **o que** o negócio oferece e **onde** atua — isso impacta diretamente a visibilidade no Map Pack.
+O objetivo é capturar quem já está procurando ativamente. A descrição precisa confirmar que encontrou o lugar certo e induzir a visita.
 
 ---
 
@@ -38,9 +38,8 @@ O objetivo é que o Google entenda com precisão **o que** o negócio oferece e 
 Perguntar: "Descrição pra qual cliente? Se tiver mais de uma unidade, qual delas?"
 
 Ler `clientes/lista-clientes.md` e localizar:
-- Segmento exato do cliente (usar a categorização precisa — "bar de boteco", não "espaço gastronômico")
-- Endereço(s) e bairro(s)
-- Cidade(s) de atuação
+- Segmento exato do cliente (usar categorização precisa: "bar de boteco", não "espaço gastronômico")
+- Bairro e cidade de cada unidade
 - Palavras-chave já mapeadas
 
 Se o cliente não tiver Google Meu Negócio na lista, avisar: "[Cliente] não tem GMB na estrutura atual. Quer criar a descrição mesmo assim?"
@@ -49,30 +48,40 @@ Se o cliente não tiver Google Meu Negócio na lista, avisar: "[Cliente] não te
 
 Verificar se existe `clientes/[nome-cliente]/tom-de-voz.md`.
 - Se existir: usar o tom registrado
-- Se não existir: usar o segmento como referência e manter tom direto e profissional
+- Se não existir: usar o segmento como referência e manter tom direto, de bairro, sem formalidade excessiva
 
-### Passo 3 — Aplicar a fórmula
+### Passo 3 — Aplicar a estrutura
 
-**Estrutura obrigatória:**
+**Bloco 1 — Abertura com palavra-chave + localização:**
+Abrir com uma frase que contenha a palavra-chave principal, o bairro e a cidade. O formato deve soar natural, como alguém descrevendo o lugar, não como tag de SEO.
+Exemplo: "Se você está procurando um bar na Savassi, em Belo Horizonte..."
+Ou: "O Balcão Savassi é um bar no coração da Savassi, em Belo Horizonte..."
 
-```
-[Localizações] + [O que o negócio é/faz] + [Serviços ou diferenciais específicos]
-```
+**Bloco 2 — O que serve:**
+Listar de forma direta o que o cliente oferece: bebidas, pratos, petiscos, serviços. Ser específico. Citar itens reais quando souber (chopp, drinques, petiscos, rodízio, etc.). Evitar "cardápio variado" ou "opções para todos os gostos".
 
-**Regras da fórmula:**
+**Bloco 3 — Diferenciais:**
+Citar o que diferencia esse bar dos outros na mesma região. Pode ser o ambiente, localização privilegiada, happy hour, música ao vivo, espaço, história do bairro, etc. Usar as informações do tom de voz do cliente.
 
-1. **Localizações primeiro:** abrir com a cidade e bairro(s) onde o negócio atua. Se tiver múltiplas unidades, citar as principais. Ex: "No Batel e no Água Verde, em Curitiba..."
-2. **Serviços depois:** descrever o que o negócio oferece de forma específica. Evitar generalidades — citar pratos, tipos de atendimento, diferenciais reais.
-3. **Densidade de palavras-chave:** incorporar 3-5 palavras-chave da lista do cliente de forma natural. Não repetir o mesmo termo mais de uma vez.
-4. **Limite rígido:** máximo 750 caracteres (o GMB corta o restante).
-5. **Sem CTA:** descrição do perfil não é post — não usar "ligue agora", "faça sua reserva aqui".
+**Bloco 4 — CTA de visita:**
+Fechar com uma frase que convide à visita física. Tom de fundo de funil: a pessoa já sabe o que quer, só precisa confirmar que vai ao lugar certo. Exemplos: "Venha conferir pessoalmente.", "Estamos te esperando na [rua/bairro].", "A melhor forma de conhecer é vindo."
 
-### Passo 4 — Gerar as variações
+### Passo 4 — Regras de escrita
 
-Gerar **2 variações** da descrição:
+- **Sem travessões** (—) em nenhuma circunstância
+- **Sem reticências** (...) como recurso estilístico
+- **Sem construções de IA** como "mergulhe em", "descubra um universo de", "eleve sua experiência", "onde cada detalhe importa"
+- **Sem adjetivos vazios** como "incrível", "único", "especial", "imperdível"
+- **Sem keyword stuffing:** incorporar 3 a 5 palavras-chave da lista do cliente, sem repetir o mesmo termo mais de uma vez
+- **Limite rígido:** máximo 750 caracteres (o GMB corta o restante)
+- Escrever como um humano descreveria o lugar para um amigo que está pesquisando onde ir
 
-- **Variação 1 — Rankeamento:** prioriza a cobertura de palavras-chave e localizações. Mais informativa, direta.
-- **Variação 2 — Conversão:** prioriza o diferencial e a proposta de valor. Mais persuasiva, sem perder a precisão.
+### Passo 5 — Gerar as variações
+
+Gerar **2 variações** da descrição seguindo a mesma estrutura dos 4 blocos:
+
+- **Variação 1:** abertura mais direta com a palavra-chave ("Bar na Savassi...")
+- **Variação 2:** abertura mais contextual, pelo nome do lugar ou pelo diferencial
 
 Ao final de cada variação, indicar:
 ```
@@ -81,21 +90,20 @@ Ao final de cada variação, indicar:
 [Localizações mencionadas: ...]
 ```
 
-### Passo 5 — Revisão rápida
+### Passo 6 — Revisão rápida
 
-Após gerar, verificar mentalmente:
-- A descrição deixa claro o que o negócio faz e onde fica? ✓
-- Tem keyword stuffing (mesma palavra repetida)? ✗
-- Está dentro de 750 caracteres? ✓
-- A categorização do segmento está precisa? ✓
+Antes de entregar, verificar:
+- Tem travessão, reticências ou construção típica de IA? Reescrever.
+- A abertura contém palavra-chave + bairro + cidade? Confirmar.
+- Os 4 blocos estão presentes (abertura, o que serve, diferenciais, CTA)? Confirmar.
+- Está dentro de 750 caracteres? Confirmar.
+- A categorização do segmento está precisa? Confirmar.
 
 ---
 
-## Regras
+## Regras gerais
 
-- Usar o nome exato do bairro e cidade — "bar no Batel, Curitiba" é melhor que "bar em Curitiba"
 - Categorização precisa: nunca chamar boteco de "restaurante premium" ou bar de "espaço gourmet"
-- Localizações sempre antes dos serviços — é a fórmula que ajuda no Map Pack
-- Sem frases genéricas de marketing ("somos referência", "atendimento de qualidade")
-- Se o cliente tiver múltiplas unidades com perfis separados, gerar uma descrição por unidade (com o bairro específico de cada uma)
-- Tom segue `_contexto/preferencias.md`: direto, preciso, sem entusiasmo vazio
+- Se o cliente tiver múltiplas unidades com perfis separados, gerar uma descrição por unidade com o bairro específico de cada uma
+- Tom segue `_contexto/preferencias.md` e o tom de voz do cliente: direto, sem entusiasmo vazio
+- A descrição é fundo de funil: quem lê já está procurando, não precisa ser convencido de que quer um bar, precisa ser convencido de que esse é o certo
