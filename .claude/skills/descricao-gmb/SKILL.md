@@ -63,8 +63,14 @@ Listar de forma direta o que o cliente oferece: bebidas, pratos, petiscos, servi
 **Bloco 3 — Diferenciais:**
 Citar o que diferencia esse bar dos outros na mesma região. Pode ser o ambiente, localização privilegiada, happy hour, música ao vivo, espaço, história do bairro, etc. Usar as informações do tom de voz do cliente.
 
-**Bloco 4 — CTA de visita:**
-Fechar com uma frase que convide à visita física. Tom de fundo de funil: a pessoa já sabe o que quer, só precisa confirmar que vai ao lugar certo. Exemplos: "Venha conferir pessoalmente.", "Estamos te esperando na [rua/bairro].", "A melhor forma de conhecer é vindo."
+**Bloco 4 — Experiência:**
+Descrever como o cliente vai se sentir ou o que vai viver ao visitar o lugar. Não é sobre o produto, é sobre o momento: o clima do fim de tarde, a energia do bairro, o tipo de noite que o lugar proporciona. Deve soar real e específico para aquele negócio, não genérico.
+Exemplo: "É o tipo de lugar pra alongar o fim de tarde sem pressa, com uma mesa boa e conversa melhor ainda."
+
+**Bloco 5 — CTA de visita:**
+Fechar com um convite direto para viver a experiência descrita no bloco anterior. A pessoa já sabe o que quer, o CTA confirma que esse é o lugar e que basta aparecer.
+Exemplos: "Vem viver isso na [bairro].", "A experiência tá te esperando na [rua/bairro].", "Só falta você aparecer."
+Evitar CTAs genéricos como "venha nos visitar" ou "entre em contato".
 
 ### Passo 4 — Regras de escrita
 
@@ -95,7 +101,7 @@ Ao final de cada variação, indicar:
 Antes de entregar, verificar:
 - Tem travessão, reticências ou construção típica de IA? Reescrever.
 - A abertura contém palavra-chave + bairro + cidade? Confirmar.
-- Os 4 blocos estão presentes (abertura, o que serve, diferenciais, CTA)? Confirmar.
+- Os 5 blocos estão presentes (abertura, o que serve, diferenciais, experiência, CTA)? Confirmar.
 - Está dentro de 750 caracteres? Confirmar.
 - A categorização do segmento está precisa? Confirmar.
 
