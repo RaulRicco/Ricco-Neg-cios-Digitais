@@ -12,7 +12,7 @@
 ## Contexto adicional
 
 - Segmentos de atuação: bares, restaurantes, pet shops, portais de notícias
-- Foco geográfico: Belo Horizonte e Curitiba
+- Foco geográfico: Belo Horizonte, Curitiba e brasília
 - Atenção à categorização precisa de nicho — ex: preferência por "comida de boteco" em vez de termos genéricos
 - Não incluir nomes de parceiros não autorizados em materiais de clientes
 - Site pessoal/profissional: raulricco.com.br
