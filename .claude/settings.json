@@ -1,4 +1,5 @@
 {
+  "enabledMcpjsonServers": ["localseodata"],
   "hooks": {
     "Stop": [
       {

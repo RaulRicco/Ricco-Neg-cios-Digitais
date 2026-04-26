@@ -2,6 +2,7 @@
 .env
 .env.local
 .env.*
+.mcp.json
 
 # Arquivo gerado pelo /setup com MCPs específicos do usuário
 _configurar-mcps.md
