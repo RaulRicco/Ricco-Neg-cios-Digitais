@@ -23,3 +23,7 @@ Profissional, analítico e tecnicamente preciso. Direto ao ponto, sem rodeios. F
 
 - Respeitar a nomenclatura exata que o Raul usa para cada cliente e nicho
 - Quando escrever copy ou material para clientes, sempre perguntar o segmento exato antes de produzir
+
+## Legendas de anúncios
+
+- A CTA de legendas deve sempre direcionar para clicar no link (ex: "Clique no link", "Acesse pelo link", "Link na bio") — os anúncios são sempre para tráfego (cliques no link)
