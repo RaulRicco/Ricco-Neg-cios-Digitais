@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard — Bar do Açougueiro</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --bg: #0a0a0a;
+    --bg-card: #141414;
+    --bg-row-alt: #1a1a1a;
+    --border: #222;
+    --green: #a3e635;
+    --text: #ffffff;
+    --text-muted: #666;
+    --text-sub: #999;
+    --meta-blue: #1877F2;
+    --google-red: #EA4335;
+    --analytics-orange: #F9AB00;
+    --gmb-green: #34A853;
+    --radius: 12px;
+  }
+
+  body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+
+  /* ─── TOPBAR ─── */
+  .topbar {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(10,10,10,0.92); backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    padding: 0 32px; height: 64px;
+    display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  }
+  .topbar-left { display: flex; align-items: center; gap: 16px; }
+  .logo-badge {
+    font-size: 11px; font-weight: 800; color: var(--bg); background: var(--green);
+    padding: 4px 10px; border-radius: 6px; letter-spacing: 0.06em;
+    text-transform: uppercase; white-space: nowrap;
+  }
+  .client-name-top { font-size: 16px; font-weight: 700; }
+  .topbar-right { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .period-label { font-size: 12px; color: var(--text-muted); white-space: nowrap; }
+  .date-inputs { display: flex; align-items: center; gap: 8px; }
+  .date-inputs input[type="date"] {
+    background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px;
+    color: var(--text); font-family: 'Inter', sans-serif; font-size: 13px;
+    padding: 6px 10px; cursor: pointer; outline: none;
+  }
+  .date-inputs input[type="date"]:focus { border-color: var(--green); }
+  .date-sep { font-size: 12px; color: var(--text-muted); }
+  .btn-export {
+    background: transparent; border: 1px solid var(--border); border-radius: 8px;
+    color: var(--text-muted); font-family: 'Inter', sans-serif; font-size: 12px;
+    font-weight: 600; padding: 6px 14px; cursor: pointer; transition: all .15s; white-space: nowrap;
+  }
+  .btn-export:hover { border-color: var(--green); color: var(--green); }
+
+  /* ─── MAIN ─── */
+  .main { max-width: 1200px; margin: 0 auto; padding: 40px 32px 80px; }
+
+  /* ─── SECTION ─── */
+  .section { margin-bottom: 56px; }
+  .section-header {
+    display: flex; align-items: center; gap: 12px;
+    margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid var(--border);
+  }
+  .platform-icon {
+    width: 36px; height: 36px; border-radius: 9px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px; font-weight: 900; flex-shrink: 0; letter-spacing: -0.5px;
+  }
+  .icon-consolidated { background: #1d1d1d; color: var(--green); font-size: 16px; }
+  .icon-meta { background: var(--meta-blue); color: #fff; }
+  .icon-google { background: var(--google-red); color: #fff; }
+  .icon-analytics { background: var(--analytics-orange); color: #fff; }
+  .icon-gmb { background: var(--gmb-green); color: #fff; }
+  .section-title { font-size: 18px; font-weight: 800; }
+  .section-badge {
+    background: #1a1a1a; border: 1px solid var(--border); border-radius: 20px;
+    padding: 3px 12px; font-size: 11px; color: var(--text-muted);
+    font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em;
+  }
+
+  /* ─── CARDS ─── */
+  .cards-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px; margin-bottom: 28px;
+  }
+  .card {
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 20px;
+  }
+  .card-label {
+    font-size: 11px; font-weight: 600; color: var(--text-muted);
+    text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 10px;
+  }
+  .card-value { font-size: 26px; font-weight: 900; line-height: 1; margin-bottom: 4px; }
+  .card-value.green { color: var(--green); }
+  .card-sub { font-size: 12px; color: var(--text-sub); margin-top: 6px; }
+  .card-accent        { border-top: 2px solid var(--green); }
+  .card-accent-meta   { border-top: 2px solid var(--meta-blue); }
+  .card-accent-google { border-top: 2px solid var(--google-red); }
+  .card-accent-analytics { border-top: 2px solid var(--analytics-orange); }
+  .card-accent-gmb    { border-top: 2px solid var(--gmb-green); }
+
+  .invest-breakdown { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+  .invest-chip { font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px; }
+  .chip-meta   { background: rgba(24,119,242,0.15); color: var(--meta-blue); }
+  .chip-google { background: rgba(234,67,53,0.15);  color: var(--google-red); }
+
+  /* ─── CHART ─── */
+  .chart-block { margin-bottom: 28px; }
+  .chart-card {
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 24px;
+  }
+  .chart-header {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 20px; flex-wrap: wrap; gap: 12px;
+  }
+  .chart-title { font-size: 13px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; }
+  .chart-legend { display: flex; gap: 16px; flex-wrap: wrap; }
+  .legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-sub); }
+  .legend-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .chart-toggle { display: flex; gap: 6px; flex-wrap: wrap; }
+  .toggle-btn {
+    background: #1a1a1a; border: 1px solid var(--border); border-radius: 6px;
+    color: var(--text-muted); font-family: 'Inter', sans-serif; font-size: 11px;
+    font-weight: 600; padding: 4px 10px; cursor: pointer; transition: all .15s;
+  }
+  .toggle-btn.active { background: var(--green); border-color: var(--green); color: #000; }
+  .chart-wrap { position: relative; height: 220px; }
+
+  /* ─── TABLES ─── */
+  .table-block { margin-bottom: 28px; }
+  .table-title {
+    font-size: 13px; font-weight: 700; color: var(--text-muted);
+    text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 12px;
+  }
+  .table-wrap { overflow-x: auto; border-radius: var(--radius); border: 1px solid var(--border); }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  thead th {
+    background: #111; color: var(--text-muted); font-size: 11px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.06em; padding: 10px 16px;
+    text-align: left; white-space: nowrap;
+  }
+  tbody tr { border-top: 1px solid var(--border); }
+  tbody tr:nth-child(even) { background: var(--bg-row-alt); }
+  tbody td { padding: 11px 16px; white-space: nowrap; }
+  .td-name { font-weight: 600; max-width: 240px; overflow: hidden; text-overflow: ellipsis; }
+  .td-muted { color: var(--text-sub); }
+  .pill { display: inline-block; padding: 2px 9px; border-radius: 20px; font-size: 11px; font-weight: 700; }
+  .pill-active { background: rgba(163,230,53,0.12); color: var(--green); }
+  .pill-paused { background: #1e1e1e; color: #555; }
+
+  /* ─── PAGINAÇÃO DE TABELA ─── */
+  .table-footer {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 10px 16px; background: #111; border-top: 1px solid var(--border);
+    border-radius: 0 0 var(--radius) var(--radius);
+  }
+  .table-count { font-size: 12px; color: var(--text-muted); }
+  .table-nav { display: flex; gap: 6px; }
+  .nav-btn {
+    background: #1a1a1a; border: 1px solid var(--border); border-radius: 6px;
+    color: var(--text-muted); font-family: 'Inter', sans-serif; font-size: 12px;
+    font-weight: 600; padding: 4px 12px; cursor: pointer; transition: all .15s;
+  }
+  .nav-btn:hover:not(:disabled) { border-color: var(--green); color: var(--green); }
+  .nav-btn:disabled { opacity: 0.3; cursor: default; }
+  .nav-page { font-size: 12px; color: var(--text-muted); display: flex; align-items: center; padding: 0 8px; }
+
+  /* ─── ORIGEM BARS ─── */
+  .origem-list { display: flex; flex-direction: column; gap: 10px; }
+  .origem-item { display: flex; align-items: center; gap: 12px; }
+  .origem-label { font-size: 13px; font-weight: 500; min-width: 180px; }
+  .origem-bar-wrap { flex: 1; background: #1a1a1a; border-radius: 4px; height: 6px; overflow: hidden; }
+  .origem-bar { height: 100%; border-radius: 4px; }
+  .origem-val { font-size: 13px; font-weight: 700; min-width: 48px; text-align: right; }
+  .origem-pct { font-size: 11px; color: var(--text-muted); min-width: 38px; text-align: right; }
+
+  /* ─── EVENTOS GA4 ─── */
+  .eventos-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px; margin-bottom: 28px;
+  }
+  .evento-card {
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: 10px; padding: 16px; display: flex; align-items: center; gap: 14px;
+  }
+  .evento-icon {
+    width: 36px; height: 36px; border-radius: 8px; flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center; font-size: 16px;
+  }
+  .evento-info .evento-name { font-size: 11px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px; }
+  .evento-info .evento-count { font-size: 20px; font-weight: 900; }
+
+  /* ─── GMB NOVAS AVALIAÇÕES ─── */
+  .reviews-list { display: flex; flex-direction: column; gap: 10px; }
+  .review-item {
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: 10px; padding: 14px 16px;
+  }
+  .review-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; }
+  .review-author { font-size: 13px; font-weight: 700; }
+  .review-date { font-size: 11px; color: var(--text-muted); }
+  .review-stars { color: var(--analytics-orange); font-size: 13px; letter-spacing: 1px; margin-bottom: 6px; }
+  .review-text { font-size: 13px; color: var(--text-sub); line-height: 1.5; }
+  .reviews-see-all {
+    display: inline-flex; align-items: center; gap: 6px; margin-top: 12px;
+    font-size: 12px; font-weight: 600; color: var(--green); cursor: pointer;
+    background: none; border: none; font-family: 'Inter', sans-serif;
+  }
+
+  /* ─── FOOTER ─── */
+  .footer {
+    text-align: center; padding: 32px 0 0; border-top: 1px solid var(--border);
+    font-size: 12px; color: var(--text-muted);
+  }
+  .footer strong { color: var(--green); }
+
+  /* ─── RESPONSIVE ─── */
+  @media (max-width: 768px) {
+    .topbar { padding: 0 16px; height: auto; padding-top: 12px; padding-bottom: 12px; flex-wrap: wrap; }
+    .main { padding: 24px 16px 60px; }
+    .cards-grid { grid-template-columns: repeat(2, 1fr); }
+    .eventos-grid { grid-template-columns: repeat(2, 1fr); }
+    .origem-label { min-width: 120px; }
+  }
+  @media print {
+    .topbar { position: static; }
+    .btn-export, .toggle-btn, .nav-btn { display: none; }
+    .section { page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<!-- TOPBAR -->
+<nav class="topbar">
+  <div class="topbar-left">
+    <span class="logo-badge">Ricco</span>
+    <span class="client-name-top">Bar do Açougueiro — Água Verde</span>
+  </div>
+  <div class="topbar-right">
+    <span class="period-label">Período:</span>
+    <div class="date-inputs">
+      <input type="date" id="date-start" value="2026-05-01">
+      <span class="date-sep">→</span>
+      <input type="date" id="date-end" value="2026-05-31">
+    </div>
+    <button class="btn-export" onclick="window.print()">↓ Exportar PDF</button>
+  </div>
+</nav>
+
+<main class="main">
+
+  <!-- ═══════════════════════════════════════════════
+       SEÇÃO 1 — INVESTIMENTO CONSOLIDADO
+  ════════════════════════════════════════════════ -->
+  <section class="section">
+    <div class="section-header">
+      <div class="platform-icon icon-consolidated">◈</div>
+      <h2 class="section-title">Investimento Consolidado</h2>
+      <span class="section-badge">Meta + Google</span>
+    </div>
+
+    <div class="cards-grid">
+      <div class="card card-accent">
+        <div class="card-label">Investimento Total</div>
+        <div class="card-value green">R$ 4.200</div>
+        <div class="invest-breakdown">
+          <span class="invest-chip chip-meta">Meta R$ 2.500</span>
+          <span class="invest-chip chip-google">Google R$ 1.700</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-label">Alcance Total</div>
+        <div class="card-value">89.000</div>
+        <div class="card-sub">pessoas únicas atingidas</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Impressões Totais</div>
+        <div class="card-value">142.000</div>
+        <div class="card-sub">exibições somadas</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Cliques Totais</div>
+        <div class="card-value">3.800</div>
+        <div class="card-sub">Meta + Google Ads</div>
+      </div>
+    </div>
+
+    <!-- Gráfico diário consolidado -->
+    <div class="chart-block">
+      <div class="chart-card">
+        <div class="chart-header">
+          <span class="chart-title">Evolução Diária — Meta + Google</span>
+          <div class="chart-toggle">
+            <button class="toggle-btn active" onclick="switchChart('gasto', this)">Gasto</button>
+            <button class="toggle-btn" onclick="switchChart('alcance', this)">Alcance</button>
+            <button class="toggle-btn" onclick="switchChart('impressoes', this)">Impressões</button>
+            <button class="toggle-btn" onclick="switchChart('cliques', this)">Cliques</button>
+          </div>
+        </div>
+        <div class="chart-legend">
+          <div class="legend-item"><div class="legend-dot" style="background:#1877F2"></div> Meta Ads</div>
+          <div class="legend-item"><div class="legend-dot" style="background:#EA4335"></div> Google Ads</div>
+        </div>
+        <div class="chart-wrap" style="margin-top:16px;">
+          <canvas id="chartConsolidado"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SEÇÃO 2 — META ADS
+  ════════════════════════════════════════════════ -->
+  <section class="section">
+    <div class="section-header">
+      <div class="platform-icon icon-meta">f</div>
+      <h2 class="section-title">Meta Ads</h2>
+      <span class="section-badge">Facebook · Instagram</span>
+    </div>
+
+    <div class="cards-grid">
+      <div class="card card-accent-meta">
+        <div class="card-label">Investimento</div>
+        <div class="card-value">R$ 2.500</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Alcance</div>
+        <div class="card-value">67.000</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Impressões</div>
+        <div class="card-value">108.000</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Cliques no Link</div>
+        <div class="card-value">3.390</div>
+      </div>
+      <div class="card">
+        <div class="card-label">CTR</div>
+        <div class="card-value">3,14%</div>
+        <div class="card-sub">cliques / impressões</div>
+      </div>
+      <div class="card">
+        <div class="card-label">CPC Médio</div>
+        <div class="card-value">R$ 0,74</div>
+      </div>
+      <div class="card">
+        <div class="card-label">CPM</div>
+        <div class="card-value">R$ 23,15</div>
+        <div class="card-sub">por mil impressões</div>
+      </div>
+      <div class="card">
+        <div class="card-label">CPL</div>
+        <div class="card-value">R$ 22,00</div>
+        <div class="card-sub">custo por lead</div>
+      </div>
+    </div>
+
+    <!-- Gráfico diário Meta -->
+    <div class="chart-block">
+      <div class="chart-card">
+        <div class="chart-header">
+          <span class="chart-title">Evolução Diária — Meta Ads</span>
+          <div class="chart-toggle">
+            <button class="toggle-btn active" onclick="switchMetaChart('gasto', this)">Gasto</button>
+            <button class="toggle-btn" onclick="switchMetaChart('alcance', this)">Alcance</button>
+            <button class="toggle-btn" onclick="switchMetaChart('impressoes', this)">Impressões</button>
+            <button class="toggle-btn" onclick="switchMetaChart('cliques', this)">Cliques</button>
+          </div>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="chartMeta"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tabela campanhas -->
+    <div class="table-block">
+      <div class="table-title">Campanhas</div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Campanha</th><th>Status</th><th>Invest.</th>
+              <th>Alcance</th><th>Impressões</th><th>Cliques</th>
+              <th>CTR</th><th>CPC</th><th>Resultados</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="td-name">Delivery — Promoção Semana</td>
+              <td><span class="pill pill-active">● Ativa</span></td>
+              <td>R$ 1.200</td><td>32.000</td><td>51.000</td>
+              <td>1.620</td><td>3,18%</td><td>R$ 0,74</td><td>54 leads</td>
+            </tr>
+            <tr>
+              <td class="td-name">Reconhecimento — Boteco BH</td>
+              <td><span class="pill pill-active">● Ativa</span></td>
+              <td>R$ 800</td><td>21.000</td><td>36.000</td>
+              <td>1.010</td><td>2,80%</td><td>R$ 0,79</td><td>—</td>
+            </tr>
+            <tr>
+              <td class="td-name">Happy Hour — Quinta e Sexta</td>
+              <td><span class="pill pill-active">● Ativa</span></td>
+              <td>R$ 500</td><td>14.000</td><td>21.000</td>
+              <td>760</td><td>3,62%</td><td>R$ 0,66</td><td>59 leads</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Tabela anúncios -->
+    <div class="table-block">
+      <div class="table-title">Anúncios</div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Anúncio</th><th>Formato</th><th>Campanha</th>
+              <th>Impressões</th><th>Cliques</th><th>CTR</th><th>CPC</th><th>Frequência</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="td-name">Petisco + Chopp por R$ 39</td>
+              <td class="td-muted">Vídeo</td><td class="td-muted">Delivery — Promo</td>
+              <td>28.000</td><td>920</td><td>3,29%</td><td>R$ 0,71</td><td>1,74×</td>
+            </tr>
+            <tr>
+              <td class="td-name">Ambiente do Açougueiro</td>
+              <td class="td-muted">Carrossel</td><td class="td-muted">Reconhecimento</td>
+              <td>21.000</td><td>700</td><td>3,33%</td><td>R$ 0,68</td><td>1,58×</td>
+            </tr>
+            <tr>
+              <td class="td-name">Happy Hour Todo Dia</td>
+              <td class="td-muted">Imagem</td><td class="td-muted">Happy Hour</td>
+              <td>16.000</td><td>590</td><td>3,69%</td><td>R$ 0,64</td><td>1,43×</td>
+            </tr>
+            <tr>
+              <td class="td-name">Kit Feijoada do Final de Semana</td>
+              <td class="td-muted">Vídeo</td><td class="td-muted">Delivery — Promo</td>
+              <td>23.000</td><td>700</td><td>3,04%</td><td>R$ 0,77</td><td>1,91×</td>
+            </tr>
+            <tr>
+              <td class="td-name">Quinta do Chope</td>
+              <td class="td-muted">Imagem</td><td class="td-muted">Happy Hour</td>
+              <td>20.000</td><td>480</td><td>2,40%</td><td>R$ 0,71</td><td>1,63×</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SEÇÃO 3 — GOOGLE ADS
+  ════════════════════════════════════════════════ -->
+  <section class="section">
+    <div class="section-header">
+      <div class="platform-icon icon-google">G</div>
+      <h2 class="section-title">Google Ads</h2>
+      <span class="section-badge">Search · Display</span>
+    </div>
+
+    <div class="cards-grid">
+      <div class="card card-accent-google">
+        <div class="card-label">Investimento</div>
+        <div class="card-value">R$ 1.700</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Impressões</div>
+        <div class="card-value">8.200</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Cliques</div>
+        <div class="card-value">410</div>
+      </div>
+      <div class="card">
+        <div class="card-label">CTR</div>
+        <div class="card-value">5,00%</div>
+        <div class="card-sub">acima da média local</div>
+      </div>
+      <div class="card">
+        <div class="card-label">CPC Médio</div>
+        <div class="card-value">R$ 4,15</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Conversões</div>
+        <div class="card-value">28</div>
+        <div class="card-sub">ligações + direções</div>
+      </div>
+      <div class="card">
+        <div class="card-label">CPA</div>
+        <div class="card-value">R$ 60,71</div>
+        <div class="card-sub">custo por conversão</div>
+      </div>
+    </div>
+
+    <!-- Gráfico diário Google -->
+    <div class="chart-block">
+      <div class="chart-card">
+        <div class="chart-header">
+          <span class="chart-title">Evolução Diária — Google Ads</span>
+          <div class="chart-toggle">
+            <button class="toggle-btn active" onclick="switchGoogleChart('gasto', this)">Gasto</button>
+            <button class="toggle-btn" onclick="switchGoogleChart('impressoes', this)">Impressões</button>
+            <button class="toggle-btn" onclick="switchGoogleChart('cliques', this)">Cliques</button>
+          </div>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="chartGoogle"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tabela campanhas -->
+    <div class="table-block">
+      <div class="table-title">Campanhas</div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Campanha</th><th>Tipo</th><th>Status</th><th>Invest.</th>
+              <th>Impressões</th><th>Cliques</th><th>CTR</th><th>CPC</th><th>Conv.</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="td-name">Bar Boteco Água Verde</td>
+              <td class="td-muted">Search</td>
+              <td><span class="pill pill-active">● Ativa</span></td>
+              <td>R$ 1.100</td><td>5.200</td><td>265</td><td>5,10%</td><td>R$ 4,15</td><td>18</td>
+            </tr>
+            <tr>
+              <td class="td-name">Delivery Curitiba</td>
+              <td class="td-muted">Search</td>
+              <td><span class="pill pill-active">● Ativa</span></td>
+              <td>R$ 600</td><td>3.000</td><td>145</td><td>4,83%</td><td>R$ 4,14</td><td>10</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Tabela palavras-chave com paginação -->
+    <div class="table-block" id="block-kw">
+      <div class="table-title">Palavras-chave</div>
+      <div class="table-wrap">
+        <table id="table-kw">
+          <thead>
+            <tr>
+              <th>Palavra-chave</th><th>Correspondência</th><th>Impressões</th>
+              <th>Cliques</th><th>CTR</th><th>CPC</th><th>Conv.</th><th>IS</th>
+            </tr>
+          </thead>
+          <tbody id="tbody-kw"></tbody>
+        </table>
+        <div class="table-footer">
+          <span class="table-count" id="count-kw"></span>
+          <div class="table-nav">
+            <button class="nav-btn" id="prev-kw" onclick="paginate('kw',-1)">← Anterior</button>
+            <span class="nav-page" id="page-kw"></span>
+            <button class="nav-btn" id="next-kw" onclick="paginate('kw',1)">Próximo →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tabela termos pesquisados com paginação -->
+    <div class="table-block" id="block-terms">
+      <div class="table-title">Termos Pesquisados</div>
+      <div class="table-wrap">
+        <table id="table-terms">
+          <thead>
+            <tr>
+              <th>Termo pesquisado</th><th>Palavra acionada</th>
+              <th>Impressões</th><th>Cliques</th><th>CTR</th><th>CPC</th>
+            </tr>
+          </thead>
+          <tbody id="tbody-terms"></tbody>
+        </table>
+        <div class="table-footer">
+          <span class="table-count" id="count-terms"></span>
+          <div class="table-nav">
+            <button class="nav-btn" id="prev-terms" onclick="paginate('terms',-1)">← Anterior</button>
+            <span class="nav-page" id="page-terms"></span>
+            <button class="nav-btn" id="next-terms" onclick="paginate('terms',1)">Próximo →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SEÇÃO 4 — ANALYTICS GA4
+  ════════════════════════════════════════════════ -->
+  <section class="section">
+    <div class="section-header">
+      <div class="platform-icon icon-analytics">GA</div>
+      <h2 class="section-title">Google Analytics 4</h2>
+      <span class="section-badge">Site oficial</span>
+    </div>
+
+    <div class="cards-grid">
+      <div class="card card-accent-analytics">
+        <div class="card-label">Sessões</div>
+        <div class="card-value">1.240</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Usuários</div>
+        <div class="card-value">890</div>
+        <div class="card-sub">novos: 640</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Pageviews</div>
+        <div class="card-value">3.870</div>
+        <div class="card-sub">~3,1 páginas / sessão</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Duração Média</div>
+        <div class="card-value">2m 14s</div>
+        <div class="card-sub">por sessão</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Taxa de Rejeição</div>
+        <div class="card-value">41%</div>
+      </div>
+    </div>
+
+    <!-- Eventos GA4 -->
+    <div class="table-title" style="margin-bottom:12px;">Principais Eventos</div>
+    <div class="eventos-grid" style="margin-bottom:28px;">
+      <div class="evento-card">
+        <div class="evento-icon" style="background:rgba(249,171,0,0.15);">📞</div>
+        <div class="evento-info">
+          <div class="evento-name">Clique Telefone</div>
+          <div class="evento-count">148</div>
+        </div>
+      </div>
+      <div class="evento-card">
+        <div class="evento-icon" style="background:rgba(52,168,83,0.15);">📍</div>
+        <div class="evento-info">
+          <div class="evento-name">Ver Endereço</div>
+          <div class="evento-count">93</div>
+        </div>
+      </div>
+      <div class="evento-card">
+        <div class="evento-icon" style="background:rgba(24,119,242,0.15);">🔗</div>
+        <div class="evento-info">
+          <div class="evento-name">Clique Cardápio</div>
+          <div class="evento-count">312</div>
+        </div>
+      </div>
+      <div class="evento-card">
+        <div class="evento-icon" style="background:rgba(163,230,53,0.15);">🛒</div>
+        <div class="evento-info">
+          <div class="evento-name">Clique Delivery</div>
+          <div class="evento-count">207</div>
+        </div>
+      </div>
+      <div class="evento-card">
+        <div class="evento-icon" style="background:rgba(234,67,53,0.15);">💬</div>
+        <div class="evento-info">
+          <div class="evento-name">Clique WhatsApp</div>
+          <div class="evento-count">176</div>
+        </div>
+      </div>
+      <div class="evento-card">
+        <div class="evento-icon" style="background:rgba(120,100,255,0.15);">📸</div>
+        <div class="evento-info">
+          <div class="evento-name">Clique Instagram</div>
+          <div class="evento-count">89</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Origem com paginação -->
+    <div class="table-block">
+      <div class="table-title">Origem dos Acessos</div>
+      <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden;">
+        <div id="origem-list" style="padding: 20px; display: flex; flex-direction: column; gap: 10px;"></div>
+        <div class="table-footer">
+          <span class="table-count" id="count-origem"></span>
+          <div class="table-nav">
+            <button class="nav-btn" id="prev-origem" onclick="paginate('origem',-1)">← Anterior</button>
+            <span class="nav-page" id="page-origem"></span>
+            <button class="nav-btn" id="next-origem" onclick="paginate('origem',1)">Próximo →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SEÇÃO 5 — GOOGLE MEU NEGÓCIO
+  ════════════════════════════════════════════════ -->
+  <section class="section">
+    <div class="section-header">
+      <div class="platform-icon icon-gmb">M</div>
+      <h2 class="section-title">Google Meu Negócio</h2>
+      <span class="section-badge">Perfil local</span>
+    </div>
+
+    <div class="cards-grid">
+      <div class="card card-accent-gmb">
+        <div class="card-label">Visitas ao Perfil</div>
+        <div class="card-value">3.400</div>
+        <div class="card-sub">buscas e maps</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Rotas Solicitadas</div>
+        <div class="card-value">280</div>
+        <div class="card-sub">no Google Maps</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Cliques no Site</div>
+        <div class="card-value">95</div>
+        <div class="card-sub">via perfil GMB</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Avaliações no Mês</div>
+        <div class="card-value">12</div>
+        <div class="card-sub" id="gmb-period-label">novas em mai/2026</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Nota Atual</div>
+        <div class="card-value" style="display:flex;align-items:baseline;gap:6px;">
+          4,7<span style="color:var(--analytics-orange);font-size:18px;">★</span>
+        </div>
+        <div class="card-sub">total acumulado: 312</div>
+      </div>
+    </div>
+
+    <!-- Novas avaliações do mês -->
+    <div class="table-title" style="margin-bottom:12px;">Novas Avaliações do Mês <span style="color:var(--text-sub);font-weight:400;text-transform:none;letter-spacing:0;" id="gmb-month-label"></span></div>
+    <div class="reviews-list">
+      <div class="review-item">
+        <div class="review-top">
+          <span class="review-author">Mariana Oliveira</span>
+          <span class="review-date">03/05/2026</span>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">Melhor boteco de Curitiba sem dúvida! Petiscos perfeitos, ambiente ótimo e atendimento nota 10.</div>
+      </div>
+      <div class="review-item">
+        <div class="review-top">
+          <span class="review-author">Carlos Henrique</span>
+          <span class="review-date">07/05/2026</span>
+        </div>
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">Fui no happy hour e saí super satisfeito. Chopp gelado, petisco de qualidade. Já virou ponto fixo aqui em casa.</div>
+      </div>
+      <div class="review-item">
+        <div class="review-top">
+          <span class="review-author">Patricia Lima</span>
+          <span class="review-date">12/05/2026</span>
+        </div>
+        <div class="review-stars">★★★★☆</div>
+        <div class="review-text">Comida boa e ambiente agradável. Só achei que o delivery demorou um pouco mais do estimado, mas o sabor compensou.</div>
+      </div>
+    </div>
+    <p style="font-size:12px;color:var(--text-muted);margin-top:12px;">Exibindo 3 de 12 avaliações recebidas em <span id="gmb-period-inline">mai/2026</span>.</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Dashboard por <strong>Ricco Negócios Digitais</strong> · <span id="footer-period"></span></p>
+  </footer>
+</main>
+
+<script>
+// ─── DADOS MOCKADOS ───────────────────────────────────────────────────────────
+
+const DAYS = Array.from({length:31},(_,i)=>`${String(i+1).padStart(2,'0')}/05`);
+
+// Gera série diária realista com variação
+function wave(base, amp, len) {
+  return Array.from({length:len}, (_,i) =>
+    Math.max(0, Math.round(base + amp * Math.sin(i/3.5) + (Math.random()-0.5)*amp*0.4))
+  );
+}
+
+const DATA = {
+  consolidated: {
+    gasto:      { meta: wave(80,25,31), google: wave(55,18,31) },
+    alcance:    { meta: wave(2200,700,31), google: null },
+    impressoes: { meta: wave(3500,1000,31), google: wave(265,80,31) },
+    cliques:    { meta: wave(110,35,31), google: wave(13,5,31) },
+  },
+  meta: {
+    gasto:      wave(80,25,31),
+    alcance:    wave(2200,700,31),
+    impressoes: wave(3500,1000,31),
+    cliques:    wave(110,35,31),
+  },
+  google: {
+    gasto:      wave(55,18,31),
+    impressoes: wave(265,80,31),
+    cliques:    wave(13,5,31),
+  },
+};
+
+const KW_DATA = [
+  ['bar boteco curitiba','Ampla mod.','2.100','112','5,33%','R$ 3,90','8','68%'],
+  ['bar água verde','Exata','980','64','6,53%','R$ 3,60','5','82%'],
+  ['petisco curitiba','Frase','1.420','58','4,08%','R$ 4,80','3','44%'],
+  ['delivery de comida boteco','Ampla mod.','870','42','4,83%','R$ 4,20','4','51%'],
+  ['happy hour curitiba','Frase','830','29','3,49%','R$ 5,10','2','39%'],
+  ['restaurante água verde','Frase','740','31','4,19%','R$ 4,40','3','47%'],
+  ['bar com petisco curitiba','Ampla mod.','620','27','4,35%','R$ 4,00','2','36%'],
+  ['delivery boteco curitiba','Frase','540','23','4,26%','R$ 4,65','1','32%'],
+  ['bar comida de boteco','Ampla mod.','490','19','3,88%','R$ 4,90','1','29%'],
+  ['chopp artesanal curitiba','Frase','420','15','3,57%','R$ 5,30','0','25%'],
+  ['feijoada delivery curitiba','Frase','380','14','3,68%','R$ 4,80','1','22%'],
+  ['barzinho com petisco bom','Ampla mod.','310','11','3,55%','R$ 5,10','0','18%'],
+  ['bar com música ao vivo','Frase','290','10','3,45%','R$ 5,50','0','16%'],
+  ['onde comer bem em curitiba','Ampla mod.','270','9','3,33%','R$ 5,20','0','14%'],
+];
+
+const TERMS_DATA = [
+  ['bar boteco no bairro água verde curitiba','bar boteco curitiba','340','22','6,47%','R$ 3,70'],
+  ['bar do açougueiro água verde','bar água verde','290','19','6,55%','R$ 3,40'],
+  ['petiscos curitiba delivery','petisco curitiba','410','16','3,90%','R$ 4,60'],
+  ['onde comer petisco em curitiba','petisco curitiba','380','14','3,68%','R$ 5,00'],
+  ['happy hour água verde','happy hour curitiba','270','11','4,07%','R$ 4,90'],
+  ['barzinho com delivery curitiba','delivery de comida boteco','240','10','4,17%','R$ 4,30'],
+  ['bar bom com petisco curitiba','bar boteco curitiba','210','9','4,29%','R$ 3,80'],
+  ['comida de boteco curitiba','bar com petisco curitiba','190','8','4,21%','R$ 4,10'],
+  ['bar do açougueiro curitiba','bar água verde','175','8','4,57%','R$ 3,60'],
+  ['delivery bar curitiba agua verde','delivery boteco curitiba','160','7','4,38%','R$ 4,40'],
+  ['restaurante água verde curitiba','restaurante água verde','150','6','4,00%','R$ 4,60'],
+  ['chopp gelado curitiba','chopp artesanal curitiba','140','5','3,57%','R$ 5,00'],
+  ['feijoada entrega curitiba','feijoada delivery curitiba','130','5','3,85%','R$ 4,80'],
+  ['bar para happy hour curitiba','happy hour curitiba','120','5','4,17%','R$ 5,20'],
+];
+
+const ORIGEM_DATA = [
+  { label:'google / organic',    val:471, pct:38, color:'#a3e635' },
+  { label:'google / cpc',        val:285, pct:23, color:'#EA4335' },
+  { label:'instagram / paid',    val:223, pct:18, color:'#1877F2' },
+  { label:'facebook / paid',     val:112, pct: 9, color:'#1877F2' },
+  { label:'direct / none',       val: 87, pct: 7, color:'#555' },
+  { label:'google / referral',   val: 31, pct: 2, color:'#a3e635' },
+  { label:'whatsapp / referral', val: 19, pct: 2, color:'#25D366' },
+  { label:'instagram / organic', val: 12, pct: 1, color:'#E1306C' },
+  { label:'outros',              val:  0, pct: 0, color:'#444' },
+];
+ORIGEM_DATA[8].val = 1240 - ORIGEM_DATA.slice(0,8).reduce((s,x)=>s+x.val,0);
+
+// ─── PAGINAÇÃO ──────────────────────────────────────────────────────────────
+
+const PAGE_SIZE = 10;
+const pages = { kw:0, terms:0, origem:0 };
+
+function paginate(key, dir) {
+  const data = key==='kw' ? KW_DATA : key==='terms' ? TERMS_DATA : ORIGEM_DATA;
+  const maxPage = Math.ceil(data.length / PAGE_SIZE) - 1;
+  pages[key] = Math.max(0, Math.min(pages[key]+dir, maxPage));
+  renderTable(key);
+}
+
+function renderTable(key) {
+  const data    = key==='kw' ? KW_DATA : key==='terms' ? TERMS_DATA : ORIGEM_DATA;
+  const pg      = pages[key];
+  const total   = data.length;
+  const maxPage = Math.ceil(total / PAGE_SIZE) - 1;
+  const slice   = data.slice(pg*PAGE_SIZE, pg*PAGE_SIZE+PAGE_SIZE);
+  const from    = pg*PAGE_SIZE+1;
+  const to      = Math.min(pg*PAGE_SIZE+PAGE_SIZE, total);
+
+  document.getElementById(`count-${key}`).textContent = `${from}–${to} de ${total}`;
+  document.getElementById(`page-${key}`).textContent  = `${pg+1} / ${maxPage+1}`;
+  document.getElementById(`prev-${key}`).disabled = pg===0;
+  document.getElementById(`next-${key}`).disabled = pg===maxPage;
+
+  if (key==='origem') {
+    const list = document.getElementById('origem-list');
+    list.innerHTML = slice.map(r => `
+      <div class="origem-item">
+        <span class="origem-label">${r.label}</span>
+        <div class="origem-bar-wrap"><div class="origem-bar" style="width:${r.pct}%;background:${r.color}"></div></div>
+        <span class="origem-val">${r.val.toLocaleString('pt-BR')}</span>
+        <span class="origem-pct">${r.pct}%</span>
+      </div>`).join('');
+    return;
+  }
+
+  const tbody = document.getElementById(`tbody-${key}`);
+  if (key==='kw') {
+    tbody.innerHTML = slice.map(([kw,match,imp,clk,ctr,cpc,conv,is],i) => `
+      <tr>
+        <td class="td-name">${kw}</td>
+        <td class="td-muted">${match}</td>
+        <td>${imp}</td><td>${clk}</td><td>${ctr}</td>
+        <td>${cpc}</td><td>${conv}</td><td>${is}</td>
+      </tr>`).join('');
+  } else {
+    tbody.innerHTML = slice.map(([term,kw,imp,clk,ctr,cpc]) => `
+      <tr>
+        <td class="td-name">${term}</td>
+        <td class="td-muted">${kw}</td>
+        <td>${imp}</td><td>${clk}</td><td>${ctr}</td><td>${cpc}</td>
+      </tr>`).join('');
+  }
+}
+
+// ─── CHARTS ─────────────────────────────────────────────────────────────────
+
+const chartDefaults = {
+  responsive: true, maintainAspectRatio: false,
+  interaction: { mode:'index', intersect:false },
+  plugins: {
+    legend: { display:false },
+    tooltip: {
+      backgroundColor:'#1a1a1a', borderColor:'#333', borderWidth:1,
+      titleColor:'#fff', bodyColor:'#aaa', padding:10,
+    }
+  },
+  scales: {
+    x: {
+      grid: { color:'#1a1a1a' },
+      ticks: { color:'#555', font:{size:11}, maxTicksLimit:10 }
+    },
+    y: {
+      grid: { color:'#1a1a1a' },
+      ticks: { color:'#555', font:{size:11} },
+      beginAtZero: true
+    }
+  }
+};
+
+function makeLineDataset(label, data, color) {
+  return {
+    label, data,
+    borderColor: color, backgroundColor: color+'22',
+    borderWidth: 2, pointRadius: 2, pointHoverRadius: 5,
+    tension: 0.4, fill: true,
+  };
+}
+
+// Gráfico consolidado
+let chartC = new Chart(document.getElementById('chartConsolidado'), {
+  type:'line',
+  data: {
+    labels: DAYS,
+    datasets: [
+      makeLineDataset('Meta Ads', DATA.consolidated.gasto.meta, '#1877F2'),
+      makeLineDataset('Google Ads', DATA.consolidated.gasto.google, '#EA4335'),
+    ]
+  },
+  options: {...chartDefaults}
+});
+
+function switchChart(metric, btn) {
+  btn.closest('.chart-toggle').querySelectorAll('.toggle-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  const d = DATA.consolidated[metric];
+  const hasGoogle = d.google !== null;
+  chartC.data.datasets[0].data = d.meta;
+  chartC.data.datasets[1].data = hasGoogle ? d.google : Array(31).fill(0);
+  chartC.data.datasets[1].borderColor = hasGoogle ? '#EA4335' : 'transparent';
+  chartC.data.datasets[1].backgroundColor = hasGoogle ? '#EA433522' : 'transparent';
+  chartC.update();
+}
+
+// Gráfico Meta
+let chartM = new Chart(document.getElementById('chartMeta'), {
+  type:'line',
+  data: {
+    labels: DAYS,
+    datasets: [makeLineDataset('Meta Ads', DATA.meta.gasto, '#1877F2')]
+  },
+  options: {...chartDefaults}
+});
+
+function switchMetaChart(metric, btn) {
+  btn.closest('.chart-toggle').querySelectorAll('.toggle-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  chartM.data.datasets[0].data = DATA.meta[metric];
+  chartM.update();
+}
+
+// Gráfico Google
+let chartG = new Chart(document.getElementById('chartGoogle'), {
+  type:'line',
+  data: {
+    labels: DAYS,
+    datasets: [makeLineDataset('Google Ads', DATA.google.gasto, '#EA4335')]
+  },
+  options: {...chartDefaults}
+});
+
+function switchGoogleChart(metric, btn) {
+  btn.closest('.chart-toggle').querySelectorAll('.toggle-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  chartG.data.datasets[0].data = DATA.google[metric];
+  chartG.update();
+}
+
+// ─── PERÍODO E GMB ──────────────────────────────────────────────────────────
+
+function updatePeriod() {
+  const start = document.getElementById('date-start').value;
+  const end   = document.getElementById('date-end').value;
+  if (!start || !end) return;
+  const fmt = d => new Date(d+'T12:00:00').toLocaleDateString('pt-BR',{day:'2-digit',month:'long',year:'numeric'});
+  document.getElementById('footer-period').textContent = fmt(start)+' a '+fmt(end);
+
+  // Rótulo mês/ano para GMB
+  const d = new Date(start+'T12:00:00');
+  const mes = d.toLocaleDateString('pt-BR',{month:'short',year:'numeric'}).replace('. ','/')
+    .replace('.','').replace(' de ','/');;
+  document.getElementById('gmb-period-label').textContent   = `novas em ${mes}`;
+  document.getElementById('gmb-month-label').textContent    = `— ${mes}`;
+  document.getElementById('gmb-period-inline').textContent  = mes;
+}
+
+document.getElementById('date-start').addEventListener('change', updatePeriod);
+document.getElementById('date-end').addEventListener('change', updatePeriod);
+
+// ─── INIT ────────────────────────────────────────────────────────────────────
+renderTable('kw');
+renderTable('terms');
+renderTable('origem');
+updatePeriod();
+</script>
+</body>
+</html>

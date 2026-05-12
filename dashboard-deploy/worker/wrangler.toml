@@ -1,0 +1,8 @@
+name       = "ricco-dash-auth"
+main       = "index.js"
+compatibility_date = "2024-09-23"
+
+# O Worker roda no subdomínio dash.raulricco.com.br
+# Após o deploy, vincule a rota no dashboard da Cloudflare:
+#   Workers & Pages → ricco-dash-auth → Settings → Triggers → Custom Domains
+#   Adicionar: dash.raulricco.com.br/*

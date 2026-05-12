@@ -1,0 +1,13 @@
+# Cache curto para os dashboards (dados mudam com frequência)
+/*/
+  Cache-Control: no-cache, must-revalidate
+
+/*.html
+  Cache-Control: no-cache, must-revalidate
+
+# Assets estáticos podem cachear mais
+/*.js
+  Cache-Control: public, max-age=3600
+
+/*.css
+  Cache-Control: public, max-age=3600

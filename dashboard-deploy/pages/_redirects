@@ -1,0 +1,9 @@
+# Cloudflare Pages — Redirects
+# Cada slug aponta para a pasta do cliente dentro de /pages
+
+/acougueiro-agua-verde     /acougueiro-agua-verde/index.html  200
+/acougueiro-agua-verde/    /acougueiro-agua-verde/index.html  200
+
+# Próximos clientes — adicionar aqui:
+# /bebedouro-pampulha     /bebedouro-pampulha/index.html     200
+# /boi-dourado            /boi-dourado/index.html             200
