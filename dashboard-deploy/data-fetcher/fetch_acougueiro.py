@@ -78,10 +78,10 @@ def fetch_meta(start, end):
         "Meta account"
     )
 
-    # Campanhas — inclui actions para resultado por objetivo
+    # Campanhas — inclui optimization_goal para detectar resultado correto
     campaigns_raw = run(
         base + ["account", "--account", META_ACCOUNT,
-                "--fields", "spend,reach,impressions,clicks,cpm,cpc,ctr,campaign_name,objective,actions",
+                "--fields", "spend,reach,impressions,clicks,cpm,cpc,ctr,campaign_name,objective,optimization_goal,actions",
                 "--level", "campaign"] + time_range,
         "Meta campaigns"
     )
@@ -89,7 +89,7 @@ def fetch_meta(start, end):
     # Anúncios
     ads_raw = run(
         base + ["account", "--account", META_ACCOUNT,
-                "--fields", "spend,impressions,clicks,ctr,cpc,frequency,ad_name,campaign_name,objective,actions",
+                "--fields", "spend,impressions,clicks,ctr,cpc,frequency,ad_name,campaign_name,objective,optimization_goal,actions",
                 "--level", "ad"] + time_range,
         "Meta ads"
     )
@@ -112,23 +112,34 @@ def fetch_meta(start, end):
         "POST_ENGAGEMENT":    ("post_engagement",                                     "Engajamentos"),
     }
 
-    def extract_result(obj, actions, spend):
+    def extract_result(obj, goal, actions, spend):
         """Retorna (resultado_label, quantidade, custo_por_resultado).
-        Prioriza detecção pelas actions reais — campanhas OUTCOME_ENGAGEMENT
-        podem estar otimizadas para mensagens mesmo sem objetivo MESSAGES.
+        Usa optimization_goal para detectar o resultado com precisão,
+        evitando falsos positivos de messaging_conversation_started_7d
+        em campanhas que não são de mensagem.
         """
         action_map = {a["action_type"]: int(float(a.get("value", 0)))
                       for a in (actions or []) if isinstance(a, dict)}
 
-        # Detecta mensagens pelas actions independente do objetivo
-        msg_key = "onsite_conversion.messaging_conversation_started_7d"
-        if msg_key in action_map and action_map[msg_key] > 0:
-            qty = action_map[msg_key]
-            cpr = round(spend / qty, 2) if qty else 0
-            return "Mensagens", qty, cpr
+        # optimization_goal é a fonte mais confiável
+        if goal == "REPLIES":
+            key, label = "onsite_conversion.messaging_conversation_started_7d", "Mensagens"
+        elif goal == "POST_ENGAGEMENT":
+            key, label = "post_engagement", "Engajamentos"
+        elif obj == "OUTCOME_LEADS":
+            key, label = "lead", "Leads"
+        elif obj == "OUTCOME_SALES":
+            key, label = "purchase", "Vendas"
+        elif obj in ("LINK_CLICKS", "OUTCOME_TRAFFIC"):
+            key, label = "link_click", "Cliques"
+        elif obj == "VIDEO_VIEWS":
+            key, label = "video_view", "Views"
+        elif goal == "OFFSITE_CONVERSIONS" and obj == "OUTCOME_LEADS":
+            key, label = "lead", "Leads"
+        else:
+            key, label = OBJECTIVE_MAP.get(obj, ("link_click", "Cliques"))
 
-        action_key, label = OBJECTIVE_MAP.get(obj, ("link_click", "Cliques"))
-        qty = action_map.get(action_key, 0)
+        qty = action_map.get(key, 0)
         cpr = round(spend / qty, 2) if qty else 0
         return label, qty, cpr
 
@@ -140,7 +151,8 @@ def fetch_meta(start, end):
                 continue
             spend = fmt_brl(c.get("spend", 0))
             obj   = c.get("objective", "")
-            label, qty, cpr = extract_result(obj, c.get("actions", []), spend)
+            goal  = c.get("optimization_goal", "")
+            label, qty, cpr = extract_result(obj, goal, c.get("actions", []), spend)
             campaigns.append({
                 "name":        c.get("campaign_name", "—"),
                 "objective":   obj,
@@ -162,7 +174,8 @@ def fetch_meta(start, end):
                 continue
             spend = fmt_brl(a.get("spend", 0))
             obj   = a.get("objective", "")
-            label, qty, cpr = extract_result(obj, a.get("actions", []), spend)
+            goal  = a.get("optimization_goal", "")
+            label, qty, cpr = extract_result(obj, goal, a.get("actions", []), spend)
             ads.append({
                 "name":         a.get("ad_name", "—"),
                 "campaign":     a.get("campaign_name", "—"),
