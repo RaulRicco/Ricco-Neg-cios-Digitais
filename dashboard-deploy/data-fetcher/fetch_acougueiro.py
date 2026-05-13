@@ -113,14 +113,22 @@ def fetch_meta(start, end):
     }
 
     def extract_result(obj, actions, spend):
-        """Retorna (resultado_label, quantidade, custo_por_resultado)."""
+        """Retorna (resultado_label, quantidade, custo_por_resultado).
+        Prioriza detecção pelas actions reais — campanhas OUTCOME_ENGAGEMENT
+        podem estar otimizadas para mensagens mesmo sem objetivo MESSAGES.
+        """
+        action_map = {a["action_type"]: int(float(a.get("value", 0)))
+                      for a in (actions or []) if isinstance(a, dict)}
+
+        # Detecta mensagens pelas actions independente do objetivo
+        msg_key = "onsite_conversion.messaging_conversation_started_7d"
+        if msg_key in action_map and action_map[msg_key] > 0:
+            qty = action_map[msg_key]
+            cpr = round(spend / qty, 2) if qty else 0
+            return "Mensagens", qty, cpr
+
         action_key, label = OBJECTIVE_MAP.get(obj, ("link_click", "Cliques"))
-        qty = 0
-        if isinstance(actions, list):
-            for a in actions:
-                if a.get("action_type") == action_key:
-                    qty = int(float(a.get("value", 0)))
-                    break
+        qty = action_map.get(action_key, 0)
         cpr = round(spend / qty, 2) if qty else 0
         return label, qty, cpr
 

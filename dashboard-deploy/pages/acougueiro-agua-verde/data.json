@@ -4,7 +4,7 @@
     "start": "2026-04-01",
     "end": "2026-04-30"
   },
-  "gerado_em": "2026-05-13T11:12:52.466470",
+  "gerado_em": "2026-05-13T12:01:40.339648",
   "consolidado": {
     "spend": 1810.4,
     "reach": 80747,
@@ -32,9 +32,9 @@
         "clicks": 1847,
         "ctr": 5.09,
         "cpc": 0.11,
-        "result_label": "Cliques",
-        "result_qty": 1765,
-        "result_cpr": 0.12
+        "result_label": "Mensagens",
+        "result_qty": 1,
+        "result_cpr": 207.12
       },
       {
         "name": "[CBO] [HAPPY HOUR 2.0] [TRAFEGO]",
@@ -45,9 +45,9 @@
         "clicks": 612,
         "ctr": 2.04,
         "cpc": 0.41,
-        "result_label": "Cliques",
-        "result_qty": 536,
-        "result_cpr": 0.47
+        "result_label": "Mensagens",
+        "result_qty": 1,
+        "result_cpr": 249.98
       },
       {
         "name": "[CBO] [BURGUER VIDEO] [ENGAJAMENTO]",
@@ -71,9 +71,9 @@
         "clicks": 336,
         "ctr": 2.06,
         "cpc": 0.89,
-        "result_label": "Engajamentos",
-        "result_qty": 3847,
-        "result_cpr": 0.08
+        "result_label": "Mensagens",
+        "result_qty": 25,
+        "result_cpr": 11.99
       },
       {
         "name": "[CBO] [OPEN APEROL SPRITZ] [RESERVAS]",
@@ -97,9 +97,9 @@
         "clicks": 168,
         "ctr": 1.85,
         "cpc": 1.19,
-        "result_label": "Engajamentos",
-        "result_qty": 1707,
-        "result_cpr": 0.12
+        "result_label": "Mensagens",
+        "result_qty": 15,
+        "result_cpr": 13.33
       },
       {
         "name": "[ABO] [BALADINHA 26 REELS] [VENDAS]",
@@ -110,9 +110,9 @@
         "clicks": 370,
         "ctr": 7.92,
         "cpc": 0.22,
-        "result_label": "Vendas",
-        "result_qty": 2,
-        "result_cpr": 39.85
+        "result_label": "Mensagens",
+        "result_qty": 1,
+        "result_cpr": 79.7
       },
       {
         "name": "[ABO] [FEED BALADINHA 26] [VENDAS]",
@@ -123,9 +123,9 @@
         "clicks": 201,
         "ctr": 2.02,
         "cpc": 0.64,
-        "result_label": "Vendas",
-        "result_qty": 7,
-        "result_cpr": 18.49
+        "result_label": "Mensagens",
+        "result_qty": 4,
+        "result_cpr": 32.35
       },
       {
         "name": "[CBO] [BALADINHA REELS 2.0] [VENDAS]",
@@ -136,9 +136,9 @@
         "clicks": 141,
         "ctr": 1.98,
         "cpc": 0.71,
-        "result_label": "Vendas",
-        "result_qty": 31,
-        "result_cpr": 3.23
+        "result_label": "Mensagens",
+        "result_qty": 1,
+        "result_cpr": 99.99
       }
     ],
     "ads": [
@@ -151,9 +151,9 @@
         "ctr": 5.09,
         "cpc": 0.11,
         "frequency": 1.25,
-        "result_label": "Cliques",
-        "result_qty": 1765,
-        "result_cpr": 0.12
+        "result_label": "Mensagens",
+        "result_qty": 1,
+        "result_cpr": 207.12
       },
       {
         "name": "VIDEO BURGUER",
@@ -177,9 +177,9 @@
         "ctr": 2.06,
         "cpc": 0.89,
         "frequency": 1.47,
-        "result_label": "Engajamentos",
-        "result_qty": 3847,
-        "result_cpr": 0.08
+        "result_label": "Mensagens",
+        "result_qty": 25,
+        "result_cpr": 11.99
       },
       {
         "name": "VIDEO OPEN DE APEROL",
@@ -203,9 +203,9 @@
         "ctr": 2.04,
         "cpc": 0.41,
         "frequency": 1.34,
-        "result_label": "Cliques",
-        "result_qty": 536,
-        "result_cpr": 0.47
+        "result_label": "Mensagens",
+        "result_qty": 1,
+        "result_cpr": 249.98
       },
       {
         "name": "VIDEO ANIVERSARIANTES ABRIL",
@@ -216,9 +216,9 @@
         "ctr": 1.85,
         "cpc": 1.19,
         "frequency": 1.6,
-        "result_label": "Engajamentos",
-        "result_qty": 1707,
-        "result_cpr": 0.12
+        "result_label": "Mensagens",
+        "result_qty": 15,
+        "result_cpr": 13.33
       },
       {
         "name": "VIDEO BALADINHA",
@@ -229,9 +229,9 @@
         "ctr": 7.92,
         "cpc": 0.22,
         "frequency": 1.77,
-        "result_label": "Vendas",
-        "result_qty": 2,
-        "result_cpr": 39.85
+        "result_label": "Mensagens",
+        "result_qty": 1,
+        "result_cpr": 79.7
       },
       {
         "name": "FEED BALADINHA",
@@ -242,9 +242,9 @@
         "ctr": 2.02,
         "cpc": 0.64,
         "frequency": 2.12,
-        "result_label": "Vendas",
-        "result_qty": 7,
-        "result_cpr": 18.49
+        "result_label": "Mensagens",
+        "result_qty": 4,
+        "result_cpr": 32.35
       },
       {
         "name": "BALADINHA REELS 2.0",
@@ -255,9 +255,9 @@
         "ctr": 1.54,
         "cpc": 0.92,
         "frequency": 1.75,
-        "result_label": "Vendas",
-        "result_qty": 11,
-        "result_cpr": 6.59
+        "result_label": "Mensagens",
+        "result_qty": 1,
+        "result_cpr": 72.46
       },
       {
         "name": "BALADINHA REELS 2.0",

@@ -4,7 +4,7 @@
     "start": "2026-04-01",
     "end": "2026-04-30"
   },
-  "gerado_em": "2026-05-13T11:50:50.739960",
+  "gerado_em": "2026-05-13T12:03:35.533536",
   "consolidado": {
     "spend": 585.53,
     "reach": 19823,
@@ -32,9 +32,9 @@
         "clicks": 607,
         "ctr": 1.77,
         "cpc": 0.38,
-        "result_label": "Leads",
-        "result_qty": 41,
-        "result_cpr": 5.59
+        "result_label": "Mensagens",
+        "result_qty": 17,
+        "result_cpr": 13.49
       }
     ],
     "ads": [
@@ -47,9 +47,9 @@
         "ctr": 1.86,
         "cpc": 0.36,
         "frequency": 1.46,
-        "result_label": "Leads",
-        "result_qty": 26,
-        "result_cpr": 4.43
+        "result_label": "Mensagens",
+        "result_qty": 6,
+        "result_cpr": 19.19
       },
       {
         "name": "VIDEO 1.0 GRUPO",
@@ -60,9 +60,9 @@
         "ctr": 1.67,
         "cpc": 0.4,
         "frequency": 1.44,
-        "result_label": "Leads",
-        "result_qty": 15,
-        "result_cpr": 7.62
+        "result_label": "Mensagens",
+        "result_qty": 11,
+        "result_cpr": 10.39
       }
     ]
   },
