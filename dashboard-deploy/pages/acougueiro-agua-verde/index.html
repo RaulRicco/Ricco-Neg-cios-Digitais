@@ -22,9 +22,31 @@
     --meta-blue: #1877F2;
     --google-red: #EA4335;
     --analytics-orange: #F9AB00;
-    --gmb-green: #34A853;
     --radius: 12px;
   }
+
+  body.light {
+    --bg: #f5f5f5;
+    --bg-card: #ffffff;
+    --bg-row-alt: #f9f9f9;
+    --border: #e0e0e0;
+    --text: #111111;
+    --text-muted: #888;
+    --text-sub: #666;
+  }
+  body.light .topbar { background: rgba(245,245,245,0.95); }
+  body.light .logo-badge { color: #111; }
+  body.light .period-date-input { color-scheme: light; }
+  body.light .chart-card { background: var(--bg-card); }
+
+  /* ─── THEME TOGGLE ─── */
+  .btn-theme {
+    background: transparent; border: 1px solid var(--border); border-radius: 8px;
+    color: var(--text-muted); font-family: 'Inter', sans-serif; font-size: 12px;
+    font-weight: 600; padding: 6px 12px; cursor: pointer; transition: all .15s;
+    white-space: nowrap;
+  }
+  .btn-theme:hover { border-color: var(--green); color: var(--green); }
 
   body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
 
@@ -358,6 +380,7 @@
       </div>
     </div>
 
+    <button class="btn-theme" id="btn-theme" onclick="toggleTheme()">☀ Claro</button>
     <button class="btn-export" onclick="window.print()">↓ Exportar PDF</button>
   </div>
 </nav>
@@ -505,6 +528,11 @@
         </table>
         <div class="table-footer">
           <span class="table-count" id="count-meta-campaigns"></span>
+          <div class="table-nav">
+            <button class="nav-btn" id="prev-meta-campaigns" onclick="paginateSimple('meta-campaigns',-1)">← Anterior</button>
+            <span class="nav-page" id="page-meta-campaigns"></span>
+            <button class="nav-btn" id="next-meta-campaigns" onclick="paginateSimple('meta-campaigns',1)">Próximo →</button>
+          </div>
         </div>
       </div>
     </div>
@@ -524,6 +552,11 @@
         </table>
         <div class="table-footer">
           <span class="table-count" id="count-meta-ads"></span>
+          <div class="table-nav">
+            <button class="nav-btn" id="prev-meta-ads" onclick="paginateSimple('meta-ads',-1)">← Anterior</button>
+            <span class="nav-page" id="page-meta-ads"></span>
+            <button class="nav-btn" id="next-meta-ads" onclick="paginateSimple('meta-ads',1)">Próximo →</button>
+          </div>
         </div>
       </div>
     </div>
@@ -604,6 +637,11 @@
         </table>
         <div class="table-footer">
           <span class="table-count" id="count-gads-campaigns"></span>
+          <div class="table-nav">
+            <button class="nav-btn" id="prev-gads-campaigns" onclick="paginateSimple('gads-campaigns',-1)">← Anterior</button>
+            <span class="nav-page" id="page-gads-campaigns"></span>
+            <button class="nav-btn" id="next-gads-campaigns" onclick="paginateSimple('gads-campaigns',1)">Próximo →</button>
+          </div>
         </div>
       </div>
     </div>
@@ -713,57 +751,6 @@
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════════
-       SEÇÃO 5 — GOOGLE MEU NEGÓCIO
-  ════════════════════════════════════════════════ -->
-  <section class="section">
-    <div class="section-header">
-      <div class="platform-icon icon-gmb">M</div>
-      <h2 class="section-title">Google Meu Negócio</h2>
-      <span class="section-badge">Perfil local</span>
-    </div>
-
-    <div class="cards-grid">
-      <div class="card card-accent-gmb">
-        <div class="card-label">Visitas ao Perfil</div>
-        <div class="card-value" id="gmb-visitas">—</div>
-        <div class="card-sub">buscas e maps</div>
-      </div>
-      <div class="card">
-        <div class="card-label">Rotas Solicitadas</div>
-        <div class="card-value" id="gmb-rotas">—</div>
-        <div class="card-sub">no Google Maps</div>
-      </div>
-      <div class="card">
-        <div class="card-label">Cliques no Site</div>
-        <div class="card-value" id="gmb-site">—</div>
-        <div class="card-sub">via perfil GMB</div>
-      </div>
-      <div class="card">
-        <div class="card-label">Ligações</div>
-        <div class="card-value" id="gmb-ligacoes">—</div>
-        <div class="card-sub">chamadas via perfil</div>
-      </div>
-      <div class="card">
-        <div class="card-label">Avaliações no Mês</div>
-        <div class="card-value" id="gmb-avaliacoes-mes">—</div>
-        <div class="card-sub" id="gmb-period-label">—</div>
-      </div>
-      <div class="card">
-        <div class="card-label">Nota Atual</div>
-        <div class="card-value" id="gmb-nota" style="display:flex;align-items:baseline;gap:6px;">—</div>
-        <div class="card-sub" id="gmb-total-aval">total acumulado: —</div>
-      </div>
-    </div>
-
-    <!-- Novas avaliações do mês -->
-    <div class="table-title" style="margin-bottom:12px;">Novas Avaliações do Mês <span style="color:var(--text-sub);font-weight:400;text-transform:none;letter-spacing:0;" id="gmb-month-label"></span></div>
-    <div id="gmb-reviews-wrapper">
-      <div class="reviews-list" id="tbody-gmb-reviews-list"></div>
-      <p id="gmb-reviews-count" style="font-size:12px;color:var(--text-muted);margin-top:12px;"></p>
-      <p class="gmb-unavailable" id="gmb-unavailable-note" style="display:none;">Dados GMB não disponíveis neste relatório.</p>
-    </div>
-  </section>
 
   <!-- FOOTER -->
   <footer class="footer">
@@ -908,8 +895,11 @@ function updateMsLabel(platform) {
 
 function applyPlatformFilter(platform) {
   if (platform === 'meta') {
+    pages['meta-campaigns'] = 0;
+    pages['meta-ads'] = 0;
     renderMetaSection();
   } else {
+    pages['gads-campaigns'] = 0;
     renderGoogleSection();
   }
 }
@@ -1048,8 +1038,13 @@ function renderMetaCampaigns(list) {
       ? META_CAMPAIGNS_ALL.filter(c => sel.has(c.name))
       : META_CAMPAIGNS_ALL;
   }
+  pages['meta-campaigns'] = Math.min(pages['meta-campaigns'], Math.max(0, Math.ceil(list.length/PAGE_SIZE)-1));
+  const pg    = pages['meta-campaigns'];
+  const total = list.length;
+  const maxPg = Math.max(0, Math.ceil(total/PAGE_SIZE)-1);
+  const slice = list.slice(pg*PAGE_SIZE, pg*PAGE_SIZE+PAGE_SIZE);
 
-  document.getElementById('tbody-meta-campaigns').innerHTML = list.map(c => `
+  document.getElementById('tbody-meta-campaigns').innerHTML = slice.map(c => `
     <tr>
       <td class="td-name">${c.name}</td>
       <td>${fBRL(c.spend)}</td>
@@ -1061,8 +1056,19 @@ function renderMetaCampaigns(list) {
       <td>${c.result_label ? `${fInt(c.result_qty)} ${c.result_label}` : '—'}</td>
       <td>${c.result_cpr ? fBRL(c.result_cpr) : '—'}</td>
     </tr>`).join('') || '<tr><td colspan="9" style="color:#555;text-align:center;padding:20px">Sem dados para esta campanha</td></tr>';
-  const el = document.getElementById('count-meta-campaigns');
-  if (el) el.textContent = `${list.length} campanha${list.length !== 1 ? 's' : ''}`;
+
+  const from = total ? pg*PAGE_SIZE+1 : 0;
+  const to   = Math.min(pg*PAGE_SIZE+PAGE_SIZE, total);
+  const countEl = document.getElementById('count-meta-campaigns');
+  if (countEl) countEl.textContent = total > PAGE_SIZE ? `${from}–${to} de ${total}` : `${total} campanha${total !== 1 ? 's' : ''}`;
+  const pageEl = document.getElementById('page-meta-campaigns');
+  if (pageEl) pageEl.textContent = total > PAGE_SIZE ? `${pg+1} / ${maxPg+1}` : '';
+  const prevEl = document.getElementById('prev-meta-campaigns');
+  const nextEl = document.getElementById('next-meta-campaigns');
+  if (prevEl) prevEl.disabled = pg === 0;
+  if (nextEl) nextEl.disabled = pg >= maxPg;
+  if (prevEl) prevEl.style.display = total > PAGE_SIZE ? '' : 'none';
+  if (nextEl) nextEl.style.display = total > PAGE_SIZE ? '' : 'none';
 }
 
 function renderMetaAds() {
@@ -1071,7 +1077,13 @@ function renderMetaAds() {
     ? META_ADS_ALL.filter(a => sel.has(a.campaign))
     : META_ADS_ALL;
 
-  document.getElementById('tbody-meta-ads').innerHTML = list.map(a => `
+  pages['meta-ads'] = Math.min(pages['meta-ads'], Math.max(0, Math.ceil(list.length/PAGE_SIZE)-1));
+  const pg    = pages['meta-ads'];
+  const total = list.length;
+  const maxPg = Math.max(0, Math.ceil(total/PAGE_SIZE)-1);
+  const slice = list.slice(pg*PAGE_SIZE, pg*PAGE_SIZE+PAGE_SIZE);
+
+  document.getElementById('tbody-meta-ads').innerHTML = slice.map(a => `
     <tr>
       <td class="td-name">${a.name}</td>
       <td class="td-muted" style="max-width:200px;overflow:hidden;text-overflow:ellipsis">${a.campaign}</td>
@@ -1081,8 +1093,19 @@ function renderMetaAds() {
       <td>${fBRL(a.cpc)}</td>
       <td>${Number(a.frequency).toFixed(2)}×</td>
     </tr>`).join('') || '<tr><td colspan="7" style="color:#555;text-align:center;padding:20px">Sem anúncios para esta campanha</td></tr>';
-  const el = document.getElementById('count-meta-ads');
-  if (el) el.textContent = `${list.length} anúncio${list.length !== 1 ? 's' : ''}`;
+
+  const from = total ? pg*PAGE_SIZE+1 : 0;
+  const to   = Math.min(pg*PAGE_SIZE+PAGE_SIZE, total);
+  const countEl = document.getElementById('count-meta-ads');
+  if (countEl) countEl.textContent = total > PAGE_SIZE ? `${from}–${to} de ${total}` : `${total} anúncio${total !== 1 ? 's' : ''}`;
+  const pageEl = document.getElementById('page-meta-ads');
+  if (pageEl) pageEl.textContent = total > PAGE_SIZE ? `${pg+1} / ${maxPg+1}` : '';
+  const prevEl = document.getElementById('prev-meta-ads');
+  const nextEl = document.getElementById('next-meta-ads');
+  if (prevEl) prevEl.disabled = pg === 0;
+  if (nextEl) nextEl.disabled = pg >= maxPg;
+  if (prevEl) prevEl.style.display = total > PAGE_SIZE ? '' : 'none';
+  if (nextEl) nextEl.style.display = total > PAGE_SIZE ? '' : 'none';
 }
 
 // ─── RENDER GOOGLE SECTION (filtered) ────────────────────────────────────────
@@ -1136,7 +1159,13 @@ function renderGadsCampaigns(list) {
       : GADS_CAMPAIGNS_ALL;
   }
 
-  document.getElementById('tbody-gads-campaigns').innerHTML = list.map(c => {
+  pages['gads-campaigns'] = Math.min(pages['gads-campaigns'], Math.max(0, Math.ceil(list.length/PAGE_SIZE)-1));
+  const pg    = pages['gads-campaigns'];
+  const total = list.length;
+  const maxPg = Math.max(0, Math.ceil(total/PAGE_SIZE)-1);
+  const slice = list.slice(pg*PAGE_SIZE, pg*PAGE_SIZE+PAGE_SIZE);
+
+  document.getElementById('tbody-gads-campaigns').innerHTML = slice.map(c => {
     const toNum = v => Number(String(v).replace(/[R$\s.]/g, '').replace(',', '.')) || 0;
     const cpa = c.conversions && Number(c.conversions) > 0
       ? fBRL(toNum(c.spend) / Number(c.conversions))
@@ -1155,61 +1184,25 @@ function renderGadsCampaigns(list) {
       <td>${cpa}</td>
     </tr>`;
   }).join('') || '<tr><td colspan="10" style="color:#555;text-align:center;padding:20px">Sem dados para esta campanha</td></tr>';
-  const el = document.getElementById('count-gads-campaigns');
-  if (el) el.textContent = `${list.length} campanha${list.length !== 1 ? 's' : ''}`;
+
+  const from = total ? pg*PAGE_SIZE+1 : 0;
+  const to   = Math.min(pg*PAGE_SIZE+PAGE_SIZE, total);
+  const countEl = document.getElementById('count-gads-campaigns');
+  if (countEl) countEl.textContent = total > PAGE_SIZE ? `${from}–${to} de ${total}` : `${total} campanha${total !== 1 ? 's' : ''}`;
+  const pageEl = document.getElementById('page-gads-campaigns');
+  if (pageEl) pageEl.textContent = total > PAGE_SIZE ? `${pg+1} / ${maxPg+1}` : '';
+  const prevEl = document.getElementById('prev-gads-campaigns');
+  const nextEl = document.getElementById('next-gads-campaigns');
+  if (prevEl) prevEl.disabled = pg === 0;
+  if (nextEl) nextEl.disabled = pg >= maxPg;
+  if (prevEl) prevEl.style.display = total > PAGE_SIZE ? '' : 'none';
+  if (nextEl) nextEl.style.display = total > PAGE_SIZE ? '' : 'none';
 }
 
-// ─── GMB SECTION ─────────────────────────────────────────────────────────────
-
-function populateGmb(gmb, mes) {
-  if (!gmb) {
-    // No data: show dashes and note
-    ['gmb-visitas','gmb-rotas','gmb-site','gmb-ligacoes','gmb-avaliacoes-mes'].forEach(id => setCard(id, '—'));
-    const notaEl = document.getElementById('gmb-nota');
-    if (notaEl) notaEl.textContent = '—';
-    setCard('gmb-total-aval', 'total acumulado: —');
-    document.getElementById('gmb-unavailable-note').style.display = 'block';
-    document.getElementById('tbody-gmb-reviews-list').innerHTML = '';
-    document.getElementById('gmb-reviews-count').textContent = '';
-    return;
-  }
-
-  setCard('gmb-visitas',       fInt(gmb.views  || gmb.visitas       || 0));
-  setCard('gmb-rotas',         fInt(gmb.directions || gmb.rotas      || 0));
-  setCard('gmb-site',          fInt(gmb.website_clicks || gmb.site   || 0));
-  setCard('gmb-ligacoes',      fInt(gmb.calls  || gmb.ligacoes       || 0));
-  setCard('gmb-avaliacoes-mes', fInt(gmb.reviews_month || gmb.avaliacoes_mes || 0));
-
-  const nota = gmb.rating || gmb.nota || 0;
-  const notaEl = document.getElementById('gmb-nota');
-  if (notaEl) notaEl.innerHTML = `${nota}<span style="color:var(--analytics-orange);font-size:18px;">★</span>`;
-
-  const totalAval = gmb.total_reviews || gmb.total_avaliacoes || 0;
-  setCard('gmb-total-aval', `total acumulado: ${fInt(totalAval)}`);
-
-  const periodLabel = document.getElementById('gmb-period-label');
-  if (periodLabel) periodLabel.textContent = `novas em ${mes}`;
-
-  const reviews = gmb.reviews || gmb.avaliacoes || [];
-  const starsMap = n => '★'.repeat(n) + '☆'.repeat(5 - n);
-
-  const listEl = document.getElementById('tbody-gmb-reviews-list');
-  if (reviews.length > 0) {
-    listEl.innerHTML = reviews.map(r => `
-      <div class="review-item">
-        <div class="review-top">
-          <span class="review-author">${r.author || r.autor || 'Anônimo'}</span>
-          <span class="review-date">${r.date || r.data || ''}</span>
-        </div>
-        <div class="review-stars">${starsMap(Number(r.rating || r.nota || 5))}</div>
-        <div class="review-text">${r.text || r.texto || ''}</div>
-      </div>`).join('');
-    const countEl = document.getElementById('gmb-reviews-count');
-    if (countEl) countEl.textContent = `Exibindo ${reviews.length} de ${fInt(gmb.reviews_month || reviews.length)} avaliações recebidas em ${mes}.`;
-  } else {
-    listEl.innerHTML = '<p style="font-size:13px;color:var(--text-muted);padding:8px 0">Nenhuma avaliação no período.</p>';
-    document.getElementById('gmb-reviews-count').textContent = '';
-  }
+// ─── THEME TOGGLE ────────────────────────────────────────────────────────────
+function toggleTheme() {
+  const isLight = document.body.classList.toggle('light');
+  document.getElementById('btn-theme').textContent = isLight ? '● Escuro' : '☀ Claro';
 }
 
 // ─── POPULATE DASHBOARD ───────────────────────────────────────────────────────
@@ -1297,9 +1290,6 @@ function populateDashboard(d) {
     });
   }
 
-  // ── Seção 5: GMB ─────────────────────────────────────────────────────────
-  populateGmb(d.gmb || null, mes);
-
   // ── Gráficos ──────────────────────────────────────────────────────────────
   const days = PERIOD_DAYS_FULL;
   const labels = Array.from({length:days}, (_,i) => {
@@ -1340,13 +1330,40 @@ function populateDashboard(d) {
 // ─── PAGINAÇÃO ──────────────────────────────────────────────────────────────
 
 const PAGE_SIZE = 10;
-const pages = { kw:0, terms:0, origem:0 };
+const pages = { kw:0, terms:0, origem:0, 'meta-campaigns':0, 'meta-ads':0, 'gads-campaigns':0 };
+const PAGE_SIZE = 10;
 
 function paginate(key, dir) {
   const data = key==='kw' ? KW_DATA : key==='terms' ? TERMS_DATA : ORIGEM_DATA;
   const maxPage = Math.max(0, Math.ceil(data.length / PAGE_SIZE) - 1);
   pages[key] = Math.max(0, Math.min(pages[key]+dir, maxPage));
   renderTable(key);
+}
+
+function paginateSimple(key, dir) {
+  // key: 'meta-campaigns' | 'meta-ads' | 'gads-campaigns'
+  if (key === 'meta-campaigns') {
+    const list = MS_META_SELECTED.size > 0
+      ? META_CAMPAIGNS_ALL.filter(c => MS_META_SELECTED.has(c.name))
+      : META_CAMPAIGNS_ALL;
+    const maxPage = Math.max(0, Math.ceil(list.length / PAGE_SIZE) - 1);
+    pages[key] = Math.max(0, Math.min(pages[key]+dir, maxPage));
+    renderMetaCampaigns(list);
+  } else if (key === 'meta-ads') {
+    const list = MS_META_SELECTED.size > 0
+      ? META_ADS_ALL.filter(a => MS_META_SELECTED.has(a.campaign))
+      : META_ADS_ALL;
+    const maxPage = Math.max(0, Math.ceil(list.length / PAGE_SIZE) - 1);
+    pages[key] = Math.max(0, Math.min(pages[key]+dir, maxPage));
+    renderMetaAds();
+  } else if (key === 'gads-campaigns') {
+    const list = MS_GOOGLE_SELECTED.size > 0
+      ? GADS_CAMPAIGNS_ALL.filter(c => MS_GOOGLE_SELECTED.has(c.name))
+      : GADS_CAMPAIGNS_ALL;
+    const maxPage = Math.max(0, Math.ceil(list.length / PAGE_SIZE) - 1);
+    pages[key] = Math.max(0, Math.min(pages[key]+dir, maxPage));
+    renderGadsCampaigns(list);
+  }
 }
 
 function renderTable(key) {
