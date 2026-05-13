@@ -312,6 +312,24 @@ def fetch_ga4(start, end):
                 "pct":     round(s / total_s * 100, 1) if total_s else 0,
             })
 
+    # Eventos reais via conversions endpoint (filtra ruído interno de GTM/sistema)
+    SKIP_EVENTS = {
+        "gtm.js", "gtm.dom", "gtm.load", "gtm.click", "gtm.linkClick",
+        "gtm.historyChange", "gtm.scrollDepth", "gtm.timer",
+        "optimize.activate", "_session_start", "_first_visit",
+        "page_view", "PageView", "session_start", "first_visit",
+        "user_engagement", "scroll",
+    }
+    events_raw  = run(base + ["conversions"] + period, "GA4 events")
+    event_list  = []
+    if events_raw and events_raw.get("rows"):
+        for r in events_raw["rows"]:
+            name  = r.get("eventName", "")
+            count = fmt_int(r.get("eventCount", 0))
+            if name and name not in SKIP_EVENTS and count > 0:
+                event_list.append({"name": name, "count": count})
+    event_list.sort(key=lambda x: x["count"], reverse=True)
+
     return {
         "sessions":    sessions,
         "users":       users,
@@ -322,6 +340,7 @@ def fetch_ga4(start, end):
         "events":      events,
         "conversions": conversions,
         "sources":     sources,
+        "event_list":  event_list[:12],
     }
 
 # ─── Coleta GMB ──────────────────────────────────────────────────────────────

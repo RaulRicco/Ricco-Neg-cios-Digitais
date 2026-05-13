@@ -252,19 +252,16 @@
 
   /* ─── EVENTOS GA4 ─── */
   .eventos-grid {
-    display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 10px; margin-bottom: 28px;
   }
   .evento-card {
     background: var(--bg-card); border: 1px solid var(--border);
-    border-radius: 10px; padding: 16px; display: flex; align-items: center; gap: 14px;
+    border-radius: 10px; padding: 16px 20px;
+    border-left: 3px solid var(--analytics-orange);
   }
-  .evento-icon {
-    width: 36px; height: 36px; border-radius: 8px; flex-shrink: 0;
-    display: flex; align-items: center; justify-content: center; font-size: 16px;
-  }
-  .evento-info .evento-name { font-size: 11px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px; }
-  .evento-info .evento-count { font-size: 20px; font-weight: 900; }
+  .evento-info .evento-name { font-size: 11px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px; }
+  .evento-info .evento-count { font-size: 24px; font-weight: 900; line-height: 1; }
 
   /* ─── GMB NOVAS AVALIAÇÕES ─── */
   .reviews-list { display: flex; flex-direction: column; gap: 10px; }
@@ -479,11 +476,11 @@
       <div class="chart-card">
         <div class="chart-header">
           <span class="chart-title">Evolução Diária — Meta Ads</span>
-          <div class="chart-toggle">
-            <button class="toggle-btn active" onclick="switchMetaChart('gasto', this)">Gasto</button>
-            <button class="toggle-btn" onclick="switchMetaChart('alcance', this)">Alcance</button>
-            <button class="toggle-btn" onclick="switchMetaChart('impressoes', this)">Impressões</button>
-            <button class="toggle-btn" onclick="switchMetaChart('cliques', this)">Cliques</button>
+          <div class="chart-toggle" id="toggle-meta">
+            <button class="toggle-btn active" data-metric="gasto" onclick="toggleMetricChart('meta','gasto',this)">Gasto</button>
+            <button class="toggle-btn" data-metric="alcance" onclick="toggleMetricChart('meta','alcance',this)">Alcance</button>
+            <button class="toggle-btn" data-metric="impressoes" onclick="toggleMetricChart('meta','impressoes',this)">Impressões</button>
+            <button class="toggle-btn" data-metric="cliques" onclick="toggleMetricChart('meta','cliques',this)">Cliques</button>
           </div>
         </div>
         <div class="chart-wrap">
@@ -574,10 +571,10 @@
       <div class="chart-card">
         <div class="chart-header">
           <span class="chart-title">Evolução Diária — Google Ads</span>
-          <div class="chart-toggle">
-            <button class="toggle-btn active" onclick="switchGoogleChart('gasto', this)">Gasto</button>
-            <button class="toggle-btn" onclick="switchGoogleChart('impressoes', this)">Impressões</button>
-            <button class="toggle-btn" onclick="switchGoogleChart('cliques', this)">Cliques</button>
+          <div class="chart-toggle" id="toggle-google">
+            <button class="toggle-btn active" data-metric="gasto" onclick="toggleMetricChart('google','gasto',this)">Gasto</button>
+            <button class="toggle-btn" data-metric="impressoes" onclick="toggleMetricChart('google','impressoes',this)">Impressões</button>
+            <button class="toggle-btn" data-metric="cliques" onclick="toggleMetricChart('google','cliques',this)">Cliques</button>
           </div>
         </div>
         <div class="chart-wrap">
@@ -686,52 +683,9 @@
       </div>
     </div>
 
-    <!-- Eventos GA4 -->
+    <!-- Eventos GA4 (dados reais) -->
     <div class="table-title" style="margin-bottom:12px;">Principais Eventos</div>
-    <div class="eventos-grid" style="margin-bottom:28px;">
-      <div class="evento-card">
-        <div class="evento-icon" style="background:rgba(249,171,0,0.15);">📞</div>
-        <div class="evento-info">
-          <div class="evento-name">Clique Telefone</div>
-          <div class="evento-count">148</div>
-        </div>
-      </div>
-      <div class="evento-card">
-        <div class="evento-icon" style="background:rgba(52,168,83,0.15);">📍</div>
-        <div class="evento-info">
-          <div class="evento-name">Ver Endereço</div>
-          <div class="evento-count">93</div>
-        </div>
-      </div>
-      <div class="evento-card">
-        <div class="evento-icon" style="background:rgba(24,119,242,0.15);">🔗</div>
-        <div class="evento-info">
-          <div class="evento-name">Clique Cardápio</div>
-          <div class="evento-count">312</div>
-        </div>
-      </div>
-      <div class="evento-card">
-        <div class="evento-icon" style="background:rgba(163,230,53,0.15);">🛒</div>
-        <div class="evento-info">
-          <div class="evento-name">Clique Delivery</div>
-          <div class="evento-count">207</div>
-        </div>
-      </div>
-      <div class="evento-card">
-        <div class="evento-icon" style="background:rgba(234,67,53,0.15);">💬</div>
-        <div class="evento-info">
-          <div class="evento-name">Clique WhatsApp</div>
-          <div class="evento-count">176</div>
-        </div>
-      </div>
-      <div class="evento-card">
-        <div class="evento-icon" style="background:rgba(120,100,255,0.15);">📸</div>
-        <div class="evento-info">
-          <div class="evento-name">Clique Instagram</div>
-          <div class="evento-count">89</div>
-        </div>
-      </div>
-    </div>
+    <div id="eventos-grid" class="eventos-grid" style="margin-bottom:28px;"></div>
 
     <!-- Origem com paginação -->
     <div class="table-block">
@@ -884,15 +838,19 @@ function toggleMs(platform) {
 }
 
 function buildMsOptions(platform, campaigns) {
-  const container = document.getElementById(`ms-${platform === 'meta' ? 'meta' : 'google'}-options`);
+  const container = document.getElementById(`ms-${platform}-options`);
   const selected  = platform === 'meta' ? MS_META_SELECTED : MS_GOOGLE_SELECTED;
-
-  container.innerHTML = campaigns.map(c => `
-    <div class="ms-option${selected.has(c.name) ? ' selected' : ''}"
-         onclick="toggleMsOption('${platform}', ${JSON.stringify(c.name)}, this)">
-      <div class="ms-checkbox"></div>
-      <span class="ms-option-name" title="${c.name}">${c.name}</span>
-    </div>`).join('');
+  container.innerHTML = '';
+  campaigns.forEach((c, i) => {
+    const div = document.createElement('div');
+    div.className = 'ms-option' + (selected.has(c.name) ? ' selected' : '');
+    div.innerHTML = `<div class="ms-checkbox"></div><span class="ms-option-name" title="${c.name}">${c.name}</span>`;
+    div.addEventListener('click', function(e) {
+      e.stopPropagation();
+      toggleMsOption(platform, c.name, div);
+    });
+    container.appendChild(div);
+  });
 }
 
 function toggleMsOption(platform, name, el) {
@@ -908,13 +866,19 @@ function toggleMsOption(platform, name, el) {
   applyPlatformFilter(platform);
 }
 
+// Prevent dropdown from closing when clicking inside it
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.ms-dropdown').forEach(d => {
+    d.addEventListener('click', e => e.stopPropagation());
+  });
+});
+
 function clearMs(platform) {
   const selected = platform === 'meta' ? MS_META_SELECTED : MS_GOOGLE_SELECTED;
   selected.clear();
-  const key = platform === 'meta' ? 'meta' : 'google';
-  buildMsOptions(key, platform === 'meta' ? META_CAMPAIGNS_ALL : GADS_CAMPAIGNS_ALL);
-  updateMsLabel(key);
-  applyPlatformFilter(key);
+  buildMsOptions(platform, platform === 'meta' ? META_CAMPAIGNS_ALL : GADS_CAMPAIGNS_ALL);
+  updateMsLabel(platform);
+  applyPlatformFilter(platform);
 }
 
 function updateMsLabel(platform) {
@@ -1306,6 +1270,18 @@ function populateDashboard(d) {
     bar:   Math.round(s.pct / maxPct * 100),
   }));
 
+  // Eventos GA4 reais
+  const eventosGrid = document.getElementById('eventos-grid');
+  if (eventosGrid) {
+    eventosGrid.innerHTML = '';
+    (a.event_list || []).forEach(ev => {
+      const card = document.createElement('div');
+      card.className = 'evento-card';
+      card.innerHTML = `<div class="evento-info"><div class="evento-name">${ev.name}</div><div class="evento-count">${fInt(ev.count)}</div></div>`;
+      eventosGrid.appendChild(card);
+    });
+  }
+
   // ── Seção 5: GMB ─────────────────────────────────────────────────────────
   populateGmb(d.gmb || null, mes);
 
@@ -1424,6 +1400,15 @@ function makeDS(label, data, color) {
            borderWidth:2, pointRadius:2, pointHoverRadius:5, tension:0.4, fill:true };
 }
 
+// Paleta de cores para métricas adicionais
+const METRIC_COLORS = {
+  meta:   { gasto:'#1877F2', alcance:'#a3e635', impressoes:'#F9AB00', cliques:'#9B5DE5' },
+  google: { gasto:'#EA4335', impressoes:'#F9AB00', cliques:'#9B5DE5' },
+};
+
+// Estado das métricas ativas por gráfico
+const ACTIVE_METRICS = { meta: new Set(['gasto']), google: new Set(['gasto']) };
+
 function buildCharts(labels) {
   if (chartC) chartC.destroy();
   if (chartM) chartM.destroy();
@@ -1434,16 +1419,53 @@ function buildCharts(labels) {
     data: { labels, datasets:[makeDS('Meta',DATA.consolidated.gasto.meta,'#1877F2'), makeDS('Google',DATA.consolidated.gasto.google,'#EA4335')] },
     options:{...chartDefaults}
   });
+
   chartM = new Chart(document.getElementById('chartMeta'), {
     type:'line',
-    data: { labels, datasets:[makeDS('Meta',DATA.meta.gasto,'#1877F2')] },
-    options:{...chartDefaults}
+    data: { labels, datasets: buildMetaDatasets() },
+    options:{...chartDefaults, plugins:{...chartDefaults.plugins, legend:{display:false}}}
   });
+
   chartG = new Chart(document.getElementById('chartGoogle'), {
     type:'line',
-    data: { labels, datasets:[makeDS('Google',DATA.google.gasto,'#EA4335')] },
-    options:{...chartDefaults}
+    data: { labels, datasets: buildGoogleDatasets() },
+    options:{...chartDefaults, plugins:{...chartDefaults.plugins, legend:{display:false}}}
   });
+}
+
+function buildMetaDatasets() {
+  return [...ACTIVE_METRICS.meta].map(metric => {
+    const color = METRIC_COLORS.meta[metric];
+    const labels_map = {gasto:'Gasto', alcance:'Alcance', impressoes:'Impressões', cliques:'Cliques'};
+    return makeDS(labels_map[metric], DATA.meta[metric] || [], color);
+  });
+}
+
+function buildGoogleDatasets() {
+  return [...ACTIVE_METRICS.google].map(metric => {
+    const color = METRIC_COLORS.google[metric];
+    const labels_map = {gasto:'Gasto', impressoes:'Impressões', cliques:'Cliques'};
+    return makeDS(labels_map[metric], DATA.google[metric] || [], color);
+  });
+}
+
+function toggleMetricChart(platform, metric, btn) {
+  const active = ACTIVE_METRICS[platform];
+  if (active.has(metric)) {
+    if (active.size === 1) return; // ao menos uma métrica sempre ativa
+    active.delete(metric);
+    btn.classList.remove('active');
+  } else {
+    active.add(metric);
+    btn.classList.add('active');
+  }
+  if (platform === 'meta') {
+    chartM.data.datasets = buildMetaDatasets();
+    chartM.update();
+  } else {
+    chartG.data.datasets = buildGoogleDatasets();
+    chartG.update();
+  }
 }
 
 function switchChart(metric, btn) {
@@ -1455,18 +1477,6 @@ function switchChart(metric, btn) {
   chartC.data.datasets[1].borderColor     = d.google ? '#EA4335' : 'transparent';
   chartC.data.datasets[1].backgroundColor = d.google ? '#EA433522' : 'transparent';
   chartC.update();
-}
-function switchMetaChart(metric, btn) {
-  btn.closest('.chart-toggle').querySelectorAll('.toggle-btn').forEach(b=>b.classList.remove('active'));
-  btn.classList.add('active');
-  chartM.data.datasets[0].data = DATA.meta[metric] || [];
-  chartM.update();
-}
-function switchGoogleChart(metric, btn) {
-  btn.closest('.chart-toggle').querySelectorAll('.toggle-btn').forEach(b=>b.classList.remove('active'));
-  btn.classList.add('active');
-  chartG.data.datasets[0].data = DATA.google[metric] || [];
-  chartG.update();
 }
 
 // ─── INIT ─────────────────────────────────────────────────────────────────────

@@ -4,7 +4,7 @@
     "start": "2026-04-01",
     "end": "2026-04-30"
   },
-  "gerado_em": "2026-05-12T22:28:19.822295",
+  "gerado_em": "2026-05-12T23:08:01.842652",
   "consolidado": {
     "spend": 1819.82,
     "reach": 76478,
@@ -928,6 +928,24 @@
         "medium": "referral",
         "sessions": 1,
         "pct": 0.0
+      }
+    ],
+    "event_list": [
+      {
+        "name": "click",
+        "count": 244
+      },
+      {
+        "name": "Clicou_wttp",
+        "count": 121
+      },
+      {
+        "name": "form_start",
+        "count": 42
+      },
+      {
+        "name": "whatsapp_redirect",
+        "count": 13
       }
     ]
   },
