@@ -89,7 +89,7 @@ def fetch_meta(start, end):
     # Anúncios
     ads_raw = run(
         base + ["account", "--account", META_ACCOUNT,
-                "--fields", "spend,impressions,clicks,ctr,cpc,frequency,ad_name,campaign_name",
+                "--fields", "spend,impressions,clicks,ctr,cpc,frequency,ad_name,campaign_name,objective,actions",
                 "--level", "ad"] + time_range,
         "Meta ads"
     )
@@ -149,17 +149,24 @@ def fetch_meta(start, end):
 
     ads = []
     if ads_raw:
-        for a in ads_raw[:20]:
+        for a in ads_raw[:50]:
             if fmt_int(a.get("impressions", 0)) == 0:
                 continue
+            spend = fmt_brl(a.get("spend", 0))
+            obj   = a.get("objective", "")
+            label, qty, cpr = extract_result(obj, a.get("actions", []), spend)
             ads.append({
-                "name":        a.get("ad_name", "—"),
-                "campaign":    a.get("campaign_name", "—"),
-                "impressions": fmt_int(a.get("impressions", 0)),
-                "clicks":      fmt_int(a.get("clicks", 0)),
-                "ctr":         fmt_pct(a.get("ctr", 0)),
-                "cpc":         fmt_brl(a.get("cpc", 0)),
-                "frequency":   fmt_pct(a.get("frequency", 0)),
+                "name":         a.get("ad_name", "—"),
+                "campaign":     a.get("campaign_name", "—"),
+                "spend":        spend,
+                "impressions":  fmt_int(a.get("impressions", 0)),
+                "clicks":       fmt_int(a.get("clicks", 0)),
+                "ctr":          fmt_pct(a.get("ctr", 0)),
+                "cpc":          fmt_brl(a.get("cpc", 0)),
+                "frequency":    fmt_pct(a.get("frequency", 0)),
+                "result_label": label,
+                "result_qty":   qty,
+                "result_cpr":   cpr,
             })
 
     return {

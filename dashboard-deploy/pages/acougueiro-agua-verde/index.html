@@ -560,7 +560,7 @@
           <thead>
             <tr>
               <th>Anúncio</th><th>Campanha</th>
-              <th>Impressões</th><th>Cliques</th><th>CTR</th><th>CPC</th><th>Frequência</th>
+              <th>Invest.</th><th>Impressões</th><th>Cliques</th><th>CTR</th><th>CPC</th><th>Frequência</th><th>Resultado</th><th>Custo/Resultado</th>
             </tr>
           </thead>
           <tbody id="tbody-meta-ads"></tbody>
@@ -1102,12 +1102,15 @@ function renderMetaAds() {
     <tr>
       <td class="td-name">${a.name}</td>
       <td class="td-muted" style="max-width:200px;overflow:hidden;text-overflow:ellipsis">${a.campaign}</td>
+      <td>${fBRL(a.spend)}</td>
       <td>${fInt(a.impressions)}</td>
       <td>${fInt(a.clicks)}</td>
       <td>${fPct(a.ctr)}</td>
       <td>${fBRL(a.cpc)}</td>
       <td>${Number(a.frequency).toFixed(2)}×</td>
-    </tr>`).join('') || '<tr><td colspan="7" style="color:#555;text-align:center;padding:20px">Sem anúncios para esta campanha</td></tr>';
+      <td>${a.result_label ? `${fInt(a.result_qty)} ${a.result_label}` : '—'}</td>
+      <td>${a.result_cpr ? fBRL(a.result_cpr) : '—'}</td>
+    </tr>`).join('') || '<tr><td colspan="10" style="color:#555;text-align:center;padding:20px">Sem anúncios para esta campanha</td></tr>';
 
   const from = total ? pg*PAGE_SIZE+1 : 0;
   const to   = Math.min(pg*PAGE_SIZE+PAGE_SIZE, total);
