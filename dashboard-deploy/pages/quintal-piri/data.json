@@ -4,7 +4,7 @@
     "start": "2026-04-01",
     "end": "2026-04-30"
   },
-  "gerado_em": "2026-05-13T12:06:09.707986",
+  "gerado_em": "2026-05-13T12:16:33.184462",
   "consolidado": null,
   "meta": {
     "spend": 1355.8,
@@ -25,9 +25,9 @@
         "clicks": 2073,
         "ctr": 3.01,
         "cpc": 0.21,
-        "result_label": "Mensagens",
-        "result_qty": 10,
-        "result_cpr": 42.79
+        "result_label": "Cliques",
+        "result_qty": 1964,
+        "result_cpr": 0.22
       },
       {
         "name": "[CBO] [FERIADO SEMANA SANTA] [VENDAS]",
@@ -38,9 +38,9 @@
         "clicks": 694,
         "ctr": 2.13,
         "cpc": 0.43,
-        "result_label": "Mensagens",
-        "result_qty": 22,
-        "result_cpr": 13.49
+        "result_label": "Vendas",
+        "result_qty": 26,
+        "result_cpr": 11.41
       },
       {
         "name": "[ABO] [CONEXAO 62 ABR/26] [ENGAJAMENTO]",
@@ -51,9 +51,9 @@
         "clicks": 489,
         "ctr": 1.33,
         "cpc": 0.51,
-        "result_label": "Mensagens",
-        "result_qty": 15,
-        "result_cpr": 16.66
+        "result_label": "Engajamentos",
+        "result_qty": 14574,
+        "result_cpr": 0.02
       },
       {
         "name": "[ABO] [PAGODE TIRADENTES] [VENDAS]",
@@ -64,9 +64,9 @@
         "clicks": 1124,
         "ctr": 3.44,
         "cpc": 0.31,
-        "result_label": "Mensagens",
-        "result_qty": 37,
-        "result_cpr": 9.44
+        "result_label": "Vendas",
+        "result_qty": 11,
+        "result_cpr": 31.75
       },
       {
         "name": "[CBO] [OS PAKITOS 25/04] [ENGAJAMENTO]",
@@ -92,9 +92,9 @@
         "ctr": 3.01,
         "cpc": 0.21,
         "frequency": 1.78,
-        "result_label": "Mensagens",
-        "result_qty": 10,
-        "result_cpr": 42.79
+        "result_label": "Cliques",
+        "result_qty": 1964,
+        "result_cpr": 0.22
       },
       {
         "name": "REELS FERIADO SEMANA SANTA",
@@ -105,9 +105,9 @@
         "ctr": 2.08,
         "cpc": 0.46,
         "frequency": 1.79,
-        "result_label": "Mensagens",
-        "result_qty": 6,
-        "result_cpr": 19.73
+        "result_label": "Vendas",
+        "result_qty": 7,
+        "result_cpr": 16.91
       },
       {
         "name": "FEED FERIADO SEMANA SANTA",
@@ -118,9 +118,9 @@
         "ctr": 2.13,
         "cpc": 0.61,
         "frequency": 2.02,
-        "result_label": "Mensagens",
-        "result_qty": 4,
-        "result_cpr": 17.88
+        "result_label": "Vendas",
+        "result_qty": 5,
+        "result_cpr": 14.3
       },
       {
         "name": "REELS FERIADO SEMANA SANTA 2",
@@ -131,9 +131,9 @@
         "ctr": 2.16,
         "cpc": 0.34,
         "frequency": 1.78,
-        "result_label": "Mensagens",
-        "result_qty": 12,
-        "result_cpr": 8.9
+        "result_label": "Vendas",
+        "result_qty": 13,
+        "result_cpr": 8.21
       },
       {
         "name": "VIDEO CONEXAO 62",
@@ -144,9 +144,9 @@
         "ctr": 1.33,
         "cpc": 0.51,
         "frequency": 2.14,
-        "result_label": "Mensagens",
-        "result_qty": 15,
-        "result_cpr": 16.66
+        "result_label": "Engajamentos",
+        "result_qty": 14574,
+        "result_cpr": 0.02
       },
       {
         "name": "PAGODE TIRADENTES ISADORA VD 01",
@@ -157,9 +157,9 @@
         "ctr": 3.92,
         "cpc": 0.27,
         "frequency": 2.04,
-        "result_label": "Mensagens",
-        "result_qty": 37,
-        "result_cpr": 6.75
+        "result_label": "Vendas",
+        "result_qty": 10,
+        "result_cpr": 24.97
       },
       {
         "name": "PAGODE DOMINGO",

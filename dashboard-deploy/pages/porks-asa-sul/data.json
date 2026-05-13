@@ -4,7 +4,7 @@
     "start": "2026-04-01",
     "end": "2026-04-30"
   },
-  "gerado_em": "2026-05-13T12:05:14.704217",
+  "gerado_em": "2026-05-13T12:15:45.809776",
   "consolidado": null,
   "meta": {
     "spend": 1840.8,
@@ -25,9 +25,9 @@
         "clicks": 651,
         "ctr": 1.73,
         "cpc": 0.19,
-        "result_label": "Mensagens",
-        "result_qty": 1,
-        "result_cpr": 124.22
+        "result_label": "Cliques",
+        "result_qty": 653,
+        "result_cpr": 0.19
       },
       {
         "name": "[CBO] [COMIDA DE BOTECO ABR/26] [ENGAJAMENTO]",
@@ -38,9 +38,9 @@
         "clicks": 117,
         "ctr": 1.07,
         "cpc": 1.28,
-        "result_label": "Mensagens",
-        "result_qty": 1,
-        "result_cpr": 149.92
+        "result_label": "Engajamentos",
+        "result_qty": 1257,
+        "result_cpr": 0.12
       },
       {
         "name": "[CBO] [TOCA RAUL] [RESERVAS]",
@@ -51,9 +51,9 @@
         "clicks": 113,
         "ctr": 2.78,
         "cpc": 0.51,
-        "result_label": "Mensagens",
-        "result_qty": 1,
-        "result_cpr": 57.32
+        "result_label": "Engajamentos",
+        "result_qty": 95,
+        "result_cpr": 0.6
       },
       {
         "name": "[CBO] [ESPECIAL RENATO MIRANDA] [MENSAGEM]",
@@ -90,9 +90,9 @@
         "clicks": 129,
         "ctr": 1.77,
         "cpc": 1.16,
-        "result_label": "Mensagens",
-        "result_qty": 4,
-        "result_cpr": 37.47
+        "result_label": "Engajamentos",
+        "result_qty": 138,
+        "result_cpr": 1.09
       },
       {
         "name": "[CBO] [ESPECIAL EVANESCENCE] [RESERVAS]",
@@ -103,9 +103,9 @@
         "clicks": 640,
         "ctr": 3.13,
         "cpc": 0.36,
-        "result_label": "Mensagens",
-        "result_qty": 3,
-        "result_cpr": 76.34
+        "result_label": "Engajamentos",
+        "result_qty": 4021,
+        "result_cpr": 0.06
       },
       {
         "name": "[CBO] [FLASHBACK ANOS 80] [RESERVAS]",
@@ -116,9 +116,9 @@
         "clicks": 164,
         "ctr": 1.88,
         "cpc": 0.73,
-        "result_label": "Mensagens",
-        "result_qty": 4,
-        "result_cpr": 29.97
+        "result_label": "Engajamentos",
+        "result_qty": 198,
+        "result_cpr": 0.61
       },
       {
         "name": "[ABO] [ESPECIAL CAPITAL INICIAL] [RESERVAS]",
@@ -222,9 +222,9 @@
         "ctr": 1.73,
         "cpc": 0.19,
         "frequency": 1.37,
-        "result_label": "Mensagens",
-        "result_qty": 1,
-        "result_cpr": 124.22
+        "result_label": "Cliques",
+        "result_qty": 653,
+        "result_cpr": 0.19
       },
       {
         "name": "FEED COMIDA DE BOTECO 26",
@@ -235,9 +235,9 @@
         "ctr": 1.07,
         "cpc": 1.28,
         "frequency": 1.42,
-        "result_label": "Mensagens",
-        "result_qty": 1,
-        "result_cpr": 149.92
+        "result_label": "Engajamentos",
+        "result_qty": 1257,
+        "result_cpr": 0.12
       },
       {
         "name": "TOCA RAUL NO PORKS",
@@ -248,9 +248,9 @@
         "ctr": 2.76,
         "cpc": 0.48,
         "frequency": 1.31,
-        "result_label": "Mensagens",
-        "result_qty": 1,
-        "result_cpr": 43.17
+        "result_label": "Engajamentos",
+        "result_qty": 76,
+        "result_cpr": 0.57
       },
       {
         "name": "ESPECIAL RENATO MIRANDA",
@@ -300,9 +300,9 @@
         "ctr": 1.77,
         "cpc": 1.16,
         "frequency": 1.74,
-        "result_label": "Mensagens",
-        "result_qty": 4,
-        "result_cpr": 37.47
+        "result_label": "Engajamentos",
+        "result_qty": 138,
+        "result_cpr": 1.09
       },
       {
         "name": "ESPECIAL EVANESCENCE",
@@ -326,9 +326,9 @@
         "ctr": 4.29,
         "cpc": 0.32,
         "frequency": 1.65,
-        "result_label": "Mensagens",
-        "result_qty": 3,
-        "result_cpr": 45.05
+        "result_label": "Engajamentos",
+        "result_qty": 3743,
+        "result_cpr": 0.04
       },
       {
         "name": "FLASHBACK ANOS 80",
@@ -339,9 +339,9 @@
         "ctr": 1.88,
         "cpc": 0.73,
         "frequency": 1.84,
-        "result_label": "Mensagens",
-        "result_qty": 4,
-        "result_cpr": 29.97
+        "result_label": "Engajamentos",
+        "result_qty": 198,
+        "result_cpr": 0.61
       },
       {
         "name": "ESPECIAL CAPITAL INICIAL",

@@ -4,7 +4,7 @@
     "start": "2026-04-01",
     "end": "2026-04-30"
   },
-  "gerado_em": "2026-05-13T12:04:56.558497",
+  "gerado_em": "2026-05-13T12:15:28.140610",
   "consolidado": null,
   "meta": {
     "spend": 599.09,
@@ -38,9 +38,9 @@
         "clicks": 437,
         "ctr": 4.0,
         "cpc": 0.69,
-        "result_label": "Mensagens",
-        "result_qty": 64,
-        "result_cpr": 4.7
+        "result_label": "Leads",
+        "result_qty": 1,
+        "result_cpr": 300.89
       }
     ],
     "ads": [

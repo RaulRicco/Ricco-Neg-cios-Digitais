@@ -4,7 +4,7 @@
     "start": "2026-04-01",
     "end": "2026-04-30"
   },
-  "gerado_em": "2026-05-13T12:05:03.102313",
+  "gerado_em": "2026-05-13T12:15:34.937964",
   "consolidado": null,
   "meta": {
     "spend": 256.58,
@@ -25,9 +25,9 @@
         "clicks": 322,
         "ctr": 2.02,
         "cpc": 0.22,
-        "result_label": "Mensagens",
-        "result_qty": 3,
-        "result_cpr": 23.08
+        "result_label": "Cliques",
+        "result_qty": 298,
+        "result_cpr": 0.23
       },
       {
         "name": "[CBO] [SUMMER WINE MAR/26] [ENGAJAMENTO]",
@@ -38,9 +38,9 @@
         "clicks": 12,
         "ctr": 0.23,
         "cpc": 1.67,
-        "result_label": "Mensagens",
-        "result_qty": 1,
-        "result_cpr": 20.06
+        "result_label": "Engajamentos",
+        "result_qty": 2384,
+        "result_cpr": 0.01
       },
       {
         "name": "[CBO] [OPEN WINE MAR/26] [ENGAJAMENTO]",
@@ -92,9 +92,9 @@
         "ctr": 2.02,
         "cpc": 0.22,
         "frequency": 1.57,
-        "result_label": "Mensagens",
-        "result_qty": 3,
-        "result_cpr": 23.08
+        "result_label": "Cliques",
+        "result_qty": 298,
+        "result_cpr": 0.23
       },
       {
         "name": "VIDEO SUMMER WINE 22 JAN",
@@ -105,9 +105,9 @@
         "ctr": 0.23,
         "cpc": 1.67,
         "frequency": 1.27,
-        "result_label": "Mensagens",
-        "result_qty": 1,
-        "result_cpr": 20.06
+        "result_label": "Engajamentos",
+        "result_qty": 2384,
+        "result_cpr": 0.01
       },
       {
         "name": "OPEN WINE 11 FEV",

@@ -4,7 +4,7 @@
     "start": "2026-04-01",
     "end": "2026-04-30"
   },
-  "gerado_em": "2026-05-13T12:05:55.721782",
+  "gerado_em": "2026-05-13T12:16:21.326336",
   "consolidado": null,
   "meta": {
     "spend": 1185.42,
@@ -38,9 +38,9 @@
         "clicks": 3328,
         "ctr": 6.84,
         "cpc": 0.06,
-        "result_label": "Mensagens",
-        "result_qty": 2,
-        "result_cpr": 93.15
+        "result_label": "Cliques",
+        "result_qty": 3339,
+        "result_cpr": 0.06
       },
       {
         "name": "[CBO] [FEIJOADA] [MENSAGEM]",
@@ -144,9 +144,9 @@
         "ctr": 6.84,
         "cpc": 0.06,
         "frequency": 1.17,
-        "result_label": "Mensagens",
-        "result_qty": 2,
-        "result_cpr": 93.15
+        "result_label": "Cliques",
+        "result_qty": 3339,
+        "result_cpr": 0.06
       },
       {
         "name": "REELS FEIJOADA",

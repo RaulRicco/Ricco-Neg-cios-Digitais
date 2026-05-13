@@ -4,7 +4,7 @@
     "start": "2026-04-01",
     "end": "2026-04-30"
   },
-  "gerado_em": "2026-05-13T12:04:48.311611",
+  "gerado_em": "2026-05-13T12:15:21.011289",
   "consolidado": null,
   "meta": {
     "spend": 308.96,
@@ -79,9 +79,9 @@
         "ctr": 1.37,
         "cpc": 1.17,
         "frequency": 1.4,
-        "result_label": "Engajamentos",
-        "result_qty": 41,
-        "result_cpr": 0.11
+        "result_label": "Mensagens",
+        "result_qty": 0,
+        "result_cpr": 0
       },
       {
         "name": "VIDEO 16 SET",
@@ -92,9 +92,9 @@
         "ctr": 1.61,
         "cpc": 0.97,
         "frequency": 1.37,
-        "result_label": "Engajamentos",
-        "result_qty": 127,
-        "result_cpr": 0.09
+        "result_label": "Mensagens",
+        "result_qty": 0,
+        "result_cpr": 0
       },
       {
         "name": "VIDEO DOG HORUS",
