@@ -4,7 +4,7 @@
     "start": "2026-04-01",
     "end": "2026-04-30"
   },
-  "gerado_em": "2026-05-13T11:52:40.537336",
+  "gerado_em": "2026-05-13T12:05:14.704217",
   "consolidado": null,
   "meta": {
     "spend": 1840.8,
@@ -25,9 +25,9 @@
         "clicks": 651,
         "ctr": 1.73,
         "cpc": 0.19,
-        "result_label": "Cliques",
-        "result_qty": 653,
-        "result_cpr": 0.19
+        "result_label": "Mensagens",
+        "result_qty": 1,
+        "result_cpr": 124.22
       },
       {
         "name": "[CBO] [COMIDA DE BOTECO ABR/26] [ENGAJAMENTO]",
@@ -38,9 +38,9 @@
         "clicks": 117,
         "ctr": 1.07,
         "cpc": 1.28,
-        "result_label": "Engajamentos",
-        "result_qty": 1257,
-        "result_cpr": 0.12
+        "result_label": "Mensagens",
+        "result_qty": 1,
+        "result_cpr": 149.92
       },
       {
         "name": "[CBO] [TOCA RAUL] [RESERVAS]",
@@ -51,9 +51,9 @@
         "clicks": 113,
         "ctr": 2.78,
         "cpc": 0.51,
-        "result_label": "Engajamentos",
-        "result_qty": 95,
-        "result_cpr": 0.6
+        "result_label": "Mensagens",
+        "result_qty": 1,
+        "result_cpr": 57.32
       },
       {
         "name": "[CBO] [ESPECIAL RENATO MIRANDA] [MENSAGEM]",
@@ -64,9 +64,9 @@
         "clicks": 27,
         "ctr": 0.71,
         "cpc": 1.05,
-        "result_label": "Engajamentos",
-        "result_qty": 41,
-        "result_cpr": 0.69
+        "result_label": "Mensagens",
+        "result_qty": 1,
+        "result_cpr": 28.23
       },
       {
         "name": "[CBO] [HIPER STOUT] [ENGAJAMENTO]",
@@ -77,9 +77,9 @@
         "clicks": 54,
         "ctr": 0.8,
         "cpc": 1.19,
-        "result_label": "Engajamentos",
-        "result_qty": 96,
-        "result_cpr": 0.67
+        "result_label": "Mensagens",
+        "result_qty": 8,
+        "result_cpr": 8.05
       },
       {
         "name": "[CBO] [ESPECIAL FLSH BACK] [RESERVAS]",
@@ -90,9 +90,9 @@
         "clicks": 129,
         "ctr": 1.77,
         "cpc": 1.16,
-        "result_label": "Engajamentos",
-        "result_qty": 138,
-        "result_cpr": 1.09
+        "result_label": "Mensagens",
+        "result_qty": 4,
+        "result_cpr": 37.47
       },
       {
         "name": "[CBO] [ESPECIAL EVANESCENCE] [RESERVAS]",
@@ -103,9 +103,9 @@
         "clicks": 640,
         "ctr": 3.13,
         "cpc": 0.36,
-        "result_label": "Engajamentos",
-        "result_qty": 4021,
-        "result_cpr": 0.06
+        "result_label": "Mensagens",
+        "result_qty": 3,
+        "result_cpr": 76.34
       },
       {
         "name": "[CBO] [FLASHBACK ANOS 80] [RESERVAS]",
@@ -116,9 +116,9 @@
         "clicks": 164,
         "ctr": 1.88,
         "cpc": 0.73,
-        "result_label": "Engajamentos",
-        "result_qty": 198,
-        "result_cpr": 0.61
+        "result_label": "Mensagens",
+        "result_qty": 4,
+        "result_cpr": 29.97
       },
       {
         "name": "[ABO] [ESPECIAL CAPITAL INICIAL] [RESERVAS]",
@@ -222,9 +222,9 @@
         "ctr": 1.73,
         "cpc": 0.19,
         "frequency": 1.37,
-        "result_label": "Cliques",
-        "result_qty": 653,
-        "result_cpr": 0.19
+        "result_label": "Mensagens",
+        "result_qty": 1,
+        "result_cpr": 124.22
       },
       {
         "name": "FEED COMIDA DE BOTECO 26",
@@ -235,9 +235,9 @@
         "ctr": 1.07,
         "cpc": 1.28,
         "frequency": 1.42,
-        "result_label": "Engajamentos",
-        "result_qty": 1257,
-        "result_cpr": 0.12
+        "result_label": "Mensagens",
+        "result_qty": 1,
+        "result_cpr": 149.92
       },
       {
         "name": "TOCA RAUL NO PORKS",
@@ -248,9 +248,9 @@
         "ctr": 2.76,
         "cpc": 0.48,
         "frequency": 1.31,
-        "result_label": "Engajamentos",
-        "result_qty": 76,
-        "result_cpr": 0.57
+        "result_label": "Mensagens",
+        "result_qty": 1,
+        "result_cpr": 43.17
       },
       {
         "name": "ESPECIAL RENATO MIRANDA",
@@ -261,9 +261,9 @@
         "ctr": 0.71,
         "cpc": 1.05,
         "frequency": 1.34,
-        "result_label": "Engajamentos",
-        "result_qty": 41,
-        "result_cpr": 0.69
+        "result_label": "Mensagens",
+        "result_qty": 1,
+        "result_cpr": 28.23
       },
       {
         "name": "HYPER STOUT",
@@ -274,9 +274,9 @@
         "ctr": 0.8,
         "cpc": 1.19,
         "frequency": 1.62,
-        "result_label": "Engajamentos",
-        "result_qty": 96,
-        "result_cpr": 0.67
+        "result_label": "Mensagens",
+        "result_qty": 8,
+        "result_cpr": 8.05
       },
       {
         "name": "TOCA RAUL NO PORKS",
@@ -300,9 +300,9 @@
         "ctr": 1.77,
         "cpc": 1.16,
         "frequency": 1.74,
-        "result_label": "Engajamentos",
-        "result_qty": 138,
-        "result_cpr": 1.09
+        "result_label": "Mensagens",
+        "result_qty": 4,
+        "result_cpr": 37.47
       },
       {
         "name": "ESPECIAL EVANESCENCE",
@@ -326,9 +326,9 @@
         "ctr": 4.29,
         "cpc": 0.32,
         "frequency": 1.65,
-        "result_label": "Engajamentos",
-        "result_qty": 3743,
-        "result_cpr": 0.04
+        "result_label": "Mensagens",
+        "result_qty": 3,
+        "result_cpr": 45.05
       },
       {
         "name": "FLASHBACK ANOS 80",
@@ -339,9 +339,9 @@
         "ctr": 1.88,
         "cpc": 0.73,
         "frequency": 1.84,
-        "result_label": "Engajamentos",
-        "result_qty": 198,
-        "result_cpr": 0.61
+        "result_label": "Mensagens",
+        "result_qty": 4,
+        "result_cpr": 29.97
       },
       {
         "name": "ESPECIAL CAPITAL INICIAL",

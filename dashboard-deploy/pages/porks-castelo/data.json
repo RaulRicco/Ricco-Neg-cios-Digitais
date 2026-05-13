@@ -4,7 +4,7 @@
     "start": "2026-04-01",
     "end": "2026-04-30"
   },
-  "gerado_em": "2026-05-13T11:53:17.577277",
+  "gerado_em": "2026-05-13T12:05:58.717624",
   "consolidado": null,
   "meta": {
     "spend": 1865.66,
@@ -25,9 +25,9 @@
         "clicks": 905,
         "ctr": 3.57,
         "cpc": 0.31,
-        "result_label": "Cliques",
-        "result_qty": 918,
-        "result_cpr": 0.31
+        "result_label": "Mensagens",
+        "result_qty": 2,
+        "result_cpr": 141.48
       },
       {
         "name": "[CBO] [VAGAS AUXILIAR DE COZINHA] [ENGAJAMENTO]",
@@ -38,9 +38,9 @@
         "clicks": 101,
         "ctr": 2.71,
         "cpc": 0.29,
-        "result_label": "Engajamentos",
-        "result_qty": 87,
-        "result_cpr": 0.33
+        "result_label": "Mensagens",
+        "result_qty": 35,
+        "result_cpr": 0.83
       },
       {
         "name": "[ABO] [ANIVERSARIO ABR/26] [MENSAGEM]",
@@ -51,9 +51,9 @@
         "clicks": 218,
         "ctr": 1.1,
         "cpc": 1.22,
-        "result_label": "Engajamentos",
-        "result_qty": 3708,
-        "result_cpr": 0.07
+        "result_label": "Mensagens",
+        "result_qty": 31,
+        "result_cpr": 8.61
       },
       {
         "name": "[CBO] [FERIADAO ABR/26] [MENSAGEM]",
@@ -64,9 +64,9 @@
         "clicks": 64,
         "ctr": 1.07,
         "cpc": 1.18,
-        "result_label": "Engajamentos",
-        "result_qty": 1519,
-        "result_cpr": 0.05
+        "result_label": "Mensagens",
+        "result_qty": 7,
+        "result_cpr": 10.79
       },
       {
         "name": "[CBO] [ENCONTRO DE CARROS ABR/26] [ENGAJAMENTO]",
@@ -77,9 +77,9 @@
         "clicks": 1850,
         "ctr": 1.95,
         "cpc": 0.15,
-        "result_label": "Engajamentos",
-        "result_qty": 48380,
-        "result_cpr": 0.01
+        "result_label": "Mensagens",
+        "result_qty": 4,
+        "result_cpr": 67.5
       },
       {
         "name": "[ABO] [CAFE COM ROCK ABR/26] [MENSAGEM]",
@@ -90,9 +90,9 @@
         "clicks": 279,
         "ctr": 1.62,
         "cpc": 1.0,
-        "result_label": "Engajamentos",
-        "result_qty": 4274,
-        "result_cpr": 0.07
+        "result_label": "Mensagens",
+        "result_qty": 28,
+        "result_cpr": 9.97
       },
       {
         "name": "[CBO] [FESTIVAL DE TORRESMO ABR/26] [ENGAJAMENTO]",
@@ -103,9 +103,9 @@
         "clicks": 280,
         "ctr": 2.1,
         "cpc": 0.79,
-        "result_label": "Engajamentos",
-        "result_qty": 4213,
-        "result_cpr": 0.05
+        "result_label": "Mensagens",
+        "result_qty": 25,
+        "result_cpr": 8.82
       },
       {
         "name": "[CBO] [ARQUIBANCADA DO ROCK ABR/26] [MENSAGEM]",
@@ -116,9 +116,9 @@
         "clicks": 346,
         "ctr": 1.51,
         "cpc": 0.92,
-        "result_label": "Engajamentos",
-        "result_qty": 5522,
-        "result_cpr": 0.06
+        "result_label": "Mensagens",
+        "result_qty": 53,
+        "result_cpr": 6.01
       },
       {
         "name": "[CBO] [OLD CAR EXPERIENCE MAI/26] [ENGAJAMENTO]",
@@ -144,9 +144,9 @@
         "ctr": 3.57,
         "cpc": 0.31,
         "frequency": 1.61,
-        "result_label": "Cliques",
-        "result_qty": 918,
-        "result_cpr": 0.31
+        "result_label": "Mensagens",
+        "result_qty": 2,
+        "result_cpr": 141.48
       },
       {
         "name": "AUXILIAR DE COZINHA",
@@ -157,9 +157,9 @@
         "ctr": 2.71,
         "cpc": 0.29,
         "frequency": 1.47,
-        "result_label": "Engajamentos",
-        "result_qty": 87,
-        "result_cpr": 0.33
+        "result_label": "Mensagens",
+        "result_qty": 35,
+        "result_cpr": 0.83
       },
       {
         "name": "VIDEO ANIVERSARIO ABR/26",
@@ -170,9 +170,9 @@
         "ctr": 1.1,
         "cpc": 1.22,
         "frequency": 2.59,
-        "result_label": "Engajamentos",
-        "result_qty": 3708,
-        "result_cpr": 0.07
+        "result_label": "Mensagens",
+        "result_qty": 31,
+        "result_cpr": 8.61
       },
       {
         "name": "FERIADO ABR/26",
@@ -183,9 +183,9 @@
         "ctr": 1.07,
         "cpc": 1.18,
         "frequency": 1.74,
-        "result_label": "Engajamentos",
-        "result_qty": 1519,
-        "result_cpr": 0.05
+        "result_label": "Mensagens",
+        "result_qty": 7,
+        "result_cpr": 10.79
       },
       {
         "name": "REELS OLD CAR EXPERIENCE  ABR/26",
@@ -196,9 +196,9 @@
         "ctr": 1.95,
         "cpc": 0.15,
         "frequency": 1.42,
-        "result_label": "Engajamentos",
-        "result_qty": 48380,
-        "result_cpr": 0.01
+        "result_label": "Mensagens",
+        "result_qty": 4,
+        "result_cpr": 67.5
       },
       {
         "name": "CAFE COM ROCK ABR/26",
@@ -222,9 +222,9 @@
         "ctr": 1.91,
         "cpc": 0.84,
         "frequency": 1.76,
-        "result_label": "Engajamentos",
-        "result_qty": 2942,
-        "result_cpr": 0.06
+        "result_label": "Mensagens",
+        "result_qty": 28,
+        "result_cpr": 5.91
       },
       {
         "name": "FESTIVAL DE TORRESMO",
@@ -235,9 +235,9 @@
         "ctr": 2.18,
         "cpc": 0.73,
         "frequency": 1.84,
-        "result_label": "Engajamentos",
-        "result_qty": 3756,
-        "result_cpr": 0.05
+        "result_label": "Mensagens",
+        "result_qty": 21,
+        "result_cpr": 8.8
       },
       {
         "name": "ARQUIBANCADA DO ROCK ABR/26",
@@ -248,9 +248,9 @@
         "ctr": 1.17,
         "cpc": 1.05,
         "frequency": 1.79,
-        "result_label": "Engajamentos",
-        "result_qty": 1596,
-        "result_cpr": 0.06
+        "result_label": "Mensagens",
+        "result_qty": 11,
+        "result_cpr": 8.94
       },
       {
         "name": "ARQUIBANCADA DO ROCK ABR/26 VIDEO 2",
@@ -261,9 +261,9 @@
         "ctr": 1.7,
         "cpc": 0.87,
         "frequency": 2.03,
-        "result_label": "Engajamentos",
-        "result_qty": 3926,
-        "result_cpr": 0.06
+        "result_label": "Mensagens",
+        "result_qty": 42,
+        "result_cpr": 5.24
       },
       {
         "name": "FESTIVAL DE TORRESMO REELS",
@@ -274,9 +274,9 @@
         "ctr": 1.57,
         "cpc": 1.37,
         "frequency": 1.63,
-        "result_label": "Engajamentos",
-        "result_qty": 457,
-        "result_cpr": 0.08
+        "result_label": "Mensagens",
+        "result_qty": 4,
+        "result_cpr": 8.88
       },
       {
         "name": "FEED OLD CAR EXPERIENCE",

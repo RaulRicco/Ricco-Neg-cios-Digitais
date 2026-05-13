@@ -4,7 +4,7 @@
     "start": "2026-04-01",
     "end": "2026-04-30"
   },
-  "gerado_em": "2026-05-13T11:51:50.634140",
+  "gerado_em": "2026-05-13T12:04:39.294693",
   "consolidado": null,
   "meta": {
     "spend": 2634.84,
@@ -25,9 +25,9 @@
         "clicks": 335,
         "ctr": 0.81,
         "cpc": 0.91,
-        "result_label": "Cliques",
-        "result_qty": 187,
-        "result_cpr": 1.62
+        "result_label": "Mensagens",
+        "result_qty": 2,
+        "result_cpr": 151.6
       },
       {
         "name": "[CBO] [VIDEOS BUFFET] [TRAFEGO]",
@@ -38,9 +38,9 @@
         "clicks": 3705,
         "ctr": 3.56,
         "cpc": 0.17,
-        "result_label": "Cliques",
-        "result_qty": 3755,
-        "result_cpr": 0.17
+        "result_label": "Mensagens",
+        "result_qty": 6,
+        "result_cpr": 104.85
       },
       {
         "name": "[CBO] [TODO FINAL DE SEMANA] [ENGAJAMENTO]",
@@ -51,9 +51,9 @@
         "clicks": 1626,
         "ctr": 0.97,
         "cpc": 0.38,
-        "result_label": "Engajamentos",
-        "result_qty": 83708,
-        "result_cpr": 0.01
+        "result_label": "Mensagens",
+        "result_qty": 1,
+        "result_cpr": 625.16
       },
       {
         "name": "[CBO] RODIZIO DE CALDOS] MENSAGEM]",
@@ -64,9 +64,9 @@
         "clicks": 235,
         "ctr": 0.98,
         "cpc": 1.02,
-        "result_label": "Engajamentos",
-        "result_qty": 3967,
-        "result_cpr": 0.06
+        "result_label": "Mensagens",
+        "result_qty": 20,
+        "result_cpr": 11.96
       },
       {
         "name": "[ABO] [VIDEO ROLEZANDO 2.0] [MENSAGEM]",
@@ -77,9 +77,9 @@
         "clicks": 1106,
         "ctr": 1.59,
         "cpc": 0.57,
-        "result_label": "Engajamentos",
-        "result_qty": 13964,
-        "result_cpr": 0.05
+        "result_label": "Mensagens",
+        "result_qty": 82,
+        "result_cpr": 7.67
       },
       {
         "name": "[CBO] [SEMANA SANTA 26] [MENSAGEM]",
@@ -90,9 +90,9 @@
         "clicks": 176,
         "ctr": 1.29,
         "cpc": 1.12,
-        "result_label": "Engajamentos",
-        "result_qty": 2869,
-        "result_cpr": 0.07
+        "result_label": "Mensagens",
+        "result_qty": 13,
+        "result_cpr": 15.18
       },
       {
         "name": "[CBO] [ESPAÇO EVENTOS] [MENSAGEM]",
@@ -103,9 +103,9 @@
         "clicks": 11,
         "ctr": 1.8,
         "cpc": 1.1,
-        "result_label": "Engajamentos",
-        "result_qty": 111,
-        "result_cpr": 0.11
+        "result_label": "Mensagens",
+        "result_qty": 1,
+        "result_cpr": 12.13
       }
     ],
     "ads": [
@@ -144,9 +144,9 @@
         "ctr": 0.76,
         "cpc": 0.95,
         "frequency": 1.81,
-        "result_label": "Cliques",
-        "result_qty": 145,
-        "result_cpr": 1.46
+        "result_label": "Mensagens",
+        "result_qty": 2,
+        "result_cpr": 106.06
       },
       {
         "name": "Dia de Churrasco",
@@ -209,9 +209,9 @@
         "ctr": 3.57,
         "cpc": 0.16,
         "frequency": 1.95,
-        "result_label": "Cliques",
-        "result_qty": 3149,
-        "result_cpr": 0.16
+        "result_label": "Mensagens",
+        "result_qty": 5,
+        "result_cpr": 102.5
       },
       {
         "name": "VIDEO 24 JULHO",
@@ -222,9 +222,9 @@
         "ctr": 4.5,
         "cpc": 0.21,
         "frequency": 1.18,
-        "result_label": "Cliques",
-        "result_qty": 373,
-        "result_cpr": 0.2
+        "result_label": "Mensagens",
+        "result_qty": 1,
+        "result_cpr": 75.5
       },
       {
         "name": "VIDEO 15 JULHO",
@@ -248,9 +248,9 @@
         "ctr": 0.97,
         "cpc": 0.38,
         "frequency": 1.49,
-        "result_label": "Engajamentos",
-        "result_qty": 83708,
-        "result_cpr": 0.01
+        "result_label": "Mensagens",
+        "result_qty": 1,
+        "result_cpr": 625.16
       },
       {
         "name": "RODIZIO DE CALDOS BELLA",
@@ -261,9 +261,9 @@
         "ctr": 0.98,
         "cpc": 1.02,
         "frequency": 1.89,
-        "result_label": "Engajamentos",
-        "result_qty": 3967,
-        "result_cpr": 0.06
+        "result_label": "Mensagens",
+        "result_qty": 20,
+        "result_cpr": 11.96
       },
       {
         "name": "VIDEO ROLEZANDO",
@@ -274,9 +274,9 @@
         "ctr": 1.59,
         "cpc": 0.57,
         "frequency": 2.18,
-        "result_label": "Engajamentos",
-        "result_qty": 13964,
-        "result_cpr": 0.05
+        "result_label": "Mensagens",
+        "result_qty": 82,
+        "result_cpr": 7.67
       },
       {
         "name": "VIDEO SEXTA SANTA",
@@ -287,9 +287,9 @@
         "ctr": 1.24,
         "cpc": 0.97,
         "frequency": 1.24,
-        "result_label": "Engajamentos",
-        "result_qty": 888,
-        "result_cpr": 0.06
+        "result_label": "Mensagens",
+        "result_qty": 2,
+        "result_cpr": 24.68
       },
       {
         "name": "VIDEO SEXTA SANTA",
@@ -300,9 +300,9 @@
         "ctr": 1.32,
         "cpc": 1.18,
         "frequency": 1.38,
-        "result_label": "Engajamentos",
-        "result_qty": 1981,
-        "result_cpr": 0.07
+        "result_label": "Mensagens",
+        "result_qty": 11,
+        "result_cpr": 13.46
       },
       {
         "name": "ESPAÇO EVENTOS",
@@ -313,9 +313,9 @@
         "ctr": 1.8,
         "cpc": 1.1,
         "frequency": 1.41,
-        "result_label": "Engajamentos",
-        "result_qty": 111,
-        "result_cpr": 0.11
+        "result_label": "Mensagens",
+        "result_qty": 1,
+        "result_cpr": 12.13
       }
     ]
   },

@@ -4,7 +4,7 @@
     "start": "2026-04-01",
     "end": "2026-04-30"
   },
-  "gerado_em": "2026-05-13T11:53:06.905653",
+  "gerado_em": "2026-05-13T12:05:48.748115",
   "consolidado": null,
   "meta": {
     "spend": 1570.56,
@@ -25,9 +25,9 @@
         "clicks": 2662,
         "ctr": 7.89,
         "cpc": 0.11,
-        "result_label": "Cliques",
-        "result_qty": 2687,
-        "result_cpr": 0.11
+        "result_label": "Mensagens",
+        "result_qty": 3,
+        "result_cpr": 98.87
       },
       {
         "name": "[CBO] [COMIDA DE BOTECO 2.0] [ENGAJAMENTO]",
@@ -51,9 +51,9 @@
         "clicks": 241,
         "ctr": 2.57,
         "cpc": 0.62,
-        "result_label": "Engajamentos",
-        "result_qty": 2680,
-        "result_cpr": 0.06
+        "result_label": "Mensagens",
+        "result_qty": 2,
+        "result_cpr": 74.94
       },
       {
         "name": "[CBO] [AGENDA DA SEMANA ABR/26] [TRAFEGO]",
@@ -77,9 +77,9 @@
         "clicks": 73,
         "ctr": 3.58,
         "cpc": 0.41,
-        "result_label": "Engajamentos",
-        "result_qty": 76,
-        "result_cpr": 0.39
+        "result_label": "Mensagens",
+        "result_qty": 1,
+        "result_cpr": 29.95
       },
       {
         "name": "[CBO] [NOITE DOS SOLTEIROS] [ENGAJAMENTO]",
@@ -170,9 +170,9 @@
         "ctr": 7.89,
         "cpc": 0.11,
         "frequency": 1.17,
-        "result_label": "Cliques",
-        "result_qty": 2687,
-        "result_cpr": 0.11
+        "result_label": "Mensagens",
+        "result_qty": 3,
+        "result_cpr": 98.87
       },
       {
         "name": "FEED COMIDA DE BOTECO",
@@ -196,9 +196,9 @@
         "ctr": 2.57,
         "cpc": 0.62,
         "frequency": 1.88,
-        "result_label": "Engajamentos",
-        "result_qty": 2680,
-        "result_cpr": 0.06
+        "result_label": "Mensagens",
+        "result_qty": 2,
+        "result_cpr": 74.94
       },
       {
         "name": "AGENDA DA SEMANA 1 ABRIL",
@@ -222,9 +222,9 @@
         "ctr": 3.58,
         "cpc": 0.41,
         "frequency": 1.47,
-        "result_label": "Engajamentos",
-        "result_qty": 76,
-        "result_cpr": 0.39
+        "result_label": "Mensagens",
+        "result_qty": 1,
+        "result_cpr": 29.95
       },
       {
         "name": "FEED NOITE DOS SOLTEIROS",

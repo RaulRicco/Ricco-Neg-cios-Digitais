@@ -4,7 +4,7 @@
     "start": "2026-04-01",
     "end": "2026-04-30"
   },
-  "gerado_em": "2026-05-13T11:51:17.476065",
+  "gerado_em": "2026-05-13T12:04:03.466467",
   "consolidado": {
     "spend": 20862.88,
     "reach": 1033783,
@@ -45,9 +45,9 @@
         "clicks": 636,
         "ctr": 1.11,
         "cpc": 0.39,
-        "result_label": "Engajamentos",
-        "result_qty": 5877,
-        "result_cpr": 0.04
+        "result_label": "Mensagens",
+        "result_qty": 2,
+        "result_cpr": 123.75
       },
       {
         "name": "[PG] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
@@ -58,9 +58,9 @@
         "clicks": 799,
         "ctr": 1.21,
         "cpc": 0.31,
-        "result_label": "Engajamentos",
-        "result_qty": 6753,
-        "result_cpr": 0.04
+        "result_label": "Mensagens",
+        "result_qty": 4,
+        "result_cpr": 61.85
       },
       {
         "name": "[PINHAIS] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
@@ -136,9 +136,9 @@
         "clicks": 1406,
         "ctr": 1.79,
         "cpc": 0.71,
-        "result_label": "Engajamentos",
-        "result_qty": 13329,
-        "result_cpr": 0.07
+        "result_label": "Mensagens",
+        "result_qty": 87,
+        "result_cpr": 11.44
       },
       {
         "name": "[CURITIBA] [ANIVERSARIANTES 2026] [CONTATO]",
@@ -149,9 +149,9 @@
         "clicks": 1869,
         "ctr": 2.28,
         "cpc": 0.33,
-        "result_label": "Engajamentos",
-        "result_qty": 27706,
-        "result_cpr": 0.02
+        "result_label": "Mensagens",
+        "result_qty": 3,
+        "result_cpr": 204.23
       },
       {
         "name": "[COLOMBO] [ANIVERSARIANTES 2026] [CONTATO]",
@@ -253,9 +253,9 @@
         "clicks": 7583,
         "ctr": 1.57,
         "cpc": 0.51,
-        "result_label": "Leads",
-        "result_qty": 7,
-        "result_cpr": 552.52
+        "result_label": "Mensagens",
+        "result_qty": 10,
+        "result_cpr": 386.76
       },
       {
         "name": "[COLOMBO] [ANIVERSARIANTES 2026] [LEAD]",
@@ -266,9 +266,9 @@
         "clicks": 1164,
         "ctr": 1.2,
         "cpc": 0.41,
-        "result_label": "Leads",
-        "result_qty": 2,
-        "result_cpr": 238.97
+        "result_label": "Mensagens",
+        "result_qty": 3,
+        "result_cpr": 159.31
       },
       {
         "name": "[PONTA GROSSA] [ANIVERSARIANTES 2026] [LEAD]",
@@ -279,9 +279,9 @@
         "clicks": 1131,
         "ctr": 1.51,
         "cpc": 0.42,
-        "result_label": "Leads",
-        "result_qty": 4,
-        "result_cpr": 119.43
+        "result_label": "Mensagens",
+        "result_qty": 5,
+        "result_cpr": 95.54
       }
     ],
     "ads": [
@@ -398,9 +398,9 @@
         "ctr": 1.05,
         "cpc": 0.4,
         "frequency": 2.58,
-        "result_label": "Engajamentos",
-        "result_qty": 4976,
-        "result_cpr": 0.04
+        "result_label": "Mensagens",
+        "result_qty": 2,
+        "result_cpr": 102.83
       },
       {
         "name": "Momentos 04 - HH 02 Colombo",
@@ -489,9 +489,9 @@
         "ctr": 1.19,
         "cpc": 0.31,
         "frequency": 2.31,
-        "result_label": "Engajamentos",
-        "result_qty": 6012,
-        "result_cpr": 0.03
+        "result_label": "Mensagens",
+        "result_qty": 4,
+        "result_cpr": 52.38
       },
       {
         "name": "Momentos 05 - Burguers 01  PG",
@@ -918,9 +918,9 @@
         "ctr": 1.83,
         "cpc": 0.71,
         "frequency": 3.6,
-        "result_label": "Engajamentos",
-        "result_qty": 12657,
-        "result_cpr": 0.08
+        "result_label": "Mensagens",
+        "result_qty": 84,
+        "result_cpr": 11.33
       },
       {
         "name": "ALMOÇO ARAUCARIA",
@@ -931,9 +931,9 @@
         "ctr": 1.2,
         "cpc": 0.71,
         "frequency": 1.99,
-        "result_label": "Engajamentos",
-        "result_qty": 672,
-        "result_cpr": 0.06
+        "result_label": "Mensagens",
+        "result_qty": 3,
+        "result_cpr": 14.42
       }
     ]
   },

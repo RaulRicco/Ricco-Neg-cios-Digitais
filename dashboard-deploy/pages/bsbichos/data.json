@@ -4,7 +4,7 @@
     "start": "2026-04-01",
     "end": "2026-04-30"
   },
-  "gerado_em": "2026-05-13T11:51:31.824714",
+  "gerado_em": "2026-05-13T12:04:19.248345",
   "consolidado": {
     "spend": 360.36,
     "reach": 12291,
@@ -32,9 +32,9 @@
         "clicks": 224,
         "ctr": 1.66,
         "cpc": 1.22,
-        "result_label": "Vendas",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_label": "Mensagens",
+        "result_qty": 34,
+        "result_cpr": 8.01
       },
       {
         "name": "[CBO] [FEIRA DE ADOÇÃO] [ENGAJAMENTO]",
@@ -45,9 +45,9 @@
         "clicks": 165,
         "ctr": 1.81,
         "cpc": 0.53,
-        "result_label": "Engajamentos",
-        "result_qty": 973,
-        "result_cpr": 0.09
+        "result_label": "Mensagens",
+        "result_qty": 1,
+        "result_cpr": 87.89
       }
     ],
     "ads": [
@@ -60,9 +60,9 @@
         "ctr": 1.66,
         "cpc": 1.22,
         "frequency": 2.18,
-        "result_label": "Vendas",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_label": "Mensagens",
+        "result_qty": 34,
+        "result_cpr": 8.01
       },
       {
         "name": "FEIRA DE ADOÇÃO CARROSSEL",
@@ -73,9 +73,9 @@
         "ctr": 1.81,
         "cpc": 0.53,
         "frequency": 1.4,
-        "result_label": "Engajamentos",
-        "result_qty": 973,
-        "result_cpr": 0.09
+        "result_label": "Mensagens",
+        "result_qty": 1,
+        "result_cpr": 87.89
       }
     ]
   },
