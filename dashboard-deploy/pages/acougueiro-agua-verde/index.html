@@ -503,6 +503,9 @@
           </thead>
           <tbody id="tbody-meta-campaigns"></tbody>
         </table>
+        <div class="table-footer">
+          <span class="table-count" id="count-meta-campaigns"></span>
+        </div>
       </div>
     </div>
 
@@ -519,6 +522,9 @@
           </thead>
           <tbody id="tbody-meta-ads"></tbody>
         </table>
+        <div class="table-footer">
+          <span class="table-count" id="count-meta-ads"></span>
+        </div>
       </div>
     </div>
   </section>
@@ -596,6 +602,9 @@
           </thead>
           <tbody id="tbody-gads-campaigns"></tbody>
         </table>
+        <div class="table-footer">
+          <span class="table-count" id="count-gads-campaigns"></span>
+        </div>
       </div>
     </div>
 
@@ -1052,6 +1061,8 @@ function renderMetaCampaigns(list) {
       <td>${c.result_label ? `${fInt(c.result_qty)} ${c.result_label}` : '—'}</td>
       <td>${c.result_cpr ? fBRL(c.result_cpr) : '—'}</td>
     </tr>`).join('') || '<tr><td colspan="9" style="color:#555;text-align:center;padding:20px">Sem dados para esta campanha</td></tr>';
+  const el = document.getElementById('count-meta-campaigns');
+  if (el) el.textContent = `${list.length} campanha${list.length !== 1 ? 's' : ''}`;
 }
 
 function renderMetaAds() {
@@ -1070,6 +1081,8 @@ function renderMetaAds() {
       <td>${fBRL(a.cpc)}</td>
       <td>${Number(a.frequency).toFixed(2)}×</td>
     </tr>`).join('') || '<tr><td colspan="7" style="color:#555;text-align:center;padding:20px">Sem anúncios para esta campanha</td></tr>';
+  const el = document.getElementById('count-meta-ads');
+  if (el) el.textContent = `${list.length} anúncio${list.length !== 1 ? 's' : ''}`;
 }
 
 // ─── RENDER GOOGLE SECTION (filtered) ────────────────────────────────────────
@@ -1142,6 +1155,8 @@ function renderGadsCampaigns(list) {
       <td>${cpa}</td>
     </tr>`;
   }).join('') || '<tr><td colspan="10" style="color:#555;text-align:center;padding:20px">Sem dados para esta campanha</td></tr>';
+  const el = document.getElementById('count-gads-campaigns');
+  if (el) el.textContent = `${list.length} campanha${list.length !== 1 ? 's' : ''}`;
 }
 
 // ─── GMB SECTION ─────────────────────────────────────────────────────────────
