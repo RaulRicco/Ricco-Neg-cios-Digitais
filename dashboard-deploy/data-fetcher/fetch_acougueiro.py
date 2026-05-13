@@ -68,12 +68,13 @@ def fmt_pct(val):
 def fetch_meta(start, end):
     print("📘 Meta Ads — coletando...", flush=True)
     base = [str(META_INSIGHTS)]
-    period = ["--since", start, "--until", end]
+    # time_range garante atribuição correta ao período (≠ since/until que é paginação temporal)
+    time_range = ["--time-range", f'{{"since":"{start}","until":"{end}"}}']
 
     # Conta (totais)
     account = run(
         base + ["account", "--account", META_ACCOUNT,
-                "--fields", "spend,reach,impressions,clicks,cpm,cpc,ctr,frequency"] + period,
+                "--fields", "spend,reach,impressions,clicks,cpm,cpc,ctr,frequency"] + time_range,
         "Meta account"
     )
 
@@ -81,7 +82,7 @@ def fetch_meta(start, end):
     campaigns_raw = run(
         base + ["account", "--account", META_ACCOUNT,
                 "--fields", "spend,reach,impressions,clicks,cpm,cpc,ctr,campaign_name,objective,actions",
-                "--level", "campaign"] + period,
+                "--level", "campaign"] + time_range,
         "Meta campaigns"
     )
 
@@ -89,7 +90,7 @@ def fetch_meta(start, end):
     ads_raw = run(
         base + ["account", "--account", META_ACCOUNT,
                 "--fields", "spend,impressions,clicks,ctr,cpc,frequency,ad_name,campaign_name",
-                "--level", "ad"] + period,
+                "--level", "ad"] + time_range,
         "Meta ads"
     )
 
