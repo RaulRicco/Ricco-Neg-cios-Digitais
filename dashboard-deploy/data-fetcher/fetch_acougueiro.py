@@ -414,7 +414,7 @@ def main():
     meta   = fetch_meta(start, end)
     google = fetch_google_ads(start, end)
     ga4    = fetch_ga4(start, end)
-    gmb    = fetch_gbp(start, end)
+    gmb    = None
 
     data = {
         "cliente":   "Bar do Açougueiro — Água Verde",
@@ -442,11 +442,6 @@ def main():
     print(f"   Meta spend:   R$ {meta['spend']}")
     print(f"   Google spend: R$ {google['spend']}")
     print(f"   GA4 sessões:  {ga4['sessions']}")
-    if gmb:
-        print(f"   GBP nota:          {gmb['nota']} ★")
-        print(f"   GBP avaliações:    {gmb['avaliacoes_mes']} no período  |  {gmb['total_avaliacoes']} total")
-    else:
-        print("   GBP:          não disponível")
 
 if __name__ == "__main__":
     main()
