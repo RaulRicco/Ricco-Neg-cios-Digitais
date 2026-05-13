@@ -45,20 +45,38 @@
   .client-name-top { font-size: 16px; font-weight: 700; }
   .topbar-right { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
   .period-label { font-size: 12px; color: var(--text-muted); white-space: nowrap; }
-  .date-inputs { display: flex; align-items: center; gap: 8px; }
-  .date-inputs input[type="date"] {
+  .period-value {
     background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px;
-    color: var(--text); font-family: 'Inter', sans-serif; font-size: 13px;
-    padding: 6px 10px; cursor: pointer; outline: none;
+    color: var(--text); font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 600;
+    padding: 6px 14px; white-space: nowrap;
   }
-  .date-inputs input[type="date"]:focus { border-color: var(--green); }
-  .date-sep { font-size: 12px; color: var(--text-muted); }
   .btn-export {
     background: transparent; border: 1px solid var(--border); border-radius: 8px;
     color: var(--text-muted); font-family: 'Inter', sans-serif; font-size: 12px;
     font-weight: 600; padding: 6px 14px; cursor: pointer; transition: all .15s; white-space: nowrap;
   }
   .btn-export:hover { border-color: var(--green); color: var(--green); }
+
+  /* ─── CAMPAIGN FILTER ─── */
+  .campaign-filter {
+    display: flex; align-items: center; gap: 10px; margin-bottom: 20px; flex-wrap: wrap;
+  }
+  .filter-label { font-size: 12px; color: var(--text-muted); font-weight: 600; white-space: nowrap; }
+  .filter-select {
+    background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px;
+    color: var(--text); font-family: 'Inter', sans-serif; font-size: 13px;
+    padding: 6px 12px; cursor: pointer; outline: none; min-width: 220px; max-width: 480px;
+    appearance: none; -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23666' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right 12px center; padding-right: 32px;
+  }
+  .filter-select:focus { border-color: var(--green); }
+  .filter-clear {
+    background: none; border: 1px solid var(--border); border-radius: 8px;
+    color: var(--text-muted); font-family: 'Inter', sans-serif; font-size: 12px;
+    font-weight: 600; padding: 6px 12px; cursor: pointer; transition: all .15s;
+  }
+  .filter-clear:hover { border-color: var(--green); color: var(--green); }
 
   /* ─── MAIN ─── */
   .main { max-width: 1200px; margin: 0 auto; padding: 40px 32px 80px; }
@@ -249,11 +267,7 @@
   </div>
   <div class="topbar-right">
     <span class="period-label">Período:</span>
-    <div class="date-inputs">
-      <input type="date" id="date-start" value="2026-05-01">
-      <span class="date-sep">→</span>
-      <input type="date" id="date-end" value="2026-05-31">
-    </div>
+    <span class="period-value" id="period-display">—</span>
     <button class="btn-export" onclick="window.print()">↓ Exportar PDF</button>
   </div>
 </nav>
@@ -385,6 +399,15 @@
       </div>
     </div>
 
+    <!-- Filtro campanha Meta -->
+    <div class="campaign-filter">
+      <span class="filter-label">Filtrar por campanha:</span>
+      <select class="filter-select" id="filter-meta-campaign" onchange="applyMetaFilter()">
+        <option value="">Todas as campanhas</option>
+      </select>
+      <button class="filter-clear" onclick="clearMetaFilter()">Limpar</button>
+    </div>
+
     <!-- Tabela campanhas -->
     <div class="table-block">
       <div class="table-title">Campanhas</div>
@@ -392,9 +415,9 @@
         <table>
           <thead>
             <tr>
-              <th>Campanha</th><th>Status</th><th>Invest.</th>
+              <th>Campanha</th><th>Invest.</th>
               <th>Alcance</th><th>Impressões</th><th>Cliques</th>
-              <th>CTR</th><th>CPC</th><th>Resultados</th>
+              <th>CTR</th><th>CPC</th><th>Resultado</th><th>Custo/Resultado</th>
             </tr>
           </thead>
           <tbody id="tbody-meta-campaigns"></tbody>
@@ -409,7 +432,7 @@
         <table>
           <thead>
             <tr>
-              <th>Anúncio</th><th>Formato</th><th>Campanha</th>
+              <th>Anúncio</th><th>Campanha</th>
               <th>Impressões</th><th>Cliques</th><th>CTR</th><th>CPC</th><th>Frequência</th>
             </tr>
           </thead>
@@ -479,6 +502,15 @@
       </div>
     </div>
 
+    <!-- Filtro campanha Google -->
+    <div class="campaign-filter">
+      <span class="filter-label">Filtrar por campanha:</span>
+      <select class="filter-select" id="filter-gads-campaign" onchange="applyGadsFilter()">
+        <option value="">Todas as campanhas</option>
+      </select>
+      <button class="filter-clear" onclick="clearGadsFilter()">Limpar</button>
+    </div>
+
     <!-- Tabela campanhas -->
     <div class="table-block">
       <div class="table-title">Campanhas</div>
@@ -487,7 +519,7 @@
           <thead>
             <tr>
               <th>Campanha</th><th>Tipo</th><th>Status</th><th>Invest.</th>
-              <th>Impressões</th><th>Cliques</th><th>CTR</th><th>CPC</th><th>Conv.</th>
+              <th>Impressões</th><th>Cliques</th><th>CTR</th><th>CPC</th><th>Conv.</th><th>Custo/Conv.</th>
             </tr>
           </thead>
           <tbody id="tbody-gads-campaigns"></tbody>
@@ -723,14 +755,12 @@
 <script>
 // ─── DADOS REAIS (carregados do data.json gerado pelo fetch_acougueiro.py) ────
 
-let _D = {}; // dados globais
+let _D = {};
 
-// Helpers de formatação
 const fBRL = v => `R$ ${Number(v).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}`;
 const fInt = v => Number(v).toLocaleString('pt-BR');
 const fPct = v => `${Number(v).toFixed(2)}%`;
 
-// Gera série diária distribuindo o total pelos dias do período
 function distribute(total, days) {
   const base = total / days;
   return Array.from({length: days}, (_, i) =>
@@ -738,11 +768,10 @@ function distribute(total, days) {
   );
 }
 
-// Cores por source/medium
 function sourceColor(source, medium) {
   if (medium === 'cpc' || medium === 'paid') {
     if (source.includes('google')) return '#EA4335';
-    if (source.includes('instagram') || source.includes('facebook')) return '#1877F2';
+    if (source.includes('instagram') || source.includes('ig') || source.includes('facebook') || source.includes('fb')) return '#1877F2';
   }
   if (source.includes('google')) return '#a3e635';
   if (source.includes('whatsapp')) return '#25D366';
@@ -751,18 +780,172 @@ function sourceColor(source, medium) {
   return '#666';
 }
 
-// Popula o dashboard com os dados reais
+function setCard(id, val) {
+  const el = document.getElementById(id);
+  if (el) el.textContent = val;
+}
+
+// ─── ESTADO ──────────────────────────────────────────────────────────────────
+
+let KW_DATA    = [];
+let TERMS_DATA = [];
+let ORIGEM_DATA = [];
+let META_CAMPAIGNS_ALL = [];
+let GADS_CAMPAIGNS_ALL = [];
+let META_ADS_ALL = [];
+let ACTIVE_META_CAMP = '';
+let ACTIVE_GADS_CAMP = '';
+
+const DATA = {
+  consolidated: { gasto:{meta:[],google:[]}, alcance:{meta:[],google:null}, impressoes:{meta:[],google:[]}, cliques:{meta:[],google:[]} },
+  meta:   { gasto:[], alcance:[], impressoes:[], cliques:[] },
+  google: { gasto:[], impressoes:[], cliques:[] },
+};
+
+// ─── FILTROS DE CAMPANHA ──────────────────────────────────────────────────────
+
+function populateMetaFilter(campaigns) {
+  const sel = document.getElementById('filter-meta-campaign');
+  sel.innerHTML = '<option value="">Todas as campanhas</option>' +
+    campaigns.map(c => `<option value="${c.name}">${c.name}</option>`).join('');
+}
+
+function populateGadsFilter(campaigns) {
+  const sel = document.getElementById('filter-gads-campaign');
+  sel.innerHTML = '<option value="">Todas as campanhas</option>' +
+    campaigns.map(c => `<option value="${c.name}">${c.name}</option>`).join('');
+}
+
+function applyMetaFilter() {
+  ACTIVE_META_CAMP = document.getElementById('filter-meta-campaign').value;
+  renderMetaCampaigns();
+  renderMetaAds();
+}
+
+function clearMetaFilter() {
+  document.getElementById('filter-meta-campaign').value = '';
+  ACTIVE_META_CAMP = '';
+  renderMetaCampaigns();
+  renderMetaAds();
+}
+
+function applyGadsFilter() {
+  ACTIVE_GADS_CAMP = document.getElementById('filter-gads-campaign').value;
+  renderGadsCampaigns();
+  renderKwAndTerms();
+}
+
+function clearGadsFilter() {
+  document.getElementById('filter-gads-campaign').value = '';
+  ACTIVE_GADS_CAMP = '';
+  renderGadsCampaigns();
+  renderKwAndTerms();
+}
+
+// ─── RENDER TABELAS META ──────────────────────────────────────────────────────
+
+function renderMetaCampaigns() {
+  const list = ACTIVE_META_CAMP
+    ? META_CAMPAIGNS_ALL.filter(c => c.name === ACTIVE_META_CAMP)
+    : META_CAMPAIGNS_ALL;
+
+  document.getElementById('tbody-meta-campaigns').innerHTML = list.map(c => `
+    <tr>
+      <td class="td-name">${c.name}</td>
+      <td>${fBRL(c.spend)}</td>
+      <td>${fInt(c.reach)}</td>
+      <td>${fInt(c.impressions)}</td>
+      <td>${fInt(c.clicks)}</td>
+      <td>${fPct(c.ctr)}</td>
+      <td>${fBRL(c.cpc)}</td>
+      <td>${c.result_label ? `${fInt(c.result_qty)} ${c.result_label}` : '—'}</td>
+      <td>${c.result_cpr ? fBRL(c.result_cpr) : '—'}</td>
+    </tr>`).join('') || '<tr><td colspan="9" style="color:#555;text-align:center;padding:20px">Sem dados para esta campanha</td></tr>';
+}
+
+function renderMetaAds() {
+  const list = ACTIVE_META_CAMP
+    ? META_ADS_ALL.filter(a => a.campaign === ACTIVE_META_CAMP)
+    : META_ADS_ALL;
+
+  document.getElementById('tbody-meta-ads').innerHTML = list.map(a => `
+    <tr>
+      <td class="td-name">${a.name}</td>
+      <td class="td-muted" style="max-width:200px;overflow:hidden;text-overflow:ellipsis">${a.campaign}</td>
+      <td>${fInt(a.impressions)}</td>
+      <td>${fInt(a.clicks)}</td>
+      <td>${fPct(a.ctr)}</td>
+      <td>${fBRL(a.cpc)}</td>
+      <td>${Number(a.frequency).toFixed(2)}×</td>
+    </tr>`).join('') || '<tr><td colspan="7" style="color:#555;text-align:center;padding:20px">Sem anúncios para esta campanha</td></tr>';
+}
+
+// ─── RENDER TABELAS GOOGLE ────────────────────────────────────────────────────
+
+function renderGadsCampaigns() {
+  const list = ACTIVE_GADS_CAMP
+    ? GADS_CAMPAIGNS_ALL.filter(c => c.name === ACTIVE_GADS_CAMP)
+    : GADS_CAMPAIGNS_ALL;
+
+  document.getElementById('tbody-gads-campaigns').innerHTML = list.map(c => {
+    const cpa = c.conversions && c.conversions !== '0'
+      ? fBRL(Number(String(c.spend).replace('R$ ','').replace('.','').replace(',','.')) / Number(c.conversions.toString().replace('.','').replace(',','.')))
+      : '—';
+    return `
+    <tr>
+      <td class="td-name">${c.name}</td>
+      <td class="td-muted">${c.type}</td>
+      <td><span class="pill ${c.status==='Enabled'?'pill-active':'pill-paused'}">● ${c.status==='Enabled'?'Ativa':'Pausada'}</span></td>
+      <td>${fBRL(c.spend)}</td>
+      <td>${fInt(c.impressions)}</td>
+      <td>${fInt(c.clicks)}</td>
+      <td>${fPct(c.ctr)}</td>
+      <td>${fBRL(c.cpc)}</td>
+      <td>${fInt(c.conversions)}</td>
+      <td>${cpa}</td>
+    </tr>`;
+  }).join('') || '<tr><td colspan="10" style="color:#555;text-align:center;padding:20px">Sem dados para esta campanha</td></tr>';
+}
+
+function renderKwAndTerms() {
+  // Filtra keywords e termos pela campanha ativa (se tiver campo campaign)
+  // Como keywords não têm campo campaign no data.json, mantém todos quando filtrado
+  pages.kw = 0; pages.terms = 0;
+  renderTable('kw');
+  renderTable('terms');
+}
+
+// ─── POPULATE DASHBOARD ───────────────────────────────────────────────────────
+
 function populateDashboard(d) {
   _D = d;
-  const c  = d.consolidado;
-  const m  = d.meta;
-  const g  = d.google;
-  const a  = d.ga4;
+  const c = d.consolidado;
+  const m = d.meta;
+  const g = d.google;
+  const a = d.ga4;
 
   const start = d.periodo.start;
   const end   = d.periodo.end;
-  document.getElementById('date-start').value = start;
-  document.getElementById('date-end').value   = end;
+
+  // Período fixo — exibe label formatado
+  const fmtDate = iso => {
+    const dt = new Date(iso + 'T12:00:00');
+    return dt.toLocaleDateString('pt-BR', {day:'2-digit', month:'2-digit', year:'numeric'});
+  };
+  const startDt = new Date(start + 'T12:00:00');
+  const monthName = startDt.toLocaleDateString('pt-BR', {month:'long', year:'numeric'});
+  document.getElementById('period-display').textContent = `${fmtDate(start)} → ${fmtDate(end)}`;
+  document.getElementById('footer-period').textContent  = monthName.charAt(0).toUpperCase() + monthName.slice(1);
+
+  // GMB labels
+  const mes = startDt.toLocaleDateString('pt-BR',{month:'short',year:'numeric'})
+    .replace('. ','/')  .replace('.','').replace(' de ','/');
+  const gmbLabel = document.getElementById('gmb-period-label');
+  const gmbMonthLabel = document.getElementById('gmb-month-label');
+  const gmbInline = document.getElementById('gmb-period-inline');
+  if (gmbLabel) gmbLabel.textContent = `novas em ${mes}`;
+  if (gmbMonthLabel) gmbMonthLabel.textContent = `— ${mes}`;
+  if (gmbInline) gmbInline.textContent = mes;
 
   // ── Seção 1: Consolidado ──────────────────────────────────────────────────
   setCard('cons-spend',       fBRL(c.spend));
@@ -782,26 +965,12 @@ function populateDashboard(d) {
   setCard('meta-cpm',         fBRL(m.cpm));
   setCard('meta-cpl',         fBRL(m.cpl || 0));
 
-  // Tabela campanhas Meta
-  document.getElementById('tbody-meta-campaigns').innerHTML = m.campaigns.map(c => `
-    <tr>
-      <td class="td-name">${c.name}</td>
-      <td><span class="pill pill-active">● Ativa</span></td>
-      <td>${fBRL(c.spend)}</td><td>${fInt(c.reach)}</td>
-      <td>${fInt(c.impressions)}</td><td>${fInt(c.clicks)}</td>
-      <td>${fPct(c.ctr)}</td><td>${fBRL(c.cpc)}</td><td>—</td>
-    </tr>`).join('');
+  META_CAMPAIGNS_ALL = m.campaigns || [];
+  META_ADS_ALL       = m.ads       || [];
 
-  // Tabela anúncios Meta
-  document.getElementById('tbody-meta-ads').innerHTML = m.ads.map(a => `
-    <tr>
-      <td class="td-name">${a.name}</td>
-      <td class="td-muted">—</td>
-      <td class="td-muted">${a.campaign}</td>
-      <td>${fInt(a.impressions)}</td><td>${fInt(a.clicks)}</td>
-      <td>${fPct(a.ctr)}</td><td>${fBRL(a.cpc)}</td>
-      <td>${Number(a.frequency).toFixed(2)}×</td>
-    </tr>`).join('');
+  populateMetaFilter(META_CAMPAIGNS_ALL);
+  renderMetaCampaigns();
+  renderMetaAds();
 
   // ── Seção 3: Google Ads ───────────────────────────────────────────────────
   setCard('gads-spend',       fBRL(g.spend));
@@ -812,20 +981,12 @@ function populateDashboard(d) {
   setCard('gads-conversions', fInt(g.conversions));
   setCard('gads-cpa',         fBRL(g.cpa));
 
-  // Tabela campanhas Google
-  document.getElementById('tbody-gads-campaigns').innerHTML = g.campaigns.map(c => `
-    <tr>
-      <td class="td-name">${c.name}</td>
-      <td class="td-muted">${c.type}</td>
-      <td><span class="pill ${c.status==='Enabled'?'pill-active':'pill-paused'}">● ${c.status}</span></td>
-      <td>${fBRL(c.spend)}</td><td>${fInt(c.impressions)}</td>
-      <td>${fInt(c.clicks)}</td><td>${fPct(c.ctr)}</td>
-      <td>${fBRL(c.cpc)}</td><td>${fInt(c.conversions)}</td>
-    </tr>`).join('');
+  GADS_CAMPAIGNS_ALL = g.campaigns || [];
+  populateGadsFilter(GADS_CAMPAIGNS_ALL);
+  renderGadsCampaigns();
 
-  // Keywords e search terms para paginação
-  KW_DATA    = g.keywords.map(k => [k.keyword, k.match, fInt(k.impressions), fInt(k.clicks), fPct(k.ctr), fBRL(k.cpc), k.conversions, '—']);
-  TERMS_DATA = g.search_terms.map(s => [s.term, s.keyword, fInt(s.impressions), fInt(s.clicks), fPct(s.ctr), fBRL(s.cpc)]);
+  KW_DATA    = (g.keywords    || []).map(k => [k.keyword, k.match, fInt(k.impressions), fInt(k.clicks), fPct(k.ctr), fBRL(k.cpc), fInt(k.conversions), '—']);
+  TERMS_DATA = (g.search_terms || []).map(s => [s.term, s.keyword, fInt(s.impressions), fInt(s.clicks), fPct(s.ctr), fBRL(s.cpc)]);
 
   // ── Seção 4: GA4 ─────────────────────────────────────────────────────────
   setCard('ga4-sessions',  fInt(a.sessions));
@@ -835,9 +996,8 @@ function populateDashboard(d) {
   setCard('ga4-bounce',    fPct(a.bounce_rate));
   setCard('ga4-duration',  a.duration);
 
-  // Origens para paginação
-  const maxPct = Math.max(...a.sources.map(s => s.pct), 1);
-  ORIGEM_DATA = a.sources.map(s => ({
+  const maxPct = Math.max(...(a.sources || []).map(s => s.pct), 1);
+  ORIGEM_DATA = (a.sources || []).map(s => ({
     label: `${s.source} / ${s.medium}`,
     val:   s.sessions,
     pct:   s.pct,
@@ -848,9 +1008,9 @@ function populateDashboard(d) {
   // ── Gráficos ──────────────────────────────────────────────────────────────
   const days = Math.round((new Date(end) - new Date(start)) / 86400000) + 1;
   const labels = Array.from({length:days}, (_,i) => {
-    const d = new Date(start+'T12:00:00');
-    d.setDate(d.getDate()+i);
-    return `${String(d.getDate()).padStart(2,'0')}/${String(d.getMonth()+1).padStart(2,'0')}`;
+    const dt = new Date(start+'T12:00:00');
+    dt.setDate(dt.getDate()+i);
+    return `${String(dt.getDate()).padStart(2,'0')}/${String(dt.getMonth()+1).padStart(2,'0')}`;
   });
 
   DATA.consolidated.gasto      = { meta: distribute(c.meta_spend,   days), google: distribute(c.google_spend, days) };
@@ -866,30 +1026,10 @@ function populateDashboard(d) {
   DATA.google.cliques    = DATA.consolidated.cliques.google;
 
   buildCharts(labels);
-
-  // Renderiza tabelas paginadas
   renderTable('kw');
   renderTable('terms');
   renderTable('origem');
-  updatePeriod();
 }
-
-function setCard(id, val) {
-  const el = document.getElementById(id);
-  if (el) el.textContent = val;
-}
-
-// ─── DADOS E ESTADO ──────────────────────────────────────────────────────────
-
-let KW_DATA    = [];
-let TERMS_DATA = [];
-let ORIGEM_DATA = [];
-
-const DATA = {
-  consolidated: { gasto:{meta:[],google:[]}, alcance:{meta:[],google:null}, impressoes:{meta:[],google:[]}, cliques:{meta:[],google:[]} },
-  meta:   { gasto:[], alcance:[], impressoes:[], cliques:[] },
-  google: { gasto:[], impressoes:[], cliques:[] },
-};
 
 // ─── PAGINAÇÃO ──────────────────────────────────────────────────────────────
 
@@ -898,7 +1038,7 @@ const pages = { kw:0, terms:0, origem:0 };
 
 function paginate(key, dir) {
   const data = key==='kw' ? KW_DATA : key==='terms' ? TERMS_DATA : ORIGEM_DATA;
-  const maxPage = Math.ceil(data.length / PAGE_SIZE) - 1;
+  const maxPage = Math.max(0, Math.ceil(data.length / PAGE_SIZE) - 1);
   pages[key] = Math.max(0, Math.min(pages[key]+dir, maxPage));
   renderTable(key);
 }
@@ -907,22 +1047,21 @@ function renderTable(key) {
   const data    = key==='kw' ? KW_DATA : key==='terms' ? TERMS_DATA : ORIGEM_DATA;
   const pg      = pages[key];
   const total   = data.length;
-  const maxPage = Math.ceil(total / PAGE_SIZE) - 1;
+  const maxPage = Math.max(0, Math.ceil(total / PAGE_SIZE) - 1);
   const slice   = data.slice(pg*PAGE_SIZE, pg*PAGE_SIZE+PAGE_SIZE);
-  const from    = pg*PAGE_SIZE+1;
+  const from    = total ? pg*PAGE_SIZE+1 : 0;
   const to      = Math.min(pg*PAGE_SIZE+PAGE_SIZE, total);
 
-  document.getElementById(`count-${key}`).textContent = `${from}–${to} de ${total}`;
-  document.getElementById(`page-${key}`).textContent  = `${pg+1} / ${maxPage+1}`;
+  document.getElementById(`count-${key}`).textContent = total ? `${from}–${to} de ${total}` : '0';
+  document.getElementById(`page-${key}`).textContent  = total ? `${pg+1} / ${maxPage+1}` : '—';
   document.getElementById(`prev-${key}`).disabled = pg===0;
-  document.getElementById(`next-${key}`).disabled = pg===maxPage;
+  document.getElementById(`next-${key}`).disabled = pg>=maxPage;
 
   if (key==='origem') {
-    const list = document.getElementById('origem-list');
-    list.innerHTML = slice.map(r => `
+    document.getElementById('origem-list').innerHTML = slice.map(r => `
       <div class="origem-item">
         <span class="origem-label">${r.label}</span>
-        <div class="origem-bar-wrap"><div class="origem-bar" style="width:${r.pct}%;background:${r.color}"></div></div>
+        <div class="origem-bar-wrap"><div class="origem-bar" style="width:${r.bar}%;background:${r.color}"></div></div>
         <span class="origem-val">${r.val.toLocaleString('pt-BR')}</span>
         <span class="origem-pct">${r.pct}%</span>
       </div>`).join('');
@@ -931,7 +1070,7 @@ function renderTable(key) {
 
   const tbody = document.getElementById(`tbody-${key}`);
   if (key==='kw') {
-    tbody.innerHTML = slice.map(([kw,match,imp,clk,ctr,cpc,conv,is],i) => `
+    tbody.innerHTML = slice.map(([kw,match,imp,clk,ctr,cpc,conv,is]) => `
       <tr>
         <td class="td-name">${kw}</td>
         <td class="td-muted">${match}</td>
@@ -948,28 +1087,7 @@ function renderTable(key) {
   }
 }
 
-// ─── PERÍODO E GMB ──────────────────────────────────────────────────────────
-
-function updatePeriod() {
-  const start = document.getElementById('date-start').value;
-  const end   = document.getElementById('date-end').value;
-  if (!start || !end) return;
-  const fmt = d => new Date(d+'T12:00:00').toLocaleDateString('pt-BR',{day:'2-digit',month:'long',year:'numeric'});
-  document.getElementById('footer-period').textContent = fmt(start)+' a '+fmt(end);
-
-  // Rótulo mês/ano para GMB
-  const d = new Date(start+'T12:00:00');
-  const mes = d.toLocaleDateString('pt-BR',{month:'short',year:'numeric'}).replace('. ','/')
-    .replace('.','').replace(' de ','/');;
-  document.getElementById('gmb-period-label').textContent   = `novas em ${mes}`;
-  document.getElementById('gmb-month-label').textContent    = `— ${mes}`;
-  document.getElementById('gmb-period-inline').textContent  = mes;
-}
-
-document.getElementById('date-start').addEventListener('change', updatePeriod);
-document.getElementById('date-end').addEventListener('change', updatePeriod);
-
-// ─── CHARTS (construídos após dados carregados) ───────────────────────────────
+// ─── CHARTS ──────────────────────────────────────────────────────────────────
 
 let chartC, chartM, chartG;
 
@@ -1017,7 +1135,7 @@ function switchChart(metric, btn) {
   btn.closest('.chart-toggle').querySelectorAll('.toggle-btn').forEach(b=>b.classList.remove('active'));
   btn.classList.add('active');
   const d = DATA.consolidated[metric];
-  chartC.data.datasets[0].data = d.meta;
+  chartC.data.datasets[0].data = d.meta || [];
   chartC.data.datasets[1].data = d.google || [];
   chartC.data.datasets[1].borderColor     = d.google ? '#EA4335' : 'transparent';
   chartC.data.datasets[1].backgroundColor = d.google ? '#EA433522' : 'transparent';
@@ -1026,17 +1144,17 @@ function switchChart(metric, btn) {
 function switchMetaChart(metric, btn) {
   btn.closest('.chart-toggle').querySelectorAll('.toggle-btn').forEach(b=>b.classList.remove('active'));
   btn.classList.add('active');
-  chartM.data.datasets[0].data = DATA.meta[metric];
+  chartM.data.datasets[0].data = DATA.meta[metric] || [];
   chartM.update();
 }
 function switchGoogleChart(metric, btn) {
   btn.closest('.chart-toggle').querySelectorAll('.toggle-btn').forEach(b=>b.classList.remove('active'));
   btn.classList.add('active');
-  chartG.data.datasets[0].data = DATA.google[metric];
+  chartG.data.datasets[0].data = DATA.google[metric] || [];
   chartG.update();
 }
 
-// ─── INIT — carrega data.json e popula o dashboard ───────────────────────────
+// ─── INIT ─────────────────────────────────────────────────────────────────────
 fetch('data.json')
   .then(r => r.json())
   .then(populateDashboard)
@@ -1046,8 +1164,6 @@ fetch('data.json')
       '<div style="background:#2a0a0a;border:1px solid #5a1a1a;border-radius:8px;padding:16px;margin-bottom:24px;color:#ff6b6b;font-size:13px;">⚠️ Não foi possível carregar os dados. Execute <code>fetch_acougueiro.py</code> para gerar o data.json.</div>'
     );
   });
-
-updatePeriod();
 </script>
 </body>
 </html>

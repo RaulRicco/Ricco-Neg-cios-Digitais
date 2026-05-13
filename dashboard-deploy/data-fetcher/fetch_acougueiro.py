@@ -76,10 +76,10 @@ def fetch_meta(start, end):
         "Meta account"
     )
 
-    # Campanhas
+    # Campanhas — inclui actions para resultado por objetivo
     campaigns_raw = run(
         base + ["account", "--account", META_ACCOUNT,
-                "--fields", "spend,reach,impressions,clicks,cpm,cpc,ctr,campaign_name,objective",
+                "--fields", "spend,reach,impressions,clicks,cpm,cpc,ctr,campaign_name,objective,actions",
                 "--level", "campaign"] + period,
         "Meta campaigns"
     )
@@ -94,22 +94,62 @@ def fetch_meta(start, end):
 
     totals = account[0] if account else {}
 
+    # Mapa objetivo → tipo de resultado e label
+    OBJECTIVE_MAP = {
+        "MESSAGES":           ("onsite_conversion.messaging_conversation_started_7d", "Mensagens"),
+        "LEAD_GENERATION":    ("lead",                                                "Leads"),
+        "OUTCOME_SALES":      ("purchase",                                            "Vendas"),
+        "OUTCOME_LEADS":      ("lead",                                                "Leads"),
+        "OUTCOME_ENGAGEMENT": ("post_engagement",                                     "Engajamentos"),
+        "OUTCOME_TRAFFIC":    ("link_click",                                          "Cliques"),
+        "LINK_CLICKS":        ("link_click",                                          "Cliques"),
+        "CONVERSIONS":        ("purchase",                                            "Conversões"),
+        "REACH":              ("reach",                                               "Alcance"),
+        "BRAND_AWARENESS":    ("reach",                                               "Alcance"),
+        "VIDEO_VIEWS":        ("video_view",                                          "Views"),
+        "POST_ENGAGEMENT":    ("post_engagement",                                     "Engajamentos"),
+    }
+
+    def extract_result(obj, actions, spend):
+        """Retorna (resultado_label, quantidade, custo_por_resultado)."""
+        action_key, label = OBJECTIVE_MAP.get(obj, ("link_click", "Cliques"))
+        qty = 0
+        if isinstance(actions, list):
+            for a in actions:
+                if a.get("action_type") == action_key:
+                    qty = int(float(a.get("value", 0)))
+                    break
+        cpr = round(spend / qty, 2) if qty else 0
+        return label, qty, cpr
+
     campaigns = []
     if campaigns_raw:
         for c in campaigns_raw[:20]:
+            imp = fmt_int(c.get("impressions", 0))
+            if imp == 0:
+                continue
+            spend = fmt_brl(c.get("spend", 0))
+            obj   = c.get("objective", "")
+            label, qty, cpr = extract_result(obj, c.get("actions", []), spend)
             campaigns.append({
                 "name":        c.get("campaign_name", "—"),
-                "spend":       fmt_brl(c.get("spend", 0)),
+                "objective":   obj,
+                "spend":       spend,
                 "reach":       fmt_int(c.get("reach", 0)),
-                "impressions": fmt_int(c.get("impressions", 0)),
+                "impressions": imp,
                 "clicks":      fmt_int(c.get("clicks", 0)),
                 "ctr":         fmt_pct(c.get("ctr", 0)),
                 "cpc":         fmt_brl(c.get("cpc", 0)),
+                "result_label": label,
+                "result_qty":   qty,
+                "result_cpr":   cpr,
             })
 
     ads = []
     if ads_raw:
         for a in ads_raw[:20]:
+            if fmt_int(a.get("impressions", 0)) == 0:
+                continue
             ads.append({
                 "name":        a.get("ad_name", "—"),
                 "campaign":    a.get("campaign_name", "—"),
@@ -171,6 +211,8 @@ def fetch_google_ads(start, end):
             impressions += i
             clicks      += cl
             conversions += cv
+            if i == 0:
+                continue
             ctr = fmt_pct(m.get("ctr", 0) * 100)
             cpc = fmt_brl(m.get("average_cpc", 0) / 1_000_000) if m.get("average_cpc") else 0
             campaigns.append({
@@ -191,13 +233,16 @@ def fetch_google_ads(start, end):
 
     keywords = []
     if keywords_raw:
-        for kw in keywords_raw[:50]:
+        for kw in keywords_raw[:200]:
             k = kw.get("ad_group_criterion", {})
             m = kw.get("metrics", {})
+            imp = fmt_int(m.get("impressions", 0))
+            if imp == 0:
+                continue
             keywords.append({
                 "keyword":     k.get("keyword", {}).get("text", "—"),
                 "match":       k.get("keyword", {}).get("match_type", "—").title(),
-                "impressions": fmt_int(m.get("impressions", 0)),
+                "impressions": imp,
                 "clicks":      fmt_int(m.get("clicks", 0)),
                 "ctr":         fmt_pct(m.get("ctr", 0) * 100),
                 "cpc":         fmt_brl(m.get("average_cpc", 0) / 1_000_000) if m.get("average_cpc") else 0,

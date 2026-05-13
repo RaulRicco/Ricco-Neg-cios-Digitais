@@ -4,7 +4,7 @@
     "start": "2026-04-01",
     "end": "2026-04-30"
   },
-  "gerado_em": "2026-05-12T21:16:34.596669",
+  "gerado_em": "2026-05-12T22:03:14.258767",
   "consolidado": {
     "spend": 1819.82,
     "reach": 76478,
@@ -25,102 +25,146 @@
     "campaigns": [
       {
         "name": "[CBO] [TOPO DE FUNIL] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
         "spend": 210.33,
         "reach": 28252,
         "impressions": 33972,
         "clicks": 1626,
         "ctr": 4.79,
-        "cpc": 0.13
+        "cpc": 0.13,
+        "result_label": "Cliques",
+        "result_qty": 1548,
+        "result_cpr": 0.14
       },
       {
         "name": "[CBO] [ALMOÇO] [MENSAGEM]",
+        "objective": "OUTCOME_ENGAGEMENT",
         "spend": 91.71,
         "reach": 2199,
         "impressions": 3568,
         "clicks": 78,
         "ctr": 2.19,
-        "cpc": 1.18
+        "cpc": 1.18,
+        "result_label": "Engajamentos",
+        "result_qty": 1219,
+        "result_cpr": 0.08
       },
       {
         "name": "[CBO] [HAPPY HOUR 2.0] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
         "spend": 173.31,
         "reach": 15612,
         "impressions": 19682,
         "clicks": 431,
         "ctr": 2.19,
-        "cpc": 0.4
+        "cpc": 0.4,
+        "result_label": "Cliques",
+        "result_qty": 372,
+        "result_cpr": 0.47
       },
       {
         "name": "[CBO] [PROMO DOMINGO] [MENSAGEM]",
+        "objective": "OUTCOME_ENGAGEMENT",
         "spend": 290.27,
         "reach": 10116,
         "impressions": 14838,
         "clicks": 292,
         "ctr": 1.97,
-        "cpc": 0.99
+        "cpc": 0.99,
+        "result_label": "Engajamentos",
+        "result_qty": 3554,
+        "result_cpr": 0.08
       },
       {
         "name": "[CBO] [OPEN APEROL SPRITZ] [RESERVAS]",
+        "objective": "OUTCOME_ENGAGEMENT",
         "spend": 203.56,
         "reach": 15096,
         "impressions": 27029,
         "clicks": 306,
         "ctr": 1.13,
-        "cpc": 0.67
+        "cpc": 0.67,
+        "result_label": "Engajamentos",
+        "result_qty": 3823,
+        "result_cpr": 0.05
       },
       {
         "name": "[CBO] [ANIVERSARIANTES ABRIL] [MENSAGEM]",
+        "objective": "OUTCOME_ENGAGEMENT",
         "spend": 146.11,
         "reach": 4066,
         "impressions": 6275,
         "clicks": 119,
         "ctr": 1.9,
-        "cpc": 1.23
+        "cpc": 1.23,
+        "result_label": "Engajamentos",
+        "result_qty": 1225,
+        "result_cpr": 0.12
       },
       {
         "name": "[ABO] [BALADINHA 26 REELS] [VENDAS]",
+        "objective": "OUTCOME_SALES",
         "spend": 26.06,
         "reach": 1343,
         "impressions": 1834,
         "clicks": 45,
         "ctr": 2.45,
-        "cpc": 0.58
+        "cpc": 0.58,
+        "result_label": "Vendas",
+        "result_qty": 2,
+        "result_cpr": 13.03
       },
       {
         "name": "[ABO] [FEED BALADINHA 26] [VENDAS]",
+        "objective": "OUTCOME_SALES",
         "spend": 79.03,
         "reach": 2813,
         "impressions": 5128,
         "clicks": 87,
         "ctr": 1.7,
-        "cpc": 0.91
+        "cpc": 0.91,
+        "result_label": "Vendas",
+        "result_qty": 6,
+        "result_cpr": 13.17
       },
       {
         "name": "[CBO] [BALADINHA REELS 2.0] [VENDAS]",
+        "objective": "OUTCOME_SALES",
         "spend": 99.99,
         "reach": 3820,
         "impressions": 7107,
         "clicks": 141,
         "ctr": 1.98,
-        "cpc": 0.71
+        "cpc": 0.71,
+        "result_label": "Vendas",
+        "result_qty": 31,
+        "result_cpr": 3.23
       },
       {
         "name": "[CBO] [CARNE DE ONÇA] [LEADS]",
+        "objective": "OUTCOME_LEADS",
         "spend": 34.63,
         "reach": 4800,
         "impressions": 6254,
         "clicks": 160,
         "ctr": 2.56,
-        "cpc": 0.22
+        "cpc": 0.22,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
       },
       {
         "name": "[CBO] [DIA DAS MAES] [RESERVAS]",
+        "objective": "OUTCOME_LEADS",
         "spend": 99.95,
         "reach": 5101,
         "impressions": 8148,
         "clicks": 189,
         "ctr": 2.32,
-        "cpc": 0.53
+        "cpc": 0.53,
+        "result_label": "Leads",
+        "result_qty": 3,
+        "result_cpr": 33.32
       }
     ],
     "ads": [
@@ -291,17 +335,6 @@
         "ctr": 6.23,
         "cpc": 0.23,
         "conversions": 1
-      },
-      {
-        "name": "[REDE DE PESQUISAS] [2.0]",
-        "type": "Search",
-        "status": "Enabled",
-        "spend": 0.0,
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
       }
     ],
     "keywords": [
@@ -367,393 +400,6 @@
         "ctr": 1.87,
         "cpc": 0.03,
         "conversions": 1
-      },
-      {
-        "keyword": "bar",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "drinks",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "curitiba",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "churrasco",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "pub bar",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "churrasqueiro",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "carnes para churrasco",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "Cerveja",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "barzinho com churrasco",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "picanha carne",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "carnes churrasco",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "carnes de churrasco",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "carnes e churrasco",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "melhores carnes para churrasco",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "bife para churrasco",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "cardapio de bar",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "carne para assar",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "bar e restaurante",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "melhores carnes",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "open wine",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "picanha bovina",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "bar no agua verde",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "happy hour curitiba",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "gastro bar",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "bar casa",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "brasa churrasco",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "picanha na brasa",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "melhores bares de curitiba",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "bar curitiba",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "melhores barzinhos de curitiba",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "bar churrasco",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "bar perto de mim",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "bar carne",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "bar agua verde",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "bar e churrasco",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "balada sertaneja curitiba",
-        "match": "Exact",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "bar com pagode em curitiba",
-        "match": "Exact",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "10 cervejas",
-        "match": "Exact",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "bar do açougueiro",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "o bar do açougueiro",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "açougueiro bar",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "o açougueiro bar",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "bares água verde música ao vivo",
-        "match": "Broad",
-        "impressions": 0,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
       }
     ],
     "search_terms": [
