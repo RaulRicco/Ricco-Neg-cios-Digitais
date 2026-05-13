@@ -24,7 +24,7 @@ SKILLS = Path.home() / ".claude/skills"
 META_INSIGHTS  = SKILLS / "meta-ads-ratos/scripts/insights.py"
 GADS_READ      = SKILLS / "google-ads-ratos/scripts/read.py"
 GA4_REPORTS    = SKILLS / "ga4-ratos/scripts/reports.py"
-GMB_FETCH      = Path(__file__).parent / "gmb/fetch_gmb.py"
+GBP_FETCH      = Path(__file__).parent / "gbp/fetch_gbp.py"
 
 OUT_DIR = Path(__file__).parent.parent / "pages/acougueiro-agua-verde"
 
@@ -343,42 +343,41 @@ def fetch_ga4(start, end):
         "event_list":  event_list[:12],
     }
 
-# ─── Coleta GMB ──────────────────────────────────────────────────────────────
-def fetch_gmb(start, end):
-    print("🟢 GMB — coletando...", flush=True)
-    if not GMB_FETCH.exists():
-        print("   ⚠️  fetch_gmb.py não encontrado", file=sys.stderr)
+# ─── Coleta GBP (via LocalSEO Data API) ──────────────────────────────────────
+def fetch_gbp(start, end):
+    print("🟢 GBP — coletando via LocalSEO Data...", flush=True)
+    if not GBP_FETCH.exists():
+        print("   ⚠️  fetch_gbp.py não encontrado", file=sys.stderr)
         return None
     result = subprocess.run(
-        [sys.executable, str(GMB_FETCH), "--start", start, "--end", end],
+        [sys.executable, str(GBP_FETCH), "--start", start, "--end", end],
         capture_output=True, text=True, timeout=90
     )
     if result.returncode != 0:
-        print(f"   ⚠️  GMB: {result.stderr[-300:]}", file=sys.stderr)
+        print(f"   ⚠️  GBP: {result.stderr[-300:]}", file=sys.stderr)
         return None
-    # O fetch_gmb.py delimita o JSON com GMB_JSON_START / GMB_JSON_END
     text = result.stdout
     try:
-        s = text.index("GMB_JSON_START") + len("GMB_JSON_START")
-        e = text.index("GMB_JSON_END")
+        s = text.index("GBP_JSON_START") + len("GBP_JSON_START")
+        e = text.index("GBP_JSON_END")
         json_text = text[s:e].strip()
     except ValueError:
-        print("   ⚠️  GMB: marcador JSON não encontrado", file=sys.stderr)
+        print("   ⚠️  GBP: marcador JSON não encontrado", file=sys.stderr)
         return None
     try:
-        gmb_data = json.loads(json_text)
+        gbp_data = json.loads(json_text)
         return {
-            "visitas":      gmb_data.get("visitas", 0),
-            "rotas":        gmb_data.get("rotas", 0),
-            "cliques_site": gmb_data.get("cliques_site", 0),
-            "ligacoes":     gmb_data.get("ligacoes", 0),
-            "nota":         gmb_data.get("nota", 0.0),
-            "total_avaliacoes": gmb_data.get("total_avaliacoes_acumulado", 0),
-            "avaliacoes_mes":   gmb_data.get("avaliacoes_mes", 0),
-            "avaliacoes":       gmb_data.get("avaliacoes", []),
+            "visitas":          gbp_data.get("visitas", 0),
+            "rotas":            gbp_data.get("rotas", 0),
+            "cliques_site":     gbp_data.get("cliques_site", 0),
+            "ligacoes":         gbp_data.get("ligacoes", 0),
+            "nota":             gbp_data.get("nota", 0.0),
+            "total_avaliacoes": gbp_data.get("total_avaliacoes_acumulado", 0),
+            "avaliacoes_mes":   gbp_data.get("avaliacoes_mes", 0),
+            "avaliacoes":       gbp_data.get("avaliacoes", []),
         }
     except Exception as e:
-        print(f"   ⚠️  GMB parse error: {e}", file=sys.stderr)
+        print(f"   ⚠️  GBP parse error: {e}", file=sys.stderr)
         return None
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
@@ -414,7 +413,7 @@ def main():
     meta   = fetch_meta(start, end)
     google = fetch_google_ads(start, end)
     ga4    = fetch_ga4(start, end)
-    gmb    = fetch_gmb(start, end)
+    gmb    = fetch_gbp(start, end)
 
     data = {
         "cliente":   "Bar do Açougueiro — Água Verde",
@@ -443,10 +442,10 @@ def main():
     print(f"   Google spend: R$ {google['spend']}")
     print(f"   GA4 sessões:  {ga4['sessions']}")
     if gmb:
-        print(f"   GMB visitas:  {gmb['visitas']:,}")
-        print(f"   GMB nota:     {gmb['nota']} ★")
+        print(f"   GBP nota:          {gmb['nota']} ★")
+        print(f"   GBP avaliações:    {gmb['avaliacoes_mes']} no período  |  {gmb['total_avaliacoes']} total")
     else:
-        print("   GMB:          não disponível (verifique cota da API)")
+        print("   GBP:          não disponível")
 
 if __name__ == "__main__":
     main()
