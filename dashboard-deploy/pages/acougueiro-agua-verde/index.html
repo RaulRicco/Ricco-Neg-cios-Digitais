@@ -345,11 +345,40 @@
     .section { page-break-inside: avoid; }
   }
 </style>
+<style>
+  #login-overlay{position:fixed;inset:0;background:#0a0a0a;z-index:9999;display:flex;align-items:center;justify-content:center;}
+  #login-overlay.hidden{display:none;}
+  .login-box{background:#141414;border:1px solid #222;border-radius:16px;padding:40px;width:100%;max-width:380px;}
+  .login-badge{display:inline-block;background:#a3e635;color:#000;font-size:10px;font-weight:800;padding:4px 10px;border-radius:6px;letter-spacing:0.06em;text-transform:uppercase;margin-bottom:20px;}
+  .login-h1{font-size:20px;font-weight:800;margin-bottom:6px;}
+  .login-sub{font-size:13px;color:#666;margin-bottom:28px;}
+  .login-label{display:block;font-size:11px;font-weight:600;color:#888;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:8px;}
+  .login-input{width:100%;background:#1a1a1a;border:1px solid #333;border-radius:8px;color:#fff;font-family:'Inter',sans-serif;font-size:14px;font-weight:600;padding:12px 14px;outline:none;transition:border-color .15s;}
+  .login-input:focus{border-color:#a3e635;}
+  .login-btn{width:100%;background:#a3e635;color:#000;font-family:'Inter',sans-serif;font-size:14px;font-weight:800;padding:12px;border:none;border-radius:8px;cursor:pointer;margin-top:14px;transition:opacity .15s;}
+  .login-btn:hover{opacity:0.9;}
+  .login-error{background:#2a0a0a;border:1px solid #5a1a1a;border-radius:8px;padding:10px 14px;font-size:13px;color:#ff6b6b;margin-bottom:16px;display:none;}
+  .login-footer{text-align:center;font-size:11px;color:#444;margin-top:24px;}
+</style>
 </head>
 <body>
 
+<!-- LOGIN OVERLAY -->
+<div id="login-overlay">
+  <div class="login-box">
+    <div class="login-badge">Ricco</div>
+    <h1 class="login-h1">Bar do Açougueiro — Água Verde</h1>
+    <p class="login-sub">Dashboard de Performance</p>
+    <div class="login-error" id="login-error">Senha incorreta. Tente novamente.</div>
+    <label class="login-label">Senha de acesso</label>
+    <input class="login-input" type="password" id="login-pwd" placeholder="••••••••••" autofocus>
+    <button class="login-btn" onclick="doLogin()">Entrar</button>
+    <p class="login-footer">Ricco Negócios Digitais</p>
+  </div>
+</div>
+
 <!-- TOPBAR -->
-<nav class="topbar">
+<nav class="topbar" style="display:none" id="main-nav">
   <div class="topbar-left">
     <span class="logo-badge">Ricco</span>
     <span class="client-name-top">Bar do Açougueiro — Água Verde</span>
@@ -400,7 +429,7 @@
   </div>
 </nav>
 
-<main class="main">
+<main class="main" id="main-content" style="display:none">
 
   <!-- ═══════════════════════════════════════════════
        SEÇÃO 1 — INVESTIMENTO CONSOLIDADO
@@ -1528,16 +1557,49 @@ function switchChart(metric, btn) {
   chartC.update();
 }
 
-// ─── INIT ─────────────────────────────────────────────────────────────────────
-fetch('data.json')
-  .then(r => r.json())
-  .then(populateDashboard)
-  .catch(err => {
-    console.error('Erro ao carregar data.json:', err);
-    document.querySelector('.main').insertAdjacentHTML('afterbegin',
-      '<div style="background:#2a0a0a;border:1px solid #5a1a1a;border-radius:8px;padding:16px;margin-bottom:24px;color:#ff6b6b;font-size:13px;">⚠️ Não foi possível carregar os dados. Execute <code>fetch_acougueiro.py</code> para gerar o data.json.</div>'
-    );
-  });
+// ─── AUTH ──────────────────────────────────────────────────────────────────────
+const SENHA_HASH = "f9eec7ffeb37d13c34029bcfd3b736255267590be424fbc27dffcc6824fd1117";
+
+async function sha256(s) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s));
+  return Array.from(new Uint8Array(buf)).map(b=>b.toString(16).padStart(2,'0')).join('');
+}
+
+async function doLogin() {
+  const pwd = document.getElementById('login-pwd').value;
+  const h = await sha256(pwd);
+  if (h === SENHA_HASH) {
+    sessionStorage.setItem('ricco_auth_acougueiro-agua-verde', '1');
+    showDashboard();
+  } else {
+    document.getElementById('login-error').style.display = 'block';
+    document.getElementById('login-pwd').value = '';
+    document.getElementById('login-pwd').focus();
+  }
+}
+
+document.getElementById('login-pwd').addEventListener('keydown', e => {
+  if (e.key === 'Enter') doLogin();
+});
+
+function showDashboard() {
+  document.getElementById('login-overlay').classList.add('hidden');
+  document.getElementById('main-nav').style.display = '';
+  document.getElementById('main-content').style.display = '';
+  fetch('data.json')
+    .then(r => r.json())
+    .then(populateDashboard)
+    .catch(err => {
+      console.error('Erro ao carregar data.json:', err);
+      document.querySelector('.main').insertAdjacentHTML('afterbegin',
+        '<div style="background:#2a0a0a;border:1px solid #5a1a1a;border-radius:8px;padding:16px;margin-bottom:24px;color:#ff6b6b;font-size:13px;">⚠️ Não foi possível carregar os dados. Execute <code>fetch_acougueiro.py</code> para gerar o data.json.</div>'
+      );
+    });
+}
+
+if (sessionStorage.getItem('ricco_auth_acougueiro-agua-verde') === '1') {
+  showDashboard();
+}
 </script>
 </body>
 </html>

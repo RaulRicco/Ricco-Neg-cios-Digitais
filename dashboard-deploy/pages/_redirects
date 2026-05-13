@@ -1,9 +1,63 @@
 # Cloudflare Pages — Redirects
-# Cada slug aponta para a pasta do cliente dentro de /pages
+# Gerado automaticamente por generate_dashboards.py
 
 /acougueiro-agua-verde     /acougueiro-agua-verde/index.html  200
 /acougueiro-agua-verde/    /acougueiro-agua-verde/index.html  200
-
-# Próximos clientes — adicionar aqui:
-# /bebedouro-pampulha     /bebedouro-pampulha/index.html     200
-# /boi-dourado            /boi-dourado/index.html             200
+/acougueiro-bacacheri     /acougueiro-bacacheri/index.html  200
+/acougueiro-bacacheri/    /acougueiro-bacacheri/index.html  200
+/acougueiro-batel     /acougueiro-batel/index.html  200
+/acougueiro-batel/    /acougueiro-batel/index.html  200
+/quermesse-bom-retiro     /quermesse-bom-retiro/index.html  200
+/quermesse-bom-retiro/    /quermesse-bom-retiro/index.html  200
+/quermesse-ecoville     /quermesse-ecoville/index.html  200
+/quermesse-ecoville/    /quermesse-ecoville/index.html  200
+/floreria     /floreria/index.html  200
+/floreria/    /floreria/index.html  200
+/boi-dourado     /boi-dourado/index.html  200
+/boi-dourado/    /boi-dourado/index.html  200
+/bebedouro     /bebedouro/index.html  200
+/bebedouro/    /bebedouro/index.html  200
+/balcao-savassi     /balcao-savassi/index.html  200
+/balcao-savassi/    /balcao-savassi/index.html  200
+/ameriparts     /ameriparts/index.html  200
+/ameriparts/    /ameriparts/index.html  200
+/comodoro-burguer     /comodoro-burguer/index.html  200
+/comodoro-burguer/    /comodoro-burguer/index.html  200
+/bsbichos     /bsbichos/index.html  200
+/bsbichos/    /bsbichos/index.html  200
+/bistecao     /bistecao/index.html  200
+/bistecao/    /bistecao/index.html  200
+/garage-burger     /garage-burger/index.html  200
+/garage-burger/    /garage-burger/index.html  200
+/dona-cleide     /dona-cleide/index.html  200
+/dona-cleide/    /dona-cleide/index.html  200
+/seu-barbudo     /seu-barbudo/index.html  200
+/seu-barbudo/    /seu-barbudo/index.html  200
+/horus     /horus/index.html  200
+/horus/    /horus/index.html  200
+/sol-e-lar     /sol-e-lar/index.html  200
+/sol-e-lar/    /sol-e-lar/index.html  200
+/solar-e-cia     /solar-e-cia/index.html  200
+/solar-e-cia/    /solar-e-cia/index.html  200
+/fish-me     /fish-me/index.html  200
+/fish-me/    /fish-me/index.html  200
+/porks-asa-sul     /porks-asa-sul/index.html  200
+/porks-asa-sul/    /porks-asa-sul/index.html  200
+/porks-asa-norte     /porks-asa-norte/index.html  200
+/porks-asa-norte/    /porks-asa-norte/index.html  200
+/porks-samambaia     /porks-samambaia/index.html  200
+/porks-samambaia/    /porks-samambaia/index.html  200
+/porks-guara     /porks-guara/index.html  200
+/porks-guara/    /porks-guara/index.html  200
+/porks-tres-lagoas     /porks-tres-lagoas/index.html  200
+/porks-tres-lagoas/    /porks-tres-lagoas/index.html  200
+/porks-casarao     /porks-casarao/index.html  200
+/porks-casarao/    /porks-casarao/index.html  200
+/porks-castelo     /porks-castelo/index.html  200
+/porks-castelo/    /porks-castelo/index.html  200
+/porks-pirenopolis     /porks-pirenopolis/index.html  200
+/porks-pirenopolis/    /porks-pirenopolis/index.html  200
+/boteco-do-quintal     /boteco-do-quintal/index.html  200
+/boteco-do-quintal/    /boteco-do-quintal/index.html  200
+/quintal-piri     /quintal-piri/index.html  200
+/quintal-piri/    /quintal-piri/index.html  200
