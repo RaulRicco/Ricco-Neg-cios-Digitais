@@ -45,11 +45,22 @@
   .client-name-top { font-size: 16px; font-weight: 700; }
   .topbar-right { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
   .period-label { font-size: 12px; color: var(--text-muted); white-space: nowrap; }
-  .period-value {
+
+  /* ─── PERIOD DATE INPUTS ─── */
+  .period-inputs { display: flex; align-items: center; gap: 6px; }
+  .period-date-input {
     background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px;
     color: var(--text); font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 600;
-    padding: 6px 14px; white-space: nowrap;
+    padding: 5px 10px; cursor: pointer; outline: none;
+    color-scheme: dark;
   }
+  .period-date-input:focus { border-color: var(--green); }
+  .period-sep { font-size: 12px; color: var(--text-muted); }
+  .period-approx-note {
+    font-size: 11px; color: var(--analytics-orange); white-space: nowrap;
+    display: none;
+  }
+
   .btn-export {
     background: transparent; border: 1px solid var(--border); border-radius: 8px;
     color: var(--text-muted); font-family: 'Inter', sans-serif; font-size: 12px;
@@ -57,26 +68,63 @@
   }
   .btn-export:hover { border-color: var(--green); color: var(--green); }
 
-  /* ─── CAMPAIGN FILTER ─── */
-  .campaign-filter {
-    display: flex; align-items: center; gap: 10px; margin-bottom: 20px; flex-wrap: wrap;
-  }
-  .filter-label { font-size: 12px; color: var(--text-muted); font-weight: 600; white-space: nowrap; }
-  .filter-select {
+  /* ─── MULTI-SELECT DROPDOWN ─── */
+  .ms-wrap { position: relative; }
+  .ms-trigger {
     background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px;
-    color: var(--text); font-family: 'Inter', sans-serif; font-size: 13px;
-    padding: 6px 12px; cursor: pointer; outline: none; min-width: 220px; max-width: 480px;
-    appearance: none; -webkit-appearance: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23666' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");
-    background-repeat: no-repeat; background-position: right 12px center; padding-right: 32px;
+    color: var(--text); font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 600;
+    padding: 5px 10px; cursor: pointer; display: flex; align-items: center; gap: 7px;
+    white-space: nowrap; transition: border-color .15s; min-width: 160px;
   }
-  .filter-select:focus { border-color: var(--green); }
-  .filter-clear {
-    background: none; border: 1px solid var(--border); border-radius: 8px;
-    color: var(--text-muted); font-family: 'Inter', sans-serif; font-size: 12px;
-    font-weight: 600; padding: 6px 12px; cursor: pointer; transition: all .15s;
+  .ms-trigger:hover { border-color: #444; }
+  .ms-trigger.open  { border-color: var(--green); }
+  .ms-badge {
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 10px; font-weight: 900; border-radius: 4px;
+    padding: 2px 6px; flex-shrink: 0;
   }
-  .filter-clear:hover { border-color: var(--green); color: var(--green); }
+  .ms-badge-meta   { background: var(--meta-blue); color: #fff; }
+  .ms-badge-google { background: var(--google-red); color: #fff; }
+  .ms-label { flex: 1; text-align: left; font-size: 12px; color: var(--text-sub); }
+  .ms-label.filtered { color: var(--text); }
+  .ms-arrow { font-size: 10px; color: var(--text-muted); transition: transform .15s; }
+  .ms-trigger.open .ms-arrow { transform: rotate(180deg); }
+
+  .ms-dropdown {
+    position: absolute; top: calc(100% + 6px); right: 0; z-index: 200;
+    background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px;
+    min-width: 240px; max-width: 320px; box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+    display: none; flex-direction: column; overflow: hidden;
+  }
+  .ms-dropdown.open { display: flex; }
+  .ms-dropdown-header {
+    padding: 10px 14px 8px; border-bottom: 1px solid var(--border);
+    font-size: 11px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .ms-clear-btn {
+    background: none; border: none; cursor: pointer; color: var(--green);
+    font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600; padding: 0;
+  }
+  .ms-options { max-height: 220px; overflow-y: auto; padding: 6px 0; }
+  .ms-option {
+    display: flex; align-items: center; gap: 10px;
+    padding: 8px 14px; cursor: pointer; font-size: 13px; font-weight: 500;
+    transition: background .1s;
+  }
+  .ms-option:hover { background: #1a1a1a; }
+  .ms-checkbox {
+    width: 16px; height: 16px; border: 1.5px solid #444; border-radius: 4px;
+    flex-shrink: 0; display: flex; align-items: center; justify-content: center;
+    transition: all .15s;
+  }
+  .ms-option.selected .ms-checkbox {
+    background: var(--green); border-color: var(--green);
+  }
+  .ms-option.selected .ms-checkbox::after {
+    content: '✓'; font-size: 10px; color: #000; font-weight: 900;
+  }
+  .ms-option-name { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
   /* ─── MAIN ─── */
   .main { max-width: 1200px; margin: 0 auto; padding: 40px 32px 80px; }
@@ -235,6 +283,12 @@
     background: none; border: none; font-family: 'Inter', sans-serif;
   }
 
+  /* ─── GMB UNAVAILABLE ─── */
+  .gmb-unavailable {
+    font-size: 12px; color: var(--text-muted); font-style: italic;
+    padding: 8px 0; margin-top: 8px;
+  }
+
   /* ─── FOOTER ─── */
   .footer {
     text-align: center; padding: 32px 0 0; border-top: 1px solid var(--border);
@@ -249,10 +303,11 @@
     .cards-grid { grid-template-columns: repeat(2, 1fr); }
     .eventos-grid { grid-template-columns: repeat(2, 1fr); }
     .origem-label { min-width: 120px; }
+    .ms-dropdown { right: auto; left: 0; }
   }
   @media print {
     .topbar { position: static; }
-    .btn-export, .toggle-btn, .nav-btn { display: none; }
+    .btn-export, .toggle-btn, .nav-btn, .ms-wrap { display: none; }
     .section { page-break-inside: avoid; }
   }
 </style>
@@ -267,7 +322,45 @@
   </div>
   <div class="topbar-right">
     <span class="period-label">Período:</span>
-    <span class="period-value" id="period-display">—</span>
+    <div class="period-inputs">
+      <input type="date" class="period-date-input" id="period-start" onchange="onPeriodChange()">
+      <span class="period-sep">→</span>
+      <input type="date" class="period-date-input" id="period-end" onchange="onPeriodChange()">
+    </div>
+    <span class="period-approx-note" id="approx-note">Filtragem aproximada — para dados exatos, gere novo data.json</span>
+
+    <!-- Multi-select Meta -->
+    <div class="ms-wrap" id="ms-meta-wrap">
+      <button class="ms-trigger" id="ms-meta-trigger" onclick="toggleMs('meta')">
+        <span class="ms-badge ms-badge-meta">f</span>
+        <span class="ms-label" id="ms-meta-label">Todas as campanhas</span>
+        <span class="ms-arrow">▼</span>
+      </button>
+      <div class="ms-dropdown" id="ms-meta-dropdown">
+        <div class="ms-dropdown-header">
+          Meta Ads
+          <button class="ms-clear-btn" onclick="clearMs('meta')">Limpar</button>
+        </div>
+        <div class="ms-options" id="ms-meta-options"></div>
+      </div>
+    </div>
+
+    <!-- Multi-select Google -->
+    <div class="ms-wrap" id="ms-google-wrap">
+      <button class="ms-trigger" id="ms-google-trigger" onclick="toggleMs('google')">
+        <span class="ms-badge ms-badge-google">G</span>
+        <span class="ms-label" id="ms-google-label">Todas as campanhas</span>
+        <span class="ms-arrow">▼</span>
+      </button>
+      <div class="ms-dropdown" id="ms-google-dropdown">
+        <div class="ms-dropdown-header">
+          Google Ads
+          <button class="ms-clear-btn" onclick="clearMs('google')">Limpar</button>
+        </div>
+        <div class="ms-options" id="ms-google-options"></div>
+      </div>
+    </div>
+
     <button class="btn-export" onclick="window.print()">↓ Exportar PDF</button>
   </div>
 </nav>
@@ -399,16 +492,7 @@
       </div>
     </div>
 
-    <!-- Filtro campanha Meta -->
-    <div class="campaign-filter">
-      <span class="filter-label">Filtrar por campanha:</span>
-      <select class="filter-select" id="filter-meta-campaign" onchange="applyMetaFilter()">
-        <option value="">Todas as campanhas</option>
-      </select>
-      <button class="filter-clear" onclick="clearMetaFilter()">Limpar</button>
-    </div>
-
-    <!-- Tabela campanhas -->
+    <!-- Tabela campanhas Meta -->
     <div class="table-block">
       <div class="table-title">Campanhas</div>
       <div class="table-wrap">
@@ -425,7 +509,7 @@
       </div>
     </div>
 
-    <!-- Tabela anúncios -->
+    <!-- Tabela anúncios Meta -->
     <div class="table-block">
       <div class="table-title">Anúncios</div>
       <div class="table-wrap">
@@ -502,16 +586,7 @@
       </div>
     </div>
 
-    <!-- Filtro campanha Google -->
-    <div class="campaign-filter">
-      <span class="filter-label">Filtrar por campanha:</span>
-      <select class="filter-select" id="filter-gads-campaign" onchange="applyGadsFilter()">
-        <option value="">Todas as campanhas</option>
-      </select>
-      <button class="filter-clear" onclick="clearGadsFilter()">Limpar</button>
-    </div>
-
-    <!-- Tabela campanhas -->
+    <!-- Tabela campanhas Google -->
     <div class="table-block">
       <div class="table-title">Campanhas</div>
       <div class="table-wrap">
@@ -688,62 +763,43 @@
     <div class="cards-grid">
       <div class="card card-accent-gmb">
         <div class="card-label">Visitas ao Perfil</div>
-        <div class="card-value">3.400</div>
+        <div class="card-value" id="gmb-visitas">—</div>
         <div class="card-sub">buscas e maps</div>
       </div>
       <div class="card">
         <div class="card-label">Rotas Solicitadas</div>
-        <div class="card-value">280</div>
+        <div class="card-value" id="gmb-rotas">—</div>
         <div class="card-sub">no Google Maps</div>
       </div>
       <div class="card">
         <div class="card-label">Cliques no Site</div>
-        <div class="card-value">95</div>
+        <div class="card-value" id="gmb-site">—</div>
         <div class="card-sub">via perfil GMB</div>
       </div>
       <div class="card">
+        <div class="card-label">Ligações</div>
+        <div class="card-value" id="gmb-ligacoes">—</div>
+        <div class="card-sub">chamadas via perfil</div>
+      </div>
+      <div class="card">
         <div class="card-label">Avaliações no Mês</div>
-        <div class="card-value">12</div>
-        <div class="card-sub" id="gmb-period-label">novas em mai/2026</div>
+        <div class="card-value" id="gmb-avaliacoes-mes">—</div>
+        <div class="card-sub" id="gmb-period-label">—</div>
       </div>
       <div class="card">
         <div class="card-label">Nota Atual</div>
-        <div class="card-value" style="display:flex;align-items:baseline;gap:6px;">
-          4,7<span style="color:var(--analytics-orange);font-size:18px;">★</span>
-        </div>
-        <div class="card-sub">total acumulado: 312</div>
+        <div class="card-value" id="gmb-nota" style="display:flex;align-items:baseline;gap:6px;">—</div>
+        <div class="card-sub" id="gmb-total-aval">total acumulado: —</div>
       </div>
     </div>
 
     <!-- Novas avaliações do mês -->
     <div class="table-title" style="margin-bottom:12px;">Novas Avaliações do Mês <span style="color:var(--text-sub);font-weight:400;text-transform:none;letter-spacing:0;" id="gmb-month-label"></span></div>
-    <div class="reviews-list">
-      <div class="review-item">
-        <div class="review-top">
-          <span class="review-author">Mariana Oliveira</span>
-          <span class="review-date">03/05/2026</span>
-        </div>
-        <div class="review-stars">★★★★★</div>
-        <div class="review-text">Melhor boteco de Curitiba sem dúvida! Petiscos perfeitos, ambiente ótimo e atendimento nota 10.</div>
-      </div>
-      <div class="review-item">
-        <div class="review-top">
-          <span class="review-author">Carlos Henrique</span>
-          <span class="review-date">07/05/2026</span>
-        </div>
-        <div class="review-stars">★★★★★</div>
-        <div class="review-text">Fui no happy hour e saí super satisfeito. Chopp gelado, petisco de qualidade. Já virou ponto fixo aqui em casa.</div>
-      </div>
-      <div class="review-item">
-        <div class="review-top">
-          <span class="review-author">Patricia Lima</span>
-          <span class="review-date">12/05/2026</span>
-        </div>
-        <div class="review-stars">★★★★☆</div>
-        <div class="review-text">Comida boa e ambiente agradável. Só achei que o delivery demorou um pouco mais do estimado, mas o sabor compensou.</div>
-      </div>
+    <div id="gmb-reviews-wrapper">
+      <div class="reviews-list" id="tbody-gmb-reviews-list"></div>
+      <p id="gmb-reviews-count" style="font-size:12px;color:var(--text-muted);margin-top:12px;"></p>
+      <p class="gmb-unavailable" id="gmb-unavailable-note" style="display:none;">Dados GMB não disponíveis neste relatório.</p>
     </div>
-    <p style="font-size:12px;color:var(--text-muted);margin-top:12px;">Exibindo 3 de 12 avaliações recebidas em <span id="gmb-period-inline">mai/2026</span>.</p>
   </section>
 
   <!-- FOOTER -->
@@ -793,8 +849,16 @@ let ORIGEM_DATA = [];
 let META_CAMPAIGNS_ALL = [];
 let GADS_CAMPAIGNS_ALL = [];
 let META_ADS_ALL = [];
-let ACTIVE_META_CAMP = '';
-let ACTIVE_GADS_CAMP = '';
+
+// Multi-select state
+let MS_META_SELECTED   = new Set(); // set of campaign names
+let MS_GOOGLE_SELECTED = new Set();
+
+// Period state
+let PERIOD_START_FULL = ''; // YYYY-MM-DD full month start
+let PERIOD_END_FULL   = ''; // YYYY-MM-DD full month end
+let PERIOD_DAYS_FULL  = 0;
+let ALL_CHART_LABELS  = [];
 
 const DATA = {
   consolidated: { gasto:{meta:[],google:[]}, alcance:{meta:[],google:null}, impressoes:{meta:[],google:[]}, cliques:{meta:[],google:[]} },
@@ -802,52 +866,215 @@ const DATA = {
   google: { gasto:[], impressoes:[], cliques:[] },
 };
 
-// ─── FILTROS DE CAMPANHA ──────────────────────────────────────────────────────
+// ─── MULTI-SELECT LOGIC ───────────────────────────────────────────────────────
 
-function populateMetaFilter(campaigns) {
-  const sel = document.getElementById('filter-meta-campaign');
-  sel.innerHTML = '<option value="">Todas as campanhas</option>' +
-    campaigns.map(c => `<option value="${c.name}">${c.name}</option>`).join('');
+function toggleMs(platform) {
+  const trigger  = document.getElementById(`ms-${platform}-trigger`);
+  const dropdown = document.getElementById(`ms-${platform}-dropdown`);
+  const isOpen   = dropdown.classList.contains('open');
+
+  // Close all dropdowns first
+  document.querySelectorAll('.ms-dropdown').forEach(d => d.classList.remove('open'));
+  document.querySelectorAll('.ms-trigger').forEach(t => t.classList.remove('open'));
+
+  if (!isOpen) {
+    dropdown.classList.add('open');
+    trigger.classList.add('open');
+  }
 }
 
-function populateGadsFilter(campaigns) {
-  const sel = document.getElementById('filter-gads-campaign');
-  sel.innerHTML = '<option value="">Todas as campanhas</option>' +
-    campaigns.map(c => `<option value="${c.name}">${c.name}</option>`).join('');
+function buildMsOptions(platform, campaigns) {
+  const container = document.getElementById(`ms-${platform === 'meta' ? 'meta' : 'google'}-options`);
+  const selected  = platform === 'meta' ? MS_META_SELECTED : MS_GOOGLE_SELECTED;
+
+  container.innerHTML = campaigns.map(c => `
+    <div class="ms-option${selected.has(c.name) ? ' selected' : ''}"
+         onclick="toggleMsOption('${platform}', ${JSON.stringify(c.name)}, this)">
+      <div class="ms-checkbox"></div>
+      <span class="ms-option-name" title="${c.name}">${c.name}</span>
+    </div>`).join('');
 }
 
-function applyMetaFilter() {
-  ACTIVE_META_CAMP = document.getElementById('filter-meta-campaign').value;
-  renderMetaCampaigns();
-  renderMetaAds();
+function toggleMsOption(platform, name, el) {
+  const selected = platform === 'meta' ? MS_META_SELECTED : MS_GOOGLE_SELECTED;
+  if (selected.has(name)) {
+    selected.delete(name);
+    el.classList.remove('selected');
+  } else {
+    selected.add(name);
+    el.classList.add('selected');
+  }
+  updateMsLabel(platform);
+  applyPlatformFilter(platform);
 }
 
-function clearMetaFilter() {
-  document.getElementById('filter-meta-campaign').value = '';
-  ACTIVE_META_CAMP = '';
-  renderMetaCampaigns();
-  renderMetaAds();
+function clearMs(platform) {
+  const selected = platform === 'meta' ? MS_META_SELECTED : MS_GOOGLE_SELECTED;
+  selected.clear();
+  const key = platform === 'meta' ? 'meta' : 'google';
+  buildMsOptions(key, platform === 'meta' ? META_CAMPAIGNS_ALL : GADS_CAMPAIGNS_ALL);
+  updateMsLabel(key);
+  applyPlatformFilter(key);
 }
 
-function applyGadsFilter() {
-  ACTIVE_GADS_CAMP = document.getElementById('filter-gads-campaign').value;
-  renderGadsCampaigns();
-  renderKwAndTerms();
+function updateMsLabel(platform) {
+  const selected = platform === 'meta' ? MS_META_SELECTED : MS_GOOGLE_SELECTED;
+  const label    = document.getElementById(`ms-${platform}-label`);
+  const n = selected.size;
+  if (n === 0) {
+    label.textContent = 'Todas as campanhas';
+    label.classList.remove('filtered');
+  } else if (n === 1) {
+    label.textContent = [...selected][0];
+    label.classList.add('filtered');
+  } else {
+    label.textContent = `${n} campanhas`;
+    label.classList.add('filtered');
+  }
 }
 
-function clearGadsFilter() {
-  document.getElementById('filter-gads-campaign').value = '';
-  ACTIVE_GADS_CAMP = '';
-  renderGadsCampaigns();
-  renderKwAndTerms();
+function applyPlatformFilter(platform) {
+  if (platform === 'meta') {
+    renderMetaSection();
+  } else {
+    renderGoogleSection();
+  }
 }
 
-// ─── RENDER TABELAS META ──────────────────────────────────────────────────────
+// Close dropdowns on outside click
+document.addEventListener('click', e => {
+  if (!e.target.closest('.ms-wrap')) {
+    document.querySelectorAll('.ms-dropdown').forEach(d => d.classList.remove('open'));
+    document.querySelectorAll('.ms-trigger').forEach(t => t.classList.remove('open'));
+  }
+});
 
-function renderMetaCampaigns() {
-  const list = ACTIVE_META_CAMP
-    ? META_CAMPAIGNS_ALL.filter(c => c.name === ACTIVE_META_CAMP)
+// ─── PERIOD FILTER ────────────────────────────────────────────────────────────
+
+function onPeriodChange() {
+  const startVal = document.getElementById('period-start').value;
+  const endVal   = document.getElementById('period-end').value;
+  if (!startVal || !endVal) return;
+
+  const startD = new Date(startVal + 'T12:00:00');
+  const endD   = new Date(endVal   + 'T12:00:00');
+  if (endD < startD) return;
+
+  const fullStartD = new Date(PERIOD_START_FULL + 'T12:00:00');
+  const fullEndD   = new Date(PERIOD_END_FULL   + 'T12:00:00');
+
+  const daysSelected = Math.round((endD - startD) / 86400000) + 1;
+  const isFullPeriod = startVal === PERIOD_START_FULL && endVal === PERIOD_END_FULL;
+
+  const approxNote = document.getElementById('approx-note');
+  if (isFullPeriod) {
+    approxNote.style.display = 'none';
+  } else {
+    approxNote.style.display = 'inline';
+  }
+
+  // Compute ratio for approximate scaling
+  const ratio = PERIOD_DAYS_FULL > 0 ? daysSelected / PERIOD_DAYS_FULL : 1;
+
+  // Slice chart labels and arrays to the selected range
+  const startIdx = Math.round((startD - fullStartD) / 86400000);
+  const endIdx   = Math.round((endD   - fullStartD) / 86400000);
+  const slicedLabels = ALL_CHART_LABELS.slice(startIdx, endIdx + 1);
+
+  // Rebuild sliced DATA
+  DATA.consolidated.gasto.meta    = DATA._raw.consolidated.gasto.meta.slice(startIdx, endIdx + 1);
+  DATA.consolidated.gasto.google  = DATA._raw.consolidated.gasto.google.slice(startIdx, endIdx + 1);
+  DATA.consolidated.alcance.meta  = DATA._raw.consolidated.alcance.meta.slice(startIdx, endIdx + 1);
+  DATA.consolidated.impressoes.meta   = DATA._raw.consolidated.impressoes.meta.slice(startIdx, endIdx + 1);
+  DATA.consolidated.impressoes.google = DATA._raw.consolidated.impressoes.google.slice(startIdx, endIdx + 1);
+  DATA.consolidated.cliques.meta   = DATA._raw.consolidated.cliques.meta.slice(startIdx, endIdx + 1);
+  DATA.consolidated.cliques.google = DATA._raw.consolidated.cliques.google.slice(startIdx, endIdx + 1);
+  DATA.meta.gasto      = DATA.consolidated.gasto.meta;
+  DATA.meta.alcance    = DATA.consolidated.alcance.meta;
+  DATA.meta.impressoes = DATA.consolidated.impressoes.meta;
+  DATA.meta.cliques    = DATA.consolidated.cliques.meta;
+  DATA.google.gasto      = DATA.consolidated.gasto.google;
+  DATA.google.impressoes = DATA.consolidated.impressoes.google;
+  DATA.google.cliques    = DATA.consolidated.cliques.google;
+
+  buildCharts(slicedLabels);
+
+  // Scale consolidated cards (section 1 always shows full totals — only update if period != full)
+  if (!isFullPeriod) {
+    const c = _D.consolidado;
+    setCard('cons-spend',       fBRL(c.spend * ratio));
+    setCard('cons-reach',       fInt(Math.round(c.reach * ratio)));
+    setCard('cons-impressions', fInt(Math.round(c.impressions * ratio)));
+    setCard('cons-clicks',      fInt(Math.round(c.clicks * ratio)));
+    document.getElementById('chip-meta-spend').textContent   = `Meta ${fBRL(c.meta_spend * ratio)}`;
+    document.getElementById('chip-google-spend').textContent = `Google ${fBRL(c.google_spend * ratio)}`;
+  } else {
+    renderConsolidatedCards(_D.consolidado);
+  }
+
+  renderMetaSection();
+  renderGoogleSection();
+}
+
+function renderConsolidatedCards(c) {
+  setCard('cons-spend',       fBRL(c.spend));
+  setCard('cons-reach',       fInt(c.reach));
+  setCard('cons-impressions', fInt(c.impressions));
+  setCard('cons-clicks',      fInt(c.clicks));
+  document.getElementById('chip-meta-spend').textContent   = `Meta ${fBRL(c.meta_spend)}`;
+  document.getElementById('chip-google-spend').textContent = `Google ${fBRL(c.google_spend)}`;
+}
+
+// ─── RENDER META SECTION (filtered) ─────────────────────────────────────────
+
+function renderMetaSection() {
+  const sel  = MS_META_SELECTED;
+  const list = sel.size > 0
+    ? META_CAMPAIGNS_ALL.filter(c => sel.has(c.name))
     : META_CAMPAIGNS_ALL;
+
+  // Recalculate totals
+  if (sel.size > 0) {
+    const spend       = list.reduce((s, c) => s + Number(c.spend), 0);
+    const reach       = list.reduce((s, c) => s + Number(c.reach), 0);
+    const impressions = list.reduce((s, c) => s + Number(c.impressions), 0);
+    const clicks      = list.reduce((s, c) => s + Number(c.clicks), 0);
+    const ctr   = impressions ? (clicks / impressions) * 100 : 0;
+    const cpc   = clicks ? spend / clicks : 0;
+    const cpm   = impressions ? (spend / impressions) * 1000 : 0;
+    setCard('meta-spend',       fBRL(spend));
+    setCard('meta-reach',       fInt(reach));
+    setCard('meta-impressions', fInt(impressions));
+    setCard('meta-clicks',      fInt(clicks));
+    setCard('meta-ctr',         fPct(ctr));
+    setCard('meta-cpc',         fBRL(cpc));
+    setCard('meta-cpm',         fBRL(cpm));
+    // CPL: sum of (result_cpr * result_qty) / total leads — approx from campaigns
+    const totalLeads = list.reduce((s, c) => s + Number(c.result_qty || 0), 0);
+    setCard('meta-cpl', totalLeads ? fBRL(spend / totalLeads) : '—');
+  } else {
+    const m = _D.meta;
+    setCard('meta-spend',       fBRL(m.spend));
+    setCard('meta-reach',       fInt(m.reach));
+    setCard('meta-impressions', fInt(m.impressions));
+    setCard('meta-clicks',      fInt(m.clicks));
+    setCard('meta-ctr',         fPct(m.ctr));
+    setCard('meta-cpc',         fBRL(m.cpc));
+    setCard('meta-cpm',         fBRL(m.cpm));
+    setCard('meta-cpl',         fBRL(m.cpl || 0));
+  }
+
+  renderMetaCampaigns(list);
+  renderMetaAds();
+}
+
+function renderMetaCampaigns(list) {
+  if (!list) {
+    const sel = MS_META_SELECTED;
+    list = sel.size > 0
+      ? META_CAMPAIGNS_ALL.filter(c => sel.has(c.name))
+      : META_CAMPAIGNS_ALL;
+  }
 
   document.getElementById('tbody-meta-campaigns').innerHTML = list.map(c => `
     <tr>
@@ -864,8 +1091,9 @@ function renderMetaCampaigns() {
 }
 
 function renderMetaAds() {
-  const list = ACTIVE_META_CAMP
-    ? META_ADS_ALL.filter(a => a.campaign === ACTIVE_META_CAMP)
+  const sel  = MS_META_SELECTED;
+  const list = sel.size > 0
+    ? META_ADS_ALL.filter(a => sel.has(a.campaign))
     : META_ADS_ALL;
 
   document.getElementById('tbody-meta-ads').innerHTML = list.map(a => `
@@ -880,16 +1108,61 @@ function renderMetaAds() {
     </tr>`).join('') || '<tr><td colspan="7" style="color:#555;text-align:center;padding:20px">Sem anúncios para esta campanha</td></tr>';
 }
 
-// ─── RENDER TABELAS GOOGLE ────────────────────────────────────────────────────
+// ─── RENDER GOOGLE SECTION (filtered) ────────────────────────────────────────
 
-function renderGadsCampaigns() {
-  const list = ACTIVE_GADS_CAMP
-    ? GADS_CAMPAIGNS_ALL.filter(c => c.name === ACTIVE_GADS_CAMP)
+function renderGoogleSection() {
+  const sel  = MS_GOOGLE_SELECTED;
+  const list = sel.size > 0
+    ? GADS_CAMPAIGNS_ALL.filter(c => sel.has(c.name))
     : GADS_CAMPAIGNS_ALL;
 
+  // Recalculate totals
+  if (sel.size > 0) {
+    const toNum = v => Number(String(v).replace(/[R$\s.]/g, '').replace(',', '.')) || 0;
+    const spend       = list.reduce((s, c) => s + toNum(c.spend), 0);
+    const impressions = list.reduce((s, c) => s + Number(c.impressions), 0);
+    const clicks      = list.reduce((s, c) => s + Number(c.clicks), 0);
+    const conversions = list.reduce((s, c) => s + Number(c.conversions || 0), 0);
+    const ctr   = impressions ? (clicks / impressions) * 100 : 0;
+    const cpc   = clicks ? spend / clicks : 0;
+    const cpa   = conversions ? spend / conversions : 0;
+    setCard('gads-spend',       fBRL(spend));
+    setCard('gads-impressions', fInt(impressions));
+    setCard('gads-clicks',      fInt(clicks));
+    setCard('gads-ctr',         fPct(ctr));
+    setCard('gads-cpc',         fBRL(cpc));
+    setCard('gads-conversions', fInt(conversions));
+    setCard('gads-cpa',         conversions ? fBRL(cpa) : '—');
+  } else {
+    const g = _D.google;
+    setCard('gads-spend',       fBRL(g.spend));
+    setCard('gads-impressions', fInt(g.impressions));
+    setCard('gads-clicks',      fInt(g.clicks));
+    setCard('gads-ctr',         fPct(g.ctr));
+    setCard('gads-cpc',         fBRL(g.cpc));
+    setCard('gads-conversions', fInt(g.conversions));
+    setCard('gads-cpa',         fBRL(g.cpa));
+  }
+
+  renderGadsCampaigns(list);
+  // Keywords and search terms don't have campaign field — always show all
+  pages.kw = 0; pages.terms = 0;
+  renderTable('kw');
+  renderTable('terms');
+}
+
+function renderGadsCampaigns(list) {
+  if (!list) {
+    const sel = MS_GOOGLE_SELECTED;
+    list = sel.size > 0
+      ? GADS_CAMPAIGNS_ALL.filter(c => sel.has(c.name))
+      : GADS_CAMPAIGNS_ALL;
+  }
+
   document.getElementById('tbody-gads-campaigns').innerHTML = list.map(c => {
-    const cpa = c.conversions && c.conversions !== '0'
-      ? fBRL(Number(String(c.spend).replace('R$ ','').replace('.','').replace(',','.')) / Number(c.conversions.toString().replace('.','').replace(',','.')))
+    const toNum = v => Number(String(v).replace(/[R$\s.]/g, '').replace(',', '.')) || 0;
+    const cpa = c.conversions && Number(c.conversions) > 0
+      ? fBRL(toNum(c.spend) / Number(c.conversions))
       : '—';
     return `
     <tr>
@@ -907,12 +1180,57 @@ function renderGadsCampaigns() {
   }).join('') || '<tr><td colspan="10" style="color:#555;text-align:center;padding:20px">Sem dados para esta campanha</td></tr>';
 }
 
-function renderKwAndTerms() {
-  // Filtra keywords e termos pela campanha ativa (se tiver campo campaign)
-  // Como keywords não têm campo campaign no data.json, mantém todos quando filtrado
-  pages.kw = 0; pages.terms = 0;
-  renderTable('kw');
-  renderTable('terms');
+// ─── GMB SECTION ─────────────────────────────────────────────────────────────
+
+function populateGmb(gmb, mes) {
+  if (!gmb) {
+    // No data: show dashes and note
+    ['gmb-visitas','gmb-rotas','gmb-site','gmb-ligacoes','gmb-avaliacoes-mes'].forEach(id => setCard(id, '—'));
+    const notaEl = document.getElementById('gmb-nota');
+    if (notaEl) notaEl.textContent = '—';
+    setCard('gmb-total-aval', 'total acumulado: —');
+    document.getElementById('gmb-unavailable-note').style.display = 'block';
+    document.getElementById('tbody-gmb-reviews-list').innerHTML = '';
+    document.getElementById('gmb-reviews-count').textContent = '';
+    return;
+  }
+
+  setCard('gmb-visitas',       fInt(gmb.views  || gmb.visitas       || 0));
+  setCard('gmb-rotas',         fInt(gmb.directions || gmb.rotas      || 0));
+  setCard('gmb-site',          fInt(gmb.website_clicks || gmb.site   || 0));
+  setCard('gmb-ligacoes',      fInt(gmb.calls  || gmb.ligacoes       || 0));
+  setCard('gmb-avaliacoes-mes', fInt(gmb.reviews_month || gmb.avaliacoes_mes || 0));
+
+  const nota = gmb.rating || gmb.nota || 0;
+  const notaEl = document.getElementById('gmb-nota');
+  if (notaEl) notaEl.innerHTML = `${nota}<span style="color:var(--analytics-orange);font-size:18px;">★</span>`;
+
+  const totalAval = gmb.total_reviews || gmb.total_avaliacoes || 0;
+  setCard('gmb-total-aval', `total acumulado: ${fInt(totalAval)}`);
+
+  const periodLabel = document.getElementById('gmb-period-label');
+  if (periodLabel) periodLabel.textContent = `novas em ${mes}`;
+
+  const reviews = gmb.reviews || gmb.avaliacoes || [];
+  const starsMap = n => '★'.repeat(n) + '☆'.repeat(5 - n);
+
+  const listEl = document.getElementById('tbody-gmb-reviews-list');
+  if (reviews.length > 0) {
+    listEl.innerHTML = reviews.map(r => `
+      <div class="review-item">
+        <div class="review-top">
+          <span class="review-author">${r.author || r.autor || 'Anônimo'}</span>
+          <span class="review-date">${r.date || r.data || ''}</span>
+        </div>
+        <div class="review-stars">${starsMap(Number(r.rating || r.nota || 5))}</div>
+        <div class="review-text">${r.text || r.texto || ''}</div>
+      </div>`).join('');
+    const countEl = document.getElementById('gmb-reviews-count');
+    if (countEl) countEl.textContent = `Exibindo ${reviews.length} de ${fInt(gmb.reviews_month || reviews.length)} avaliações recebidas em ${mes}.`;
+  } else {
+    listEl.innerHTML = '<p style="font-size:13px;color:var(--text-muted);padding:8px 0">Nenhuma avaliação no período.</p>';
+    document.getElementById('gmb-reviews-count').textContent = '';
+  }
 }
 
 // ─── POPULATE DASHBOARD ───────────────────────────────────────────────────────
@@ -927,63 +1245,46 @@ function populateDashboard(d) {
   const start = d.periodo.start;
   const end   = d.periodo.end;
 
-  // Período fixo — exibe label formatado
-  const fmtDate = iso => {
-    const dt = new Date(iso + 'T12:00:00');
-    return dt.toLocaleDateString('pt-BR', {day:'2-digit', month:'2-digit', year:'numeric'});
-  };
+  PERIOD_START_FULL = start;
+  PERIOD_END_FULL   = end;
+
   const startDt = new Date(start + 'T12:00:00');
+  const endDt   = new Date(end   + 'T12:00:00');
+  PERIOD_DAYS_FULL = Math.round((endDt - startDt) / 86400000) + 1;
+
+  // Set period inputs with constraints
+  const piStart = document.getElementById('period-start');
+  const piEnd   = document.getElementById('period-end');
+  piStart.min   = start;
+  piStart.max   = end;
+  piStart.value = start;
+  piEnd.min     = start;
+  piEnd.max     = end;
+  piEnd.value   = end;
+
   const monthName = startDt.toLocaleDateString('pt-BR', {month:'long', year:'numeric'});
-  document.getElementById('period-display').textContent = `${fmtDate(start)} → ${fmtDate(end)}`;
-  document.getElementById('footer-period').textContent  = monthName.charAt(0).toUpperCase() + monthName.slice(1);
+  document.getElementById('footer-period').textContent = monthName.charAt(0).toUpperCase() + monthName.slice(1);
 
   // GMB labels
   const mes = startDt.toLocaleDateString('pt-BR',{month:'short',year:'numeric'})
     .replace('. ','/')  .replace('.','').replace(' de ','/');
-  const gmbLabel = document.getElementById('gmb-period-label');
   const gmbMonthLabel = document.getElementById('gmb-month-label');
-  const gmbInline = document.getElementById('gmb-period-inline');
-  if (gmbLabel) gmbLabel.textContent = `novas em ${mes}`;
   if (gmbMonthLabel) gmbMonthLabel.textContent = `— ${mes}`;
-  if (gmbInline) gmbInline.textContent = mes;
 
   // ── Seção 1: Consolidado ──────────────────────────────────────────────────
-  setCard('cons-spend',       fBRL(c.spend));
-  setCard('cons-reach',       fInt(c.reach));
-  setCard('cons-impressions', fInt(c.impressions));
-  setCard('cons-clicks',      fInt(c.clicks));
-  document.getElementById('chip-meta-spend').textContent   = `Meta ${fBRL(c.meta_spend)}`;
-  document.getElementById('chip-google-spend').textContent = `Google ${fBRL(c.google_spend)}`;
+  renderConsolidatedCards(c);
 
   // ── Seção 2: Meta Ads ─────────────────────────────────────────────────────
-  setCard('meta-spend',       fBRL(m.spend));
-  setCard('meta-reach',       fInt(m.reach));
-  setCard('meta-impressions', fInt(m.impressions));
-  setCard('meta-clicks',      fInt(m.clicks));
-  setCard('meta-ctr',         fPct(m.ctr));
-  setCard('meta-cpc',         fBRL(m.cpc));
-  setCard('meta-cpm',         fBRL(m.cpm));
-  setCard('meta-cpl',         fBRL(m.cpl || 0));
-
   META_CAMPAIGNS_ALL = m.campaigns || [];
   META_ADS_ALL       = m.ads       || [];
 
-  populateMetaFilter(META_CAMPAIGNS_ALL);
-  renderMetaCampaigns();
-  renderMetaAds();
+  buildMsOptions('meta', META_CAMPAIGNS_ALL);
+  renderMetaSection();
 
   // ── Seção 3: Google Ads ───────────────────────────────────────────────────
-  setCard('gads-spend',       fBRL(g.spend));
-  setCard('gads-impressions', fInt(g.impressions));
-  setCard('gads-clicks',      fInt(g.clicks));
-  setCard('gads-ctr',         fPct(g.ctr));
-  setCard('gads-cpc',         fBRL(g.cpc));
-  setCard('gads-conversions', fInt(g.conversions));
-  setCard('gads-cpa',         fBRL(g.cpa));
-
   GADS_CAMPAIGNS_ALL = g.campaigns || [];
-  populateGadsFilter(GADS_CAMPAIGNS_ALL);
-  renderGadsCampaigns();
+  buildMsOptions('google', GADS_CAMPAIGNS_ALL);
+  renderGoogleSection();
 
   KW_DATA    = (g.keywords    || []).map(k => [k.keyword, k.match, fInt(k.impressions), fInt(k.clicks), fPct(k.ctr), fBRL(k.cpc), fInt(k.conversions), '—']);
   TERMS_DATA = (g.search_terms || []).map(s => [s.term, s.keyword, fInt(s.impressions), fInt(s.clicks), fPct(s.ctr), fBRL(s.cpc)]);
@@ -1005,18 +1306,32 @@ function populateDashboard(d) {
     bar:   Math.round(s.pct / maxPct * 100),
   }));
 
+  // ── Seção 5: GMB ─────────────────────────────────────────────────────────
+  populateGmb(d.gmb || null, mes);
+
   // ── Gráficos ──────────────────────────────────────────────────────────────
-  const days = Math.round((new Date(end) - new Date(start)) / 86400000) + 1;
+  const days = PERIOD_DAYS_FULL;
   const labels = Array.from({length:days}, (_,i) => {
     const dt = new Date(start+'T12:00:00');
     dt.setDate(dt.getDate()+i);
     return `${String(dt.getDate()).padStart(2,'0')}/${String(dt.getMonth()+1).padStart(2,'0')}`;
   });
+  ALL_CHART_LABELS = labels;
 
-  DATA.consolidated.gasto      = { meta: distribute(c.meta_spend,   days), google: distribute(c.google_spend, days) };
-  DATA.consolidated.alcance    = { meta: distribute(m.reach,         days), google: null };
-  DATA.consolidated.impressoes = { meta: distribute(m.impressions,   days), google: distribute(g.impressions,  days) };
-  DATA.consolidated.cliques    = { meta: distribute(m.clicks,        days), google: distribute(g.clicks,       days) };
+  // Store raw distributed arrays for period slicing
+  DATA._raw = {
+    consolidated: {
+      gasto:      { meta: distribute(c.meta_spend,   days), google: distribute(c.google_spend, days) },
+      alcance:    { meta: distribute(m.reach,         days), google: null },
+      impressoes: { meta: distribute(m.impressions,   days), google: distribute(g.impressions,  days) },
+      cliques:    { meta: distribute(m.clicks,        days), google: distribute(g.clicks,       days) },
+    }
+  };
+
+  DATA.consolidated.gasto      = { meta: DATA._raw.consolidated.gasto.meta.slice(),    google: DATA._raw.consolidated.gasto.google.slice() };
+  DATA.consolidated.alcance    = { meta: DATA._raw.consolidated.alcance.meta.slice(),   google: null };
+  DATA.consolidated.impressoes = { meta: DATA._raw.consolidated.impressoes.meta.slice(), google: DATA._raw.consolidated.impressoes.google.slice() };
+  DATA.consolidated.cliques    = { meta: DATA._raw.consolidated.cliques.meta.slice(),   google: DATA._raw.consolidated.cliques.google.slice() };
   DATA.meta.gasto      = DATA.consolidated.gasto.meta;
   DATA.meta.alcance    = DATA.consolidated.alcance.meta;
   DATA.meta.impressoes = DATA.consolidated.impressoes.meta;

@@ -204,7 +204,7 @@ def fetch_performance(location_name, start, end, token):
     return totals
 
 def fetch_reviews(location_name, start, end, token):
-    """Busca avaliações do período usando a API de reviews."""
+    """Busca avaliações via Business Profile Reviews API v1 (nova, substitui mybusiness v4)."""
     s = date.fromisoformat(start)
     e = date.fromisoformat(end)
 
@@ -214,17 +214,21 @@ def fetch_reviews(location_name, start, end, token):
     monthly_reviews = []
     page_token = ""
 
-    # Paginação
-    for _ in range(10):  # máx 10 páginas
-        url = (f"https://mybusiness.googleapis.com/v4/{location_name}/reviews"
-               f"?pageSize=50" + (f"&pageToken={page_token}" if page_token else ""))
+    # Nova API: mybusinessreviews.googleapis.com/v1
+    base_url = f"https://mybusinessreviews.googleapis.com/v1/{location_name}/reviews"
+
+    for _ in range(10):
+        params = {"pageSize": 50}
+        if page_token:
+            params["pageToken"] = page_token
+        url = base_url + "?" + urllib.parse.urlencode(params)
         data = api_get(url, token)
 
-        if not data and not data.get("reviews"):
+        if not data:
             break
 
-        avg_rating    = float(data.get("averageRating", 0))
-        total_reviews = int(data.get("totalReviewCount", 0))
+        avg_rating    = float(data.get("averageRating", avg_rating))
+        total_reviews = int(data.get("totalReviewCount", total_reviews))
 
         for review in data.get("reviews", []):
             create_time = review.get("createTime", "")
@@ -246,7 +250,6 @@ def fetch_reviews(location_name, start, end, token):
         if not page_token:
             break
 
-    # Converte rating string para número
     rating_map = {"ONE":1,"TWO":2,"THREE":3,"FOUR":4,"FIVE":5}
     for r in monthly_reviews:
         r["stars"] = rating_map.get(r["rating"], 5)
@@ -297,7 +300,11 @@ def main():
     perf = fetch_performance(location_name, start, end, token)
 
     print("⭐ Buscando avaliações...")
-    reviews = fetch_reviews(location_name, start, end, token)
+    try:
+        reviews = fetch_reviews(location_name, start, end, token)
+    except Exception as e:
+        print(f"   ⚠️  Reviews indisponíveis: {e}", file=sys.stderr)
+        reviews = {"total_accumulated": 0, "avg_rating": 0.0, "month_count": 0, "reviews": []}
 
     result = {
         "periodo": {"start": start, "end": end},
@@ -317,14 +324,17 @@ def main():
         }
     }
 
+    # Marcador para o parser do fetch_acougueiro.py identificar o JSON
+    print("GMB_JSON_START")
     print(json.dumps(result, ensure_ascii=False, indent=2))
+    print("GMB_JSON_END")
 
-    print(f"\n✅ GMB coletado:")
-    print(f"   Visitas: {perf['impressions_total']:,}")
-    print(f"   Rotas: {perf['directions']:,}")
-    print(f"   Cliques site: {perf['website_clicks']:,}")
-    print(f"   Avaliações no mês: {reviews['month_count']}")
-    print(f"   Nota: {reviews['avg_rating']} ★")
+    print(f"\n✅ GMB coletado:", file=sys.stderr)
+    print(f"   Visitas: {perf['impressions_total']:,}", file=sys.stderr)
+    print(f"   Rotas: {perf['directions']:,}", file=sys.stderr)
+    print(f"   Cliques site: {perf['website_clicks']:,}", file=sys.stderr)
+    print(f"   Avaliações no mês: {reviews['month_count']}", file=sys.stderr)
+    print(f"   Nota: {reviews['avg_rating']} ★", file=sys.stderr)
 
     return result
 

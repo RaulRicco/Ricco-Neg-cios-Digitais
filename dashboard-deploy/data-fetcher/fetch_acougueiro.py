@@ -19,11 +19,12 @@ import subprocess
 from datetime import datetime, date, timedelta
 from pathlib import Path
 
-# ─── Caminhos das skills ──────────────────────────────────────────────────────
+# ─── Caminhos das skills e scripts ───────────────────────────────────────────
 SKILLS = Path.home() / ".claude/skills"
 META_INSIGHTS  = SKILLS / "meta-ads-ratos/scripts/insights.py"
 GADS_READ      = SKILLS / "google-ads-ratos/scripts/read.py"
 GA4_REPORTS    = SKILLS / "ga4-ratos/scripts/reports.py"
+GMB_FETCH      = Path(__file__).parent / "gmb/fetch_gmb.py"
 
 OUT_DIR = Path(__file__).parent.parent / "pages/acougueiro-agua-verde"
 
@@ -323,6 +324,44 @@ def fetch_ga4(start, end):
         "sources":     sources,
     }
 
+# ─── Coleta GMB ──────────────────────────────────────────────────────────────
+def fetch_gmb(start, end):
+    print("🟢 GMB — coletando...", flush=True)
+    if not GMB_FETCH.exists():
+        print("   ⚠️  fetch_gmb.py não encontrado", file=sys.stderr)
+        return None
+    result = subprocess.run(
+        [sys.executable, str(GMB_FETCH), "--start", start, "--end", end],
+        capture_output=True, text=True, timeout=90
+    )
+    if result.returncode != 0:
+        print(f"   ⚠️  GMB: {result.stderr[-300:]}", file=sys.stderr)
+        return None
+    # O fetch_gmb.py delimita o JSON com GMB_JSON_START / GMB_JSON_END
+    text = result.stdout
+    try:
+        s = text.index("GMB_JSON_START") + len("GMB_JSON_START")
+        e = text.index("GMB_JSON_END")
+        json_text = text[s:e].strip()
+    except ValueError:
+        print("   ⚠️  GMB: marcador JSON não encontrado", file=sys.stderr)
+        return None
+    try:
+        gmb_data = json.loads(json_text)
+        return {
+            "visitas":      gmb_data.get("visitas", 0),
+            "rotas":        gmb_data.get("rotas", 0),
+            "cliques_site": gmb_data.get("cliques_site", 0),
+            "ligacoes":     gmb_data.get("ligacoes", 0),
+            "nota":         gmb_data.get("nota", 0.0),
+            "total_avaliacoes": gmb_data.get("total_avaliacoes_acumulado", 0),
+            "avaliacoes_mes":   gmb_data.get("avaliacoes_mes", 0),
+            "avaliacoes":       gmb_data.get("avaliacoes", []),
+        }
+    except Exception as e:
+        print(f"   ⚠️  GMB parse error: {e}", file=sys.stderr)
+        return None
+
 # ─── Main ─────────────────────────────────────────────────────────────────────
 def main():
     parser = argparse.ArgumentParser(description="Coleta dados para o dashboard do Açougueiro")
@@ -356,6 +395,7 @@ def main():
     meta   = fetch_meta(start, end)
     google = fetch_google_ads(start, end)
     ga4    = fetch_ga4(start, end)
+    gmb    = fetch_gmb(start, end)
 
     data = {
         "cliente":   "Bar do Açougueiro — Água Verde",
@@ -372,6 +412,7 @@ def main():
         "meta":   meta,
         "google": google,
         "ga4":    ga4,
+        "gmb":    gmb,
     }
 
     out_path = OUT_DIR / "data.json"
@@ -382,6 +423,11 @@ def main():
     print(f"   Meta spend:   R$ {meta['spend']}")
     print(f"   Google spend: R$ {google['spend']}")
     print(f"   GA4 sessões:  {ga4['sessions']}")
+    if gmb:
+        print(f"   GMB visitas:  {gmb['visitas']:,}")
+        print(f"   GMB nota:     {gmb['nota']} ★")
+    else:
+        print("   GMB:          não disponível (verifique cota da API)")
 
 if __name__ == "__main__":
     main()

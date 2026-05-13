@@ -4,7 +4,7 @@
     "start": "2026-04-01",
     "end": "2026-04-30"
   },
-  "gerado_em": "2026-05-12T22:03:14.258767",
+  "gerado_em": "2026-05-12T22:28:19.822295",
   "consolidado": {
     "spend": 1819.82,
     "reach": 76478,
@@ -930,5 +930,15 @@
         "pct": 0.0
       }
     ]
+  },
+  "gmb": {
+    "visitas": 0,
+    "rotas": 0,
+    "cliques_site": 0,
+    "ligacoes": 0,
+    "nota": 0.0,
+    "total_avaliacoes": 0,
+    "avaliacoes_mes": 0,
+    "avaliacoes": []
   }
 }
