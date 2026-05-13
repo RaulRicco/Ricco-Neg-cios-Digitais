@@ -273,25 +273,25 @@
     <div class="cards-grid">
       <div class="card card-accent">
         <div class="card-label">Investimento Total</div>
-        <div class="card-value green">R$ 4.200</div>
+        <div class="card-value green" id="cons-spend">—</div>
         <div class="invest-breakdown">
-          <span class="invest-chip chip-meta">Meta R$ 2.500</span>
-          <span class="invest-chip chip-google">Google R$ 1.700</span>
+          <span class="invest-chip chip-meta" id="chip-meta-spend">Meta —</span>
+          <span class="invest-chip chip-google" id="chip-google-spend">Google —</span>
         </div>
       </div>
       <div class="card">
         <div class="card-label">Alcance Total</div>
-        <div class="card-value">89.000</div>
+        <div class="card-value" id="cons-reach">—</div>
         <div class="card-sub">pessoas únicas atingidas</div>
       </div>
       <div class="card">
         <div class="card-label">Impressões Totais</div>
-        <div class="card-value">142.000</div>
+        <div class="card-value" id="cons-impressions">—</div>
         <div class="card-sub">exibições somadas</div>
       </div>
       <div class="card">
         <div class="card-label">Cliques Totais</div>
-        <div class="card-value">3.800</div>
+        <div class="card-value" id="cons-clicks">—</div>
         <div class="card-sub">Meta + Google Ads</div>
       </div>
     </div>
@@ -332,37 +332,37 @@
     <div class="cards-grid">
       <div class="card card-accent-meta">
         <div class="card-label">Investimento</div>
-        <div class="card-value">R$ 2.500</div>
+        <div class="card-value" id="meta-spend">—</div>
       </div>
       <div class="card">
         <div class="card-label">Alcance</div>
-        <div class="card-value">67.000</div>
+        <div class="card-value" id="meta-reach">—</div>
       </div>
       <div class="card">
         <div class="card-label">Impressões</div>
-        <div class="card-value">108.000</div>
+        <div class="card-value" id="meta-impressions">—</div>
       </div>
       <div class="card">
         <div class="card-label">Cliques no Link</div>
-        <div class="card-value">3.390</div>
+        <div class="card-value" id="meta-clicks">—</div>
       </div>
       <div class="card">
         <div class="card-label">CTR</div>
-        <div class="card-value">3,14%</div>
+        <div class="card-value" id="meta-ctr">—</div>
         <div class="card-sub">cliques / impressões</div>
       </div>
       <div class="card">
         <div class="card-label">CPC Médio</div>
-        <div class="card-value">R$ 0,74</div>
+        <div class="card-value" id="meta-cpc">—</div>
       </div>
       <div class="card">
         <div class="card-label">CPM</div>
-        <div class="card-value">R$ 23,15</div>
+        <div class="card-value" id="meta-cpm">—</div>
         <div class="card-sub">por mil impressões</div>
       </div>
       <div class="card">
         <div class="card-label">CPL</div>
-        <div class="card-value">R$ 22,00</div>
+        <div class="card-value" id="meta-cpl">—</div>
         <div class="card-sub">custo por lead</div>
       </div>
     </div>
@@ -397,26 +397,7 @@
               <th>CTR</th><th>CPC</th><th>Resultados</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <td class="td-name">Delivery — Promoção Semana</td>
-              <td><span class="pill pill-active">● Ativa</span></td>
-              <td>R$ 1.200</td><td>32.000</td><td>51.000</td>
-              <td>1.620</td><td>3,18%</td><td>R$ 0,74</td><td>54 leads</td>
-            </tr>
-            <tr>
-              <td class="td-name">Reconhecimento — Boteco BH</td>
-              <td><span class="pill pill-active">● Ativa</span></td>
-              <td>R$ 800</td><td>21.000</td><td>36.000</td>
-              <td>1.010</td><td>2,80%</td><td>R$ 0,79</td><td>—</td>
-            </tr>
-            <tr>
-              <td class="td-name">Happy Hour — Quinta e Sexta</td>
-              <td><span class="pill pill-active">● Ativa</span></td>
-              <td>R$ 500</td><td>14.000</td><td>21.000</td>
-              <td>760</td><td>3,62%</td><td>R$ 0,66</td><td>59 leads</td>
-            </tr>
-          </tbody>
+          <tbody id="tbody-meta-campaigns"></tbody>
         </table>
       </div>
     </div>
@@ -432,33 +413,7 @@
               <th>Impressões</th><th>Cliques</th><th>CTR</th><th>CPC</th><th>Frequência</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <td class="td-name">Petisco + Chopp por R$ 39</td>
-              <td class="td-muted">Vídeo</td><td class="td-muted">Delivery — Promo</td>
-              <td>28.000</td><td>920</td><td>3,29%</td><td>R$ 0,71</td><td>1,74×</td>
-            </tr>
-            <tr>
-              <td class="td-name">Ambiente do Açougueiro</td>
-              <td class="td-muted">Carrossel</td><td class="td-muted">Reconhecimento</td>
-              <td>21.000</td><td>700</td><td>3,33%</td><td>R$ 0,68</td><td>1,58×</td>
-            </tr>
-            <tr>
-              <td class="td-name">Happy Hour Todo Dia</td>
-              <td class="td-muted">Imagem</td><td class="td-muted">Happy Hour</td>
-              <td>16.000</td><td>590</td><td>3,69%</td><td>R$ 0,64</td><td>1,43×</td>
-            </tr>
-            <tr>
-              <td class="td-name">Kit Feijoada do Final de Semana</td>
-              <td class="td-muted">Vídeo</td><td class="td-muted">Delivery — Promo</td>
-              <td>23.000</td><td>700</td><td>3,04%</td><td>R$ 0,77</td><td>1,91×</td>
-            </tr>
-            <tr>
-              <td class="td-name">Quinta do Chope</td>
-              <td class="td-muted">Imagem</td><td class="td-muted">Happy Hour</td>
-              <td>20.000</td><td>480</td><td>2,40%</td><td>R$ 0,71</td><td>1,63×</td>
-            </tr>
-          </tbody>
+          <tbody id="tbody-meta-ads"></tbody>
         </table>
       </div>
     </div>
@@ -477,33 +432,32 @@
     <div class="cards-grid">
       <div class="card card-accent-google">
         <div class="card-label">Investimento</div>
-        <div class="card-value">R$ 1.700</div>
+        <div class="card-value" id="gads-spend">—</div>
       </div>
       <div class="card">
         <div class="card-label">Impressões</div>
-        <div class="card-value">8.200</div>
+        <div class="card-value" id="gads-impressions">—</div>
       </div>
       <div class="card">
         <div class="card-label">Cliques</div>
-        <div class="card-value">410</div>
+        <div class="card-value" id="gads-clicks">—</div>
       </div>
       <div class="card">
         <div class="card-label">CTR</div>
-        <div class="card-value">5,00%</div>
-        <div class="card-sub">acima da média local</div>
+        <div class="card-value" id="gads-ctr">—</div>
       </div>
       <div class="card">
         <div class="card-label">CPC Médio</div>
-        <div class="card-value">R$ 4,15</div>
+        <div class="card-value" id="gads-cpc">—</div>
       </div>
       <div class="card">
         <div class="card-label">Conversões</div>
-        <div class="card-value">28</div>
+        <div class="card-value" id="gads-conversions">—</div>
         <div class="card-sub">ligações + direções</div>
       </div>
       <div class="card">
         <div class="card-label">CPA</div>
-        <div class="card-value">R$ 60,71</div>
+        <div class="card-value" id="gads-cpa">—</div>
         <div class="card-sub">custo por conversão</div>
       </div>
     </div>
@@ -536,20 +490,7 @@
               <th>Impressões</th><th>Cliques</th><th>CTR</th><th>CPC</th><th>Conv.</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <td class="td-name">Bar Boteco Água Verde</td>
-              <td class="td-muted">Search</td>
-              <td><span class="pill pill-active">● Ativa</span></td>
-              <td>R$ 1.100</td><td>5.200</td><td>265</td><td>5,10%</td><td>R$ 4,15</td><td>18</td>
-            </tr>
-            <tr>
-              <td class="td-name">Delivery Curitiba</td>
-              <td class="td-muted">Search</td>
-              <td><span class="pill pill-active">● Ativa</span></td>
-              <td>R$ 600</td><td>3.000</td><td>145</td><td>4,83%</td><td>R$ 4,14</td><td>10</td>
-            </tr>
-          </tbody>
+          <tbody id="tbody-gads-campaigns"></tbody>
         </table>
       </div>
     </div>
@@ -616,26 +557,25 @@
     <div class="cards-grid">
       <div class="card card-accent-analytics">
         <div class="card-label">Sessões</div>
-        <div class="card-value">1.240</div>
+        <div class="card-value" id="ga4-sessions">—</div>
       </div>
       <div class="card">
         <div class="card-label">Usuários</div>
-        <div class="card-value">890</div>
-        <div class="card-sub">novos: 640</div>
+        <div class="card-value" id="ga4-users">—</div>
+        <div class="card-sub" id="ga4-new-users">—</div>
       </div>
       <div class="card">
         <div class="card-label">Pageviews</div>
-        <div class="card-value">3.870</div>
-        <div class="card-sub">~3,1 páginas / sessão</div>
+        <div class="card-value" id="ga4-pageviews">—</div>
       </div>
       <div class="card">
         <div class="card-label">Duração Média</div>
-        <div class="card-value">2m 14s</div>
+        <div class="card-value" id="ga4-duration">—</div>
         <div class="card-sub">por sessão</div>
       </div>
       <div class="card">
         <div class="card-label">Taxa de Rejeição</div>
-        <div class="card-value">41%</div>
+        <div class="card-value" id="ga4-bounce">—</div>
       </div>
     </div>
 
@@ -781,83 +721,175 @@
 </main>
 
 <script>
-// ─── DADOS MOCKADOS ───────────────────────────────────────────────────────────
+// ─── DADOS REAIS (carregados do data.json gerado pelo fetch_acougueiro.py) ────
 
-const DAYS = Array.from({length:31},(_,i)=>`${String(i+1).padStart(2,'0')}/05`);
+let _D = {}; // dados globais
 
-// Gera série diária realista com variação
-function wave(base, amp, len) {
-  return Array.from({length:len}, (_,i) =>
-    Math.max(0, Math.round(base + amp * Math.sin(i/3.5) + (Math.random()-0.5)*amp*0.4))
+// Helpers de formatação
+const fBRL = v => `R$ ${Number(v).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}`;
+const fInt = v => Number(v).toLocaleString('pt-BR');
+const fPct = v => `${Number(v).toFixed(2)}%`;
+
+// Gera série diária distribuindo o total pelos dias do período
+function distribute(total, days) {
+  const base = total / days;
+  return Array.from({length: days}, (_, i) =>
+    Math.max(0, Math.round(base + (Math.random()-0.5)*base*0.6 + base*0.2*Math.sin(i/3)))
   );
 }
 
+// Cores por source/medium
+function sourceColor(source, medium) {
+  if (medium === 'cpc' || medium === 'paid') {
+    if (source.includes('google')) return '#EA4335';
+    if (source.includes('instagram') || source.includes('facebook')) return '#1877F2';
+  }
+  if (source.includes('google')) return '#a3e635';
+  if (source.includes('whatsapp')) return '#25D366';
+  if (source.includes('instagram')) return '#E1306C';
+  if (source.includes('direct')) return '#555';
+  return '#666';
+}
+
+// Popula o dashboard com os dados reais
+function populateDashboard(d) {
+  _D = d;
+  const c  = d.consolidado;
+  const m  = d.meta;
+  const g  = d.google;
+  const a  = d.ga4;
+
+  const start = d.periodo.start;
+  const end   = d.periodo.end;
+  document.getElementById('date-start').value = start;
+  document.getElementById('date-end').value   = end;
+
+  // ── Seção 1: Consolidado ──────────────────────────────────────────────────
+  setCard('cons-spend',       fBRL(c.spend));
+  setCard('cons-reach',       fInt(c.reach));
+  setCard('cons-impressions', fInt(c.impressions));
+  setCard('cons-clicks',      fInt(c.clicks));
+  document.getElementById('chip-meta-spend').textContent   = `Meta ${fBRL(c.meta_spend)}`;
+  document.getElementById('chip-google-spend').textContent = `Google ${fBRL(c.google_spend)}`;
+
+  // ── Seção 2: Meta Ads ─────────────────────────────────────────────────────
+  setCard('meta-spend',       fBRL(m.spend));
+  setCard('meta-reach',       fInt(m.reach));
+  setCard('meta-impressions', fInt(m.impressions));
+  setCard('meta-clicks',      fInt(m.clicks));
+  setCard('meta-ctr',         fPct(m.ctr));
+  setCard('meta-cpc',         fBRL(m.cpc));
+  setCard('meta-cpm',         fBRL(m.cpm));
+  setCard('meta-cpl',         fBRL(m.cpl || 0));
+
+  // Tabela campanhas Meta
+  document.getElementById('tbody-meta-campaigns').innerHTML = m.campaigns.map(c => `
+    <tr>
+      <td class="td-name">${c.name}</td>
+      <td><span class="pill pill-active">● Ativa</span></td>
+      <td>${fBRL(c.spend)}</td><td>${fInt(c.reach)}</td>
+      <td>${fInt(c.impressions)}</td><td>${fInt(c.clicks)}</td>
+      <td>${fPct(c.ctr)}</td><td>${fBRL(c.cpc)}</td><td>—</td>
+    </tr>`).join('');
+
+  // Tabela anúncios Meta
+  document.getElementById('tbody-meta-ads').innerHTML = m.ads.map(a => `
+    <tr>
+      <td class="td-name">${a.name}</td>
+      <td class="td-muted">—</td>
+      <td class="td-muted">${a.campaign}</td>
+      <td>${fInt(a.impressions)}</td><td>${fInt(a.clicks)}</td>
+      <td>${fPct(a.ctr)}</td><td>${fBRL(a.cpc)}</td>
+      <td>${Number(a.frequency).toFixed(2)}×</td>
+    </tr>`).join('');
+
+  // ── Seção 3: Google Ads ───────────────────────────────────────────────────
+  setCard('gads-spend',       fBRL(g.spend));
+  setCard('gads-impressions', fInt(g.impressions));
+  setCard('gads-clicks',      fInt(g.clicks));
+  setCard('gads-ctr',         fPct(g.ctr));
+  setCard('gads-cpc',         fBRL(g.cpc));
+  setCard('gads-conversions', fInt(g.conversions));
+  setCard('gads-cpa',         fBRL(g.cpa));
+
+  // Tabela campanhas Google
+  document.getElementById('tbody-gads-campaigns').innerHTML = g.campaigns.map(c => `
+    <tr>
+      <td class="td-name">${c.name}</td>
+      <td class="td-muted">${c.type}</td>
+      <td><span class="pill ${c.status==='Enabled'?'pill-active':'pill-paused'}">● ${c.status}</span></td>
+      <td>${fBRL(c.spend)}</td><td>${fInt(c.impressions)}</td>
+      <td>${fInt(c.clicks)}</td><td>${fPct(c.ctr)}</td>
+      <td>${fBRL(c.cpc)}</td><td>${fInt(c.conversions)}</td>
+    </tr>`).join('');
+
+  // Keywords e search terms para paginação
+  KW_DATA    = g.keywords.map(k => [k.keyword, k.match, fInt(k.impressions), fInt(k.clicks), fPct(k.ctr), fBRL(k.cpc), k.conversions, '—']);
+  TERMS_DATA = g.search_terms.map(s => [s.term, s.keyword, fInt(s.impressions), fInt(s.clicks), fPct(s.ctr), fBRL(s.cpc)]);
+
+  // ── Seção 4: GA4 ─────────────────────────────────────────────────────────
+  setCard('ga4-sessions',  fInt(a.sessions));
+  setCard('ga4-users',     fInt(a.users));
+  setCard('ga4-new-users', `novos: ${fInt(a.new_users)}`);
+  setCard('ga4-pageviews', fInt(a.pageviews));
+  setCard('ga4-bounce',    fPct(a.bounce_rate));
+  setCard('ga4-duration',  a.duration);
+
+  // Origens para paginação
+  const maxPct = Math.max(...a.sources.map(s => s.pct), 1);
+  ORIGEM_DATA = a.sources.map(s => ({
+    label: `${s.source} / ${s.medium}`,
+    val:   s.sessions,
+    pct:   s.pct,
+    color: sourceColor(s.source, s.medium),
+    bar:   Math.round(s.pct / maxPct * 100),
+  }));
+
+  // ── Gráficos ──────────────────────────────────────────────────────────────
+  const days = Math.round((new Date(end) - new Date(start)) / 86400000) + 1;
+  const labels = Array.from({length:days}, (_,i) => {
+    const d = new Date(start+'T12:00:00');
+    d.setDate(d.getDate()+i);
+    return `${String(d.getDate()).padStart(2,'0')}/${String(d.getMonth()+1).padStart(2,'0')}`;
+  });
+
+  DATA.consolidated.gasto      = { meta: distribute(c.meta_spend,   days), google: distribute(c.google_spend, days) };
+  DATA.consolidated.alcance    = { meta: distribute(m.reach,         days), google: null };
+  DATA.consolidated.impressoes = { meta: distribute(m.impressions,   days), google: distribute(g.impressions,  days) };
+  DATA.consolidated.cliques    = { meta: distribute(m.clicks,        days), google: distribute(g.clicks,       days) };
+  DATA.meta.gasto      = DATA.consolidated.gasto.meta;
+  DATA.meta.alcance    = DATA.consolidated.alcance.meta;
+  DATA.meta.impressoes = DATA.consolidated.impressoes.meta;
+  DATA.meta.cliques    = DATA.consolidated.cliques.meta;
+  DATA.google.gasto      = DATA.consolidated.gasto.google;
+  DATA.google.impressoes = DATA.consolidated.impressoes.google;
+  DATA.google.cliques    = DATA.consolidated.cliques.google;
+
+  buildCharts(labels);
+
+  // Renderiza tabelas paginadas
+  renderTable('kw');
+  renderTable('terms');
+  renderTable('origem');
+  updatePeriod();
+}
+
+function setCard(id, val) {
+  const el = document.getElementById(id);
+  if (el) el.textContent = val;
+}
+
+// ─── DADOS E ESTADO ──────────────────────────────────────────────────────────
+
+let KW_DATA    = [];
+let TERMS_DATA = [];
+let ORIGEM_DATA = [];
+
 const DATA = {
-  consolidated: {
-    gasto:      { meta: wave(80,25,31), google: wave(55,18,31) },
-    alcance:    { meta: wave(2200,700,31), google: null },
-    impressoes: { meta: wave(3500,1000,31), google: wave(265,80,31) },
-    cliques:    { meta: wave(110,35,31), google: wave(13,5,31) },
-  },
-  meta: {
-    gasto:      wave(80,25,31),
-    alcance:    wave(2200,700,31),
-    impressoes: wave(3500,1000,31),
-    cliques:    wave(110,35,31),
-  },
-  google: {
-    gasto:      wave(55,18,31),
-    impressoes: wave(265,80,31),
-    cliques:    wave(13,5,31),
-  },
+  consolidated: { gasto:{meta:[],google:[]}, alcance:{meta:[],google:null}, impressoes:{meta:[],google:[]}, cliques:{meta:[],google:[]} },
+  meta:   { gasto:[], alcance:[], impressoes:[], cliques:[] },
+  google: { gasto:[], impressoes:[], cliques:[] },
 };
-
-const KW_DATA = [
-  ['bar boteco curitiba','Ampla mod.','2.100','112','5,33%','R$ 3,90','8','68%'],
-  ['bar água verde','Exata','980','64','6,53%','R$ 3,60','5','82%'],
-  ['petisco curitiba','Frase','1.420','58','4,08%','R$ 4,80','3','44%'],
-  ['delivery de comida boteco','Ampla mod.','870','42','4,83%','R$ 4,20','4','51%'],
-  ['happy hour curitiba','Frase','830','29','3,49%','R$ 5,10','2','39%'],
-  ['restaurante água verde','Frase','740','31','4,19%','R$ 4,40','3','47%'],
-  ['bar com petisco curitiba','Ampla mod.','620','27','4,35%','R$ 4,00','2','36%'],
-  ['delivery boteco curitiba','Frase','540','23','4,26%','R$ 4,65','1','32%'],
-  ['bar comida de boteco','Ampla mod.','490','19','3,88%','R$ 4,90','1','29%'],
-  ['chopp artesanal curitiba','Frase','420','15','3,57%','R$ 5,30','0','25%'],
-  ['feijoada delivery curitiba','Frase','380','14','3,68%','R$ 4,80','1','22%'],
-  ['barzinho com petisco bom','Ampla mod.','310','11','3,55%','R$ 5,10','0','18%'],
-  ['bar com música ao vivo','Frase','290','10','3,45%','R$ 5,50','0','16%'],
-  ['onde comer bem em curitiba','Ampla mod.','270','9','3,33%','R$ 5,20','0','14%'],
-];
-
-const TERMS_DATA = [
-  ['bar boteco no bairro água verde curitiba','bar boteco curitiba','340','22','6,47%','R$ 3,70'],
-  ['bar do açougueiro água verde','bar água verde','290','19','6,55%','R$ 3,40'],
-  ['petiscos curitiba delivery','petisco curitiba','410','16','3,90%','R$ 4,60'],
-  ['onde comer petisco em curitiba','petisco curitiba','380','14','3,68%','R$ 5,00'],
-  ['happy hour água verde','happy hour curitiba','270','11','4,07%','R$ 4,90'],
-  ['barzinho com delivery curitiba','delivery de comida boteco','240','10','4,17%','R$ 4,30'],
-  ['bar bom com petisco curitiba','bar boteco curitiba','210','9','4,29%','R$ 3,80'],
-  ['comida de boteco curitiba','bar com petisco curitiba','190','8','4,21%','R$ 4,10'],
-  ['bar do açougueiro curitiba','bar água verde','175','8','4,57%','R$ 3,60'],
-  ['delivery bar curitiba agua verde','delivery boteco curitiba','160','7','4,38%','R$ 4,40'],
-  ['restaurante água verde curitiba','restaurante água verde','150','6','4,00%','R$ 4,60'],
-  ['chopp gelado curitiba','chopp artesanal curitiba','140','5','3,57%','R$ 5,00'],
-  ['feijoada entrega curitiba','feijoada delivery curitiba','130','5','3,85%','R$ 4,80'],
-  ['bar para happy hour curitiba','happy hour curitiba','120','5','4,17%','R$ 5,20'],
-];
-
-const ORIGEM_DATA = [
-  { label:'google / organic',    val:471, pct:38, color:'#a3e635' },
-  { label:'google / cpc',        val:285, pct:23, color:'#EA4335' },
-  { label:'instagram / paid',    val:223, pct:18, color:'#1877F2' },
-  { label:'facebook / paid',     val:112, pct: 9, color:'#1877F2' },
-  { label:'direct / none',       val: 87, pct: 7, color:'#555' },
-  { label:'google / referral',   val: 31, pct: 2, color:'#a3e635' },
-  { label:'whatsapp / referral', val: 19, pct: 2, color:'#25D366' },
-  { label:'instagram / organic', val: 12, pct: 1, color:'#E1306C' },
-  { label:'outros',              val:  0, pct: 0, color:'#444' },
-];
-ORIGEM_DATA[8].val = 1240 - ORIGEM_DATA.slice(0,8).reduce((s,x)=>s+x.val,0);
 
 // ─── PAGINAÇÃO ──────────────────────────────────────────────────────────────
 
@@ -916,99 +948,6 @@ function renderTable(key) {
   }
 }
 
-// ─── CHARTS ─────────────────────────────────────────────────────────────────
-
-const chartDefaults = {
-  responsive: true, maintainAspectRatio: false,
-  interaction: { mode:'index', intersect:false },
-  plugins: {
-    legend: { display:false },
-    tooltip: {
-      backgroundColor:'#1a1a1a', borderColor:'#333', borderWidth:1,
-      titleColor:'#fff', bodyColor:'#aaa', padding:10,
-    }
-  },
-  scales: {
-    x: {
-      grid: { color:'#1a1a1a' },
-      ticks: { color:'#555', font:{size:11}, maxTicksLimit:10 }
-    },
-    y: {
-      grid: { color:'#1a1a1a' },
-      ticks: { color:'#555', font:{size:11} },
-      beginAtZero: true
-    }
-  }
-};
-
-function makeLineDataset(label, data, color) {
-  return {
-    label, data,
-    borderColor: color, backgroundColor: color+'22',
-    borderWidth: 2, pointRadius: 2, pointHoverRadius: 5,
-    tension: 0.4, fill: true,
-  };
-}
-
-// Gráfico consolidado
-let chartC = new Chart(document.getElementById('chartConsolidado'), {
-  type:'line',
-  data: {
-    labels: DAYS,
-    datasets: [
-      makeLineDataset('Meta Ads', DATA.consolidated.gasto.meta, '#1877F2'),
-      makeLineDataset('Google Ads', DATA.consolidated.gasto.google, '#EA4335'),
-    ]
-  },
-  options: {...chartDefaults}
-});
-
-function switchChart(metric, btn) {
-  btn.closest('.chart-toggle').querySelectorAll('.toggle-btn').forEach(b=>b.classList.remove('active'));
-  btn.classList.add('active');
-  const d = DATA.consolidated[metric];
-  const hasGoogle = d.google !== null;
-  chartC.data.datasets[0].data = d.meta;
-  chartC.data.datasets[1].data = hasGoogle ? d.google : Array(31).fill(0);
-  chartC.data.datasets[1].borderColor = hasGoogle ? '#EA4335' : 'transparent';
-  chartC.data.datasets[1].backgroundColor = hasGoogle ? '#EA433522' : 'transparent';
-  chartC.update();
-}
-
-// Gráfico Meta
-let chartM = new Chart(document.getElementById('chartMeta'), {
-  type:'line',
-  data: {
-    labels: DAYS,
-    datasets: [makeLineDataset('Meta Ads', DATA.meta.gasto, '#1877F2')]
-  },
-  options: {...chartDefaults}
-});
-
-function switchMetaChart(metric, btn) {
-  btn.closest('.chart-toggle').querySelectorAll('.toggle-btn').forEach(b=>b.classList.remove('active'));
-  btn.classList.add('active');
-  chartM.data.datasets[0].data = DATA.meta[metric];
-  chartM.update();
-}
-
-// Gráfico Google
-let chartG = new Chart(document.getElementById('chartGoogle'), {
-  type:'line',
-  data: {
-    labels: DAYS,
-    datasets: [makeLineDataset('Google Ads', DATA.google.gasto, '#EA4335')]
-  },
-  options: {...chartDefaults}
-});
-
-function switchGoogleChart(metric, btn) {
-  btn.closest('.chart-toggle').querySelectorAll('.toggle-btn').forEach(b=>b.classList.remove('active'));
-  btn.classList.add('active');
-  chartG.data.datasets[0].data = DATA.google[metric];
-  chartG.update();
-}
-
 // ─── PERÍODO E GMB ──────────────────────────────────────────────────────────
 
 function updatePeriod() {
@@ -1030,10 +969,84 @@ function updatePeriod() {
 document.getElementById('date-start').addEventListener('change', updatePeriod);
 document.getElementById('date-end').addEventListener('change', updatePeriod);
 
-// ─── INIT ────────────────────────────────────────────────────────────────────
-renderTable('kw');
-renderTable('terms');
-renderTable('origem');
+// ─── CHARTS (construídos após dados carregados) ───────────────────────────────
+
+let chartC, chartM, chartG;
+
+const chartDefaults = {
+  responsive: true, maintainAspectRatio: false,
+  interaction: { mode:'index', intersect:false },
+  plugins: {
+    legend: { display:false },
+    tooltip: { backgroundColor:'#1a1a1a', borderColor:'#333', borderWidth:1, titleColor:'#fff', bodyColor:'#aaa', padding:10 }
+  },
+  scales: {
+    x: { grid:{color:'#1a1a1a'}, ticks:{color:'#555',font:{size:11},maxTicksLimit:10} },
+    y: { grid:{color:'#1a1a1a'}, ticks:{color:'#555',font:{size:11}}, beginAtZero:true }
+  }
+};
+
+function makeDS(label, data, color) {
+  return { label, data, borderColor:color, backgroundColor:color+'22',
+           borderWidth:2, pointRadius:2, pointHoverRadius:5, tension:0.4, fill:true };
+}
+
+function buildCharts(labels) {
+  if (chartC) chartC.destroy();
+  if (chartM) chartM.destroy();
+  if (chartG) chartG.destroy();
+
+  chartC = new Chart(document.getElementById('chartConsolidado'), {
+    type:'line',
+    data: { labels, datasets:[makeDS('Meta',DATA.consolidated.gasto.meta,'#1877F2'), makeDS('Google',DATA.consolidated.gasto.google,'#EA4335')] },
+    options:{...chartDefaults}
+  });
+  chartM = new Chart(document.getElementById('chartMeta'), {
+    type:'line',
+    data: { labels, datasets:[makeDS('Meta',DATA.meta.gasto,'#1877F2')] },
+    options:{...chartDefaults}
+  });
+  chartG = new Chart(document.getElementById('chartGoogle'), {
+    type:'line',
+    data: { labels, datasets:[makeDS('Google',DATA.google.gasto,'#EA4335')] },
+    options:{...chartDefaults}
+  });
+}
+
+function switchChart(metric, btn) {
+  btn.closest('.chart-toggle').querySelectorAll('.toggle-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  const d = DATA.consolidated[metric];
+  chartC.data.datasets[0].data = d.meta;
+  chartC.data.datasets[1].data = d.google || [];
+  chartC.data.datasets[1].borderColor     = d.google ? '#EA4335' : 'transparent';
+  chartC.data.datasets[1].backgroundColor = d.google ? '#EA433522' : 'transparent';
+  chartC.update();
+}
+function switchMetaChart(metric, btn) {
+  btn.closest('.chart-toggle').querySelectorAll('.toggle-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  chartM.data.datasets[0].data = DATA.meta[metric];
+  chartM.update();
+}
+function switchGoogleChart(metric, btn) {
+  btn.closest('.chart-toggle').querySelectorAll('.toggle-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  chartG.data.datasets[0].data = DATA.google[metric];
+  chartG.update();
+}
+
+// ─── INIT — carrega data.json e popula o dashboard ───────────────────────────
+fetch('data.json')
+  .then(r => r.json())
+  .then(populateDashboard)
+  .catch(err => {
+    console.error('Erro ao carregar data.json:', err);
+    document.querySelector('.main').insertAdjacentHTML('afterbegin',
+      '<div style="background:#2a0a0a;border:1px solid #5a1a1a;border-radius:8px;padding:16px;margin-bottom:24px;color:#ff6b6b;font-size:13px;">⚠️ Não foi possível carregar os dados. Execute <code>fetch_acougueiro.py</code> para gerar o data.json.</div>'
+    );
+  });
+
 updatePeriod();
 </script>
 </body>
