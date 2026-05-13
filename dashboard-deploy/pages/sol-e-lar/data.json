@@ -1,0 +1,117 @@
+{
+  "cliente": "Casas Sol e Lar",
+  "periodo": {
+    "start": "2026-04-01",
+    "end": "2026-04-30"
+  },
+  "gerado_em": "2026-05-13T11:52:08.420709",
+  "consolidado": null,
+  "meta": {
+    "spend": 599.09,
+    "reach": 14000,
+    "impressions": 21733,
+    "clicks": 929,
+    "cpm": 27.57,
+    "cpc": 0.64,
+    "ctr": 4.27,
+    "frequency": 1.55,
+    "campaigns": [
+      {
+        "name": "[CBO] [CP 01] [ENG] [MENSAGEM]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 298.2,
+        "reach": 7850,
+        "impressions": 10817,
+        "clicks": 492,
+        "ctr": 4.55,
+        "cpc": 0.61,
+        "result_label": "Engajamentos",
+        "result_qty": 4477,
+        "result_cpr": 0.07
+      },
+      {
+        "name": "[CBO] [CP 03] [LEADS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 300.89,
+        "reach": 7963,
+        "impressions": 10916,
+        "clicks": 437,
+        "ctr": 4.0,
+        "cpc": 0.69,
+        "result_label": "Leads",
+        "result_qty": 1,
+        "result_cpr": 300.89
+      }
+    ],
+    "ads": [
+      {
+        "name": "VIDEO 01",
+        "campaign": "[CBO] [CP 01] [ENG] [MENSAGEM]",
+        "spend": 298.2,
+        "impressions": 10817,
+        "clicks": 492,
+        "ctr": 4.55,
+        "cpc": 0.61,
+        "frequency": 1.38,
+        "result_label": "Engajamentos",
+        "result_qty": 4477,
+        "result_cpr": 0.07
+      },
+      {
+        "name": "VIDEO 01",
+        "campaign": "[CBO] [CP 03] [LEADS]",
+        "spend": 300.89,
+        "impressions": 10916,
+        "clicks": 437,
+        "ctr": 4.0,
+        "cpc": 0.69,
+        "frequency": 1.37,
+        "result_label": "Leads",
+        "result_qty": 1,
+        "result_cpr": 300.89
+      }
+    ]
+  },
+  "google": null,
+  "ga4": {
+    "sessions": 26,
+    "users": 26,
+    "new_users": 26,
+    "pageviews": 38,
+    "bounce_rate": 46.15,
+    "duration": "1m 17s",
+    "events": 172,
+    "conversions": 0,
+    "sources": [
+      {
+        "source": "ig",
+        "medium": "social",
+        "sessions": 18,
+        "pct": 69.2
+      },
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 7,
+        "pct": 26.9
+      },
+      {
+        "source": "l.wl.co",
+        "medium": "referral",
+        "sessions": 1,
+        "pct": 3.8
+      }
+    ],
+    "event_list": [
+      {
+        "name": "Page View",
+        "count": 39
+      },
+      {
+        "name": "click",
+        "count": 7
+      }
+    ]
+  },
+  "gmb": null
+}

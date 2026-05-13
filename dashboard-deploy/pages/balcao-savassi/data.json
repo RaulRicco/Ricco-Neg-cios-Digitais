@@ -1,0 +1,121 @@
+{
+  "cliente": "Balcão Savassi",
+  "periodo": {
+    "start": "2026-04-01",
+    "end": "2026-04-30"
+  },
+  "gerado_em": "2026-05-13T11:50:36.250576",
+  "consolidado": null,
+  "meta": null,
+  "google": {
+    "spend": 443.7,
+    "impressions": 52892,
+    "clicks": 1342,
+    "ctr": 2.54,
+    "cpc": 0.33,
+    "conversions": 448,
+    "cpa": 0.99,
+    "campaigns": [
+      {
+        "name": "[REDE DE PESQUISAS] [VISITAS AO LOCAL]",
+        "type": "Performance_Max",
+        "status": "Enabled",
+        "spend": 443.7,
+        "impressions": 52892,
+        "clicks": 1342,
+        "ctr": 2.54,
+        "cpc": 0.33,
+        "conversions": 448
+      }
+    ],
+    "keywords": [],
+    "search_terms": []
+  },
+  "ga4": {
+    "sessions": 1054,
+    "users": 870,
+    "new_users": 858,
+    "pageviews": 1152,
+    "bounce_rate": 32.45,
+    "duration": "1m 59s",
+    "events": 4610,
+    "conversions": 749,
+    "sources": [
+      {
+        "source": "ig",
+        "medium": "social",
+        "sessions": 524,
+        "pct": 49.7
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 293,
+        "pct": 27.8
+      },
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 122,
+        "pct": 11.6
+      },
+      {
+        "source": "google",
+        "medium": "cpc",
+        "sessions": 94,
+        "pct": 8.9
+      },
+      {
+        "source": "tagassistant.google.com",
+        "medium": "referral",
+        "sessions": 9,
+        "pct": 0.9
+      },
+      {
+        "source": "(data not available)",
+        "medium": "(data not available)",
+        "sessions": 6,
+        "pct": 0.6
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "(not set)",
+        "sessions": 2,
+        "pct": 0.2
+      },
+      {
+        "source": "facebook.com",
+        "medium": "referral",
+        "sessions": 2,
+        "pct": 0.2
+      },
+      {
+        "source": "(not set)",
+        "medium": "(not set)",
+        "sessions": 1,
+        "pct": 0.1
+      },
+      {
+        "source": "bing",
+        "medium": "organic",
+        "sessions": 1,
+        "pct": 0.1
+      }
+    ],
+    "event_list": [
+      {
+        "name": "clicou_cardapio",
+        "count": 716
+      },
+      {
+        "name": "click",
+        "count": 83
+      },
+      {
+        "name": "como_chegar",
+        "count": 33
+      }
+    ]
+  },
+  "gmb": null
+}

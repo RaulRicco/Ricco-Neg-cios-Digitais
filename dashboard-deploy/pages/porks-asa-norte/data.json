@@ -1,0 +1,306 @@
+{
+  "cliente": "Porks Asa Norte",
+  "periodo": {
+    "start": "2026-04-01",
+    "end": "2026-04-30"
+  },
+  "gerado_em": "2026-05-13T11:52:47.474019",
+  "consolidado": null,
+  "meta": {
+    "spend": 849.29,
+    "reach": 48899,
+    "impressions": 91506,
+    "clicks": 1380,
+    "cpm": 9.28,
+    "cpc": 0.62,
+    "ctr": 1.51,
+    "frequency": 1.87,
+    "campaigns": [
+      {
+        "name": "[ENG] [ANIVERSARIANTES] [MENSAGEM]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 118.78,
+        "reach": 5991,
+        "impressions": 14298,
+        "clicks": 94,
+        "ctr": 0.66,
+        "cpc": 1.26,
+        "result_label": "Engajamentos",
+        "result_qty": 1511,
+        "result_cpr": 0.08
+      },
+      {
+        "name": "[CBO] [ESPECIAL NATIRUTS ABR/26] [MENSAGEM]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 99.52,
+        "reach": 5329,
+        "impressions": 9537,
+        "clicks": 250,
+        "ctr": 2.62,
+        "cpc": 0.4,
+        "result_label": "Engajamentos",
+        "result_qty": 3146,
+        "result_cpr": 0.03
+      },
+      {
+        "name": "[CBO] [COMIDA DE BOTECO 26.1] [ENGAJAMENTO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 58.2,
+        "reach": 9196,
+        "impressions": 12087,
+        "clicks": 320,
+        "ctr": 2.65,
+        "cpc": 0.18,
+        "result_label": "Engajamentos",
+        "result_qty": 250,
+        "result_cpr": 0.23
+      },
+      {
+        "name": "[CBO] [ESPECIAL BEATLES] [MENSAGEM]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 119.91,
+        "reach": 4737,
+        "impressions": 7740,
+        "clicks": 164,
+        "ctr": 2.12,
+        "cpc": 0.73,
+        "result_label": "Engajamentos",
+        "result_qty": 2039,
+        "result_cpr": 0.06
+      },
+      {
+        "name": "[ABO] [WE LOVE IPA ABR/26] [ENGAJAMENTO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 149.1,
+        "reach": 18196,
+        "impressions": 24491,
+        "clicks": 93,
+        "ctr": 0.38,
+        "cpc": 1.6,
+        "result_label": "Engajamentos",
+        "result_qty": 8326,
+        "result_cpr": 0.02
+      },
+      {
+        "name": "[CBO] [ESPECIAL GUITAR HERO] [ENGAJAMENTO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 44.23,
+        "reach": 1961,
+        "impressions": 2536,
+        "clicks": 50,
+        "ctr": 1.97,
+        "cpc": 0.88,
+        "result_label": "Engajamentos",
+        "result_qty": 320,
+        "result_cpr": 0.14
+      },
+      {
+        "name": "[CBO] [ESPECIAL PEARL JAM ABRIL] [MENSAGEM]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 156.89,
+        "reach": 6619,
+        "impressions": 12457,
+        "clicks": 239,
+        "ctr": 1.92,
+        "cpc": 0.66,
+        "result_label": "Engajamentos",
+        "result_qty": 3076,
+        "result_cpr": 0.05
+      },
+      {
+        "name": "[CBO] [ESPECIAL SKANK] [MENSAGEM]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 102.66,
+        "reach": 5663,
+        "impressions": 8360,
+        "clicks": 170,
+        "ctr": 2.03,
+        "cpc": 0.6,
+        "result_label": "Engajamentos",
+        "result_qty": 1996,
+        "result_cpr": 0.05
+      }
+    ],
+    "ads": [
+      {
+        "name": "ESPECIAL NATIRUTS",
+        "campaign": "[CBO] [ESPECIAL NATIRUTS ABR/26] [MENSAGEM]",
+        "spend": 99.52,
+        "impressions": 9537,
+        "clicks": 250,
+        "ctr": 2.62,
+        "cpc": 0.4,
+        "frequency": 1.79,
+        "result_label": "Engajamentos",
+        "result_qty": 3146,
+        "result_cpr": 0.03
+      },
+      {
+        "name": "Aniversariantes",
+        "campaign": "[ENG] [ANIVERSARIANTES] [MENSAGEM]",
+        "spend": 118.78,
+        "impressions": 14298,
+        "clicks": 94,
+        "ctr": 0.66,
+        "cpc": 1.26,
+        "frequency": 2.39,
+        "result_label": "Engajamentos",
+        "result_qty": 1511,
+        "result_cpr": 0.08
+      },
+      {
+        "name": "FEED COMIDA DE BOTECO",
+        "campaign": "[CBO] [COMIDA DE BOTECO 26.1] [ENGAJAMENTO]",
+        "spend": 58.2,
+        "impressions": 12087,
+        "clicks": 320,
+        "ctr": 2.65,
+        "cpc": 0.18,
+        "frequency": 1.31,
+        "result_label": "Engajamentos",
+        "result_qty": 250,
+        "result_cpr": 0.23
+      },
+      {
+        "name": "FEED BEATLES",
+        "campaign": "[CBO] [ESPECIAL BEATLES] [MENSAGEM]",
+        "spend": 119.91,
+        "impressions": 7740,
+        "clicks": 164,
+        "ctr": 2.12,
+        "cpc": 0.73,
+        "frequency": 1.63,
+        "result_label": "Engajamentos",
+        "result_qty": 2039,
+        "result_cpr": 0.06
+      },
+      {
+        "name": "WE LOVE IPA REELS",
+        "campaign": "[ABO] [WE LOVE IPA ABR/26] [ENGAJAMENTO]",
+        "spend": 99.73,
+        "impressions": 22253,
+        "clicks": 57,
+        "ctr": 0.26,
+        "cpc": 1.75,
+        "frequency": 1.33,
+        "result_label": "Engajamentos",
+        "result_qty": 7948,
+        "result_cpr": 0.01
+      },
+      {
+        "name": "WE LOVE IPA FEED",
+        "campaign": "[ABO] [WE LOVE IPA ABR/26] [ENGAJAMENTO]",
+        "spend": 49.37,
+        "impressions": 2238,
+        "clicks": 36,
+        "ctr": 1.61,
+        "cpc": 1.37,
+        "frequency": 1.4,
+        "result_label": "Engajamentos",
+        "result_qty": 378,
+        "result_cpr": 0.13
+      },
+      {
+        "name": "ESPECIAL GUITAR HERO",
+        "campaign": "[CBO] [ESPECIAL GUITAR HERO] [ENGAJAMENTO]",
+        "spend": 44.23,
+        "impressions": 2536,
+        "clicks": 50,
+        "ctr": 1.97,
+        "cpc": 0.88,
+        "frequency": 1.29,
+        "result_label": "Engajamentos",
+        "result_qty": 320,
+        "result_cpr": 0.14
+      },
+      {
+        "name": "ESPECIAL PEARL JAM ABR/26",
+        "campaign": "[CBO] [ESPECIAL PEARL JAM ABRIL] [MENSAGEM]",
+        "spend": 156.89,
+        "impressions": 12457,
+        "clicks": 239,
+        "ctr": 1.92,
+        "cpc": 0.66,
+        "frequency": 1.88,
+        "result_label": "Engajamentos",
+        "result_qty": 3076,
+        "result_cpr": 0.05
+      },
+      {
+        "name": "ESPECIAL SKANK",
+        "campaign": "[CBO] [ESPECIAL SKANK] [MENSAGEM]",
+        "spend": 102.66,
+        "impressions": 8360,
+        "clicks": 170,
+        "ctr": 2.03,
+        "cpc": 0.6,
+        "frequency": 1.48,
+        "result_label": "Engajamentos",
+        "result_qty": 1996,
+        "result_cpr": 0.05
+      }
+    ]
+  },
+  "google": null,
+  "ga4": {
+    "sessions": 242,
+    "users": 213,
+    "new_users": 211,
+    "pageviews": 611,
+    "bounce_rate": 9.09,
+    "duration": "2m 5s",
+    "events": 1441,
+    "conversions": 0,
+    "sources": [
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 199,
+        "pct": 82.2
+      },
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 27,
+        "pct": 11.2
+      },
+      {
+        "source": "bing",
+        "medium": "organic",
+        "sessions": 11,
+        "pct": 4.5
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "referral",
+        "sessions": 2,
+        "pct": 0.8
+      },
+      {
+        "source": "(not set)",
+        "medium": "(not set)",
+        "sessions": 1,
+        "pct": 0.4
+      },
+      {
+        "source": "br.search.yahoo.com",
+        "medium": "referral",
+        "sessions": 1,
+        "pct": 0.4
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "(not set)",
+        "sessions": 1,
+        "pct": 0.4
+      }
+    ],
+    "event_list": [
+      {
+        "name": "click",
+        "count": 3
+      }
+    ]
+  },
+  "gmb": null
+}

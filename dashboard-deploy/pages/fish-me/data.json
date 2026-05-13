@@ -1,0 +1,182 @@
+{
+  "cliente": "FishMe Bar e Cozinha",
+  "periodo": {
+    "start": "2026-04-01",
+    "end": "2026-04-30"
+  },
+  "gerado_em": "2026-05-13T11:52:16.042476",
+  "consolidado": null,
+  "meta": {
+    "spend": 256.58,
+    "reach": 31631,
+    "impressions": 48190,
+    "clicks": 619,
+    "cpm": 5.32,
+    "cpc": 0.41,
+    "ctr": 1.28,
+    "frequency": 1.52,
+    "campaigns": [
+      {
+        "name": "[CBO] [TOPO O BAR MAIS AUTENTICO] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 69.25,
+        "reach": 10183,
+        "impressions": 15946,
+        "clicks": 322,
+        "ctr": 2.02,
+        "cpc": 0.22,
+        "result_label": "Cliques",
+        "result_qty": 298,
+        "result_cpr": 0.23
+      },
+      {
+        "name": "[CBO] [SUMMER WINE MAR/26] [ENGAJAMENTO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 20.06,
+        "reach": 4161,
+        "impressions": 5279,
+        "clicks": 12,
+        "ctr": 0.23,
+        "cpc": 1.67,
+        "result_label": "Engajamentos",
+        "result_qty": 2384,
+        "result_cpr": 0.01
+      },
+      {
+        "name": "[CBO] [OPEN WINE MAR/26] [ENGAJAMENTO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 41.4,
+        "reach": 9312,
+        "impressions": 12388,
+        "clicks": 123,
+        "ctr": 0.99,
+        "cpc": 0.34,
+        "result_label": "Engajamentos",
+        "result_qty": 5611,
+        "result_cpr": 0.01
+      },
+      {
+        "name": "[CBO] [SEMANA SANTA 26] [MENSAGEM]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 75.87,
+        "reach": 3669,
+        "impressions": 5991,
+        "clicks": 54,
+        "ctr": 0.9,
+        "cpc": 1.41,
+        "result_label": "Engajamentos",
+        "result_qty": 196,
+        "result_cpr": 0.39
+      },
+      {
+        "name": "[CBO] [FESTIVAL DE PARMEGIANA] [ENGAJAMENTO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 50.0,
+        "reach": 7557,
+        "impressions": 8586,
+        "clicks": 108,
+        "ctr": 1.26,
+        "cpc": 0.46,
+        "result_label": "Engajamentos",
+        "result_qty": 1001,
+        "result_cpr": 0.05
+      }
+    ],
+    "ads": [
+      {
+        "name": "VIDEO O BAR MAIS AUTENTICO",
+        "campaign": "[CBO] [TOPO O BAR MAIS AUTENTICO] [TRAFEGO]",
+        "spend": 69.25,
+        "impressions": 15946,
+        "clicks": 322,
+        "ctr": 2.02,
+        "cpc": 0.22,
+        "frequency": 1.57,
+        "result_label": "Cliques",
+        "result_qty": 298,
+        "result_cpr": 0.23
+      },
+      {
+        "name": "VIDEO SUMMER WINE 22 JAN",
+        "campaign": "[CBO] [SUMMER WINE MAR/26] [ENGAJAMENTO]",
+        "spend": 20.06,
+        "impressions": 5279,
+        "clicks": 12,
+        "ctr": 0.23,
+        "cpc": 1.67,
+        "frequency": 1.27,
+        "result_label": "Engajamentos",
+        "result_qty": 2384,
+        "result_cpr": 0.01
+      },
+      {
+        "name": "OPEN WINE 11 FEV",
+        "campaign": "[CBO] [OPEN WINE MAR/26] [ENGAJAMENTO]",
+        "spend": 41.4,
+        "impressions": 12388,
+        "clicks": 123,
+        "ctr": 0.99,
+        "cpc": 0.34,
+        "frequency": 1.33,
+        "result_label": "Engajamentos",
+        "result_qty": 5611,
+        "result_cpr": 0.01
+      },
+      {
+        "name": "SEMANA SANTA 26",
+        "campaign": "[CBO] [SEMANA SANTA 26] [MENSAGEM]",
+        "spend": 19.66,
+        "impressions": 1547,
+        "clicks": 13,
+        "ctr": 0.84,
+        "cpc": 1.51,
+        "frequency": 1.23,
+        "result_label": "Engajamentos",
+        "result_qty": 81,
+        "result_cpr": 0.24
+      },
+      {
+        "name": "SEMANA SANTA 26",
+        "campaign": "[CBO] [SEMANA SANTA 26] [MENSAGEM]",
+        "spend": 56.21,
+        "impressions": 4444,
+        "clicks": 41,
+        "ctr": 0.92,
+        "cpc": 1.37,
+        "frequency": 1.5,
+        "result_label": "Engajamentos",
+        "result_qty": 115,
+        "result_cpr": 0.49
+      },
+      {
+        "name": "FESTIVAL DE PARMEGIANA ABR/26",
+        "campaign": "[CBO] [FESTIVAL DE PARMEGIANA] [ENGAJAMENTO]",
+        "spend": 20.74,
+        "impressions": 3433,
+        "clicks": 79,
+        "ctr": 2.3,
+        "cpc": 0.26,
+        "frequency": 1.32,
+        "result_label": "Engajamentos",
+        "result_qty": 114,
+        "result_cpr": 0.18
+      },
+      {
+        "name": "REELS FESTIVAL DE PARMEGIANA ABR/26",
+        "campaign": "[CBO] [FESTIVAL DE PARMEGIANA] [ENGAJAMENTO]",
+        "spend": 29.26,
+        "impressions": 5153,
+        "clicks": 29,
+        "ctr": 0.56,
+        "cpc": 1.01,
+        "frequency": 1.03,
+        "result_label": "Engajamentos",
+        "result_qty": 887,
+        "result_cpr": 0.03
+      }
+    ]
+  },
+  "google": null,
+  "ga4": null,
+  "gmb": null
+}

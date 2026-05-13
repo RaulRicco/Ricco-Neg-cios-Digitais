@@ -1,0 +1,104 @@
+{
+  "cliente": "Boteco do Quintal",
+  "periodo": {
+    "start": "2026-04-01",
+    "end": "2026-04-30"
+  },
+  "gerado_em": "2026-05-13T11:53:22.825451",
+  "consolidado": null,
+  "meta": {
+    "spend": 497.83,
+    "reach": 69662,
+    "impressions": 107360,
+    "clicks": 2490,
+    "cpm": 4.64,
+    "cpc": 0.2,
+    "ctr": 2.32,
+    "frequency": 1.54,
+    "campaigns": [
+      {
+        "name": "[CBO] [VIDEO APRESENTACAO BOTECO] [ENGAJAMENTO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 174.95,
+        "reach": 41995,
+        "impressions": 53478,
+        "clicks": 882,
+        "ctr": 1.65,
+        "cpc": 0.2,
+        "result_label": "Engajamentos",
+        "result_qty": 35427,
+        "result_cpr": 0.0
+      },
+      {
+        "name": "[ABO] [BOTECO DO QUINTAL] [ENGAJAMENTO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 44.69,
+        "reach": 3211,
+        "impressions": 4981,
+        "clicks": 77,
+        "ctr": 1.55,
+        "cpc": 0.58,
+        "result_label": "Engajamentos",
+        "result_qty": 108,
+        "result_cpr": 0.41
+      },
+      {
+        "name": "[CBO] [PIRIDICAS VIDEO] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 278.19,
+        "reach": 27261,
+        "impressions": 48901,
+        "clicks": 1531,
+        "ctr": 3.13,
+        "cpc": 0.18,
+        "result_label": "Cliques",
+        "result_qty": 1247,
+        "result_cpr": 0.22
+      }
+    ],
+    "ads": [
+      {
+        "name": "VIDEO APRESENTACAO BOTECO",
+        "campaign": "[CBO] [VIDEO APRESENTACAO BOTECO] [ENGAJAMENTO]",
+        "spend": 174.95,
+        "impressions": 53478,
+        "clicks": 882,
+        "ctr": 1.65,
+        "cpc": 0.2,
+        "frequency": 1.27,
+        "result_label": "Engajamentos",
+        "result_qty": 35427,
+        "result_cpr": 0.0
+      },
+      {
+        "name": "PROGRAMAÇÃO DA SEMANA",
+        "campaign": "[ABO] [BOTECO DO QUINTAL] [ENGAJAMENTO]",
+        "spend": 44.69,
+        "impressions": 4981,
+        "clicks": 77,
+        "ctr": 1.55,
+        "cpc": 0.58,
+        "frequency": 1.55,
+        "result_label": "Engajamentos",
+        "result_qty": 108,
+        "result_cpr": 0.41
+      },
+      {
+        "name": "VIDEO PIRI DICAS",
+        "campaign": "[CBO] [PIRIDICAS VIDEO] [TRAFEGO]",
+        "spend": 278.19,
+        "impressions": 48901,
+        "clicks": 1531,
+        "ctr": 3.13,
+        "cpc": 0.18,
+        "frequency": 1.79,
+        "result_label": "Cliques",
+        "result_qty": 1247,
+        "result_cpr": 0.22
+      }
+    ]
+  },
+  "google": null,
+  "ga4": null,
+  "gmb": null
+}

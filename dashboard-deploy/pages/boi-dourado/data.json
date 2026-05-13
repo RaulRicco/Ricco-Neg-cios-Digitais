@@ -1,0 +1,1054 @@
+{
+  "cliente": "Churrascaria Boi Dourado",
+  "periodo": {
+    "start": "2026-04-01",
+    "end": "2026-04-30"
+  },
+  "gerado_em": "2026-05-13T11:50:00.097639",
+  "consolidado": {
+    "spend": 3602.25,
+    "reach": 147691,
+    "impressions": 379123,
+    "clicks": 12224,
+    "meta_spend": 2296.18,
+    "google_spend": 1306.07
+  },
+  "meta": {
+    "spend": 2296.18,
+    "reach": 147691,
+    "impressions": 336365,
+    "clicks": 8402,
+    "cpm": 6.83,
+    "cpc": 0.27,
+    "ctr": 2.5,
+    "frequency": 2.28,
+    "campaigns": [
+      {
+        "name": "[CBO] [TOPO NOV/25] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 296.94,
+        "reach": 33488,
+        "impressions": 55305,
+        "clicks": 3385,
+        "ctr": 6.12,
+        "cpc": 0.09,
+        "result_label": "Cliques",
+        "result_qty": 1017,
+        "result_cpr": 0.29
+      },
+      {
+        "name": "[CBO] [VIDEO ANIVERSARIO 26] [ENGAJAMENTO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 296.87,
+        "reach": 12293,
+        "impressions": 23484,
+        "clicks": 512,
+        "ctr": 2.18,
+        "cpc": 0.58,
+        "result_label": "Engajamentos",
+        "result_qty": 5676,
+        "result_cpr": 0.05
+      },
+      {
+        "name": "[CBO] [MEIO DE FUNIL JAN/26] [ENGAJAMENTO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 208.9,
+        "reach": 50950,
+        "impressions": 80202,
+        "clicks": 1155,
+        "ctr": 1.44,
+        "cpc": 0.18,
+        "result_label": "Engajamentos",
+        "result_qty": 35845,
+        "result_cpr": 0.01
+      },
+      {
+        "name": "[ABO] [PROMO RELAMPAGO DOURADO SEMANA] [MENSAGEM]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 306.97,
+        "reach": 14233,
+        "impressions": 27675,
+        "clicks": 599,
+        "ctr": 2.16,
+        "cpc": 0.51,
+        "result_label": "Engajamentos",
+        "result_qty": 552,
+        "result_cpr": 0.56
+      },
+      {
+        "name": "[CBO] [ANIVERSARIOS 26] [LEADS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 301.07,
+        "reach": 24620,
+        "impressions": 49461,
+        "clicks": 1313,
+        "ctr": 2.65,
+        "cpc": 0.23,
+        "result_label": "Leads",
+        "result_qty": 38,
+        "result_cpr": 7.92
+      },
+      {
+        "name": "[CBO] [VIDEO SEMANA SANTA] [ENGAJAMENTO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 100.0,
+        "reach": 21052,
+        "impressions": 31348,
+        "clicks": 339,
+        "ctr": 1.08,
+        "cpc": 0.29,
+        "result_label": "Engajamentos",
+        "result_qty": 12562,
+        "result_cpr": 0.01
+      },
+      {
+        "name": "[ABO] [PROMO FDS RELAMPAGO DOURADO] [MENSAGEM]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 345.78,
+        "reach": 17722,
+        "impressions": 34570,
+        "clicks": 660,
+        "ctr": 1.91,
+        "cpc": 0.52,
+        "result_label": "Engajamentos",
+        "result_qty": 592,
+        "result_cpr": 0.58
+      },
+      {
+        "name": "[ABO] [PROMO CASAL 1.0] [MENSAGEM]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 439.65,
+        "reach": 14030,
+        "impressions": 34320,
+        "clicks": 439,
+        "ctr": 1.28,
+        "cpc": 1.0,
+        "result_label": "Engajamentos",
+        "result_qty": 9285,
+        "result_cpr": 0.05
+      }
+    ],
+    "ads": [
+      {
+        "name": "VIDEO 23 OUT",
+        "campaign": "[CBO] [TOPO NOV/25] [TRAFEGO]",
+        "spend": 196.7,
+        "impressions": 43464,
+        "clicks": 2860,
+        "ctr": 6.58,
+        "cpc": 0.07,
+        "frequency": 1.49,
+        "result_label": "Cliques",
+        "result_qty": 845,
+        "result_cpr": 0.23
+      },
+      {
+        "name": "VIDEO 17.11 TOPO DE FUNIL",
+        "campaign": "[CBO] [TOPO NOV/25] [TRAFEGO]",
+        "spend": 100.24,
+        "impressions": 11841,
+        "clicks": 525,
+        "ctr": 4.43,
+        "cpc": 0.19,
+        "frequency": 1.39,
+        "result_label": "Cliques",
+        "result_qty": 172,
+        "result_cpr": 0.58
+      },
+      {
+        "name": "VIDEO ANIVERSARIO INFLUENCER",
+        "campaign": "[CBO] [VIDEO ANIVERSARIO 26] [ENGAJAMENTO]",
+        "spend": 296.87,
+        "impressions": 23484,
+        "clicks": 512,
+        "ctr": 2.18,
+        "cpc": 0.58,
+        "frequency": 1.91,
+        "result_label": "Engajamentos",
+        "result_qty": 5676,
+        "result_cpr": 0.05
+      },
+      {
+        "name": "VIDEO 4 JAN",
+        "campaign": "[CBO] [MEIO DE FUNIL JAN/26] [ENGAJAMENTO]",
+        "spend": 0.77,
+        "impressions": 316,
+        "clicks": 10,
+        "ctr": 3.16,
+        "cpc": 0.08,
+        "frequency": 1.12,
+        "result_label": "Engajamentos",
+        "result_qty": 164,
+        "result_cpr": 0.0
+      },
+      {
+        "name": "VIDEO 30 DEZ",
+        "campaign": "[CBO] [MEIO DE FUNIL JAN/26] [ENGAJAMENTO]",
+        "spend": 1.32,
+        "impressions": 525,
+        "clicks": 6,
+        "ctr": 1.14,
+        "cpc": 0.22,
+        "frequency": 1.06,
+        "result_label": "Engajamentos",
+        "result_qty": 245,
+        "result_cpr": 0.01
+      },
+      {
+        "name": "VIDEO 22 DEZ",
+        "campaign": "[CBO] [MEIO DE FUNIL JAN/26] [ENGAJAMENTO]",
+        "spend": 1.42,
+        "impressions": 510,
+        "clicks": 15,
+        "ctr": 2.94,
+        "cpc": 0.09,
+        "frequency": 1.09,
+        "result_label": "Engajamentos",
+        "result_qty": 243,
+        "result_cpr": 0.01
+      },
+      {
+        "name": "VIDEO 8 DEZ",
+        "campaign": "[CBO] [MEIO DE FUNIL JAN/26] [ENGAJAMENTO]",
+        "spend": 3.81,
+        "impressions": 1571,
+        "clicks": 16,
+        "ctr": 1.02,
+        "cpc": 0.24,
+        "frequency": 1.1,
+        "result_label": "Engajamentos",
+        "result_qty": 789,
+        "result_cpr": 0.0
+      },
+      {
+        "name": "VIDEO 3 DEZ",
+        "campaign": "[CBO] [MEIO DE FUNIL JAN/26] [ENGAJAMENTO]",
+        "spend": 201.58,
+        "impressions": 77280,
+        "clicks": 1108,
+        "ctr": 1.43,
+        "cpc": 0.18,
+        "frequency": 1.54,
+        "result_label": "Engajamentos",
+        "result_qty": 34404,
+        "result_cpr": 0.01
+      },
+      {
+        "name": "VIDEO ANIVERSARIO",
+        "campaign": "[CBO] [ANIVERSARIOS 26] [LEADS]",
+        "spend": 301.07,
+        "impressions": 49461,
+        "clicks": 1313,
+        "ctr": 2.65,
+        "cpc": 0.23,
+        "frequency": 2.01,
+        "result_label": "Leads",
+        "result_qty": 38,
+        "result_cpr": 7.92
+      },
+      {
+        "name": "VIDEO SEMANA SANTA",
+        "campaign": "[CBO] [VIDEO SEMANA SANTA] [ENGAJAMENTO]",
+        "spend": 100.0,
+        "impressions": 31348,
+        "clicks": 339,
+        "ctr": 1.08,
+        "cpc": 0.29,
+        "frequency": 1.49,
+        "result_label": "Engajamentos",
+        "result_qty": 12562,
+        "result_cpr": 0.01
+      },
+      {
+        "name": "ESTATICA PROMO RELAMPAGO",
+        "campaign": "[ABO] [PROMO RELAMPAGO DOURADO SEMANA] [MENSAGEM]",
+        "spend": 306.97,
+        "impressions": 27675,
+        "clicks": 599,
+        "ctr": 2.16,
+        "cpc": 0.51,
+        "frequency": 1.94,
+        "result_label": "Engajamentos",
+        "result_qty": 552,
+        "result_cpr": 0.56
+      },
+      {
+        "name": "PROMO FDS RELAMPADO DOURADO ABRIL",
+        "campaign": "[ABO] [PROMO FDS RELAMPAGO DOURADO] [MENSAGEM]",
+        "spend": 345.78,
+        "impressions": 34570,
+        "clicks": 660,
+        "ctr": 1.91,
+        "cpc": 0.52,
+        "frequency": 1.95,
+        "result_label": "Engajamentos",
+        "result_qty": 592,
+        "result_cpr": 0.58
+      },
+      {
+        "name": "VIDEO PROMO PARA 2",
+        "campaign": "[ABO] [PROMO CASAL 1.0] [MENSAGEM]",
+        "spend": 439.65,
+        "impressions": 34320,
+        "clicks": 439,
+        "ctr": 1.28,
+        "cpc": 1.0,
+        "frequency": 2.45,
+        "result_label": "Engajamentos",
+        "result_qty": 9285,
+        "result_cpr": 0.05
+      }
+    ]
+  },
+  "google": {
+    "spend": 1306.07,
+    "impressions": 42758,
+    "clicks": 3822,
+    "ctr": 8.94,
+    "cpc": 0.34,
+    "conversions": 434,
+    "cpa": 3.01,
+    "campaigns": [
+      {
+        "name": "[REDE DE PESQUISA] [FECHADA]",
+        "type": "Search",
+        "status": "Enabled",
+        "spend": 910.51,
+        "impressions": 23674,
+        "clicks": 2502,
+        "ctr": 10.57,
+        "cpc": 0.36,
+        "conversions": 415
+      },
+      {
+        "name": "[PMAX] [ANIVERSARIO] [ABRIL]",
+        "type": "Performance_Max",
+        "status": "Enabled",
+        "spend": 392.35,
+        "impressions": 18983,
+        "clicks": 1314,
+        "ctr": 6.92,
+        "cpc": 0.3,
+        "conversions": 14
+      },
+      {
+        "name": "[Pesquisa] [VENDA] [2025]",
+        "type": "Search",
+        "status": "Paused",
+        "spend": 3.21,
+        "impressions": 101,
+        "clicks": 6,
+        "ctr": 5.94,
+        "cpc": 0.53,
+        "conversions": 5
+      }
+    ],
+    "keywords": [
+      {
+        "keyword": "espeto curitiba",
+        "match": "Broad",
+        "impressions": 12349,
+        "clicks": 1432,
+        "ctr": 11.6,
+        "cpc": 0.34,
+        "conversions": 234
+      },
+      {
+        "keyword": "churrascaria gaucho curitiba",
+        "match": "Broad",
+        "impressions": 5811,
+        "clicks": 573,
+        "ctr": 9.86,
+        "cpc": 0.38,
+        "conversions": 112
+      },
+      {
+        "keyword": "churrascaria curitiba",
+        "match": "Exact",
+        "impressions": 4244,
+        "clicks": 404,
+        "ctr": 9.52,
+        "cpc": 0.37,
+        "conversions": 59
+      },
+      {
+        "keyword": "rodizios em curitiba",
+        "match": "Exact",
+        "impressions": 412,
+        "clicks": 33,
+        "ctr": 8.01,
+        "cpc": 0.45,
+        "conversions": 5
+      },
+      {
+        "keyword": "churrascaria",
+        "match": "Broad",
+        "impressions": 44,
+        "clicks": 5,
+        "ctr": 11.36,
+        "cpc": 0.62,
+        "conversions": 5
+      },
+      {
+        "keyword": "churrascaria curitiba",
+        "match": "Broad",
+        "impressions": 19,
+        "clicks": 1,
+        "ctr": 5.26,
+        "cpc": 0.09,
+        "conversions": 0
+      },
+      {
+        "keyword": "churrascaria rodizio",
+        "match": "Broad",
+        "impressions": 8,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "melhor restaurante de curitiba",
+        "match": "Broad",
+        "impressions": 6,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "restaurante em curitiba",
+        "match": "Broad",
+        "impressions": 4,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "churrascaria restaurante",
+        "match": "Broad",
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "boi dourado",
+        "match": "Broad",
+        "impressions": 4,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "churrascaria e restaurante",
+        "match": "Broad",
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "restaurantes churrascarias",
+        "match": "Broad",
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "melhores restaurantes em curitiba",
+        "match": "Broad",
+        "impressions": 3,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "boi dourado curitiba",
+        "match": "Exact",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "churrascaria boi dourado",
+        "match": "Exact",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      }
+    ],
+    "search_terms": [
+      {
+        "term": "churrascaria curitiba",
+        "keyword": "—",
+        "impressions": 2829,
+        "clicks": 272,
+        "ctr": 9.61,
+        "cpc": 0.4
+      },
+      {
+        "term": "boi dourado curitiba",
+        "keyword": "—",
+        "impressions": 454,
+        "clicks": 129,
+        "ctr": 28.41,
+        "cpc": 0.34
+      },
+      {
+        "term": "churrascaria em curitiba",
+        "keyword": "—",
+        "impressions": 1165,
+        "clicks": 99,
+        "ctr": 8.5,
+        "cpc": 0.44
+      },
+      {
+        "term": "churrascaria",
+        "keyword": "—",
+        "impressions": 1238,
+        "clicks": 80,
+        "ctr": 6.46,
+        "cpc": 0.31
+      },
+      {
+        "term": "boi dourado",
+        "keyword": "—",
+        "impressions": 298,
+        "clicks": 62,
+        "ctr": 20.81,
+        "cpc": 0.39
+      },
+      {
+        "term": "churrascaria barata em curitiba",
+        "keyword": "—",
+        "impressions": 144,
+        "clicks": 28,
+        "ctr": 19.44,
+        "cpc": 0.56
+      },
+      {
+        "term": "churrascaria em curitiba barata",
+        "keyword": "—",
+        "impressions": 166,
+        "clicks": 31,
+        "ctr": 18.67,
+        "cpc": 0.42
+      },
+      {
+        "term": "churrascarias em curitiba",
+        "keyword": "—",
+        "impressions": 332,
+        "clicks": 27,
+        "ctr": 8.13,
+        "cpc": 0.47
+      },
+      {
+        "term": "churrascaria boi dourado curitiba",
+        "keyword": "—",
+        "impressions": 118,
+        "clicks": 39,
+        "ctr": 33.05,
+        "cpc": 0.31
+      },
+      {
+        "term": "restaurante curitiba",
+        "keyword": "—",
+        "impressions": 137,
+        "clicks": 18,
+        "ctr": 13.14,
+        "cpc": 0.53
+      },
+      {
+        "term": "churrascaria curitiba preços",
+        "keyword": "—",
+        "impressions": 112,
+        "clicks": 21,
+        "ctr": 18.75,
+        "cpc": 0.4
+      },
+      {
+        "term": "churrascaria avenida das torres",
+        "keyword": "—",
+        "impressions": 205,
+        "clicks": 27,
+        "ctr": 13.17,
+        "cpc": 0.29
+      },
+      {
+        "term": "restaurante boi dourado",
+        "keyword": "—",
+        "impressions": 83,
+        "clicks": 23,
+        "ctr": 27.71,
+        "cpc": 0.34
+      },
+      {
+        "term": "rodizio de carne curitiba",
+        "keyword": "—",
+        "impressions": 91,
+        "clicks": 14,
+        "ctr": 15.38,
+        "cpc": 0.55
+      },
+      {
+        "term": "churrascaria boi dourado",
+        "keyword": "—",
+        "impressions": 103,
+        "clicks": 19,
+        "ctr": 18.45,
+        "cpc": 0.33
+      },
+      {
+        "term": "churrascaria sao jose dos pinhais",
+        "keyword": "—",
+        "impressions": 191,
+        "clicks": 20,
+        "ctr": 10.47,
+        "cpc": 0.29
+      },
+      {
+        "term": "rodizio curitiba",
+        "keyword": "—",
+        "impressions": 176,
+        "clicks": 11,
+        "ctr": 6.25,
+        "cpc": 0.49
+      },
+      {
+        "term": "boi dourado churrascaria",
+        "keyword": "—",
+        "impressions": 36,
+        "clicks": 10,
+        "ctr": 27.78,
+        "cpc": 0.52
+      },
+      {
+        "term": "churrascaria perto de mim",
+        "keyword": "—",
+        "impressions": 253,
+        "clicks": 25,
+        "ctr": 9.88,
+        "cpc": 0.18
+      },
+      {
+        "term": "recanto gaucho avenida das torres",
+        "keyword": "—",
+        "impressions": 19,
+        "clicks": 2,
+        "ctr": 10.53,
+        "cpc": 2.28
+      },
+      {
+        "term": "nativas grill curitiba",
+        "keyword": "—",
+        "impressions": 42,
+        "clicks": 4,
+        "ctr": 9.52,
+        "cpc": 0.99
+      },
+      {
+        "term": "churrascaria com sushi curitiba",
+        "keyword": "—",
+        "impressions": 60,
+        "clicks": 9,
+        "ctr": 15.0,
+        "cpc": 0.42
+      },
+      {
+        "term": "rodízio em curitiba barato",
+        "keyword": "—",
+        "impressions": 46,
+        "clicks": 8,
+        "ctr": 17.39,
+        "cpc": 0.47
+      },
+      {
+        "term": "churrascaria rodízio curitiba",
+        "keyword": "—",
+        "impressions": 95,
+        "clicks": 7,
+        "ctr": 7.37,
+        "cpc": 0.54
+      },
+      {
+        "term": "boi dourado valor",
+        "keyword": "—",
+        "impressions": 60,
+        "clicks": 8,
+        "ctr": 13.33,
+        "cpc": 0.47
+      },
+      {
+        "term": "churrascaria boi dourado preço",
+        "keyword": "—",
+        "impressions": 34,
+        "clicks": 11,
+        "ctr": 32.35,
+        "cpc": 0.33
+      },
+      {
+        "term": "cardápio de boi dourado curitiba",
+        "keyword": "—",
+        "impressions": 33,
+        "clicks": 10,
+        "ctr": 30.3,
+        "cpc": 0.36
+      },
+      {
+        "term": "churrascaria em são josé dos pinhais",
+        "keyword": "—",
+        "impressions": 70,
+        "clicks": 10,
+        "ctr": 14.29,
+        "cpc": 0.36
+      },
+      {
+        "term": "churrascaria barato em curitiba",
+        "keyword": "—",
+        "impressions": 7,
+        "clicks": 3,
+        "ctr": 42.86,
+        "cpc": 1.13
+      },
+      {
+        "term": "churrascaria no centro de curitiba",
+        "keyword": "—",
+        "impressions": 41,
+        "clicks": 9,
+        "ctr": 21.95,
+        "cpc": 0.36
+      },
+      {
+        "term": "churrascaria na avenida das torres",
+        "keyword": "—",
+        "impressions": 54,
+        "clicks": 5,
+        "ctr": 9.26,
+        "cpc": 0.62
+      },
+      {
+        "term": "costela rodizio",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 2,
+        "ctr": 100.0,
+        "cpc": 1.53
+      },
+      {
+        "term": "rodizio em curitiba",
+        "keyword": "—",
+        "impressions": 75,
+        "clicks": 6,
+        "ctr": 8.0,
+        "cpc": 0.51
+      },
+      {
+        "term": "churrascarias",
+        "keyword": "—",
+        "impressions": 43,
+        "clicks": 7,
+        "ctr": 16.28,
+        "cpc": 0.42
+      },
+      {
+        "term": "churrascaria são josé dos pinhais",
+        "keyword": "—",
+        "impressions": 164,
+        "clicks": 14,
+        "ctr": 8.54,
+        "cpc": 0.2
+      },
+      {
+        "term": "churrascaria rodizio em curitiba",
+        "keyword": "—",
+        "impressions": 31,
+        "clicks": 7,
+        "ctr": 22.58,
+        "cpc": 0.38
+      },
+      {
+        "term": "churrascaria boa e barata em curitiba",
+        "keyword": "—",
+        "impressions": 65,
+        "clicks": 7,
+        "ctr": 10.77,
+        "cpc": 0.38
+      },
+      {
+        "term": "boi dourado preço",
+        "keyword": "—",
+        "impressions": 37,
+        "clicks": 7,
+        "ctr": 18.92,
+        "cpc": 0.38
+      },
+      {
+        "term": "churrascaria em curitiba boa e barata",
+        "keyword": "—",
+        "impressions": 63,
+        "clicks": 8,
+        "ctr": 12.7,
+        "cpc": 0.32
+      },
+      {
+        "term": "churrascaria boi dourado em curitiba",
+        "keyword": "—",
+        "impressions": 52,
+        "clicks": 10,
+        "ctr": 19.23,
+        "cpc": 0.26
+      },
+      {
+        "term": "churrascaria com sushi",
+        "keyword": "—",
+        "impressions": 28,
+        "clicks": 6,
+        "ctr": 21.43,
+        "cpc": 0.42
+      },
+      {
+        "term": "churrascaria em sao jose dos pinhais",
+        "keyword": "—",
+        "impressions": 103,
+        "clicks": 14,
+        "ctr": 13.59,
+        "cpc": 0.18
+      },
+      {
+        "term": "churrascaria av das torres",
+        "keyword": "—",
+        "impressions": 44,
+        "clicks": 9,
+        "ctr": 20.45,
+        "cpc": 0.27
+      },
+      {
+        "term": "churrascaria em curitiba rodizio",
+        "keyword": "—",
+        "impressions": 26,
+        "clicks": 4,
+        "ctr": 15.38,
+        "cpc": 0.58
+      },
+      {
+        "term": "restaurantes curitiba",
+        "keyword": "—",
+        "impressions": 37,
+        "clicks": 3,
+        "ctr": 8.11,
+        "cpc": 0.77
+      },
+      {
+        "term": "churrascarias curitiba",
+        "keyword": "—",
+        "impressions": 118,
+        "clicks": 8,
+        "ctr": 6.78,
+        "cpc": 0.29
+      },
+      {
+        "term": "rodizio de churrasco perto de mim",
+        "keyword": "—",
+        "impressions": 9,
+        "clicks": 2,
+        "ctr": 22.22,
+        "cpc": 1.13
+      },
+      {
+        "term": "churrascaria pinhais",
+        "keyword": "—",
+        "impressions": 90,
+        "clicks": 7,
+        "ctr": 7.78,
+        "cpc": 0.32
+      },
+      {
+        "term": "rodízio de carne em curitiba",
+        "keyword": "—",
+        "impressions": 43,
+        "clicks": 5,
+        "ctr": 11.63,
+        "cpc": 0.44
+      },
+      {
+        "term": "churrascaria promoção casal curitiba",
+        "keyword": "—",
+        "impressions": 27,
+        "clicks": 6,
+        "ctr": 22.22,
+        "cpc": 0.35
+      }
+    ]
+  },
+  "ga4": {
+    "sessions": 6943,
+    "users": 5001,
+    "new_users": 9716,
+    "pageviews": 14149,
+    "bounce_rate": 35.14,
+    "duration": "2m 38s",
+    "events": 59689,
+    "conversions": 1909,
+    "sources": [
+      {
+        "source": "google",
+        "medium": "cpc",
+        "sessions": 2497,
+        "pct": 35.7
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 1583,
+        "pct": 22.7
+      },
+      {
+        "source": "ig",
+        "medium": "social",
+        "sessions": 1500,
+        "pct": 21.5
+      },
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 534,
+        "pct": 7.6
+      },
+      {
+        "source": "META ADS",
+        "medium": "[CBO] [ANIVERSARIOS 26] [LEADS]",
+        "sessions": 432,
+        "pct": 6.2
+      },
+      {
+        "source": "(data not available)",
+        "medium": "(data not available)",
+        "sessions": 88,
+        "pct": 1.3
+      },
+      {
+        "source": "ig",
+        "medium": "paid",
+        "sessions": 71,
+        "pct": 1.0
+      },
+      {
+        "source": "fb",
+        "medium": "paid",
+        "sessions": 68,
+        "pct": 1.0
+      },
+      {
+        "source": "l.facebook.com",
+        "medium": "referral",
+        "sessions": 39,
+        "pct": 0.6
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "(not set)",
+        "sessions": 28,
+        "pct": 0.4
+      },
+      {
+        "source": "(not set)",
+        "medium": "(not set)",
+        "sessions": 27,
+        "pct": 0.4
+      },
+      {
+        "source": "m.facebook.com",
+        "medium": "referral",
+        "sessions": 27,
+        "pct": 0.4
+      },
+      {
+        "source": "bing",
+        "medium": "organic",
+        "sessions": 25,
+        "pct": 0.4
+      },
+      {
+        "source": "facebook.com",
+        "medium": "referral",
+        "sessions": 17,
+        "pct": 0.2
+      },
+      {
+        "source": "tagassistant.google.com",
+        "medium": "referral",
+        "sessions": 12,
+        "pct": 0.2
+      },
+      {
+        "source": "br.search.yahoo.com",
+        "medium": "referral",
+        "sessions": 9,
+        "pct": 0.1
+      },
+      {
+        "source": "l.instagram.com",
+        "medium": "referral",
+        "sessions": 7,
+        "pct": 0.1
+      },
+      {
+        "source": "muralzinhodeideias.com.br",
+        "medium": "referral",
+        "sessions": 7,
+        "pct": 0.1
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "referral",
+        "sessions": 5,
+        "pct": 0.1
+      },
+      {
+        "source": "br.indeed.com",
+        "medium": "referral",
+        "sessions": 3,
+        "pct": 0.0
+      }
+    ],
+    "event_list": [
+      {
+        "name": "click",
+        "count": 4569
+      },
+      {
+        "name": "clicou_reserva_hero",
+        "count": 1207
+      },
+      {
+        "name": "clicou_wttp",
+        "count": 731
+      },
+      {
+        "name": "form_start",
+        "count": 307
+      },
+      {
+        "name": "generate_lead",
+        "count": 34
+      },
+      {
+        "name": "https://churrascariaboidourado.com.br/?g",
+        "count": 1
+      }
+    ]
+  },
+  "gmb": null
+}

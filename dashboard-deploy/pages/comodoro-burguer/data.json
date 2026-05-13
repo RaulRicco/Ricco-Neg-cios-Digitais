@@ -1,0 +1,1598 @@
+{
+  "cliente": "Comodoro Burguer",
+  "periodo": {
+    "start": "2026-04-01",
+    "end": "2026-04-30"
+  },
+  "gerado_em": "2026-05-13T11:51:17.476065",
+  "consolidado": {
+    "spend": 20862.88,
+    "reach": 1033783,
+    "impressions": 3796090,
+    "clicks": 44873,
+    "meta_spend": 19858.63,
+    "google_spend": 1004.25
+  },
+  "meta": {
+    "spend": 19858.63,
+    "reach": 1033783,
+    "impressions": 3655847,
+    "clicks": 40031,
+    "cpm": 5.43,
+    "cpc": 0.5,
+    "ctr": 1.09,
+    "frequency": 3.54,
+    "campaigns": [
+      {
+        "name": "[CURITIBA] [BURGURS A PARTIR DE] [ENGAJAMENTO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 1979.77,
+        "reach": 126084,
+        "impressions": 237938,
+        "clicks": 4995,
+        "ctr": 2.1,
+        "cpc": 0.4,
+        "result_label": "Engajamentos",
+        "result_qty": 81759,
+        "result_cpr": 0.02
+      },
+      {
+        "name": "[COLOMBO] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 247.51,
+        "reach": 21929,
+        "impressions": 57292,
+        "clicks": 636,
+        "ctr": 1.11,
+        "cpc": 0.39,
+        "result_label": "Engajamentos",
+        "result_qty": 5877,
+        "result_cpr": 0.04
+      },
+      {
+        "name": "[PG] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 247.42,
+        "reach": 27989,
+        "impressions": 65855,
+        "clicks": 799,
+        "ctr": 1.21,
+        "cpc": 0.31,
+        "result_label": "Engajamentos",
+        "result_qty": 6753,
+        "result_cpr": 0.04
+      },
+      {
+        "name": "[PINHAIS] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 247.52,
+        "reach": 20773,
+        "impressions": 60882,
+        "clicks": 712,
+        "ctr": 1.17,
+        "cpc": 0.35,
+        "result_label": "Engajamentos",
+        "result_qty": 3983,
+        "result_cpr": 0.06
+      },
+      {
+        "name": "[ARAUCARIA] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 247.51,
+        "reach": 21022,
+        "impressions": 59184,
+        "clicks": 708,
+        "ctr": 1.2,
+        "cpc": 0.35,
+        "result_label": "Engajamentos",
+        "result_qty": 4832,
+        "result_cpr": 0.05
+      },
+      {
+        "name": "[FRG] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 247.51,
+        "reach": 18602,
+        "impressions": 52654,
+        "clicks": 585,
+        "ctr": 1.11,
+        "cpc": 0.42,
+        "result_label": "Engajamentos",
+        "result_qty": 5031,
+        "result_cpr": 0.05
+      },
+      {
+        "name": "[CGS] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 247.36,
+        "reach": 17667,
+        "impressions": 62971,
+        "clicks": 724,
+        "ctr": 1.15,
+        "cpc": 0.34,
+        "result_label": "Engajamentos",
+        "result_qty": 3925,
+        "result_cpr": 0.06
+      },
+      {
+        "name": "[AT] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 247.48,
+        "reach": 19434,
+        "impressions": 61316,
+        "clicks": 669,
+        "ctr": 1.09,
+        "cpc": 0.37,
+        "result_label": "Engajamentos",
+        "result_qty": 4252,
+        "result_cpr": 0.06
+      },
+      {
+        "name": "[ARAUCARIA] [ALMOÇO ABR/26] [WTTP]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 994.97,
+        "reach": 21229,
+        "impressions": 78700,
+        "clicks": 1406,
+        "ctr": 1.79,
+        "cpc": 0.71,
+        "result_label": "Engajamentos",
+        "result_qty": 13329,
+        "result_cpr": 0.07
+      },
+      {
+        "name": "[CURITIBA] [ANIVERSARIANTES 2026] [CONTATO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 612.68,
+        "reach": 52361,
+        "impressions": 82041,
+        "clicks": 1869,
+        "ctr": 2.28,
+        "cpc": 0.33,
+        "result_label": "Engajamentos",
+        "result_qty": 27706,
+        "result_cpr": 0.02
+      },
+      {
+        "name": "[COLOMBO] [ANIVERSARIANTES 2026] [CONTATO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 78.08,
+        "reach": 9240,
+        "impressions": 14780,
+        "clicks": 243,
+        "ctr": 1.64,
+        "cpc": 0.32,
+        "result_label": "Engajamentos",
+        "result_qty": 4397,
+        "result_cpr": 0.02
+      },
+      {
+        "name": "[PONTA GROSSA] [ANIVERSARIANTES 2026] [CONTATO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 82.32,
+        "reach": 8912,
+        "impressions": 15330,
+        "clicks": 393,
+        "ctr": 2.56,
+        "cpc": 0.21,
+        "result_label": "Engajamentos",
+        "result_qty": 5043,
+        "result_cpr": 0.02
+      },
+      {
+        "name": "[PINHAIS] [ANIVERSARIANTES 2026] [CONTATO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 80.05,
+        "reach": 7870,
+        "impressions": 13849,
+        "clicks": 170,
+        "ctr": 1.23,
+        "cpc": 0.47,
+        "result_label": "Engajamentos",
+        "result_qty": 3525,
+        "result_cpr": 0.02
+      },
+      {
+        "name": "[ARAUCARIA] [ANIVERSARIANTES 2026] [CONTATO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 78.94,
+        "reach": 8887,
+        "impressions": 15390,
+        "clicks": 235,
+        "ctr": 1.53,
+        "cpc": 0.34,
+        "result_label": "Engajamentos",
+        "result_qty": 4225,
+        "result_cpr": 0.02
+      },
+      {
+        "name": "[FAZENDA RIO GRANDE] [ANIVERSARIANTES 2026] [CONTATO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 78.46,
+        "reach": 8499,
+        "impressions": 15698,
+        "clicks": 186,
+        "ctr": 1.18,
+        "cpc": 0.42,
+        "result_label": "Engajamentos",
+        "result_qty": 3833,
+        "result_cpr": 0.02
+      },
+      {
+        "name": "[CGS] [ANIVERSARIANTES 2026] [CONTATO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 80.46,
+        "reach": 7358,
+        "impressions": 16571,
+        "clicks": 205,
+        "ctr": 1.24,
+        "cpc": 0.39,
+        "result_label": "Engajamentos",
+        "result_qty": 4089,
+        "result_cpr": 0.02
+      },
+      {
+        "name": "[AT] [ANIVERSARIANTES 2026] [CONTATO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 80.98,
+        "reach": 8808,
+        "impressions": 16902,
+        "clicks": 216,
+        "ctr": 1.28,
+        "cpc": 0.37,
+        "result_label": "Engajamentos",
+        "result_qty": 4378,
+        "result_cpr": 0.02
+      },
+      {
+        "name": "[CURITIBA] [ANIVERSARIANTES 2026] [LEAD]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 3867.62,
+        "reach": 163407,
+        "impressions": 482169,
+        "clicks": 7583,
+        "ctr": 1.57,
+        "cpc": 0.51,
+        "result_label": "Leads",
+        "result_qty": 7,
+        "result_cpr": 552.52
+      },
+      {
+        "name": "[COLOMBO] [ANIVERSARIANTES 2026] [LEAD]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 477.93,
+        "reach": 32067,
+        "impressions": 96882,
+        "clicks": 1164,
+        "ctr": 1.2,
+        "cpc": 0.41,
+        "result_label": "Leads",
+        "result_qty": 2,
+        "result_cpr": 238.97
+      },
+      {
+        "name": "[PONTA GROSSA] [ANIVERSARIANTES 2026] [LEAD]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 477.72,
+        "reach": 24126,
+        "impressions": 74723,
+        "clicks": 1131,
+        "ctr": 1.51,
+        "cpc": 0.42,
+        "result_label": "Leads",
+        "result_qty": 4,
+        "result_cpr": 119.43
+      }
+    ],
+    "ads": [
+      {
+        "name": "Momentos 01 - Porções 01 CWB",
+        "campaign": "[CURITIBA] [BURGURS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 1142.79,
+        "impressions": 144113,
+        "clicks": 2392,
+        "ctr": 1.66,
+        "cpc": 0.48,
+        "frequency": 1.55,
+        "result_label": "Engajamentos",
+        "result_qty": 54914,
+        "result_cpr": 0.02
+      },
+      {
+        "name": "Momentos 02 - Porções 02 CWB",
+        "campaign": "[CURITIBA] [BURGURS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 174.93,
+        "impressions": 21034,
+        "clicks": 286,
+        "ctr": 1.36,
+        "cpc": 0.61,
+        "frequency": 1.29,
+        "result_label": "Engajamentos",
+        "result_qty": 8405,
+        "result_cpr": 0.02
+      },
+      {
+        "name": "Momentos 03 - HH 01 CWB",
+        "campaign": "[CURITIBA] [BURGURS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 125.69,
+        "impressions": 17800,
+        "clicks": 322,
+        "ctr": 1.81,
+        "cpc": 0.39,
+        "frequency": 1.24,
+        "result_label": "Engajamentos",
+        "result_qty": 5626,
+        "result_cpr": 0.02
+      },
+      {
+        "name": "Momentos 04 - HH 02 CWB",
+        "campaign": "[CURITIBA] [BURGURS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 72.88,
+        "impressions": 9633,
+        "clicks": 124,
+        "ctr": 1.29,
+        "cpc": 0.59,
+        "frequency": 1.24,
+        "result_label": "Engajamentos",
+        "result_qty": 2840,
+        "result_cpr": 0.03
+      },
+      {
+        "name": "Momentos 05 - Burguers 01  CWB",
+        "campaign": "[CURITIBA] [BURGURS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 223.49,
+        "impressions": 22616,
+        "clicks": 1059,
+        "ctr": 4.68,
+        "cpc": 0.21,
+        "frequency": 1.39,
+        "result_label": "Engajamentos",
+        "result_qty": 4681,
+        "result_cpr": 0.05
+      },
+      {
+        "name": "Momentos 06 - Burguers 02  CWB",
+        "campaign": "[CURITIBA] [BURGURS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 239.99,
+        "impressions": 22742,
+        "clicks": 812,
+        "ctr": 3.57,
+        "cpc": 0.3,
+        "frequency": 1.33,
+        "result_label": "Engajamentos",
+        "result_qty": 5293,
+        "result_cpr": 0.05
+      },
+      {
+        "name": "Momentos 06 - Burguers 02  Colombo",
+        "campaign": "[COLOMBO] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 10.29,
+        "impressions": 1937,
+        "clicks": 28,
+        "ctr": 1.45,
+        "cpc": 0.37,
+        "frequency": 1.15,
+        "result_label": "Engajamentos",
+        "result_qty": 194,
+        "result_cpr": 0.05
+      },
+      {
+        "name": "Momentos 05 - Burguers 01  Colombo",
+        "campaign": "[COLOMBO] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 3.51,
+        "impressions": 563,
+        "clicks": 15,
+        "ctr": 2.66,
+        "cpc": 0.23,
+        "frequency": 1.08,
+        "result_label": "Engajamentos",
+        "result_qty": 48,
+        "result_cpr": 0.07
+      },
+      {
+        "name": "Momentos 03 - HH 01 Colombo",
+        "campaign": "[COLOMBO] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 205.65,
+        "impressions": 49411,
+        "clicks": 518,
+        "ctr": 1.05,
+        "cpc": 0.4,
+        "frequency": 2.58,
+        "result_label": "Engajamentos",
+        "result_qty": 4976,
+        "result_cpr": 0.04
+      },
+      {
+        "name": "Momentos 04 - HH 02 Colombo",
+        "campaign": "[COLOMBO] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 5.45,
+        "impressions": 1161,
+        "clicks": 9,
+        "ctr": 0.78,
+        "cpc": 0.61,
+        "frequency": 1.22,
+        "result_label": "Engajamentos",
+        "result_qty": 115,
+        "result_cpr": 0.05
+      },
+      {
+        "name": "Momentos 02 - Porções 02 Colombo",
+        "campaign": "[COLOMBO] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 10.58,
+        "impressions": 2204,
+        "clicks": 29,
+        "ctr": 1.32,
+        "cpc": 0.36,
+        "frequency": 1.18,
+        "result_label": "Engajamentos",
+        "result_qty": 238,
+        "result_cpr": 0.04
+      },
+      {
+        "name": "Momentos 01 - Porções 01 Colombo",
+        "campaign": "[COLOMBO] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 12.03,
+        "impressions": 2016,
+        "clicks": 37,
+        "ctr": 1.84,
+        "cpc": 0.33,
+        "frequency": 1.22,
+        "result_label": "Engajamentos",
+        "result_qty": 306,
+        "result_cpr": 0.04
+      },
+      {
+        "name": "Momentos 01 - Porções 01 PG",
+        "campaign": "[PG] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 2.91,
+        "impressions": 565,
+        "clicks": 14,
+        "ctr": 2.48,
+        "cpc": 0.21,
+        "frequency": 1.09,
+        "result_label": "Engajamentos",
+        "result_qty": 66,
+        "result_cpr": 0.04
+      },
+      {
+        "name": "Momentos 02 - Porções 02 PG",
+        "campaign": "[PG] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 16.11,
+        "impressions": 5085,
+        "clicks": 58,
+        "ctr": 1.14,
+        "cpc": 0.28,
+        "frequency": 1.22,
+        "result_label": "Engajamentos",
+        "result_qty": 320,
+        "result_cpr": 0.05
+      },
+      {
+        "name": "Momentos 04 - HH 02 PG",
+        "campaign": "[PG] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 6.48,
+        "impressions": 1342,
+        "clicks": 13,
+        "ctr": 0.97,
+        "cpc": 0.5,
+        "frequency": 1.16,
+        "result_label": "Engajamentos",
+        "result_qty": 150,
+        "result_cpr": 0.04
+      },
+      {
+        "name": "Momentos 03 - HH 01 PG",
+        "campaign": "[PG] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 209.52,
+        "impressions": 56923,
+        "clicks": 677,
+        "ctr": 1.19,
+        "cpc": 0.31,
+        "frequency": 2.31,
+        "result_label": "Engajamentos",
+        "result_qty": 6012,
+        "result_cpr": 0.03
+      },
+      {
+        "name": "Momentos 05 - Burguers 01  PG",
+        "campaign": "[PG] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 7.16,
+        "impressions": 1151,
+        "clicks": 25,
+        "ctr": 2.17,
+        "cpc": 0.29,
+        "frequency": 1.16,
+        "result_label": "Engajamentos",
+        "result_qty": 113,
+        "result_cpr": 0.06
+      },
+      {
+        "name": "Momentos 06 - Burguers 02  PG",
+        "campaign": "[PG] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 5.24,
+        "impressions": 789,
+        "clicks": 12,
+        "ctr": 1.52,
+        "cpc": 0.44,
+        "frequency": 1.11,
+        "result_label": "Engajamentos",
+        "result_qty": 92,
+        "result_cpr": 0.06
+      },
+      {
+        "name": "Momentos 03 - HH 01 PINHAIS",
+        "campaign": "[PINHAIS] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 1.06,
+        "impressions": 190,
+        "clicks": 3,
+        "ctr": 1.58,
+        "cpc": 0.35,
+        "frequency": 1.09,
+        "result_label": "Engajamentos",
+        "result_qty": 16,
+        "result_cpr": 0.07
+      },
+      {
+        "name": "Momentos 06 - Burguers 02  PINHAIS",
+        "campaign": "[PINHAIS] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 228.11,
+        "impressions": 57116,
+        "clicks": 672,
+        "ctr": 1.18,
+        "cpc": 0.34,
+        "frequency": 2.96,
+        "result_label": "Engajamentos",
+        "result_qty": 3619,
+        "result_cpr": 0.06
+      },
+      {
+        "name": "Momentos 05 - Burguers 01  PINHAIS",
+        "campaign": "[PINHAIS] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 3.02,
+        "impressions": 403,
+        "clicks": 7,
+        "ctr": 1.74,
+        "cpc": 0.43,
+        "frequency": 1.15,
+        "result_label": "Engajamentos",
+        "result_qty": 30,
+        "result_cpr": 0.1
+      },
+      {
+        "name": "Momentos 04 - HH 02 PINHAIS",
+        "campaign": "[PINHAIS] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 3.4,
+        "impressions": 520,
+        "clicks": 6,
+        "ctr": 1.15,
+        "cpc": 0.57,
+        "frequency": 1.15,
+        "result_label": "Engajamentos",
+        "result_qty": 73,
+        "result_cpr": 0.05
+      },
+      {
+        "name": "Momentos 02 - Porções 02 PINHAIS",
+        "campaign": "[PINHAIS] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 4.11,
+        "impressions": 1026,
+        "clicks": 3,
+        "ctr": 0.29,
+        "cpc": 1.37,
+        "frequency": 1.09,
+        "result_label": "Engajamentos",
+        "result_qty": 108,
+        "result_cpr": 0.04
+      },
+      {
+        "name": "Momentos 01 - Porções 01 PINHAIS",
+        "campaign": "[PINHAIS] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 7.82,
+        "impressions": 1627,
+        "clicks": 21,
+        "ctr": 1.29,
+        "cpc": 0.37,
+        "frequency": 1.2,
+        "result_label": "Engajamentos",
+        "result_qty": 137,
+        "result_cpr": 0.06
+      },
+      {
+        "name": "Momentos 01 - Porções 01 ARAUCARIA",
+        "campaign": "[ARAUCARIA] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 218.7,
+        "impressions": 53009,
+        "clicks": 636,
+        "ctr": 1.2,
+        "cpc": 0.34,
+        "frequency": 2.76,
+        "result_label": "Engajamentos",
+        "result_qty": 4201,
+        "result_cpr": 0.05
+      },
+      {
+        "name": "Momentos 02 - Porções 02 ARAUCARIA",
+        "campaign": "[ARAUCARIA] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 3.93,
+        "impressions": 975,
+        "clicks": 11,
+        "ctr": 1.13,
+        "cpc": 0.36,
+        "frequency": 1.13,
+        "result_label": "Engajamentos",
+        "result_qty": 118,
+        "result_cpr": 0.03
+      },
+      {
+        "name": "Momentos 04 - HH 02 ARAUCARIA",
+        "campaign": "[ARAUCARIA] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 5.57,
+        "impressions": 1094,
+        "clicks": 15,
+        "ctr": 1.37,
+        "cpc": 0.37,
+        "frequency": 1.15,
+        "result_label": "Engajamentos",
+        "result_qty": 132,
+        "result_cpr": 0.04
+      },
+      {
+        "name": "Momentos 03 - HH 01 ARAUCARIA",
+        "campaign": "[ARAUCARIA] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 11.43,
+        "impressions": 2554,
+        "clicks": 25,
+        "ctr": 0.98,
+        "cpc": 0.46,
+        "frequency": 1.23,
+        "result_label": "Engajamentos",
+        "result_qty": 268,
+        "result_cpr": 0.04
+      },
+      {
+        "name": "Momentos 05 - Burguers 01  ARAUCARIA",
+        "campaign": "[ARAUCARIA] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 1.57,
+        "impressions": 174,
+        "clicks": 2,
+        "ctr": 1.15,
+        "cpc": 0.79,
+        "frequency": 1.13,
+        "result_label": "Engajamentos",
+        "result_qty": 12,
+        "result_cpr": 0.13
+      },
+      {
+        "name": "Momentos 06 - Burguers 02  ARAUCARIA",
+        "campaign": "[ARAUCARIA] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 6.31,
+        "impressions": 1378,
+        "clicks": 19,
+        "ctr": 1.38,
+        "cpc": 0.33,
+        "frequency": 1.15,
+        "result_label": "Engajamentos",
+        "result_qty": 101,
+        "result_cpr": 0.06
+      },
+      {
+        "name": "Momentos 05 - Burguers 01  FRG",
+        "campaign": "[FRG] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 3.02,
+        "impressions": 515,
+        "clicks": 10,
+        "ctr": 1.94,
+        "cpc": 0.3,
+        "frequency": 1.14,
+        "result_label": "Engajamentos",
+        "result_qty": 41,
+        "result_cpr": 0.07
+      },
+      {
+        "name": "Momentos 03 - HH 01 FRG",
+        "campaign": "[FRG] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 3.8,
+        "impressions": 821,
+        "clicks": 9,
+        "ctr": 1.1,
+        "cpc": 0.42,
+        "frequency": 1.19,
+        "result_label": "Engajamentos",
+        "result_qty": 80,
+        "result_cpr": 0.05
+      },
+      {
+        "name": "Momentos 06 - Burguers 02  FRG",
+        "campaign": "[FRG] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 5.18,
+        "impressions": 1151,
+        "clicks": 12,
+        "ctr": 1.04,
+        "cpc": 0.43,
+        "frequency": 1.14,
+        "result_label": "Engajamentos",
+        "result_qty": 93,
+        "result_cpr": 0.06
+      },
+      {
+        "name": "Momentos 01 - Porções 01 FRG",
+        "campaign": "[FRG] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 194.49,
+        "impressions": 39240,
+        "clicks": 438,
+        "ctr": 1.12,
+        "cpc": 0.44,
+        "frequency": 2.64,
+        "result_label": "Engajamentos",
+        "result_qty": 3832,
+        "result_cpr": 0.05
+      },
+      {
+        "name": "Momentos 02 - Porções 02 FRG",
+        "campaign": "[FRG] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 33.73,
+        "impressions": 9730,
+        "clicks": 103,
+        "ctr": 1.06,
+        "cpc": 0.33,
+        "frequency": 1.71,
+        "result_label": "Engajamentos",
+        "result_qty": 837,
+        "result_cpr": 0.04
+      },
+      {
+        "name": "Momentos 04 - HH 02 FRG",
+        "campaign": "[FRG] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 7.29,
+        "impressions": 1197,
+        "clicks": 13,
+        "ctr": 1.09,
+        "cpc": 0.56,
+        "frequency": 1.27,
+        "result_label": "Engajamentos",
+        "result_qty": 148,
+        "result_cpr": 0.05
+      },
+      {
+        "name": "Momentos 04 - HH 02 CGS",
+        "campaign": "[CGS] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 4.74,
+        "impressions": 877,
+        "clicks": 8,
+        "ctr": 0.91,
+        "cpc": 0.59,
+        "frequency": 1.24,
+        "result_label": "Engajamentos",
+        "result_qty": 80,
+        "result_cpr": 0.06
+      },
+      {
+        "name": "Momentos 02 - Porções 02 CGS",
+        "campaign": "[CGS] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 8.81,
+        "impressions": 1739,
+        "clicks": 19,
+        "ctr": 1.09,
+        "cpc": 0.46,
+        "frequency": 1.2,
+        "result_label": "Engajamentos",
+        "result_qty": 189,
+        "result_cpr": 0.05
+      },
+      {
+        "name": "Momentos 03 - HH 01 CGS",
+        "campaign": "[CGS] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 213.8,
+        "impressions": 55924,
+        "clicks": 643,
+        "ctr": 1.15,
+        "cpc": 0.33,
+        "frequency": 3.57,
+        "result_label": "Engajamentos",
+        "result_qty": 3379,
+        "result_cpr": 0.06
+      },
+      {
+        "name": "Momentos 01 - Porções 01 CGS",
+        "campaign": "[CGS] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 9.58,
+        "impressions": 2117,
+        "clicks": 29,
+        "ctr": 1.37,
+        "cpc": 0.33,
+        "frequency": 1.23,
+        "result_label": "Engajamentos",
+        "result_qty": 169,
+        "result_cpr": 0.06
+      },
+      {
+        "name": "Momentos 06 - Burguers 02  CGS",
+        "campaign": "[CGS] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 8.06,
+        "impressions": 1822,
+        "clicks": 19,
+        "ctr": 1.04,
+        "cpc": 0.42,
+        "frequency": 1.2,
+        "result_label": "Engajamentos",
+        "result_qty": 86,
+        "result_cpr": 0.09
+      },
+      {
+        "name": "Momentos 05 - Burguers 01  CGS",
+        "campaign": "[CGS] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 2.37,
+        "impressions": 492,
+        "clicks": 6,
+        "ctr": 1.22,
+        "cpc": 0.4,
+        "frequency": 1.16,
+        "result_label": "Engajamentos",
+        "result_qty": 22,
+        "result_cpr": 0.11
+      },
+      {
+        "name": "Momentos 05 - Burguers 01  AT",
+        "campaign": "[AT] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 2.01,
+        "impressions": 246,
+        "clicks": 2,
+        "ctr": 0.81,
+        "cpc": 1.0,
+        "frequency": 1.15,
+        "result_label": "Engajamentos",
+        "result_qty": 18,
+        "result_cpr": 0.11
+      },
+      {
+        "name": "Momentos 06 - Burguers 02  AT",
+        "campaign": "[AT] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 6.6,
+        "impressions": 1638,
+        "clicks": 15,
+        "ctr": 0.92,
+        "cpc": 0.44,
+        "frequency": 1.16,
+        "result_label": "Engajamentos",
+        "result_qty": 85,
+        "result_cpr": 0.08
+      },
+      {
+        "name": "Momentos 01 - Porções 01 AT",
+        "campaign": "[AT] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 6.71,
+        "impressions": 1240,
+        "clicks": 22,
+        "ctr": 1.77,
+        "cpc": 0.3,
+        "frequency": 1.17,
+        "result_label": "Engajamentos",
+        "result_qty": 112,
+        "result_cpr": 0.06
+      },
+      {
+        "name": "Momentos 04 - HH 02 AT",
+        "campaign": "[AT] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 7.62,
+        "impressions": 1411,
+        "clicks": 21,
+        "ctr": 1.49,
+        "cpc": 0.36,
+        "frequency": 1.22,
+        "result_label": "Engajamentos",
+        "result_qty": 134,
+        "result_cpr": 0.06
+      },
+      {
+        "name": "Momentos 02 - Porções 02 AT",
+        "campaign": "[AT] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 3.46,
+        "impressions": 934,
+        "clicks": 11,
+        "ctr": 1.18,
+        "cpc": 0.31,
+        "frequency": 1.12,
+        "result_label": "Engajamentos",
+        "result_qty": 84,
+        "result_cpr": 0.04
+      },
+      {
+        "name": "Momentos 03 - HH 01 AT",
+        "campaign": "[AT] [BURGUERS A PARTIR DE] [ENGAJAMENTO]",
+        "spend": 221.08,
+        "impressions": 55847,
+        "clicks": 598,
+        "ctr": 1.07,
+        "cpc": 0.37,
+        "frequency": 3.09,
+        "result_label": "Engajamentos",
+        "result_qty": 3819,
+        "result_cpr": 0.06
+      },
+      {
+        "name": "ALMOÇO ARAUCARIA",
+        "campaign": "[ARAUCARIA] [ALMOÇO ABR/26] [WTTP]",
+        "spend": 951.7,
+        "impressions": 73612,
+        "clicks": 1345,
+        "ctr": 1.83,
+        "cpc": 0.71,
+        "frequency": 3.6,
+        "result_label": "Engajamentos",
+        "result_qty": 12657,
+        "result_cpr": 0.08
+      },
+      {
+        "name": "ALMOÇO ARAUCARIA",
+        "campaign": "[ARAUCARIA] [ALMOÇO ABR/26] [WTTP]",
+        "spend": 43.27,
+        "impressions": 5088,
+        "clicks": 61,
+        "ctr": 1.2,
+        "cpc": 0.71,
+        "frequency": 1.99,
+        "result_label": "Engajamentos",
+        "result_qty": 672,
+        "result_cpr": 0.06
+      }
+    ]
+  },
+  "google": {
+    "spend": 1004.25,
+    "impressions": 140243,
+    "clicks": 4842,
+    "ctr": 3.45,
+    "cpc": 0.21,
+    "conversions": 0,
+    "cpa": 0,
+    "campaigns": [
+      {
+        "name": "[GERAL] [REDE DE PESQUISAS - 26]",
+        "type": "Search",
+        "status": "Enabled",
+        "spend": 1004.25,
+        "impressions": 140243,
+        "clicks": 4842,
+        "ctr": 3.45,
+        "cpc": 0.21,
+        "conversions": 0
+      }
+    ],
+    "keywords": [
+      {
+        "keyword": "Hamburguer Gourmet",
+        "match": "Broad",
+        "impressions": 41402,
+        "clicks": 2265,
+        "ctr": 5.47,
+        "cpc": 0.21,
+        "conversions": 0
+      },
+      {
+        "keyword": "Hamburgueria perto de mim",
+        "match": "Broad",
+        "impressions": 22137,
+        "clicks": 846,
+        "ctr": 3.82,
+        "cpc": 0.21,
+        "conversions": 0
+      },
+      {
+        "keyword": "Hamburguer artesanal",
+        "match": "Broad",
+        "impressions": 15585,
+        "clicks": 605,
+        "ctr": 3.88,
+        "cpc": 0.21,
+        "conversions": 0
+      },
+      {
+        "keyword": "Comodoro burguer",
+        "match": "Exact",
+        "impressions": 2522,
+        "clicks": 576,
+        "ctr": 22.84,
+        "cpc": 0.2,
+        "conversions": 0
+      },
+      {
+        "keyword": "Hamburguer artesanal perto de mim",
+        "match": "Broad",
+        "impressions": 15760,
+        "clicks": 150,
+        "ctr": 0.95,
+        "cpc": 0.2,
+        "conversions": 0
+      },
+      {
+        "keyword": "Hamburgueria artesanal",
+        "match": "Broad",
+        "impressions": 10530,
+        "clicks": 140,
+        "ctr": 1.33,
+        "cpc": 0.2,
+        "conversions": 0
+      },
+      {
+        "keyword": "Melhor Hambúrguer de Curitiba",
+        "match": "Broad",
+        "impressions": 14803,
+        "clicks": 118,
+        "ctr": 0.8,
+        "cpc": 0.22,
+        "conversions": 0
+      },
+      {
+        "keyword": "Hamburgueria artesanal perto de mim",
+        "match": "Broad",
+        "impressions": 10125,
+        "clicks": 77,
+        "ctr": 0.76,
+        "cpc": 0.22,
+        "conversions": 0
+      },
+      {
+        "keyword": "Hambúrguer em Curitiba",
+        "match": "Broad",
+        "impressions": 7379,
+        "clicks": 65,
+        "ctr": 0.88,
+        "cpc": 0.2,
+        "conversions": 0
+      }
+    ],
+    "search_terms": [
+      {
+        "term": "comodoro burguer",
+        "keyword": "—",
+        "impressions": 2582,
+        "clicks": 555,
+        "ctr": 21.49,
+        "cpc": 0.2
+      },
+      {
+        "term": "restaurantes",
+        "keyword": "—",
+        "impressions": 16638,
+        "clicks": 279,
+        "ctr": 1.68,
+        "cpc": 0.23
+      },
+      {
+        "term": "hamburgueria",
+        "keyword": "—",
+        "impressions": 2417,
+        "clicks": 133,
+        "ctr": 5.5,
+        "cpc": 0.2
+      },
+      {
+        "term": "lanches perto de mim",
+        "keyword": "—",
+        "impressions": 1167,
+        "clicks": 97,
+        "ctr": 8.31,
+        "cpc": 0.21
+      },
+      {
+        "term": "lanchonete",
+        "keyword": "—",
+        "impressions": 2292,
+        "clicks": 91,
+        "ctr": 3.97,
+        "cpc": 0.22
+      },
+      {
+        "term": "lanches",
+        "keyword": "—",
+        "impressions": 1622,
+        "clicks": 83,
+        "ctr": 5.12,
+        "cpc": 0.21
+      },
+      {
+        "term": "lanche",
+        "keyword": "—",
+        "impressions": 1892,
+        "clicks": 75,
+        "ctr": 3.96,
+        "cpc": 0.22
+      },
+      {
+        "term": "hambúrguer",
+        "keyword": "—",
+        "impressions": 1639,
+        "clicks": 70,
+        "ctr": 4.27,
+        "cpc": 0.21
+      },
+      {
+        "term": "comodoro mateus leme",
+        "keyword": "—",
+        "impressions": 169,
+        "clicks": 55,
+        "ctr": 32.54,
+        "cpc": 0.2
+      },
+      {
+        "term": "comodoro jardim paulista",
+        "keyword": "—",
+        "impressions": 159,
+        "clicks": 47,
+        "ctr": 29.56,
+        "cpc": 0.2
+      },
+      {
+        "term": "alexandria burger",
+        "keyword": "—",
+        "impressions": 1550,
+        "clicks": 38,
+        "ctr": 2.45,
+        "cpc": 0.22
+      },
+      {
+        "term": "hamburgueria curitiba",
+        "keyword": "—",
+        "impressions": 1154,
+        "clicks": 37,
+        "ctr": 3.21,
+        "cpc": 0.21
+      },
+      {
+        "term": "hamburgueria perto de mim",
+        "keyword": "—",
+        "impressions": 499,
+        "clicks": 32,
+        "ctr": 6.41,
+        "cpc": 0.22
+      },
+      {
+        "term": "lanche perto de mim",
+        "keyword": "—",
+        "impressions": 525,
+        "clicks": 33,
+        "ctr": 6.29,
+        "cpc": 0.22
+      },
+      {
+        "term": "hamburguer",
+        "keyword": "—",
+        "impressions": 790,
+        "clicks": 28,
+        "ctr": 3.54,
+        "cpc": 0.23
+      },
+      {
+        "term": "lanches colombo",
+        "keyword": "—",
+        "impressions": 187,
+        "clicks": 28,
+        "ctr": 14.97,
+        "cpc": 0.22
+      },
+      {
+        "term": "lanchonete perto de mim",
+        "keyword": "—",
+        "impressions": 547,
+        "clicks": 31,
+        "ctr": 5.67,
+        "cpc": 0.19
+      },
+      {
+        "term": "restaurante",
+        "keyword": "—",
+        "impressions": 2993,
+        "clicks": 22,
+        "ctr": 0.74,
+        "cpc": 0.2
+      },
+      {
+        "term": "comendador burguer",
+        "keyword": "—",
+        "impressions": 598,
+        "clicks": 21,
+        "ctr": 3.51,
+        "cpc": 0.19
+      },
+      {
+        "term": "comodoro burger",
+        "keyword": "—",
+        "impressions": 87,
+        "clicks": 20,
+        "ctr": 22.99,
+        "cpc": 0.2
+      },
+      {
+        "term": "restaurante perto de mim",
+        "keyword": "—",
+        "impressions": 1322,
+        "clicks": 16,
+        "ctr": 1.21,
+        "cpc": 0.24
+      },
+      {
+        "term": "restaurantes cerca de mi",
+        "keyword": "—",
+        "impressions": 614,
+        "clicks": 17,
+        "ctr": 2.77,
+        "cpc": 0.22
+      },
+      {
+        "term": "hamburgueria fazenda rio grande",
+        "keyword": "—",
+        "impressions": 282,
+        "clicks": 16,
+        "ctr": 5.67,
+        "cpc": 0.23
+      },
+      {
+        "term": "lanches fazenda rio grande",
+        "keyword": "—",
+        "impressions": 342,
+        "clicks": 18,
+        "ctr": 5.26,
+        "cpc": 0.2
+      },
+      {
+        "term": "x calota",
+        "keyword": "—",
+        "impressions": 544,
+        "clicks": 17,
+        "ctr": 3.12,
+        "cpc": 0.19
+      },
+      {
+        "term": "comodoro burguer curitiba",
+        "keyword": "—",
+        "impressions": 94,
+        "clicks": 15,
+        "ctr": 15.96,
+        "cpc": 0.21
+      },
+      {
+        "term": "rodizio de hamburguer curitiba",
+        "keyword": "—",
+        "impressions": 181,
+        "clicks": 14,
+        "ctr": 7.73,
+        "cpc": 0.21
+      },
+      {
+        "term": "comodoro burguer cardápio",
+        "keyword": "—",
+        "impressions": 40,
+        "clicks": 21,
+        "ctr": 52.5,
+        "cpc": 0.12
+      },
+      {
+        "term": "burguer",
+        "keyword": "—",
+        "impressions": 209,
+        "clicks": 12,
+        "ctr": 5.74,
+        "cpc": 0.21
+      },
+      {
+        "term": "comodoro burguer jardim paulista",
+        "keyword": "—",
+        "impressions": 39,
+        "clicks": 13,
+        "ctr": 33.33,
+        "cpc": 0.18
+      },
+      {
+        "term": "comodoro pinheirinho",
+        "keyword": "—",
+        "impressions": 90,
+        "clicks": 14,
+        "ctr": 15.56,
+        "cpc": 0.17
+      },
+      {
+        "term": "lugares para comer perto de mim",
+        "keyword": "—",
+        "impressions": 155,
+        "clicks": 12,
+        "ctr": 7.74,
+        "cpc": 0.19
+      },
+      {
+        "term": "comodoro fazenda",
+        "keyword": "—",
+        "impressions": 27,
+        "clicks": 12,
+        "ctr": 44.44,
+        "cpc": 0.19
+      },
+      {
+        "term": "lanches curitiba perto de mim",
+        "keyword": "—",
+        "impressions": 56,
+        "clicks": 6,
+        "ctr": 10.71,
+        "cpc": 0.38
+      },
+      {
+        "term": "lanche aberto agora",
+        "keyword": "—",
+        "impressions": 214,
+        "clicks": 10,
+        "ctr": 4.67,
+        "cpc": 0.23
+      },
+      {
+        "term": "la brasa burger",
+        "keyword": "—",
+        "impressions": 77,
+        "clicks": 13,
+        "ctr": 16.88,
+        "cpc": 0.17
+      },
+      {
+        "term": "jeronimo",
+        "keyword": "—",
+        "impressions": 697,
+        "clicks": 12,
+        "ctr": 1.72,
+        "cpc": 0.18
+      },
+      {
+        "term": "restaurantes near me",
+        "keyword": "—",
+        "impressions": 644,
+        "clicks": 9,
+        "ctr": 1.4,
+        "cpc": 0.23
+      },
+      {
+        "term": "comodoro almirante tamandaré",
+        "keyword": "—",
+        "impressions": 28,
+        "clicks": 7,
+        "ctr": 25.0,
+        "cpc": 0.3
+      },
+      {
+        "term": "lanche aberto agora perto de mim",
+        "keyword": "—",
+        "impressions": 100,
+        "clicks": 9,
+        "ctr": 9.0,
+        "cpc": 0.23
+      },
+      {
+        "term": "hamburgueria almirante tamandaré",
+        "keyword": "—",
+        "impressions": 68,
+        "clicks": 8,
+        "ctr": 11.76,
+        "cpc": 0.25
+      },
+      {
+        "term": "comodoro portao",
+        "keyword": "—",
+        "impressions": 74,
+        "clicks": 9,
+        "ctr": 12.16,
+        "cpc": 0.22
+      },
+      {
+        "term": "hamburgueria pinhais",
+        "keyword": "—",
+        "impressions": 111,
+        "clicks": 9,
+        "ctr": 8.11,
+        "cpc": 0.21
+      },
+      {
+        "term": "lanche fazenda rio grande",
+        "keyword": "—",
+        "impressions": 136,
+        "clicks": 12,
+        "ctr": 8.82,
+        "cpc": 0.16
+      },
+      {
+        "term": "burger king mais próximo",
+        "keyword": "—",
+        "impressions": 256,
+        "clicks": 9,
+        "ctr": 3.52,
+        "cpc": 0.2
+      },
+      {
+        "term": "madeiro",
+        "keyword": "—",
+        "impressions": 230,
+        "clicks": 8,
+        "ctr": 3.48,
+        "cpc": 0.22
+      },
+      {
+        "term": "cardápio de comodoro burguer colombo",
+        "keyword": "—",
+        "impressions": 20,
+        "clicks": 8,
+        "ctr": 40.0,
+        "cpc": 0.22
+      },
+      {
+        "term": "mcdonald's mais próximo",
+        "keyword": "—",
+        "impressions": 458,
+        "clicks": 13,
+        "ctr": 2.84,
+        "cpc": 0.14
+      },
+      {
+        "term": "hamburgueria em curitiba",
+        "keyword": "—",
+        "impressions": 136,
+        "clicks": 7,
+        "ctr": 5.15,
+        "cpc": 0.25
+      },
+      {
+        "term": "lanches abertos agora",
+        "keyword": "—",
+        "impressions": 195,
+        "clicks": 8,
+        "ctr": 4.1,
+        "cpc": 0.22
+      }
+    ]
+  },
+  "ga4": {
+    "sessions": 16481,
+    "users": 15293,
+    "new_users": 15017,
+    "pageviews": 26943,
+    "bounce_rate": 51.33,
+    "duration": "0m 54s",
+    "events": 82683,
+    "conversions": 0,
+    "sources": [
+      {
+        "source": "ig",
+        "medium": "paid",
+        "sessions": 7732,
+        "pct": 46.6
+      },
+      {
+        "source": "ig",
+        "medium": "social",
+        "sessions": 2633,
+        "pct": 15.9
+      },
+      {
+        "source": "fb",
+        "medium": "paid",
+        "sessions": 2213,
+        "pct": 13.3
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 1228,
+        "pct": 7.4
+      },
+      {
+        "source": "google",
+        "medium": "cpc",
+        "sessions": 965,
+        "pct": 5.8
+      },
+      {
+        "source": "l.instagram.com",
+        "medium": "referral",
+        "sessions": 808,
+        "pct": 4.9
+      },
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 565,
+        "pct": 3.4
+      },
+      {
+        "source": "m.facebook.com",
+        "medium": "referral",
+        "sessions": 170,
+        "pct": 1.0
+      },
+      {
+        "source": "l.facebook.com",
+        "medium": "referral",
+        "sessions": 78,
+        "pct": 0.5
+      },
+      {
+        "source": "(not set)",
+        "medium": "(not set)",
+        "sessions": 54,
+        "pct": 0.3
+      },
+      {
+        "source": "facebook.com",
+        "medium": "referral",
+        "sessions": 33,
+        "pct": 0.2
+      },
+      {
+        "source": "bing",
+        "medium": "organic",
+        "sessions": 28,
+        "pct": 0.2
+      },
+      {
+        "source": "lm.facebook.com",
+        "medium": "referral",
+        "sessions": 25,
+        "pct": 0.2
+      },
+      {
+        "source": "l.wl.co",
+        "medium": "referral",
+        "sessions": 23,
+        "pct": 0.1
+      },
+      {
+        "source": "instagram.com",
+        "medium": "referral",
+        "sessions": 14,
+        "pct": 0.1
+      },
+      {
+        "source": "(data not available)",
+        "medium": "(data not available)",
+        "sessions": 13,
+        "pct": 0.1
+      },
+      {
+        "source": "eventsmanager.facebook.com",
+        "medium": "referral",
+        "sessions": 6,
+        "pct": 0.0
+      },
+      {
+        "source": "adsmanager.facebook.com",
+        "medium": "referral",
+        "sessions": 5,
+        "pct": 0.0
+      },
+      {
+        "source": "an",
+        "medium": "paid",
+        "sessions": 4,
+        "pct": 0.0
+      },
+      {
+        "source": "br.search.yahoo.com",
+        "medium": "referral",
+        "sessions": 4,
+        "pct": 0.0
+      }
+    ],
+    "event_list": [
+      {
+        "name": "click",
+        "count": 4846
+      },
+      {
+        "name": "file_download",
+        "count": 3478
+      },
+      {
+        "name": "form_start",
+        "count": 60
+      },
+      {
+        "name": "lead_generated",
+        "count": 12
+      }
+    ]
+  },
+  "gmb": null
+}
