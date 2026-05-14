@@ -436,7 +436,7 @@
     const sel=MS_GOOGLE_SELECTED;
     const list=sel.size>0?GADS_CAMPAIGNS_ALL.filter(c=>sel.has(c.name)):GADS_CAMPAIGNS_ALL;
     if (sel.size>0) {
-      const toNum=v=>Number(String(v).replace(/[R$\s.]/g,'').replace(',','.'))||0;
+      const toNum=v=>Number(v)||0;
       const spend=list.reduce((s,c)=>s+toNum(c.spend),0);
       const impressions=list.reduce((s,c)=>s+Number(c.impressions),0);
       const clicks=list.reduce((s,c)=>s+Number(c.clicks),0);
@@ -464,8 +464,7 @@
     const maxPg=Math.max(0,Math.ceil(total/PAGE_SIZE)-1);
     const slice=list.slice(pg*PAGE_SIZE,pg*PAGE_SIZE+PAGE_SIZE);
     document.getElementById('tbody-gads-campaigns').innerHTML=slice.map(c=>{
-      const toNum=v=>Number(String(v).replace(/[R$\s.]/g,'').replace(',','.'))||0;
-      const cpa=c.conversions&&Number(c.conversions)>0?fBRL(toNum(c.spend)/Number(c.conversions)):'—';
+      const cpa=c.conversions&&Number(c.conversions)>0?fBRL(Number(c.spend)/Number(c.conversions)):'—';
       return `<tr><td class="td-name">${c.name}</td><td class="td-muted">${c.type}</td>
         <td><span class="pill ${c.status==='Enabled'?'pill-active':'pill-paused'}">● ${c.status==='Enabled'?'Ativa':'Pausada'}</span></td>
         <td>${fBRL(c.spend)}</td><td>${fInt(c.impressions)}</td><td>${fInt(c.clicks)}</td>
@@ -638,9 +637,9 @@
     // ── Google standalone ──
     GADS_CAMPAIGNS_ALL=g.campaigns||[];
     buildMsOptions('google',GADS_CAMPAIGNS_ALL);
-    renderGoogleSection();
     KW_DATA=(g.keywords||[]).map(k=>[k.keyword,k.match,fInt(k.impressions),fInt(k.clicks),fPct(k.ctr),fBRL(k.cpc),fInt(k.conversions),'—']);
     TERMS_DATA=(g.search_terms||[]).map(s=>[s.term,s.keyword,fInt(s.impressions),fInt(s.clicks),fPct(s.ctr),fBRL(s.cpc)]);
+    renderGoogleSection();
     if(!DATA._raw) DATA._raw={};
     DATA._raw.google={gasto:distribute(g.spend,days),impressoes:distribute(g.impressions,days),cliques:distribute(g.clicks,days)};
     DATA.google.gasto=DATA._raw.google.gasto.slice(); DATA.google.impressoes=DATA._raw.google.impressoes.slice(); DATA.google.cliques=DATA._raw.google.cliques.slice();
