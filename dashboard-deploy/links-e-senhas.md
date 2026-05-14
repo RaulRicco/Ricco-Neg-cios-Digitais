@@ -44,6 +44,11 @@ Base URL: `https://ricco-dashboards.pages.dev`
 - **Senha:** `bebedouro24`
 - **Serviços:** META · GOOGLE · GA4
 
+## Bebedouro Bar e Fogo — 356
+- **URL:** https://ricco-dashboards.pages.dev/bebedouro-356
+- **Senha:** `bebedouro24`
+- **Serviços:** META · GOOGLE · GA4
+
 ## Balcão Savassi
 - **URL:** https://ricco-dashboards.pages.dev/balcao-savassi
 - **Senha:** `balcao24`

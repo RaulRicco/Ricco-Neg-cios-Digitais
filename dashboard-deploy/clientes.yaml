@@ -76,7 +76,17 @@ clientes:
     gads_customer: "6755763415"
     ga4_property: "527345752"
     servicos: [meta, google, ga4]
-    nota: "Usar Bebedouro Pampulha como customer_id principal; Bebedouro 356: 8595847876"
+    nota: "Bebedouro Pampulha (customer_id principal)"
+
+  # ── Bebedouro 356 ─────────────────────────────────────────────────────────
+  - slug: bebedouro-356
+    nome: "Bebedouro Bar e Fogo — 356"
+    senha: "bebedouro24"
+    meta_account: "act_904480561216184"
+    gads_customer: "8595847876"
+    ga4_property: "527345752"
+    servicos: [meta, google, ga4]
+    nota: "Bebedouro 356 — customer_id separado no Google Ads"
 
   # ── Balcão Savassi ────────────────────────────────────────────────────────
   - slug: balcao-savassi
