@@ -14,7 +14,7 @@ GADS_READ    = SKILLS / "google-ads-ratos/scripts/read.py"
 GA4_REPORTS  = SKILLS / "ga4-ratos/scripts/reports.py"
 
 OUT_DIR = Path(__file__).parent.parent / "pages/acougueiro-batel"
-META_ACCOUNT   = "act_106110632249974"
+META_ACCOUNT   = "act_1496111171808827"
 GADS_CUSTOMER  = "1245380413"
 GA4_PROPERTY   = "513684569"
 

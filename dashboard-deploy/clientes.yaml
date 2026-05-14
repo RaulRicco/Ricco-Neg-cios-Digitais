@@ -27,7 +27,7 @@ clientes:
   - slug: acougueiro-batel
     nome: "Bar do Açougueiro — Batel"
     senha: "acougueiro24"
-    meta_account: "act_106110632249974"
+    meta_account: "act_1496111171808827"
     gads_customer: "1245380413"
     ga4_property: "513684569"
     servicos: [meta, google, ga4]
