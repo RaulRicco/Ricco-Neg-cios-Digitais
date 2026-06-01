@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Currículo — Raul Monteiro Lopes</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 11px;
+    color: #1a1a1a;
+    background: #fff;
+    padding: 48px 56px;
+    max-width: 780px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  /* CABEÇALHO */
+  header {
+    border-bottom: 2px solid #1a1a1a;
+    padding-bottom: 18px;
+    margin-bottom: 24px;
+  }
+
+  header h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    color: #0d0d0d;
+    margin-bottom: 4px;
+  }
+
+  header .cargo {
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #555;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+
+  .contato-linha {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 10.5px;
+    color: #444;
+  }
+
+  .contato-linha span::before {
+    content: '';
+  }
+
+  /* SEÇÕES */
+  section {
+    margin-bottom: 26px;
+  }
+
+  section h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #0d0d0d;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 14px;
+  }
+
+  /* RESUMO */
+  .resumo p {
+    font-size: 11.5px;
+    line-height: 1.75;
+    color: #222;
+  }
+
+  /* EXPERIÊNCIA */
+  .exp-item {
+    margin-bottom: 18px;
+  }
+
+  .exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 3px;
+  }
+
+  .exp-empresa {
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #0d0d0d;
+  }
+
+  .exp-cnpj {
+    font-family: 'Arial', sans-serif;
+    font-size: 9.5px;
+    color: #777;
+    margin-left: 8px;
+    font-weight: 400;
+  }
+
+  .exp-periodo {
+    font-family: 'Arial', sans-serif;
+    font-size: 10px;
+    color: #666;
+  }
+
+  .exp-cargo {
+    font-family: 'Arial', sans-serif;
+    font-size: 10.5px;
+    color: #444;
+    font-style: italic;
+    margin-bottom: 8px;
+  }
+
+  .exp-bullets {
+    list-style: none;
+    padding: 0;
+  }
+
+  .exp-bullets li {
+    font-size: 11px;
+    color: #222;
+    padding-left: 14px;
+    position: relative;
+    margin-bottom: 5px;
+    line-height: 1.65;
+  }
+
+  .exp-bullets li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #999;
+  }
+
+  /* COMPETÊNCIAS */
+  .competencias-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 32px;
+  }
+
+  .comp-item {
+    font-size: 11px;
+    color: #222;
+    padding-left: 14px;
+    position: relative;
+    line-height: 1.6;
+  }
+
+  .comp-item::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: #999;
+  }
+
+  /* FERRAMENTAS */
+  .ferramentas-linha {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .tool-tag {
+    font-family: 'Arial', sans-serif;
+    font-size: 10px;
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 3px 10px;
+    color: #333;
+  }
+
+  /* FORMAÇÃO */
+  .formacao-item {
+    font-size: 11px;
+    color: #222;
+    line-height: 1.7;
+  }
+
+  .formacao-item strong {
+    font-family: 'Arial', sans-serif;
+    font-size: 11px;
+    color: #0d0d0d;
+  }
+
+  /* SEGMENTOS */
+  .segmentos-linha {
+    font-size: 11px;
+    color: #333;
+    line-height: 1.8;
+  }
+
+  @media print {
+    body { padding: 0; }
+  }
+</style>
+</head>
+<body>
+
+<!-- CABEÇALHO -->
+<header>
+  <h1>Raul Monteiro Lopes</h1>
+  <div class="cargo">Estrategista de Tráfego Pago &amp; SEO Local</div>
+  <div class="contato-linha">
+    <span>contato@raulricco.com.br</span>
+    <span>raulricco.com.br</span>
+    <span>Belo Horizonte / Curitiba / Brasília</span>
+  </div>
+</header>
+
+<!-- RESUMO -->
+<section class="resumo">
+  <h2>Perfil</h2>
+  <p>
+    Estrategista de performance digital com mais de 6 anos de atuação exclusiva em tráfego pago e SEO local.
+    Fundador da Ricco Negócios Digitais, atende mais de 60 clientes ao longo da carreira nos segmentos de
+    gastronomia, serviços locais, projetos culturais e portais de notícias. Responsável pela gestão de
+    R$&nbsp;70&nbsp;mil em verba mensal de mídia, com foco em resultado previsível e fluxo real de clientes.
+  </p>
+</section>
+
+<!-- EXPERIÊNCIA -->
+<section>
+  <h2>Experiência</h2>
+
+  <div class="exp-item">
+    <div class="exp-header">
+      <div>
+        <span class="exp-empresa">Ricco Negócios Digitais</span>
+        <span class="exp-cnpj">CNPJ 13.706.717/0001-03</span>
+      </div>
+      <span class="exp-periodo">2019 — presente</span>
+    </div>
+    <div class="exp-cargo">Fundador e Estrategista de Performance</div>
+    <ul class="exp-bullets">
+      <li>Planejamento, execução e otimização de campanhas de tráfego pago no Google Ads e Meta Ads para múltiplos clientes simultâneos.</li>
+      <li>Gestão de R$ 70 mil em verba mensal de mídia, com acompanhamento contínuo de ROAS, CPA e CAC.</li>
+      <li>Atendimento a mais de 60 clientes ao longo da trajetória nos segmentos de bares, restaurantes, pet shops, projetos culturais e portais de notícias.</li>
+      <li>Estratégia e otimização de SEO local via Google Business Profile, com foco em conversão de visibilidade em fluxo presencial de clientes.</li>
+      <li>Automação de fluxos de geração e nutrição de leads com Make e RD Station integrados a CRMs e webhooks.</li>
+      <li>Produção de briefings técnicos e coordenação de desenvolvedores e parceiros de execução em projetos de performance.</li>
+      <li>Copywriting orientado a conversão para anúncios, landing pages e campanhas sazonais.</li>
+      <li>Foco geográfico em Belo Horizonte, Curitiba e Brasília, com domínio das dinâmicas locais de cada mercado.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- COMPETÊNCIAS -->
+<section>
+  <h2>Competências</h2>
+  <div class="competencias-grid">
+    <div class="comp-item">Gestão de campanhas Google Ads (Search, Display, Performance Max)</div>
+    <div class="comp-item">Gestão de campanhas Meta Ads (Facebook e Instagram)</div>
+    <div class="comp-item">SEO local e otimização de Google Business Profile</div>
+    <div class="comp-item">Automação de fluxos de leads (Make, RD Station, Webhooks)</div>
+    <div class="comp-item">Análise de métricas de performance (ROAS, CPA, CAC)</div>
+    <div class="comp-item">Copywriting de conversão para anúncios e landing pages</div>
+    <div class="comp-item">Planejamento e briefing técnico para projetos digitais</div>
+    <div class="comp-item">Coordenação de equipes e parceiros de execução</div>
+  </div>
+</section>
+
+<!-- FERRAMENTAS -->
+<section>
+  <h2>Ferramentas</h2>
+  <div class="ferramentas-linha">
+    <span class="tool-tag">Google Ads</span>
+    <span class="tool-tag">Meta Ads Manager</span>
+    <span class="tool-tag">Google Analytics 4</span>
+    <span class="tool-tag">Google Business Profile</span>
+    <span class="tool-tag">Make (Integromat)</span>
+    <span class="tool-tag">RD Station</span>
+    <span class="tool-tag">Google Search Console</span>
+    <span class="tool-tag">Webhooks / APIs</span>
+    <span class="tool-tag">Meta Pixel</span>
+    <span class="tool-tag">Google Tag Manager</span>
+  </div>
+</section>
+
+<!-- SEGMENTOS DE ATUAÇÃO -->
+<section>
+  <h2>Segmentos de Atuação</h2>
+  <div class="segmentos-linha">
+    Gastronomia (bares, restaurantes, comida de boteco) &nbsp;·&nbsp;
+    Pet shops e serviços para animais &nbsp;·&nbsp;
+    Projetos culturais &nbsp;·&nbsp;
+    Portais de notícias e mídia local
+  </div>
+</section>
+
+<!-- FORMAÇÃO -->
+<section>
+  <h2>Formação</h2>
+  <div class="formacao-item">
+    <strong>Autodidata em Marketing Digital e Tráfego Pago</strong><br>
+    Formação construída inteiramente na prática — mais de 6 anos de atuação direta com campanhas, dados e clientes reais.
+    Domínio das principais plataformas e ferramentas do mercado obtido por imersão profissional contínua.
+  </div>
+</section>
+
+</body>
+</html>
