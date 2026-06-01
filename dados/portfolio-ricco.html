@@ -20,11 +20,8 @@
   .page {
     width: 210mm;
     height: 297mm;
-    position: relative;
     overflow: hidden;
     page-break-after: always;
-    display: flex;
-    flex-direction: column;
   }
 
   .page:last-child { page-break-after: avoid; }
@@ -35,7 +32,7 @@
     color: #fff;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    height: 297mm;
   }
 
   .capa-esquerda {
@@ -51,7 +48,6 @@
     letter-spacing: 2.5px;
     text-transform: uppercase;
     color: #666;
-    margin-bottom: 0;
   }
 
   .capa-titulo {
@@ -116,10 +112,10 @@
 
   /* ══ SOBRE ══ */
   .sobre {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
+    height: 297mm;
+    display: flex;
+    flex-direction: column;
     padding: 12mm 16mm;
-    gap: 0;
   }
 
   .page-label {
@@ -151,7 +147,6 @@
     font-size: 10px;
     line-height: 1.8;
     color: #444;
-    font-weight: 400;
   }
 
   .sobre-numeros {
@@ -177,7 +172,6 @@
   .num-label {
     font-size: 8.5px;
     color: #888;
-    font-weight: 400;
     margin-top: 2px;
     line-height: 1.4;
     text-transform: uppercase;
@@ -195,7 +189,6 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    margin-bottom: 20px;
   }
 
   .mercado-item {
@@ -213,98 +206,66 @@
   .mercado-desc {
     font-size: 8px;
     color: #999;
-    font-weight: 400;
     line-height: 1.4;
   }
 
-  /* ══ CASE ══ */
+  /* ══════════════════════════════════
+     CASE — layout de página inteira
+     Coluna esq: header + conteúdo
+     Coluna dir: imagem full-height
+  ══════════════════════════════════ */
   .case-page {
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    /* largura da imagem = largura natural preservada dentro de 297mm de altura
+       imagens ~404×828px → ratio 0.488 → 297mm × 0.488 ≈ 145mm ≈ 548px
+       Usando 148mm para a coluna da imagem */
+    grid-template-columns: 1fr 148mm;
+    height: 297mm;
+  }
+
+  /* coluna esquerda */
+  .case-left {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
   }
 
   .case-header {
     background: #0a0a0a;
-    padding: 10mm 16mm 8mm;
+    padding: 10mm 10mm 8mm 16mm;
     color: #fff;
+    flex-shrink: 0;
   }
 
   .case-tag {
-    font-size: 7.5px;
+    font-size: 7px;
     font-weight: 600;
     letter-spacing: 3px;
     text-transform: uppercase;
     color: #555;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 
   .case-cliente {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 900;
-    letter-spacing: -1.5px;
+    letter-spacing: -1px;
     line-height: 1;
     color: #fff;
-    margin-bottom: 6px;
+    margin-bottom: 5px;
   }
 
   .case-nicho {
-    font-size: 9.5px;
+    font-size: 9px;
     color: #555;
-    font-weight: 400;
   }
 
   .case-body {
-    padding: 8mm 16mm;
+    padding: 8mm 10mm 8mm 16mm;
     display: flex;
     flex-direction: column;
-    gap: 14px;
-  }
-
-  /* layout interno do case: conteúdo + foto lado a lado */
-  .case-inner {
-    display: grid;
-    grid-template-columns: 1fr 175px;
-    gap: 16px;
+    gap: 12px;
     flex: 1;
-  }
-
-  .case-conteudo {
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-  }
-
-  /* moldura da foto */
-  .case-foto-wrap {
-    position: relative;
-    align-self: stretch;
-  }
-
-  .case-foto-moldura {
-    position: absolute;
-    inset: 0;
-    border: 2px solid #0a0a0a;
-    z-index: 2;
-    pointer-events: none;
-  }
-
-  .case-foto-moldura::before {
-    content: '';
-    position: absolute;
-    top: 6px;
-    left: 6px;
-    right: -6px;
-    bottom: -6px;
-    border: 1px solid #ccc;
-    z-index: -1;
-  }
-
-  .case-foto {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: top center;
-    display: block;
   }
 
   .case-meta {
@@ -313,59 +274,58 @@
     gap: 1px;
     background: #e8e8e8;
     border: 1px solid #e8e8e8;
+    flex-shrink: 0;
   }
 
   .case-meta-item {
     background: #fff;
-    padding: 10px 12px;
+    padding: 9px 10px;
   }
 
   .case-meta-label {
-    font-size: 7px;
+    font-size: 6.5px;
     font-weight: 600;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #bbb;
-    margin-bottom: 4px;
+    margin-bottom: 3px;
   }
 
   .case-meta-val {
-    font-size: 10px;
+    font-size: 9.5px;
     font-weight: 600;
     color: #111;
     line-height: 1.3;
   }
 
   .case-section-title {
-    font-size: 7.5px;
+    font-size: 7px;
     font-weight: 700;
     letter-spacing: 2.5px;
     text-transform: uppercase;
     color: #999;
-    margin-bottom: 8px;
-    padding-bottom: 5px;
+    margin-bottom: 7px;
+    padding-bottom: 4px;
     border-bottom: 1px solid #f0f0f0;
   }
 
   .case-descricao p {
-    font-size: 9.5px;
+    font-size: 9px;
     line-height: 1.75;
     color: #333;
-    font-weight: 400;
   }
 
   .case-acoes-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 6px;
+    gap: 5px;
   }
 
   .acao-item {
     background: #f8f8f8;
-    padding: 9px 12px 9px 20px;
-    font-size: 9px;
+    padding: 8px 10px 8px 18px;
+    font-size: 8.5px;
     color: #333;
-    font-weight: 400;
     line-height: 1.5;
     position: relative;
   }
@@ -373,7 +333,7 @@
   .acao-item::before {
     content: '—';
     position: absolute;
-    left: 8px;
+    left: 7px;
     color: #ccc;
   }
 
@@ -384,24 +344,25 @@
   }
 
   .plataforma-tag {
-    font-size: 8px;
+    font-size: 7.5px;
     font-weight: 600;
     letter-spacing: 0.5px;
     border: 1.5px solid #111;
-    padding: 3px 10px;
+    padding: 3px 9px;
     color: #111;
     text-transform: uppercase;
   }
 
   .case-footer {
-    padding: 0 16mm 8mm;
+    padding: 0 10mm 8mm 16mm;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-shrink: 0;
   }
 
   .case-footer-marca {
-    font-size: 7.5px;
+    font-size: 7px;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -409,15 +370,33 @@
   }
 
   .case-footer-num {
-    font-size: 7.5px;
+    font-size: 7px;
     color: #ccc;
+  }
+
+  /* coluna direita — imagem full-height sem moldura */
+  .case-right {
+    overflow: hidden;
+    height: 297mm;
+  }
+
+  .case-foto {
+    /* a imagem tem ratio ~0.488 (largura/altura)
+       altura fixa = 297mm → largura natural = 297mm × 0.488 ≈ 145mm
+       width: 100% garante que preencha a coluna sem barras */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
   }
 
   /* ══ SERVIÇOS ══ */
   .servicos {
-    padding: 12mm 16mm;
+    height: 297mm;
     display: flex;
     flex-direction: column;
+    padding: 12mm 16mm;
   }
 
   .servicos h2 {
@@ -432,7 +411,6 @@
   .servicos-subtitulo {
     font-size: 10px;
     color: #888;
-    font-weight: 400;
     margin-bottom: 20px;
     line-height: 1.6;
   }
@@ -472,7 +450,6 @@
     font-size: 9px;
     color: #666;
     line-height: 1.65;
-    font-weight: 400;
   }
 
   .servicos-rodape {
@@ -519,13 +496,8 @@
 <div class="page capa">
   <div class="capa-esquerda">
     <div class="capa-marca">Ricco Negócios Digitais · CNPJ 13.706.717/0001-03</div>
-
     <div>
-      <div class="capa-titulo">
-        Port<span>fólio</span><br>
-        de<br>
-        Trabalhos
-      </div>
+      <div class="capa-titulo">Port<span>fólio</span><br>de<br>Trabalhos</div>
       <div class="capa-subtitulo">Tráfego Pago &amp; Performance Digital<br>para Negócios Locais</div>
       <div class="capa-linha"></div>
       <div class="capa-dados">
@@ -533,7 +505,6 @@
         Brasília · Belo Horizonte · Curitiba
       </div>
     </div>
-
     <div class="capa-info">
       <div><strong>E-mail</strong>&nbsp; contato@raulricco.com.br</div>
       <div><strong>Site</strong>&nbsp; raulricco.com.br</div>
@@ -541,7 +512,6 @@
       <div style="margin-top:10px; font-size:36px; font-weight:900; color:#1a1a1a; letter-spacing:-2px;">2026</div>
     </div>
   </div>
-
   <div class="capa-direita">
     <img class="capa-foto" src="../img/Raul Portifólio.jpg" alt="Raul Monteiro Lopes">
     <div class="capa-foto-overlay"></div>
@@ -551,7 +521,6 @@
 <!-- ══ P2 SOBRE ══ -->
 <div class="page sobre">
   <div class="page-label">Sobre · Ricco Negócios Digitais</div>
-
   <div class="sobre-grid">
     <div class="sobre-texto">
       <h2>Performance digital<br>com foco em<br>resultado real.</h2>
@@ -564,7 +533,6 @@
         com foco em ROI previsível e campanhas orientadas por dados.
       </p>
     </div>
-
     <div class="sobre-numeros">
       <div class="num-bloco">
         <div class="num-val">6+</div>
@@ -580,9 +548,7 @@
       </div>
     </div>
   </div>
-
   <div class="sobre-divider"></div>
-
   <div class="sobre-mercados">
     <div class="mercado-item">
       <div class="mercado-nome">Gastronomia</div>
@@ -605,337 +571,261 @@
 
 <!-- ══ P3 CASE: COMODORO BURGER ══ -->
 <div class="page case-page">
-  <div class="case-header">
-    <div class="case-tag">Case 01 · Franquia · Gastronomia</div>
-    <div class="case-cliente">Comodoro Burger</div>
-    <div class="case-nicho">Hamburgueria artesanal · Franquia · 16 unidades no Paraná</div>
-  </div>
-
-  <div class="case-body">
-    <div class="case-meta">
-      <div class="case-meta-item">
-        <div class="case-meta-label">Cliente desde</div>
-        <div class="case-meta-val">2021</div>
+  <div class="case-left">
+    <div class="case-header">
+      <div class="case-tag">Case 01 · Franquia · Gastronomia</div>
+      <div class="case-cliente">Comodoro Burger</div>
+      <div class="case-nicho">Hamburgueria artesanal · Franquia · 16 unidades no Paraná</div>
+    </div>
+    <div class="case-body">
+      <div class="case-meta">
+        <div class="case-meta-item">
+          <div class="case-meta-label">Cliente desde</div>
+          <div class="case-meta-val">2021</div>
+        </div>
+        <div class="case-meta-item">
+          <div class="case-meta-label">Status</div>
+          <div class="case-meta-val">Cliente ativo</div>
+        </div>
+        <div class="case-meta-item">
+          <div class="case-meta-label">Plataformas</div>
+          <div class="case-meta-val">Google Ads · Meta Ads</div>
+        </div>
       </div>
-      <div class="case-meta-item">
-        <div class="case-meta-label">Status</div>
-        <div class="case-meta-val">Cliente ativo</div>
+      <div class="case-descricao">
+        <div class="case-section-title">Contexto</div>
+        <p>A Comodoro Burger é uma franquia de hamburguerias artesanais com 16 unidades no Paraná. A Ricco Negócios Digitais atua na gestão de tráfego pago desde 2021, sendo um dos relacionamentos mais duradouros da carteira. O trabalho envolve campanhas de geração de demanda local, promoções sazonais e fortalecimento da presença digital de cada unidade.</p>
       </div>
-      <div class="case-meta-item">
-        <div class="case-meta-label">Plataformas</div>
-        <div class="case-meta-val">Google Ads · Meta Ads</div>
+      <div>
+        <div class="case-section-title">Ações desenvolvidas</div>
+        <div class="case-acoes-grid">
+          <div class="acao-item">Gestão contínua de campanhas no Google Ads e Meta Ads</div>
+          <div class="acao-item">Campanhas de alcance local para cada unidade da franquia</div>
+          <div class="acao-item">Campanhas sazonais e promoções de datas comemorativas</div>
+          <div class="acao-item">Otimização de segmentação e públicos por praça</div>
+          <div class="acao-item">Acompanhamento de métricas e ajuste contínuo de verba</div>
+          <div class="acao-item">Alinhamento com a equipe de operações da franquia</div>
+        </div>
+      </div>
+      <div>
+        <div class="case-section-title">Plataformas utilizadas</div>
+        <div class="case-plataformas">
+          <span class="plataforma-tag">Google Ads</span>
+          <span class="plataforma-tag">Meta Ads</span>
+          <span class="plataforma-tag">GA4</span>
+          <span class="plataforma-tag">Meta Pixel</span>
+        </div>
       </div>
     </div>
-
-    <div class="case-inner">
-      <div class="case-conteudo">
-        <div class="case-descricao">
-          <div class="case-section-title">Contexto</div>
-          <p>
-            A Comodoro Burger é uma franquia de hamburguerias artesanais com 16 unidades no Paraná.
-            A Ricco Negócios Digitais atua na gestão de tráfego pago desde 2021, sendo um dos
-            relacionamentos mais duradouros da carteira. O trabalho envolve campanhas de geração
-            de demanda local, promoções sazonais e fortalecimento da presença digital de cada unidade.
-          </p>
-        </div>
-
-        <div>
-          <div class="case-section-title">Ações desenvolvidas</div>
-          <div class="case-acoes-grid">
-            <div class="acao-item">Gestão contínua de campanhas no Google Ads e Meta Ads</div>
-            <div class="acao-item">Campanhas de alcance local para cada unidade da franquia</div>
-            <div class="acao-item">Campanhas sazonais e promoções de datas comemorativas</div>
-            <div class="acao-item">Otimização de segmentação e públicos por praça</div>
-            <div class="acao-item">Acompanhamento de métricas e ajuste contínuo de verba</div>
-            <div class="acao-item">Alinhamento com a equipe de operações da franquia</div>
-          </div>
-        </div>
-
-        <div>
-          <div class="case-section-title">Plataformas utilizadas</div>
-          <div class="case-plataformas">
-            <span class="plataforma-tag">Google Ads</span>
-            <span class="plataforma-tag">Meta Ads</span>
-            <span class="plataforma-tag">GA4</span>
-            <span class="plataforma-tag">Meta Pixel</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="case-foto-wrap">
-        <div class="case-foto-moldura"></div>
-        <img class="case-foto" src="../img/Comodoro Burguer.png" alt="Comodoro Burger">
-      </div>
+    <div class="case-footer">
+      <div class="case-footer-marca">Ricco Negócios Digitais</div>
+      <div class="case-footer-num">3 / 7</div>
     </div>
   </div>
-
-  <div class="case-footer">
-    <div class="case-footer-marca">Ricco Negócios Digitais</div>
-    <div class="case-footer-num">3 / 7</div>
+  <div class="case-right">
+    <img class="case-foto" src="../img/Comodoro Burguer.png" alt="Comodoro Burger">
   </div>
 </div>
 
 <!-- ══ P4 CASE: PORKS ══ -->
 <div class="page case-page">
-  <div class="case-header">
-    <div class="case-tag">Case 02 · Franquia · Gastronomia</div>
-    <div class="case-cliente">Porks</div>
-    <div class="case-nicho">Bar especializado em carne de porco · Franquia</div>
-  </div>
-
-  <div class="case-body">
-    <div class="case-meta">
-      <div class="case-meta-item">
-        <div class="case-meta-label">Cliente desde</div>
-        <div class="case-meta-val">2022</div>
+  <div class="case-left">
+    <div class="case-header">
+      <div class="case-tag">Case 02 · Franquia · Gastronomia</div>
+      <div class="case-cliente">Porks</div>
+      <div class="case-nicho">Bar especializado em carne de porco · Franquia</div>
+    </div>
+    <div class="case-body">
+      <div class="case-meta">
+        <div class="case-meta-item">
+          <div class="case-meta-label">Cliente desde</div>
+          <div class="case-meta-val">2022</div>
+        </div>
+        <div class="case-meta-item">
+          <div class="case-meta-label">Status</div>
+          <div class="case-meta-val">Cliente ativo</div>
+        </div>
+        <div class="case-meta-item">
+          <div class="case-meta-label">Plataformas</div>
+          <div class="case-meta-val">Google Ads · Meta Ads</div>
+        </div>
       </div>
-      <div class="case-meta-item">
-        <div class="case-meta-label">Status</div>
-        <div class="case-meta-val">Cliente ativo</div>
+      <div class="case-descricao">
+        <div class="case-section-title">Contexto</div>
+        <p>A Porks é uma franquia de bares especializada em carne de porco, com operações em diferentes mercados do Brasil. A Ricco Negócios Digitais assumiu a gestão de performance digital em 2022, desenvolvendo estratégias de tráfego pago voltadas para geração de fluxo presencial, delivery e reconhecimento de marca nas praças de atuação.</p>
       </div>
-      <div class="case-meta-item">
-        <div class="case-meta-label">Plataformas</div>
-        <div class="case-meta-val">Google Ads · Meta Ads</div>
+      <div>
+        <div class="case-section-title">Ações desenvolvidas</div>
+        <div class="case-acoes-grid">
+          <div class="acao-item">Campanhas de tráfego local no Google Ads e Meta Ads</div>
+          <div class="acao-item">Conteúdo patrocinado para geração de reservas</div>
+          <div class="acao-item">Campanhas de delivery integradas com plataformas de pedido</div>
+          <div class="acao-item">Gestão de públicos personalizados e lookalike no Meta</div>
+          <div class="acao-item">Campanhas de remarketing para reativação de clientes</div>
+          <div class="acao-item">Relatórios periódicos de performance por unidade</div>
+        </div>
+      </div>
+      <div>
+        <div class="case-section-title">Plataformas utilizadas</div>
+        <div class="case-plataformas">
+          <span class="plataforma-tag">Google Ads</span>
+          <span class="plataforma-tag">Meta Ads</span>
+          <span class="plataforma-tag">GA4</span>
+          <span class="plataforma-tag">Meta Pixel</span>
+        </div>
       </div>
     </div>
-
-    <div class="case-inner">
-      <div class="case-conteudo">
-        <div class="case-descricao">
-          <div class="case-section-title">Contexto</div>
-          <p>
-            A Porks é uma franquia de bares especializada em carne de porco, com operações em
-            diferentes mercados do Brasil. A Ricco Negócios Digitais assumiu a gestão de performance
-            digital em 2022, desenvolvendo estratégias de tráfego pago voltadas para geração de
-            fluxo presencial, delivery e reconhecimento de marca nas praças de atuação.
-          </p>
-        </div>
-
-        <div>
-          <div class="case-section-title">Ações desenvolvidas</div>
-          <div class="case-acoes-grid">
-            <div class="acao-item">Campanhas de tráfego local no Google Ads e Meta Ads</div>
-            <div class="acao-item">Conteúdo patrocinado para geração de reservas</div>
-            <div class="acao-item">Campanhas de delivery integradas com plataformas de pedido</div>
-            <div class="acao-item">Gestão de públicos personalizados e lookalike no Meta</div>
-            <div class="acao-item">Campanhas de remarketing para reativação de clientes</div>
-            <div class="acao-item">Relatórios periódicos de performance por unidade</div>
-          </div>
-        </div>
-
-        <div>
-          <div class="case-section-title">Plataformas utilizadas</div>
-          <div class="case-plataformas">
-            <span class="plataforma-tag">Google Ads</span>
-            <span class="plataforma-tag">Meta Ads</span>
-            <span class="plataforma-tag">GA4</span>
-            <span class="plataforma-tag">Meta Pixel</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="case-foto-wrap">
-        <div class="case-foto-moldura"></div>
-        <img class="case-foto" src="../img/Porks Brasil.png" alt="Porks Brasil">
-      </div>
+    <div class="case-footer">
+      <div class="case-footer-marca">Ricco Negócios Digitais</div>
+      <div class="case-footer-num">4 / 7</div>
     </div>
   </div>
-
-  <div class="case-footer">
-    <div class="case-footer-marca">Ricco Negócios Digitais</div>
-    <div class="case-footer-num">4 / 7</div>
+  <div class="case-right">
+    <img class="case-foto" src="../img/Porks Brasil.png" alt="Porks Brasil">
   </div>
 </div>
 
 <!-- ══ P5 CASE: BAR DO AÇOUGUEIRO ══ -->
 <div class="page case-page">
-  <div class="case-header">
-    <div class="case-tag">Case 03 · Gastronomia · Bar</div>
-    <div class="case-cliente">Bar do Açougueiro</div>
-    <div class="case-nicho">Bar e petiscos · Gastronomia local · Água Verde</div>
-  </div>
-
-  <div class="case-body">
-    <div class="case-meta">
-      <div class="case-meta-item">
-        <div class="case-meta-label">Cliente desde</div>
-        <div class="case-meta-val">2025</div>
+  <div class="case-left">
+    <div class="case-header">
+      <div class="case-tag">Case 03 · Gastronomia · Bar</div>
+      <div class="case-cliente">Bar do Açougueiro</div>
+      <div class="case-nicho">Bar e petiscos · Gastronomia local · Água Verde</div>
+    </div>
+    <div class="case-body">
+      <div class="case-meta">
+        <div class="case-meta-item">
+          <div class="case-meta-label">Cliente desde</div>
+          <div class="case-meta-val">2025</div>
+        </div>
+        <div class="case-meta-item">
+          <div class="case-meta-label">Status</div>
+          <div class="case-meta-val">Cliente ativo</div>
+        </div>
+        <div class="case-meta-item">
+          <div class="case-meta-label">Plataformas</div>
+          <div class="case-meta-val">Google Ads · Meta Ads</div>
+        </div>
       </div>
-      <div class="case-meta-item">
-        <div class="case-meta-label">Status</div>
-        <div class="case-meta-val">Cliente ativo</div>
+      <div class="case-descricao">
+        <div class="case-section-title">Contexto</div>
+        <p>O Bar do Açougueiro é um estabelecimento de gastronomia local com proposta centrada em petiscos e atmosfera de bar de bairro, localizado no Água Verde, Curitiba. A Ricco Negócios Digitais iniciou o atendimento em 2025 com foco em ampliar a visibilidade local e gerar fluxo presencial consistente.</p>
       </div>
-      <div class="case-meta-item">
-        <div class="case-meta-label">Plataformas</div>
-        <div class="case-meta-val">Google Ads · Meta Ads</div>
+      <div>
+        <div class="case-section-title">Ações desenvolvidas</div>
+        <div class="case-acoes-grid">
+          <div class="acao-item">Estruturação e lançamento de campanhas no Google Ads e Meta Ads</div>
+          <div class="acao-item">Segmentação geográfica para atrair público próximo</div>
+          <div class="acao-item">Campanhas de awareness para reconhecimento local</div>
+          <div class="acao-item">Anúncios para eventos e promoções semanais</div>
+          <div class="acao-item">Otimização do Google Business Profile para SEO local</div>
+          <div class="acao-item">Acompanhamento de métricas e ajustes contínuos</div>
+        </div>
+      </div>
+      <div>
+        <div class="case-section-title">Plataformas utilizadas</div>
+        <div class="case-plataformas">
+          <span class="plataforma-tag">Google Ads</span>
+          <span class="plataforma-tag">Meta Ads</span>
+          <span class="plataforma-tag">Google Business Profile</span>
+          <span class="plataforma-tag">Meta Pixel</span>
+        </div>
       </div>
     </div>
-
-    <div class="case-inner">
-      <div class="case-conteudo">
-        <div class="case-descricao">
-          <div class="case-section-title">Contexto</div>
-          <p>
-            O Bar do Açougueiro é um estabelecimento de gastronomia local com proposta centrada
-            em petiscos e atmosfera de bar de bairro, localizado no Água Verde, Curitiba.
-            A Ricco Negócios Digitais iniciou o atendimento em 2025 com foco em ampliar a
-            visibilidade local e gerar fluxo presencial consistente.
-          </p>
-        </div>
-
-        <div>
-          <div class="case-section-title">Ações desenvolvidas</div>
-          <div class="case-acoes-grid">
-            <div class="acao-item">Estruturação e lançamento de campanhas no Google Ads e Meta Ads</div>
-            <div class="acao-item">Segmentação geográfica para atrair público próximo</div>
-            <div class="acao-item">Campanhas de awareness para reconhecimento local</div>
-            <div class="acao-item">Anúncios para eventos e promoções semanais</div>
-            <div class="acao-item">Otimização do Google Business Profile para SEO local</div>
-            <div class="acao-item">Acompanhamento de métricas e ajustes contínuos</div>
-          </div>
-        </div>
-
-        <div>
-          <div class="case-section-title">Plataformas utilizadas</div>
-          <div class="case-plataformas">
-            <span class="plataforma-tag">Google Ads</span>
-            <span class="plataforma-tag">Meta Ads</span>
-            <span class="plataforma-tag">Google Business Profile</span>
-            <span class="plataforma-tag">Meta Pixel</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="case-foto-wrap">
-        <div class="case-foto-moldura"></div>
-        <img class="case-foto" src="../img/O Bar do Açougueiro.png" alt="Bar do Açougueiro">
-      </div>
+    <div class="case-footer">
+      <div class="case-footer-marca">Ricco Negócios Digitais</div>
+      <div class="case-footer-num">5 / 7</div>
     </div>
   </div>
-
-  <div class="case-footer">
-    <div class="case-footer-marca">Ricco Negócios Digitais</div>
-    <div class="case-footer-num">5 / 7</div>
+  <div class="case-right">
+    <img class="case-foto" src="../img/O Bar do Açougueiro.png" alt="Bar do Açougueiro">
   </div>
 </div>
 
 <!-- ══ P6 CASE: CULTURAS URBANAS ══ -->
 <div class="page case-page">
-  <div class="case-header">
-    <div class="case-tag">Case 04 · Projeto Cultural · Instituto Ibranova</div>
-    <div class="case-cliente">Culturas Urbanas</div>
-    <div class="case-nicho">Projeto cultural · Produtora 901 · 2026</div>
-  </div>
-
-  <div class="case-body">
-    <div class="case-meta">
-      <div class="case-meta-item">
-        <div class="case-meta-label">Ano</div>
-        <div class="case-meta-val">2026</div>
+  <div class="case-left">
+    <div class="case-header">
+      <div class="case-tag">Case 04 · Projeto Cultural · Instituto Ibranova</div>
+      <div class="case-cliente">Culturas Urbanas</div>
+      <div class="case-nicho">Projeto cultural · Produtora 901 · 2026</div>
+    </div>
+    <div class="case-body">
+      <div class="case-meta">
+        <div class="case-meta-item">
+          <div class="case-meta-label">Ano</div>
+          <div class="case-meta-val">2026</div>
+        </div>
+        <div class="case-meta-item">
+          <div class="case-meta-label">Produtora</div>
+          <div class="case-meta-val">Produtora 901</div>
+        </div>
+        <div class="case-meta-item">
+          <div class="case-meta-label">Cliente</div>
+          <div class="case-meta-val">Instituto Ibranova</div>
+        </div>
       </div>
-      <div class="case-meta-item">
-        <div class="case-meta-label">Produtora</div>
-        <div class="case-meta-val">Produtora 901</div>
+      <div class="case-descricao">
+        <div class="case-section-title">Contexto</div>
+        <p>O projeto Culturas Urbanas foi desenvolvido em 2026 em colaboração com a Produtora 901, para o Instituto Ibranova. A iniciativa é voltada à promoção e difusão da cultura urbana, com estratégias de comunicação digital para ampliar o alcance e o engajamento junto ao público-alvo.</p>
       </div>
-      <div class="case-meta-item">
-        <div class="case-meta-label">Cliente</div>
-        <div class="case-meta-val">Instituto Ibranova</div>
+      <div>
+        <div class="case-section-title">Ações desenvolvidas</div>
+        <div class="case-acoes-grid">
+          <div class="acao-item">Desenvolvimento da estratégia de comunicação digital</div>
+          <div class="acao-item">Planejamento e execução de campanhas de tráfego pago</div>
+          <div class="acao-item">Ampliação do alcance junto ao público de cultura urbana</div>
+          <div class="acao-item">Gestão de anúncios no Google Ads e Meta Ads</div>
+          <div class="acao-item">Colaboração direta com a equipe da Produtora 901</div>
+          <div class="acao-item">Alinhamento de estratégia com o Instituto Ibranova</div>
+        </div>
+      </div>
+      <div>
+        <div class="case-section-title">Plataformas utilizadas</div>
+        <div class="case-plataformas">
+          <span class="plataforma-tag">Google Ads</span>
+          <span class="plataforma-tag">Meta Ads</span>
+        </div>
       </div>
     </div>
-
-    <div class="case-inner">
-      <div class="case-conteudo">
-        <div class="case-descricao">
-          <div class="case-section-title">Contexto</div>
-          <p>
-            O projeto Culturas Urbanas foi desenvolvido em 2026 em colaboração com a Produtora 901,
-            para o Instituto Ibranova. A iniciativa é voltada à promoção e difusão da cultura urbana,
-            com estratégias de comunicação digital para ampliar o alcance e o engajamento junto ao
-            público-alvo. A Ricco Negócios Digitais atuou no desenvolvimento da estratégia de
-            performance e presença digital do projeto.
-          </p>
-        </div>
-
-        <div>
-          <div class="case-section-title">Ações desenvolvidas</div>
-          <div class="case-acoes-grid">
-            <div class="acao-item">Desenvolvimento da estratégia de comunicação digital</div>
-            <div class="acao-item">Planejamento e execução de campanhas de tráfego pago</div>
-            <div class="acao-item">Ampliação do alcance junto ao público de cultura urbana</div>
-            <div class="acao-item">Gestão de anúncios no Google Ads e Meta Ads</div>
-            <div class="acao-item">Colaboração direta com a equipe da Produtora 901</div>
-            <div class="acao-item">Alinhamento de estratégia com o Instituto Ibranova</div>
-          </div>
-        </div>
-
-        <div>
-          <div class="case-section-title">Plataformas utilizadas</div>
-          <div class="case-plataformas">
-            <span class="plataforma-tag">Google Ads</span>
-            <span class="plataforma-tag">Meta Ads</span>
-            <span class="plataforma-tag">GA4</span>
-            <span class="plataforma-tag">Meta Pixel</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="case-foto-wrap">
-        <div class="case-foto-moldura"></div>
-        <img class="case-foto" src="../img/Instituto Ibranova.png" alt="Instituto Ibranova — Culturas Urbanas">
-      </div>
+    <div class="case-footer">
+      <div class="case-footer-marca">Ricco Negócios Digitais</div>
+      <div class="case-footer-num">6 / 7</div>
     </div>
   </div>
-
-  <div class="case-footer">
-    <div class="case-footer-marca">Ricco Negócios Digitais</div>
-    <div class="case-footer-num">6 / 7</div>
+  <div class="case-right">
+    <img class="case-foto" src="../img/Instituto Ibranova.png" alt="Instituto Ibranova — Culturas Urbanas">
   </div>
 </div>
 
 <!-- ══ P7 SERVIÇOS ══ -->
 <div class="page servicos">
   <div class="page-label">Serviços · O que oferecemos</div>
-
   <h2>Como podemos<br>trabalhar juntos.</h2>
-  <div class="servicos-subtitulo">
-    Serviços especializados em performance digital para negócios locais e franquias.
-  </div>
-
+  <div class="servicos-subtitulo">Serviços especializados em performance digital para negócios locais e franquias.</div>
   <div class="servicos-grid">
     <div class="servico-card">
       <div class="servico-num">01</div>
       <div class="servico-titulo">Gestão de Google Ads</div>
-      <div class="servico-desc">
-        Planejamento, criação e otimização de campanhas de Search, Display e Performance Max.
-        Acompanhamento contínuo de ROAS, CPA e volume de conversões com foco em resultado previsível.
-      </div>
+      <div class="servico-desc">Planejamento, criação e otimização de campanhas de Search, Display e Performance Max. Acompanhamento contínuo de ROAS, CPA e volume de conversões com foco em resultado previsível.</div>
     </div>
     <div class="servico-card">
       <div class="servico-num">02</div>
       <div class="servico-titulo">Gestão de Meta Ads</div>
-      <div class="servico-desc">
-        Campanhas de tráfego, conversão e reconhecimento no Facebook e Instagram.
-        Gestão de públicos personalizados, lookalike e remarketing para maximizar relevância local.
-      </div>
+      <div class="servico-desc">Campanhas de tráfego, conversão e reconhecimento no Facebook e Instagram. Gestão de públicos personalizados, lookalike e remarketing para maximizar relevância local.</div>
     </div>
     <div class="servico-card">
       <div class="servico-num">03</div>
       <div class="servico-titulo">SEO Local</div>
-      <div class="servico-desc">
-        Otimização do Google Business Profile para ampliar visibilidade nos resultados locais
-        e converter buscas em clientes presenciais com consistência.
-      </div>
+      <div class="servico-desc">Otimização do Google Business Profile para ampliar visibilidade nos resultados locais e converter buscas em clientes presenciais com consistência.</div>
     </div>
     <div class="servico-card">
       <div class="servico-num">04</div>
       <div class="servico-titulo">Automação de Leads</div>
-      <div class="servico-desc">
-        Fluxos de captação e nutrição de leads com Make, RD Station e webhooks.
-        Integração com CRMs e automação de follow-up para reduzir tempo de resposta.
-      </div>
+      <div class="servico-desc">Fluxos de captação e nutrição de leads com Make, RD Station e webhooks. Integração com CRMs e automação de follow-up para reduzir tempo de resposta.</div>
     </div>
   </div>
-
   <div class="servicos-rodape">
     <div class="servicos-rodape-texto">
       <strong>Ricco Negócios Digitais</strong>
