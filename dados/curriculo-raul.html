@@ -2,86 +2,194 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Currículo — Raul Monteiro Lopes</title>
+<title>Raul Monteiro Lopes</title>
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap');
+
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
   body {
-    font-family: 'Georgia', 'Times New Roman', serif;
-    font-size: 11px;
-    color: #1a1a1a;
-    background: #fff;
-    padding: 48px 56px;
-    max-width: 780px;
-    margin: 0 auto;
-    line-height: 1.6;
-  }
-
-  /* CABEÇALHO */
-  header {
-    border-bottom: 2px solid #1a1a1a;
-    padding-bottom: 18px;
-    margin-bottom: 24px;
-  }
-
-  header h1 {
-    font-family: 'Arial', sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: -0.5px;
-    color: #0d0d0d;
-    margin-bottom: 4px;
-  }
-
-  header .cargo {
-    font-family: 'Arial', sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    color: #555;
-    letter-spacing: 1.2px;
-    text-transform: uppercase;
-    margin-bottom: 14px;
-  }
-
-  .contato-linha {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
     font-size: 10.5px;
-    color: #444;
+    color: #111;
+    background: #fff;
+    width: 210mm;
+    min-height: 297mm;
+    padding: 14mm 16mm 14mm 16mm;
+    line-height: 1.5;
   }
 
-  .contato-linha span::before {
-    content: '';
+  /* ── CABEÇALHO ── */
+  .header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: end;
+    padding-bottom: 10px;
+    border-bottom: 2.5px solid #111;
+    margin-bottom: 20px;
   }
 
-  /* SEÇÕES */
-  section {
-    margin-bottom: 26px;
+  .header-nome h1 {
+    font-size: 34px;
+    font-weight: 900;
+    letter-spacing: -1.5px;
+    line-height: 1;
+    color: #0a0a0a;
+    margin-bottom: 5px;
   }
 
-  section h2 {
-    font-family: 'Arial', sans-serif;
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 2px;
+  .header-nome .cargo {
+    font-size: 9.5px;
+    font-weight: 500;
+    letter-spacing: 3px;
     text-transform: uppercase;
-    color: #0d0d0d;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 5px;
-    margin-bottom: 14px;
+    color: #555;
   }
 
-  /* RESUMO */
-  .resumo p {
-    font-size: 11.5px;
-    line-height: 1.75;
+  .header-contato {
+    text-align: right;
+    font-size: 9px;
+    color: #555;
+    line-height: 2;
+    font-weight: 400;
+  }
+
+  .header-contato a {
+    color: #555;
+    text-decoration: none;
+  }
+
+  /* ── CORPO: 2 colunas ── */
+  .body {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    gap: 0 28px;
+  }
+
+  /* ── COLUNA ESQUERDA ── */
+  .col-left {
+    border-right: 1px solid #e0e0e0;
+    padding-right: 22px;
+  }
+
+  /* ── SEÇÃO GENÉRICA ── */
+  .section {
+    margin-bottom: 20px;
+  }
+
+  .section-title {
+    font-size: 7.5px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #eee;
+  }
+
+  /* ── COMPETÊNCIAS (esquerda) ── */
+  .skill-list {
+    list-style: none;
+  }
+
+  .skill-list li {
+    font-size: 10px;
     color: #222;
+    padding: 4px 0;
+    border-bottom: 1px solid #f2f2f2;
+    font-weight: 400;
+    line-height: 1.4;
   }
 
-  /* EXPERIÊNCIA */
+  .skill-list li:last-child {
+    border-bottom: none;
+  }
+
+  /* ── FERRAMENTAS (esquerda) ── */
+  .tools-list {
+    list-style: none;
+  }
+
+  .tools-list li {
+    font-size: 9.5px;
+    color: #444;
+    padding: 3px 0;
+    font-weight: 400;
+  }
+
+  .tools-list li::before {
+    content: '·  ';
+    color: #bbb;
+  }
+
+  /* ── SEGMENTOS (esquerda) ── */
+  .segmentos-list {
+    list-style: none;
+  }
+
+  .segmentos-list li {
+    font-size: 9.5px;
+    color: #444;
+    padding: 3px 0;
+  }
+
+  .segmentos-list li::before {
+    content: '·  ';
+    color: #bbb;
+  }
+
+  /* ── NÚMEROS DESTAQUE ── */
+  .numeros {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .numero-item {
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .numero-item:last-child {
+    border-bottom: none;
+  }
+
+  .numero-val {
+    font-size: 20px;
+    font-weight: 900;
+    color: #0a0a0a;
+    letter-spacing: -1px;
+    line-height: 1;
+  }
+
+  .numero-label {
+    font-size: 8.5px;
+    color: #888;
+    font-weight: 400;
+    margin-top: 2px;
+    line-height: 1.3;
+  }
+
+  /* ── COLUNA DIREITA ── */
+  .col-right {
+    padding-left: 0;
+  }
+
+  /* ── PERFIL ── */
+  .perfil p {
+    font-size: 10.5px;
+    line-height: 1.75;
+    color: #333;
+    font-weight: 300;
+  }
+
+  .perfil p strong {
+    font-weight: 600;
+    color: #111;
+  }
+
+  /* ── EXPERIÊNCIA ── */
   .exp-item {
     margin-bottom: 18px;
   }
@@ -90,36 +198,41 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-bottom: 3px;
+    margin-bottom: 2px;
   }
 
   .exp-empresa {
-    font-family: 'Arial', sans-serif;
     font-size: 12px;
     font-weight: 700;
-    color: #0d0d0d;
-  }
-
-  .exp-cnpj {
-    font-family: 'Arial', sans-serif;
-    font-size: 9.5px;
-    color: #777;
-    margin-left: 8px;
-    font-weight: 400;
+    color: #0a0a0a;
+    letter-spacing: -0.3px;
   }
 
   .exp-periodo {
-    font-family: 'Arial', sans-serif;
-    font-size: 10px;
-    color: #666;
+    font-size: 8.5px;
+    color: #999;
+    font-weight: 400;
+    white-space: nowrap;
+    margin-left: 12px;
+  }
+
+  .exp-sub {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
   }
 
   .exp-cargo {
-    font-family: 'Arial', sans-serif;
-    font-size: 10.5px;
-    color: #444;
-    font-style: italic;
-    margin-bottom: 8px;
+    font-size: 9px;
+    color: #777;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+
+  .exp-cnpj {
+    font-size: 8.5px;
+    color: #bbb;
+    font-weight: 400;
   }
 
   .exp-bullets {
@@ -128,186 +241,189 @@
   }
 
   .exp-bullets li {
-    font-size: 11px;
-    color: #222;
-    padding-left: 14px;
+    font-size: 10px;
+    color: #333;
+    padding: 3px 0 3px 14px;
     position: relative;
-    margin-bottom: 5px;
-    line-height: 1.65;
+    line-height: 1.6;
+    font-weight: 400;
+    border-bottom: 1px solid #f8f8f8;
   }
+
+  .exp-bullets li:last-child { border-bottom: none; }
 
   .exp-bullets li::before {
     content: '—';
     position: absolute;
     left: 0;
-    color: #999;
+    color: #ccc;
+    font-size: 9px;
   }
 
-  /* COMPETÊNCIAS */
-  .competencias-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 6px 32px;
-  }
-
-  .comp-item {
+  /* ── FORMAÇÃO ── */
+  .formacao-item .formacao-titulo {
     font-size: 11px;
-    color: #222;
-    padding-left: 14px;
-    position: relative;
-    line-height: 1.6;
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 3px;
   }
 
-  .comp-item::before {
-    content: '—';
-    position: absolute;
-    left: 0;
-    color: #999;
-  }
-
-  /* FERRAMENTAS */
-  .ferramentas-linha {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-
-  .tool-tag {
-    font-family: 'Arial', sans-serif;
-    font-size: 10px;
-    background: #f2f2f2;
-    border: 1px solid #ddd;
-    padding: 3px 10px;
-    color: #333;
-  }
-
-  /* FORMAÇÃO */
-  .formacao-item {
-    font-size: 11px;
-    color: #222;
-    line-height: 1.7;
-  }
-
-  .formacao-item strong {
-    font-family: 'Arial', sans-serif;
-    font-size: 11px;
-    color: #0d0d0d;
-  }
-
-  /* SEGMENTOS */
-  .segmentos-linha {
-    font-size: 11px;
-    color: #333;
-    line-height: 1.8;
+  .formacao-item p {
+    font-size: 9.5px;
+    color: #666;
+    line-height: 1.65;
+    font-weight: 400;
   }
 
   @media print {
-    body { padding: 0; }
+    body {
+      padding: 0;
+      width: 210mm;
+    }
   }
 </style>
 </head>
 <body>
 
 <!-- CABEÇALHO -->
-<header>
-  <h1>Raul Monteiro Lopes</h1>
-  <div class="cargo">Estrategista de Tráfego Pago &amp; SEO Local</div>
-  <div class="contato-linha">
-    <span>contato@raulricco.com.br</span>
-    <span>raulricco.com.br</span>
-    <span>Belo Horizonte / Curitiba / Brasília</span>
+<header class="header">
+  <div class="header-nome">
+    <h1>Raul Monteiro<br>Lopes</h1>
+    <div class="cargo">Estrategista de Tráfego Pago &amp; SEO Local</div>
+  </div>
+  <div class="header-contato">
+    <div>contato@raulricco.com.br</div>
+    <div>raulricco.com.br</div>
+    <div>Belo Horizonte · Curitiba · Brasília</div>
   </div>
 </header>
 
-<!-- RESUMO -->
-<section class="resumo">
-  <h2>Perfil</h2>
-  <p>
-    Estrategista de performance digital com mais de 6 anos de atuação exclusiva em tráfego pago e SEO local.
-    Fundador da Ricco Negócios Digitais, atende mais de 60 clientes ao longo da carreira nos segmentos de
-    gastronomia, serviços locais, projetos culturais e portais de notícias. Responsável pela gestão de
-    R$&nbsp;70&nbsp;mil em verba mensal de mídia, com foco em resultado previsível e fluxo real de clientes.
-  </p>
-</section>
+<!-- CORPO -->
+<div class="body">
 
-<!-- EXPERIÊNCIA -->
-<section>
-  <h2>Experiência</h2>
+  <!-- COLUNA ESQUERDA -->
+  <aside class="col-left">
 
-  <div class="exp-item">
-    <div class="exp-header">
-      <div>
-        <span class="exp-empresa">Ricco Negócios Digitais</span>
-        <span class="exp-cnpj">CNPJ 13.706.717/0001-03</span>
+    <!-- NÚMEROS -->
+    <div class="section">
+      <div class="section-title">Em números</div>
+      <div class="numeros">
+        <div class="numero-item">
+          <div class="numero-val">6+</div>
+          <div class="numero-label">anos de atuação em performance digital</div>
+        </div>
+        <div class="numero-item">
+          <div class="numero-val">60+</div>
+          <div class="numero-label">clientes atendidos ao longo da carreira</div>
+        </div>
+        <div class="numero-item">
+          <div class="numero-val">R$&thinsp;70k</div>
+          <div class="numero-label">em verba mensal de mídia sob gestão</div>
+        </div>
       </div>
-      <span class="exp-periodo">2019 — presente</span>
     </div>
-    <div class="exp-cargo">Fundador e Estrategista de Performance</div>
-    <ul class="exp-bullets">
-      <li>Planejamento, execução e otimização de campanhas de tráfego pago no Google Ads e Meta Ads para múltiplos clientes simultâneos.</li>
-      <li>Gestão de R$ 70 mil em verba mensal de mídia, com acompanhamento contínuo de ROAS, CPA e CAC.</li>
-      <li>Atendimento a mais de 60 clientes ao longo da trajetória nos segmentos de bares, restaurantes, pet shops, projetos culturais e portais de notícias.</li>
-      <li>Estratégia e otimização de SEO local via Google Business Profile, com foco em conversão de visibilidade em fluxo presencial de clientes.</li>
-      <li>Automação de fluxos de geração e nutrição de leads com Make e RD Station integrados a CRMs e webhooks.</li>
-      <li>Produção de briefings técnicos e coordenação de desenvolvedores e parceiros de execução em projetos de performance.</li>
-      <li>Copywriting orientado a conversão para anúncios, landing pages e campanhas sazonais.</li>
-      <li>Foco geográfico em Belo Horizonte, Curitiba e Brasília, com domínio das dinâmicas locais de cada mercado.</li>
-    </ul>
-  </div>
-</section>
 
-<!-- COMPETÊNCIAS -->
-<section>
-  <h2>Competências</h2>
-  <div class="competencias-grid">
-    <div class="comp-item">Gestão de campanhas Google Ads (Search, Display, Performance Max)</div>
-    <div class="comp-item">Gestão de campanhas Meta Ads (Facebook e Instagram)</div>
-    <div class="comp-item">SEO local e otimização de Google Business Profile</div>
-    <div class="comp-item">Automação de fluxos de leads (Make, RD Station, Webhooks)</div>
-    <div class="comp-item">Análise de métricas de performance (ROAS, CPA, CAC)</div>
-    <div class="comp-item">Copywriting de conversão para anúncios e landing pages</div>
-    <div class="comp-item">Planejamento e briefing técnico para projetos digitais</div>
-    <div class="comp-item">Coordenação de equipes e parceiros de execução</div>
-  </div>
-</section>
+    <!-- COMPETÊNCIAS -->
+    <div class="section">
+      <div class="section-title">Competências</div>
+      <ul class="skill-list">
+        <li>Google Ads</li>
+        <li>Meta Ads</li>
+        <li>SEO Local · Google Business Profile</li>
+        <li>Automação de leads</li>
+        <li>Copywriting de conversão</li>
+        <li>Análise de performance (ROAS, CPA, CAC)</li>
+        <li>Briefings técnicos</li>
+        <li>Coordenação de equipes</li>
+      </ul>
+    </div>
 
-<!-- FERRAMENTAS -->
-<section>
-  <h2>Ferramentas</h2>
-  <div class="ferramentas-linha">
-    <span class="tool-tag">Google Ads</span>
-    <span class="tool-tag">Meta Ads Manager</span>
-    <span class="tool-tag">Google Analytics 4</span>
-    <span class="tool-tag">Google Business Profile</span>
-    <span class="tool-tag">Make (Integromat)</span>
-    <span class="tool-tag">RD Station</span>
-    <span class="tool-tag">Google Search Console</span>
-    <span class="tool-tag">Webhooks / APIs</span>
-    <span class="tool-tag">Meta Pixel</span>
-    <span class="tool-tag">Google Tag Manager</span>
-  </div>
-</section>
+    <!-- FERRAMENTAS -->
+    <div class="section">
+      <div class="section-title">Ferramentas</div>
+      <ul class="tools-list">
+        <li>Google Ads</li>
+        <li>Meta Ads Manager</li>
+        <li>Google Analytics 4</li>
+        <li>Google Tag Manager</li>
+        <li>Google Search Console</li>
+        <li>Make (Integromat)</li>
+        <li>RD Station</li>
+        <li>Webhooks / APIs</li>
+        <li>Meta Pixel</li>
+      </ul>
+    </div>
 
-<!-- SEGMENTOS DE ATUAÇÃO -->
-<section>
-  <h2>Segmentos de Atuação</h2>
-  <div class="segmentos-linha">
-    Gastronomia (bares, restaurantes, comida de boteco) &nbsp;·&nbsp;
-    Pet shops e serviços para animais &nbsp;·&nbsp;
-    Projetos culturais &nbsp;·&nbsp;
-    Portais de notícias e mídia local
-  </div>
-</section>
+    <!-- SEGMENTOS -->
+    <div class="section">
+      <div class="section-title">Segmentos</div>
+      <ul class="segmentos-list">
+        <li>Gastronomia e bares</li>
+        <li>Pet shops</li>
+        <li>Projetos culturais</li>
+        <li>Portais de notícias</li>
+        <li>Serviços locais</li>
+      </ul>
+    </div>
 
-<!-- FORMAÇÃO -->
-<section>
-  <h2>Formação</h2>
-  <div class="formacao-item">
-    <strong>Autodidata em Marketing Digital e Tráfego Pago</strong><br>
-    Formação construída inteiramente na prática — mais de 6 anos de atuação direta com campanhas, dados e clientes reais.
-    Domínio das principais plataformas e ferramentas do mercado obtido por imersão profissional contínua.
-  </div>
-</section>
+  </aside>
+
+  <!-- COLUNA DIREITA -->
+  <main class="col-right">
+
+    <!-- PERFIL -->
+    <div class="section perfil">
+      <div class="section-title">Perfil</div>
+      <p>
+        Estrategista de performance digital com <strong>mais de 6 anos de atuação</strong> exclusiva
+        em tráfego pago e SEO local. Fundador da Ricco Negócios Digitais, atendeu mais de
+        <strong>60 clientes</strong> nos segmentos de gastronomia, serviços locais, projetos culturais
+        e mídia regional. Responsável pela gestão de <strong>R$&nbsp;70 mil em verba mensal</strong>
+        de mídia, com foco em resultado previsível, fluxo real de clientes e ROI consistente.
+      </p>
+    </div>
+
+    <!-- EXPERIÊNCIA -->
+    <div class="section">
+      <div class="section-title">Experiência</div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <span class="exp-empresa">Ricco Negócios Digitais</span>
+          <span class="exp-periodo">2019 — presente</span>
+        </div>
+        <div class="exp-sub">
+          <span class="exp-cargo">Fundador · Estrategista de Performance</span>
+          <span class="exp-cnpj">CNPJ 13.706.717/0001-03</span>
+        </div>
+        <ul class="exp-bullets">
+          <li>Planejamento, execução e otimização de campanhas de tráfego pago no Google Ads e Meta Ads para múltiplos clientes simultâneos.</li>
+          <li>Gestão de R$&nbsp;70&nbsp;mil em verba mensal de mídia com acompanhamento contínuo de ROAS, CPA e CAC.</li>
+          <li>Atendimento a mais de 60 clientes nos segmentos de gastronomia, pet shops, projetos culturais e portais de notícias.</li>
+          <li>Estratégia e otimização de SEO local via Google Business Profile, convertendo visibilidade digital em fluxo presencial de clientes.</li>
+          <li>Automação de fluxos de geração e nutrição de leads com Make e RD Station integrados a CRMs e webhooks.</li>
+          <li>Produção de briefings técnicos e coordenação de desenvolvedores e parceiros de execução.</li>
+          <li>Copywriting orientado a conversão para anúncios, landing pages e campanhas sazonais.</li>
+          <li>Atuação em Belo Horizonte, Curitiba e Brasília com domínio das dinâmicas locais de cada mercado.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- FORMAÇÃO -->
+    <div class="section">
+      <div class="section-title">Formação</div>
+      <div class="formacao-item">
+        <div class="formacao-titulo">Autodidata em Marketing Digital e Performance</div>
+        <p>
+          Formação construída inteiramente na prática — mais de 6 anos de atuação direta com campanhas,
+          dados e clientes reais. Domínio das principais plataformas e ferramentas de performance obtido
+          por imersão profissional contínua.
+        </p>
+      </div>
+    </div>
+
+  </main>
+</div>
 
 </body>
 </html>
