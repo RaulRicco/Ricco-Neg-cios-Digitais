@@ -263,7 +263,7 @@
   /* layout interno do case: conteúdo + foto lado a lado */
   .case-inner {
     display: grid;
-    grid-template-columns: 1fr 200px;
+    grid-template-columns: 1fr 175px;
     gap: 16px;
     flex: 1;
   }
@@ -278,7 +278,6 @@
   .case-foto-wrap {
     position: relative;
     align-self: stretch;
-    background: #f4f4f4;
   }
 
   .case-foto-moldura {
@@ -303,10 +302,9 @@
   .case-foto {
     width: 100%;
     height: 100%;
-    object-fit: contain;
-    object-position: center center;
+    object-fit: cover;
+    object-position: top center;
     display: block;
-    background: #f4f4f4;
   }
 
   .case-meta {
