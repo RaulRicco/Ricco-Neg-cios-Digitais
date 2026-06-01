@@ -216,10 +216,8 @@
   ══════════════════════════════════ */
   .case-page {
     display: grid;
-    /* largura da imagem = largura natural preservada dentro de 297mm de altura
-       imagens ~404×828px → ratio 0.488 → 297mm × 0.488 ≈ 145mm ≈ 548px
-       Usando 148mm para a coluna da imagem */
-    grid-template-columns: 1fr 148mm;
+    /* 9:16 → largura = 297mm × 9/16 = 167.0625mm */
+    grid-template-columns: 1fr 167mm;
     height: 297mm;
   }
 
@@ -378,16 +376,14 @@
   .case-right {
     overflow: hidden;
     height: 297mm;
+    width: 167mm;
+    background: #fff;
   }
 
   .case-foto {
-    /* a imagem tem ratio ~0.488 (largura/altura)
-       altura fixa = 297mm → largura natural = 297mm × 0.488 ≈ 145mm
-       width: 100% garante que preencha a coluna sem barras */
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: top center;
+    width: 167mm;
+    height: 297mm;
+    object-fit: fill;
     display: block;
   }
 
