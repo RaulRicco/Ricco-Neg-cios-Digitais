@@ -61,7 +61,10 @@ def extract_result(obj, goal, actions, spend):
     elif goal == "POST_ENGAGEMENT":
         key, label = "post_engagement", "Engajamentos"
     elif obj == "OUTCOME_LEADS":
-        key, label = "lead", "Leads"
+        # lead_grouped = leads de formulário (valor exibido no gerenciador Meta)
+        # lead genérico soma formulário + mensagem + outros, inflando o número
+        key = "onsite_conversion.lead_grouped" if "onsite_conversion.lead_grouped" in action_map else "lead"
+        label = "Leads"
     elif obj == "OUTCOME_SALES":
         key, label = "purchase", "Vendas"
     elif obj in ("LINK_CLICKS", "OUTCOME_TRAFFIC"):

@@ -4,7 +4,7 @@
     "start": "2026-05-01",
     "end": "2026-05-31"
   },
-  "gerado_em": "2026-06-03T16:12:17.873471",
+  "gerado_em": "2026-06-03T18:24:08.974143",
   "consolidado": null,
   "meta": {
     "spend": 456.21,
@@ -26,8 +26,8 @@
         "ctr": 1.93,
         "cpc": 1.2,
         "result_label": "Leads",
-        "result_qty": 140,
-        "result_cpr": 2.97
+        "result_qty": 41,
+        "result_cpr": 10.13
       },
       {
         "name": "[CBO] [TOPO DE FUNIL] [TRAFEGO]",
@@ -54,8 +54,8 @@
         "cpc": 1.27,
         "frequency": 1.63,
         "result_label": "Leads",
-        "result_qty": 21,
-        "result_cpr": 9.99
+        "result_qty": 16,
+        "result_cpr": 13.11
       },
       {
         "name": "video_reels_04_05",
@@ -93,8 +93,8 @@
         "cpc": 1.07,
         "frequency": 1.68,
         "result_label": "Leads",
-        "result_qty": 119,
-        "result_cpr": 1.58
+        "result_qty": 25,
+        "result_cpr": 7.51
       }
     ]
   },
