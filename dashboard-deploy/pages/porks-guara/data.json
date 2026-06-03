@@ -4,7 +4,7 @@
     "start": "2026-05-01",
     "end": "2026-05-31"
   },
-  "gerado_em": "2026-06-03T18:48:04.781972",
+  "gerado_em": "2026-06-03T19:01:45.088260",
   "consolidado": null,
   "meta": {
     "spend": 938.96,
@@ -51,9 +51,9 @@
         "clicks": 237,
         "ctr": 8.02,
         "cpc": 0.34,
-        "result_label": "Engajamentos",
-        "result_qty": 1529,
-        "result_cpr": 0.05
+        "result_label": "Reservas",
+        "result_qty": 3,
+        "result_cpr": 26.85
       },
       {
         "name": "[CBO] [ESPECIAL AC/DC] [RESERVAS]",
@@ -64,9 +64,9 @@
         "clicks": 103,
         "ctr": 2.44,
         "cpc": 0.46,
-        "result_label": "Engajamentos",
-        "result_qty": 835,
-        "result_cpr": 0.06
+        "result_label": "Reservas",
+        "result_qty": 7,
+        "result_cpr": 6.84
       },
       {
         "name": "[CBO] [REGGAE 09MAI] [RESERVAS]",
@@ -77,9 +77,9 @@
         "clicks": 455,
         "ctr": 3.74,
         "cpc": 0.33,
-        "result_label": "Engajamentos",
-        "result_qty": 3327,
-        "result_cpr": 0.05
+        "result_label": "Reservas",
+        "result_qty": 21,
+        "result_cpr": 7.14
       },
       {
         "name": "[CBO] [SARARA CRIOLO] [RESERVAS]",
@@ -103,9 +103,9 @@
         "clicks": 355,
         "ctr": 2.43,
         "cpc": 0.42,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_label": "Reservas",
+        "result_qty": 10,
+        "result_cpr": 15.0
       },
       {
         "name": "[CBO] [ESPECIAL QUEEN MAI/26] [RESERVAS]",
@@ -116,9 +116,9 @@
         "clicks": 271,
         "ctr": 2.57,
         "cpc": 0.55,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_label": "Reservas",
+        "result_qty": 20,
+        "result_cpr": 7.5
       },
       {
         "name": "[CBO] [ESPECIAL RAUL SEIXAS MAI/26] [RESERVAS]",
@@ -129,9 +129,9 @@
         "clicks": 243,
         "ctr": 2.45,
         "cpc": 0.62,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_label": "Reservas",
+        "result_qty": 14,
+        "result_cpr": 10.71
       },
       {
         "name": "[CBO] [FINAL CHAMPIONS 26] [ENGAJAMENTO]",
@@ -170,9 +170,9 @@
         "ctr": 2.44,
         "cpc": 0.46,
         "frequency": 1.45,
-        "result_label": "Engajamentos",
-        "result_qty": 835,
-        "result_cpr": 0.06
+        "result_label": "Reservas",
+        "result_qty": 7,
+        "result_cpr": 6.84
       },
       {
         "name": "OPEN WINE ABR/26 ESTATICA",
@@ -196,9 +196,9 @@
         "ctr": 8.02,
         "cpc": 0.34,
         "frequency": 1.38,
-        "result_label": "Engajamentos",
-        "result_qty": 1526,
-        "result_cpr": 0.05
+        "result_label": "Reservas",
+        "result_qty": 3,
+        "result_cpr": 26.82
       },
       {
         "name": "sarara_criolo_07_05",
@@ -222,9 +222,9 @@
         "ctr": 3.54,
         "cpc": 0.39,
         "frequency": 1.43,
-        "result_label": "Engajamentos",
-        "result_qty": 2103,
-        "result_cpr": 0.05
+        "result_label": "Reservas",
+        "result_qty": 4,
+        "result_cpr": 24.55
       },
       {
         "name": "reels_reggae_09_05",
@@ -235,9 +235,9 @@
         "ctr": 4.03,
         "cpc": 0.26,
         "frequency": 1.42,
-        "result_label": "Engajamentos",
-        "result_qty": 1224,
-        "result_cpr": 0.04
+        "result_label": "Reservas",
+        "result_qty": 17,
+        "result_cpr": 3.04
       },
       {
         "name": "sarara_video_11_05",
@@ -261,9 +261,9 @@
         "ctr": 2.43,
         "cpc": 0.42,
         "frequency": 1.73,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_label": "Reservas",
+        "result_qty": 10,
+        "result_cpr": 15.0
       },
       {
         "name": "motion_video_13_05",
@@ -287,9 +287,9 @@
         "ctr": 2.57,
         "cpc": 0.55,
         "frequency": 2.18,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_label": "Reservas",
+        "result_qty": 20,
+        "result_cpr": 7.5
       },
       {
         "name": "especial_raul_seixas_mai_26",
@@ -300,9 +300,9 @@
         "ctr": 2.45,
         "cpc": 0.62,
         "frequency": 1.85,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_label": "Reservas",
+        "result_qty": 14,
+        "result_cpr": 10.71
       },
       {
         "name": "final_champions_26",
