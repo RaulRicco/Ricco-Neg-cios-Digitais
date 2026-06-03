@@ -1,0 +1,182 @@
+{
+  "cliente": "Porks Ceilândia",
+  "periodo": {
+    "start": "2026-05-01",
+    "end": "2026-05-31"
+  },
+  "gerado_em": "2026-06-03T19:20:56.047870",
+  "consolidado": null,
+  "meta": {
+    "spend": 434.65,
+    "reach": 22642,
+    "impressions": 55953,
+    "clicks": 815,
+    "cpm": 7.77,
+    "cpc": 0.53,
+    "ctr": 1.46,
+    "frequency": 2.47,
+    "campaigns": [
+      {
+        "name": "[ABO] [KARAOKE MAR/26] [ENGAJAMENTO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 39.88,
+        "reach": 5061,
+        "impressions": 6477,
+        "clicks": 50,
+        "ctr": 0.77,
+        "cpc": 0.8,
+        "result_label": "Engajamentos",
+        "result_qty": 1447,
+        "result_cpr": 0.03
+      },
+      {
+        "name": "[CBO] [GRUNGE HITS] [RESERVAS]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 99.71,
+        "reach": 5189,
+        "impressions": 11928,
+        "clicks": 193,
+        "ctr": 1.62,
+        "cpc": 0.52,
+        "result_label": "Reservas",
+        "result_qty": 3,
+        "result_cpr": 33.24
+      },
+      {
+        "name": "[CBO] [HIPHOP MAI/26] [RESERVAS]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 199.9,
+        "reach": 11664,
+        "impressions": 28490,
+        "clicks": 389,
+        "ctr": 1.37,
+        "cpc": 0.51,
+        "result_label": "Reservas",
+        "result_qty": 3,
+        "result_cpr": 66.63
+      },
+      {
+        "name": "[CBO] [CLASSICOS DO ROCK MAI/26] [LEADS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 45.45,
+        "reach": 2924,
+        "impressions": 3982,
+        "clicks": 93,
+        "ctr": 2.34,
+        "cpc": 0.49,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
+      },
+      {
+        "name": "[CBO] [QUEENS OF ROCK] [LEADS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 30.75,
+        "reach": 2414,
+        "impressions": 2984,
+        "clicks": 48,
+        "ctr": 1.61,
+        "cpc": 0.64,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
+      },
+      {
+        "name": "[ABO] [SHOWS MEMORAVEIS MAI/26] [LEADS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 18.96,
+        "reach": 1567,
+        "impressions": 2092,
+        "clicks": 42,
+        "ctr": 2.01,
+        "cpc": 0.45,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
+      }
+    ],
+    "ads": [
+      {
+        "name": "KARAOKE TODA QUINTA",
+        "campaign": "[ABO] [KARAOKE MAR/26] [ENGAJAMENTO]",
+        "spend": 39.88,
+        "impressions": 6477,
+        "clicks": 50,
+        "ctr": 0.77,
+        "cpc": 0.8,
+        "frequency": 1.28,
+        "result_label": "Engajamentos",
+        "result_qty": 1447,
+        "result_cpr": 0.03
+      },
+      {
+        "name": "grunge_hits_08_05",
+        "campaign": "[CBO] [GRUNGE HITS] [RESERVAS]",
+        "spend": 99.71,
+        "impressions": 11928,
+        "clicks": 193,
+        "ctr": 1.62,
+        "cpc": 0.52,
+        "frequency": 2.3,
+        "result_label": "Reservas",
+        "result_qty": 3,
+        "result_cpr": 33.24
+      },
+      {
+        "name": "real_hip_hop_09_05",
+        "campaign": "[CBO] [HIPHOP MAI/26] [RESERVAS]",
+        "spend": 199.9,
+        "impressions": 28490,
+        "clicks": 389,
+        "ctr": 1.37,
+        "cpc": 0.51,
+        "frequency": 2.44,
+        "result_label": "Reservas",
+        "result_qty": 3,
+        "result_cpr": 66.63
+      },
+      {
+        "name": "motion_sexta_15_05",
+        "campaign": "[CBO] [CLASSICOS DO ROCK MAI/26] [LEADS]",
+        "spend": 45.45,
+        "impressions": 3982,
+        "clicks": 93,
+        "ctr": 2.34,
+        "cpc": 0.49,
+        "frequency": 1.36,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
+      },
+      {
+        "name": "queens_of_rock_16_05",
+        "campaign": "[CBO] [QUEENS OF ROCK] [LEADS]",
+        "spend": 30.75,
+        "impressions": 2984,
+        "clicks": 48,
+        "ctr": 1.61,
+        "cpc": 0.64,
+        "frequency": 1.24,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
+      },
+      {
+        "name": "ac_dc_show_mem_13_05",
+        "campaign": "[ABO] [SHOWS MEMORAVEIS MAI/26] [LEADS]",
+        "spend": 18.96,
+        "impressions": 2092,
+        "clicks": 42,
+        "ctr": 2.01,
+        "cpc": 0.45,
+        "frequency": 1.34,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
+      }
+    ]
+  },
+  "google": null,
+  "ga4": null,
+  "gmb": null
+}

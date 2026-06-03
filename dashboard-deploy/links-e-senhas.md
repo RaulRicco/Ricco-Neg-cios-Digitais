@@ -158,3 +158,13 @@ Base URL: `https://ricco-dashboards.pages.dev`
 - **URL:** https://ricco-dashboards.pages.dev/quintal-piri
 - **Senha:** `quintalpiri2026`
 - **Serviços:** META
+
+## Porks Ceilândia
+- **URL:** https://ricco-dashboards.pages.dev/porks-ceilandia
+- **Senha:** `wm2vc9f4a66a`
+- **Serviços:** META
+
+## Dog do Cangaceiro
+- **URL:** https://ricco-dashboards.pages.dev/dog-do-cangaceiro
+- **Senha:** `th7vtasa9wk8`
+- **Serviços:** META
