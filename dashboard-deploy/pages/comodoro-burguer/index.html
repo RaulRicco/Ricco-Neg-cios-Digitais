@@ -914,7 +914,7 @@
     renderTable('kw'); renderTable('terms'); renderTable('origem');
   }
 
-  const SENHA_HASH = "7a2dc519ffbf2636e206e7be582f04c578338010949a2a935516e4fb1a55b25b";
+  const SENHA_HASH = "5d36844bd2938de286f96513c865f4a802798bfc03da45cc062767da89407e21";
 
   async function sha256(s) {
     const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s));
