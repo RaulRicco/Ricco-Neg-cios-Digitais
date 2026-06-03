@@ -46,7 +46,7 @@ Base URL: `https://ricco-dashboards.pages.dev`
 
 ## Bebedouro Bar e Fogo — 356
 - **URL:** https://ricco-dashboards.pages.dev/bebedouro-356
-- **Senha:** `⚠️ SENHA DESCONHECIDA — redefinir`
+- **Senha:** `lsamvgoy9fwj`
 - **Serviços:** META · GOOGLE · GA4
 
 ## Balcão Savassi
@@ -121,7 +121,7 @@ Base URL: `https://ricco-dashboards.pages.dev`
 
 ## Porks Samambaia
 - **URL:** https://ricco-dashboards.pages.dev/porks-samambaia
-- **Senha:** `⚠️ SENHA DESCONHECIDA — redefinir`
+- **Senha:** `w622g1syidt3`
 - **Serviços:** META · GA4
 
 ## Porks Guará
@@ -131,7 +131,7 @@ Base URL: `https://ricco-dashboards.pages.dev`
 
 ## Porks Três Lagoas
 - **URL:** https://ricco-dashboards.pages.dev/porks-tres-lagoas
-- **Senha:** `⚠️ SENHA DESCONHECIDA — redefinir`
+- **Senha:** `iy9abz9g7jg7`
 - **Serviços:** META
 
 ## Porks Casarão
@@ -146,12 +146,12 @@ Base URL: `https://ricco-dashboards.pages.dev`
 
 ## Porks Pirenópolis
 - **URL:** https://ricco-dashboards.pages.dev/porks-pirenopolis
-- **Senha:** `⚠️ SENHA DESCONHECIDA — redefinir`
+- **Senha:** `eiev53v0seq2`
 - **Serviços:** META
 
 ## Boteco do Quintal
 - **URL:** https://ricco-dashboards.pages.dev/boteco-do-quintal
-- **Senha:** `⚠️ SENHA DESCONHECIDA — redefinir`
+- **Senha:** `lwhk8fepfbtx`
 - **Serviços:** META
 
 ## O Quintal Piri
