@@ -140,6 +140,11 @@
   .evento-info .evento-count{font-size:24px;font-weight:900;line-height:1;}
   .footer{text-align:center;padding:32px 0 0;border-top:1px solid var(--border);font-size:12px;color:var(--text-muted);}
   .footer strong{color:var(--green);}
+  .tip{position:relative;display:inline-flex;align-items:center;justify-content:center;width:14px;height:14px;border-radius:50%;background:#2a2a2a;border:1px solid #444;color:var(--text-muted);font-size:9px;font-weight:700;cursor:default;margin-left:5px;vertical-align:middle;flex-shrink:0;}
+  .tip::after{content:attr(data-tip);position:absolute;bottom:calc(100% + 6px);left:50%;transform:translateX(-50%);background:#1e1e1e;border:1px solid #333;border-radius:8px;padding:8px 12px;font-size:12px;font-weight:400;color:#ccc;white-space:normal;width:200px;line-height:1.5;text-transform:none;letter-spacing:0;pointer-events:none;opacity:0;transition:opacity .15s;z-index:500;text-align:left;}
+  .tip:hover::after{opacity:1;}
+  body.light .tip{background:#f0f0f0;border-color:#ccc;}
+  body.light .tip::after{background:#fff;border-color:#ddd;color:#333;}
   @media(max-width:768px){
     .topbar{padding:0 16px;height:auto;padding-top:12px;padding-bottom:12px;flex-wrap:wrap;}
     .main{padding:24px 16px 60px;}
@@ -229,14 +234,14 @@
       <span class="section-badge">Facebook · Instagram</span>
     </div>
     <div class="cards-grid">
-      <div class="card card-accent-meta"><div class="card-label">Investimento</div><div class="card-value" id="meta-spend">—</div></div>
-      <div class="card"><div class="card-label">Alcance</div><div class="card-value" id="meta-reach">—</div></div>
-      <div class="card"><div class="card-label">Impressões</div><div class="card-value" id="meta-impressions">—</div></div>
-      <div class="card"><div class="card-label">Cliques no Link</div><div class="card-value" id="meta-clicks">—</div></div>
-      <div class="card"><div class="card-label">CTR</div><div class="card-value" id="meta-ctr">—</div><div class="card-sub">cliques / impressões</div></div>
-      <div class="card"><div class="card-label">CPC Médio</div><div class="card-value" id="meta-cpc">—</div></div>
-      <div class="card"><div class="card-label">CPM</div><div class="card-value" id="meta-cpm">—</div><div class="card-sub">por mil impressões</div></div>
-      <div class="card"><div class="card-label">CPL</div><div class="card-value" id="meta-cpl">—</div><div class="card-sub">custo por resultado</div></div>
+      <div class="card card-accent-meta"><div class="card-label">Investimento<span class="tip" data-tip="Total gasto no período em anúncios Meta Ads (Facebook e Instagram).">?</span></div><div class="card-value" id="meta-spend">—</div></div>
+      <div class="card"><div class="card-label">Alcance<span class="tip" data-tip="Número de pessoas únicas que viram ao menos um anúncio. Diferente de impressões — a mesma pessoa conta uma só vez.">?</span></div><div class="card-value" id="meta-reach">—</div></div>
+      <div class="card"><div class="card-label">Impressões<span class="tip" data-tip="Total de vezes que os anúncios foram exibidos. Uma mesma pessoa pode gerar várias impressões.">?</span></div><div class="card-value" id="meta-impressions">—</div></div>
+      <div class="card"><div class="card-label">Cliques no Link<span class="tip" data-tip="Cliques diretos no link do anúncio que levam o usuário para fora do Meta (site, WhatsApp, etc.).">?</span></div><div class="card-value" id="meta-clicks">—</div></div>
+      <div class="card"><div class="card-label">CTR<span class="tip" data-tip="Taxa de cliques: % de impressões que geraram um clique. Quanto maior, mais relevante o anúncio para o público.">?</span></div><div class="card-value" id="meta-ctr">—</div><div class="card-sub">cliques / impressões</div></div>
+      <div class="card"><div class="card-label">CPC Médio<span class="tip" data-tip="Custo por Clique: quanto foi gasto em média para cada clique no link do anúncio.">?</span></div><div class="card-value" id="meta-cpc">—</div></div>
+      <div class="card"><div class="card-label">CPM<span class="tip" data-tip="Custo por Mil Impressões: quanto custa exibir o anúncio mil vezes. Indica o custo de distribuição do alcance.">?</span></div><div class="card-value" id="meta-cpm">—</div><div class="card-sub">por mil impressões</div></div>
+      <div class="card"><div class="card-label">CPL<span class="tip" data-tip="Custo por Resultado: valor médio pago para cada conversão (lead, reserva, mensagem, etc.) gerada pelas campanhas.">?</span></div><div class="card-value" id="meta-cpl">—</div><div class="card-sub">custo por resultado</div></div>
     </div>
     <div class="chart-block">
       <div class="chart-card">
@@ -255,7 +260,7 @@
     <div class="table-block">
       <div class="table-title">Campanhas</div>
       <div class="table-wrap">
-        <table><thead><tr><th>Campanha</th><th>Invest.</th><th>Alcance</th><th>Impressões</th><th>Cliques</th><th>CTR</th><th>CPC</th><th>Resultado</th><th>Custo/Resultado</th></tr></thead>
+        <table><thead><tr><th>Campanha</th><th>Invest.<span class="tip" data-tip="Gasto total dessa campanha no período.">?</span></th><th>Alcance<span class="tip" data-tip="Pessoas únicas que viram anúncios desta campanha.">?</span></th><th>Impressões<span class="tip" data-tip="Total de exibições dos anúncios desta campanha.">?</span></th><th>Cliques<span class="tip" data-tip="Cliques no link desta campanha.">?</span></th><th>CTR<span class="tip" data-tip="% de impressões que viraram clique. Mede a atratividade do anúncio.">?</span></th><th>CPC<span class="tip" data-tip="Custo médio por clique nesta campanha.">?</span></th><th>Resultado<span class="tip" data-tip="Conversão principal da campanha: lead, reserva, mensagem ou clique conforme o objetivo.">?</span></th><th>Custo/Resultado<span class="tip" data-tip="Quanto foi pago em média por cada resultado entregue por esta campanha.">?</span></th></tr></thead>
         <tbody id="tbody-meta-campaigns"></tbody></table>
         <div class="table-footer">
           <span class="table-count" id="count-meta-campaigns"></span>
@@ -270,7 +275,7 @@
     <div class="table-block">
       <div class="table-title">Anúncios</div>
       <div class="table-wrap">
-        <table><thead><tr><th>Anúncio</th><th>Campanha</th><th>Invest.</th><th>Impressões</th><th>Cliques</th><th>CTR</th><th>CPC</th><th>Frequência</th><th>Resultado</th><th>Custo/Resultado</th></tr></thead>
+        <table><thead><tr><th>Anúncio</th><th>Campanha</th><th>Invest.<span class="tip" data-tip="Gasto total deste anúncio no período.">?</span></th><th>Impressões<span class="tip" data-tip="Total de vezes que este anúncio foi exibido.">?</span></th><th>Cliques<span class="tip" data-tip="Cliques no link deste anúncio.">?</span></th><th>CTR<span class="tip" data-tip="% de impressões que viraram clique. Mede a atratividade deste criativo.">?</span></th><th>CPC<span class="tip" data-tip="Custo médio por clique neste anúncio.">?</span></th><th>Frequência<span class="tip" data-tip="Quantas vezes, em média, a mesma pessoa viu este anúncio. Acima de 3 pode indicar fadiga de criativo.">?</span></th><th>Resultado<span class="tip" data-tip="Conversão atribuída a este anúncio.">?</span></th><th>Custo/Resultado<span class="tip" data-tip="Quanto foi pago em média por cada resultado entregue por este anúncio.">?</span></th></tr></thead>
         <tbody id="tbody-meta-ads"></tbody></table>
         <div class="table-footer">
           <span class="table-count" id="count-meta-ads"></span>

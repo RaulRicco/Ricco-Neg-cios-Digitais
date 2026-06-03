@@ -140,6 +140,11 @@
   .evento-info .evento-count{font-size:24px;font-weight:900;line-height:1;}
   .footer{text-align:center;padding:32px 0 0;border-top:1px solid var(--border);font-size:12px;color:var(--text-muted);}
   .footer strong{color:var(--green);}
+  .tip{position:relative;display:inline-flex;align-items:center;justify-content:center;width:14px;height:14px;border-radius:50%;background:#2a2a2a;border:1px solid #444;color:var(--text-muted);font-size:9px;font-weight:700;cursor:default;margin-left:5px;vertical-align:middle;flex-shrink:0;}
+  .tip::after{content:attr(data-tip);position:absolute;bottom:calc(100% + 6px);left:50%;transform:translateX(-50%);background:#1e1e1e;border:1px solid #333;border-radius:8px;padding:8px 12px;font-size:12px;font-weight:400;color:#ccc;white-space:normal;width:200px;line-height:1.5;text-transform:none;letter-spacing:0;pointer-events:none;opacity:0;transition:opacity .15s;z-index:500;text-align:left;}
+  .tip:hover::after{opacity:1;}
+  body.light .tip{background:#f0f0f0;border-color:#ccc;}
+  body.light .tip::after{background:#fff;border-color:#ddd;color:#333;}
   @media(max-width:768px){
     .topbar{padding:0 16px;height:auto;padding-top:12px;padding-bottom:12px;flex-wrap:wrap;}
     .main{padding:24px 16px 60px;}
@@ -230,13 +235,13 @@
       <span class="section-badge">Search · Display</span>
     </div>
     <div class="cards-grid">
-      <div class="card card-accent-google"><div class="card-label">Investimento</div><div class="card-value" id="gads-spend">—</div></div>
-      <div class="card"><div class="card-label">Impressões</div><div class="card-value" id="gads-impressions">—</div></div>
-      <div class="card"><div class="card-label">Cliques</div><div class="card-value" id="gads-clicks">—</div></div>
-      <div class="card"><div class="card-label">CTR</div><div class="card-value" id="gads-ctr">—</div></div>
-      <div class="card"><div class="card-label">CPC Médio</div><div class="card-value" id="gads-cpc">—</div></div>
-      <div class="card"><div class="card-label">Conversões</div><div class="card-value" id="gads-conversions">—</div><div class="card-sub">ligações + direções</div></div>
-      <div class="card"><div class="card-label">CPA</div><div class="card-value" id="gads-cpa">—</div><div class="card-sub">custo por conversão</div></div>
+      <div class="card card-accent-google"><div class="card-label">Investimento<span class="tip" data-tip="Total gasto no período em anúncios Google Ads.">?</span></div><div class="card-value" id="gads-spend">—</div></div>
+      <div class="card"><div class="card-label">Impressões<span class="tip" data-tip="Total de vezes que os anúncios foram exibidos na busca do Google.">?</span></div><div class="card-value" id="gads-impressions">—</div></div>
+      <div class="card"><div class="card-label">Cliques<span class="tip" data-tip="Total de cliques nos anúncios do Google (inclui cliques em ligação e no site).">?</span></div><div class="card-value" id="gads-clicks">—</div></div>
+      <div class="card"><div class="card-label">CTR<span class="tip" data-tip="Taxa de cliques: % de impressões que geraram um clique. Mede a relevância do anúncio para as buscas.">?</span></div><div class="card-value" id="gads-ctr">—</div></div>
+      <div class="card"><div class="card-label">CPC Médio<span class="tip" data-tip="Custo médio por clique no Google Ads. Influenciado pelo lance, qualidade do anúncio e concorrência.">?</span></div><div class="card-value" id="gads-cpc">—</div></div>
+      <div class="card"><div class="card-label">Conversões<span class="tip" data-tip="Ações de alto valor: ligações, solicitações de direção e visitas ao site rastreadas pelo Google.">?</span></div><div class="card-value" id="gads-conversions">—</div><div class="card-sub">ligações + direções</div></div>
+      <div class="card"><div class="card-label">CPA<span class="tip" data-tip="Custo por Aquisição: quanto foi pago em média por cada conversão gerada pelo Google Ads.">?</span></div><div class="card-value" id="gads-cpa">—</div><div class="card-sub">custo por conversão</div></div>
     </div>
     <div class="chart-block">
       <div class="chart-card">
