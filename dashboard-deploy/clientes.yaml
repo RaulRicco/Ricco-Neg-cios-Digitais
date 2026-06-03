@@ -8,7 +8,7 @@ clientes:
   # ── Bar do Açougueiro — Água Verde ────────────────────────────────────────
   - slug: acougueiro-agua-verde
     nome: "Bar do Açougueiro — Água Verde"
-    senha: "acougueiro24"
+    senha: "aguaverde2026"
     meta_account: "act_1539242697230772"
     gads_customer: "6349696749"
     ga4_property: "513684569"
@@ -17,7 +17,7 @@ clientes:
   # ── Bar do Açougueiro — Bacacheri ─────────────────────────────────────────
   - slug: acougueiro-bacacheri
     nome: "Bar do Açougueiro — Bacacheri"
-    senha: "acougueiro24"
+    senha: "bacacheri2026"
     meta_account: "act_1449387792808479"
     gads_customer: "1098008121"
     ga4_property: "513684569"
@@ -26,7 +26,7 @@ clientes:
   # ── Bar do Açougueiro — Batel ─────────────────────────────────────────────
   - slug: acougueiro-batel
     nome: "Bar do Açougueiro — Batel"
-    senha: "acougueiro24"
+    senha: "batel2026"
     meta_account: "act_1496111171808827"
     gads_customer: "1245380413"
     ga4_property: "513684569"
@@ -35,7 +35,7 @@ clientes:
   # ── Quermesse Bar — Bom Retiro ────────────────────────────────────────────
   - slug: quermesse-bom-retiro
     nome: "Quermesse Bar — Bom Retiro"
-    senha: "quermesse24"
+    senha: "bomretiro2026"
     meta_account: "act_2101384330709220"
     gads_customer: "1016781796"
     ga4_property: "527523361"
@@ -44,7 +44,7 @@ clientes:
   # ── Quermesse Bar — Ecoville ──────────────────────────────────────────────
   - slug: quermesse-ecoville
     nome: "Quermesse Bar — Ecoville"
-    senha: "quermesse24"
+    senha: "ecoville2026"
     meta_account: "act_2347752075729504"
     gads_customer: "3729637176"
     ga4_property: "527580841"
@@ -53,7 +53,7 @@ clientes:
   # ── Floreria Café.Bar ─────────────────────────────────────────────────────
   - slug: floreria
     nome: "Floreria Café.Bar"
-    senha: "floreria24"
+    senha: "floreria2026"
     meta_account: "act_1472457341555059"
     gads_customer: "1352930078"
     ga4_property: "530189853"
@@ -62,7 +62,7 @@ clientes:
   # ── Churrascaria Boi Dourado ──────────────────────────────────────────────
   - slug: boi-dourado
     nome: "Churrascaria Boi Dourado"
-    senha: "boidourado24"
+    senha: "boidourado2026"
     meta_account: "act_167436168170959"
     gads_customer: "1865208256"
     ga4_property: "404994582"
@@ -71,7 +71,7 @@ clientes:
   # ── Bebedouro Bar e Fogo ──────────────────────────────────────────────────
   - slug: bebedouro
     nome: "Bebedouro Bar e Fogo"
-    senha: "bebedouro24"
+    senha: "bebedouro2026"
     meta_account: "act_904480561216184"
     gads_customer: "6755763415"
     ga4_property: "527345752"
@@ -81,7 +81,7 @@ clientes:
   # ── Bebedouro 356 ─────────────────────────────────────────────────────────
   - slug: bebedouro-356
     nome: "Bebedouro Bar e Fogo — 356"
-    senha: "bebedouro24"
+    senha: "bebedouro356@2026"
     meta_account: "act_904480561216184"
     gads_customer: "8595847876"
     ga4_property: "527345752"
@@ -91,7 +91,7 @@ clientes:
   # ── Balcão Savassi ────────────────────────────────────────────────────────
   - slug: balcao-savassi
     nome: "Balcão Savassi"
-    senha: "balcao24"
+    senha: "balcaosavassi2026"
     meta_account: ""
     gads_customer: "6890795245"
     ga4_property: "529014161"
@@ -101,7 +101,7 @@ clientes:
   # ── Ameriparts Três Lagoas ────────────────────────────────────────────────
   - slug: ameriparts
     nome: "Ameriparts Três Lagoas"
-    senha: "ameriparts24"
+    senha: "ameriparts2026"
     meta_account: "act_476310531948549"
     gads_customer: "5463346413"
     ga4_property: "528472800"
@@ -110,7 +110,7 @@ clientes:
   # ── Comodoro Burguer ──────────────────────────────────────────────────────
   - slug: comodoro-burguer
     nome: "Comodoro Burguer"
-    senha: "comodoro24"
+    senha: "comodoro2026"
     meta_account: "act_4617297935009077"
     gads_customer: "9692643691"
     ga4_property: "321208123"
@@ -119,7 +119,7 @@ clientes:
   # ── BsBichos PetShop ──────────────────────────────────────────────────────
   - slug: bsbichos
     nome: "BsBichos PetShop"
-    senha: "bsbichos24"
+    senha: "bsbichos2026"
     meta_account: "act_237794567104760"
     gads_customer: "3754202756"
     ga4_property: "520104020"
@@ -128,7 +128,7 @@ clientes:
   # ── Supermercado Bistecão ─────────────────────────────────────────────────
   - slug: bistecao
     nome: "Supermercado Bistecão"
-    senha: "bistecao24"
+    senha: "bistecao2026"
     meta_account: "act_164474806974058"
     gads_customer: ""
     ga4_property: ""
@@ -138,7 +138,7 @@ clientes:
   # ── Garage Burger ─────────────────────────────────────────────────────────
   - slug: garage-burger
     nome: "Burger Garage"
-    senha: "garage24"
+    senha: "garageburger2026"
     meta_account: "act_556754907414470"
     gads_customer: ""
     ga4_property: "527512899"
@@ -147,7 +147,7 @@ clientes:
   # ── Dona Cleide ───────────────────────────────────────────────────────────
   - slug: dona-cleide
     nome: "Dona Cleide — Sabor Caseiro"
-    senha: "cleide24"
+    senha: "donacleide2026"
     meta_account: "act_633829687993340"
     gads_customer: ""
     ga4_property: ""
@@ -156,7 +156,7 @@ clientes:
   # ── Seu Barbudo ───────────────────────────────────────────────────────────
   - slug: seu-barbudo
     nome: "Seu Barbudo Barbearia"
-    senha: "barbudo24"
+    senha: "barbudo2026"
     meta_account: "act_453553515121883"
     gads_customer: ""
     ga4_property: "529874845"
@@ -165,7 +165,7 @@ clientes:
   # ── Hórus Treinamento ─────────────────────────────────────────────────────
   - slug: horus
     nome: "Hórus Treinamento Físico"
-    senha: "horus24"
+    senha: "horus2026"
     meta_account: "act_3330829303888399"
     gads_customer: ""
     ga4_property: ""
@@ -174,7 +174,7 @@ clientes:
   # ── Sol e Lar ─────────────────────────────────────────────────────────────
   - slug: sol-e-lar
     nome: "Casas Sol e Lar"
-    senha: "solelar24"
+    senha: "solelar2026"
     meta_account: "act_1172090764712996"
     gads_customer: ""
     ga4_property: "489225528"
@@ -183,7 +183,7 @@ clientes:
   # ── Solar e Cia ───────────────────────────────────────────────────────────
   - slug: solar-e-cia
     nome: "Solar e Cia"
-    senha: "solar24"
+    senha: "solarecia2026"
     meta_account: "act_9235631696487359"
     gads_customer: ""
     ga4_property: ""
@@ -192,7 +192,7 @@ clientes:
   # ── Fish Me Bar e Cozinha ─────────────────────────────────────────────────
   - slug: fish-me
     nome: "FishMe Bar e Cozinha"
-    senha: "fishme24"
+    senha: "fishme2026"
     meta_account: "act_488123552728918"
     gads_customer: ""
     ga4_property: ""
@@ -201,7 +201,7 @@ clientes:
   # ── Porks Asa Sul ─────────────────────────────────────────────────────────
   - slug: porks-asa-sul
     nome: "Porks Asa Sul"
-    senha: "porks24"
+    senha: "porksasasul2026"
     meta_account: "act_2420587051522130"
     gads_customer: ""
     ga4_property: "511232648"
@@ -211,7 +211,7 @@ clientes:
   # ── Porks Asa Norte ───────────────────────────────────────────────────────
   - slug: porks-asa-norte
     nome: "Porks Asa Norte"
-    senha: "porks24"
+    senha: "porksasanorte2026"
     meta_account: "act_1805040963337330"
     gads_customer: ""
     ga4_property: "511232648"
@@ -221,7 +221,7 @@ clientes:
   # ── Porks Samambaia ───────────────────────────────────────────────────────
   - slug: porks-samambaia
     nome: "Porks Samambaia"
-    senha: "porks24"
+    senha: "porkssam2026"
     meta_account: "act_1035595840205318"
     gads_customer: ""
     ga4_property: "511232648"
@@ -231,7 +231,7 @@ clientes:
   # ── Porks Guará ───────────────────────────────────────────────────────────
   - slug: porks-guara
     nome: "Porks Guará"
-    senha: "porks24"
+    senha: "porksguara2026"
     meta_account: "act_1515848412209603"
     gads_customer: ""
     ga4_property: "511232648"
@@ -241,7 +241,7 @@ clientes:
   # ── Porks Três Lagoas ─────────────────────────────────────────────────────
   - slug: porks-tres-lagoas
     nome: "Porks Três Lagoas"
-    senha: "porks24"
+    senha: "porkstl2026"
     meta_account: "act_3654839554842218"
     gads_customer: ""
     ga4_property: ""
@@ -250,7 +250,7 @@ clientes:
   # ── Porks Casarão ─────────────────────────────────────────────────────────
   - slug: porks-casarao
     nome: "Porks Casarão"
-    senha: "porks24"
+    senha: "porkscasarao2026"
     meta_account: "act_1721342555031533"
     gads_customer: ""
     ga4_property: ""
@@ -259,7 +259,7 @@ clientes:
   # ── Porks Castelo ─────────────────────────────────────────────────────────
   - slug: porks-castelo
     nome: "Porks Castelo"
-    senha: "porks24"
+    senha: "porkscastelo2026"
     meta_account: "act_735816737938125"
     gads_customer: ""
     ga4_property: ""
@@ -268,7 +268,7 @@ clientes:
   # ── Porks Pirenópolis ─────────────────────────────────────────────────────
   - slug: porks-pirenopolis
     nome: "Porks Pirenópolis"
-    senha: "porks24"
+    senha: "porkspiri2026"
     meta_account: "act_278928591684240"
     gads_customer: ""
     ga4_property: ""
@@ -277,7 +277,7 @@ clientes:
   # ── Boteco do Quintal ─────────────────────────────────────────────────────
   - slug: boteco-do-quintal
     nome: "Boteco do Quintal"
-    senha: "quintal24"
+    senha: "botecodomquintal2026"
     meta_account: "act_1437070783628710"
     gads_customer: ""
     ga4_property: ""
@@ -286,7 +286,7 @@ clientes:
   # ── Quintal Piri ──────────────────────────────────────────────────────────
   - slug: quintal-piri
     nome: "O Quintal Piri"
-    senha: "quintal24"
+    senha: "quintalpiri2026"
     meta_account: "act_1800093304167869"
     gads_customer: ""
     ga4_property: ""

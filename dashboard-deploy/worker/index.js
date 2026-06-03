@@ -7,11 +7,37 @@
  */
 
 const CLIENTES = {
-  'acougueiro-agua-verde': 'acougueiro2026',
-  // Próximos clientes — adicionar aqui:
-  // 'bebedouro-pampulha':    'bebedouro2026',
-  // 'boi-dourado':           'boidourado2026',
-  // 'quermesse-bar':         'quermesse2026',
+  'acougueiro-agua-verde':  'aguaverde2026',
+  'acougueiro-bacacheri':   'bacacheri2026',
+  'acougueiro-batel':       'batel2026',
+  'quermesse-bom-retiro':   'bomretiro2026',
+  'quermesse-ecoville':     'ecoville2026',
+  'floreria':               'floreria2026',
+  'boi-dourado':            'boidourado2026',
+  'bebedouro':              'bebedouro2026',
+  'bebedouro-356':          'bebedouro356@2026',
+  'balcao-savassi':         'balcaosavassi2026',
+  'ameriparts':             'ameriparts2026',
+  'comodoro-burguer':       'comodoro2026',
+  'bsbichos':               'bsbichos2026',
+  'bistecao':               'bistecao2026',
+  'garage-burger':          'garageburger2026',
+  'dona-cleide':            'donacleide2026',
+  'seu-barbudo':            'barbudo2026',
+  'horus':                  'horus2026',
+  'sol-e-lar':              'solelar2026',
+  'solar-e-cia':            'solarecia2026',
+  'fish-me':                'fishme2026',
+  'porks-asa-sul':          'porksasasul2026',
+  'porks-asa-norte':        'porksasanorte2026',
+  'porks-samambaia':        'porkssam2026',
+  'porks-guara':            'porksguara2026',
+  'porks-tres-lagoas':      'porkstl2026',
+  'porks-casarao':          'porkscasarao2026',
+  'porks-castelo':          'porkscastelo2026',
+  'porks-pirenopolis':      'porkspiri2026',
+  'boteco-do-quintal':      'botecodomquintal2026',
+  'quintal-piri':           'quintalpiri2026',
 };
 
 const REALM = 'Dashboard Ricco';
