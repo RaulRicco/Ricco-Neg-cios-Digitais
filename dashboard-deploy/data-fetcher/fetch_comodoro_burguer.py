@@ -4,7 +4,7 @@ Coleta dados para o dashboard de Comodoro Burguer.
 Uso: python3 fetch_comodoro_burguer.py --start 2026-04-01 --end 2026-04-30
 """
 
-import argparse, json, sys, os, subprocess
+import argparse, json, sys, os, subprocess, time
 from datetime import datetime, date, timedelta
 from pathlib import Path
 
@@ -81,16 +81,18 @@ def fetch_meta(start, end):
     time_range = ["--time-range", f'{{"since":"{start}","until":"{end}"}}']
     account = run(base+["account","--account",META_ACCOUNT,
         "--fields","spend,reach,impressions,clicks,cpm,cpc,ctr,frequency"]+time_range, "Meta account")
+    time.sleep(2)
     campaigns_raw = run(base+["account","--account",META_ACCOUNT,
         "--fields","spend,reach,impressions,clicks,cpm,cpc,ctr,campaign_name,objective,optimization_goal,actions",
         "--level","campaign"]+time_range, "Meta campaigns")
+    time.sleep(2)
     ads_raw = run(base+["account","--account",META_ACCOUNT,
         "--fields","spend,impressions,clicks,ctr,cpc,frequency,ad_name,campaign_name,objective,optimization_goal,actions",
         "--level","ad"]+time_range, "Meta ads")
     totals = account[0] if account else {}
     campaigns = []
     if campaigns_raw:
-        for c in campaigns_raw[:20]:
+        for c in campaigns_raw[:200]:
             imp = fmt_int(c.get("impressions",0))
             if imp == 0: continue
             spend = fmt_brl(c.get("spend",0))
@@ -103,7 +105,7 @@ def fetch_meta(start, end):
                 "result_label":label,"result_qty":qty,"result_cpr":cpr})
     ads = []
     if ads_raw:
-        for a in ads_raw[:50]:
+        for a in ads_raw[:500]:
             if fmt_int(a.get("impressions",0)) == 0: continue
             spend = fmt_brl(a.get("spend",0))
             obj = a.get("objective","")
