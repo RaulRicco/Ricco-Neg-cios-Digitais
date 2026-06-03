@@ -4,14 +4,14 @@
     "start": "2026-05-01",
     "end": "2026-05-31"
   },
-  "gerado_em": "2026-06-03T15:41:50.542067",
+  "gerado_em": "2026-06-03T16:10:50.158302",
   "consolidado": {
-    "spend": 367.1,
+    "spend": 871.17,
     "reach": 29590,
-    "impressions": 51014,
-    "clicks": 773,
+    "impressions": 53422,
+    "clicks": 875,
     "meta_spend": 367.1,
-    "google_spend": 0
+    "google_spend": 504.07
   },
   "meta": {
     "spend": 367.1,
@@ -67,28 +67,730 @@
     ]
   },
   "google": {
-    "spend": 0,
-    "impressions": 0,
-    "clicks": 0,
-    "ctr": 0,
-    "cpc": 0,
+    "spend": 504.07,
+    "impressions": 2408,
+    "clicks": 102,
+    "ctr": 4.24,
+    "cpc": 4.94,
     "conversions": 0,
     "cpa": 0,
-    "campaigns": [],
-    "keywords": [],
-    "search_terms": []
+    "campaigns": [
+      {
+        "name": "[REDE DE PESQUISAS 1.0] [LEAD]",
+        "type": "Search",
+        "status": "Enabled",
+        "spend": 321.05,
+        "impressions": 1553,
+        "clicks": 71,
+        "ctr": 4.57,
+        "cpc": 4.52,
+        "conversions": 0
+      },
+      {
+        "name": "[AD SEARCH 02] [LEADS]",
+        "type": "Search",
+        "status": "Enabled",
+        "spend": 183.02,
+        "impressions": 855,
+        "clicks": 31,
+        "ctr": 3.63,
+        "cpc": 5.9,
+        "conversions": 0
+      }
+    ],
+    "keywords": [
+      {
+        "keyword": "peças para caminhão",
+        "match": "Phrase",
+        "impressions": 785,
+        "clicks": 45,
+        "ctr": 5.73,
+        "cpc": 4.73,
+        "conversions": 0
+      },
+      {
+        "keyword": "peças caminhão Mercedes",
+        "match": "Broad",
+        "impressions": 209,
+        "clicks": 11,
+        "ctr": 5.26,
+        "cpc": 5.38,
+        "conversions": 0
+      },
+      {
+        "keyword": "acessórios para caminhão",
+        "match": "Phrase",
+        "impressions": 283,
+        "clicks": 10,
+        "ctr": 3.53,
+        "cpc": 3.56,
+        "conversions": 0
+      },
+      {
+        "keyword": "peças caminhão Volvo",
+        "match": "Broad",
+        "impressions": 171,
+        "clicks": 3,
+        "ctr": 1.75,
+        "cpc": 11.65,
+        "conversions": 0
+      },
+      {
+        "keyword": "peças caminhão Scania",
+        "match": "Broad",
+        "impressions": 171,
+        "clicks": 10,
+        "ctr": 5.85,
+        "cpc": 3.13,
+        "conversions": 0
+      },
+      {
+        "keyword": "peças caminhão Volvo",
+        "match": "Broad",
+        "impressions": 173,
+        "clicks": 4,
+        "ctr": 2.31,
+        "cpc": 4.61,
+        "conversions": 0
+      },
+      {
+        "keyword": "peças caminhão Mercedes",
+        "match": "Broad",
+        "impressions": 116,
+        "clicks": 3,
+        "ctr": 2.59,
+        "cpc": 2.17,
+        "conversions": 0
+      },
+      {
+        "keyword": "peças para caminhão",
+        "match": "Exact",
+        "impressions": 11,
+        "clicks": 1,
+        "ctr": 9.09,
+        "cpc": 5.2,
+        "conversions": 0
+      },
+      {
+        "keyword": "peças caminhão IVECO",
+        "match": "Broad",
+        "impressions": 21,
+        "clicks": 1,
+        "ctr": 4.76,
+        "cpc": 4.67,
+        "conversions": 0
+      },
+      {
+        "keyword": "amortecedor caminhão",
+        "match": "Exact",
+        "impressions": 18,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "peças caminhão IVECO",
+        "match": "Broad",
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "peças caminhão FORD",
+        "match": "Broad",
+        "impressions": 5,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "acessórios para caminhão",
+        "match": "Exact",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "peças caminhão MAN",
+        "match": "Broad",
+        "impressions": 12,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "peças caminhão Scania",
+        "match": "Broad",
+        "impressions": 17,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "Peças caminhão DAF",
+        "match": "Broad",
+        "impressions": 22,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "peças caminhão FORD",
+        "match": "Broad",
+        "impressions": 71,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      }
+    ],
+    "search_terms": [
+      {
+        "term": "bloco motor om 926",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 3,
+        "ctr": 100.0,
+        "cpc": 6.44
+      },
+      {
+        "term": "bloco motor om 926",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 17.5
+      },
+      {
+        "term": "pecas iveco",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 2,
+        "ctr": 66.67,
+        "cpc": 8.45
+      },
+      {
+        "term": "cemavi tres lagoas",
+        "keyword": "—",
+        "impressions": 6,
+        "clicks": 2,
+        "ctr": 33.33,
+        "cpc": 5.25
+      },
+      {
+        "term": "loja de peças para caminhão perto de mim",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 10.33
+      },
+      {
+        "term": "ameriparts 3 lagoas",
+        "keyword": "—",
+        "impressions": 24,
+        "clicks": 3,
+        "ctr": 12.5,
+        "cpc": 2.89
+      },
+      {
+        "term": "peças originais mercedes benz caminhões",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 8.03
+      },
+      {
+        "term": "auto peças de caminhão",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 5.2
+      },
+      {
+        "term": "cabine axor 2540 a venda",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 4.59
+      },
+      {
+        "term": "valvula distribuidora volvo fh",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 4.39
+      },
+      {
+        "term": "sensor de nível da suspensão scania",
+        "keyword": "—",
+        "impressions": 6,
+        "clicks": 1,
+        "ctr": 16.67,
+        "cpc": 4.12
+      },
+      {
+        "term": "scania dourados",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 3.38
+      },
+      {
+        "term": "ameri parts",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 2.63
+      },
+      {
+        "term": "zaupa cardans",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 2.5
+      },
+      {
+        "term": "auto pecas para caminhao mais próxima",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 1.7
+      },
+      {
+        "term": "10pk2630",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "1873018 scania",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "21094391",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "22242765",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "23k941033",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "2p0145915",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "311145",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "65459",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "8189329",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "82637695",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "a9069053301",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "a9405061735",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "a9678200010",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "acessórios caminhão perto de mim",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "actros qualificado",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "america parts tres lagoas",
+        "keyword": "—",
+        "impressions": 10,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "ameriparts tres lagoas",
+        "keyword": "—",
+        "impressions": 5,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "amortecedor dianteiro scania 124",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "anchieta peças",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "aspock",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "auto pecas linha pesada",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "auto peças de caminhão mais próximo",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "auto peças de caminhão mais próximo de mim",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "auto peças de caminhão perto de mim",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "auto peças diesel perto de mim",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "barra estabilizadora scania 124",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "barra travamento quinta roda",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "bloco motor scania 124 420",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "bomba arla volvo euro 6",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "buzina de caminhao",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "buzina de caminhão",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "cabine 1313 nova preço",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "cabine axor 2540 a venda",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "cabine caminhao",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "cabine de caminhão usada",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      }
+    ]
   },
   "ga4": {
-    "sessions": 0,
-    "users": 0,
-    "new_users": 0,
-    "pageviews": 0,
-    "bounce_rate": 0.0,
-    "duration": "0m 0s",
-    "events": 0,
-    "conversions": 0,
-    "sources": [],
-    "event_list": []
+    "sessions": 552,
+    "users": 519,
+    "new_users": 520,
+    "pageviews": 684,
+    "bounce_rate": 63.41,
+    "duration": "0m 46s",
+    "events": 2622,
+    "conversions": 19,
+    "sources": [
+      {
+        "source": "fb",
+        "medium": "paid",
+        "sessions": 204,
+        "pct": 37.0
+      },
+      {
+        "source": "ig",
+        "medium": "paid",
+        "sessions": 120,
+        "pct": 21.8
+      },
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 96,
+        "pct": 17.4
+      },
+      {
+        "source": "google",
+        "medium": "cpc",
+        "sessions": 93,
+        "pct": 16.9
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 7,
+        "pct": 1.3
+      },
+      {
+        "source": "facebook.com",
+        "medium": "referral",
+        "sessions": 6,
+        "pct": 1.1
+      },
+      {
+        "source": "bing",
+        "medium": "organic",
+        "sessions": 4,
+        "pct": 0.7
+      },
+      {
+        "source": "google_ads",
+        "medium": "rede_search",
+        "sessions": 4,
+        "pct": 0.7
+      },
+      {
+        "source": "linktr.ee",
+        "medium": "referral",
+        "sessions": 4,
+        "pct": 0.7
+      },
+      {
+        "source": "adsmanager.facebook.com",
+        "medium": "referral",
+        "sessions": 3,
+        "pct": 0.5
+      },
+      {
+        "source": "eventsmanager.facebook.com",
+        "medium": "referral",
+        "sessions": 2,
+        "pct": 0.4
+      },
+      {
+        "source": "m.facebook.com",
+        "medium": "referral",
+        "sessions": 2,
+        "pct": 0.4
+      },
+      {
+        "source": "meta_ads",
+        "medium": "aberto",
+        "sessions": 2,
+        "pct": 0.4
+      },
+      {
+        "source": "(data not available)",
+        "medium": "(data not available)",
+        "sessions": 1,
+        "pct": 0.2
+      },
+      {
+        "source": "ads.google.com",
+        "medium": "referral",
+        "sessions": 1,
+        "pct": 0.2
+      },
+      {
+        "source": "br.search.yahoo.com",
+        "medium": "referral",
+        "sessions": 1,
+        "pct": 0.2
+      },
+      {
+        "source": "instagram.com",
+        "medium": "referral",
+        "sessions": 1,
+        "pct": 0.2
+      }
+    ],
+    "event_list": [
+      {
+        "name": "click",
+        "count": 58
+      },
+      {
+        "name": "popup_opened",
+        "count": 54
+      },
+      {
+        "name": "form_start",
+        "count": 38
+      },
+      {
+        "name": "purchase",
+        "count": 14
+      },
+      {
+        "name": "generate_lead",
+        "count": 5
+      }
+    ]
   },
   "gmb": null
 }

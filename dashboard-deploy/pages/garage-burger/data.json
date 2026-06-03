@@ -4,7 +4,7 @@
     "start": "2026-05-01",
     "end": "2026-05-31"
   },
-  "gerado_em": "2026-06-03T15:42:33.007079",
+  "gerado_em": "2026-06-03T16:11:46.439528",
   "consolidado": null,
   "meta": {
     "spend": 2824.12,
@@ -243,16 +243,126 @@
   },
   "google": null,
   "ga4": {
-    "sessions": 0,
-    "users": 0,
-    "new_users": 0,
-    "pageviews": 0,
-    "bounce_rate": 0.0,
-    "duration": "0m 0s",
-    "events": 0,
-    "conversions": 0,
-    "sources": [],
-    "event_list": []
+    "sessions": 1724,
+    "users": 1466,
+    "new_users": 1337,
+    "pageviews": 8548,
+    "bounce_rate": 22.1,
+    "duration": "2m 41s",
+    "events": 13339,
+    "conversions": 85,
+    "sources": [
+      {
+        "source": "instagram.com",
+        "medium": "referral",
+        "sessions": 970,
+        "pct": 56.2
+      },
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 386,
+        "pct": 22.4
+      },
+      {
+        "source": "l.facebook.com",
+        "medium": "referral",
+        "sessions": 171,
+        "pct": 9.9
+      },
+      {
+        "source": "linktr.ee",
+        "medium": "referral",
+        "sessions": 104,
+        "pct": 6.0
+      },
+      {
+        "source": "facebook.com",
+        "medium": "referral",
+        "sessions": 35,
+        "pct": 2.0
+      },
+      {
+        "source": "m.facebook.com",
+        "medium": "referral",
+        "sessions": 32,
+        "pct": 1.9
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 12,
+        "pct": 0.7
+      },
+      {
+        "source": "ig",
+        "medium": "paid",
+        "sessions": 7,
+        "pct": 0.4
+      },
+      {
+        "source": "(not set)",
+        "medium": "(not set)",
+        "sessions": 4,
+        "pct": 0.2
+      },
+      {
+        "source": "adsmanager.facebook.com",
+        "medium": "referral",
+        "sessions": 3,
+        "pct": 0.2
+      },
+      {
+        "source": "l.instagram.com",
+        "medium": "referral",
+        "sessions": 2,
+        "pct": 0.1
+      },
+      {
+        "source": "ig",
+        "medium": "social",
+        "sessions": 1,
+        "pct": 0.1
+      }
+    ],
+    "event_list": [
+      {
+        "name": "initiate_checkout",
+        "count": 384
+      },
+      {
+        "name": "add_to_cart",
+        "count": 255
+      },
+      {
+        "name": "payment_method_selected",
+        "count": 122
+      },
+      {
+        "name": "form_start",
+        "count": 117
+      },
+      {
+        "name": "purchase",
+        "count": 85
+      },
+      {
+        "name": "remove_from_cart",
+        "count": 53
+      },
+      {
+        "name": "delivery_method_selected",
+        "count": 33
+      },
+      {
+        "name": "clear_cart",
+        "count": 10
+      },
+      {
+        "name": "error_order",
+        "count": 5
+      }
+    ]
   },
   "gmb": null
 }

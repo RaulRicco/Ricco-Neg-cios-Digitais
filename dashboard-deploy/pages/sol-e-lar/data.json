@@ -4,7 +4,7 @@
     "start": "2026-05-01",
     "end": "2026-05-31"
   },
-  "gerado_em": "2026-06-03T15:43:05.753471",
+  "gerado_em": "2026-06-03T16:12:17.571585",
   "consolidado": null,
   "meta": {
     "spend": 615.72,
@@ -74,16 +74,32 @@
   },
   "google": null,
   "ga4": {
-    "sessions": 0,
-    "users": 0,
-    "new_users": 0,
-    "pageviews": 0,
-    "bounce_rate": 0.0,
-    "duration": "0m 0s",
-    "events": 0,
+    "sessions": 5,
+    "users": 5,
+    "new_users": 5,
+    "pageviews": 6,
+    "bounce_rate": 40.0,
+    "duration": "0m 14s",
+    "events": 38,
     "conversions": 0,
-    "sources": [],
-    "event_list": []
+    "sources": [
+      {
+        "source": "ig",
+        "medium": "social",
+        "sessions": 5,
+        "pct": 100.0
+      }
+    ],
+    "event_list": [
+      {
+        "name": "Page View",
+        "count": 6
+      },
+      {
+        "name": "click",
+        "count": 5
+      }
+    ]
   },
   "gmb": null
 }

@@ -4,14 +4,14 @@
     "start": "2026-05-01",
     "end": "2026-05-31"
   },
-  "gerado_em": "2026-06-03T15:42:33.578782",
+  "gerado_em": "2026-06-03T16:11:53.309720",
   "consolidado": {
-    "spend": 1229.27,
+    "spend": 1425.56,
     "reach": 47206,
-    "impressions": 114692,
-    "clicks": 2988,
+    "impressions": 147314,
+    "clicks": 4054,
     "meta_spend": 1229.27,
-    "google_spend": 0
+    "google_spend": 196.29
   },
   "meta": {
     "spend": 1229.27,
@@ -314,28 +314,666 @@
     ]
   },
   "google": {
-    "spend": 0,
-    "impressions": 0,
-    "clicks": 0,
-    "ctr": 0,
-    "cpc": 0,
-    "conversions": 0,
-    "cpa": 0,
-    "campaigns": [],
-    "keywords": [],
-    "search_terms": []
+    "spend": 196.29,
+    "impressions": 32622,
+    "clicks": 1066,
+    "ctr": 3.27,
+    "cpc": 0.18,
+    "conversions": 4,
+    "cpa": 49.07,
+    "campaigns": [
+      {
+        "name": "[PMAX] [RESERVAS]",
+        "type": "Performance_Max",
+        "status": "Enabled",
+        "spend": 174.61,
+        "impressions": 29225,
+        "clicks": 957,
+        "ctr": 3.27,
+        "cpc": 0.18,
+        "conversions": 4
+      },
+      {
+        "name": "[REDE DE PESQUISAS] [LEADS]",
+        "type": "Search",
+        "status": "Paused",
+        "spend": 21.68,
+        "impressions": 3397,
+        "clicks": 109,
+        "ctr": 3.21,
+        "cpc": 0.2,
+        "conversions": 0
+      }
+    ],
+    "keywords": [
+      {
+        "keyword": "Floreria",
+        "match": "Exact",
+        "impressions": 207,
+        "clicks": 45,
+        "ctr": 21.74,
+        "cpc": 0.23,
+        "conversions": 0
+      },
+      {
+        "keyword": "Restaurante Curitiba",
+        "match": "Broad",
+        "impressions": 1590,
+        "clicks": 24,
+        "ctr": 1.51,
+        "cpc": 0.27,
+        "conversions": 0
+      },
+      {
+        "keyword": "Bar Curitiba",
+        "match": "Broad",
+        "impressions": 939,
+        "clicks": 20,
+        "ctr": 2.13,
+        "cpc": 0.2,
+        "conversions": 0
+      },
+      {
+        "keyword": "Brunch Curitiba",
+        "match": "Broad",
+        "impressions": 604,
+        "clicks": 20,
+        "ctr": 3.31,
+        "cpc": 0.03,
+        "conversions": 0
+      },
+      {
+        "keyword": "Floreria",
+        "match": "Broad",
+        "impressions": 4,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "MON",
+        "match": "Broad",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "Museu Oscar Niemeyer",
+        "match": "Broad",
+        "impressions": 52,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      }
+    ],
+    "search_terms": [
+      {
+        "term": "floreria",
+        "keyword": "—",
+        "impressions": 205,
+        "clicks": 44,
+        "ctr": 21.46,
+        "cpc": 0.24
+      },
+      {
+        "term": "reserva dia dos namorados",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 1.48
+      },
+      {
+        "term": "jantar dia dos namorados curitiba",
+        "keyword": "—",
+        "impressions": 6,
+        "clicks": 1,
+        "ctr": 16.67,
+        "cpc": 1.18
+      },
+      {
+        "term": "bares na rua itupava",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 0.93
+      },
+      {
+        "term": "restaurante com música ao vivo curitiba",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.27
+      },
+      {
+        "term": "curitiba night clubs",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.2
+      },
+      {
+        "term": "hamburgueria curitiba",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 0.19
+      },
+      {
+        "term": "buffet de cafe colonial em curitiba",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.19
+      },
+      {
+        "term": "florería",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.14
+      },
+      {
+        "term": "bares de drinks curitiba",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 0.1
+      },
+      {
+        "term": "bares curitiba",
+        "keyword": "—",
+        "impressions": 28,
+        "clicks": 1,
+        "ctr": 3.57,
+        "cpc": 0.09
+      },
+      {
+        "term": "café colonial com espaço kids curitiba",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 0.09
+      },
+      {
+        "term": "bar curitiba",
+        "keyword": "—",
+        "impressions": 9,
+        "clicks": 1,
+        "ctr": 11.11,
+        "cpc": 0.08
+      },
+      {
+        "term": "cafe colonial no agua verde curitiba",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.04
+      },
+      {
+        "term": "café no portao curitiba",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.04
+      },
+      {
+        "term": "floreria café bar curitiba",
+        "keyword": "—",
+        "impressions": 11,
+        "clicks": 2,
+        "ctr": 18.18,
+        "cpc": 0.02
+      },
+      {
+        "term": "cafe",
+        "keyword": "—",
+        "impressions": 40,
+        "clicks": 3,
+        "ctr": 7.5,
+        "cpc": 0.01
+      },
+      {
+        "term": "bar proximo a mim",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.02
+      },
+      {
+        "term": "cafes proximos a mim",
+        "keyword": "—",
+        "impressions": 6,
+        "clicks": 2,
+        "ctr": 33.33,
+        "cpc": 0.01
+      },
+      {
+        "term": "hamburgueria em curitiba",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 0.02
+      },
+      {
+        "term": "cafés",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 0.02
+      },
+      {
+        "term": "bar hip hop curitiba",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.01
+      },
+      {
+        "term": "cafe museu do olho",
+        "keyword": "—",
+        "impressions": 5,
+        "clicks": 1,
+        "ctr": 20.0,
+        "cpc": 0.01
+      },
+      {
+        "term": "cafeterias",
+        "keyword": "—",
+        "impressions": 22,
+        "clicks": 1,
+        "ctr": 4.55,
+        "cpc": 0.01
+      },
+      {
+        "term": "fondue em curitiba",
+        "keyword": "—",
+        "impressions": 7,
+        "clicks": 1,
+        "ctr": 14.29,
+        "cpc": 0.01
+      },
+      {
+        "term": "lugares para tomar vinho em curitiba",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 0.01
+      },
+      {
+        "term": "restaurante vegetariano curitiba",
+        "keyword": "—",
+        "impressions": 11,
+        "clicks": 1,
+        "ctr": 9.09,
+        "cpc": 0.01
+      },
+      {
+        "term": "cafe em curitiba",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 0.01
+      },
+      {
+        "term": "café em curitiba",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 0.01
+      },
+      {
+        "term": "café da manhã curitiba",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.01
+      },
+      {
+        "term": "sushi curitiba pr",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.01
+      },
+      {
+        "term": "cafés perto de mim",
+        "keyword": "—",
+        "impressions": 5,
+        "clicks": 1,
+        "ctr": 20.0,
+        "cpc": 0.01
+      },
+      {
+        "term": "restaurante curitiba",
+        "keyword": "—",
+        "impressions": 19,
+        "clicks": 1,
+        "ctr": 5.26,
+        "cpc": 0.0
+      },
+      {
+        "term": "café",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 0.0
+      },
+      {
+        "term": "10 melhores restaurantes de curitiba",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "41 brooklyn curitiba",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "55bar",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "agrobar",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "agrobar curitiba",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "agrobar sao jose dos pinhais",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "al hamin curitiba",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "all ages bar",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "all natural curitiba",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "almoco domingo curitiba",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "almoco em curitiba",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "almoço com crianças curitiba",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "almoço curitiba",
+        "keyword": "—",
+        "impressions": 5,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "alta gastronomia em curitiba",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "alto da xv bares",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "anarco curitiba",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      }
+    ]
   },
   "ga4": {
-    "sessions": 0,
-    "users": 0,
-    "new_users": 0,
-    "pageviews": 0,
-    "bounce_rate": 0.0,
-    "duration": "0m 0s",
-    "events": 0,
-    "conversions": 0,
-    "sources": [],
-    "event_list": []
+    "sessions": 2873,
+    "users": 2449,
+    "new_users": 2416,
+    "pageviews": 7893,
+    "bounce_rate": 14.2,
+    "duration": "2m 38s",
+    "events": 19834,
+    "conversions": 4823,
+    "sources": [
+      {
+        "source": "ig",
+        "medium": "social",
+        "sessions": 1173,
+        "pct": 41.2
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 517,
+        "pct": 18.1
+      },
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 410,
+        "pct": 14.4
+      },
+      {
+        "source": "ig",
+        "medium": "paid",
+        "sessions": 227,
+        "pct": 8.0
+      },
+      {
+        "source": "google",
+        "medium": "cpc",
+        "sessions": 181,
+        "pct": 6.4
+      },
+      {
+        "source": "meta_ads",
+        "medium": "[ABO] [DIA DAS MAES 26] [LEADS]",
+        "sessions": 131,
+        "pct": 4.6
+      },
+      {
+        "source": "meta",
+        "medium": "vd_21_jan",
+        "sessions": 43,
+        "pct": 1.5
+      },
+      {
+        "source": "fb",
+        "medium": "paid",
+        "sessions": 26,
+        "pct": 0.9
+      },
+      {
+        "source": "m.facebook.com",
+        "medium": "referral",
+        "sessions": 20,
+        "pct": 0.7
+      },
+      {
+        "source": "bing",
+        "medium": "organic",
+        "sessions": 18,
+        "pct": 0.6
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "(not set)",
+        "sessions": 16,
+        "pct": 0.6
+      },
+      {
+        "source": "org",
+        "medium": "maes",
+        "sessions": 14,
+        "pct": 0.5
+      },
+      {
+        "source": "meta_ads",
+        "medium": "[ABO]+[DIA+DAS+MAES+26]+[LEADS]",
+        "sessions": 12,
+        "pct": 0.4
+      },
+      {
+        "source": "saboresdecuritiba.com.br",
+        "medium": "referral",
+        "sessions": 12,
+        "pct": 0.4
+      },
+      {
+        "source": "facebook.com",
+        "medium": "referral",
+        "sessions": 8,
+        "pct": 0.3
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "referral",
+        "sessions": 7,
+        "pct": 0.2
+      },
+      {
+        "source": "(not set)",
+        "medium": "(not set)",
+        "sessions": 6,
+        "pct": 0.2
+      },
+      {
+        "source": "l.instagram.com",
+        "medium": "referral",
+        "sessions": 6,
+        "pct": 0.2
+      },
+      {
+        "source": "youtube",
+        "medium": "teste0112",
+        "sessions": 5,
+        "pct": 0.2
+      },
+      {
+        "source": "bio",
+        "medium": "teste01",
+        "sessions": 4,
+        "pct": 0.1
+      }
+    ],
+    "event_list": [
+      {
+        "name": "scroll_50",
+        "count": 1187
+      },
+      {
+        "name": "form_start",
+        "count": 827
+      },
+      {
+        "name": "lead_generated",
+        "count": 211
+      },
+      {
+        "name": "click",
+        "count": 182
+      },
+      {
+        "name": "generate_lead",
+        "count": 64
+      },
+      {
+        "name": "select_content",
+        "count": 8
+      },
+      {
+        "name": "cta_click",
+        "count": 1
+      }
+    ]
   },
   "gmb": null
 }

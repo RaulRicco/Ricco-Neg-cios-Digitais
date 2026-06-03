@@ -4,14 +4,14 @@
     "start": "2026-05-01",
     "end": "2026-05-31"
   },
-  "gerado_em": "2026-06-03T15:43:08.119288",
+  "gerado_em": "2026-06-03T16:12:25.584654",
   "consolidado": {
-    "spend": 1370.67,
+    "spend": 1689.16,
     "reach": 46927,
-    "impressions": 102942,
-    "clicks": 2799,
+    "impressions": 108819,
+    "clicks": 3118,
     "meta_spend": 1370.67,
-    "google_spend": 0
+    "google_spend": 318.49
   },
   "meta": {
     "spend": 1370.67,
@@ -379,16 +379,565 @@
     ]
   },
   "google": {
-    "spend": 0,
-    "impressions": 0,
-    "clicks": 0,
-    "ctr": 0,
-    "cpc": 0,
-    "conversions": 0,
-    "cpa": 0,
-    "campaigns": [],
-    "keywords": [],
-    "search_terms": []
+    "spend": 318.49,
+    "impressions": 5877,
+    "clicks": 319,
+    "ctr": 5.43,
+    "cpc": 1.0,
+    "conversions": 2,
+    "cpa": 159.25,
+    "campaigns": [
+      {
+        "name": "[REDE DE PESQUISAS] [2026]",
+        "type": "Search",
+        "status": "Enabled",
+        "spend": 318.49,
+        "impressions": 5877,
+        "clicks": 319,
+        "ctr": 5.43,
+        "cpc": 1.0,
+        "conversions": 2
+      }
+    ],
+    "keywords": [
+      {
+        "keyword": "barzinhos em curitiba",
+        "match": "Broad",
+        "impressions": 2200,
+        "clicks": 163,
+        "ctr": 7.41,
+        "cpc": 0.97,
+        "conversions": 1
+      },
+      {
+        "keyword": "lugar para comer em curitiba",
+        "match": "Broad",
+        "impressions": 891,
+        "clicks": 40,
+        "ctr": 4.49,
+        "cpc": 1.9,
+        "conversions": 0
+      },
+      {
+        "keyword": "quermesse em curitiba",
+        "match": "Broad",
+        "impressions": 228,
+        "clicks": 25,
+        "ctr": 10.96,
+        "cpc": 1.01,
+        "conversions": 1
+      },
+      {
+        "keyword": "quermesse",
+        "match": "Broad",
+        "impressions": 290,
+        "clicks": 26,
+        "ctr": 8.97,
+        "cpc": 0.62,
+        "conversions": 0
+      },
+      {
+        "keyword": "restaurantes para eventos pequenos em curitiba",
+        "match": "Broad",
+        "impressions": 43,
+        "clicks": 2,
+        "ctr": 4.65,
+        "cpc": 1.69,
+        "conversions": 0
+      },
+      {
+        "keyword": "restaurante em curitiba",
+        "match": "Broad",
+        "impressions": 23,
+        "clicks": 1,
+        "ctr": 4.35,
+        "cpc": 2.08,
+        "conversions": 0
+      },
+      {
+        "keyword": "Bares em Curitiba",
+        "match": "Broad",
+        "impressions": 10,
+        "clicks": 1,
+        "ctr": 10.0,
+        "cpc": 0.95,
+        "conversions": 0
+      },
+      {
+        "keyword": "bar quermesse em curitiba",
+        "match": "Broad",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.41,
+        "conversions": 0
+      },
+      {
+        "keyword": "onde sair em curitiba",
+        "match": "Broad",
+        "impressions": 11,
+        "clicks": 1,
+        "ctr": 9.09,
+        "cpc": 0.14,
+        "conversions": 0
+      },
+      {
+        "keyword": "comer em curitiba",
+        "match": "Broad",
+        "impressions": 48,
+        "clicks": 1,
+        "ctr": 2.08,
+        "cpc": 0.01,
+        "conversions": 0
+      },
+      {
+        "keyword": "restaurante de curitiba",
+        "match": "Broad",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "bares com musica ao vivo em curitiba",
+        "match": "Broad",
+        "impressions": 4,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "bar bom e barato em curitiba",
+        "match": "Broad",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "barzinhos em curitiba música ao vivo",
+        "match": "Broad",
+        "impressions": 8,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "Boteco Curitiba",
+        "match": "Broad",
+        "impressions": 26,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      }
+    ],
+    "search_terms": [
+      {
+        "term": "quermesse bar",
+        "keyword": "—",
+        "impressions": 407,
+        "clicks": 54,
+        "ctr": 13.27,
+        "cpc": 0.84
+      },
+      {
+        "term": "quermesse ecoville",
+        "keyword": "—",
+        "impressions": 223,
+        "clicks": 25,
+        "ctr": 11.21,
+        "cpc": 1.01
+      },
+      {
+        "term": "bar quermesse",
+        "keyword": "—",
+        "impressions": 226,
+        "clicks": 22,
+        "ctr": 9.73,
+        "cpc": 0.73
+      },
+      {
+        "term": "quermesse curitiba",
+        "keyword": "—",
+        "impressions": 168,
+        "clicks": 25,
+        "ctr": 14.88,
+        "cpc": 0.57
+      },
+      {
+        "term": "quermesse",
+        "keyword": "—",
+        "impressions": 256,
+        "clicks": 23,
+        "ctr": 8.98,
+        "cpc": 0.6
+      },
+      {
+        "term": "la varenne telefone",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 7.99
+      },
+      {
+        "term": "nativas grill curitiba",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 3,
+        "ctr": 75.0,
+        "cpc": 2.46
+      },
+      {
+        "term": "barolo curitiba",
+        "keyword": "—",
+        "impressions": 60,
+        "clicks": 2,
+        "ctr": 3.33,
+        "cpc": 2.34
+      },
+      {
+        "term": "restaurante quermesse curitiba",
+        "keyword": "—",
+        "impressions": 7,
+        "clicks": 3,
+        "ctr": 42.86,
+        "cpc": 1.44
+      },
+      {
+        "term": "bar quermesse curitiba",
+        "keyword": "—",
+        "impressions": 95,
+        "clicks": 6,
+        "ctr": 6.32,
+        "cpc": 0.72
+      },
+      {
+        "term": "bar quermesse ecoville",
+        "keyword": "—",
+        "impressions": 51,
+        "clicks": 4,
+        "ctr": 7.84,
+        "cpc": 0.94
+      },
+      {
+        "term": "madalosso curitiba",
+        "keyword": "—",
+        "impressions": 14,
+        "clicks": 2,
+        "ctr": 14.29,
+        "cpc": 1.86
+      },
+      {
+        "term": "quermesse campo comprido",
+        "keyword": "—",
+        "impressions": 51,
+        "clicks": 5,
+        "ctr": 9.8,
+        "cpc": 0.74
+      },
+      {
+        "term": "honey vox curitiba",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 3.47
+      },
+      {
+        "term": "coco bambu crystal",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 3.06
+      },
+      {
+        "term": "bar do victor santa felicidade telefone",
+        "keyword": "—",
+        "impressions": 5,
+        "clicks": 1,
+        "ctr": 20.0,
+        "cpc": 2.92
+      },
+      {
+        "term": "restaurante bombardi",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 2.56
+      },
+      {
+        "term": "mangiare felice batel",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 2.52
+      },
+      {
+        "term": "quermesse bar ecoville",
+        "keyword": "—",
+        "impressions": 15,
+        "clicks": 2,
+        "ctr": 13.33,
+        "cpc": 1.21
+      },
+      {
+        "term": "ile de france curitiba",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 2.3
+      },
+      {
+        "term": "bar do preto curitiba",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 2.29
+      },
+      {
+        "term": "bar ao distinto cavalheiro",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 2.01
+      },
+      {
+        "term": "restaurante bom e barato em curitiba abertos agora",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 1.98
+      },
+      {
+        "term": "terrazza 40 preço",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 2,
+        "ctr": 200.0,
+        "cpc": 0.95
+      },
+      {
+        "term": "fornao juveve",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 2,
+        "ctr": 200.0,
+        "cpc": 0.91
+      },
+      {
+        "term": "bar quermesse ecoville curitiba",
+        "keyword": "—",
+        "impressions": 7,
+        "clicks": 1,
+        "ctr": 14.29,
+        "cpc": 1.74
+      },
+      {
+        "term": "restaurante hora extra curitiba",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 1.65
+      },
+      {
+        "term": "recanto gaucho avenida das torres",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 1.6
+      },
+      {
+        "term": "restaurantes perto de mim",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 1.53
+      },
+      {
+        "term": "restaurante hora extra",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 1.5
+      },
+      {
+        "term": "rodizio de churrasco em curitiba",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 2,
+        "ctr": 200.0,
+        "cpc": 0.71
+      },
+      {
+        "term": "taisho reserva",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 1.39
+      },
+      {
+        "term": "claymore rock",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 1.26
+      },
+      {
+        "term": "jardins grill telefone",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 1.24
+      },
+      {
+        "term": "bar quermesse curitiba rua carlos pioli bom retiro curitiba pr",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 1.23
+      },
+      {
+        "term": "piegel café colonial",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 1.22
+      },
+      {
+        "term": "tartaruga restaurante",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 1.15
+      },
+      {
+        "term": "jabuti bar telefone",
+        "keyword": "—",
+        "impressions": 13,
+        "clicks": 1,
+        "ctr": 7.69,
+        "cpc": 1.14
+      },
+      {
+        "term": "dona madalena bar curitiba",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 1.13
+      },
+      {
+        "term": "queesse",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 2,
+        "ctr": 100.0,
+        "cpc": 0.53
+      },
+      {
+        "term": "famiglia fadanelli curitiba",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 1.02
+      },
+      {
+        "term": "paparicos bar",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.95
+      },
+      {
+        "term": "restaurante barolo shopping barigui",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 0.88
+      },
+      {
+        "term": "bares para comemorar aniversário em curitiba",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.86
+      },
+      {
+        "term": "brunch em curitiba",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 0.81
+      },
+      {
+        "term": "buteco curitiba novo mundo",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 0.75
+      },
+      {
+        "term": "feijoada curitiba",
+        "keyword": "—",
+        "impressions": 6,
+        "clicks": 1,
+        "ctr": 16.67,
+        "cpc": 0.57
+      },
+      {
+        "term": "quermesse curitiba petiscos e comida caseira",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.51
+      },
+      {
+        "term": "quermesse curtiba petiscos e comida caseira rua carlos pioli bom retiro curitiba pr",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 0.44
+      },
+      {
+        "term": "bar quermesse em curitiba",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.41
+      }
+    ]
   },
   "ga4": {
     "sessions": 0,

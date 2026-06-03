@@ -4,14 +4,14 @@
     "start": "2026-05-01",
     "end": "2026-05-31"
   },
-  "gerado_em": "2026-06-03T15:55:34.274594",
+  "gerado_em": "2026-06-03T16:10:23.062599",
   "consolidado": {
-    "spend": 1435.03,
+    "spend": 1667.81,
     "reach": 71440,
-    "impressions": 134891,
-    "clicks": 3599,
+    "impressions": 153129,
+    "clicks": 4810,
     "meta_spend": 1435.03,
-    "google_spend": 0
+    "google_spend": 232.78
   },
   "meta": {
     "spend": 1435.03,
@@ -366,28 +366,669 @@
     ]
   },
   "google": {
-    "spend": 0,
-    "impressions": 0,
-    "clicks": 0,
-    "ctr": 0,
-    "cpc": 0,
-    "conversions": 0,
-    "cpa": 0,
-    "campaigns": [],
-    "keywords": [],
-    "search_terms": []
+    "spend": 232.78,
+    "impressions": 18238,
+    "clicks": 1211,
+    "ctr": 6.64,
+    "cpc": 0.19,
+    "conversions": 92,
+    "cpa": 2.53,
+    "campaigns": [
+      {
+        "name": "[REDE DE PESQUISAS] [2.0]",
+        "type": "Search",
+        "status": "Enabled",
+        "spend": 137.2,
+        "impressions": 3879,
+        "clicks": 392,
+        "ctr": 10.11,
+        "cpc": 0.35,
+        "conversions": 10
+      },
+      {
+        "name": "[P-MAX] [RESERVAS] [HAPPYHOUR]",
+        "type": "Performance_Max",
+        "status": "Enabled",
+        "spend": 56.52,
+        "impressions": 11761,
+        "clicks": 700,
+        "ctr": 5.95,
+        "cpc": 0.08,
+        "conversions": 5
+      },
+      {
+        "name": "PESQUISA - VISITAS PAGINA",
+        "type": "Search",
+        "status": "Paused",
+        "spend": 39.06,
+        "impressions": 2598,
+        "clicks": 119,
+        "ctr": 4.58,
+        "cpc": 0.33,
+        "conversions": 77
+      }
+    ],
+    "keywords": [
+      {
+        "keyword": "Churrascaria Curitiba",
+        "match": "Broad",
+        "impressions": 1473,
+        "clicks": 75,
+        "ctr": 5.09,
+        "cpc": 0.32,
+        "conversions": 46
+      },
+      {
+        "keyword": "melhores restaurantes curitiba",
+        "match": "Broad",
+        "impressions": 311,
+        "clicks": 13,
+        "ctr": 4.18,
+        "cpc": 0.37,
+        "conversions": 12
+      },
+      {
+        "keyword": "o bar do açougueiro",
+        "match": "Exact",
+        "impressions": 142,
+        "clicks": 15,
+        "ctr": 10.56,
+        "cpc": 0.29,
+        "conversions": 9
+      },
+      {
+        "keyword": "restaurantes curitiba",
+        "match": "Broad",
+        "impressions": 239,
+        "clicks": 5,
+        "ctr": 2.09,
+        "cpc": 0.49,
+        "conversions": 5
+      },
+      {
+        "keyword": "restaurante de carnes",
+        "match": "Broad",
+        "impressions": 190,
+        "clicks": 7,
+        "ctr": 3.68,
+        "cpc": 0.34,
+        "conversions": 2
+      },
+      {
+        "keyword": "Bar de Carne em curitiba",
+        "match": "Broad",
+        "impressions": 183,
+        "clicks": 3,
+        "ctr": 1.64,
+        "cpc": 0.32,
+        "conversions": 3
+      },
+      {
+        "keyword": "Melhor churrasco de curitiba",
+        "match": "Broad",
+        "impressions": 60,
+        "clicks": 1,
+        "ctr": 1.67,
+        "cpc": 0.32,
+        "conversions": 0
+      }
+    ],
+    "search_terms": [
+      {
+        "term": "bar do açougueiro",
+        "keyword": "—",
+        "impressions": 1305,
+        "clicks": 157,
+        "ctr": 12.03,
+        "cpc": 0.44
+      },
+      {
+        "term": "bar do açougueiro batel",
+        "keyword": "—",
+        "impressions": 180,
+        "clicks": 31,
+        "ctr": 17.22,
+        "cpc": 0.55
+      },
+      {
+        "term": "o bar do açougueiro",
+        "keyword": "—",
+        "impressions": 207,
+        "clicks": 25,
+        "ctr": 12.08,
+        "cpc": 0.32
+      },
+      {
+        "term": "bar do açougueiro agua verde",
+        "keyword": "—",
+        "impressions": 208,
+        "clicks": 24,
+        "ctr": 11.54,
+        "cpc": 0.21
+      },
+      {
+        "term": "bar do acougueiro batel",
+        "keyword": "—",
+        "impressions": 22,
+        "clicks": 3,
+        "ctr": 13.64,
+        "cpc": 1.64
+      },
+      {
+        "term": "bar do açougueiro bacacheri",
+        "keyword": "—",
+        "impressions": 76,
+        "clicks": 11,
+        "ctr": 14.47,
+        "cpc": 0.38
+      },
+      {
+        "term": "bar do açougueiro",
+        "keyword": "—",
+        "impressions": 120,
+        "clicks": 11,
+        "ctr": 9.17,
+        "cpc": 0.28
+      },
+      {
+        "term": "bar do acougueiro",
+        "keyword": "—",
+        "impressions": 131,
+        "clicks": 11,
+        "ctr": 8.4,
+        "cpc": 0.27
+      },
+      {
+        "term": "o açougueiro bar",
+        "keyword": "—",
+        "impressions": 37,
+        "clicks": 6,
+        "ctr": 16.22,
+        "cpc": 0.41
+      },
+      {
+        "term": "o bar do açougueiro curitiba",
+        "keyword": "—",
+        "impressions": 18,
+        "clicks": 2,
+        "ctr": 11.11,
+        "cpc": 1.05
+      },
+      {
+        "term": "bar do açougueiro curitiba",
+        "keyword": "—",
+        "impressions": 41,
+        "clicks": 4,
+        "ctr": 9.76,
+        "cpc": 0.39
+      },
+      {
+        "term": "açougueiro bar",
+        "keyword": "—",
+        "impressions": 36,
+        "clicks": 3,
+        "ctr": 8.33,
+        "cpc": 0.51
+      },
+      {
+        "term": "caminhos do vinho são josé dos pinhais restaurantes",
+        "keyword": "—",
+        "impressions": 5,
+        "clicks": 2,
+        "ctr": 40.0,
+        "cpc": 0.67
+      },
+      {
+        "term": "bom gourmet",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 2,
+        "ctr": 200.0,
+        "cpc": 0.54
+      },
+      {
+        "term": "bar do açougueiro agua verde",
+        "keyword": "—",
+        "impressions": 18,
+        "clicks": 3,
+        "ctr": 16.67,
+        "cpc": 0.35
+      },
+      {
+        "term": "costelão do gaúcho",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 0.97
+      },
+      {
+        "term": "o bar do açougueiro bacacheri",
+        "keyword": "—",
+        "impressions": 6,
+        "clicks": 1,
+        "ctr": 16.67,
+        "cpc": 0.86
+      },
+      {
+        "term": "pub 21",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.86
+      },
+      {
+        "term": "buteco curitiba",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 2,
+        "ctr": 50.0,
+        "cpc": 0.42
+      },
+      {
+        "term": "bar do alemão em curitiba",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 0.81
+      },
+      {
+        "term": "restaurante perto de mim",
+        "keyword": "—",
+        "impressions": 72,
+        "clicks": 2,
+        "ctr": 2.78,
+        "cpc": 0.36
+      },
+      {
+        "term": "restaurante laçador em campo largo",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.6
+      },
+      {
+        "term": "madalosso santa felicidade",
+        "keyword": "—",
+        "impressions": 7,
+        "clicks": 1,
+        "ctr": 14.29,
+        "cpc": 0.59
+      },
+      {
+        "term": "praça 24 horas curitiba",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 0.58
+      },
+      {
+        "term": "cardápio de bar açougueiro",
+        "keyword": "—",
+        "impressions": 12,
+        "clicks": 2,
+        "ctr": 16.67,
+        "cpc": 0.28
+      },
+      {
+        "term": "o açougueiro curitiba",
+        "keyword": "—",
+        "impressions": 8,
+        "clicks": 2,
+        "ctr": 25.0,
+        "cpc": 0.28
+      },
+      {
+        "term": "badida restaurante",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.54
+      },
+      {
+        "term": "sitio do churrasco curitiba",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 0.5
+      },
+      {
+        "term": "restaurante mais próximos",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.5
+      },
+      {
+        "term": "bares cerca de mi ubicación",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 2,
+        "ctr": 100.0,
+        "cpc": 0.25
+      },
+      {
+        "term": "bar do açougueiro bacacheri cardápio",
+        "keyword": "—",
+        "impressions": 8,
+        "clicks": 2,
+        "ctr": 25.0,
+        "cpc": 0.24
+      },
+      {
+        "term": "bar do acougueiro",
+        "keyword": "—",
+        "impressions": 13,
+        "clicks": 2,
+        "ctr": 15.38,
+        "cpc": 0.24
+      },
+      {
+        "term": "rodizio de espetinho curitiba",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 0.46
+      },
+      {
+        "term": "bar do açougueiro batel",
+        "keyword": "—",
+        "impressions": 14,
+        "clicks": 1,
+        "ctr": 7.14,
+        "cpc": 0.45
+      },
+      {
+        "term": "restaurantes itupava",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 0.45
+      },
+      {
+        "term": "frango assado sao jose dos pinhais",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 0.43
+      },
+      {
+        "term": "cardapio bar do açougueiro",
+        "keyword": "—",
+        "impressions": 17,
+        "clicks": 9,
+        "ctr": 52.94,
+        "cpc": 0.05
+      },
+      {
+        "term": "bar do alemao near me",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.4
+      },
+      {
+        "term": "restaurantes",
+        "keyword": "—",
+        "impressions": 250,
+        "clicks": 2,
+        "ctr": 0.8,
+        "cpc": 0.2
+      },
+      {
+        "term": "casa 13 bar",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 0.39
+      },
+      {
+        "term": "peraus pub",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 0.39
+      },
+      {
+        "term": "onde almoçar em curitiba hoje",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 0.35
+      },
+      {
+        "term": "restaurantes caminho do vinho sjp",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.34
+      },
+      {
+        "term": "restaurante",
+        "keyword": "—",
+        "impressions": 74,
+        "clicks": 1,
+        "ctr": 1.35,
+        "cpc": 0.33
+      },
+      {
+        "term": "o bar do açougueiro curitiba avenida dos estados água verde curitiba pr",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 2,
+        "ctr": 100.0,
+        "cpc": 0.16
+      },
+      {
+        "term": "churrascaria sabor na brasa",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.33
+      },
+      {
+        "term": "restaurante por aqui por perto",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.32
+      },
+      {
+        "term": "bar açougueiro agua verde",
+        "keyword": "—",
+        "impressions": 15,
+        "clicks": 3,
+        "ctr": 20.0,
+        "cpc": 0.11
+      },
+      {
+        "term": "restaurante próximo a mim",
+        "keyword": "—",
+        "impressions": 11,
+        "clicks": 1,
+        "ctr": 9.09,
+        "cpc": 0.31
+      },
+      {
+        "term": "bar perto de mim",
+        "keyword": "—",
+        "impressions": 10,
+        "clicks": 1,
+        "ctr": 10.0,
+        "cpc": 0.3
+      }
+    ]
   },
   "ga4": {
-    "sessions": 0,
-    "users": 0,
-    "new_users": 0,
-    "pageviews": 0,
-    "bounce_rate": 0.0,
-    "duration": "0m 0s",
-    "events": 0,
-    "conversions": 0,
-    "sources": [],
-    "event_list": []
+    "sessions": 5351,
+    "users": 4783,
+    "new_users": 4767,
+    "pageviews": 6248,
+    "bounce_rate": 62.29,
+    "duration": "1m 24s",
+    "events": 31263,
+    "conversions": 1884,
+    "sources": [
+      {
+        "source": "google",
+        "medium": "cpc",
+        "sessions": 1090,
+        "pct": 22.5
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 603,
+        "pct": 12.4
+      },
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 399,
+        "pct": 8.2
+      },
+      {
+        "source": "ig",
+        "medium": "social",
+        "sessions": 372,
+        "pct": 7.7
+      },
+      {
+        "source": "meta_av",
+        "medium": "ADVANTAGE",
+        "sessions": 245,
+        "pct": 5.0
+      },
+      {
+        "source": "meta_av",
+        "medium": "vd_namorados_26",
+        "sessions": 215,
+        "pct": 4.4
+      },
+      {
+        "source": "meta_bacacheri",
+        "medium": "vd_namorados_26",
+        "sessions": 213,
+        "pct": 4.4
+      },
+      {
+        "source": "meta_batel",
+        "medium": "vd_namorados_26",
+        "sessions": 194,
+        "pct": 4.0
+      },
+      {
+        "source": "meta_av",
+        "medium": "ADVANTAGE 2.0",
+        "sessions": 154,
+        "pct": 3.2
+      },
+      {
+        "source": "meta_bacacheri",
+        "medium": "ADVANTAGE SUGESTAO NIVER MAIO",
+        "sessions": 139,
+        "pct": 2.9
+      },
+      {
+        "source": "meta_batel",
+        "medium": "ADVANTAGE",
+        "sessions": 136,
+        "pct": 2.8
+      },
+      {
+        "source": "[CBO] [CARNE DE ONÇA] [RESERVA]",
+        "medium": "VIDE CARNE DE ONÇA",
+        "sessions": 131,
+        "pct": 2.7
+      },
+      {
+        "source": "[CBO] [CARNE DE ONÇA] [LEADS]",
+        "medium": "VIDEO CARNE DE ONÇA",
+        "sessions": 125,
+        "pct": 2.6
+      },
+      {
+        "source": "ig",
+        "medium": "paid",
+        "sessions": 122,
+        "pct": 2.5
+      },
+      {
+        "source": "[CBO] [CARNE DE ONÇA] [RESERVAS]",
+        "medium": "ADVANTAGE",
+        "sessions": 121,
+        "pct": 2.5
+      },
+      {
+        "source": "meta_batel",
+        "medium": "vd_02_open_quentao",
+        "sessions": 87,
+        "pct": 1.8
+      },
+      {
+        "source": "meta_baca",
+        "medium": "video_02_open_quentao",
+        "sessions": 82,
+        "pct": 1.7
+      },
+      {
+        "source": "fb",
+        "medium": "paid",
+        "sessions": 78,
+        "pct": 1.6
+      },
+      {
+        "source": "meta_av",
+        "medium": "churrascada_mai_26_feed",
+        "sessions": 73,
+        "pct": 1.5
+      },
+      {
+        "source": "meta_bacacheri",
+        "medium": "ADVANTAGE",
+        "sessions": 57,
+        "pct": 1.2
+      }
+    ],
+    "event_list": [
+      {
+        "name": "form_start",
+        "count": 1292
+      },
+      {
+        "name": "click",
+        "count": 365
+      },
+      {
+        "name": "Clicou_wttp",
+        "count": 231
+      },
+      {
+        "name": "generate_lead",
+        "count": 159
+      },
+      {
+        "name": "whatsapp_redirect",
+        "count": 109
+      }
+    ]
   },
   "gmb": null
 }

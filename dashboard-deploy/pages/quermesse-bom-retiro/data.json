@@ -4,14 +4,14 @@
     "start": "2026-05-01",
     "end": "2026-05-31"
   },
-  "gerado_em": "2026-06-03T15:43:08.888919",
+  "gerado_em": "2026-06-03T16:12:26.264912",
   "consolidado": {
-    "spend": 1518.26,
+    "spend": 2186.77,
     "reach": 99741,
-    "impressions": 186890,
-    "clicks": 4076,
+    "impressions": 198885,
+    "clicks": 4846,
     "meta_spend": 1518.26,
-    "google_spend": 0
+    "google_spend": 668.51
   },
   "meta": {
     "spend": 1518.26,
@@ -379,28 +379,725 @@
     ]
   },
   "google": {
-    "spend": 0,
-    "impressions": 0,
-    "clicks": 0,
-    "ctr": 0,
-    "cpc": 0,
-    "conversions": 0,
-    "cpa": 0,
-    "campaigns": [],
-    "keywords": [],
-    "search_terms": []
+    "spend": 668.51,
+    "impressions": 11995,
+    "clicks": 770,
+    "ctr": 6.42,
+    "cpc": 0.87,
+    "conversions": 7,
+    "cpa": 95.5,
+    "campaigns": [
+      {
+        "name": "[REDE DE PESQUISAS] [2026]",
+        "type": "Search",
+        "status": "Enabled",
+        "spend": 574.17,
+        "impressions": 8624,
+        "clicks": 543,
+        "ctr": 6.3,
+        "cpc": 1.06,
+        "conversions": 6
+      },
+      {
+        "name": "[PMAX] [RESERVAS]",
+        "type": "Performance_Max",
+        "status": "Enabled",
+        "spend": 94.34,
+        "impressions": 3371,
+        "clicks": 227,
+        "ctr": 6.73,
+        "cpc": 0.42,
+        "conversions": 1
+      }
+    ],
+    "keywords": [
+      {
+        "keyword": "Quermesse Bar",
+        "match": "Exact",
+        "impressions": 2637,
+        "clicks": 294,
+        "ctr": 11.15,
+        "cpc": 1.06,
+        "conversions": 3
+      },
+      {
+        "keyword": "Quermesse",
+        "match": "Exact",
+        "impressions": 1258,
+        "clicks": 72,
+        "ctr": 5.72,
+        "cpc": 1.11,
+        "conversions": 0
+      },
+      {
+        "keyword": "Bar ao ar livre Curitiba",
+        "match": "Broad",
+        "impressions": 904,
+        "clicks": 77,
+        "ctr": 8.52,
+        "cpc": 0.87,
+        "conversions": 1
+      },
+      {
+        "keyword": "Cerveja artesanal Curitiba",
+        "match": "Broad",
+        "impressions": 382,
+        "clicks": 19,
+        "ctr": 4.97,
+        "cpc": 1.12,
+        "conversions": 0
+      },
+      {
+        "keyword": "Chopp artesanal Curitiba",
+        "match": "Broad",
+        "impressions": 349,
+        "clicks": 13,
+        "ctr": 3.72,
+        "cpc": 1.09,
+        "conversions": 1
+      },
+      {
+        "keyword": "Restaurante em Curitiba",
+        "match": "Broad",
+        "impressions": 256,
+        "clicks": 11,
+        "ctr": 4.3,
+        "cpc": 1.25,
+        "conversions": 0
+      },
+      {
+        "keyword": "Restaurante Bom Retiro Curitiba",
+        "match": "Broad",
+        "impressions": 358,
+        "clicks": 7,
+        "ctr": 1.96,
+        "cpc": 0.88,
+        "conversions": 0
+      },
+      {
+        "keyword": "Bar tradicional Curitiba",
+        "match": "Broad",
+        "impressions": 152,
+        "clicks": 1,
+        "ctr": 0.66,
+        "cpc": 0.62,
+        "conversions": 0
+      },
+      {
+        "keyword": "Onde sair em Curitiba",
+        "match": "Broad",
+        "impressions": 12,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "Gastronomia Curitiba",
+        "match": "Broad",
+        "impressions": 5,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "Happy hour Curitiba",
+        "match": "Broad",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "Bar no Bom Retiro Curitiba",
+        "match": "Broad",
+        "impressions": 3,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "Bar com comida Curitiba",
+        "match": "Broad",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "Bares e restaurantes Curitiba",
+        "match": "Broad",
+        "impressions": 9,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      }
+    ],
+    "search_terms": [
+      {
+        "term": "quermesse bar",
+        "keyword": "—",
+        "impressions": 1107,
+        "clicks": 104,
+        "ctr": 9.39,
+        "cpc": 1.18
+      },
+      {
+        "term": "bar quermesse",
+        "keyword": "—",
+        "impressions": 766,
+        "clicks": 103,
+        "ctr": 13.45,
+        "cpc": 1.09
+      },
+      {
+        "term": "quermesse",
+        "keyword": "—",
+        "impressions": 1118,
+        "clicks": 62,
+        "ctr": 5.55,
+        "cpc": 1.1
+      },
+      {
+        "term": "quermesse curitiba",
+        "keyword": "—",
+        "impressions": 327,
+        "clicks": 48,
+        "ctr": 14.68,
+        "cpc": 0.67
+      },
+      {
+        "term": "bar quermesse curitiba",
+        "keyword": "—",
+        "impressions": 341,
+        "clicks": 26,
+        "ctr": 7.62,
+        "cpc": 1.09
+      },
+      {
+        "term": "restaurante quermesse",
+        "keyword": "—",
+        "impressions": 38,
+        "clicks": 10,
+        "ctr": 26.32,
+        "cpc": 1.59
+      },
+      {
+        "term": "quermesse bom retiro",
+        "keyword": "—",
+        "impressions": 131,
+        "clicks": 12,
+        "ctr": 9.16,
+        "cpc": 1.02
+      },
+      {
+        "term": "quermesse ecoville",
+        "keyword": "—",
+        "impressions": 123,
+        "clicks": 10,
+        "ctr": 8.13,
+        "cpc": 1.19
+      },
+      {
+        "term": "quermesse campo comprido",
+        "keyword": "—",
+        "impressions": 103,
+        "clicks": 17,
+        "ctr": 16.5,
+        "cpc": 0.63
+      },
+      {
+        "term": "restaurante foltran",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 2,
+        "ctr": 50.0,
+        "cpc": 3.94
+      },
+      {
+        "term": "folhetim bar",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 6.74
+      },
+      {
+        "term": "rua carlos pioli 133",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 5.79
+      },
+      {
+        "term": "bar quermesse cardápio",
+        "keyword": "—",
+        "impressions": 17,
+        "clicks": 6,
+        "ctr": 35.29,
+        "cpc": 0.93
+      },
+      {
+        "term": "bar quermesse ecoville",
+        "keyword": "—",
+        "impressions": 93,
+        "clicks": 9,
+        "ctr": 9.68,
+        "cpc": 0.6
+      },
+      {
+        "term": "cardápio de bar quermesse curitiba",
+        "keyword": "—",
+        "impressions": 39,
+        "clicks": 3,
+        "ctr": 7.69,
+        "cpc": 1.66
+      },
+      {
+        "term": "rua guilherme seeger 570",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 4.07
+      },
+      {
+        "term": "quermesse cardapio",
+        "keyword": "—",
+        "impressions": 20,
+        "clicks": 7,
+        "ctr": 35.0,
+        "cpc": 0.57
+      },
+      {
+        "term": "quermesse restaurante",
+        "keyword": "—",
+        "impressions": 17,
+        "clicks": 2,
+        "ctr": 11.76,
+        "cpc": 1.8
+      },
+      {
+        "term": "cardapio quermesse",
+        "keyword": "—",
+        "impressions": 25,
+        "clicks": 6,
+        "ctr": 24.0,
+        "cpc": 0.55
+      },
+      {
+        "term": "k sa restaurante",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 2.96
+      },
+      {
+        "term": "tora bar",
+        "keyword": "—",
+        "impressions": 87,
+        "clicks": 1,
+        "ctr": 1.15,
+        "cpc": 2.49
+      },
+      {
+        "term": "sheridan's curitiba",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 2,
+        "ctr": 50.0,
+        "cpc": 1.2
+      },
+      {
+        "term": "showbar",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 2.02
+      },
+      {
+        "term": "bar quermesse bom retiro",
+        "keyword": "—",
+        "impressions": 26,
+        "clicks": 4,
+        "ctr": 15.38,
+        "cpc": 0.5
+      },
+      {
+        "term": "bar quermesse ecoville curitiba rua professor joão falarz cidade industrial de curitiba curitiba pr",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 1.98
+      },
+      {
+        "term": "restaurante quermesse curitiba",
+        "keyword": "—",
+        "impressions": 13,
+        "clicks": 2,
+        "ctr": 15.38,
+        "cpc": 0.98
+      },
+      {
+        "term": "restaurante tatuquara abertos agora",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 1.84
+      },
+      {
+        "term": "box in roll",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 1.71
+      },
+      {
+        "term": "bar do victor praça da espanha",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 1.53
+      },
+      {
+        "term": "quermesse bar ecoville",
+        "keyword": "—",
+        "impressions": 17,
+        "clicks": 2,
+        "ctr": 11.76,
+        "cpc": 0.71
+      },
+      {
+        "term": "boteco curitiba cardapio",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 1.37
+      },
+      {
+        "term": "bar kermesse",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 1.36
+      },
+      {
+        "term": "cardápio de boteco de sampa",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 1.35
+      },
+      {
+        "term": "roister curitiba",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 1.26
+      },
+      {
+        "term": "jabuti bar telefone",
+        "keyword": "—",
+        "impressions": 9,
+        "clicks": 1,
+        "ctr": 11.11,
+        "cpc": 1.18
+      },
+      {
+        "term": "queesse",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 0.95
+      },
+      {
+        "term": "bar quermesse campo comprido",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 0.9
+      },
+      {
+        "term": "nativas grill curitiba",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.81
+      },
+      {
+        "term": "quermesse delivery",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 0.69
+      },
+      {
+        "term": "quermesse restaurante curitiba",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.51
+      },
+      {
+        "term": "restaurante marechal bacacheri",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.51
+      },
+      {
+        "term": "cardápio de quermesse ecoville",
+        "keyword": "—",
+        "impressions": 10,
+        "clicks": 1,
+        "ctr": 10.0,
+        "cpc": 0.49
+      },
+      {
+        "term": "bar do cardoso curitiba",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 0.38
+      },
+      {
+        "term": "hora extra curitiba",
+        "keyword": "—",
+        "impressions": 7,
+        "clicks": 1,
+        "ctr": 14.29,
+        "cpc": 0.31
+      },
+      {
+        "term": "bar quermesse curitiba endereço",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 0.26
+      },
+      {
+        "term": "bares",
+        "keyword": "—",
+        "impressions": 16,
+        "clicks": 2,
+        "ctr": 12.5,
+        "cpc": 0.1
+      },
+      {
+        "term": "quermesse bar cardápio",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 0.15
+      },
+      {
+        "term": "quermesse curitiba cardápio",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 0.08
+      },
+      {
+        "term": "041 brooklyn",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "100 beer garden",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      }
+    ]
   },
   "ga4": {
-    "sessions": 0,
-    "users": 0,
-    "new_users": 0,
-    "pageviews": 0,
-    "bounce_rate": 0.0,
-    "duration": "0m 0s",
-    "events": 0,
-    "conversions": 0,
-    "sources": [],
-    "event_list": []
+    "sessions": 3774,
+    "users": 3359,
+    "new_users": 3329,
+    "pageviews": 4649,
+    "bounce_rate": 48.17,
+    "duration": "1m 17s",
+    "events": 16008,
+    "conversions": 16,
+    "sources": [
+      {
+        "source": "google",
+        "medium": "cpc",
+        "sessions": 950,
+        "pct": 25.6
+      },
+      {
+        "source": "ig",
+        "medium": "social",
+        "sessions": 664,
+        "pct": 17.9
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 490,
+        "pct": 13.2
+      },
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 324,
+        "pct": 8.7
+      },
+      {
+        "source": "meta_ec",
+        "medium": "vd_feijoada_influencer",
+        "sessions": 172,
+        "pct": 4.6
+      },
+      {
+        "source": "meta_br",
+        "medium": "vd_feijoada_influencer",
+        "sessions": 163,
+        "pct": 4.4
+      },
+      {
+        "source": "meta",
+        "medium": "[CBO] [DIA DAS MAES/26] [LEADS]",
+        "sessions": 121,
+        "pct": 3.3
+      },
+      {
+        "source": "meta_br",
+        "medium": "feed_arraia_26",
+        "sessions": 98,
+        "pct": 2.6
+      },
+      {
+        "source": "meta_br",
+        "medium": "feed_dia_dos_namorados",
+        "sessions": 91,
+        "pct": 2.5
+      },
+      {
+        "source": "fb",
+        "medium": "paid",
+        "sessions": 87,
+        "pct": 2.3
+      },
+      {
+        "source": "meta_br",
+        "medium": "ADVANTAGE",
+        "sessions": 73,
+        "pct": 2.0
+      },
+      {
+        "source": "ig",
+        "medium": "paid",
+        "sessions": 65,
+        "pct": 1.8
+      },
+      {
+        "source": "meta",
+        "medium": "[ABO] [DIA DAS MAES/26] [LEADS]",
+        "sessions": 61,
+        "pct": 1.6
+      },
+      {
+        "source": "meta_br",
+        "medium": "feed_rodizio_mai_26",
+        "sessions": 60,
+        "pct": 1.6
+      },
+      {
+        "source": "meta_ec",
+        "medium": "ADVANTAGE",
+        "sessions": 54,
+        "pct": 1.5
+      },
+      {
+        "source": "meta_ec",
+        "medium": "feed_caldos_mai_26",
+        "sessions": 46,
+        "pct": 1.2
+      },
+      {
+        "source": "meta_br",
+        "medium": "vd_02_fest_quentao",
+        "sessions": 29,
+        "pct": 0.8
+      },
+      {
+        "source": "ecoville",
+        "medium": "feed_champions",
+        "sessions": 24,
+        "pct": 0.6
+      },
+      {
+        "source": "m.facebook.com",
+        "medium": "referral",
+        "sessions": 24,
+        "pct": 0.6
+      },
+      {
+        "source": "facebook.com",
+        "medium": "referral",
+        "sessions": 22,
+        "pct": 0.6
+      }
+    ],
+    "event_list": [
+      {
+        "name": "form_start",
+        "count": 348
+      },
+      {
+        "name": "click_como_chegar",
+        "count": 114
+      },
+      {
+        "name": "click",
+        "count": 109
+      },
+      {
+        "name": "generate_lead",
+        "count": 62
+      },
+      {
+        "name": "conversao_reserva",
+        "count": 16
+      },
+      {
+        "name": "click_whatsapp_reserva",
+        "count": 14
+      }
+    ]
   },
   "gmb": null
 }

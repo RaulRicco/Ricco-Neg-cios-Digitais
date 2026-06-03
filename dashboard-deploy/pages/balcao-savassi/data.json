@@ -4,32 +4,560 @@
     "start": "2026-05-01",
     "end": "2026-05-31"
   },
-  "gerado_em": "2026-06-03T15:41:47.506288",
+  "gerado_em": "2026-06-03T16:10:49.486396",
   "consolidado": null,
   "meta": null,
   "google": {
-    "spend": 0,
-    "impressions": 0,
-    "clicks": 0,
-    "ctr": 0,
-    "cpc": 0,
-    "conversions": 0,
-    "cpa": 0,
-    "campaigns": [],
+    "spend": 467.87,
+    "impressions": 26227,
+    "clicks": 288,
+    "ctr": 1.1,
+    "cpc": 1.62,
+    "conversions": 29,
+    "cpa": 16.13,
+    "campaigns": [
+      {
+        "name": "[REDE DE PESQUISAS 01] [COMO CHEGAR]",
+        "type": "Search",
+        "status": "Enabled",
+        "spend": 307.92,
+        "impressions": 19760,
+        "clicks": 192,
+        "ctr": 0.97,
+        "cpc": 1.6,
+        "conversions": 29
+      },
+      {
+        "name": "[PMAX] [VISITAS AO LOCAL]",
+        "type": "Performance_Max",
+        "status": "Enabled",
+        "spend": 159.95,
+        "impressions": 6467,
+        "clicks": 96,
+        "ctr": 1.48,
+        "cpc": 1.67,
+        "conversions": 0
+      }
+    ],
     "keywords": [],
-    "search_terms": []
+    "search_terms": [
+      {
+        "term": "balcão savassi",
+        "keyword": "—",
+        "impressions": 121,
+        "clicks": 5,
+        "ctr": 4.13,
+        "cpc": 2.44
+      },
+      {
+        "term": "balcao savassi",
+        "keyword": "—",
+        "impressions": 218,
+        "clicks": 8,
+        "ctr": 3.67,
+        "cpc": 1.17
+      },
+      {
+        "term": "bares belo horizonte",
+        "keyword": "—",
+        "impressions": 39,
+        "clicks": 1,
+        "ctr": 2.56,
+        "cpc": 3.58
+      },
+      {
+        "term": "bar pinguim belo horizonte",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 3.51
+      },
+      {
+        "term": "restaurante",
+        "keyword": "—",
+        "impressions": 67,
+        "clicks": 2,
+        "ctr": 2.99,
+        "cpc": 1.67
+      },
+      {
+        "term": "bares savassi bh",
+        "keyword": "—",
+        "impressions": 8,
+        "clicks": 1,
+        "ctr": 12.5,
+        "cpc": 3.25
+      },
+      {
+        "term": "bar bacana em bh",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 3.19
+      },
+      {
+        "term": "comida de boteco em bh",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 3.17
+      },
+      {
+        "term": "bar bh",
+        "keyword": "—",
+        "impressions": 13,
+        "clicks": 1,
+        "ctr": 7.69,
+        "cpc": 3.15
+      },
+      {
+        "term": "lugares para ir de casal em bh",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 2.83
+      },
+      {
+        "term": "restaurantes bh",
+        "keyword": "—",
+        "impressions": 42,
+        "clicks": 1,
+        "ctr": 2.38,
+        "cpc": 2.7
+      },
+      {
+        "term": "pampulha restaurante",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 2.66
+      },
+      {
+        "term": "restaurante em bh",
+        "keyword": "—",
+        "impressions": 31,
+        "clicks": 1,
+        "ctr": 3.23,
+        "cpc": 2.66
+      },
+      {
+        "term": "bambare",
+        "keyword": "—",
+        "impressions": 201,
+        "clicks": 4,
+        "ctr": 1.99,
+        "cpc": 0.64
+      },
+      {
+        "term": "pubs em belo horizonte",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 2.47
+      },
+      {
+        "term": "hamburgueria belo horizonte",
+        "keyword": "—",
+        "impressions": 11,
+        "clicks": 1,
+        "ctr": 9.09,
+        "cpc": 2.28
+      },
+      {
+        "term": "lugares abertos em bh hoje",
+        "keyword": "—",
+        "impressions": 6,
+        "clicks": 1,
+        "ctr": 16.67,
+        "cpc": 2.28
+      },
+      {
+        "term": "lugares para brunch em bh",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 2.25
+      },
+      {
+        "term": "lugares para ir em bh a noite",
+        "keyword": "—",
+        "impressions": 38,
+        "clicks": 1,
+        "ctr": 2.63,
+        "cpc": 2.25
+      },
+      {
+        "term": "restaurantes en belo horizonte",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 2.24
+      },
+      {
+        "term": "restaurante planalto",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 2.23
+      },
+      {
+        "term": "lugares para almoçar em contagem",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 2.23
+      },
+      {
+        "term": "marinas bar bh",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 2.18
+      },
+      {
+        "term": "bares em bh hoje",
+        "keyword": "—",
+        "impressions": 8,
+        "clicks": 1,
+        "ctr": 12.5,
+        "cpc": 2.15
+      },
+      {
+        "term": "danceteria em bh",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 2.14
+      },
+      {
+        "term": "restaurante francês em bh",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 2.14
+      },
+      {
+        "term": "barzinho com música ao vivo em bh",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 1.98
+      },
+      {
+        "term": "bares com playground em bh",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 1.96
+      },
+      {
+        "term": "boate belo horizonte",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 1.95
+      },
+      {
+        "term": "dia dos namorados bh",
+        "keyword": "—",
+        "impressions": 18,
+        "clicks": 1,
+        "ctr": 5.56,
+        "cpc": 1.94
+      },
+      {
+        "term": "restaurantes perto de mim aberto agora",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 1.93
+      },
+      {
+        "term": "onde comemorar aniversario em bh",
+        "keyword": "—",
+        "impressions": 14,
+        "clicks": 1,
+        "ctr": 7.14,
+        "cpc": 1.91
+      },
+      {
+        "term": "lugares bons para comemorar aniversario em bh",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 1.89
+      },
+      {
+        "term": "bar mais próximo abertos agora",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 1.88
+      },
+      {
+        "term": "choperia",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 1.86
+      },
+      {
+        "term": "o que tem de bom em bh",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 1.86
+      },
+      {
+        "term": "padaria savassi bh",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 1.85
+      },
+      {
+        "term": "18 clubs near me",
+        "keyword": "—",
+        "impressions": 15,
+        "clicks": 6,
+        "ctr": 40.0,
+        "cpc": 0.3
+      },
+      {
+        "term": "babel bar bh",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 1.8
+      },
+      {
+        "term": "mito bar bh balada bar e drinks fotos",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 1.73
+      },
+      {
+        "term": "por do sol bh",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 1.71
+      },
+      {
+        "term": "clubs 18 and up near me",
+        "keyword": "—",
+        "impressions": 6,
+        "clicks": 4,
+        "ctr": 66.67,
+        "cpc": 0.41
+      },
+      {
+        "term": "savassi restaurantes",
+        "keyword": "—",
+        "impressions": 9,
+        "clicks": 1,
+        "ctr": 11.11,
+        "cpc": 1.65
+      },
+      {
+        "term": "barzinho com pagode em bh",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 1.64
+      },
+      {
+        "term": "ciencia bar bh",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 1.62
+      },
+      {
+        "term": "bar na savassi com música ao vivo",
+        "keyword": "—",
+        "impressions": 6,
+        "clicks": 1,
+        "ctr": 16.67,
+        "cpc": 1.61
+      },
+      {
+        "term": "reserva restaurante",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 1.6
+      },
+      {
+        "term": "botecos em bh",
+        "keyword": "—",
+        "impressions": 7,
+        "clicks": 1,
+        "ctr": 14.29,
+        "cpc": 1.59
+      },
+      {
+        "term": "barzinho perto de mim",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 1.53
+      },
+      {
+        "term": "melhores restaurantes de bh para almoçar",
+        "keyword": "—",
+        "impressions": 22,
+        "clicks": 1,
+        "ctr": 4.55,
+        "cpc": 1.51
+      }
+    ]
   },
   "ga4": {
-    "sessions": 0,
-    "users": 0,
-    "new_users": 0,
-    "pageviews": 0,
-    "bounce_rate": 0.0,
-    "duration": "0m 0s",
-    "events": 0,
-    "conversions": 0,
-    "sources": [],
-    "event_list": []
+    "sessions": 1984,
+    "users": 1715,
+    "new_users": 1707,
+    "pageviews": 2279,
+    "bounce_rate": 24.95,
+    "duration": "2m 6s",
+    "events": 9338,
+    "conversions": 1695,
+    "sources": [
+      {
+        "source": "ig",
+        "medium": "social",
+        "sessions": 1248,
+        "pct": 62.9
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 269,
+        "pct": 13.6
+      },
+      {
+        "source": "google",
+        "medium": "cpc",
+        "sessions": 265,
+        "pct": 13.4
+      },
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 174,
+        "pct": 8.8
+      },
+      {
+        "source": "tagassistant.google.com",
+        "medium": "referral",
+        "sessions": 5,
+        "pct": 0.3
+      },
+      {
+        "source": "(data not available)",
+        "medium": "(data not available)",
+        "sessions": 4,
+        "pct": 0.2
+      },
+      {
+        "source": "google_ads",
+        "medium": "search",
+        "sessions": 4,
+        "pct": 0.2
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "(not set)",
+        "sessions": 3,
+        "pct": 0.2
+      },
+      {
+        "source": "l.instagram.com",
+        "medium": "referral",
+        "sessions": 3,
+        "pct": 0.2
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "referral",
+        "sessions": 2,
+        "pct": 0.1
+      },
+      {
+        "source": "facebook.com",
+        "medium": "referral",
+        "sessions": 2,
+        "pct": 0.1
+      },
+      {
+        "source": "(not set)",
+        "medium": "(not set)",
+        "sessions": 1,
+        "pct": 0.1
+      },
+      {
+        "source": "bing",
+        "medium": "organic",
+        "sessions": 1,
+        "pct": 0.1
+      },
+      {
+        "source": "br.search.yahoo.com",
+        "medium": "referral",
+        "sessions": 1,
+        "pct": 0.1
+      },
+      {
+        "source": "keep.google.com",
+        "medium": "referral",
+        "sessions": 1,
+        "pct": 0.1
+      }
+    ],
+    "event_list": [
+      {
+        "name": "clicou_cardapio",
+        "count": 1589
+      },
+      {
+        "name": "click",
+        "count": 205
+      },
+      {
+        "name": "como_chegar",
+        "count": 106
+      }
+    ]
   },
   "gmb": null
 }

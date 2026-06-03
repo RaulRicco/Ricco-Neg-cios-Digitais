@@ -4,14 +4,14 @@
     "start": "2026-05-01",
     "end": "2026-05-31"
   },
-  "gerado_em": "2026-06-03T15:41:49.860846",
+  "gerado_em": "2026-06-03T16:10:50.042321",
   "consolidado": {
-    "spend": 0.0,
+    "spend": 400.36,
     "reach": 0,
-    "impressions": 0,
-    "clicks": 0,
+    "impressions": 31466,
+    "clicks": 499,
     "meta_spend": 0.0,
-    "google_spend": 0
+    "google_spend": 400.36
   },
   "meta": {
     "spend": 0.0,
@@ -26,28 +26,622 @@
     "ads": []
   },
   "google": {
-    "spend": 0,
-    "impressions": 0,
-    "clicks": 0,
-    "ctr": 0,
-    "cpc": 0,
-    "conversions": 0,
-    "cpa": 0,
-    "campaigns": [],
-    "keywords": [],
-    "search_terms": []
+    "spend": 400.36,
+    "impressions": 31466,
+    "clicks": 499,
+    "ctr": 1.59,
+    "cpc": 0.8,
+    "conversions": 2,
+    "cpa": 200.18,
+    "campaigns": [
+      {
+        "name": "[REDE DE PESQUISAS] [2026]",
+        "type": "Search",
+        "status": "Enabled",
+        "spend": 400.36,
+        "impressions": 31466,
+        "clicks": 499,
+        "ctr": 1.59,
+        "cpc": 0.8,
+        "conversions": 2
+      }
+    ],
+    "keywords": [
+      {
+        "keyword": "Barzinhos em BH",
+        "match": "Broad",
+        "impressions": 25696,
+        "clicks": 435,
+        "ctr": 1.69,
+        "cpc": 0.8,
+        "conversions": 2
+      },
+      {
+        "keyword": "Restaurante em Belo Horizonte",
+        "match": "Broad",
+        "impressions": 4200,
+        "clicks": 49,
+        "ctr": 1.17,
+        "cpc": 0.75,
+        "conversions": 0
+      },
+      {
+        "keyword": "Happy Hour em Belo Horizonte",
+        "match": "Broad",
+        "impressions": 278,
+        "clicks": 4,
+        "ctr": 1.44,
+        "cpc": 0.87,
+        "conversions": 0
+      },
+      {
+        "keyword": "Barzinhos em Belo Horizonte",
+        "match": "Broad",
+        "impressions": 461,
+        "clicks": 4,
+        "ctr": 0.87,
+        "cpc": 0.86,
+        "conversions": 0
+      },
+      {
+        "keyword": "Bebedouro",
+        "match": "Exact",
+        "impressions": 139,
+        "clicks": 3,
+        "ctr": 2.16,
+        "cpc": 1.07,
+        "conversions": 0
+      },
+      {
+        "keyword": "Bar em Belo Horizonte",
+        "match": "Broad",
+        "impressions": 299,
+        "clicks": 3,
+        "ctr": 1.0,
+        "cpc": 0.98,
+        "conversions": 0
+      },
+      {
+        "keyword": "Bar em BH",
+        "match": "Broad",
+        "impressions": 221,
+        "clicks": 1,
+        "ctr": 0.45,
+        "cpc": 1.01,
+        "conversions": 0
+      },
+      {
+        "keyword": "Bar Bebedouro",
+        "match": "Exact",
+        "impressions": 172,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      }
+    ],
+    "search_terms": [
+      {
+        "term": "comida de buteco",
+        "keyword": "—",
+        "impressions": 346,
+        "clicks": 9,
+        "ctr": 2.6,
+        "cpc": 0.79
+      },
+      {
+        "term": "comida de boteco",
+        "keyword": "—",
+        "impressions": 286,
+        "clicks": 5,
+        "ctr": 1.75,
+        "cpc": 1.0
+      },
+      {
+        "term": "restaurante bebedouro pampulha",
+        "keyword": "—",
+        "impressions": 35,
+        "clicks": 5,
+        "ctr": 14.29,
+        "cpc": 0.77
+      },
+      {
+        "term": "cardápio de bebedouro bar e fogo",
+        "keyword": "—",
+        "impressions": 67,
+        "clicks": 4,
+        "ctr": 5.97,
+        "cpc": 0.96
+      },
+      {
+        "term": "bebedouro pampulha",
+        "keyword": "—",
+        "impressions": 165,
+        "clicks": 4,
+        "ctr": 2.42,
+        "cpc": 0.95
+      },
+      {
+        "term": "bebedouro bh",
+        "keyword": "—",
+        "impressions": 59,
+        "clicks": 3,
+        "ctr": 5.08,
+        "cpc": 1.15
+      },
+      {
+        "term": "bebedouro",
+        "keyword": "—",
+        "impressions": 137,
+        "clicks": 3,
+        "ctr": 2.19,
+        "cpc": 1.07
+      },
+      {
+        "term": "restaurantes bairro floresta bh",
+        "keyword": "—",
+        "impressions": 8,
+        "clicks": 3,
+        "ctr": 37.5,
+        "cpc": 0.96
+      },
+      {
+        "term": "restaurante no centro de belo horizonte",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 3,
+        "ctr": 75.0,
+        "cpc": 0.96
+      },
+      {
+        "term": "o que fazer em bh a noite",
+        "keyword": "—",
+        "impressions": 19,
+        "clicks": 3,
+        "ctr": 15.79,
+        "cpc": 0.87
+      },
+      {
+        "term": "18 plus bars near me",
+        "keyword": "—",
+        "impressions": 21,
+        "clicks": 9,
+        "ctr": 42.86,
+        "cpc": 0.29
+      },
+      {
+        "term": "cardápio de elis bar",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 2,
+        "ctr": 200.0,
+        "cpc": 1.26
+      },
+      {
+        "term": "all foods pampulha bh",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 2,
+        "ctr": 100.0,
+        "cpc": 1.12
+      },
+      {
+        "term": "bar bebedouro 356 belo horizonte fotos",
+        "keyword": "—",
+        "impressions": 30,
+        "clicks": 2,
+        "ctr": 6.67,
+        "cpc": 1.1
+      },
+      {
+        "term": "bares em belo horizonte savassi",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 3,
+        "ctr": 150.0,
+        "cpc": 0.71
+      },
+      {
+        "term": "lugares para sair em bh hoje",
+        "keyword": "—",
+        "impressions": 21,
+        "clicks": 2,
+        "ctr": 9.52,
+        "cpc": 1.04
+      },
+      {
+        "term": "barzinho com música ao vivo em bh",
+        "keyword": "—",
+        "impressions": 14,
+        "clicks": 2,
+        "ctr": 14.29,
+        "cpc": 1.04
+      },
+      {
+        "term": "bebedouro cardapio",
+        "keyword": "—",
+        "impressions": 10,
+        "clicks": 2,
+        "ctr": 20.0,
+        "cpc": 1.0
+      },
+      {
+        "term": "bares para comemorar aniversário em bh",
+        "keyword": "—",
+        "impressions": 22,
+        "clicks": 2,
+        "ctr": 9.09,
+        "cpc": 0.98
+      },
+      {
+        "term": "comida de buteco 2026 bh",
+        "keyword": "—",
+        "impressions": 218,
+        "clicks": 2,
+        "ctr": 0.92,
+        "cpc": 0.96
+      },
+      {
+        "term": "bares pubs",
+        "keyword": "—",
+        "impressions": 220,
+        "clicks": 8,
+        "ctr": 3.64,
+        "cpc": 0.24
+      },
+      {
+        "term": "restaurante berilo savassi",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 2,
+        "ctr": 50.0,
+        "cpc": 0.95
+      },
+      {
+        "term": "lugares para comemorar aniversario em bh",
+        "keyword": "—",
+        "impressions": 42,
+        "clicks": 2,
+        "ctr": 4.76,
+        "cpc": 0.93
+      },
+      {
+        "term": "mito bar bh balada bar e drinks fotos",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 2,
+        "ctr": 200.0,
+        "cpc": 0.93
+      },
+      {
+        "term": "happy hour belo horizonte",
+        "keyword": "—",
+        "impressions": 10,
+        "clicks": 2,
+        "ctr": 20.0,
+        "cpc": 0.93
+      },
+      {
+        "term": "bar mais próximo abertos agora",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 2,
+        "ctr": 100.0,
+        "cpc": 0.92
+      },
+      {
+        "term": "o que fazer em belo horizonte hoje",
+        "keyword": "—",
+        "impressions": 12,
+        "clicks": 2,
+        "ctr": 16.67,
+        "cpc": 0.9
+      },
+      {
+        "term": "barzinhos em bh",
+        "keyword": "—",
+        "impressions": 24,
+        "clicks": 2,
+        "ctr": 8.33,
+        "cpc": 0.89
+      },
+      {
+        "term": "onde comemorar aniversario em bh",
+        "keyword": "—",
+        "impressions": 52,
+        "clicks": 2,
+        "ctr": 3.85,
+        "cpc": 0.88
+      },
+      {
+        "term": "comida di buteco bh",
+        "keyword": "—",
+        "impressions": 56,
+        "clicks": 2,
+        "ctr": 3.57,
+        "cpc": 0.88
+      },
+      {
+        "term": "comida de buteco bh",
+        "keyword": "—",
+        "impressions": 50,
+        "clicks": 2,
+        "ctr": 4.0,
+        "cpc": 0.87
+      },
+      {
+        "term": "bebedouro bar e fogo belo horizonte ofertas",
+        "keyword": "—",
+        "impressions": 36,
+        "clicks": 2,
+        "ctr": 5.56,
+        "cpc": 0.85
+      },
+      {
+        "term": "bebedouro bar e fogo belo horizonte fotos",
+        "keyword": "—",
+        "impressions": 61,
+        "clicks": 2,
+        "ctr": 3.28,
+        "cpc": 0.84
+      },
+      {
+        "term": "bares em bh",
+        "keyword": "—",
+        "impressions": 94,
+        "clicks": 2,
+        "ctr": 2.13,
+        "cpc": 0.84
+      },
+      {
+        "term": "18 and up bars near me",
+        "keyword": "—",
+        "impressions": 11,
+        "clicks": 4,
+        "ctr": 36.36,
+        "cpc": 0.42
+      },
+      {
+        "term": "onde ir em bh hoje",
+        "keyword": "—",
+        "impressions": 15,
+        "clicks": 2,
+        "ctr": 13.33,
+        "cpc": 0.83
+      },
+      {
+        "term": "lugares para comer belo horizonte",
+        "keyword": "—",
+        "impressions": 47,
+        "clicks": 2,
+        "ctr": 4.26,
+        "cpc": 0.79
+      },
+      {
+        "term": "night club",
+        "keyword": "—",
+        "impressions": 7,
+        "clicks": 3,
+        "ctr": 42.86,
+        "cpc": 0.48
+      },
+      {
+        "term": "bares na savassi",
+        "keyword": "—",
+        "impressions": 25,
+        "clicks": 2,
+        "ctr": 8.0,
+        "cpc": 0.69
+      },
+      {
+        "term": "comida de boteco bh",
+        "keyword": "—",
+        "impressions": 83,
+        "clicks": 2,
+        "ctr": 2.41,
+        "cpc": 0.68
+      },
+      {
+        "term": "restaurante em bh",
+        "keyword": "—",
+        "impressions": 51,
+        "clicks": 2,
+        "ctr": 3.92,
+        "cpc": 0.68
+      },
+      {
+        "term": "restaurante centro belo horizonte",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 1.24
+      },
+      {
+        "term": "rua padre eustáquio 2288 padre eustáquio belo horizonte mg",
+        "keyword": "—",
+        "impressions": 7,
+        "clicks": 1,
+        "ctr": 14.29,
+        "cpc": 1.24
+      },
+      {
+        "term": "barzinho centro bh",
+        "keyword": "—",
+        "impressions": 5,
+        "clicks": 1,
+        "ctr": 20.0,
+        "cpc": 1.23
+      },
+      {
+        "term": "barzinho e violao",
+        "keyword": "—",
+        "impressions": 91,
+        "clicks": 3,
+        "ctr": 3.3,
+        "cpc": 0.41
+      },
+      {
+        "term": "bar clareou bh",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 1.21
+      },
+      {
+        "term": "bares em belo horizonte",
+        "keyword": "—",
+        "impressions": 22,
+        "clicks": 1,
+        "ctr": 4.55,
+        "cpc": 1.19
+      },
+      {
+        "term": "bar de vinhos bh",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 1.18
+      },
+      {
+        "term": "barzinho lourdes bh",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 1.18
+      },
+      {
+        "term": "valle gastronômico menu",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 1.18
+      }
+    ]
   },
   "ga4": {
-    "sessions": 0,
-    "users": 0,
-    "new_users": 0,
-    "pageviews": 0,
-    "bounce_rate": 0.0,
-    "duration": "0m 0s",
-    "events": 0,
-    "conversions": 0,
-    "sources": [],
-    "event_list": []
+    "sessions": 3718,
+    "users": 3230,
+    "new_users": 3195,
+    "pageviews": 4311,
+    "bounce_rate": 58.66,
+    "duration": "1m 39s",
+    "events": 14007,
+    "conversions": 142,
+    "sources": [
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 1249,
+        "pct": 33.4
+      },
+      {
+        "source": "ig",
+        "medium": "social",
+        "sessions": 1185,
+        "pct": 31.7
+      },
+      {
+        "source": "google",
+        "medium": "cpc",
+        "sessions": 885,
+        "pct": 23.7
+      },
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 333,
+        "pct": 8.9
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "(not set)",
+        "sessions": 41,
+        "pct": 1.1
+      },
+      {
+        "source": "(data not available)",
+        "medium": "(data not available)",
+        "sessions": 30,
+        "pct": 0.8
+      },
+      {
+        "source": "bing",
+        "medium": "organic",
+        "sessions": 5,
+        "pct": 0.1
+      },
+      {
+        "source": "l.instagram.com",
+        "medium": "referral",
+        "sessions": 4,
+        "pct": 0.1
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "referral",
+        "sessions": 3,
+        "pct": 0.1
+      },
+      {
+        "source": "facebook.com",
+        "medium": "referral",
+        "sessions": 2,
+        "pct": 0.1
+      },
+      {
+        "source": "(not set)",
+        "medium": "(not set)",
+        "sessions": 1,
+        "pct": 0.0
+      },
+      {
+        "source": "GMN",
+        "medium": "GMN",
+        "sessions": 1,
+        "pct": 0.0
+      },
+      {
+        "source": "br.search.yahoo.com",
+        "medium": "referral",
+        "sessions": 1,
+        "pct": 0.0
+      },
+      {
+        "source": "google_ads",
+        "medium": "pampulha",
+        "sessions": 1,
+        "pct": 0.0
+      },
+      {
+        "source": "m.facebook.com",
+        "medium": "referral",
+        "sessions": 1,
+        "pct": 0.0
+      }
+    ],
+    "event_list": [
+      {
+        "name": "inicio_preenchimento_reserva",
+        "count": 375
+      },
+      {
+        "name": "form_start",
+        "count": 324
+      },
+      {
+        "name": "conversao_reserva",
+        "count": 142
+      },
+      {
+        "name": "click",
+        "count": 71
+      }
+    ]
   },
   "gmb": null
 }
