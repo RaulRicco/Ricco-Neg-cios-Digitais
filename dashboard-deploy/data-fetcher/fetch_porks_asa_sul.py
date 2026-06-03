@@ -61,7 +61,14 @@ def extract_result(obj, goal, actions, spend):
     elif goal == "POST_ENGAGEMENT":
         key, label = "post_engagement", "Engajamentos"
     elif obj == "OUTCOME_LEADS":
-        key, label = "lead", "Leads"
+        # prioridade: conversão personalizada de reservas > lead de formulário > lead genérico
+        custom_keys = [k for k in action_map if k.startswith("offsite_conversion.custom.")]
+        if custom_keys:
+            key, label = custom_keys[0], "Reservas"
+        elif "onsite_conversion.lead_grouped" in action_map:
+            key, label = "onsite_conversion.lead_grouped", "Leads"
+        else:
+            key, label = "lead", "Leads"
     elif obj == "OUTCOME_SALES":
         key, label = "purchase", "Vendas"
     elif obj in ("LINK_CLICKS", "OUTCOME_TRAFFIC"):
@@ -69,7 +76,12 @@ def extract_result(obj, goal, actions, spend):
     elif obj == "VIDEO_VIEWS":
         key, label = "video_view", "Views"
     else:
-        key, label = OBJECTIVE_MAP.get(obj, ("link_click", "Cliques"))
+        # para qualquer objetivo, se tiver conversão personalizada, priorizar como Reservas
+        custom_keys = [k for k in action_map if k.startswith("offsite_conversion.custom.")]
+        if custom_keys:
+            key, label = custom_keys[0], "Reservas"
+        else:
+            key, label = OBJECTIVE_MAP.get(obj, ("link_click", "Cliques"))
     qty = action_map.get(key, 0)
     cpr = round(spend / qty, 2) if qty else 0
     return label, qty, cpr

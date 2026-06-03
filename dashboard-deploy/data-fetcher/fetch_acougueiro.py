@@ -127,15 +127,14 @@ def fetch_meta(start, end):
         elif goal == "POST_ENGAGEMENT":
             key, label = "post_engagement", "Engajamentos"
         elif obj == "OUTCOME_LEADS":
-            key, label = "lead", "Leads"
+            key = "onsite_conversion.lead_grouped" if "onsite_conversion.lead_grouped" in action_map else "lead"
+            label = "Leads"
         elif obj == "OUTCOME_SALES":
             key, label = "purchase", "Vendas"
         elif obj in ("LINK_CLICKS", "OUTCOME_TRAFFIC"):
             key, label = "link_click", "Cliques"
         elif obj == "VIDEO_VIEWS":
             key, label = "video_view", "Views"
-        elif goal == "OFFSITE_CONVERSIONS" and obj == "OUTCOME_LEADS":
-            key, label = "lead", "Leads"
         else:
             key, label = OBJECTIVE_MAP.get(obj, ("link_click", "Cliques"))
 

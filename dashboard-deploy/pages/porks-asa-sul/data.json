@@ -4,7 +4,7 @@
     "start": "2026-05-01",
     "end": "2026-05-31"
   },
-  "gerado_em": "2026-06-03T16:11:45.583266",
+  "gerado_em": "2026-06-03T18:29:43.637025",
   "consolidado": null,
   "meta": {
     "spend": 794.97,
@@ -64,9 +64,9 @@
         "clicks": 56,
         "ctr": 3.22,
         "cpc": 0.39,
-        "result_label": "Engajamentos",
-        "result_qty": 541,
-        "result_cpr": 0.04
+        "result_label": "Reservas",
+        "result_qty": 1,
+        "result_cpr": 21.69
       },
       {
         "name": "[CBO] [JAZZ NIGHT] [RESERVAS]",
@@ -90,9 +90,9 @@
         "clicks": 318,
         "ctr": 2.28,
         "cpc": 0.57,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_label": "Reservas",
+        "result_qty": 1,
+        "result_cpr": 180.38
       },
       {
         "name": "[CBO] [METAL ACUSTICO MAI/26] [LEADS]",
@@ -103,9 +103,9 @@
         "clicks": 309,
         "ctr": 2.92,
         "cpc": 0.39,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_label": "Reservas",
+        "result_qty": 1,
+        "result_cpr": 120.6
       },
       {
         "name": "[CBO] [JUKEBOX MAI/26] [RESERVAS]",
@@ -129,9 +129,9 @@
         "clicks": 188,
         "ctr": 3.36,
         "cpc": 0.31,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_label": "Reservas",
+        "result_qty": 3,
+        "result_cpr": 19.68
       },
       {
         "name": "[CBO] [PORKS DAY MAI/26] [RESERVAS]",
@@ -142,9 +142,9 @@
         "clicks": 453,
         "ctr": 3.02,
         "cpc": 0.37,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_label": "Reservas",
+        "result_qty": 4,
+        "result_cpr": 41.6
       }
     ],
     "ads": [
@@ -196,9 +196,9 @@
         "ctr": 3.22,
         "cpc": 0.39,
         "frequency": 1.3,
-        "result_label": "Engajamentos",
-        "result_qty": 541,
-        "result_cpr": 0.04
+        "result_label": "Reservas",
+        "result_qty": 1,
+        "result_cpr": 21.69
       },
       {
         "name": "noite_jazz_blues_15_05",
@@ -222,9 +222,9 @@
         "ctr": 2.28,
         "cpc": 0.57,
         "frequency": 1.4,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_label": "Reservas",
+        "result_qty": 1,
+        "result_cpr": 180.38
       },
       {
         "name": "motion_metal_acustico",
@@ -235,9 +235,9 @@
         "ctr": 2.92,
         "cpc": 0.39,
         "frequency": 1.75,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_label": "Reservas",
+        "result_qty": 1,
+        "result_cpr": 120.6
       },
       {
         "name": "jukebox_mai_26",
@@ -261,9 +261,9 @@
         "ctr": 3.36,
         "cpc": 0.31,
         "frequency": 1.33,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_label": "Reservas",
+        "result_qty": 3,
+        "result_cpr": 19.68
       },
       {
         "name": "porks_day_may_26",
@@ -274,9 +274,9 @@
         "ctr": 3.02,
         "cpc": 0.37,
         "frequency": 1.74,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_label": "Reservas",
+        "result_qty": 4,
+        "result_cpr": 41.6
       }
     ]
   },
