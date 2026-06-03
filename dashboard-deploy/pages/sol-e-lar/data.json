@@ -1,117 +1,89 @@
 {
   "cliente": "Casas Sol e Lar",
   "periodo": {
-    "start": "2026-04-01",
-    "end": "2026-04-30"
+    "start": "2026-05-01",
+    "end": "2026-05-31"
   },
-  "gerado_em": "2026-05-13T12:15:28.140610",
+  "gerado_em": "2026-06-03T15:43:05.753471",
   "consolidado": null,
   "meta": {
-    "spend": 599.09,
-    "reach": 14000,
-    "impressions": 21733,
-    "clicks": 929,
-    "cpm": 27.57,
-    "cpc": 0.64,
-    "ctr": 4.27,
-    "frequency": 1.55,
+    "spend": 615.72,
+    "reach": 15833,
+    "impressions": 23204,
+    "clicks": 1045,
+    "cpm": 26.54,
+    "cpc": 0.59,
+    "ctr": 4.5,
+    "frequency": 1.47,
     "campaigns": [
       {
         "name": "[CBO] [CP 01] [ENG] [MENSAGEM]",
         "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 298.2,
-        "reach": 7850,
-        "impressions": 10817,
-        "clicks": 492,
-        "ctr": 4.55,
-        "cpc": 0.61,
+        "spend": 308.87,
+        "reach": 7880,
+        "impressions": 11138,
+        "clicks": 546,
+        "ctr": 4.9,
+        "cpc": 0.57,
         "result_label": "Mensagens",
-        "result_qty": 58,
-        "result_cpr": 5.14
+        "result_qty": 44,
+        "result_cpr": 7.02
       },
       {
         "name": "[CBO] [CP 03] [LEADS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 300.89,
-        "reach": 7963,
-        "impressions": 10916,
-        "clicks": 437,
-        "ctr": 4.0,
-        "cpc": 0.69,
+        "spend": 306.85,
+        "reach": 9366,
+        "impressions": 12066,
+        "clicks": 499,
+        "ctr": 4.14,
+        "cpc": 0.61,
         "result_label": "Leads",
-        "result_qty": 1,
-        "result_cpr": 300.89
+        "result_qty": 2,
+        "result_cpr": 153.43
       }
     ],
     "ads": [
       {
         "name": "VIDEO 01",
         "campaign": "[CBO] [CP 01] [ENG] [MENSAGEM]",
-        "spend": 298.2,
-        "impressions": 10817,
-        "clicks": 492,
-        "ctr": 4.55,
-        "cpc": 0.61,
-        "frequency": 1.38,
+        "spend": 308.87,
+        "impressions": 11138,
+        "clicks": 546,
+        "ctr": 4.9,
+        "cpc": 0.57,
+        "frequency": 1.41,
         "result_label": "Mensagens",
-        "result_qty": 58,
-        "result_cpr": 5.14
+        "result_qty": 44,
+        "result_cpr": 7.02
       },
       {
         "name": "VIDEO 01",
         "campaign": "[CBO] [CP 03] [LEADS]",
-        "spend": 300.89,
-        "impressions": 10916,
-        "clicks": 437,
-        "ctr": 4.0,
-        "cpc": 0.69,
-        "frequency": 1.37,
+        "spend": 306.85,
+        "impressions": 12066,
+        "clicks": 499,
+        "ctr": 4.14,
+        "cpc": 0.61,
+        "frequency": 1.29,
         "result_label": "Mensagens",
-        "result_qty": 64,
-        "result_cpr": 4.7
+        "result_qty": 49,
+        "result_cpr": 6.26
       }
     ]
   },
   "google": null,
   "ga4": {
-    "sessions": 26,
-    "users": 26,
-    "new_users": 26,
-    "pageviews": 38,
-    "bounce_rate": 46.15,
-    "duration": "1m 17s",
-    "events": 172,
+    "sessions": 0,
+    "users": 0,
+    "new_users": 0,
+    "pageviews": 0,
+    "bounce_rate": 0.0,
+    "duration": "0m 0s",
+    "events": 0,
     "conversions": 0,
-    "sources": [
-      {
-        "source": "ig",
-        "medium": "social",
-        "sessions": 18,
-        "pct": 69.2
-      },
-      {
-        "source": "(direct)",
-        "medium": "(none)",
-        "sessions": 7,
-        "pct": 26.9
-      },
-      {
-        "source": "l.wl.co",
-        "medium": "referral",
-        "sessions": 1,
-        "pct": 3.8
-      }
-    ],
-    "event_list": [
-      {
-        "name": "Page View",
-        "count": 39
-      },
-      {
-        "name": "click",
-        "count": 7
-      }
-    ]
+    "sources": [],
+    "event_list": []
   },
   "gmb": null
 }

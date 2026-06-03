@@ -1,935 +1,393 @@
 {
   "cliente": "Bar do Açougueiro — Água Verde",
   "periodo": {
-    "start": "2026-04-01",
-    "end": "2026-04-30"
+    "start": "2026-05-01",
+    "end": "2026-05-31"
   },
-  "gerado_em": "2026-05-13T12:12:20.779157",
+  "gerado_em": "2026-06-03T15:41:35.901327",
   "consolidado": {
-    "spend": 1810.4,
-    "reach": 80747,
-    "impressions": 160121,
-    "clicks": 5779,
-    "meta_spend": 1445.53,
-    "google_spend": 364.87
+    "spend": 1435.03,
+    "reach": 71440,
+    "impressions": 134891,
+    "clicks": 3599,
+    "meta_spend": 1435.03,
+    "google_spend": 0
   },
   "meta": {
-    "spend": 1445.53,
-    "reach": 80747,
-    "impressions": 134563,
-    "clicks": 4003,
-    "cpm": 10.74,
-    "cpc": 0.36,
-    "ctr": 2.97,
-    "frequency": 1.67,
+    "spend": 1435.03,
+    "reach": 71440,
+    "impressions": 134891,
+    "clicks": 3599,
+    "cpm": 10.64,
+    "cpc": 0.4,
+    "ctr": 2.67,
+    "frequency": 1.89,
     "campaigns": [
       {
         "name": "[CBO] [TOPO DE FUNIL] [TRAFEGO]",
         "objective": "LINK_CLICKS",
-        "spend": 207.12,
-        "reach": 29049,
-        "impressions": 36253,
-        "clicks": 1847,
-        "ctr": 5.09,
-        "cpc": 0.11,
+        "spend": 218.45,
+        "reach": 26814,
+        "impressions": 33139,
+        "clicks": 1416,
+        "ctr": 4.27,
+        "cpc": 0.15,
         "result_label": "Cliques",
-        "result_qty": 1765,
-        "result_cpr": 0.12
+        "result_qty": 1336,
+        "result_cpr": 0.16
       },
       {
-        "name": "[CBO] [HAPPY HOUR 2.0] [TRAFEGO]",
-        "objective": "LINK_CLICKS",
-        "spend": 249.98,
-        "reach": 22291,
-        "impressions": 29958,
-        "clicks": 612,
-        "ctr": 2.04,
-        "cpc": 0.41,
-        "result_label": "Cliques",
-        "result_qty": 536,
-        "result_cpr": 0.47
-      },
-      {
-        "name": "[CBO] [BURGUER VIDEO] [ENGAJAMENTO]",
+        "name": "[CBO] [ALMOÇO] [MENSAGEM]",
         "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 9.57,
-        "reach": 2526,
-        "impressions": 2670,
-        "clicks": 18,
-        "ctr": 0.67,
-        "cpc": 0.53,
-        "result_label": "Engajamentos",
-        "result_qty": 1248,
-        "result_cpr": 0.01
+        "spend": 200.01,
+        "reach": 4001,
+        "impressions": 7559,
+        "clicks": 189,
+        "ctr": 2.5,
+        "cpc": 1.06,
+        "result_label": "Mensagens",
+        "result_qty": 45,
+        "result_cpr": 4.44
       },
       {
         "name": "[CBO] [PROMO DOMINGO] [MENSAGEM]",
         "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 299.66,
-        "reach": 11101,
-        "impressions": 16277,
-        "clicks": 336,
-        "ctr": 2.06,
-        "cpc": 0.89,
+        "spend": 200.17,
+        "reach": 6589,
+        "impressions": 9732,
+        "clicks": 234,
+        "ctr": 2.4,
+        "cpc": 0.86,
         "result_label": "Mensagens",
-        "result_qty": 25,
-        "result_cpr": 11.99
+        "result_qty": 16,
+        "result_cpr": 12.51
       },
       {
         "name": "[CBO] [OPEN APEROL SPRITZ] [RESERVAS]",
         "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 170.2,
-        "reach": 11785,
-        "impressions": 18590,
-        "clicks": 310,
-        "ctr": 1.67,
-        "cpc": 0.55,
+        "spend": 115.5,
+        "reach": 9385,
+        "impressions": 16897,
+        "clicks": 119,
+        "ctr": 0.7,
+        "cpc": 0.97,
         "result_label": "Engajamentos",
-        "result_qty": 3298,
-        "result_cpr": 0.05
+        "result_qty": 1823,
+        "result_cpr": 0.06
       },
       {
-        "name": "[CBO] [ANIVERSARIANTES ABRIL] [MENSAGEM]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 199.9,
-        "reach": 5676,
-        "impressions": 9062,
-        "clicks": 168,
-        "ctr": 1.85,
-        "cpc": 1.19,
-        "result_label": "Mensagens",
-        "result_qty": 15,
-        "result_cpr": 13.33
+        "name": "[CBO] [CARNE DE ONÇA] [LEADS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 109.94,
+        "reach": 11451,
+        "impressions": 17154,
+        "clicks": 356,
+        "ctr": 2.08,
+        "cpc": 0.31,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
       },
       {
-        "name": "[ABO] [BALADINHA 26 REELS] [VENDAS]",
-        "objective": "OUTCOME_SALES",
-        "spend": 79.7,
-        "reach": 2639,
-        "impressions": 4672,
-        "clicks": 370,
-        "ctr": 7.92,
-        "cpc": 0.22,
-        "result_label": "Vendas",
-        "result_qty": 2,
-        "result_cpr": 39.85
+        "name": "[CBO] [DIA DAS MAES] [RESERVAS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 99.95,
+        "reach": 5101,
+        "impressions": 8148,
+        "clicks": 189,
+        "ctr": 2.32,
+        "cpc": 0.53,
+        "result_label": "Leads",
+        "result_qty": 3,
+        "result_cpr": 33.32
       },
       {
-        "name": "[ABO] [FEED BALADINHA 26] [VENDAS]",
-        "objective": "OUTCOME_SALES",
-        "spend": 129.41,
-        "reach": 4694,
-        "impressions": 9974,
-        "clicks": 201,
-        "ctr": 2.02,
-        "cpc": 0.64,
-        "result_label": "Vendas",
-        "result_qty": 7,
-        "result_cpr": 18.49
+        "name": "[CBO] [ANIVERSARIO MAI/26] [LEAD]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 199.95,
+        "reach": 8250,
+        "impressions": 16291,
+        "clicks": 368,
+        "ctr": 2.26,
+        "cpc": 0.54,
+        "result_label": "Leads",
+        "result_qty": 1,
+        "result_cpr": 199.95
       },
       {
-        "name": "[CBO] [BALADINHA REELS 2.0] [VENDAS]",
-        "objective": "OUTCOME_SALES",
-        "spend": 99.99,
-        "reach": 3820,
-        "impressions": 7107,
-        "clicks": 141,
-        "ctr": 1.98,
-        "cpc": 0.71,
-        "result_label": "Vendas",
-        "result_qty": 31,
-        "result_cpr": 3.23
+        "name": "[CBO] [OPEN DE QUENTAO MAI/26] [RESERVAS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 99.76,
+        "reach": 6201,
+        "impressions": 9013,
+        "clicks": 186,
+        "ctr": 2.06,
+        "cpc": 0.54,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
+      },
+      {
+        "name": "[CBO] [DIA DOS NAMORADOS 26] [RESERVAS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 74.0,
+        "reach": 4956,
+        "impressions": 6312,
+        "clicks": 320,
+        "ctr": 5.07,
+        "cpc": 0.23,
+        "result_label": "Leads",
+        "result_qty": 30,
+        "result_cpr": 2.47
+      },
+      {
+        "name": "[CBO] [CHURRASCADA MAI/26] [RESERVAS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 87.34,
+        "reach": 4417,
+        "impressions": 7052,
+        "clicks": 155,
+        "ctr": 2.2,
+        "cpc": 0.56,
+        "result_label": "Leads",
+        "result_qty": 3,
+        "result_cpr": 29.11
+      },
+      {
+        "name": "[CBO] [FINAL DA CHAMPIONS 26] [RESERVAS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 29.96,
+        "reach": 2914,
+        "impressions": 3594,
+        "clicks": 67,
+        "ctr": 1.86,
+        "cpc": 0.45,
+        "result_label": "Leads",
+        "result_qty": 1,
+        "result_cpr": 29.96
       }
     ],
     "ads": [
       {
         "name": "VIDEO HAPPY HOUR",
         "campaign": "[CBO] [TOPO DE FUNIL] [TRAFEGO]",
-        "spend": 207.12,
-        "impressions": 36253,
-        "clicks": 1847,
-        "ctr": 5.09,
-        "cpc": 0.11,
-        "frequency": 1.25,
+        "spend": 218.45,
+        "impressions": 33139,
+        "clicks": 1416,
+        "ctr": 4.27,
+        "cpc": 0.15,
+        "frequency": 1.24,
         "result_label": "Cliques",
-        "result_qty": 1765,
-        "result_cpr": 0.12
+        "result_qty": 1336,
+        "result_cpr": 0.16
       },
       {
-        "name": "VIDEO BURGUER",
-        "campaign": "[CBO] [BURGUER VIDEO] [ENGAJAMENTO]",
-        "spend": 9.57,
-        "impressions": 2670,
-        "clicks": 18,
-        "ctr": 0.67,
-        "cpc": 0.53,
-        "frequency": 1.06,
-        "result_label": "Engajamentos",
-        "result_qty": 1248,
-        "result_cpr": 0.01
+        "name": "VIDEO ALMOÇO 03 JAN",
+        "campaign": "[CBO] [ALMOÇO] [MENSAGEM]",
+        "spend": 192.8,
+        "impressions": 7286,
+        "clicks": 182,
+        "ctr": 2.5,
+        "cpc": 1.06,
+        "frequency": 1.89,
+        "result_label": "Mensagens",
+        "result_qty": 45,
+        "result_cpr": 4.28
       },
       {
         "name": "VIDEO PROMOS DE DOMINGO",
         "campaign": "[CBO] [PROMO DOMINGO] [MENSAGEM]",
-        "spend": 299.66,
-        "impressions": 16277,
-        "clicks": 336,
-        "ctr": 2.06,
-        "cpc": 0.89,
-        "frequency": 1.47,
-        "result_label": "Mensagens",
-        "result_qty": 25,
-        "result_cpr": 11.99
-      },
-      {
-        "name": "VIDEO OPEN DE APEROL",
-        "campaign": "[CBO] [OPEN APEROL SPRITZ] [RESERVAS]",
-        "spend": 141.35,
-        "impressions": 14666,
-        "clicks": 284,
-        "ctr": 1.94,
-        "cpc": 0.5,
+        "spend": 200.17,
+        "impressions": 9732,
+        "clicks": 234,
+        "ctr": 2.4,
+        "cpc": 0.86,
         "frequency": 1.48,
-        "result_label": "Engajamentos",
-        "result_qty": 2814,
-        "result_cpr": 0.05
-      },
-      {
-        "name": "REELS HAPPY HOUR ABR26",
-        "campaign": "[CBO] [HAPPY HOUR 2.0] [TRAFEGO]",
-        "spend": 249.98,
-        "impressions": 29958,
-        "clicks": 612,
-        "ctr": 2.04,
-        "cpc": 0.41,
-        "frequency": 1.34,
-        "result_label": "Cliques",
-        "result_qty": 536,
-        "result_cpr": 0.47
-      },
-      {
-        "name": "VIDEO ANIVERSARIANTES ABRIL",
-        "campaign": "[CBO] [ANIVERSARIANTES ABRIL] [MENSAGEM]",
-        "spend": 199.9,
-        "impressions": 9062,
-        "clicks": 168,
-        "ctr": 1.85,
-        "cpc": 1.19,
-        "frequency": 1.6,
         "result_label": "Mensagens",
-        "result_qty": 15,
-        "result_cpr": 13.33
-      },
-      {
-        "name": "VIDEO BALADINHA",
-        "campaign": "[ABO] [BALADINHA 26 REELS] [VENDAS]",
-        "spend": 79.7,
-        "impressions": 4672,
-        "clicks": 370,
-        "ctr": 7.92,
-        "cpc": 0.22,
-        "frequency": 1.77,
-        "result_label": "Vendas",
-        "result_qty": 2,
-        "result_cpr": 39.85
-      },
-      {
-        "name": "FEED BALADINHA",
-        "campaign": "[ABO] [FEED BALADINHA 26] [VENDAS]",
-        "spend": 129.41,
-        "impressions": 9974,
-        "clicks": 201,
-        "ctr": 2.02,
-        "cpc": 0.64,
-        "frequency": 2.12,
-        "result_label": "Vendas",
-        "result_qty": 7,
-        "result_cpr": 18.49
-      },
-      {
-        "name": "BALADINHA REELS 2.0",
-        "campaign": "[CBO] [BALADINHA REELS 2.0] [VENDAS]",
-        "spend": 72.46,
-        "impressions": 5141,
-        "clicks": 79,
-        "ctr": 1.54,
-        "cpc": 0.92,
-        "frequency": 1.75,
-        "result_label": "Vendas",
-        "result_qty": 11,
-        "result_cpr": 6.59
-      },
-      {
-        "name": "BALADINHA REELS 2.0",
-        "campaign": "[CBO] [BALADINHA REELS 2.0] [VENDAS]",
-        "spend": 27.53,
-        "impressions": 1966,
-        "clicks": 62,
-        "ctr": 3.15,
-        "cpc": 0.44,
-        "frequency": 1.38,
-        "result_label": "Vendas",
-        "result_qty": 20,
-        "result_cpr": 1.38
+        "result_qty": 16,
+        "result_cpr": 12.51
       },
       {
         "name": "VIDEO OPEN DE APEROL 59",
         "campaign": "[CBO] [OPEN APEROL SPRITZ] [RESERVAS]",
-        "spend": 28.85,
-        "impressions": 3924,
-        "clicks": 26,
-        "ctr": 0.66,
-        "cpc": 1.11,
-        "frequency": 1.38,
+        "spend": 115.5,
+        "impressions": 16897,
+        "clicks": 119,
+        "ctr": 0.7,
+        "cpc": 0.97,
+        "frequency": 1.8,
         "result_label": "Engajamentos",
-        "result_qty": 484,
+        "result_qty": 1823,
         "result_cpr": 0.06
+      },
+      {
+        "name": "VIDEO ALMOÇO 25/04",
+        "campaign": "[CBO] [ALMOÇO] [MENSAGEM]",
+        "spend": 7.21,
+        "impressions": 273,
+        "clicks": 7,
+        "ctr": 2.56,
+        "cpc": 1.03,
+        "frequency": 1.05,
+        "result_label": "Mensagens",
+        "result_qty": 0,
+        "result_cpr": 0
+      },
+      {
+        "name": "VIDEO CARNE DE ONÇA",
+        "campaign": "[CBO] [CARNE DE ONÇA] [LEADS]",
+        "spend": 109.94,
+        "impressions": 17154,
+        "clicks": 356,
+        "ctr": 2.08,
+        "cpc": 0.31,
+        "frequency": 1.5,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
+      },
+      {
+        "name": "dia_das_maes_26",
+        "campaign": "[CBO] [DIA DAS MAES] [RESERVAS]",
+        "spend": 59.68,
+        "impressions": 4875,
+        "clicks": 92,
+        "ctr": 1.89,
+        "cpc": 0.65,
+        "frequency": 1.51,
+        "result_label": "Leads",
+        "result_qty": 1,
+        "result_cpr": 59.68
+      },
+      {
+        "name": "video_dia_das_maes_26",
+        "campaign": "[CBO] [DIA DAS MAES] [RESERVAS]",
+        "spend": 40.27,
+        "impressions": 3273,
+        "clicks": 97,
+        "ctr": 2.96,
+        "cpc": 0.42,
+        "frequency": 1.35,
+        "result_label": "Leads",
+        "result_qty": 2,
+        "result_cpr": 20.14
+      },
+      {
+        "name": "vd_niver_mai_26",
+        "campaign": "[CBO] [ANIVERSARIO MAI/26] [LEAD]",
+        "spend": 83.72,
+        "impressions": 7852,
+        "clicks": 158,
+        "ctr": 2.01,
+        "cpc": 0.53,
+        "frequency": 1.78,
+        "result_label": "Leads",
+        "result_qty": 1,
+        "result_cpr": 83.72
+      },
+      {
+        "name": "vd_niver_mai_26_2.0",
+        "campaign": "[CBO] [ANIVERSARIO MAI/26] [LEAD]",
+        "spend": 116.23,
+        "impressions": 8439,
+        "clicks": 210,
+        "ctr": 2.49,
+        "cpc": 0.55,
+        "frequency": 1.8,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
+      },
+      {
+        "name": "video_01_open_quentao",
+        "campaign": "[CBO] [OPEN DE QUENTAO MAI/26] [RESERVAS]",
+        "spend": 2.48,
+        "impressions": 238,
+        "clicks": 4,
+        "ctr": 1.68,
+        "cpc": 0.62,
+        "frequency": 1.08,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
+      },
+      {
+        "name": "video_02_stories_open_quentao",
+        "campaign": "[CBO] [OPEN DE QUENTAO MAI/26] [RESERVAS]",
+        "spend": 97.28,
+        "impressions": 8775,
+        "clicks": 182,
+        "ctr": 2.07,
+        "cpc": 0.53,
+        "frequency": 1.43,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
+      },
+      {
+        "name": "vd_namorados_26",
+        "campaign": "[CBO] [DIA DOS NAMORADOS 26] [RESERVAS]",
+        "spend": 74.0,
+        "impressions": 6312,
+        "clicks": 320,
+        "ctr": 5.07,
+        "cpc": 0.23,
+        "frequency": 1.27,
+        "result_label": "Leads",
+        "result_qty": 30,
+        "result_cpr": 2.47
+      },
+      {
+        "name": "churrascada_mai_26_feed",
+        "campaign": "[CBO] [CHURRASCADA MAI/26] [RESERVAS]",
+        "spend": 87.34,
+        "impressions": 7052,
+        "clicks": 155,
+        "ctr": 2.2,
+        "cpc": 0.56,
+        "frequency": 1.6,
+        "result_label": "Leads",
+        "result_qty": 3,
+        "result_cpr": 29.11
+      },
+      {
+        "name": "feesd_final_champions",
+        "campaign": "[CBO] [FINAL DA CHAMPIONS 26] [RESERVAS]",
+        "spend": 29.96,
+        "impressions": 3594,
+        "clicks": 67,
+        "ctr": 1.86,
+        "cpc": 0.45,
+        "frequency": 1.23,
+        "result_label": "Leads",
+        "result_qty": 1,
+        "result_cpr": 29.96
       }
     ]
   },
   "google": {
-    "spend": 364.87,
-    "impressions": 25558,
-    "clicks": 1776,
-    "ctr": 6.95,
-    "cpc": 0.21,
-    "conversions": 883,
-    "cpa": 0.41,
-    "campaigns": [
-      {
-        "name": "PESQUISA - VISITAS PAGINA",
-        "type": "Search",
-        "status": "Paused",
-        "spend": 304.32,
-        "impressions": 21240,
-        "clicks": 1507,
-        "ctr": 7.1,
-        "cpc": 0.2,
-        "conversions": 882
-      },
-      {
-        "name": "[P-MAX] [RESERVAS] [HAPPYHOUR]",
-        "type": "Performance_Max",
-        "status": "Enabled",
-        "spend": 60.55,
-        "impressions": 4318,
-        "clicks": 269,
-        "ctr": 6.23,
-        "cpc": 0.23,
-        "conversions": 1
-      }
-    ],
-    "keywords": [
-      {
-        "keyword": "Churrascaria Curitiba",
-        "match": "Broad",
-        "impressions": 11092,
-        "clicks": 704,
-        "ctr": 6.35,
-        "cpc": 0.19,
-        "conversions": 394
-      },
-      {
-        "keyword": "o bar do açougueiro",
-        "match": "Exact",
-        "impressions": 3154,
-        "clicks": 513,
-        "ctr": 16.27,
-        "cpc": 0.21,
-        "conversions": 311
-      },
-      {
-        "keyword": "melhores restaurantes curitiba",
-        "match": "Broad",
-        "impressions": 2532,
-        "clicks": 125,
-        "ctr": 4.94,
-        "cpc": 0.22,
-        "conversions": 75
-      },
-      {
-        "keyword": "restaurante de carnes",
-        "match": "Broad",
-        "impressions": 1351,
-        "clicks": 77,
-        "ctr": 5.7,
-        "cpc": 0.28,
-        "conversions": 59
-      },
-      {
-        "keyword": "restaurantes curitiba",
-        "match": "Broad",
-        "impressions": 1780,
-        "clicks": 61,
-        "ctr": 3.43,
-        "cpc": 0.23,
-        "conversions": 38
-      },
-      {
-        "keyword": "Melhor churrasco de curitiba",
-        "match": "Broad",
-        "impressions": 742,
-        "clicks": 16,
-        "ctr": 2.16,
-        "cpc": 0.11,
-        "conversions": 4
-      },
-      {
-        "keyword": "Bar de Carne em curitiba",
-        "match": "Broad",
-        "impressions": 589,
-        "clicks": 11,
-        "ctr": 1.87,
-        "cpc": 0.03,
-        "conversions": 1
-      }
-    ],
-    "search_terms": [
-      {
-        "term": "bar do açougueiro",
-        "keyword": "—",
-        "impressions": 2370,
-        "clicks": 347,
-        "ctr": 14.64,
-        "cpc": 0.2
-      },
-      {
-        "term": "posto 21 fazenda rio grande",
-        "keyword": "—",
-        "impressions": 182,
-        "clicks": 43,
-        "ctr": 23.63,
-        "cpc": 0.43
-      },
-      {
-        "term": "bar do açougueiro agua verde",
-        "keyword": "—",
-        "impressions": 356,
-        "clicks": 55,
-        "ctr": 15.45,
-        "cpc": 0.27
-      },
-      {
-        "term": "pelanda 16",
-        "keyword": "—",
-        "impressions": 176,
-        "clicks": 22,
-        "ctr": 12.5,
-        "cpc": 0.48
-      },
-      {
-        "term": "bar do acougueiro",
-        "keyword": "—",
-        "impressions": 280,
-        "clicks": 45,
-        "ctr": 16.07,
-        "cpc": 0.2
-      },
-      {
-        "term": "o bar do açougueiro",
-        "keyword": "—",
-        "impressions": 299,
-        "clicks": 38,
-        "ctr": 12.71,
-        "cpc": 0.2
-      },
-      {
-        "term": "bar do açougueiro curitiba",
-        "keyword": "—",
-        "impressions": 129,
-        "clicks": 20,
-        "ctr": 15.5,
-        "cpc": 0.22
-      },
-      {
-        "term": "caminho do vinho",
-        "keyword": "—",
-        "impressions": 70,
-        "clicks": 11,
-        "ctr": 15.71,
-        "cpc": 0.32
-      },
-      {
-        "term": "o açougueiro bar",
-        "keyword": "—",
-        "impressions": 100,
-        "clicks": 13,
-        "ctr": 13.0,
-        "cpc": 0.24
-      },
-      {
-        "term": "bar do açougueiro água verde",
-        "keyword": "—",
-        "impressions": 71,
-        "clicks": 11,
-        "ctr": 15.49,
-        "cpc": 0.25
-      },
-      {
-        "term": "bar do acogueiro",
-        "keyword": "—",
-        "impressions": 6,
-        "clicks": 6,
-        "ctr": 100.0,
-        "cpc": 0.43
-      },
-      {
-        "term": "restaurantes",
-        "keyword": "—",
-        "impressions": 1049,
-        "clicks": 18,
-        "ctr": 1.72,
-        "cpc": 0.14
-      },
-      {
-        "term": "boteco curitiba",
-        "keyword": "—",
-        "impressions": 294,
-        "clicks": 13,
-        "ctr": 4.42,
-        "cpc": 0.17
-      },
-      {
-        "term": "bar do açougueiro batel",
-        "keyword": "—",
-        "impressions": 175,
-        "clicks": 15,
-        "ctr": 8.57,
-        "cpc": 0.15
-      },
-      {
-        "term": "peraus pub",
-        "keyword": "—",
-        "impressions": 10,
-        "clicks": 6,
-        "ctr": 60.0,
-        "cpc": 0.32
-      },
-      {
-        "term": "restaurante",
-        "keyword": "—",
-        "impressions": 367,
-        "clicks": 12,
-        "ctr": 3.27,
-        "cpc": 0.15
-      },
-      {
-        "term": "bar o açougueiro",
-        "keyword": "—",
-        "impressions": 24,
-        "clicks": 8,
-        "ctr": 33.33,
-        "cpc": 0.21
-      },
-      {
-        "term": "o bar do açougueiro curitiba",
-        "keyword": "—",
-        "impressions": 24,
-        "clicks": 7,
-        "ctr": 29.17,
-        "cpc": 0.24
-      },
-      {
-        "term": "bar",
-        "keyword": "—",
-        "impressions": 609,
-        "clicks": 15,
-        "ctr": 2.46,
-        "cpc": 0.1
-      },
-      {
-        "term": "bar perto de mim",
-        "keyword": "—",
-        "impressions": 195,
-        "clicks": 8,
-        "ctr": 4.1,
-        "cpc": 0.18
-      },
-      {
-        "term": "jeremias bar",
-        "keyword": "—",
-        "impressions": 53,
-        "clicks": 5,
-        "ctr": 9.43,
-        "cpc": 0.28
-      },
-      {
-        "term": "barzinho",
-        "keyword": "—",
-        "impressions": 107,
-        "clicks": 8,
-        "ctr": 7.48,
-        "cpc": 0.17
-      },
-      {
-        "term": "laçador churrascaria campo largo",
-        "keyword": "—",
-        "impressions": 5,
-        "clicks": 2,
-        "ctr": 40.0,
-        "cpc": 0.64
-      },
-      {
-        "term": "o bar do acougueiro",
-        "keyword": "—",
-        "impressions": 24,
-        "clicks": 5,
-        "ctr": 20.83,
-        "cpc": 0.24
-      },
-      {
-        "term": "bar do açougueiro em curitiba",
-        "keyword": "—",
-        "impressions": 12,
-        "clicks": 3,
-        "ctr": 25.0,
-        "cpc": 0.39
-      },
-      {
-        "term": "bar do acougueiro batel",
-        "keyword": "—",
-        "impressions": 48,
-        "clicks": 3,
-        "ctr": 6.25,
-        "cpc": 0.37
-      },
-      {
-        "term": "praça 24 horas curitiba",
-        "keyword": "—",
-        "impressions": 3,
-        "clicks": 2,
-        "ctr": 66.67,
-        "cpc": 0.56
-      },
-      {
-        "term": "bares",
-        "keyword": "—",
-        "impressions": 284,
-        "clicks": 13,
-        "ctr": 4.58,
-        "cpc": 0.08
-      },
-      {
-        "term": "bar do açogueiro",
-        "keyword": "—",
-        "impressions": 5,
-        "clicks": 3,
-        "ctr": 60.0,
-        "cpc": 0.34
-      },
-      {
-        "term": "bares perto de mim",
-        "keyword": "—",
-        "impressions": 135,
-        "clicks": 7,
-        "ctr": 5.19,
-        "cpc": 0.15
-      },
-      {
-        "term": "bar mais próximo",
-        "keyword": "—",
-        "impressions": 28,
-        "clicks": 4,
-        "ctr": 14.29,
-        "cpc": 0.25
-      },
-      {
-        "term": "o açougueiro curitiba",
-        "keyword": "—",
-        "impressions": 18,
-        "clicks": 3,
-        "ctr": 16.67,
-        "cpc": 0.33
-      },
-      {
-        "term": "barzinho perto de mim",
-        "keyword": "—",
-        "impressions": 68,
-        "clicks": 5,
-        "ctr": 7.35,
-        "cpc": 0.2
-      },
-      {
-        "term": "açougueiro bar",
-        "keyword": "—",
-        "impressions": 68,
-        "clicks": 5,
-        "ctr": 7.35,
-        "cpc": 0.2
-      },
-      {
-        "term": "espetinho",
-        "keyword": "—",
-        "impressions": 170,
-        "clicks": 9,
-        "ctr": 5.29,
-        "cpc": 0.11
-      },
-      {
-        "term": "bar açougueiro",
-        "keyword": "—",
-        "impressions": 19,
-        "clicks": 2,
-        "ctr": 10.53,
-        "cpc": 0.4
-      },
-      {
-        "term": "churrascaria",
-        "keyword": "—",
-        "impressions": 205,
-        "clicks": 5,
-        "ctr": 2.44,
-        "cpc": 0.16
-      },
-      {
-        "term": "churrascaria gaúcha",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 0.79
-      },
-      {
-        "term": "restaurante posto 21 fazenda rio grande",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 0.79
-      },
-      {
-        "term": "villa bistrô",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 0.79
-      },
-      {
-        "term": "churrascaria pinheirao sao jose dos pinhais",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 0.76
-      },
-      {
-        "term": "o bar do açougueiro agua verde",
-        "keyword": "—",
-        "impressions": 9,
-        "clicks": 3,
-        "ctr": 33.33,
-        "cpc": 0.24
-      },
-      {
-        "term": "master burguer",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 0.72
-      },
-      {
-        "term": "laçador campo largo",
-        "keyword": "—",
-        "impressions": 10,
-        "clicks": 2,
-        "ctr": 20.0,
-        "cpc": 0.35
-      },
-      {
-        "term": "bar dos paraíbas colombo",
-        "keyword": "—",
-        "impressions": 20,
-        "clicks": 3,
-        "ctr": 15.0,
-        "cpc": 0.24
-      },
-      {
-        "term": "bar comida de boteco",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 2,
-        "ctr": 100.0,
-        "cpc": 0.35
-      },
-      {
-        "term": "restaurante 21 fazenda rio grande",
-        "keyword": "—",
-        "impressions": 4,
-        "clicks": 2,
-        "ctr": 50.0,
-        "cpc": 0.33
-      },
-      {
-        "term": "agrobar curitiba fotos",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 0.66
-      },
-      {
-        "term": "restaurante veneza",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 0.66
-      },
-      {
-        "term": "bar do acougueiro agua verde",
-        "keyword": "—",
-        "impressions": 19,
-        "clicks": 4,
-        "ctr": 21.05,
-        "cpc": 0.16
-      }
-    ]
+    "spend": 0,
+    "impressions": 0,
+    "clicks": 0,
+    "ctr": 0,
+    "cpc": 0,
+    "conversions": 0,
+    "cpa": 0,
+    "campaigns": [],
+    "keywords": [],
+    "search_terms": []
   },
   "ga4": {
-    "sessions": 2256,
-    "users": 1932,
-    "new_users": 1891,
-    "pageviews": 2796,
-    "bounce_rate": 52.57,
-    "duration": "1m 54s",
-    "events": 11693,
-    "conversions": 1140,
-    "sources": [
-      {
-        "source": "google",
-        "medium": "cpc",
-        "sessions": 767,
-        "pct": 34.1
-      },
-      {
-        "source": "google",
-        "medium": "organic",
-        "sessions": 567,
-        "pct": 25.2
-      },
-      {
-        "source": "(direct)",
-        "medium": "(none)",
-        "sessions": 344,
-        "pct": 15.3
-      },
-      {
-        "source": "ig",
-        "medium": "paid",
-        "sessions": 306,
-        "pct": 13.6
-      },
-      {
-        "source": "fb",
-        "medium": "paid",
-        "sessions": 144,
-        "pct": 6.4
-      },
-      {
-        "source": "l.facebook.com",
-        "medium": "referral",
-        "sessions": 19,
-        "pct": 0.8
-      },
-      {
-        "source": "(data not available)",
-        "medium": "(data not available)",
-        "sessions": 14,
-        "pct": 0.6
-      },
-      {
-        "source": "facebook.com",
-        "medium": "referral",
-        "sessions": 14,
-        "pct": 0.6
-      },
-      {
-        "source": "chatgpt.com",
-        "medium": "(not set)",
-        "sessions": 13,
-        "pct": 0.6
-      },
-      {
-        "source": "m.facebook.com",
-        "medium": "referral",
-        "sessions": 13,
-        "pct": 0.6
-      },
-      {
-        "source": "eventsmanager.facebook.com",
-        "medium": "referral",
-        "sessions": 11,
-        "pct": 0.5
-      },
-      {
-        "source": "bing",
-        "medium": "organic",
-        "sessions": 10,
-        "pct": 0.4
-      },
-      {
-        "source": "127.0.0.1:3000",
-        "medium": "referral",
-        "sessions": 9,
-        "pct": 0.4
-      },
-      {
-        "source": "fb",
-        "medium": "frio",
-        "sessions": 5,
-        "pct": 0.2
-      },
-      {
-        "source": "search.google.com",
-        "medium": "referral",
-        "sessions": 5,
-        "pct": 0.2
-      },
-      {
-        "source": "(not set)",
-        "medium": "(not set)",
-        "sessions": 4,
-        "pct": 0.2
-      },
-      {
-        "source": "chatgpt.com",
-        "medium": "referral",
-        "sessions": 3,
-        "pct": 0.1
-      },
-      {
-        "source": "br.search.yahoo.com",
-        "medium": "referral",
-        "sessions": 2,
-        "pct": 0.1
-      },
-      {
-        "source": "instagram.com",
-        "medium": "referral",
-        "sessions": 1,
-        "pct": 0.0
-      }
-    ],
-    "event_list": [
-      {
-        "name": "click",
-        "count": 244
-      },
-      {
-        "name": "Clicou_wttp",
-        "count": 121
-      },
-      {
-        "name": "form_start",
-        "count": 42
-      },
-      {
-        "name": "whatsapp_redirect",
-        "count": 13
-      }
-    ]
+    "sessions": 0,
+    "users": 0,
+    "new_users": 0,
+    "pageviews": 0,
+    "bounce_rate": 0.0,
+    "duration": "0m 0s",
+    "events": 0,
+    "conversions": 0,
+    "sources": [],
+    "event_list": []
   },
   "gmb": null
 }

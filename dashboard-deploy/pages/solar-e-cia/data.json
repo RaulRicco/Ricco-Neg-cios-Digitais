@@ -1,74 +1,48 @@
 {
   "cliente": "Solar e Cia",
   "periodo": {
-    "start": "2026-04-01",
-    "end": "2026-04-30"
+    "start": "2026-05-01",
+    "end": "2026-05-31"
   },
-  "gerado_em": "2026-05-13T12:15:30.645171",
+  "gerado_em": "2026-06-03T15:43:03.734369",
   "consolidado": null,
   "meta": {
-    "spend": 527.43,
-    "reach": 9118,
-    "impressions": 18876,
-    "clicks": 263,
-    "cpm": 27.94,
-    "cpc": 2.01,
-    "ctr": 1.39,
-    "frequency": 2.07,
+    "spend": 540.69,
+    "reach": 8145,
+    "impressions": 18486,
+    "clicks": 274,
+    "cpm": 29.25,
+    "cpc": 1.97,
+    "ctr": 1.48,
+    "frequency": 2.27,
     "campaigns": [
       {
         "name": "[ABO] [VENDAS 2.0] [MENSAGEM]",
         "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 464.58,
-        "reach": 8512,
-        "impressions": 17727,
-        "clicks": 235,
-        "ctr": 1.33,
-        "cpc": 1.98,
+        "spend": 540.69,
+        "reach": 8145,
+        "impressions": 18486,
+        "clicks": 274,
+        "ctr": 1.48,
+        "cpc": 1.97,
         "result_label": "Mensagens",
-        "result_qty": 43,
-        "result_cpr": 10.8
-      },
-      {
-        "name": "[CBO] [CAPTAÇAO 2026] [FORMULARIO]",
-        "objective": "OUTCOME_LEADS",
-        "spend": 62.85,
-        "reach": 828,
-        "impressions": 1149,
-        "clicks": 28,
-        "ctr": 2.44,
-        "cpc": 2.24,
-        "result_label": "Leads",
-        "result_qty": 1,
-        "result_cpr": 62.85
+        "result_qty": 45,
+        "result_cpr": 12.02
       }
     ],
     "ads": [
       {
         "name": "VIDEO BELLA",
         "campaign": "[ABO] [VENDAS 2.0] [MENSAGEM]",
-        "spend": 464.58,
-        "impressions": 17727,
-        "clicks": 235,
-        "ctr": 1.33,
-        "cpc": 1.98,
-        "frequency": 2.08,
+        "spend": 540.69,
+        "impressions": 18486,
+        "clicks": 274,
+        "ctr": 1.48,
+        "cpc": 1.97,
+        "frequency": 2.27,
         "result_label": "Mensagens",
-        "result_qty": 43,
-        "result_cpr": 10.8
-      },
-      {
-        "name": "VIDEO BELLA",
-        "campaign": "[CBO] [CAPTAÇAO 2026] [FORMULARIO]",
-        "spend": 62.85,
-        "impressions": 1149,
-        "clicks": 28,
-        "ctr": 2.44,
-        "cpc": 2.24,
-        "frequency": 1.39,
-        "result_label": "Leads",
-        "result_qty": 1,
-        "result_cpr": 62.85
+        "result_qty": 45,
+        "result_cpr": 12.02
       }
     ]
   },

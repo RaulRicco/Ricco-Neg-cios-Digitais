@@ -1,86 +1,112 @@
 {
   "cliente": "BsBichos PetShop",
   "periodo": {
-    "start": "2026-04-01",
-    "end": "2026-04-30"
+    "start": "2026-05-01",
+    "end": "2026-05-31"
   },
-  "gerado_em": "2026-05-13T12:14:56.104283",
+  "gerado_em": "2026-06-03T15:41:50.239515",
   "consolidado": {
-    "spend": 360.36,
-    "reach": 12291,
-    "impressions": 22644,
-    "clicks": 389,
-    "meta_spend": 360.36,
-    "google_spend": 0.0
+    "spend": 645.51,
+    "reach": 14023,
+    "impressions": 29925,
+    "clicks": 521,
+    "meta_spend": 645.51,
+    "google_spend": 0
   },
   "meta": {
-    "spend": 360.36,
-    "reach": 12291,
-    "impressions": 22644,
-    "clicks": 389,
-    "cpm": 15.91,
-    "cpc": 0.93,
-    "ctr": 1.72,
-    "frequency": 1.84,
+    "spend": 645.51,
+    "reach": 14023,
+    "impressions": 29925,
+    "clicks": 521,
+    "cpm": 21.57,
+    "cpc": 1.24,
+    "ctr": 1.74,
+    "frequency": 2.13,
     "campaigns": [
       {
         "name": "[CBO] [PROMO 20% PRIMEIRO BANHO] [VENDAS]",
         "objective": "OUTCOME_SALES",
-        "spend": 272.47,
-        "reach": 6215,
-        "impressions": 13523,
-        "clicks": 224,
-        "ctr": 1.66,
-        "cpc": 1.22,
+        "spend": 548.81,
+        "reach": 10979,
+        "impressions": 24433,
+        "clicks": 401,
+        "ctr": 1.64,
+        "cpc": 1.37,
         "result_label": "Mensagens",
-        "result_qty": 34,
-        "result_cpr": 8.01
+        "result_qty": 77,
+        "result_cpr": 7.13
       },
       {
-        "name": "[CBO] [FEIRA DE ADOÇÃO] [ENGAJAMENTO]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 87.89,
-        "reach": 6513,
-        "impressions": 9121,
-        "clicks": 165,
-        "ctr": 1.81,
-        "cpc": 0.53,
-        "result_label": "Engajamentos",
-        "result_qty": 973,
-        "result_cpr": 0.09
+        "name": "[CBO] [20% PRIMEIRO BANHO] [LEADS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 96.7,
+        "reach": 3476,
+        "impressions": 5492,
+        "clicks": 120,
+        "ctr": 2.18,
+        "cpc": 0.81,
+        "result_label": "Leads",
+        "result_qty": 2,
+        "result_cpr": 48.35
       }
     ],
     "ads": [
       {
         "name": "AD 02 ESTATICO 20OFF",
         "campaign": "[CBO] [PROMO 20% PRIMEIRO BANHO] [VENDAS]",
-        "spend": 272.47,
-        "impressions": 13523,
-        "clicks": 224,
-        "ctr": 1.66,
-        "cpc": 1.22,
-        "frequency": 2.18,
+        "spend": 548.81,
+        "impressions": 24433,
+        "clicks": 401,
+        "ctr": 1.64,
+        "cpc": 1.37,
+        "frequency": 2.23,
         "result_label": "Mensagens",
-        "result_qty": 34,
-        "result_cpr": 8.01
+        "result_qty": 77,
+        "result_cpr": 7.13
       },
       {
-        "name": "FEIRA DE ADOÇÃO CARROSSEL",
-        "campaign": "[CBO] [FEIRA DE ADOÇÃO] [ENGAJAMENTO]",
-        "spend": 87.89,
-        "impressions": 9121,
-        "clicks": 165,
-        "ctr": 1.81,
-        "cpc": 0.53,
-        "frequency": 1.4,
-        "result_label": "Engajamentos",
-        "result_qty": 973,
-        "result_cpr": 0.09
+        "name": "motion_dog_01",
+        "campaign": "[CBO] [20% PRIMEIRO BANHO] [LEADS]",
+        "spend": 26.07,
+        "impressions": 1448,
+        "clicks": 23,
+        "ctr": 1.59,
+        "cpc": 1.13,
+        "frequency": 1.31,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
+      },
+      {
+        "name": "motion_dog_02",
+        "campaign": "[CBO] [20% PRIMEIRO BANHO] [LEADS]",
+        "spend": 46.9,
+        "impressions": 2901,
+        "clicks": 60,
+        "ctr": 2.07,
+        "cpc": 0.78,
+        "frequency": 1.41,
+        "result_label": "Leads",
+        "result_qty": 2,
+        "result_cpr": 23.45
+      },
+      {
+        "name": "video_valeria",
+        "campaign": "[CBO] [20% PRIMEIRO BANHO] [LEADS]",
+        "spend": 23.73,
+        "impressions": 1143,
+        "clicks": 37,
+        "ctr": 3.24,
+        "cpc": 0.64,
+        "frequency": 1.23,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
       }
     ]
   },
   "google": {
-    "spend": 0.0,
+    "spend": 0,
     "impressions": 0,
     "clicks": 0,
     "ctr": 0,
@@ -92,82 +118,16 @@
     "search_terms": []
   },
   "ga4": {
-    "sessions": 275,
-    "users": 230,
-    "new_users": 215,
-    "pageviews": 298,
-    "bounce_rate": 52.73,
-    "duration": "1m 4s",
-    "events": 1016,
+    "sessions": 0,
+    "users": 0,
+    "new_users": 0,
+    "pageviews": 0,
+    "bounce_rate": 0.0,
+    "duration": "0m 0s",
+    "events": 0,
     "conversions": 0,
-    "sources": [
-      {
-        "source": "(direct)",
-        "medium": "(none)",
-        "sessions": 136,
-        "pct": 49.5
-      },
-      {
-        "source": "google",
-        "medium": "organic",
-        "sessions": 104,
-        "pct": 37.8
-      },
-      {
-        "source": "l.wl.co",
-        "medium": "referral",
-        "sessions": 13,
-        "pct": 4.7
-      },
-      {
-        "source": "tiktok.com",
-        "medium": "referral",
-        "sessions": 6,
-        "pct": 2.2
-      },
-      {
-        "source": "facebook.com",
-        "medium": "referral",
-        "sessions": 5,
-        "pct": 1.8
-      },
-      {
-        "source": "bing",
-        "medium": "organic",
-        "sessions": 4,
-        "pct": 1.5
-      },
-      {
-        "source": "m.facebook.com",
-        "medium": "referral",
-        "sessions": 4,
-        "pct": 1.5
-      },
-      {
-        "source": "(not set)",
-        "medium": "(not set)",
-        "sessions": 1,
-        "pct": 0.4
-      },
-      {
-        "source": "chatgpt.com",
-        "medium": "(not set)",
-        "sessions": 1,
-        "pct": 0.4
-      },
-      {
-        "source": "chatgpt.com",
-        "medium": "referral",
-        "sessions": 1,
-        "pct": 0.4
-      }
-    ],
-    "event_list": [
-      {
-        "name": "click",
-        "count": 57
-      }
-    ]
+    "sources": [],
+    "event_list": []
   },
   "gmb": null
 }
