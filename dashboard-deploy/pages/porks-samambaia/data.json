@@ -4,7 +4,7 @@
     "start": "2026-05-01",
     "end": "2026-05-31"
   },
-  "gerado_em": "2026-06-03T16:12:20.265207",
+  "gerado_em": "2026-06-03T18:48:06.904458",
   "consolidado": null,
   "meta": {
     "spend": 1300.06,
@@ -346,69 +346,6 @@
     ]
   },
   "google": null,
-  "ga4": {
-    "sessions": 215,
-    "users": 201,
-    "new_users": 197,
-    "pageviews": 541,
-    "bounce_rate": 5.58,
-    "duration": "1m 57s",
-    "events": 1254,
-    "conversions": 0,
-    "sources": [
-      {
-        "source": "google",
-        "medium": "organic",
-        "sessions": 173,
-        "pct": 80.5
-      },
-      {
-        "source": "(direct)",
-        "medium": "(none)",
-        "sessions": 19,
-        "pct": 8.8
-      },
-      {
-        "source": "(not set)",
-        "medium": "(not set)",
-        "sessions": 10,
-        "pct": 4.7
-      },
-      {
-        "source": "bing",
-        "medium": "organic",
-        "sessions": 10,
-        "pct": 4.7
-      },
-      {
-        "source": "chatgpt.com",
-        "medium": "(not set)",
-        "sessions": 1,
-        "pct": 0.5
-      },
-      {
-        "source": "chatgpt.com",
-        "medium": "referral",
-        "sessions": 1,
-        "pct": 0.5
-      },
-      {
-        "source": "facebook.com",
-        "medium": "referral",
-        "sessions": 1,
-        "pct": 0.5
-      }
-    ],
-    "event_list": [
-      {
-        "name": "click",
-        "count": 3
-      },
-      {
-        "name": "form_start",
-        "count": 3
-      }
-    ]
-  },
+  "ga4": null,
   "gmb": null
 }

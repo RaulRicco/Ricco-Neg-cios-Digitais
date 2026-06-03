@@ -11,11 +11,9 @@ from pathlib import Path
 SKILLS       = Path.home() / ".claude/skills"
 META_INSIGHTS = SKILLS / "meta-ads-ratos/scripts/insights.py"
 GADS_READ    = SKILLS / "google-ads-ratos/scripts/read.py"
-GA4_REPORTS  = SKILLS / "ga4-ratos/scripts/reports.py"
 
 OUT_DIR = Path(__file__).parent.parent / "pages/porks-asa-norte"
 META_ACCOUNT   = "act_1805040963337330"
-GA4_PROPERTY   = "511232648"
 
 def run(cmd, label=""):
     try:
@@ -120,45 +118,6 @@ def fetch_meta(start, end):
             "ctr":fmt_pct(totals.get("ctr",0)),"frequency":fmt_pct(totals.get("frequency",0)),
             "campaigns":campaigns,"ads":ads}
 
-SKIP_EVENTS = {
-    "gtm.js","gtm.dom","gtm.load","gtm.click","gtm.linkClick",
-    "gtm.historyChange","gtm.scrollDepth","gtm.timer",
-    "optimize.activate","_session_start","_first_visit",
-    "page_view","PageView","session_start","first_visit","user_engagement","scroll",
-}
-
-def fetch_ga4(start, end):
-    print("🟡 GA4 — coletando...", flush=True)
-    base = [str(GA4_REPORTS)]
-    period = ["--property",GA4_PROPERTY,"--start",start,"--end",end]
-    overview_raw = run(base+["overview"]+period, "GA4 overview")
-    sources_raw  = run(base+["traffic-sources"]+period, "GA4 sources")
-    totals = {}
-    if overview_raw and overview_raw.get("rows"): totals=overview_raw["rows"][0]
-    sessions=fmt_int(totals.get("sessions",0)); users=fmt_int(totals.get("totalUsers",0))
-    new_users=fmt_int(totals.get("newUsers",0)); pageviews=fmt_int(totals.get("screenPageViews",0))
-    bounce=fmt_pct(float(totals.get("bounceRate",0))*100)
-    duration_s=float(totals.get("averageSessionDuration",0))
-    duration=f"{int(duration_s//60)}m {int(duration_s%60)}s"
-    sources=[]
-    if sources_raw and sources_raw.get("rows"):
-        total_s=sum(int(r.get("sessions",0)) for r in sources_raw["rows"])
-        for r in sources_raw["rows"][:20]:
-            s=fmt_int(r.get("sessions",0))
-            sources.append({"source":r.get("sessionSource","—"),"medium":r.get("sessionMedium","—"),
-                "sessions":s,"pct":round(s/total_s*100,1) if total_s else 0})
-    events_raw=run(base+["conversions"]+period, "GA4 events")
-    event_list=[]
-    if events_raw and events_raw.get("rows"):
-        for r in events_raw["rows"]:
-            name=r.get("eventName",""); count=fmt_int(r.get("eventCount",0))
-            if name and name not in SKIP_EVENTS and count>0:
-                event_list.append({"name":name,"count":count})
-    event_list.sort(key=lambda x:x["count"],reverse=True)
-    return {"sessions":sessions,"users":users,"new_users":new_users,"pageviews":pageviews,
-            "bounce_rate":bounce,"duration":duration,"events":fmt_int(totals.get("eventCount",0)),
-            "conversions":fmt_int(totals.get("conversions",0)),"sources":sources,"event_list":event_list[:12]}
-
 def main():
     parser = argparse.ArgumentParser(description="Coleta dados para Porks Asa Norte")
     parser.add_argument("--start", default="")
@@ -180,19 +139,17 @@ def main():
         start=(today-timedelta(days=30)).isoformat(); end=today.isoformat()
     print(f"\n📅 Período: {start} → {end}\n", flush=True)
     meta   = fetch_meta(start, end)
-    ga4    = fetch_ga4(start, end)
     data = {"cliente":"Porks Asa Norte","periodo":{"start":start,"end":end},"gerado_em":datetime.now().isoformat(),
         "consolidado":None,
         "meta":meta,
         "google":None,
-        "ga4":ga4,
+        "ga4":None,
         "gmb":None}
     out_path = OUT_DIR / "data.json"
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(data, ensure_ascii=False, indent=2))
     print(f"\n✅ data.json salvo em {out_path}")
     print(f"   Meta spend:   R$ {meta['spend']}")
-    print(f"   GA4 sessões:  {ga4['sessions']}")
 
 if __name__ == "__main__":
     main()

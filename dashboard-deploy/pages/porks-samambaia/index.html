@@ -285,38 +285,6 @@
   </section>
 
 
-  <!-- ═══ SEÇÃO GA4 ═══ -->
-  <section class="section">
-    <div class="section-header">
-      <div class="platform-icon icon-analytics">GA</div>
-      <h2 class="section-title">Google Analytics 4</h2>
-      <span class="section-badge">Site oficial</span>
-    </div>
-    <div class="cards-grid">
-      <div class="card card-accent-analytics"><div class="card-label">Sessões</div><div class="card-value" id="ga4-sessions">—</div></div>
-      <div class="card"><div class="card-label">Usuários</div><div class="card-value" id="ga4-users">—</div><div class="card-sub" id="ga4-new-users">—</div></div>
-      <div class="card"><div class="card-label">Pageviews</div><div class="card-value" id="ga4-pageviews">—</div></div>
-      <div class="card"><div class="card-label">Duração Média</div><div class="card-value" id="ga4-duration">—</div><div class="card-sub">por sessão</div></div>
-      <div class="card"><div class="card-label">Taxa de Rejeição</div><div class="card-value" id="ga4-bounce">—</div></div>
-    </div>
-    <div class="table-title" style="margin-bottom:12px;">Principais Eventos</div>
-    <div id="eventos-grid" class="eventos-grid" style="margin-bottom:28px;"></div>
-    <div class="table-block">
-      <div class="table-title">Origem dos Acessos</div>
-      <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;">
-        <div id="origem-list" style="padding:20px;display:flex;flex-direction:column;gap:10px;"></div>
-        <div class="table-footer">
-          <span class="table-count" id="count-origem"></span>
-          <div class="table-nav">
-            <button class="nav-btn" id="prev-origem" onclick="paginate('origem',-1)">← Anterior</button>
-            <span class="nav-page" id="page-origem"></span>
-            <button class="nav-btn" id="next-origem" onclick="paginate('origem',1)">Próximo →</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <footer class="footer">
     <p>Dashboard por <strong>Ricco Negócios Digitais</strong> · <span id="footer-period"></span></p>
   </footer>
@@ -357,8 +325,6 @@
   let META_ADS_ALL = [];
   let MS_META_SELECTED = new Set();
 
-
-  let ORIGEM_DATA = [];
 
   const PAGE_SIZE=10;
   const pages={kw:0,terms:0,origem:0,'meta-campaigns':0,'meta-ads':0,'gads-campaigns':0};
@@ -654,29 +620,9 @@
     DATA.meta.impressoes=DATA._raw.meta.impressoes.slice(); DATA.meta.cliques=DATA._raw.meta.cliques.slice();
 
 
-    // ── GA4 ──
-    setCard('ga4-sessions',fInt(a.sessions)); setCard('ga4-users',fInt(a.users));
-    setCard('ga4-new-users',`novos: ${fInt(a.new_users)}`);
-    setCard('ga4-pageviews',fInt(a.pageviews)); setCard('ga4-bounce',fPct(a.bounce_rate));
-    setCard('ga4-duration',a.duration);
-    const maxPct=Math.max(...(a.sources||[]).map(s=>s.pct),1);
-    ORIGEM_DATA=(a.sources||[]).map(s=>({
-      label:`${s.source} / ${s.medium}`, val:s.sessions, pct:s.pct,
-      color:sourceColor(s.source,s.medium), bar:Math.round(s.pct/maxPct*100),
-    }));
-    const eventosGrid=document.getElementById('eventos-grid');
-    if(eventosGrid){
-      eventosGrid.innerHTML='';
-      (a.event_list||[]).forEach(ev=>{
-        const card=document.createElement('div'); card.className='evento-card';
-        card.innerHTML=`<div class="evento-info"><div class="evento-name">${ev.name}</div><div class="evento-count">${fInt(ev.count)}</div></div>`;
-        eventosGrid.appendChild(card);
-      });
-    }
-    renderTable('origem');
     buildCharts(labels);
 
-    renderTable('kw'); renderTable('terms'); renderTable('origem');
+    renderTable('kw'); renderTable('terms');
   }
 
   const SENHA_HASH = "225103b5b7f67a78cff0d5f92a74d5a03707442fb3a4d2941a8c0ab8f9e7407f";
