@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aditivo de Proposta — Seu Barbudo Barbearia</title>
+<style>
+  :root{
+    --bg:#0a0a0a;
+    --card:#161616;
+    --accent:#c6ff3a;
+    --text:#ffffff;
+    --text-muted:#a8a8a8;
+    --border:#262626;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    line-height:1.6;
+  }
+
+  .wrap{
+    max-width:720px;
+    margin:0 auto;
+    padding:64px 24px 96px;
+  }
+  header.doc-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    border-bottom:1px solid var(--border);
+    padding-bottom:24px;
+    margin-bottom:48px;
+  }
+  header.doc-header .brand{
+    font-weight:800;
+    font-size:1.1rem;
+    letter-spacing:0.02em;
+  }
+  header.doc-header .date{
+    color:var(--text-muted);
+    font-size:0.85rem;
+  }
+  .tag{
+    display:inline-block;
+    background:rgba(198,255,58,0.12);
+    color:var(--accent);
+    font-size:0.75rem;
+    font-weight:700;
+    letter-spacing:0.05em;
+    text-transform:uppercase;
+    padding:6px 12px;
+    border-radius:6px;
+    margin-bottom:16px;
+  }
+  h1{
+    font-size:1.9rem;
+    font-weight:800;
+    margin-bottom:8px;
+    line-height:1.25;
+  }
+  .subtitle{
+    color:var(--text-muted);
+    font-size:1rem;
+    margin-bottom:48px;
+  }
+  section{margin-bottom:40px;}
+  h2{
+    font-size:1.15rem;
+    font-weight:700;
+    margin-bottom:14px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+  h2 .num{
+    color:var(--accent);
+    font-size:0.9rem;
+    font-weight:800;
+  }
+  p{color:#e0e0e0;margin-bottom:12px;}
+  ul.feature-list{
+    list-style:none;
+    margin-top:16px;
+  }
+  ul.feature-list li{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:18px 20px;
+    margin-bottom:12px;
+  }
+  ul.feature-list li .feat-title{
+    font-weight:700;
+    margin-bottom:4px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  ul.feature-list li .feat-title::before{
+    content:"✓";
+    color:var(--accent);
+    font-weight:800;
+  }
+  ul.feature-list li .feat-desc{
+    color:var(--text-muted);
+    font-size:0.92rem;
+  }
+  .price-box{
+    background:linear-gradient(135deg,rgba(198,255,58,0.08),rgba(198,255,58,0.02));
+    border:1px solid rgba(198,255,58,0.3);
+    border-radius:14px;
+    padding:32px;
+    text-align:center;
+    margin:32px 0;
+  }
+  .price-box .label{
+    color:var(--text-muted);
+    font-size:0.85rem;
+    text-transform:uppercase;
+    letter-spacing:0.05em;
+    margin-bottom:8px;
+  }
+  .price-box .price{
+    font-size:2.4rem;
+    font-weight:800;
+    color:var(--accent);
+    margin-bottom:4px;
+  }
+  .price-box .price small{
+    font-size:1rem;
+    color:var(--text-muted);
+    font-weight:600;
+  }
+  .price-box .compare{
+    margin-top:14px;
+    font-size:0.85rem;
+    color:var(--text-muted);
+  }
+  .price-box .compare strike{
+    color:#888;
+  }
+  .price-box .compare .promo{
+    color:var(--accent);
+    font-weight:700;
+  }
+  .cta{
+    text-align:center;
+    margin-top:56px;
+    padding-top:32px;
+    border-top:1px solid var(--border);
+  }
+  .cta p{color:var(--text-muted);margin-bottom:20px;}
+  .cta a{
+    display:inline-block;
+    background:var(--accent);
+    color:#0a0a0a;
+    font-weight:700;
+    text-decoration:none;
+    padding:14px 32px;
+    border-radius:8px;
+    font-size:0.95rem;
+  }
+  footer{
+    text-align:center;
+    color:var(--text-muted);
+    font-size:0.8rem;
+    margin-top:48px;
+  }
+  @media(max-width:480px){
+    h1{font-size:1.5rem;}
+    .price-box .price{font-size:1.9rem;}
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="doc-header">
+    <div class="brand">RICCO NEGÓCIOS DIGITAIS</div>
+    <div class="date">29 de junho de 2026</div>
+  </header>
+
+  <span class="tag">Aditivo de Proposta</span>
+  <h1>Aditivo — Seu Barbudo Barbearia</h1>
+  <p class="subtitle">Expansão do escopo atual: captura de leads com automação para WhatsApp e painel de trackeamento avançado de UTMs.</p>
+
+  <section>
+    <h2><span class="num">01</span> Contexto</h2>
+    <p>O escopo atual de gestão de tráfego do Seu Barbudo está em andamento. Este aditivo formaliza duas novas frentes que vão fortalecer a captação e a mensuração de resultado das campanhas: uma página própria de captura de leads conectada ao WhatsApp e um painel de trackeamento avançado de UTMs.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">02</span> O que está sendo adicionado</h2>
+    <ul class="feature-list">
+      <li>
+        <div class="feat-title">Página de captura de leads</div>
+        <div class="feat-desc">Página própria para captar contatos interessados, com automação que envia a mensagem direto para o WhatsApp do Seu Barbudo no momento em que o lead preenche o formulário — sem atraso, sem etapa manual.</div>
+      </li>
+      <li>
+        <div class="feat-title">Painel com trackeamento de UTMs avançado</div>
+        <div class="feat-desc">Painel dedicado para acompanhar a origem de cada lead por campanha, conjunto de anúncios, criativo e canal — visibilidade completa de qual investimento está gerando retorno, não só estimativa.</div>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="num">03</span> Investimento</h2>
+    <div class="price-box">
+      <div class="label">Valor adicional mensal</div>
+      <div class="price">R$ 500<small>/mês</small></div>
+      <div class="compare">Tráfego com tracking avançado nesse nível costuma ser cobrado em <strike>R$ 1.500/mês</strike> no mercado — valor promocional aplicado pela parceria já em andamento.</div>
+    </div>
+    <p>Esse valor é adicionado à mensalidade vigente e cobre a estrutura da página de captura, a automação de envio para o WhatsApp e a manutenção do painel de UTMs.</p>
+  </section>
+
+  <div class="cta">
+    <p>Para confirmar o aditivo e seguir com a implementação, é só responder este documento ou falar direto comigo.</p>
+    <a href="https://wa.me/" target="_blank" rel="noopener">Confirmar aditivo</a>
+  </div>
+
+  <footer>Ricco Negócios Digitais — Performance e SEO Local</footer>
+
+</div>
+
+</body>
+</html>

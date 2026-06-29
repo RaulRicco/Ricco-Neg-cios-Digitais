@@ -38,6 +38,7 @@ const CLIENTES = {
   'porks-pirenopolis':      'porkspiri2026',
   'boteco-do-quintal':      'botecodomquintal2026',
   'quintal-piri':           'quintalpiri2026',
+  'aditivo-seu-barbudo':    'seubarbudo2026',
 };
 
 const REALM = 'Dashboard Ricco';

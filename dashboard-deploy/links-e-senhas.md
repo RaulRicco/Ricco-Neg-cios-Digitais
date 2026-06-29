@@ -168,3 +168,8 @@ Base URL: `https://ricco-dashboards.pages.dev`
 - **URL:** https://ricco-dashboards.pages.dev/dog-do-cangaceiro
 - **Senha:** `th7vtasa9wk8`
 - **Serviços:** META
+
+## Aditivo de Proposta — Seu Barbudo Barbearia
+- **URL:** https://ricco-dashboards.pages.dev/aditivo-seu-barbudo
+- **Senha:** `seubarbudo2026`
+- **Tipo:** Aditivo de proposta (página de captura de leads + painel de UTM avançado)
