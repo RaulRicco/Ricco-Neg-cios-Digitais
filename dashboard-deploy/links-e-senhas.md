@@ -170,6 +170,6 @@ Base URL: `https://ricco-dashboards.pages.dev`
 - **Serviços:** META
 
 ## Aditivo de Proposta — Seu Barbudo Barbearia
-- **URL:** https://ricco-dashboards.pages.dev/aditivo-seu-barbudo
-- **Senha:** `seubarbudo2026`
+- **URL:** https://dash.raulricco.com.br/aditivo-seu-barbudo
+- **Senha:** `seubarbudo2026` (campo único, sem usuário — gate de senha próprio na página)
 - **Tipo:** Aditivo de proposta (página de captura de leads + painel de UTM avançado)

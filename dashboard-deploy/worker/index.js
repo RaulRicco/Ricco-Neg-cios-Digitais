@@ -4,7 +4,14 @@
  *
  * Cada rota /slug-do-cliente exige uma senha configurada em CLIENTES abaixo.
  * Adicionar novo cliente = adicionar uma linha no objeto CLIENTES.
+ *
+ * Rotas em PUBLIC_PASSTHROUGH não passam pelo Basic Auth do browser —
+ * usadas quando a própria página já tem sua tela de senha (ex: aditivos/propostas).
  */
+
+const PUBLIC_PASSTHROUGH = new Set([
+  'aditivo-seu-barbudo',
+]);
 
 const CLIENTES = {
   'acougueiro-agua-verde':  'aguaverde2026',
@@ -38,7 +45,6 @@ const CLIENTES = {
   'porks-pirenopolis':      'porkspiri2026',
   'boteco-do-quintal':      'botecodomquintal2026',
   'quintal-piri':           'quintalpiri2026',
-  'aditivo-seu-barbudo':    'seubarbudo2026',
 };
 
 const REALM = 'Dashboard Ricco';
@@ -51,6 +57,11 @@ export default {
 
     // Rota raiz — sem autenticação, retorna 404 simples
     if (!slug) return new Response('Not found', { status: 404 });
+
+    // Rotas com senha própria na página — passa direto pro Pages
+    if (PUBLIC_PASSTHROUGH.has(slug)) {
+      return fetch(request);
+    }
 
     const senhaCorreta = CLIENTES[slug];
 

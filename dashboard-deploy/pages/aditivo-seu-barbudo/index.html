@@ -21,6 +21,65 @@
     line-height:1.6;
   }
 
+  /* ---- Tela de senha ---- */
+  #gate{
+    position:fixed;inset:0;
+    background:var(--bg);
+    display:flex;align-items:center;justify-content:center;
+    z-index:100;
+    padding:24px;
+  }
+  .gate-box{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:12px;
+    padding:40px 32px;
+    max-width:360px;
+    width:100%;
+    text-align:center;
+  }
+  .gate-box h2{
+    font-size:1.1rem;
+    font-weight:700;
+    margin-bottom:8px;
+  }
+  .gate-box p{
+    color:var(--text-muted);
+    font-size:0.9rem;
+    margin-bottom:24px;
+  }
+  .gate-box input{
+    width:100%;
+    padding:14px 16px;
+    border-radius:8px;
+    border:1px solid var(--border);
+    background:#0d0d0d;
+    color:var(--text);
+    font-size:1rem;
+    margin-bottom:12px;
+    outline:none;
+  }
+  .gate-box input:focus{border-color:var(--accent);}
+  .gate-box button{
+    width:100%;
+    padding:14px 16px;
+    border-radius:8px;
+    border:none;
+    background:var(--accent);
+    color:#0a0a0a;
+    font-weight:700;
+    font-size:1rem;
+    cursor:pointer;
+  }
+  .gate-error{
+    color:#ff6b6b;
+    font-size:0.85rem;
+    margin-top:10px;
+    display:none;
+  }
+
+  /* ---- Conteúdo ---- */
+  #content{display:none;}
   .wrap{
     max-width:720px;
     margin:0 auto;
@@ -177,6 +236,17 @@
 </head>
 <body>
 
+<div id="gate">
+  <div class="gate-box">
+    <h2>Acesso restrito</h2>
+    <p>Este documento é confidencial. Digite a senha para visualizar.</p>
+    <input type="password" id="pwd" placeholder="Senha" autocomplete="off">
+    <button onclick="checkPwd()">Acessar</button>
+    <div class="gate-error" id="gate-error">Senha incorreta. Tente novamente.</div>
+  </div>
+</div>
+
+<div id="content">
 <div class="wrap">
 
   <header class="doc-header">
@@ -225,6 +295,23 @@
   <footer>Ricco Negócios Digitais — Performance e SEO Local</footer>
 
 </div>
+</div>
+
+<script>
+  const CORRECT_PWD = "seubarbudo2026";
+  function checkPwd(){
+    const input = document.getElementById('pwd').value;
+    if(input === CORRECT_PWD){
+      document.getElementById('gate').style.display = 'none';
+      document.getElementById('content').style.display = 'block';
+    } else {
+      document.getElementById('gate-error').style.display = 'block';
+    }
+  }
+  document.getElementById('pwd').addEventListener('keydown', function(e){
+    if(e.key === 'Enter') checkPwd();
+  });
+</script>
 
 </body>
 </html>
