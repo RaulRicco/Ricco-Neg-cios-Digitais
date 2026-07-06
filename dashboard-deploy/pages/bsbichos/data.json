@@ -1,104 +1,104 @@
 {
   "cliente": "BsBichos PetShop",
   "periodo": {
-    "start": "2026-05-01",
-    "end": "2026-05-31"
+    "start": "2026-06-01",
+    "end": "2026-06-30"
   },
-  "gerado_em": "2026-06-03T16:10:50.814412",
+  "gerado_em": "2026-07-06T09:58:01.813711",
   "consolidado": {
-    "spend": 709.27,
-    "reach": 14023,
-    "impressions": 31015,
-    "clicks": 573,
-    "meta_spend": 645.51,
-    "google_spend": 63.76
+    "spend": 560.95,
+    "reach": 17659,
+    "impressions": 30199,
+    "clicks": 399,
+    "meta_spend": 560.95,
+    "google_spend": 0
   },
   "meta": {
-    "spend": 645.51,
-    "reach": 14023,
-    "impressions": 29925,
-    "clicks": 521,
-    "cpm": 21.57,
-    "cpc": 1.24,
-    "ctr": 1.74,
-    "frequency": 2.13,
+    "spend": 560.95,
+    "reach": 17659,
+    "impressions": 30199,
+    "clicks": 399,
+    "cpm": 18.58,
+    "cpc": 1.41,
+    "ctr": 1.32,
+    "frequency": 1.71,
     "campaigns": [
       {
         "name": "[CBO] [PROMO 20% PRIMEIRO BANHO] [VENDAS]",
         "objective": "OUTCOME_SALES",
-        "spend": 548.81,
-        "reach": 10979,
-        "impressions": 24433,
-        "clicks": 401,
-        "ctr": 1.64,
-        "cpc": 1.37,
+        "spend": 324.97,
+        "reach": 10447,
+        "impressions": 15093,
+        "clicks": 204,
+        "ctr": 1.35,
+        "cpc": 1.59,
         "result_label": "Mensagens",
-        "result_qty": 77,
-        "result_cpr": 7.13
+        "result_qty": 37,
+        "result_cpr": 8.78
       },
       {
         "name": "[CBO] [20% PRIMEIRO BANHO] [LEADS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 96.7,
-        "reach": 3476,
-        "impressions": 5492,
-        "clicks": 120,
-        "ctr": 2.18,
-        "cpc": 0.81,
+        "spend": 235.98,
+        "reach": 8439,
+        "impressions": 15106,
+        "clicks": 195,
+        "ctr": 1.29,
+        "cpc": 1.21,
         "result_label": "Leads",
-        "result_qty": 2,
-        "result_cpr": 48.35
+        "result_qty": 6,
+        "result_cpr": 39.33
       }
     ],
     "ads": [
       {
         "name": "AD 02 ESTATICO 20OFF",
         "campaign": "[CBO] [PROMO 20% PRIMEIRO BANHO] [VENDAS]",
-        "spend": 548.81,
-        "impressions": 24433,
-        "clicks": 401,
-        "ctr": 1.64,
-        "cpc": 1.37,
-        "frequency": 2.23,
+        "spend": 324.97,
+        "impressions": 15093,
+        "clicks": 204,
+        "ctr": 1.35,
+        "cpc": 1.59,
+        "frequency": 1.44,
         "result_label": "Mensagens",
-        "result_qty": 77,
-        "result_cpr": 7.13
+        "result_qty": 37,
+        "result_cpr": 8.78
       },
       {
         "name": "motion_dog_01",
         "campaign": "[CBO] [20% PRIMEIRO BANHO] [LEADS]",
-        "spend": 26.07,
-        "impressions": 1448,
-        "clicks": 23,
-        "ctr": 1.59,
-        "cpc": 1.13,
-        "frequency": 1.31,
+        "spend": 83.62,
+        "impressions": 4846,
+        "clicks": 84,
+        "ctr": 1.73,
+        "cpc": 1.0,
+        "frequency": 1.32,
         "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_qty": 2,
+        "result_cpr": 41.81
       },
       {
         "name": "motion_dog_02",
         "campaign": "[CBO] [20% PRIMEIRO BANHO] [LEADS]",
-        "spend": 46.9,
-        "impressions": 2901,
-        "clicks": 60,
-        "ctr": 2.07,
-        "cpc": 0.78,
-        "frequency": 1.41,
+        "spend": 148.54,
+        "impressions": 10101,
+        "clicks": 111,
+        "ctr": 1.1,
+        "cpc": 1.34,
+        "frequency": 1.66,
         "result_label": "Leads",
-        "result_qty": 2,
-        "result_cpr": 23.45
+        "result_qty": 4,
+        "result_cpr": 37.13
       },
       {
         "name": "video_valeria",
         "campaign": "[CBO] [20% PRIMEIRO BANHO] [LEADS]",
-        "spend": 23.73,
-        "impressions": 1143,
-        "clicks": 37,
-        "ctr": 3.24,
-        "cpc": 0.64,
-        "frequency": 1.23,
+        "spend": 3.82,
+        "impressions": 159,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0.0,
+        "frequency": 1.05,
         "result_label": "Leads",
         "result_qty": 0,
         "result_cpr": 0
@@ -106,594 +106,28 @@
     ]
   },
   "google": {
-    "spend": 63.76,
-    "impressions": 1090,
-    "clicks": 52,
-    "ctr": 4.77,
-    "cpc": 1.23,
-    "conversions": 2,
-    "cpa": 31.88,
-    "campaigns": [
-      {
-        "name": "[SEARCH] [VETERINARIOS] [LEAD]",
-        "type": "Search",
-        "status": "Enabled",
-        "spend": 63.76,
-        "impressions": 1090,
-        "clicks": 52,
-        "ctr": 4.77,
-        "cpc": 1.23,
-        "conversions": 2
-      }
-    ],
-    "keywords": [
-      {
-        "keyword": "veterinário asa sul",
-        "match": "Exact",
-        "impressions": 34,
-        "clicks": 1,
-        "ctr": 2.94,
-        "cpc": 2.64,
-        "conversions": 0
-      },
-      {
-        "keyword": "clínica veterinária asa norte",
-        "match": "Exact",
-        "impressions": 32,
-        "clicks": 1,
-        "ctr": 3.12,
-        "cpc": 1.82,
-        "conversions": 0
-      }
-    ],
-    "search_terms": [
-      {
-        "term": "clinica veterinaria em taguatinga",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 2,
-        "ctr": 100.0,
-        "cpc": 3.4
-      },
-      {
-        "term": "farmacia veterinaria brasilia",
-        "keyword": "—",
-        "impressions": 4,
-        "clicks": 3,
-        "ctr": 75.0,
-        "cpc": 1.11
-      },
-      {
-        "term": "clinica veterinaria pública",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 3.02
-      },
-      {
-        "term": "veterinario asa sul",
-        "keyword": "—",
-        "impressions": 13,
-        "clicks": 1,
-        "ctr": 7.69,
-        "cpc": 2.64
-      },
-      {
-        "term": "veterinario publico",
-        "keyword": "—",
-        "impressions": 3,
-        "clicks": 1,
-        "ctr": 33.33,
-        "cpc": 2.63
-      },
-      {
-        "term": "pet shop samambaia",
-        "keyword": "—",
-        "impressions": 5,
-        "clicks": 1,
-        "ctr": 20.0,
-        "cpc": 2.44
-      },
-      {
-        "term": "petz asa sul",
-        "keyword": "—",
-        "impressions": 5,
-        "clicks": 1,
-        "ctr": 20.0,
-        "cpc": 2.31
-      },
-      {
-        "term": "pet shop brasilia",
-        "keyword": "—",
-        "impressions": 6,
-        "clicks": 2,
-        "ctr": 33.33,
-        "cpc": 0.97
-      },
-      {
-        "term": "clínica veterinária asa norte",
-        "keyword": "—",
-        "impressions": 6,
-        "clicks": 1,
-        "ctr": 16.67,
-        "cpc": 1.82
-      },
-      {
-        "term": "pet shop asa norte",
-        "keyword": "—",
-        "impressions": 5,
-        "clicks": 1,
-        "ctr": 20.0,
-        "cpc": 1.65
-      },
-      {
-        "term": "pet shop ceilândia sul",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 1.41
-      },
-      {
-        "term": "clinica veterinaria em aguas claras",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 1.39
-      },
-      {
-        "term": "bsb bichos",
-        "keyword": "—",
-        "impressions": 10,
-        "clicks": 2,
-        "ctr": 20.0,
-        "cpc": 0.6
-      },
-      {
-        "term": "castração gratuita brasília df",
-        "keyword": "—",
-        "impressions": 5,
-        "clicks": 1,
-        "ctr": 20.0,
-        "cpc": 1.12
-      },
-      {
-        "term": "laboratorio veterinario brasilia",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 0.98
-      },
-      {
-        "term": "veterinário de graça perto de mim",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 0.91
-      },
-      {
-        "term": "bsb bichos asa sul",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 2,
-        "ctr": 100.0,
-        "cpc": 0.26
-      },
-      {
-        "term": "hospital veterinário",
-        "keyword": "—",
-        "impressions": 9,
-        "clicks": 2,
-        "ctr": 22.22,
-        "cpc": 0.25
-      },
-      {
-        "term": "bsbichos asa sul",
-        "keyword": "—",
-        "impressions": 4,
-        "clicks": 1,
-        "ctr": 25.0,
-        "cpc": 0.31
-      },
-      {
-        "term": "clinica veterinaria brasilia",
-        "keyword": "—",
-        "impressions": 5,
-        "clicks": 2,
-        "ctr": 40.0,
-        "cpc": 0.15
-      },
-      {
-        "term": "bsbichos asa norte",
-        "keyword": "—",
-        "impressions": 19,
-        "clicks": 1,
-        "ctr": 5.26,
-        "cpc": 0.26
-      },
-      {
-        "term": "veterinário ceilândia",
-        "keyword": "—",
-        "impressions": 3,
-        "clicks": 1,
-        "ctr": 33.33,
-        "cpc": 0.13
-      },
-      {
-        "term": "petshop",
-        "keyword": "—",
-        "impressions": 6,
-        "clicks": 2,
-        "ctr": 33.33,
-        "cpc": 0.01
-      },
-      {
-        "term": "pet near me",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 0.01
-      },
-      {
-        "term": "adestrador de gatos df",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "agenda df castração",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "agenda df hospital veterinário",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "ambulancia veterinaria",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "amparo clínica veterinária 24 horas brasília",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "anclivepa taguatinga",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "animal df",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "atendimento veterinário gratuito",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "banho e tosa 24 horas perto de mim",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "banho e tosa 313 sul",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "banho e tosa asa norte",
-        "keyword": "—",
-        "impressions": 3,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "banho e tosa asa sul",
-        "keyword": "—",
-        "impressions": 6,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "banho e tosa brasilia",
-        "keyword": "—",
-        "impressions": 5,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "banho e tosa ceilandia",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "banho e tosa sobradinho",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "bolsa de sangue para cachorro df",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "bsbichos pet shop tosa e banho veterinária asa norte",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "bsbichos pet shop tosa e banho veterinária asa norte brasília",
-        "keyword": "—",
-        "impressions": 7,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "cachorro fezes com sangue e muco",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "cachorro mancando pata traseira",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "cachorro nao consegue urinar",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "cachorro parou de andar",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "cachorro querendo vomitar e não consegue",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "campanha de castração df",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "caroço perto do olho do cachorro",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "castracao",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      }
-    ]
+    "spend": 0,
+    "impressions": 0,
+    "clicks": 0,
+    "ctr": 0,
+    "cpc": 0,
+    "conversions": 0,
+    "cpa": 0,
+    "campaigns": [],
+    "keywords": [],
+    "search_terms": []
   },
   "ga4": {
-    "sessions": 502,
-    "users": 416,
-    "new_users": 412,
-    "pageviews": 626,
-    "bounce_rate": 62.55,
-    "duration": "1m 46s",
-    "events": 1909,
-    "conversions": 9,
-    "sources": [
-      {
-        "source": "(direct)",
-        "medium": "(none)",
-        "sessions": 164,
-        "pct": 32.7
-      },
-      {
-        "source": "google",
-        "medium": "organic",
-        "sessions": 103,
-        "pct": 20.5
-      },
-      {
-        "source": "meta_ads",
-        "medium": "motion_dog_02",
-        "sessions": 50,
-        "pct": 10.0
-      },
-      {
-        "source": "meta_ads",
-        "medium": "motion_dog_01",
-        "sessions": 32,
-        "pct": 6.4
-      },
-      {
-        "source": "google",
-        "medium": "cpc",
-        "sessions": 29,
-        "pct": 5.8
-      },
-      {
-        "source": "(not set)",
-        "medium": "(not set)",
-        "sessions": 23,
-        "pct": 4.6
-      },
-      {
-        "source": "meta_ads",
-        "medium": "video_valeria",
-        "sessions": 23,
-        "pct": 4.6
-      },
-      {
-        "source": "m.facebook.com",
-        "medium": "referral",
-        "sessions": 15,
-        "pct": 3.0
-      },
-      {
-        "source": "l.wl.co",
-        "medium": "referral",
-        "sessions": 13,
-        "pct": 2.6
-      },
-      {
-        "source": "facebook.com",
-        "medium": "referral",
-        "sessions": 11,
-        "pct": 2.2
-      },
-      {
-        "source": "tagassistant.google.com",
-        "medium": "referral",
-        "sessions": 10,
-        "pct": 2.0
-      },
-      {
-        "source": "chatgpt.com",
-        "medium": "(not set)",
-        "sessions": 6,
-        "pct": 1.2
-      },
-      {
-        "source": "google",
-        "medium": "search",
-        "sessions": 5,
-        "pct": 1.0
-      },
-      {
-        "source": "bing",
-        "medium": "organic",
-        "sessions": 4,
-        "pct": 0.8
-      },
-      {
-        "source": "eventsmanager.facebook.com",
-        "medium": "referral",
-        "sessions": 2,
-        "pct": 0.4
-      },
-      {
-        "source": "l.facebook.com",
-        "medium": "referral",
-        "sessions": 2,
-        "pct": 0.4
-      },
-      {
-        "source": "linktr.ee",
-        "medium": "referral",
-        "sessions": 2,
-        "pct": 0.4
-      },
-      {
-        "source": "pagina-de-links",
-        "medium": "link-bio",
-        "sessions": 2,
-        "pct": 0.4
-      },
-      {
-        "source": "teste",
-        "medium": "teste",
-        "sessions": 2,
-        "pct": 0.4
-      },
-      {
-        "source": "(data not available)",
-        "medium": "(data not available)",
-        "sessions": 1,
-        "pct": 0.2
-      }
-    ],
-    "event_list": [
-      {
-        "name": "click",
-        "count": 56
-      },
-      {
-        "name": "form_start",
-        "count": 27
-      },
-      {
-        "name": "generate_lead",
-        "count": 11
-      }
-    ]
+    "sessions": 0,
+    "users": 0,
+    "new_users": 0,
+    "pageviews": 0,
+    "bounce_rate": 0.0,
+    "duration": "0m 0s",
+    "events": 0,
+    "conversions": 0,
+    "sources": [],
+    "event_list": []
   },
   "gmb": null
 }

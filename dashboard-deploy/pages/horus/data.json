@@ -1,87 +1,61 @@
 {
   "cliente": "Hórus Treinamento Físico",
   "periodo": {
-    "start": "2026-05-01",
-    "end": "2026-05-31"
+    "start": "2026-06-01",
+    "end": "2026-06-30"
   },
-  "gerado_em": "2026-06-03T16:11:38.642506",
+  "gerado_em": "2026-07-06T09:58:44.346667",
   "consolidado": null,
   "meta": {
-    "spend": 548.05,
-    "reach": 6602,
-    "impressions": 18370,
-    "clicks": 356,
-    "cpm": 29.83,
-    "cpc": 1.54,
-    "ctr": 1.94,
-    "frequency": 2.78,
+    "spend": 346.26,
+    "reach": 4739,
+    "impressions": 12946,
+    "clicks": 286,
+    "cpm": 26.75,
+    "cpc": 1.21,
+    "ctr": 2.21,
+    "frequency": 2.73,
     "campaigns": [
       {
         "name": "[CBO] [DOG HORUS] [MENSAGEM]",
         "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 249.09,
-        "reach": 5087,
-        "impressions": 11194,
-        "clicks": 249,
-        "ctr": 2.22,
-        "cpc": 1.0,
+        "spend": 346.26,
+        "reach": 4739,
+        "impressions": 12946,
+        "clicks": 286,
+        "ctr": 2.21,
+        "cpc": 1.21,
         "result_label": "Mensagens",
-        "result_qty": 18,
-        "result_cpr": 13.84
-      },
-      {
-        "name": "[CBO] [TRIMESTRE TURBINADO MAI/26] [MENSAGEM]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 298.96,
-        "reach": 2406,
-        "impressions": 7176,
-        "clicks": 107,
-        "ctr": 1.49,
-        "cpc": 2.79,
-        "result_label": "Mensagens",
-        "result_qty": 13,
-        "result_cpr": 23.0
+        "result_qty": 20,
+        "result_cpr": 17.31
       }
     ],
     "ads": [
       {
         "name": "VIDEO DOG HORUS",
         "campaign": "[CBO] [DOG HORUS] [MENSAGEM]",
-        "spend": 249.09,
-        "impressions": 11194,
-        "clicks": 249,
-        "ctr": 2.22,
-        "cpc": 1.0,
-        "frequency": 2.2,
+        "spend": 257.2,
+        "impressions": 8595,
+        "clicks": 218,
+        "ctr": 2.54,
+        "cpc": 1.18,
+        "frequency": 2.34,
         "result_label": "Mensagens",
-        "result_qty": 18,
-        "result_cpr": 13.84
+        "result_qty": 12,
+        "result_cpr": 21.43
       },
       {
-        "name": "reels_trimetre_turbinado",
-        "campaign": "[CBO] [TRIMESTRE TURBINADO MAI/26] [MENSAGEM]",
-        "spend": 168.36,
-        "impressions": 3695,
-        "clicks": 50,
-        "ctr": 1.35,
-        "cpc": 3.37,
-        "frequency": 2.31,
+        "name": "academias_vendem",
+        "campaign": "[CBO] [DOG HORUS] [MENSAGEM]",
+        "spend": 89.06,
+        "impressions": 4351,
+        "clicks": 68,
+        "ctr": 1.56,
+        "cpc": 1.31,
+        "frequency": 2.4,
         "result_label": "Mensagens",
         "result_qty": 8,
-        "result_cpr": 21.05
-      },
-      {
-        "name": "feed_trimetre_turbinado",
-        "campaign": "[CBO] [TRIMESTRE TURBINADO MAI/26] [MENSAGEM]",
-        "spend": 130.6,
-        "impressions": 3481,
-        "clicks": 57,
-        "ctr": 1.64,
-        "cpc": 2.29,
-        "frequency": 2.19,
-        "result_label": "Mensagens",
-        "result_qty": 5,
-        "result_cpr": 26.12
+        "result_cpr": 11.13
       }
     ]
   },

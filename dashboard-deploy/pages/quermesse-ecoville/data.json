@@ -1,943 +1,342 @@
 {
   "cliente": "Quermesse Bar — Ecoville",
   "periodo": {
-    "start": "2026-05-01",
-    "end": "2026-05-31"
+    "start": "2026-06-01",
+    "end": "2026-06-30"
   },
-  "gerado_em": "2026-06-03T16:12:25.584654",
+  "gerado_em": "2026-07-06T09:59:52.902339",
   "consolidado": {
-    "spend": 1689.16,
-    "reach": 46927,
-    "impressions": 108819,
-    "clicks": 3118,
-    "meta_spend": 1370.67,
-    "google_spend": 318.49
+    "spend": 1273.69,
+    "reach": 61902,
+    "impressions": 123573,
+    "clicks": 3080,
+    "meta_spend": 1273.69,
+    "google_spend": 0
   },
   "meta": {
-    "spend": 1370.67,
-    "reach": 46927,
-    "impressions": 102942,
-    "clicks": 2799,
-    "cpm": 13.31,
-    "cpc": 0.49,
-    "ctr": 2.72,
-    "frequency": 2.19,
+    "spend": 1273.69,
+    "reach": 61902,
+    "impressions": 123573,
+    "clicks": 3080,
+    "cpm": 10.31,
+    "cpc": 0.41,
+    "ctr": 2.49,
+    "frequency": 2.0,
     "campaigns": [
       {
         "name": "[CBO] [HAPPY HOUR] [ENGAJAMENTO]",
         "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 213.4,
-        "reach": 6149,
-        "impressions": 10975,
-        "clicks": 221,
-        "ctr": 2.01,
-        "cpc": 0.97,
-        "result_label": "Mensagens",
-        "result_qty": 16,
-        "result_cpr": 13.34
-      },
-      {
-        "name": "[CBO] [PARMEGIANA SEXTA] [MENSAGEM]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 179.64,
-        "reach": 5201,
-        "impressions": 9103,
-        "clicks": 245,
-        "ctr": 2.69,
-        "cpc": 0.73,
+        "spend": 216.24,
+        "reach": 7612,
+        "impressions": 12792,
+        "clicks": 268,
+        "ctr": 2.1,
+        "cpc": 0.81,
         "result_label": "Mensagens",
         "result_qty": 21,
-        "result_cpr": 8.55
+        "result_cpr": 10.3
       },
       {
         "name": "[CBO] [TOPO DE FUNIL] [TRAFEGO]",
         "objective": "LINK_CLICKS",
-        "spend": 213.43,
-        "reach": 17513,
-        "impressions": 25537,
-        "clicks": 458,
-        "ctr": 1.79,
-        "cpc": 0.47,
+        "spend": 212.66,
+        "reach": 20023,
+        "impressions": 26177,
+        "clicks": 519,
+        "ctr": 1.98,
+        "cpc": 0.41,
         "result_label": "Cliques",
-        "result_qty": 457,
-        "result_cpr": 0.47
+        "result_qty": 510,
+        "result_cpr": 0.42
       },
       {
         "name": "[CBO] [ANIVERSARIO 1.0] [MENSAGEM]",
         "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 211.81,
-        "reach": 7420,
-        "impressions": 13893,
-        "clicks": 150,
-        "ctr": 1.08,
-        "cpc": 1.41,
+        "spend": 208.88,
+        "reach": 9212,
+        "impressions": 15484,
+        "clicks": 188,
+        "ctr": 1.21,
+        "cpc": 1.11,
         "result_label": "Mensagens",
-        "result_qty": 9,
-        "result_cpr": 23.53
-      },
-      {
-        "name": "[CBO] [QUINTA RAIZ] [MENSAGEM]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 71.78,
-        "reach": 2346,
-        "impressions": 3175,
-        "clicks": 96,
-        "ctr": 3.02,
-        "cpc": 0.75,
-        "result_label": "Mensagens",
-        "result_qty": 7,
-        "result_cpr": 10.25
-      },
-      {
-        "name": "[ABO] [DIA DAS MAES/26] [LEADS]",
-        "objective": "OUTCOME_LEADS",
-        "spend": 101.66,
-        "reach": 3575,
-        "impressions": 7116,
-        "clicks": 296,
-        "ctr": 4.16,
-        "cpc": 0.34,
-        "result_label": "Leads",
-        "result_qty": 5,
-        "result_cpr": 20.33
-      },
-      {
-        "name": "[CBO] [FESTIVAL DO QUENTAO] [LEADS]",
-        "objective": "OUTCOME_LEADS",
-        "spend": 93.67,
-        "reach": 4518,
-        "impressions": 7680,
-        "clicks": 223,
-        "ctr": 2.9,
-        "cpc": 0.42,
-        "result_label": "Leads",
-        "result_qty": 5,
-        "result_cpr": 18.73
+        "result_qty": 12,
+        "result_cpr": 17.41
       },
       {
         "name": "[CBO] [FEIJOADA FDS] [RESERVAS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 99.66,
-        "reach": 4053,
-        "impressions": 5543,
-        "clicks": 462,
-        "ctr": 8.33,
-        "cpc": 0.22,
+        "spend": 100.33,
+        "reach": 5101,
+        "impressions": 7341,
+        "clicks": 426,
+        "ctr": 5.8,
+        "cpc": 0.24,
         "result_label": "Leads",
-        "result_qty": 2,
-        "result_cpr": 49.83
+        "result_qty": 1,
+        "result_cpr": 100.33
       },
       {
         "name": "[CBO] [RODIZIO DE CALDOS 26] [RESERVAS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 49.66,
-        "reach": 5098,
-        "impressions": 6627,
-        "clicks": 172,
-        "ctr": 2.6,
-        "cpc": 0.29,
+        "spend": 150.34,
+        "reach": 15414,
+        "impressions": 22162,
+        "clicks": 458,
+        "ctr": 2.07,
+        "cpc": 0.33,
         "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_qty": 1,
+        "result_cpr": 150.34
       },
       {
         "name": "[CBO] [DIA DOS NAMORADOS 26] [RESERVAS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 51.67,
-        "reach": 2825,
-        "impressions": 4210,
-        "clicks": 106,
-        "ctr": 2.52,
-        "cpc": 0.49,
+        "spend": 148.33,
+        "reach": 8404,
+        "impressions": 13231,
+        "clicks": 650,
+        "ctr": 4.91,
+        "cpc": 0.23,
         "result_label": "Leads",
-        "result_qty": 5,
-        "result_cpr": 10.33
+        "result_qty": 69,
+        "result_cpr": 2.15
       },
       {
         "name": "[CBO] [ARRAIA 2026] [RESERVAS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 54.35,
-        "reach": 3639,
-        "impressions": 5863,
-        "clicks": 288,
-        "ctr": 4.91,
-        "cpc": 0.19,
+        "spend": 45.58,
+        "reach": 3054,
+        "impressions": 4431,
+        "clicks": 141,
+        "ctr": 3.18,
+        "cpc": 0.32,
         "result_label": "Leads",
-        "result_qty": 7,
-        "result_cpr": 7.76
+        "result_qty": 8,
+        "result_cpr": 5.7
       },
       {
-        "name": "[CBO] [FINAL CHAMPIONS 26] [RESERVAS]",
+        "name": "[SOPAS] [LEADS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 29.94,
-        "reach": 2497,
-        "impressions": 3220,
-        "clicks": 82,
-        "ctr": 2.55,
-        "cpc": 0.37,
+        "spend": 99.99,
+        "reach": 9062,
+        "impressions": 13870,
+        "clicks": 261,
+        "ctr": 1.88,
+        "cpc": 0.38,
+        "result_label": "Leads",
+        "result_qty": 1,
+        "result_cpr": 99.99
+      },
+      {
+        "name": "[COPA DO MUNDO] [RESERVAS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 32.96,
+        "reach": 1898,
+        "impressions": 2865,
+        "clicks": 110,
+        "ctr": 3.84,
+        "cpc": 0.3,
+        "result_label": "Leads",
+        "result_qty": 8,
+        "result_cpr": 4.12
+      },
+      {
+        "name": "[JOGO BRASIL X JAPAO] [RESERVAS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 48.77,
+        "reach": 2267,
+        "impressions": 4100,
+        "clicks": 45,
+        "ctr": 1.1,
+        "cpc": 1.08,
         "result_label": "Leads",
         "result_qty": 0,
         "result_cpr": 0
+      },
+      {
+        "name": "[ANIVERSARIANTES] [RESERVAS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 9.61,
+        "reach": 1036,
+        "impressions": 1120,
+        "clicks": 14,
+        "ctr": 1.25,
+        "cpc": 0.69,
+        "result_label": "Leads",
+        "result_qty": 1,
+        "result_cpr": 9.61
       }
     ],
     "ads": [
       {
         "name": "HAPPY HOUR 10 FEV",
         "campaign": "[CBO] [HAPPY HOUR] [ENGAJAMENTO]",
-        "spend": 213.4,
-        "impressions": 10975,
-        "clicks": 221,
-        "ctr": 2.01,
-        "cpc": 0.97,
-        "frequency": 1.78,
-        "result_label": "Mensagens",
-        "result_qty": 16,
-        "result_cpr": 13.34
-      },
-      {
-        "name": "PARMEGIANA SEXTA",
-        "campaign": "[CBO] [PARMEGIANA SEXTA] [MENSAGEM]",
-        "spend": 179.64,
-        "impressions": 9103,
-        "clicks": 245,
-        "ctr": 2.69,
-        "cpc": 0.73,
-        "frequency": 1.75,
+        "spend": 216.24,
+        "impressions": 12792,
+        "clicks": 268,
+        "ctr": 2.1,
+        "cpc": 0.81,
+        "frequency": 1.68,
         "result_label": "Mensagens",
         "result_qty": 21,
-        "result_cpr": 8.55
+        "result_cpr": 10.3
       },
       {
         "name": "VIDEO TOPO 24/NOV",
         "campaign": "[CBO] [TOPO DE FUNIL] [TRAFEGO]",
-        "spend": 213.43,
-        "impressions": 25537,
-        "clicks": 458,
-        "ctr": 1.79,
-        "cpc": 0.47,
-        "frequency": 1.46,
+        "spend": 212.66,
+        "impressions": 26177,
+        "clicks": 519,
+        "ctr": 1.98,
+        "cpc": 0.41,
+        "frequency": 1.31,
         "result_label": "Cliques",
-        "result_qty": 457,
-        "result_cpr": 0.47
+        "result_qty": 510,
+        "result_cpr": 0.42
       },
       {
         "name": "VIDEO ANIVERSARIO",
         "campaign": "[CBO] [ANIVERSARIO 1.0] [MENSAGEM]",
-        "spend": 211.81,
-        "impressions": 13893,
-        "clicks": 150,
-        "ctr": 1.08,
-        "cpc": 1.41,
-        "frequency": 1.87,
+        "spend": 208.88,
+        "impressions": 15484,
+        "clicks": 188,
+        "ctr": 1.21,
+        "cpc": 1.11,
+        "frequency": 1.68,
         "result_label": "Mensagens",
-        "result_qty": 9,
-        "result_cpr": 23.53
-      },
-      {
-        "name": "VIDEO QUINTA RAIZ",
-        "campaign": "[CBO] [QUINTA RAIZ] [MENSAGEM]",
-        "spend": 71.78,
-        "impressions": 3175,
-        "clicks": 96,
-        "ctr": 3.02,
-        "cpc": 0.75,
-        "frequency": 1.35,
-        "result_label": "Mensagens",
-        "result_qty": 7,
-        "result_cpr": 10.25
-      },
-      {
-        "name": "video_maes_26",
-        "campaign": "[ABO] [DIA DAS MAES/26] [LEADS]",
-        "spend": 74.65,
-        "impressions": 5224,
-        "clicks": 197,
-        "ctr": 3.77,
-        "cpc": 0.38,
-        "frequency": 1.77,
-        "result_label": "Leads",
-        "result_qty": 4,
-        "result_cpr": 18.66
-      },
-      {
-        "name": "feed_maes_26",
-        "campaign": "[ABO] [DIA DAS MAES/26] [LEADS]",
-        "spend": 27.01,
-        "impressions": 1892,
-        "clicks": 99,
-        "ctr": 5.23,
-        "cpc": 0.27,
-        "frequency": 1.53,
-        "result_label": "Leads",
-        "result_qty": 1,
-        "result_cpr": 27.01
-      },
-      {
-        "name": "vd_01_fest_quentao",
-        "campaign": "[CBO] [FESTIVAL DO QUENTAO] [LEADS]",
-        "spend": 69.3,
-        "impressions": 5552,
-        "clicks": 160,
-        "ctr": 2.88,
-        "cpc": 0.43,
-        "frequency": 1.47,
-        "result_label": "Leads",
-        "result_qty": 3,
-        "result_cpr": 23.1
-      },
-      {
-        "name": "feed_fest_quentao",
-        "campaign": "[CBO] [FESTIVAL DO QUENTAO] [LEADS]",
-        "spend": 10.76,
-        "impressions": 725,
-        "clicks": 27,
-        "ctr": 3.72,
-        "cpc": 0.4,
-        "frequency": 1.27,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
-      },
-      {
-        "name": "vd_02_fest_quentao",
-        "campaign": "[CBO] [FESTIVAL DO QUENTAO] [LEADS]",
-        "spend": 13.61,
-        "impressions": 1403,
-        "clicks": 36,
-        "ctr": 2.57,
-        "cpc": 0.38,
-        "frequency": 1.37,
-        "result_label": "Leads",
-        "result_qty": 2,
-        "result_cpr": 6.8
+        "result_qty": 12,
+        "result_cpr": 17.41
       },
       {
         "name": "vd_feijoada_influencer",
         "campaign": "[CBO] [FEIJOADA FDS] [RESERVAS]",
-        "spend": 99.66,
-        "impressions": 5543,
-        "clicks": 462,
-        "ctr": 8.33,
-        "cpc": 0.22,
-        "frequency": 1.37,
+        "spend": 100.33,
+        "impressions": 7341,
+        "clicks": 426,
+        "ctr": 5.8,
+        "cpc": 0.24,
+        "frequency": 1.44,
         "result_label": "Leads",
-        "result_qty": 2,
-        "result_cpr": 49.83
+        "result_qty": 1,
+        "result_cpr": 100.33
       },
       {
         "name": "feed_caldos_mai_26",
         "campaign": "[CBO] [RODIZIO DE CALDOS 26] [RESERVAS]",
-        "spend": 49.66,
-        "impressions": 6627,
-        "clicks": 172,
-        "ctr": 2.6,
-        "cpc": 0.29,
-        "frequency": 1.3,
+        "spend": 150.34,
+        "impressions": 22162,
+        "clicks": 458,
+        "ctr": 2.07,
+        "cpc": 0.33,
+        "frequency": 1.44,
         "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_qty": 1,
+        "result_cpr": 150.34
       },
       {
         "name": "feed_dia_dos_namorados",
         "campaign": "[CBO] [DIA DOS NAMORADOS 26] [RESERVAS]",
-        "spend": 51.67,
-        "impressions": 4210,
-        "clicks": 106,
-        "ctr": 2.52,
-        "cpc": 0.49,
-        "frequency": 1.49,
+        "spend": 47.18,
+        "impressions": 3329,
+        "clicks": 92,
+        "ctr": 2.76,
+        "cpc": 0.51,
+        "frequency": 1.3,
         "result_label": "Leads",
-        "result_qty": 5,
-        "result_cpr": 10.33
+        "result_qty": 10,
+        "result_cpr": 4.72
       },
       {
         "name": "feed_arraia_26",
         "campaign": "[CBO] [ARRAIA 2026] [RESERVAS]",
-        "spend": 54.35,
-        "impressions": 5863,
-        "clicks": 288,
-        "ctr": 4.91,
-        "cpc": 0.19,
-        "frequency": 1.61,
+        "spend": 45.58,
+        "impressions": 4431,
+        "clicks": 141,
+        "ctr": 3.18,
+        "cpc": 0.32,
+        "frequency": 1.45,
         "result_label": "Leads",
-        "result_qty": 7,
-        "result_cpr": 7.76
+        "result_qty": 8,
+        "result_cpr": 5.7
       },
       {
-        "name": "feed_champions",
-        "campaign": "[CBO] [FINAL CHAMPIONS 26] [RESERVAS]",
-        "spend": 29.94,
-        "impressions": 3220,
-        "clicks": 82,
-        "ctr": 2.55,
-        "cpc": 0.37,
-        "frequency": 1.29,
+        "name": "reels_dia_dos_namorados",
+        "campaign": "[CBO] [DIA DOS NAMORADOS 26] [RESERVAS]",
+        "spend": 101.15,
+        "impressions": 9902,
+        "clicks": 558,
+        "ctr": 5.64,
+        "cpc": 0.18,
+        "frequency": 1.51,
+        "result_label": "Leads",
+        "result_qty": 59,
+        "result_cpr": 1.71
+      },
+      {
+        "name": "feed_sopas",
+        "campaign": "[SOPAS] [LEADS]",
+        "spend": 99.99,
+        "impressions": 13870,
+        "clicks": 261,
+        "ctr": 1.88,
+        "cpc": 0.38,
+        "frequency": 1.53,
+        "result_label": "Leads",
+        "result_qty": 1,
+        "result_cpr": 99.99
+      },
+      {
+        "name": "feed_brasil_haiti",
+        "campaign": "[COPA DO MUNDO] [RESERVAS]",
+        "spend": 32.96,
+        "impressions": 2865,
+        "clicks": 110,
+        "ctr": 3.84,
+        "cpc": 0.3,
+        "frequency": 1.51,
+        "result_label": "Leads",
+        "result_qty": 8,
+        "result_cpr": 4.12
+      },
+      {
+        "name": "jogo_brasil_japao",
+        "campaign": "[JOGO BRASIL X JAPAO] [RESERVAS]",
+        "spend": 48.77,
+        "impressions": 4100,
+        "clicks": 45,
+        "ctr": 1.1,
+        "cpc": 1.08,
+        "frequency": 1.81,
         "result_label": "Leads",
         "result_qty": 0,
         "result_cpr": 0
+      },
+      {
+        "name": "vd_aniversariantes_11_agosto",
+        "campaign": "[ANIVERSARIANTES] [RESERVAS]",
+        "spend": 9.61,
+        "impressions": 1120,
+        "clicks": 14,
+        "ctr": 1.25,
+        "cpc": 0.69,
+        "frequency": 1.08,
+        "result_label": "Leads",
+        "result_qty": 1,
+        "result_cpr": 9.61
       }
     ]
   },
   "google": {
-    "spend": 318.49,
-    "impressions": 5877,
-    "clicks": 319,
-    "ctr": 5.43,
-    "cpc": 1.0,
-    "conversions": 2,
-    "cpa": 159.25,
-    "campaigns": [
-      {
-        "name": "[REDE DE PESQUISAS] [2026]",
-        "type": "Search",
-        "status": "Enabled",
-        "spend": 318.49,
-        "impressions": 5877,
-        "clicks": 319,
-        "ctr": 5.43,
-        "cpc": 1.0,
-        "conversions": 2
-      }
-    ],
-    "keywords": [
-      {
-        "keyword": "barzinhos em curitiba",
-        "match": "Broad",
-        "impressions": 2200,
-        "clicks": 163,
-        "ctr": 7.41,
-        "cpc": 0.97,
-        "conversions": 1
-      },
-      {
-        "keyword": "lugar para comer em curitiba",
-        "match": "Broad",
-        "impressions": 891,
-        "clicks": 40,
-        "ctr": 4.49,
-        "cpc": 1.9,
-        "conversions": 0
-      },
-      {
-        "keyword": "quermesse em curitiba",
-        "match": "Broad",
-        "impressions": 228,
-        "clicks": 25,
-        "ctr": 10.96,
-        "cpc": 1.01,
-        "conversions": 1
-      },
-      {
-        "keyword": "quermesse",
-        "match": "Broad",
-        "impressions": 290,
-        "clicks": 26,
-        "ctr": 8.97,
-        "cpc": 0.62,
-        "conversions": 0
-      },
-      {
-        "keyword": "restaurantes para eventos pequenos em curitiba",
-        "match": "Broad",
-        "impressions": 43,
-        "clicks": 2,
-        "ctr": 4.65,
-        "cpc": 1.69,
-        "conversions": 0
-      },
-      {
-        "keyword": "restaurante em curitiba",
-        "match": "Broad",
-        "impressions": 23,
-        "clicks": 1,
-        "ctr": 4.35,
-        "cpc": 2.08,
-        "conversions": 0
-      },
-      {
-        "keyword": "Bares em Curitiba",
-        "match": "Broad",
-        "impressions": 10,
-        "clicks": 1,
-        "ctr": 10.0,
-        "cpc": 0.95,
-        "conversions": 0
-      },
-      {
-        "keyword": "bar quermesse em curitiba",
-        "match": "Broad",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 0.41,
-        "conversions": 0
-      },
-      {
-        "keyword": "onde sair em curitiba",
-        "match": "Broad",
-        "impressions": 11,
-        "clicks": 1,
-        "ctr": 9.09,
-        "cpc": 0.14,
-        "conversions": 0
-      },
-      {
-        "keyword": "comer em curitiba",
-        "match": "Broad",
-        "impressions": 48,
-        "clicks": 1,
-        "ctr": 2.08,
-        "cpc": 0.01,
-        "conversions": 0
-      },
-      {
-        "keyword": "restaurante de curitiba",
-        "match": "Broad",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "bares com musica ao vivo em curitiba",
-        "match": "Broad",
-        "impressions": 4,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "bar bom e barato em curitiba",
-        "match": "Broad",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "barzinhos em curitiba música ao vivo",
-        "match": "Broad",
-        "impressions": 8,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "Boteco Curitiba",
-        "match": "Broad",
-        "impressions": 26,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      }
-    ],
-    "search_terms": [
-      {
-        "term": "quermesse bar",
-        "keyword": "—",
-        "impressions": 407,
-        "clicks": 54,
-        "ctr": 13.27,
-        "cpc": 0.84
-      },
-      {
-        "term": "quermesse ecoville",
-        "keyword": "—",
-        "impressions": 223,
-        "clicks": 25,
-        "ctr": 11.21,
-        "cpc": 1.01
-      },
-      {
-        "term": "bar quermesse",
-        "keyword": "—",
-        "impressions": 226,
-        "clicks": 22,
-        "ctr": 9.73,
-        "cpc": 0.73
-      },
-      {
-        "term": "quermesse curitiba",
-        "keyword": "—",
-        "impressions": 168,
-        "clicks": 25,
-        "ctr": 14.88,
-        "cpc": 0.57
-      },
-      {
-        "term": "quermesse",
-        "keyword": "—",
-        "impressions": 256,
-        "clicks": 23,
-        "ctr": 8.98,
-        "cpc": 0.6
-      },
-      {
-        "term": "la varenne telefone",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 7.99
-      },
-      {
-        "term": "nativas grill curitiba",
-        "keyword": "—",
-        "impressions": 4,
-        "clicks": 3,
-        "ctr": 75.0,
-        "cpc": 2.46
-      },
-      {
-        "term": "barolo curitiba",
-        "keyword": "—",
-        "impressions": 60,
-        "clicks": 2,
-        "ctr": 3.33,
-        "cpc": 2.34
-      },
-      {
-        "term": "restaurante quermesse curitiba",
-        "keyword": "—",
-        "impressions": 7,
-        "clicks": 3,
-        "ctr": 42.86,
-        "cpc": 1.44
-      },
-      {
-        "term": "bar quermesse curitiba",
-        "keyword": "—",
-        "impressions": 95,
-        "clicks": 6,
-        "ctr": 6.32,
-        "cpc": 0.72
-      },
-      {
-        "term": "bar quermesse ecoville",
-        "keyword": "—",
-        "impressions": 51,
-        "clicks": 4,
-        "ctr": 7.84,
-        "cpc": 0.94
-      },
-      {
-        "term": "madalosso curitiba",
-        "keyword": "—",
-        "impressions": 14,
-        "clicks": 2,
-        "ctr": 14.29,
-        "cpc": 1.86
-      },
-      {
-        "term": "quermesse campo comprido",
-        "keyword": "—",
-        "impressions": 51,
-        "clicks": 5,
-        "ctr": 9.8,
-        "cpc": 0.74
-      },
-      {
-        "term": "honey vox curitiba",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 3.47
-      },
-      {
-        "term": "coco bambu crystal",
-        "keyword": "—",
-        "impressions": 3,
-        "clicks": 1,
-        "ctr": 33.33,
-        "cpc": 3.06
-      },
-      {
-        "term": "bar do victor santa felicidade telefone",
-        "keyword": "—",
-        "impressions": 5,
-        "clicks": 1,
-        "ctr": 20.0,
-        "cpc": 2.92
-      },
-      {
-        "term": "restaurante bombardi",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 2.56
-      },
-      {
-        "term": "mangiare felice batel",
-        "keyword": "—",
-        "impressions": 4,
-        "clicks": 1,
-        "ctr": 25.0,
-        "cpc": 2.52
-      },
-      {
-        "term": "quermesse bar ecoville",
-        "keyword": "—",
-        "impressions": 15,
-        "clicks": 2,
-        "ctr": 13.33,
-        "cpc": 1.21
-      },
-      {
-        "term": "ile de france curitiba",
-        "keyword": "—",
-        "impressions": 4,
-        "clicks": 1,
-        "ctr": 25.0,
-        "cpc": 2.3
-      },
-      {
-        "term": "bar do preto curitiba",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 2.29
-      },
-      {
-        "term": "bar ao distinto cavalheiro",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 2.01
-      },
-      {
-        "term": "restaurante bom e barato em curitiba abertos agora",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 1.98
-      },
-      {
-        "term": "terrazza 40 preço",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 2,
-        "ctr": 200.0,
-        "cpc": 0.95
-      },
-      {
-        "term": "fornao juveve",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 2,
-        "ctr": 200.0,
-        "cpc": 0.91
-      },
-      {
-        "term": "bar quermesse ecoville curitiba",
-        "keyword": "—",
-        "impressions": 7,
-        "clicks": 1,
-        "ctr": 14.29,
-        "cpc": 1.74
-      },
-      {
-        "term": "restaurante hora extra curitiba",
-        "keyword": "—",
-        "impressions": 3,
-        "clicks": 1,
-        "ctr": 33.33,
-        "cpc": 1.65
-      },
-      {
-        "term": "recanto gaucho avenida das torres",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 1.6
-      },
-      {
-        "term": "restaurantes perto de mim",
-        "keyword": "—",
-        "impressions": 4,
-        "clicks": 1,
-        "ctr": 25.0,
-        "cpc": 1.53
-      },
-      {
-        "term": "restaurante hora extra",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 1.5
-      },
-      {
-        "term": "rodizio de churrasco em curitiba",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 2,
-        "ctr": 200.0,
-        "cpc": 0.71
-      },
-      {
-        "term": "taisho reserva",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 1.39
-      },
-      {
-        "term": "claymore rock",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 1.26
-      },
-      {
-        "term": "jardins grill telefone",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 1.24
-      },
-      {
-        "term": "bar quermesse curitiba rua carlos pioli bom retiro curitiba pr",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 1.23
-      },
-      {
-        "term": "piegel café colonial",
-        "keyword": "—",
-        "impressions": 3,
-        "clicks": 1,
-        "ctr": 33.33,
-        "cpc": 1.22
-      },
-      {
-        "term": "tartaruga restaurante",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 1.15
-      },
-      {
-        "term": "jabuti bar telefone",
-        "keyword": "—",
-        "impressions": 13,
-        "clicks": 1,
-        "ctr": 7.69,
-        "cpc": 1.14
-      },
-      {
-        "term": "dona madalena bar curitiba",
-        "keyword": "—",
-        "impressions": 3,
-        "clicks": 1,
-        "ctr": 33.33,
-        "cpc": 1.13
-      },
-      {
-        "term": "queesse",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 2,
-        "ctr": 100.0,
-        "cpc": 0.53
-      },
-      {
-        "term": "famiglia fadanelli curitiba",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 1.02
-      },
-      {
-        "term": "paparicos bar",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 0.95
-      },
-      {
-        "term": "restaurante barolo shopping barigui",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 0.88
-      },
-      {
-        "term": "bares para comemorar aniversário em curitiba",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 0.86
-      },
-      {
-        "term": "brunch em curitiba",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 0.81
-      },
-      {
-        "term": "buteco curitiba novo mundo",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 0.75
-      },
-      {
-        "term": "feijoada curitiba",
-        "keyword": "—",
-        "impressions": 6,
-        "clicks": 1,
-        "ctr": 16.67,
-        "cpc": 0.57
-      },
-      {
-        "term": "quermesse curitiba petiscos e comida caseira",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 0.51
-      },
-      {
-        "term": "quermesse curtiba petiscos e comida caseira rua carlos pioli bom retiro curitiba pr",
-        "keyword": "—",
-        "impressions": 3,
-        "clicks": 1,
-        "ctr": 33.33,
-        "cpc": 0.44
-      },
-      {
-        "term": "bar quermesse em curitiba",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 0.41
-      }
-    ]
+    "spend": 0,
+    "impressions": 0,
+    "clicks": 0,
+    "ctr": 0,
+    "cpc": 0,
+    "conversions": 0,
+    "cpa": 0,
+    "campaigns": [],
+    "keywords": [],
+    "search_terms": []
   },
   "ga4": {
     "sessions": 0,

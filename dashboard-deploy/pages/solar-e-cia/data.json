@@ -1,48 +1,48 @@
 {
   "cliente": "Solar e Cia",
   "periodo": {
-    "start": "2026-05-01",
-    "end": "2026-05-31"
+    "start": "2026-06-01",
+    "end": "2026-06-30"
   },
-  "gerado_em": "2026-06-03T16:12:11.280494",
+  "gerado_em": "2026-07-06T10:00:07.938841",
   "consolidado": null,
   "meta": {
-    "spend": 540.69,
-    "reach": 8145,
-    "impressions": 18486,
-    "clicks": 274,
-    "cpm": 29.25,
-    "cpc": 1.97,
-    "ctr": 1.48,
-    "frequency": 2.27,
+    "spend": 548.68,
+    "reach": 11035,
+    "impressions": 22503,
+    "clicks": 399,
+    "cpm": 24.38,
+    "cpc": 1.38,
+    "ctr": 1.77,
+    "frequency": 2.04,
     "campaigns": [
       {
         "name": "[ABO] [VENDAS 2.0] [MENSAGEM]",
         "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 540.69,
-        "reach": 8145,
-        "impressions": 18486,
-        "clicks": 274,
-        "ctr": 1.48,
-        "cpc": 1.97,
+        "spend": 548.68,
+        "reach": 11035,
+        "impressions": 22503,
+        "clicks": 399,
+        "ctr": 1.77,
+        "cpc": 1.38,
         "result_label": "Mensagens",
         "result_qty": 45,
-        "result_cpr": 12.02
+        "result_cpr": 12.19
       }
     ],
     "ads": [
       {
         "name": "VIDEO BELLA",
         "campaign": "[ABO] [VENDAS 2.0] [MENSAGEM]",
-        "spend": 540.69,
-        "impressions": 18486,
-        "clicks": 274,
-        "ctr": 1.48,
-        "cpc": 1.97,
-        "frequency": 2.27,
+        "spend": 548.68,
+        "impressions": 22503,
+        "clicks": 399,
+        "ctr": 1.77,
+        "cpc": 1.38,
+        "frequency": 2.04,
         "result_label": "Mensagens",
         "result_qty": 45,
-        "result_cpr": 12.02
+        "result_cpr": 12.19
       }
     ]
   },
