@@ -47,7 +47,7 @@ clientes:
     senha: "ecoville2026"
     meta_account: "act_2347752075729504"
     gads_customer: "3729637176"
-    ga4_property: "527580841"
+    ga4_property: "527523361"
     servicos: [meta, google, ga4]
 
   # ── Floreria Café.Bar ─────────────────────────────────────────────────────

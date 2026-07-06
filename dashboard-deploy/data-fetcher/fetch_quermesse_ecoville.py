@@ -16,7 +16,7 @@ GA4_REPORTS  = SKILLS / "ga4-ratos/scripts/reports.py"
 OUT_DIR = Path(__file__).parent.parent / "pages/quermesse-ecoville"
 META_ACCOUNT   = "act_2347752075729504"
 GADS_CUSTOMER  = "3729637176"
-GA4_PROPERTY   = "527580841"
+GA4_PROPERTY   = "527523361"
 
 def run(cmd, label=""):
     try:
