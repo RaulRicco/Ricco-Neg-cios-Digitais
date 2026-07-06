@@ -4,14 +4,14 @@
     "start": "2026-06-01",
     "end": "2026-06-30"
   },
-  "gerado_em": "2026-07-06T09:59:46.541924",
+  "gerado_em": "2026-07-06T10:35:32.633256",
   "consolidado": {
-    "spend": 1326.73,
+    "spend": 1894.69,
     "reach": 116133,
-    "impressions": 198455,
-    "clicks": 4763,
+    "impressions": 206985,
+    "clicks": 5213,
     "meta_spend": 1326.73,
-    "google_spend": 0
+    "google_spend": 567.96
   },
   "meta": {
     "spend": 1326.73,
@@ -340,28 +340,777 @@
     ]
   },
   "google": {
-    "spend": 0,
-    "impressions": 0,
-    "clicks": 0,
-    "ctr": 0,
-    "cpc": 0,
-    "conversions": 0,
-    "cpa": 0,
-    "campaigns": [],
-    "keywords": [],
-    "search_terms": []
+    "spend": 567.96,
+    "impressions": 8530,
+    "clicks": 450,
+    "ctr": 5.28,
+    "cpc": 1.26,
+    "conversions": 2,
+    "cpa": 283.98,
+    "campaigns": [
+      {
+        "name": "[REDE DE PESQUISAS] [2026]",
+        "type": "Search",
+        "status": "Paused",
+        "spend": 357.84,
+        "impressions": 3298,
+        "clicks": 319,
+        "ctr": 9.67,
+        "cpc": 1.12,
+        "conversions": 2
+      },
+      {
+        "name": "Rede de pesquisas 2.0",
+        "type": "Search",
+        "status": "Enabled",
+        "spend": 197.21,
+        "impressions": 4390,
+        "clicks": 75,
+        "ctr": 1.71,
+        "cpc": 2.63,
+        "conversions": 0
+      },
+      {
+        "name": "[PMAX] [RESERVAS]",
+        "type": "Performance_Max",
+        "status": "Paused",
+        "spend": 12.91,
+        "impressions": 842,
+        "clicks": 56,
+        "ctr": 6.65,
+        "cpc": 0.23,
+        "conversions": 0
+      }
+    ],
+    "keywords": [
+      {
+        "keyword": "Bares em Curitiba",
+        "match": "Exact",
+        "impressions": 1685,
+        "clicks": 169,
+        "ctr": 10.03,
+        "cpc": 1.06,
+        "conversions": 0
+      },
+      {
+        "keyword": "onde sair em curitiba",
+        "match": "Exact",
+        "impressions": 2518,
+        "clicks": 41,
+        "ctr": 1.63,
+        "cpc": 2.6,
+        "conversions": 0
+      },
+      {
+        "keyword": "restaurante em curitiba",
+        "match": "Exact",
+        "impressions": 1026,
+        "clicks": 14,
+        "ctr": 1.36,
+        "cpc": 2.79,
+        "conversions": 0
+      },
+      {
+        "keyword": "bar em curitiba",
+        "match": "Exact",
+        "impressions": 541,
+        "clicks": 10,
+        "ctr": 1.85,
+        "cpc": 2.83,
+        "conversions": 0
+      },
+      {
+        "keyword": "Quermesse Bar",
+        "match": "Exact",
+        "impressions": 169,
+        "clicks": 20,
+        "ctr": 11.83,
+        "cpc": 1.02,
+        "conversions": 0
+      },
+      {
+        "keyword": "melhor bar de curitiba",
+        "match": "Exact",
+        "impressions": 156,
+        "clicks": 6,
+        "ctr": 3.85,
+        "cpc": 2.43,
+        "conversions": 0
+      },
+      {
+        "keyword": "barzinho em curitiba",
+        "match": "Exact",
+        "impressions": 149,
+        "clicks": 4,
+        "ctr": 2.68,
+        "cpc": 2.21,
+        "conversions": 0
+      },
+      {
+        "keyword": "Quermesse",
+        "match": "Exact",
+        "impressions": 162,
+        "clicks": 7,
+        "ctr": 4.32,
+        "cpc": 1.05,
+        "conversions": 0
+      },
+      {
+        "keyword": "Bar com comida Curitiba",
+        "match": "Exact",
+        "impressions": 43,
+        "clicks": 4,
+        "ctr": 9.3,
+        "cpc": 1.05,
+        "conversions": 0
+      },
+      {
+        "keyword": "Restaurante Bom Retiro Curitiba",
+        "match": "Broad",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 3.01,
+        "conversions": 0
+      },
+      {
+        "keyword": "Gastronomia Curitiba",
+        "match": "Broad",
+        "impressions": 12,
+        "clicks": 1,
+        "ctr": 8.33,
+        "cpc": 1.36,
+        "conversions": 0
+      },
+      {
+        "keyword": "Chopp artesanal Curitiba",
+        "match": "Broad",
+        "impressions": 31,
+        "clicks": 3,
+        "ctr": 9.68,
+        "cpc": 0.31,
+        "conversions": 0
+      },
+      {
+        "keyword": "Cerveja artesanal Curitiba",
+        "match": "Broad",
+        "impressions": 33,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "Restaurante em Curitiba",
+        "match": "Broad",
+        "impressions": 22,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "Bares e restaurantes Curitiba",
+        "match": "Broad",
+        "impressions": 3,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "Bar com petiscos Curitiba",
+        "match": "Exact",
+        "impressions": 3,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "Bar com música ao vivo Curitiba",
+        "match": "Exact",
+        "impressions": 4,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "Bar tradicional Curitiba",
+        "match": "Exact",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "Boteco Curitiba",
+        "match": "Exact",
+        "impressions": 28,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      }
+    ],
+    "search_terms": [
+      {
+        "term": "quermesse bar",
+        "keyword": "—",
+        "impressions": 569,
+        "clicks": 79,
+        "ctr": 13.88,
+        "cpc": 1.18
+      },
+      {
+        "term": "bar quermesse",
+        "keyword": "—",
+        "impressions": 501,
+        "clicks": 76,
+        "ctr": 15.17,
+        "cpc": 1.02
+      },
+      {
+        "term": "o que fazer em curitiba hoje",
+        "keyword": "—",
+        "impressions": 328,
+        "clicks": 10,
+        "ctr": 3.05,
+        "cpc": 2.59
+      },
+      {
+        "term": "bar quermesse curitiba",
+        "keyword": "—",
+        "impressions": 235,
+        "clicks": 20,
+        "ctr": 8.51,
+        "cpc": 1.13
+      },
+      {
+        "term": "quermesse curitiba",
+        "keyword": "—",
+        "impressions": 281,
+        "clicks": 30,
+        "ctr": 10.68,
+        "cpc": 0.66
+      },
+      {
+        "term": "o que fazer em curitiba",
+        "keyword": "—",
+        "impressions": 745,
+        "clicks": 6,
+        "ctr": 0.81,
+        "cpc": 2.49
+      },
+      {
+        "term": "restaurante curitiba",
+        "keyword": "—",
+        "impressions": 248,
+        "clicks": 3,
+        "ctr": 1.21,
+        "cpc": 4.37
+      },
+      {
+        "term": "quermesse bom retiro",
+        "keyword": "—",
+        "impressions": 96,
+        "clicks": 9,
+        "ctr": 9.38,
+        "cpc": 1.37
+      },
+      {
+        "term": "bar em curitiba",
+        "keyword": "—",
+        "impressions": 64,
+        "clicks": 4,
+        "ctr": 6.25,
+        "cpc": 2.81
+      },
+      {
+        "term": "quermesse",
+        "keyword": "—",
+        "impressions": 175,
+        "clicks": 9,
+        "ctr": 5.14,
+        "cpc": 1.19
+      },
+      {
+        "term": "quermesse campo comprido",
+        "keyword": "—",
+        "impressions": 61,
+        "clicks": 11,
+        "ctr": 18.03,
+        "cpc": 0.9
+      },
+      {
+        "term": "quermesse ecoville",
+        "keyword": "—",
+        "impressions": 29,
+        "clicks": 4,
+        "ctr": 13.79,
+        "cpc": 2.23
+      },
+      {
+        "term": "barzinhos em curitiba",
+        "keyword": "—",
+        "impressions": 63,
+        "clicks": 3,
+        "ctr": 4.76,
+        "cpc": 2.77
+      },
+      {
+        "term": "bar quermesse bom retiro",
+        "keyword": "—",
+        "impressions": 33,
+        "clicks": 4,
+        "ctr": 12.12,
+        "cpc": 1.92
+      },
+      {
+        "term": "turismo em curitiba",
+        "keyword": "—",
+        "impressions": 37,
+        "clicks": 2,
+        "ctr": 5.41,
+        "cpc": 3.7
+      },
+      {
+        "term": "bar quermesse ecoville",
+        "keyword": "—",
+        "impressions": 77,
+        "clicks": 7,
+        "ctr": 9.09,
+        "cpc": 0.99
+      },
+      {
+        "term": "que fazer em curitiba",
+        "keyword": "—",
+        "impressions": 10,
+        "clicks": 1,
+        "ctr": 10.0,
+        "cpc": 6.61
+      },
+      {
+        "term": "cardápio de bar quermesse curitiba",
+        "keyword": "—",
+        "impressions": 39,
+        "clicks": 6,
+        "ctr": 15.38,
+        "cpc": 1.07
+      },
+      {
+        "term": "botecos em curitiba",
+        "keyword": "—",
+        "impressions": 9,
+        "clicks": 2,
+        "ctr": 22.22,
+        "cpc": 2.79
+      },
+      {
+        "term": "restaurante em curitiba",
+        "keyword": "—",
+        "impressions": 85,
+        "clicks": 2,
+        "ctr": 2.35,
+        "cpc": 2.52
+      },
+      {
+        "term": "onde ir hoje em curitiba",
+        "keyword": "—",
+        "impressions": 11,
+        "clicks": 2,
+        "ctr": 18.18,
+        "cpc": 2.46
+      },
+      {
+        "term": "o que fazer hoje em curitiba",
+        "keyword": "—",
+        "impressions": 74,
+        "clicks": 2,
+        "ctr": 2.7,
+        "cpc": 2.21
+      },
+      {
+        "term": "bar quermesse cardápio",
+        "keyword": "—",
+        "impressions": 13,
+        "clicks": 5,
+        "ctr": 38.46,
+        "cpc": 0.88
+      },
+      {
+        "term": "quermesse cardapio",
+        "keyword": "—",
+        "impressions": 16,
+        "clicks": 6,
+        "ctr": 37.5,
+        "cpc": 0.72
+      },
+      {
+        "term": "curitiba restaurantes",
+        "keyword": "—",
+        "impressions": 14,
+        "clicks": 1,
+        "ctr": 7.14,
+        "cpc": 3.72
+      },
+      {
+        "term": "quermesse bar ecoville",
+        "keyword": "—",
+        "impressions": 15,
+        "clicks": 1,
+        "ctr": 6.67,
+        "cpc": 3.66
+      },
+      {
+        "term": "o que visitar em curitiba",
+        "keyword": "—",
+        "impressions": 28,
+        "clicks": 1,
+        "ctr": 3.57,
+        "cpc": 3.43
+      },
+      {
+        "term": "bares e pubs em curitiba",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 3.42
+      },
+      {
+        "term": "restaurantes curitiba pr",
+        "keyword": "—",
+        "impressions": 5,
+        "clicks": 1,
+        "ctr": 20.0,
+        "cpc": 3.42
+      },
+      {
+        "term": "bar do açougueiro praça da espanha",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 3.29
+      },
+      {
+        "term": "barzinho curitiba",
+        "keyword": "—",
+        "impressions": 63,
+        "clicks": 1,
+        "ctr": 1.59,
+        "cpc": 3.28
+      },
+      {
+        "term": "onde comer em curitiba",
+        "keyword": "—",
+        "impressions": 58,
+        "clicks": 2,
+        "ctr": 3.45,
+        "cpc": 1.55
+      },
+      {
+        "term": "vila bistro",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 3.01
+      },
+      {
+        "term": "melhores bar de curitiba",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 2.87
+      },
+      {
+        "term": "coisas legais para fazer em curitiba",
+        "keyword": "—",
+        "impressions": 19,
+        "clicks": 1,
+        "ctr": 5.26,
+        "cpc": 2.74
+      },
+      {
+        "term": "lugares para ir em curitiba hoje",
+        "keyword": "—",
+        "impressions": 38,
+        "clicks": 1,
+        "ctr": 2.63,
+        "cpc": 2.72
+      },
+      {
+        "term": "coisas para fazer em curitiba",
+        "keyword": "—",
+        "impressions": 39,
+        "clicks": 1,
+        "ctr": 2.56,
+        "cpc": 2.71
+      },
+      {
+        "term": "lugares para curtir em curitiba",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 2.71
+      },
+      {
+        "term": "restaurantes para conhecer em curitiba",
+        "keyword": "—",
+        "impressions": 5,
+        "clicks": 1,
+        "ctr": 20.0,
+        "cpc": 2.69
+      },
+      {
+        "term": "cardapio folks",
+        "keyword": "—",
+        "impressions": 7,
+        "clicks": 1,
+        "ctr": 14.29,
+        "cpc": 2.66
+      },
+      {
+        "term": "lugares para conhecer em curitiba",
+        "keyword": "—",
+        "impressions": 62,
+        "clicks": 1,
+        "ctr": 1.61,
+        "cpc": 2.64
+      },
+      {
+        "term": "lugares para visitar em curitiba",
+        "keyword": "—",
+        "impressions": 65,
+        "clicks": 1,
+        "ctr": 1.54,
+        "cpc": 2.48
+      },
+      {
+        "term": "cardapio boteco curitiba",
+        "keyword": "—",
+        "impressions": 5,
+        "clicks": 1,
+        "ctr": 20.0,
+        "cpc": 2.39
+      },
+      {
+        "term": "quermesse restaurante",
+        "keyword": "—",
+        "impressions": 7,
+        "clicks": 2,
+        "ctr": 28.57,
+        "cpc": 1.19
+      },
+      {
+        "term": "bares em curitiba",
+        "keyword": "—",
+        "impressions": 115,
+        "clicks": 1,
+        "ctr": 0.87,
+        "cpc": 2.33
+      },
+      {
+        "term": "coisas para fazer em curitiba hoje",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 2.24
+      },
+      {
+        "term": "restaurantes em curitiba",
+        "keyword": "—",
+        "impressions": 142,
+        "clicks": 1,
+        "ctr": 0.7,
+        "cpc": 2.16
+      },
+      {
+        "term": "cantuca braseiro",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 2.13
+      },
+      {
+        "term": "melhores bares de curitiba",
+        "keyword": "—",
+        "impressions": 36,
+        "clicks": 1,
+        "ctr": 2.78,
+        "cpc": 2.03
+      },
+      {
+        "term": "cantina brasero",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 1.98
+      }
+    ]
   },
   "ga4": {
-    "sessions": 0,
-    "users": 0,
-    "new_users": 0,
-    "pageviews": 0,
-    "bounce_rate": 0.0,
-    "duration": "0m 0s",
-    "events": 0,
+    "sessions": 4896,
+    "users": 4429,
+    "new_users": 4319,
+    "pageviews": 6221,
+    "bounce_rate": 54.49,
+    "duration": "1m 6s",
+    "events": 20746,
     "conversions": 0,
-    "sources": [],
-    "event_list": []
+    "sources": [
+      {
+        "source": "ig",
+        "medium": "social",
+        "sessions": 1023,
+        "pct": 21.0
+      },
+      {
+        "source": "google",
+        "medium": "cpc",
+        "sessions": 724,
+        "pct": 14.9
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 615,
+        "pct": 12.7
+      },
+      {
+        "source": "meta_br",
+        "medium": "reels_dia_dos_namorados",
+        "sessions": 399,
+        "pct": 8.2
+      },
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 394,
+        "pct": 8.1
+      },
+      {
+        "source": "meta_ecovile",
+        "medium": "reels_dia_dos_namorados",
+        "sessions": 296,
+        "pct": 6.1
+      },
+      {
+        "source": "fb",
+        "medium": "paid",
+        "sessions": 181,
+        "pct": 3.7
+      },
+      {
+        "source": "ig",
+        "medium": "paid",
+        "sessions": 152,
+        "pct": 3.1
+      },
+      {
+        "source": "meta_ec",
+        "medium": "vd_feijoada_influencer",
+        "sessions": 143,
+        "pct": 2.9
+      },
+      {
+        "source": "meta_br",
+        "medium": "feed_rodizio_mai_26",
+        "sessions": 129,
+        "pct": 2.7
+      },
+      {
+        "source": "meta_br",
+        "medium": "vd_feijoada_influencer",
+        "sessions": 110,
+        "pct": 2.3
+      },
+      {
+        "source": "meta_br",
+        "medium": "feed_temporada_de_sopas",
+        "sessions": 108,
+        "pct": 2.2
+      },
+      {
+        "source": "meta_ec",
+        "medium": "feed_caldos_mai_26",
+        "sessions": 93,
+        "pct": 1.9
+      },
+      {
+        "source": "meta_br",
+        "medium": "feed_brasil_haiti",
+        "sessions": 79,
+        "pct": 1.6
+      },
+      {
+        "source": "meta_br",
+        "medium": "feed_arraia_26",
+        "sessions": 76,
+        "pct": 1.6
+      },
+      {
+        "source": "meta_br",
+        "medium": "feed_dia_dos_namorados",
+        "sessions": 68,
+        "pct": 1.4
+      },
+      {
+        "source": "meta_ecoville",
+        "medium": "feed_brasil_haiti",
+        "sessions": 64,
+        "pct": 1.3
+      },
+      {
+        "source": "meta_br",
+        "medium": "temporada_de_sopas",
+        "sessions": 50,
+        "pct": 1.0
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "ai-assistant",
+        "sessions": 28,
+        "pct": 0.6
+      },
+      {
+        "source": "meta_br",
+        "medium": "{{ad.name}}",
+        "sessions": 25,
+        "pct": 0.5
+      }
+    ],
+    "event_list": [
+      {
+        "name": "form_start",
+        "count": 607
+      },
+      {
+        "name": "generate_lead",
+        "count": 386
+      },
+      {
+        "name": "click_como_chegar",
+        "count": 98
+      },
+      {
+        "name": "click",
+        "count": 94
+      },
+      {
+        "name": "file_download",
+        "count": 8
+      }
+    ]
   },
   "gmb": null
 }

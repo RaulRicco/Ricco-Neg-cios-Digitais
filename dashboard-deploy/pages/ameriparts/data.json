@@ -4,14 +4,14 @@
     "start": "2026-06-01",
     "end": "2026-06-30"
   },
-  "gerado_em": "2026-07-06T09:57:12.553750",
+  "gerado_em": "2026-07-06T10:37:05.163531",
   "consolidado": {
-    "spend": 232.32,
+    "spend": 268.73,
     "reach": 14849,
-    "impressions": 22248,
-    "clicks": 373,
+    "impressions": 22306,
+    "clicks": 378,
     "meta_spend": 232.32,
-    "google_spend": 0
+    "google_spend": 36.41
   },
   "meta": {
     "spend": 232.32,
@@ -67,28 +67,226 @@
     ]
   },
   "google": {
-    "spend": 0,
-    "impressions": 0,
-    "clicks": 0,
-    "ctr": 0,
-    "cpc": 0,
+    "spend": 36.41,
+    "impressions": 58,
+    "clicks": 5,
+    "ctr": 8.62,
+    "cpc": 7.28,
     "conversions": 0,
     "cpa": 0,
-    "campaigns": [],
-    "keywords": [],
-    "search_terms": []
+    "campaigns": [
+      {
+        "name": "[REDE DE PESQUISAS 1.0] [LEAD]",
+        "type": "Search",
+        "status": "Paused",
+        "spend": 36.41,
+        "impressions": 57,
+        "clicks": 5,
+        "ctr": 8.77,
+        "cpc": 7.28,
+        "conversions": 0
+      },
+      {
+        "name": "[AD SEARCH 02] [LEADS]",
+        "type": "Search",
+        "status": "Paused",
+        "spend": 0.0,
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      }
+    ],
+    "keywords": [
+      {
+        "keyword": "acessórios para caminhão",
+        "match": "Exact",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 22.4,
+        "conversions": 0
+      },
+      {
+        "keyword": "peças para caminhão",
+        "match": "Exact",
+        "impressions": 5,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "freio de caminhão",
+        "match": "Exact",
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      }
+    ],
+    "search_terms": [
+      {
+        "term": "acessório de caminhão",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 22.4
+      },
+      {
+        "term": "2v3071782",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "acessórios para caminhão",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "freios de caminhao",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "peças para caminhão",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "peças para scania",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "polia virabrequim 352",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "radiador ar quente mb 1620",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      }
+    ]
   },
   "ga4": {
-    "sessions": 0,
-    "users": 0,
-    "new_users": 0,
-    "pageviews": 0,
-    "bounce_rate": 0.0,
-    "duration": "0m 0s",
-    "events": 0,
-    "conversions": 0,
-    "sources": [],
-    "event_list": []
+    "sessions": 242,
+    "users": 238,
+    "new_users": 238,
+    "pageviews": 292,
+    "bounce_rate": 69.42,
+    "duration": "0m 23s",
+    "events": 1185,
+    "conversions": 23,
+    "sources": [
+      {
+        "source": "ig",
+        "medium": "paid",
+        "sessions": 101,
+        "pct": 41.7
+      },
+      {
+        "source": "fb",
+        "medium": "paid",
+        "sessions": 89,
+        "pct": 36.8
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 14,
+        "pct": 5.8
+      },
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 12,
+        "pct": 5.0
+      },
+      {
+        "source": "facebook.com",
+        "medium": "referral",
+        "sessions": 8,
+        "pct": 3.3
+      },
+      {
+        "source": "m.facebook.com",
+        "medium": "referral",
+        "sessions": 7,
+        "pct": 2.9
+      },
+      {
+        "source": "google",
+        "medium": "cpc",
+        "sessions": 5,
+        "pct": 2.1
+      },
+      {
+        "source": "(not set)",
+        "medium": "(not set)",
+        "sessions": 3,
+        "pct": 1.2
+      },
+      {
+        "source": "linktr.ee",
+        "medium": "referral",
+        "sessions": 2,
+        "pct": 0.8
+      },
+      {
+        "source": "instagram.com",
+        "medium": "referral",
+        "sessions": 1,
+        "pct": 0.4
+      }
+    ],
+    "event_list": [
+      {
+        "name": "form_start",
+        "count": 22
+      },
+      {
+        "name": "generate_lead",
+        "count": 20
+      },
+      {
+        "name": "click",
+        "count": 20
+      },
+      {
+        "name": "popup_opened",
+        "count": 9
+      },
+      {
+        "name": "purchase",
+        "count": 3
+      }
+    ]
   },
   "gmb": null
 }

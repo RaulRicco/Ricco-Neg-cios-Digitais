@@ -4,7 +4,7 @@
     "start": "2026-06-01",
     "end": "2026-06-30"
   },
-  "gerado_em": "2026-07-06T10:00:05.810104",
+  "gerado_em": "2026-07-06T10:38:07.881067",
   "consolidado": null,
   "meta": {
     "spend": 626.88,
@@ -139,16 +139,74 @@
   },
   "google": null,
   "ga4": {
-    "sessions": 0,
-    "users": 0,
-    "new_users": 0,
-    "pageviews": 0,
-    "bounce_rate": 0.0,
-    "duration": "0m 0s",
-    "events": 0,
+    "sessions": 123,
+    "users": 113,
+    "new_users": 28,
+    "pageviews": 65,
+    "bounce_rate": 86.99,
+    "duration": "1m 17s",
+    "events": 380,
     "conversions": 0,
-    "sources": [],
-    "event_list": []
+    "sources": [
+      {
+        "source": "(not set)",
+        "medium": "(not set)",
+        "sessions": 86,
+        "pct": 69.9
+      },
+      {
+        "source": "ig",
+        "medium": "social",
+        "sessions": 19,
+        "pct": 15.4
+      },
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 9,
+        "pct": 7.3
+      },
+      {
+        "source": "l.wl.co",
+        "medium": "referral",
+        "sessions": 5,
+        "pct": 4.1
+      },
+      {
+        "source": "eventsmanager.facebook.com",
+        "medium": "referral",
+        "sessions": 3,
+        "pct": 2.4
+      },
+      {
+        "source": "meta_ads",
+        "medium": "ad_img_01",
+        "sessions": 1,
+        "pct": 0.8
+      }
+    ],
+    "event_list": [
+      {
+        "name": "Page View",
+        "count": 62
+      },
+      {
+        "name": "generate_lead",
+        "count": 34
+      },
+      {
+        "name": "família",
+        "count": 32
+      },
+      {
+        "name": "leadqualificado",
+        "count": 30
+      },
+      {
+        "name": "click",
+        "count": 9
+      }
+    ]
   },
   "gmb": null
 }

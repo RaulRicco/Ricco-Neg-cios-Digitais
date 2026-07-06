@@ -4,14 +4,14 @@
     "start": "2026-06-01",
     "end": "2026-06-30"
   },
-  "gerado_em": "2026-07-06T09:58:36.197804",
+  "gerado_em": "2026-07-06T10:36:00.130951",
   "consolidado": {
-    "spend": 1565.35,
+    "spend": 2154.39,
     "reach": 57372,
-    "impressions": 138421,
-    "clicks": 4064,
+    "impressions": 177132,
+    "clicks": 5050,
     "meta_spend": 1565.35,
-    "google_spend": 0
+    "google_spend": 589.04
   },
   "meta": {
     "spend": 1565.35,
@@ -262,28 +262,731 @@
     ]
   },
   "google": {
-    "spend": 0,
-    "impressions": 0,
-    "clicks": 0,
-    "ctr": 0,
-    "cpc": 0,
-    "conversions": 0,
-    "cpa": 0,
-    "campaigns": [],
-    "keywords": [],
-    "search_terms": []
+    "spend": 589.04,
+    "impressions": 38711,
+    "clicks": 986,
+    "ctr": 2.55,
+    "cpc": 0.6,
+    "conversions": 21,
+    "cpa": 28.05,
+    "campaigns": [
+      {
+        "name": "REDE DE PESQUISAS 2.0",
+        "type": "Search",
+        "status": "Enabled",
+        "spend": 561.69,
+        "impressions": 28606,
+        "clicks": 648,
+        "ctr": 2.27,
+        "cpc": 0.87,
+        "conversions": 21
+      },
+      {
+        "name": "[PMAX] [RESERVAS]",
+        "type": "Performance_Max",
+        "status": "Paused",
+        "spend": 20.99,
+        "impressions": 9540,
+        "clicks": 326,
+        "ctr": 3.42,
+        "cpc": 0.06,
+        "conversions": 0
+      },
+      {
+        "name": "[REDE DE PESQUISAS] [LEADS]",
+        "type": "Search",
+        "status": "Paused",
+        "spend": 6.36,
+        "impressions": 565,
+        "clicks": 12,
+        "ctr": 2.12,
+        "cpc": 0.53,
+        "conversions": 0
+      }
+    ],
+    "keywords": [
+      {
+        "keyword": "restaurante curitiba",
+        "match": "Exact",
+        "impressions": 7896,
+        "clicks": 241,
+        "ctr": 3.05,
+        "cpc": 1.1,
+        "conversions": 11
+      },
+      {
+        "keyword": "melhores restaurantes curitiba",
+        "match": "Exact",
+        "impressions": 3298,
+        "clicks": 89,
+        "ctr": 2.7,
+        "cpc": 1.11,
+        "conversions": 6
+      },
+      {
+        "keyword": "restaurantes em curitiba",
+        "match": "Exact",
+        "impressions": 3481,
+        "clicks": 49,
+        "ctr": 1.41,
+        "cpc": 1.18,
+        "conversions": 3
+      },
+      {
+        "keyword": "onde comer em curitiba",
+        "match": "Exact",
+        "impressions": 2776,
+        "clicks": 27,
+        "ctr": 0.97,
+        "cpc": 1.05,
+        "conversions": 1
+      },
+      {
+        "keyword": "pontos turísticos curitiba",
+        "match": "Exact",
+        "impressions": 523,
+        "clicks": 5,
+        "ctr": 0.96,
+        "cpc": 0.89,
+        "conversions": 0
+      },
+      {
+        "keyword": "Brunch Curitiba",
+        "match": "Broad",
+        "impressions": 36,
+        "clicks": 3,
+        "ctr": 8.33,
+        "cpc": 1.03,
+        "conversions": 0
+      },
+      {
+        "keyword": "Restaurante Curitiba",
+        "match": "Broad",
+        "impressions": 340,
+        "clicks": 2,
+        "ctr": 0.59,
+        "cpc": 1.5,
+        "conversions": 0
+      },
+      {
+        "keyword": "bares e restaurantes curitiba",
+        "match": "Exact",
+        "impressions": 113,
+        "clicks": 1,
+        "ctr": 0.88,
+        "cpc": 0.82,
+        "conversions": 0
+      },
+      {
+        "keyword": "museu oscar niemeyer curitiba",
+        "match": "Exact",
+        "impressions": 9,
+        "clicks": 1,
+        "ctr": 11.11,
+        "cpc": 0.46,
+        "conversions": 0
+      },
+      {
+        "keyword": "Floreria",
+        "match": "Exact",
+        "impressions": 29,
+        "clicks": 6,
+        "ctr": 20.69,
+        "cpc": 0.05,
+        "conversions": 0
+      },
+      {
+        "keyword": "Bar Curitiba",
+        "match": "Broad",
+        "impressions": 158,
+        "clicks": 1,
+        "ctr": 0.63,
+        "cpc": 0.0,
+        "conversions": 0
+      },
+      {
+        "keyword": "Museu Oscar Niemeyer",
+        "match": "Broad",
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "museu oscar niemeyer",
+        "match": "Exact",
+        "impressions": 13,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      }
+    ],
+    "search_terms": [
+      {
+        "term": "restaurante curitiba",
+        "keyword": "—",
+        "impressions": 5629,
+        "clicks": 118,
+        "ctr": 2.1,
+        "cpc": 1.06
+      },
+      {
+        "term": "restaurantes curitiba",
+        "keyword": "—",
+        "impressions": 2945,
+        "clicks": 63,
+        "ctr": 2.14,
+        "cpc": 1.07
+      },
+      {
+        "term": "restaurantes em curitiba",
+        "keyword": "—",
+        "impressions": 1726,
+        "clicks": 40,
+        "ctr": 2.32,
+        "cpc": 1.24
+      },
+      {
+        "term": "restaurante em curitiba",
+        "keyword": "—",
+        "impressions": 736,
+        "clicks": 24,
+        "ctr": 3.26,
+        "cpc": 1.31
+      },
+      {
+        "term": "melhores restaurantes de curitiba",
+        "keyword": "—",
+        "impressions": 325,
+        "clicks": 11,
+        "ctr": 3.38,
+        "cpc": 1.37
+      },
+      {
+        "term": "melhores restaurantes curitiba",
+        "keyword": "—",
+        "impressions": 864,
+        "clicks": 14,
+        "ctr": 1.62,
+        "cpc": 1.02
+      },
+      {
+        "term": "lugares para comer curitiba",
+        "keyword": "—",
+        "impressions": 332,
+        "clicks": 10,
+        "ctr": 3.01,
+        "cpc": 1.02
+      },
+      {
+        "term": "melhor restaurante de curitiba",
+        "keyword": "—",
+        "impressions": 178,
+        "clicks": 7,
+        "ctr": 3.93,
+        "cpc": 1.07
+      },
+      {
+        "term": "lugares para comer em curitiba",
+        "keyword": "—",
+        "impressions": 201,
+        "clicks": 7,
+        "ctr": 3.48,
+        "cpc": 0.86
+      },
+      {
+        "term": "melhores restaurantes em curitiba",
+        "keyword": "—",
+        "impressions": 192,
+        "clicks": 5,
+        "ctr": 2.6,
+        "cpc": 1.18
+      },
+      {
+        "term": "onde comer em curitiba",
+        "keyword": "—",
+        "impressions": 304,
+        "clicks": 4,
+        "ctr": 1.32,
+        "cpc": 1.34
+      },
+      {
+        "term": "restaurantes bons em curitiba",
+        "keyword": "—",
+        "impressions": 132,
+        "clicks": 5,
+        "ctr": 3.79,
+        "cpc": 0.99
+      },
+      {
+        "term": "restaurantes curitiba bem avaliados",
+        "keyword": "—",
+        "impressions": 55,
+        "clicks": 5,
+        "ctr": 9.09,
+        "cpc": 0.95
+      },
+      {
+        "term": "curitiba restaurantes",
+        "keyword": "—",
+        "impressions": 156,
+        "clicks": 4,
+        "ctr": 2.56,
+        "cpc": 1.0
+      },
+      {
+        "term": "melhor restaurante em curitiba",
+        "keyword": "—",
+        "impressions": 27,
+        "clicks": 3,
+        "ctr": 11.11,
+        "cpc": 1.18
+      },
+      {
+        "term": "dicas de restaurantes em curitiba",
+        "keyword": "—",
+        "impressions": 14,
+        "clicks": 2,
+        "ctr": 14.29,
+        "cpc": 1.75
+      },
+      {
+        "term": "restaurante curitiba bem avaliados",
+        "keyword": "—",
+        "impressions": 68,
+        "clicks": 4,
+        "ctr": 5.88,
+        "cpc": 0.85
+      },
+      {
+        "term": "restaurantes legais curitiba",
+        "keyword": "—",
+        "impressions": 26,
+        "clicks": 2,
+        "ctr": 7.69,
+        "cpc": 1.67
+      },
+      {
+        "term": "bons restaurantes em curitiba",
+        "keyword": "—",
+        "impressions": 68,
+        "clicks": 2,
+        "ctr": 2.94,
+        "cpc": 1.63
+      },
+      {
+        "term": "restaurantes legais em curitiba",
+        "keyword": "—",
+        "impressions": 95,
+        "clicks": 3,
+        "ctr": 3.16,
+        "cpc": 1.08
+      },
+      {
+        "term": "restaurantes curitiba melhores",
+        "keyword": "—",
+        "impressions": 71,
+        "clicks": 3,
+        "ctr": 4.23,
+        "cpc": 1.01
+      },
+      {
+        "term": "restaurante em curitiba pr",
+        "keyword": "—",
+        "impressions": 29,
+        "clicks": 3,
+        "ctr": 10.34,
+        "cpc": 0.93
+      },
+      {
+        "term": "onde jantar em curitiba",
+        "keyword": "—",
+        "impressions": 151,
+        "clicks": 2,
+        "ctr": 1.32,
+        "cpc": 1.33
+      },
+      {
+        "term": "restaurantes para eventos pequenos em curitiba",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 2.35
+      },
+      {
+        "term": "melhores lugares para comer em curitiba",
+        "keyword": "—",
+        "impressions": 40,
+        "clicks": 2,
+        "ctr": 5.0,
+        "cpc": 1.17
+      },
+      {
+        "term": "melhor restaurante curitiba",
+        "keyword": "—",
+        "impressions": 46,
+        "clicks": 2,
+        "ctr": 4.35,
+        "cpc": 1.1
+      },
+      {
+        "term": "restaurante top em curitiba",
+        "keyword": "—",
+        "impressions": 33,
+        "clicks": 2,
+        "ctr": 6.06,
+        "cpc": 1.1
+      },
+      {
+        "term": "restaurantes em curitiba pr",
+        "keyword": "—",
+        "impressions": 33,
+        "clicks": 2,
+        "ctr": 6.06,
+        "cpc": 1.03
+      },
+      {
+        "term": "lugares legais para comer em curitiba",
+        "keyword": "—",
+        "impressions": 51,
+        "clicks": 2,
+        "ctr": 3.92,
+        "cpc": 1.01
+      },
+      {
+        "term": "melhores lugares para jantar em curitiba",
+        "keyword": "—",
+        "impressions": 15,
+        "clicks": 2,
+        "ctr": 13.33,
+        "cpc": 0.99
+      },
+      {
+        "term": "melhores restaurante curitiba",
+        "keyword": "—",
+        "impressions": 32,
+        "clicks": 1,
+        "ctr": 3.12,
+        "cpc": 1.91
+      },
+      {
+        "term": "restaurants in curitiba brazil",
+        "keyword": "—",
+        "impressions": 8,
+        "clicks": 2,
+        "ctr": 25.0,
+        "cpc": 0.9
+      },
+      {
+        "term": "lugares para visitar em curitiba",
+        "keyword": "—",
+        "impressions": 13,
+        "clicks": 1,
+        "ctr": 7.69,
+        "cpc": 1.69
+      },
+      {
+        "term": "restaurante bom em curitiba",
+        "keyword": "—",
+        "impressions": 64,
+        "clicks": 1,
+        "ctr": 1.56,
+        "cpc": 1.69
+      },
+      {
+        "term": "melhores restaurantes curitiba pr",
+        "keyword": "—",
+        "impressions": 59,
+        "clicks": 1,
+        "ctr": 1.69,
+        "cpc": 1.66
+      },
+      {
+        "term": "restaurants in curitiba",
+        "keyword": "—",
+        "impressions": 69,
+        "clicks": 1,
+        "ctr": 1.45,
+        "cpc": 1.65
+      },
+      {
+        "term": "restaurante famoso de curitiba",
+        "keyword": "—",
+        "impressions": 8,
+        "clicks": 1,
+        "ctr": 12.5,
+        "cpc": 1.54
+      },
+      {
+        "term": "melhores restaurantes curitiba bem avaliados",
+        "keyword": "—",
+        "impressions": 29,
+        "clicks": 2,
+        "ctr": 6.9,
+        "cpc": 0.76
+      },
+      {
+        "term": "restaurante de curitiba",
+        "keyword": "—",
+        "impressions": 31,
+        "clicks": 2,
+        "ctr": 6.45,
+        "cpc": 0.73
+      },
+      {
+        "term": "lugares bons para comer em curitiba",
+        "keyword": "—",
+        "impressions": 22,
+        "clicks": 1,
+        "ctr": 4.55,
+        "cpc": 1.41
+      },
+      {
+        "term": "curitiba melhores restaurantes",
+        "keyword": "—",
+        "impressions": 23,
+        "clicks": 1,
+        "ctr": 4.35,
+        "cpc": 1.41
+      },
+      {
+        "term": "lugar para comer em curitiba",
+        "keyword": "—",
+        "impressions": 21,
+        "clicks": 1,
+        "ctr": 4.76,
+        "cpc": 1.35
+      },
+      {
+        "term": "restaurante legais em curitiba",
+        "keyword": "—",
+        "impressions": 5,
+        "clicks": 1,
+        "ctr": 20.0,
+        "cpc": 1.35
+      },
+      {
+        "term": "restaurantes en curitiba",
+        "keyword": "—",
+        "impressions": 25,
+        "clicks": 1,
+        "ctr": 4.0,
+        "cpc": 1.21
+      },
+      {
+        "term": "lugar para comer curitiba",
+        "keyword": "—",
+        "impressions": 114,
+        "clicks": 1,
+        "ctr": 0.88,
+        "cpc": 1.08
+      },
+      {
+        "term": "lugar pra comer em curitiba",
+        "keyword": "—",
+        "impressions": 11,
+        "clicks": 1,
+        "ctr": 9.09,
+        "cpc": 1.07
+      },
+      {
+        "term": "restaurantes curitiba pr",
+        "keyword": "—",
+        "impressions": 42,
+        "clicks": 1,
+        "ctr": 2.38,
+        "cpc": 1.02
+      },
+      {
+        "term": "restaurante famoso em curitiba",
+        "keyword": "—",
+        "impressions": 50,
+        "clicks": 1,
+        "ctr": 2.0,
+        "cpc": 0.99
+      },
+      {
+        "term": "onde ir comer em curitiba",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 0.98
+      },
+      {
+        "term": "restaurantes de curitiba pr",
+        "keyword": "—",
+        "impressions": 5,
+        "clicks": 1,
+        "ctr": 20.0,
+        "cpc": 0.86
+      }
+    ]
   },
   "ga4": {
-    "sessions": 0,
-    "users": 0,
-    "new_users": 0,
-    "pageviews": 0,
-    "bounce_rate": 0.0,
-    "duration": "0m 0s",
-    "events": 0,
-    "conversions": 0,
-    "sources": [],
-    "event_list": []
+    "sessions": 3050,
+    "users": 2713,
+    "new_users": 2700,
+    "pageviews": 8200,
+    "bounce_rate": 15.61,
+    "duration": "2m 11s",
+    "events": 21413,
+    "conversions": 5408,
+    "sources": [
+      {
+        "source": "ig",
+        "medium": "social",
+        "sessions": 1242,
+        "pct": 40.2
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 604,
+        "pct": 19.6
+      },
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 401,
+        "pct": 13.0
+      },
+      {
+        "source": "google",
+        "medium": "cpc",
+        "sessions": 393,
+        "pct": 12.7
+      },
+      {
+        "source": "ig",
+        "medium": "paid",
+        "sessions": 198,
+        "pct": 6.4
+      },
+      {
+        "source": "meta",
+        "medium": "vd_21_jan",
+        "sessions": 149,
+        "pct": 4.8
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "ai-assistant",
+        "sessions": 20,
+        "pct": 0.6
+      },
+      {
+        "source": "fb",
+        "medium": "paid",
+        "sessions": 13,
+        "pct": 0.4
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "(not set)",
+        "sessions": 12,
+        "pct": 0.4
+      },
+      {
+        "source": "bing",
+        "medium": "organic",
+        "sessions": 10,
+        "pct": 0.3
+      },
+      {
+        "source": "google",
+        "medium": "search",
+        "sessions": 8,
+        "pct": 0.3
+      },
+      {
+        "source": "(not set)",
+        "medium": "(not set)",
+        "sessions": 6,
+        "pct": 0.2
+      },
+      {
+        "source": "facebook.com",
+        "medium": "referral",
+        "sessions": 5,
+        "pct": 0.2
+      },
+      {
+        "source": "l.instagram.com",
+        "medium": "referral",
+        "sessions": 5,
+        "pct": 0.2
+      },
+      {
+        "source": "(data not available)",
+        "medium": "(data not available)",
+        "sessions": 4,
+        "pct": 0.1
+      },
+      {
+        "source": "l.facebook.com",
+        "medium": "referral",
+        "sessions": 4,
+        "pct": 0.1
+      },
+      {
+        "source": "m.facebook.com",
+        "medium": "referral",
+        "sessions": 3,
+        "pct": 0.1
+      },
+      {
+        "source": "br.search.yahoo.com",
+        "medium": "referral",
+        "sessions": 2,
+        "pct": 0.1
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "referral",
+        "sessions": 2,
+        "pct": 0.1
+      },
+      {
+        "source": "org",
+        "medium": "maes",
+        "sessions": 2,
+        "pct": 0.1
+      }
+    ],
+    "event_list": [
+      {
+        "name": "scroll_50",
+        "count": 1295
+      },
+      {
+        "name": "form_start",
+        "count": 953
+      },
+      {
+        "name": "lead_generated",
+        "count": 371
+      },
+      {
+        "name": "select_content",
+        "count": 141
+      },
+      {
+        "name": "generate_lead",
+        "count": 140
+      },
+      {
+        "name": "click",
+        "count": 89
+      },
+      {
+        "name": "cta_click",
+        "count": 3
+      }
+    ]
   },
   "gmb": null
 }

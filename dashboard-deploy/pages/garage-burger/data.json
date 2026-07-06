@@ -4,7 +4,7 @@
     "start": "2026-06-01",
     "end": "2026-06-30"
   },
-  "gerado_em": "2026-07-06T09:58:41.585812",
+  "gerado_em": "2026-07-06T10:37:52.729108",
   "consolidado": null,
   "meta": {
     "spend": 2924.66,
@@ -230,16 +230,138 @@
   },
   "google": null,
   "ga4": {
-    "sessions": 0,
-    "users": 0,
-    "new_users": 0,
-    "pageviews": 0,
-    "bounce_rate": 0.0,
-    "duration": "0m 0s",
-    "events": 0,
-    "conversions": 0,
-    "sources": [],
-    "event_list": []
+    "sessions": 1738,
+    "users": 1555,
+    "new_users": 1431,
+    "pageviews": 7964,
+    "bounce_rate": 21.86,
+    "duration": "2m 48s",
+    "events": 12743,
+    "conversions": 62,
+    "sources": [
+      {
+        "source": "instagram.com",
+        "medium": "referral",
+        "sessions": 921,
+        "pct": 53.0
+      },
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 435,
+        "pct": 25.0
+      },
+      {
+        "source": "ig",
+        "medium": "paid",
+        "sessions": 143,
+        "pct": 8.2
+      },
+      {
+        "source": "linktr.ee",
+        "medium": "referral",
+        "sessions": 89,
+        "pct": 5.1
+      },
+      {
+        "source": "m.facebook.com",
+        "medium": "referral",
+        "sessions": 48,
+        "pct": 2.8
+      },
+      {
+        "source": "l.facebook.com",
+        "medium": "referral",
+        "sessions": 47,
+        "pct": 2.7
+      },
+      {
+        "source": "facebook.com",
+        "medium": "referral",
+        "sessions": 20,
+        "pct": 1.2
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 13,
+        "pct": 0.7
+      },
+      {
+        "source": "fb",
+        "medium": "paid",
+        "sessions": 9,
+        "pct": 0.5
+      },
+      {
+        "source": "(not set)",
+        "medium": "(not set)",
+        "sessions": 6,
+        "pct": 0.3
+      },
+      {
+        "source": "threads.com",
+        "medium": "referral",
+        "sessions": 3,
+        "pct": 0.2
+      },
+      {
+        "source": "adsmanager.facebook.com",
+        "medium": "referral",
+        "sessions": 1,
+        "pct": 0.1
+      },
+      {
+        "source": "ig",
+        "medium": "social",
+        "sessions": 1,
+        "pct": 0.1
+      },
+      {
+        "source": "nuapp.nubank.com.br",
+        "medium": "referral",
+        "sessions": 1,
+        "pct": 0.1
+      }
+    ],
+    "event_list": [
+      {
+        "name": "initiate_checkout",
+        "count": 354
+      },
+      {
+        "name": "add_to_cart",
+        "count": 314
+      },
+      {
+        "name": "form_start",
+        "count": 114
+      },
+      {
+        "name": "payment_method_selected",
+        "count": 96
+      },
+      {
+        "name": "purchase",
+        "count": 62
+      },
+      {
+        "name": "remove_from_cart",
+        "count": 51
+      },
+      {
+        "name": "delivery_method_selected",
+        "count": 16
+      },
+      {
+        "name": "clear_cart",
+        "count": 5
+      },
+      {
+        "name": "click",
+        "count": 1
+      }
+    ]
   },
   "gmb": null
 }

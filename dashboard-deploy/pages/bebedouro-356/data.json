@@ -4,14 +4,14 @@
     "start": "2026-06-01",
     "end": "2026-06-30"
   },
-  "gerado_em": "2026-07-06T09:57:29.179879",
+  "gerado_em": "2026-07-06T10:36:41.844682",
   "consolidado": {
     "spend": 0.0,
     "reach": 0,
     "impressions": 0,
     "clicks": 0,
     "meta_spend": 0.0,
-    "google_spend": 0
+    "google_spend": 0.0
   },
   "meta": {
     "spend": 0.0,
@@ -26,7 +26,7 @@
     "ads": []
   },
   "google": {
-    "spend": 0,
+    "spend": 0.0,
     "impressions": 0,
     "clicks": 0,
     "ctr": 0,
@@ -38,16 +38,142 @@
     "search_terms": []
   },
   "ga4": {
-    "sessions": 0,
-    "users": 0,
-    "new_users": 0,
-    "pageviews": 0,
-    "bounce_rate": 0.0,
-    "duration": "0m 0s",
-    "events": 0,
-    "conversions": 0,
-    "sources": [],
-    "event_list": []
+    "sessions": 2272,
+    "users": 1872,
+    "new_users": 1819,
+    "pageviews": 2585,
+    "bounce_rate": 47.4,
+    "duration": "1m 52s",
+    "events": 9127,
+    "conversions": 273,
+    "sources": [
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 1538,
+        "pct": 67.5
+      },
+      {
+        "source": "google",
+        "medium": "cpc",
+        "sessions": 358,
+        "pct": 15.7
+      },
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 270,
+        "pct": 11.9
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "ai-assistant",
+        "sessions": 43,
+        "pct": 1.9
+      },
+      {
+        "source": "bing",
+        "medium": "organic",
+        "sessions": 20,
+        "pct": 0.9
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "(not set)",
+        "sessions": 14,
+        "pct": 0.6
+      },
+      {
+        "source": "tagassistant.google.com",
+        "medium": "referral",
+        "sessions": 10,
+        "pct": 0.4
+      },
+      {
+        "source": "(data not available)",
+        "medium": "(data not available)",
+        "sessions": 6,
+        "pct": 0.3
+      },
+      {
+        "source": "portalbelohorizonte.com.br",
+        "medium": "referral",
+        "sessions": 4,
+        "pct": 0.2
+      },
+      {
+        "source": "clib.com.br",
+        "medium": "referral",
+        "sessions": 3,
+        "pct": 0.1
+      },
+      {
+        "source": "(not set)",
+        "medium": "(not set)",
+        "sessions": 2,
+        "pct": 0.1
+      },
+      {
+        "source": "br.search.yahoo.com",
+        "medium": "referral",
+        "sessions": 2,
+        "pct": 0.1
+      },
+      {
+        "source": "perplexity",
+        "medium": "(not set)",
+        "sessions": 2,
+        "pct": 0.1
+      },
+      {
+        "source": "facebook.com",
+        "medium": "referral",
+        "sessions": 1,
+        "pct": 0.0
+      },
+      {
+        "source": "gemini.google.com",
+        "medium": "referral",
+        "sessions": 1,
+        "pct": 0.0
+      },
+      {
+        "source": "l.instagram.com",
+        "medium": "referral",
+        "sessions": 1,
+        "pct": 0.0
+      },
+      {
+        "source": "wanderlog.com",
+        "medium": "referral",
+        "sessions": 1,
+        "pct": 0.0
+      },
+      {
+        "source": "yahoo",
+        "medium": "organic",
+        "sessions": 1,
+        "pct": 0.0
+      }
+    ],
+    "event_list": [
+      {
+        "name": "inicio_preenchimento_reserva",
+        "count": 353
+      },
+      {
+        "name": "form_start",
+        "count": 327
+      },
+      {
+        "name": "conversao_reserva",
+        "count": 185
+      },
+      {
+        "name": "click",
+        "count": 103
+      }
+    ]
   },
   "gmb": null
 }

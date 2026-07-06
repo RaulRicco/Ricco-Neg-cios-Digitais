@@ -4,14 +4,14 @@
     "start": "2026-06-01",
     "end": "2026-06-30"
   },
-  "gerado_em": "2026-07-06T09:58:16.804769",
+  "gerado_em": "2026-07-06T10:37:30.138900",
   "consolidado": {
-    "spend": 14853.52,
+    "spend": 15623.5,
     "reach": 970921,
-    "impressions": 2488162,
-    "clicks": 22632,
+    "impressions": 2495841,
+    "clicks": 23005,
     "meta_spend": 14853.52,
-    "google_spend": 0
+    "google_spend": 769.98
   },
   "meta": {
     "spend": 14853.52,
@@ -1276,28 +1276,625 @@
     ]
   },
   "google": {
-    "spend": 0,
-    "impressions": 0,
-    "clicks": 0,
-    "ctr": 0,
-    "cpc": 0,
-    "conversions": 0,
-    "cpa": 0,
-    "campaigns": [],
-    "keywords": [],
-    "search_terms": []
+    "spend": 769.98,
+    "impressions": 7679,
+    "clicks": 373,
+    "ctr": 4.86,
+    "cpc": 2.06,
+    "conversions": 2,
+    "cpa": 384.99,
+    "campaigns": [
+      {
+        "name": "[REDE DE PESQUISAS] [RESERVAS]",
+        "type": "Search",
+        "status": "Enabled",
+        "spend": 769.98,
+        "impressions": 7679,
+        "clicks": 373,
+        "ctr": 4.86,
+        "cpc": 2.06,
+        "conversions": 2
+      }
+    ],
+    "keywords": [
+      {
+        "keyword": "hamburguer em curitiba",
+        "match": "Exact",
+        "impressions": 3289,
+        "clicks": 168,
+        "ctr": 5.11,
+        "cpc": 2.55,
+        "conversions": 1
+      },
+      {
+        "keyword": "Melhores hamburguerias de curitiba",
+        "match": "Exact",
+        "impressions": 1878,
+        "clicks": 72,
+        "ctr": 3.83,
+        "cpc": 2.21,
+        "conversions": 0
+      },
+      {
+        "keyword": "comodoro burguer",
+        "match": "Exact",
+        "impressions": 390,
+        "clicks": 52,
+        "ctr": 13.33,
+        "cpc": 1.76,
+        "conversions": 0
+      },
+      {
+        "keyword": "hamburgueria artesanal curitiba",
+        "match": "Exact",
+        "impressions": 414,
+        "clicks": 21,
+        "ctr": 5.07,
+        "cpc": 2.66,
+        "conversions": 0
+      },
+      {
+        "keyword": "burguer curitiba",
+        "match": "Exact",
+        "impressions": 668,
+        "clicks": 15,
+        "ctr": 2.25,
+        "cpc": 0.6,
+        "conversions": 0
+      }
+    ],
+    "search_terms": [
+      {
+        "term": "comodoro burguer",
+        "keyword": "—",
+        "impressions": 356,
+        "clicks": 51,
+        "ctr": 14.33,
+        "cpc": 1.75
+      },
+      {
+        "term": "hamburgueria curitiba",
+        "keyword": "—",
+        "impressions": 1288,
+        "clicks": 49,
+        "ctr": 3.8,
+        "cpc": 1.81
+      },
+      {
+        "term": "hambúrguer curitiba",
+        "keyword": "—",
+        "impressions": 669,
+        "clicks": 32,
+        "ctr": 4.78,
+        "cpc": 2.25
+      },
+      {
+        "term": "hamburgueria em curitiba",
+        "keyword": "—",
+        "impressions": 512,
+        "clicks": 31,
+        "ctr": 6.05,
+        "cpc": 1.81
+      },
+      {
+        "term": "hamburgueria curitiba perto de mim",
+        "keyword": "—",
+        "impressions": 251,
+        "clicks": 22,
+        "ctr": 8.76,
+        "cpc": 2.38
+      },
+      {
+        "term": "hamburgueria de curitiba",
+        "keyword": "—",
+        "impressions": 30,
+        "clicks": 2,
+        "ctr": 6.67,
+        "cpc": 18.12
+      },
+      {
+        "term": "melhor hamburgueria de curitiba",
+        "keyword": "—",
+        "impressions": 529,
+        "clicks": 20,
+        "ctr": 3.78,
+        "cpc": 1.71
+      },
+      {
+        "term": "hamburgueria artesanal curitiba",
+        "keyword": "—",
+        "impressions": 59,
+        "clicks": 4,
+        "ctr": 6.78,
+        "cpc": 7.76
+      },
+      {
+        "term": "melhores hamburguerias de curitiba",
+        "keyword": "—",
+        "impressions": 433,
+        "clicks": 11,
+        "ctr": 2.54,
+        "cpc": 2.66
+      },
+      {
+        "term": "hamburguer curitiba",
+        "keyword": "—",
+        "impressions": 175,
+        "clicks": 6,
+        "ctr": 3.43,
+        "cpc": 3.6
+      },
+      {
+        "term": "hambúrguer artesanal curitiba",
+        "keyword": "—",
+        "impressions": 227,
+        "clicks": 12,
+        "ctr": 5.29,
+        "cpc": 1.55
+      },
+      {
+        "term": "melhor hambúrguer de curitiba",
+        "keyword": "—",
+        "impressions": 116,
+        "clicks": 5,
+        "ctr": 4.31,
+        "cpc": 3.71
+      },
+      {
+        "term": "melhor hamburguer curitiba",
+        "keyword": "—",
+        "impressions": 90,
+        "clicks": 5,
+        "ctr": 5.56,
+        "cpc": 3.21
+      },
+      {
+        "term": "hamburguerias curitiba",
+        "keyword": "—",
+        "impressions": 233,
+        "clicks": 5,
+        "ctr": 2.15,
+        "cpc": 2.91
+      },
+      {
+        "term": "hamburguerias em curitiba",
+        "keyword": "—",
+        "impressions": 93,
+        "clicks": 3,
+        "ctr": 3.23,
+        "cpc": 4.36
+      },
+      {
+        "term": "hamburger curitiba",
+        "keyword": "—",
+        "impressions": 23,
+        "clicks": 1,
+        "ctr": 4.35,
+        "cpc": 11.98
+      },
+      {
+        "term": "hambúrgueria curitiba",
+        "keyword": "—",
+        "impressions": 23,
+        "clicks": 3,
+        "ctr": 13.04,
+        "cpc": 3.88
+      },
+      {
+        "term": "lugares para comer hamburguer em curitiba",
+        "keyword": "—",
+        "impressions": 16,
+        "clicks": 1,
+        "ctr": 6.25,
+        "cpc": 9.2
+      },
+      {
+        "term": "melhores hamburguerias curitiba",
+        "keyword": "—",
+        "impressions": 77,
+        "clicks": 4,
+        "ctr": 5.19,
+        "cpc": 2.05
+      },
+      {
+        "term": "comodoro pinheirinho",
+        "keyword": "—",
+        "impressions": 16,
+        "clicks": 3,
+        "ctr": 18.75,
+        "cpc": 1.65
+      },
+      {
+        "term": "hamburgueria curitiba bem avaliados",
+        "keyword": "—",
+        "impressions": 32,
+        "clicks": 3,
+        "ctr": 9.38,
+        "cpc": 1.53
+      },
+      {
+        "term": "comodoro nicola pellanda",
+        "keyword": "—",
+        "impressions": 8,
+        "clicks": 2,
+        "ctr": 25.0,
+        "cpc": 1.68
+      },
+      {
+        "term": "curitiba hamburgueria",
+        "keyword": "—",
+        "impressions": 13,
+        "clicks": 3,
+        "ctr": 23.08,
+        "cpc": 1.1
+      },
+      {
+        "term": "hambúrguer em curitiba",
+        "keyword": "—",
+        "impressions": 123,
+        "clicks": 4,
+        "ctr": 3.25,
+        "cpc": 0.77
+      },
+      {
+        "term": "onde comer hamburguer em curitiba",
+        "keyword": "—",
+        "impressions": 44,
+        "clicks": 3,
+        "ctr": 6.82,
+        "cpc": 1.0
+      },
+      {
+        "term": "melhor hamburguer de curitiba",
+        "keyword": "—",
+        "impressions": 72,
+        "clicks": 2,
+        "ctr": 2.78,
+        "cpc": 1.43
+      },
+      {
+        "term": "comodoro burguer nicola pellanda",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 2,
+        "ctr": 100.0,
+        "cpc": 1.1
+      },
+      {
+        "term": "hambúrgueria em curitiba",
+        "keyword": "—",
+        "impressions": 46,
+        "clicks": 4,
+        "ctr": 8.7,
+        "cpc": 0.54
+      },
+      {
+        "term": "melhores hambúrgueres de curitiba",
+        "keyword": "—",
+        "impressions": 26,
+        "clicks": 2,
+        "ctr": 7.69,
+        "cpc": 1.0
+      },
+      {
+        "term": "hamburgueria comodoro",
+        "keyword": "—",
+        "impressions": 18,
+        "clicks": 1,
+        "ctr": 5.56,
+        "cpc": 1.93
+      },
+      {
+        "term": "hamburgueria artesanal em curitiba",
+        "keyword": "—",
+        "impressions": 7,
+        "clicks": 1,
+        "ctr": 14.29,
+        "cpc": 1.79
+      },
+      {
+        "term": "hamburguer artesanal curitiba",
+        "keyword": "—",
+        "impressions": 13,
+        "clicks": 1,
+        "ctr": 7.69,
+        "cpc": 1.77
+      },
+      {
+        "term": "comodoro curitiba",
+        "keyword": "—",
+        "impressions": 33,
+        "clicks": 2,
+        "ctr": 6.06,
+        "cpc": 0.85
+      },
+      {
+        "term": "comodoro mateus leme",
+        "keyword": "—",
+        "impressions": 11,
+        "clicks": 5,
+        "ctr": 45.45,
+        "cpc": 0.34
+      },
+      {
+        "term": "fabrica gourmet curitiba",
+        "keyword": "—",
+        "impressions": 6,
+        "clicks": 1,
+        "ctr": 16.67,
+        "cpc": 1.0
+      },
+      {
+        "term": "comodoro portao",
+        "keyword": "—",
+        "impressions": 13,
+        "clicks": 1,
+        "ctr": 7.69,
+        "cpc": 0.75
+      },
+      {
+        "term": "hambúrguer artesanal em curitiba",
+        "keyword": "—",
+        "impressions": 31,
+        "clicks": 1,
+        "ctr": 3.23,
+        "cpc": 0.73
+      },
+      {
+        "term": "comodoro burguer curitiba",
+        "keyword": "—",
+        "impressions": 12,
+        "clicks": 1,
+        "ctr": 8.33,
+        "cpc": 0.6
+      },
+      {
+        "term": "avaliações sobre comodoro burguer barigui",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 0.59
+      },
+      {
+        "term": "comendador burguer tatuquara",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 0.46
+      },
+      {
+        "term": "hamburguer artesanal em curitiba",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 0.46
+      },
+      {
+        "term": "melhor hambúrguer curitiba",
+        "keyword": "—",
+        "impressions": 18,
+        "clicks": 1,
+        "ctr": 5.56,
+        "cpc": 0.42
+      },
+      {
+        "term": "sina hamburgueria",
+        "keyword": "—",
+        "impressions": 10,
+        "clicks": 1,
+        "ctr": 10.0,
+        "cpc": 0.27
+      },
+      {
+        "term": "cidadão do mundo burgers",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 0.2
+      },
+      {
+        "term": "hamburgueria santa candida",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 0.18
+      },
+      {
+        "term": "califórnia burger curitiba",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 0.12
+      },
+      {
+        "term": "master burguer curitiba",
+        "keyword": "—",
+        "impressions": 23,
+        "clicks": 1,
+        "ctr": 4.35,
+        "cpc": 0.09
+      },
+      {
+        "term": "alameda dr carlos de carvalho 805 centro",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "alexandria burger curitiba",
+        "keyword": "—",
+        "impressions": 12,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "alexandria burger curitiba santa felicidade",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      }
+    ]
   },
   "ga4": {
-    "sessions": 0,
-    "users": 0,
-    "new_users": 0,
-    "pageviews": 0,
-    "bounce_rate": 0.0,
-    "duration": "0m 0s",
-    "events": 0,
-    "conversions": 0,
-    "sources": [],
-    "event_list": []
+    "sessions": 12420,
+    "users": 11625,
+    "new_users": 11322,
+    "pageviews": 23751,
+    "bounce_rate": 37.62,
+    "duration": "1m 23s",
+    "events": 74949,
+    "conversions": 7,
+    "sources": [
+      {
+        "source": "fb",
+        "medium": "paid",
+        "sessions": 3507,
+        "pct": 28.2
+      },
+      {
+        "source": "ig",
+        "medium": "social",
+        "sessions": 2501,
+        "pct": 20.1
+      },
+      {
+        "source": "ig",
+        "medium": "paid",
+        "sessions": 2288,
+        "pct": 18.4
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 1771,
+        "pct": 14.2
+      },
+      {
+        "source": "meta_ads",
+        "medium": "MOTION GERAL",
+        "sessions": 918,
+        "pct": 7.4
+      },
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 523,
+        "pct": 4.2
+      },
+      {
+        "source": "l.instagram.com",
+        "medium": "referral",
+        "sessions": 436,
+        "pct": 3.5
+      },
+      {
+        "source": "google",
+        "medium": "cpc",
+        "sessions": 178,
+        "pct": 1.4
+      },
+      {
+        "source": "l.facebook.com",
+        "medium": "referral",
+        "sessions": 54,
+        "pct": 0.4
+      },
+      {
+        "source": "bing",
+        "medium": "organic",
+        "sessions": 45,
+        "pct": 0.4
+      },
+      {
+        "source": "meta_ads",
+        "medium": "MOTION+GERAL",
+        "sessions": 35,
+        "pct": 0.3
+      },
+      {
+        "source": "facebook.com",
+        "medium": "referral",
+        "sessions": 34,
+        "pct": 0.3
+      },
+      {
+        "source": "m.facebook.com",
+        "medium": "referral",
+        "sessions": 33,
+        "pct": 0.3
+      },
+      {
+        "source": "l.wl.co",
+        "medium": "referral",
+        "sessions": 30,
+        "pct": 0.2
+      },
+      {
+        "source": "instagram.com",
+        "medium": "referral",
+        "sessions": 18,
+        "pct": 0.1
+      },
+      {
+        "source": "th",
+        "medium": "paid",
+        "sessions": 16,
+        "pct": 0.1
+      },
+      {
+        "source": "(not set)",
+        "medium": "(not set)",
+        "sessions": 15,
+        "pct": 0.1
+      },
+      {
+        "source": "lm.facebook.com",
+        "medium": "referral",
+        "sessions": 8,
+        "pct": 0.1
+      },
+      {
+        "source": "br.search.yahoo.com",
+        "medium": "referral",
+        "sessions": 7,
+        "pct": 0.1
+      },
+      {
+        "source": "meta_ads",
+        "medium": "aberto",
+        "sessions": 7,
+        "pct": 0.1
+      }
+    ],
+    "event_list": [
+      {
+        "name": "click",
+        "count": 3728
+      },
+      {
+        "name": "file_download",
+        "count": 2451
+      },
+      {
+        "name": "form_start",
+        "count": 184
+      },
+      {
+        "name": "lead_generated",
+        "count": 7
+      }
+    ]
   },
   "gmb": null
 }

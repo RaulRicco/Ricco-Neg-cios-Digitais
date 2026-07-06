@@ -4,14 +4,14 @@
     "start": "2026-06-01",
     "end": "2026-06-30"
   },
-  "gerado_em": "2026-07-06T09:57:23.028195",
+  "gerado_em": "2026-07-06T10:36:30.415692",
   "consolidado": {
-    "spend": 0.0,
+    "spend": 626.43,
     "reach": 0,
-    "impressions": 0,
-    "clicks": 0,
+    "impressions": 18785,
+    "clicks": 407,
     "meta_spend": 0.0,
-    "google_spend": 0
+    "google_spend": 626.43
   },
   "meta": {
     "spend": 0.0,
@@ -26,28 +26,779 @@
     "ads": []
   },
   "google": {
-    "spend": 0,
-    "impressions": 0,
-    "clicks": 0,
-    "ctr": 0,
-    "cpc": 0,
-    "conversions": 0,
-    "cpa": 0,
-    "campaigns": [],
-    "keywords": [],
-    "search_terms": []
+    "spend": 626.43,
+    "impressions": 18785,
+    "clicks": 407,
+    "ctr": 2.17,
+    "cpc": 1.54,
+    "conversions": 32,
+    "cpa": 19.58,
+    "campaigns": [
+      {
+        "name": "[REDE DE PESQUISAS 2.0] [RESERVAS]",
+        "type": "Search",
+        "status": "Enabled",
+        "spend": 356.55,
+        "impressions": 15743,
+        "clicks": 263,
+        "ctr": 1.67,
+        "cpc": 1.36,
+        "conversions": 2
+      },
+      {
+        "name": "Search - Copa do Mundo",
+        "type": "Search",
+        "status": "Enabled",
+        "spend": 239.15,
+        "impressions": 1913,
+        "clicks": 119,
+        "ctr": 6.22,
+        "cpc": 2.01,
+        "conversions": 30
+      },
+      {
+        "name": "[P-MAX] [RESERVAS] [2026 1.0]",
+        "type": "Performance_Max",
+        "status": "Paused",
+        "spend": 30.73,
+        "impressions": 1129,
+        "clicks": 25,
+        "ctr": 2.21,
+        "cpc": 1.23,
+        "conversions": 0
+      }
+    ],
+    "keywords": [
+      {
+        "keyword": "assistir jogos da copa bh",
+        "match": "Exact",
+        "impressions": 598,
+        "clicks": 39,
+        "ctr": 6.52,
+        "cpc": 1.96,
+        "conversions": 11
+      },
+      {
+        "keyword": "onde ver jogo brasil bh",
+        "match": "Exact",
+        "impressions": 420,
+        "clicks": 36,
+        "ctr": 8.57,
+        "cpc": 1.81,
+        "conversions": 7
+      },
+      {
+        "keyword": "restaurantes em belo horizonte",
+        "match": "Exact",
+        "impressions": 469,
+        "clicks": 25,
+        "ctr": 5.33,
+        "cpc": 1.94,
+        "conversions": 0
+      },
+      {
+        "keyword": "pampulha restaurantes",
+        "match": "Exact",
+        "impressions": 487,
+        "clicks": 24,
+        "ctr": 4.93,
+        "cpc": 2.01,
+        "conversions": 1
+      },
+      {
+        "keyword": "jogos da copa bh",
+        "match": "Exact",
+        "impressions": 264,
+        "clicks": 19,
+        "ctr": 7.2,
+        "cpc": 2.11,
+        "conversions": 10
+      },
+      {
+        "keyword": "onde assistir os jogos da copa bh",
+        "match": "Exact",
+        "impressions": 259,
+        "clicks": 11,
+        "ctr": 4.25,
+        "cpc": 2.46,
+        "conversions": 1
+      },
+      {
+        "keyword": "belo horizonte bar",
+        "match": "Exact",
+        "impressions": 401,
+        "clicks": 11,
+        "ctr": 2.74,
+        "cpc": 2.2,
+        "conversions": 0
+      },
+      {
+        "keyword": "restaurante belo horizonte",
+        "match": "Exact",
+        "impressions": 302,
+        "clicks": 11,
+        "ctr": 3.64,
+        "cpc": 2.06,
+        "conversions": 0
+      },
+      {
+        "keyword": "melhores restaurantes belo horizonte",
+        "match": "Exact",
+        "impressions": 233,
+        "clicks": 9,
+        "ctr": 3.86,
+        "cpc": 2.3,
+        "conversions": 0
+      },
+      {
+        "keyword": "restaurantes pampulha",
+        "match": "Exact",
+        "impressions": 58,
+        "clicks": 2,
+        "ctr": 3.45,
+        "cpc": 7.07,
+        "conversions": 1
+      },
+      {
+        "keyword": "onde assistir copa",
+        "match": "Phrase",
+        "impressions": 152,
+        "clicks": 5,
+        "ctr": 3.29,
+        "cpc": 2.45,
+        "conversions": 0
+      },
+      {
+        "keyword": "belo horizonte restaurantes",
+        "match": "Exact",
+        "impressions": 243,
+        "clicks": 4,
+        "ctr": 1.65,
+        "cpc": 2.58,
+        "conversions": 0
+      },
+      {
+        "keyword": "bar copa bh",
+        "match": "Exact",
+        "impressions": 42,
+        "clicks": 4,
+        "ctr": 9.52,
+        "cpc": 2.53,
+        "conversions": 0
+      },
+      {
+        "keyword": "copa 2026 bh",
+        "match": "Exact",
+        "impressions": 162,
+        "clicks": 5,
+        "ctr": 3.09,
+        "cpc": 1.62,
+        "conversions": 0
+      },
+      {
+        "keyword": "bar pampulha",
+        "match": "Exact",
+        "impressions": 247,
+        "clicks": 3,
+        "ctr": 1.21,
+        "cpc": 2.44,
+        "conversions": 0
+      },
+      {
+        "keyword": "bh restaurante",
+        "match": "Exact",
+        "impressions": 71,
+        "clicks": 2,
+        "ctr": 2.82,
+        "cpc": 3.04,
+        "conversions": 0
+      },
+      {
+        "keyword": "bar em belo horizonte",
+        "match": "Exact",
+        "impressions": 60,
+        "clicks": 3,
+        "ctr": 5.0,
+        "cpc": 1.79,
+        "conversions": 0
+      },
+      {
+        "keyword": "melhores restaurantes em belo horizonte",
+        "match": "Exact",
+        "impressions": 7,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "bar belo horizonte",
+        "match": "Exact",
+        "impressions": 11,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "telão copa belo horizonte",
+        "match": "Exact",
+        "impressions": 10,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "assistir brasil 2026",
+        "match": "Exact",
+        "impressions": 3,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      }
+    ],
+    "search_terms": [
+      {
+        "term": "restaurante belo horizonte",
+        "keyword": "—",
+        "impressions": 271,
+        "clicks": 10,
+        "ctr": 3.69,
+        "cpc": 2.23
+      },
+      {
+        "term": "restaurantes na pampulha",
+        "keyword": "—",
+        "impressions": 52,
+        "clicks": 7,
+        "ctr": 13.46,
+        "cpc": 2.4
+      },
+      {
+        "term": "onde assistir os jogos da copa em bh",
+        "keyword": "—",
+        "impressions": 64,
+        "clicks": 6,
+        "ctr": 9.38,
+        "cpc": 2.43
+      },
+      {
+        "term": "restaurantes pampulha",
+        "keyword": "—",
+        "impressions": 50,
+        "clicks": 2,
+        "ctr": 4.0,
+        "cpc": 7.07
+      },
+      {
+        "term": "melhores restaurantes belo horizonte",
+        "keyword": "—",
+        "impressions": 68,
+        "clicks": 6,
+        "ctr": 8.82,
+        "cpc": 2.24
+      },
+      {
+        "term": "bares em bh",
+        "keyword": "—",
+        "impressions": 85,
+        "clicks": 6,
+        "ctr": 7.06,
+        "cpc": 1.9
+      },
+      {
+        "term": "onde assistir jogos da copa em bh",
+        "keyword": "—",
+        "impressions": 88,
+        "clicks": 5,
+        "ctr": 5.68,
+        "cpc": 2.0
+      },
+      {
+        "term": "restaurantes em bh",
+        "keyword": "—",
+        "impressions": 103,
+        "clicks": 3,
+        "ctr": 2.91,
+        "cpc": 2.72
+      },
+      {
+        "term": "onde assistir jogo do brasil em bh",
+        "keyword": "—",
+        "impressions": 45,
+        "clicks": 5,
+        "ctr": 11.11,
+        "cpc": 1.55
+      },
+      {
+        "term": "barzinho na pampulha",
+        "keyword": "—",
+        "impressions": 17,
+        "clicks": 3,
+        "ctr": 17.65,
+        "cpc": 2.44
+      },
+      {
+        "term": "onde jantar em bh",
+        "keyword": "—",
+        "impressions": 27,
+        "clicks": 3,
+        "ctr": 11.11,
+        "cpc": 2.42
+      },
+      {
+        "term": "restaurante bh",
+        "keyword": "—",
+        "impressions": 100,
+        "clicks": 3,
+        "ctr": 3.0,
+        "cpc": 2.4
+      },
+      {
+        "term": "restaurantes em belo horizonte",
+        "keyword": "—",
+        "impressions": 17,
+        "clicks": 3,
+        "ctr": 17.65,
+        "cpc": 2.4
+      },
+      {
+        "term": "onde assistir jogo da copa em bh",
+        "keyword": "—",
+        "impressions": 88,
+        "clicks": 4,
+        "ctr": 4.55,
+        "cpc": 1.76
+      },
+      {
+        "term": "restaurantes bh",
+        "keyword": "—",
+        "impressions": 98,
+        "clicks": 4,
+        "ctr": 4.08,
+        "cpc": 1.72
+      },
+      {
+        "term": "onde ver a copa em bh",
+        "keyword": "—",
+        "impressions": 32,
+        "clicks": 3,
+        "ctr": 9.38,
+        "cpc": 2.28
+      },
+      {
+        "term": "restaurante na pampulha",
+        "keyword": "—",
+        "impressions": 79,
+        "clicks": 3,
+        "ctr": 3.8,
+        "cpc": 2.16
+      },
+      {
+        "term": "onde assistir a copa em bh",
+        "keyword": "—",
+        "impressions": 23,
+        "clicks": 2,
+        "ctr": 8.7,
+        "cpc": 2.96
+      },
+      {
+        "term": "bar bom em bh",
+        "keyword": "—",
+        "impressions": 5,
+        "clicks": 2,
+        "ctr": 40.0,
+        "cpc": 2.6
+      },
+      {
+        "term": "restaurantes belo horizonte",
+        "keyword": "—",
+        "impressions": 72,
+        "clicks": 3,
+        "ctr": 4.17,
+        "cpc": 1.68
+      },
+      {
+        "term": "evento copa bh",
+        "keyword": "—",
+        "impressions": 15,
+        "clicks": 3,
+        "ctr": 20.0,
+        "cpc": 1.55
+      },
+      {
+        "term": "eventos copa do mundo bh",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 4.51
+      },
+      {
+        "term": "restaurante pampulha bh",
+        "keyword": "—",
+        "impressions": 26,
+        "clicks": 2,
+        "ctr": 7.69,
+        "cpc": 2.25
+      },
+      {
+        "term": "onde assistir os jogos da copa bh",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 4.44
+      },
+      {
+        "term": "bar bh",
+        "keyword": "—",
+        "impressions": 19,
+        "clicks": 1,
+        "ctr": 5.26,
+        "cpc": 4.08
+      },
+      {
+        "term": "onde comer na pampulha bh",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 4.0
+      },
+      {
+        "term": "jogo do brasil onde assistir em bh",
+        "keyword": "—",
+        "impressions": 12,
+        "clicks": 2,
+        "ctr": 16.67,
+        "cpc": 2.0
+      },
+      {
+        "term": "top restaurantes bh",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 3.98
+      },
+      {
+        "term": "onde assistir o jogo da copa em bh",
+        "keyword": "—",
+        "impressions": 41,
+        "clicks": 3,
+        "ctr": 7.32,
+        "cpc": 1.27
+      },
+      {
+        "term": "bh copa",
+        "keyword": "—",
+        "impressions": 8,
+        "clicks": 1,
+        "ctr": 12.5,
+        "cpc": 3.68
+      },
+      {
+        "term": "jogos da copa bh",
+        "keyword": "—",
+        "impressions": 15,
+        "clicks": 2,
+        "ctr": 13.33,
+        "cpc": 1.76
+      },
+      {
+        "term": "restaurante belo horizonte mg",
+        "keyword": "—",
+        "impressions": 6,
+        "clicks": 1,
+        "ctr": 16.67,
+        "cpc": 3.35
+      },
+      {
+        "term": "restaurante pampulha",
+        "keyword": "—",
+        "impressions": 144,
+        "clicks": 3,
+        "ctr": 2.08,
+        "cpc": 1.05
+      },
+      {
+        "term": "bar da copa bh",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 3.1
+      },
+      {
+        "term": "bares belo horizonte",
+        "keyword": "—",
+        "impressions": 43,
+        "clicks": 1,
+        "ctr": 2.33,
+        "cpc": 2.99
+      },
+      {
+        "term": "restaurantes bons na pampulha",
+        "keyword": "—",
+        "impressions": 6,
+        "clicks": 1,
+        "ctr": 16.67,
+        "cpc": 2.86
+      },
+      {
+        "term": "eventos da copa em bh",
+        "keyword": "—",
+        "impressions": 14,
+        "clicks": 2,
+        "ctr": 14.29,
+        "cpc": 1.39
+      },
+      {
+        "term": "onde comer belo horizonte",
+        "keyword": "—",
+        "impressions": 5,
+        "clicks": 1,
+        "ctr": 20.0,
+        "cpc": 2.57
+      },
+      {
+        "term": "bares para ir em bh",
+        "keyword": "—",
+        "impressions": 5,
+        "clicks": 1,
+        "ctr": 20.0,
+        "cpc": 2.48
+      },
+      {
+        "term": "restaurantes bons em bh",
+        "keyword": "—",
+        "impressions": 14,
+        "clicks": 2,
+        "ctr": 14.29,
+        "cpc": 1.22
+      },
+      {
+        "term": "onde assistir jogos da copa bh",
+        "keyword": "—",
+        "impressions": 12,
+        "clicks": 1,
+        "ctr": 8.33,
+        "cpc": 2.4
+      },
+      {
+        "term": "onde assistir jogo brasil bh",
+        "keyword": "—",
+        "impressions": 31,
+        "clicks": 1,
+        "ctr": 3.23,
+        "cpc": 2.39
+      },
+      {
+        "term": "onde assistir jogo do brasil bh",
+        "keyword": "—",
+        "impressions": 31,
+        "clicks": 2,
+        "ctr": 6.45,
+        "cpc": 1.16
+      },
+      {
+        "term": "onde almoçar em bh",
+        "keyword": "—",
+        "impressions": 22,
+        "clicks": 1,
+        "ctr": 4.55,
+        "cpc": 2.3
+      },
+      {
+        "term": "barzinho belo horizonte",
+        "keyword": "—",
+        "impressions": 36,
+        "clicks": 1,
+        "ctr": 2.78,
+        "cpc": 2.25
+      },
+      {
+        "term": "bares copa bh",
+        "keyword": "—",
+        "impressions": 6,
+        "clicks": 1,
+        "ctr": 16.67,
+        "cpc": 2.24
+      },
+      {
+        "term": "jogo copa bh",
+        "keyword": "—",
+        "impressions": 8,
+        "clicks": 1,
+        "ctr": 12.5,
+        "cpc": 2.16
+      },
+      {
+        "term": "restaurantes região pampulha",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 2.16
+      },
+      {
+        "term": "bons restaurantes em bh",
+        "keyword": "—",
+        "impressions": 12,
+        "clicks": 1,
+        "ctr": 8.33,
+        "cpc": 2.12
+      },
+      {
+        "term": "eventos copa bh",
+        "keyword": "—",
+        "impressions": 19,
+        "clicks": 1,
+        "ctr": 5.26,
+        "cpc": 2.0
+      }
+    ]
   },
   "ga4": {
-    "sessions": 0,
-    "users": 0,
-    "new_users": 0,
-    "pageviews": 0,
-    "bounce_rate": 0.0,
-    "duration": "0m 0s",
-    "events": 0,
-    "conversions": 0,
-    "sources": [],
-    "event_list": []
+    "sessions": 2272,
+    "users": 1872,
+    "new_users": 1819,
+    "pageviews": 2585,
+    "bounce_rate": 47.4,
+    "duration": "1m 52s",
+    "events": 9127,
+    "conversions": 273,
+    "sources": [
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 1538,
+        "pct": 67.5
+      },
+      {
+        "source": "google",
+        "medium": "cpc",
+        "sessions": 358,
+        "pct": 15.7
+      },
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 270,
+        "pct": 11.9
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "ai-assistant",
+        "sessions": 43,
+        "pct": 1.9
+      },
+      {
+        "source": "bing",
+        "medium": "organic",
+        "sessions": 20,
+        "pct": 0.9
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "(not set)",
+        "sessions": 14,
+        "pct": 0.6
+      },
+      {
+        "source": "tagassistant.google.com",
+        "medium": "referral",
+        "sessions": 10,
+        "pct": 0.4
+      },
+      {
+        "source": "(data not available)",
+        "medium": "(data not available)",
+        "sessions": 6,
+        "pct": 0.3
+      },
+      {
+        "source": "portalbelohorizonte.com.br",
+        "medium": "referral",
+        "sessions": 4,
+        "pct": 0.2
+      },
+      {
+        "source": "clib.com.br",
+        "medium": "referral",
+        "sessions": 3,
+        "pct": 0.1
+      },
+      {
+        "source": "(not set)",
+        "medium": "(not set)",
+        "sessions": 2,
+        "pct": 0.1
+      },
+      {
+        "source": "br.search.yahoo.com",
+        "medium": "referral",
+        "sessions": 2,
+        "pct": 0.1
+      },
+      {
+        "source": "perplexity",
+        "medium": "(not set)",
+        "sessions": 2,
+        "pct": 0.1
+      },
+      {
+        "source": "facebook.com",
+        "medium": "referral",
+        "sessions": 1,
+        "pct": 0.0
+      },
+      {
+        "source": "gemini.google.com",
+        "medium": "referral",
+        "sessions": 1,
+        "pct": 0.0
+      },
+      {
+        "source": "l.instagram.com",
+        "medium": "referral",
+        "sessions": 1,
+        "pct": 0.0
+      },
+      {
+        "source": "wanderlog.com",
+        "medium": "referral",
+        "sessions": 1,
+        "pct": 0.0
+      },
+      {
+        "source": "yahoo",
+        "medium": "organic",
+        "sessions": 1,
+        "pct": 0.0
+      }
+    ],
+    "event_list": [
+      {
+        "name": "inicio_preenchimento_reserva",
+        "count": 353
+      },
+      {
+        "name": "form_start",
+        "count": 327
+      },
+      {
+        "name": "conversao_reserva",
+        "count": 185
+      },
+      {
+        "name": "click",
+        "count": 103
+      }
+    ]
   },
   "gmb": null
 }
