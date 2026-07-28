@@ -32,6 +32,7 @@ const SENHAS = {
   "porks-pirenopolis":     "porks24",
   "boteco-do-quintal":     "quintal24",
   "quintal-piri":          "quintal24",
+  "porks-casarao-briefing": "confidencialcasarao2026",
 };
 
 const COOKIE_NAME = "ricco_dash_auth";
@@ -132,6 +133,7 @@ const NOMES = {
   "porks-pirenopolis":     "Porks Pirenópolis",
   "boteco-do-quintal":     "Boteco do Quintal",
   "quintal-piri":          "O Quintal Piri",
+  "porks-casarao-briefing": "Porks Casarão — Briefing de Tráfego",
 };
 
 export async function onRequest(context) {

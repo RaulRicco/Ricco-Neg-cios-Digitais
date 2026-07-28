@@ -11,6 +11,7 @@
 
 const PUBLIC_PASSTHROUGH = new Set([
   'aditivo-seu-barbudo',
+  'porks-casarao-briefing',
 ]);
 
 const CLIENTES = {

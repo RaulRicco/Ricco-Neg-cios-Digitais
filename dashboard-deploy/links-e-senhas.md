@@ -173,3 +173,8 @@ Base URL: `https://ricco-dashboards.pages.dev`
 - **URL:** https://dash.raulricco.com.br/aditivo-seu-barbudo
 - **Senha:** `seubarbudo2026` (campo único, sem usuário — gate de senha próprio na página)
 - **Tipo:** Aditivo de proposta (página de captura de leads + painel de UTM avançado)
+
+## Porks Casarão — Briefing de Tráfego Pago
+- **URL:** https://dash.raulricco.com.br/porks-casarao-briefing
+- **Senha:** `confidencialcasarao2026`
+- **Tipo:** Briefing de estrutura de funil para criativos de anúncios (documento estático, sem dados de performance)

@@ -1,0 +1,654 @@
+<title>Briefing de Tráfego Pago — Porks Casarão</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+  :root {
+    --bg: #0a0a0a;
+    --bg-card: #151513;
+    --bg-card-raised: #1c1c19;
+    --line: #2a2a26;
+    --text: #f4f4ef;
+    --text-dim: #9a9a92;
+    --text-faint: #6a6a63;
+    --accent: #c8ff3d;
+    --accent-dim: #8fb82a;
+    --ember: #d4622b;
+    --ember-dim: #8a4420;
+    font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+
+  :root[data-theme="light"] {
+    --bg: #f2f1ea;
+    --bg-card: #ffffff;
+    --bg-card-raised: #ffffff;
+    --line: #ddd9cc;
+    --text: #17170f;
+    --text-dim: #55534a;
+    --text-faint: #8a8778;
+    --accent: #5c8a00;
+    --accent-dim: #3f6100;
+    --ember: #b8501f;
+    --ember-dim: #8a3b16;
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) {
+      --bg: #f2f1ea;
+      --bg-card: #ffffff;
+      --bg-card-raised: #ffffff;
+      --line: #ddd9cc;
+      --text: #17170f;
+      --text-dim: #55534a;
+      --text-faint: #8a8778;
+      --accent: #5c8a00;
+      --accent-dim: #3f6100;
+      --ember: #b8501f;
+      --ember-dim: #8a3b16;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    overflow-x: hidden;
+  }
+
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, .display {
+    font-family: "Archivo Black", Impact, "Arial Black", sans-serif;
+    font-weight: 900;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+    text-transform: uppercase;
+  }
+
+  .mono, .tag, .eyebrow, .cta-label {
+    font-family: "SF Mono", ui-monospace, "Courier New", monospace;
+  }
+
+  a { color: inherit; }
+
+  ::selection { background: var(--accent); color: #0a0a0a; }
+
+  /* ---------- Content ---------- */
+
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 72px 24px 40px;
+  }
+
+  header.masthead {
+    margin-bottom: 56px;
+  }
+
+  .eyebrow {
+    font-size: 12px;
+    letter-spacing: 0.16em;
+    color: var(--accent);
+    text-transform: uppercase;
+    margin: 0 0 18px;
+  }
+
+  h1 {
+    font-size: clamp(32px, 6vw, 46px);
+    line-height: 1.05;
+    margin: 0 0 20px;
+  }
+
+  h1 span { color: var(--accent); }
+
+  .lede {
+    font-size: 16px;
+    color: var(--text-dim);
+    max-width: 62ch;
+    margin: 0 0 28px;
+  }
+
+  .facts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 32px;
+  }
+
+  .fact {
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: var(--text-dim);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 7px 14px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+
+  .fact::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+    flex-shrink: 0;
+  }
+
+  .notice {
+    background: var(--bg-card);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--ember);
+    border-radius: 4px;
+    padding: 18px 20px;
+    font-size: 14px;
+    color: var(--text-dim);
+    line-height: 1.6;
+  }
+
+  .notice strong { color: var(--text); }
+
+  /* ---------- Stage blocks ---------- */
+
+  section.stage {
+    margin: 64px 0;
+    padding-top: 40px;
+    border-top: 1px solid var(--line);
+  }
+
+  .stage-head {
+    display: flex;
+    align-items: baseline;
+    gap: 18px;
+    margin-bottom: 8px;
+  }
+
+  .stage-num {
+    font-family: "Archivo Black", Impact, sans-serif;
+    font-size: 15px;
+    color: var(--accent);
+    flex-shrink: 0;
+  }
+
+  .stage-title {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .stage-goal {
+    font-size: 13px;
+    color: var(--text-faint);
+    margin: 0 0 28px;
+    padding-left: 42px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .stage-body { padding-left: 0; }
+
+  .block-label {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    margin: 0 0 14px;
+  }
+
+  /* audience cards */
+  .audience-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-bottom: 32px;
+  }
+
+  .audience-card {
+    background: var(--bg-card);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 18px 20px;
+  }
+
+  .audience-name {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 6px;
+  }
+
+  .audience-focus {
+    font-size: 13px;
+    color: var(--text-dim);
+    margin: 0 0 12px;
+  }
+
+  .hook {
+    font-size: 14px;
+    font-style: italic;
+    color: var(--text);
+    border-left: 2px solid var(--accent);
+    padding-left: 12px;
+    margin: 6px 0;
+  }
+
+  /* structure list */
+  .spec-list {
+    list-style: none;
+    margin: 0 0 32px;
+    padding: 0;
+    display: grid;
+    gap: 0;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .spec-list li {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    gap: 16px;
+    padding: 13px 18px;
+    font-size: 13.5px;
+    background: var(--bg-card);
+  }
+
+  .spec-list li:not(:last-child) { border-bottom: 1px solid var(--line); }
+
+  .spec-key {
+    color: var(--text-faint);
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    padding-top: 2px;
+  }
+
+  .spec-val { color: var(--text); }
+
+  /* meio de funil callout */
+  .asset-callout {
+    background: var(--bg-card);
+    border: 1px solid var(--accent-dim);
+    border-radius: 10px;
+    padding: 24px 22px;
+    margin-bottom: 24px;
+  }
+
+  .asset-callout p { margin: 0 0 10px; font-size: 14px; color: var(--text-dim); }
+  .asset-callout p:last-child { margin-bottom: 0; }
+  .asset-callout strong { color: var(--accent); }
+
+  .directive-list {
+    list-style: none;
+    margin: 20px 0 0;
+    padding: 0;
+    display: grid;
+    gap: 10px;
+  }
+
+  .directive-list li {
+    font-size: 13.5px;
+    color: var(--text-dim);
+    padding-left: 20px;
+    position: relative;
+  }
+
+  .directive-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 8px;
+    height: 2px;
+    background: var(--accent-dim);
+  }
+
+  .directive-list strong { color: var(--text); }
+
+  /* funnel campaign cards */
+  .campaign-card {
+    background: var(--bg-card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 22px 22px 20px;
+    margin-bottom: 16px;
+  }
+
+  .campaign-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+  }
+
+  .campaign-title {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .pill {
+    font-size: 10.5px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .pill-cold { background: rgba(212,98,43,0.15); color: var(--ember); border: 1px solid var(--ember-dim); }
+  .pill-retarget { background: rgba(200,255,61,0.12); color: var(--accent); border: 1px solid var(--accent-dim); }
+  .pill-group { background: rgba(154,154,146,0.12); color: var(--text-dim); border: 1px solid var(--line); }
+
+  .campaign-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .campaign-field .k {
+    font-size: 10.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-faint);
+    margin: 0 0 4px;
+  }
+
+  .campaign-field .v {
+    font-size: 13.5px;
+    color: var(--text-dim);
+    margin: 0;
+  }
+
+  .campaign-field .v.cta {
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  .campaign-note {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid var(--line);
+    font-size: 12.5px;
+    color: var(--text-faint);
+    font-style: italic;
+  }
+
+  .master-mechanic {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    align-items: stretch;
+    background: var(--bg-card);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 28px;
+    font-size: 13px;
+  }
+
+  .mechanic-flow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-dim);
+  }
+
+  .mechanic-flow .step {
+    background: var(--bg-card-raised);
+    border: 1px solid var(--line);
+    padding: 7px 12px;
+    border-radius: 6px;
+    font-size: 12.5px;
+    color: var(--text);
+  }
+
+  .mechanic-flow .arrow { color: var(--accent); font-weight: 700; }
+
+  footer {
+    margin-top: 72px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 12px;
+    color: var(--text-faint);
+    letter-spacing: 0.03em;
+  }
+
+  @media (min-width: 620px) {
+    .audience-grid { grid-template-columns: repeat(3, 1fr); }
+    .campaign-grid { grid-template-columns: repeat(3, 1fr); }
+    .stage-goal { padding-left: 46px; }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    #content.visible { animation: rise 0.4s ease both; }
+  }
+
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>
+
+<div id="content" class="visible">
+  <div class="wrap">
+
+    <header class="masthead">
+      <p class="eyebrow">Briefing de tráfego pago · Porks Casarão</p>
+      <h1>Estrutura de funil para <span>anúncios</span></h1>
+      <p class="lede">Orientação de criativos para campanhas pagas — Meta Ads. Este documento define o que esperamos de cada etapa do funil, do primeiro contato com público frio até a reserva confirmada.</p>
+
+      <div class="facts">
+        <span class="fact">Funcionamento: apenas à noite</span>
+        <span class="fact">Reservas: via Direct</span>
+        <span class="fact">Segmento: bar, chope artesanal, carne de porco</span>
+      </div>
+
+      <div class="notice">
+        <strong>Nota de escopo.</strong> Este documento orienta exclusivamente os criativos de tráfego pago. O conteúdo orgânico já produzido tem qualidade alta e segue sua linha editorial natural, sem necessidade de alteração — a estrutura abaixo complementa esse trabalho, potencializando alcance e conversão via anúncios segmentados.
+      </div>
+    </header>
+
+    <!-- STAGE 1 -->
+    <section class="stage">
+      <div class="stage-head">
+        <span class="stage-num">01</span>
+        <h2 class="stage-title">Topo de funil</h2>
+      </div>
+      <p class="stage-goal">Tráfego frio → seguidores</p>
+
+      <div class="stage-body">
+        <p class="block-label">Segmentação de criativos</p>
+        <p class="lede" style="margin-bottom:24px;">Para maximizar identificação, cada público recebe vídeo próprio com gancho específico. Públicos não se misturam no mesmo vídeo.</p>
+
+        <div class="audience-grid">
+          <div class="audience-card">
+            <p class="audience-name">Moradores de Ceilândia</p>
+            <p class="audience-focus">Orgulho local, ponto de encontro fixo, "o bar da quebrada".</p>
+            <p class="hook">"Se você é de Ceilândia e ainda não conhece o Porks Casarão, você tá perdendo o point da sua quebrada."</p>
+          </div>
+          <div class="audience-card">
+            <p class="audience-name">Cervejeiros / chope artesanal</p>
+            <p class="audience-focus">Qualidade do chope, torneira gelada, variedade de rótulos.</p>
+            <p class="hook">"Chope artesanal gelado na torneira certa. Isso aqui não é bar qualquer."</p>
+          </div>
+          <div class="audience-card">
+            <p class="audience-name">Amantes de carne de porco</p>
+            <p class="audience-focus">Exagero, suculência, ponto da carne, porção farta (food porn).</p>
+            <p class="hook">"Para. Olha essa costela suculenta. Já viu porco assim na sua vida?"</p>
+          </div>
+        </div>
+
+        <p class="block-label">Estrutura do vídeo</p>
+        <ul class="spec-list">
+          <li><span class="spec-key">Formato</span><span class="spec-val">Reels / TikTok, 9:16 — viral (POV) ou institucional (apresentação)</span></li>
+          <li><span class="spec-key">Gancho</span><span class="spec-val">0–3s: apelo visual forte ou frase de impacto específica do público</span></li>
+          <li><span class="spec-key">CTA obrigatória</span><span class="spec-val">"Siga o perfil para mais" ou "Venha nos visitar hoje à noite"</span></li>
+          <li><span class="spec-key">Ciclo de vida</span><span class="spec-val">Vídeos-pilares renovados a cada 3 meses</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- STAGE 2 -->
+    <section class="stage">
+      <div class="stage-head">
+        <span class="stage-num">02</span>
+        <h2 class="stage-title">Meio de funil</h2>
+      </div>
+      <p class="stage-goal">Seguidores → clientes fiéis</p>
+
+      <div class="stage-body">
+        <div class="asset-callout">
+          <p><strong>Ativo principal: o conteúdo orgânico que já existe.</strong> Os vídeos já produzidos hoje — com qualidade, identidade visual forte e linguagem autêntica — são o combustível ideal para esta etapa.</p>
+          <p>Serão impulsionados como anúncios segmentados para quem já interagiu com o perfil, ampliando alcance sem produção nova. O que já funciona orgânico tende a performar bem em tráfego pago para audiências quentes.</p>
+        </div>
+
+        <p class="block-label">Diretrizes</p>
+        <ul class="directive-list">
+          <li><strong>Continuidade</strong> — manter a linha editorial atual, que já apresenta bons resultados.</li>
+          <li><strong>Conteúdo</strong> — foco em promoções semanais, combos e interação.</li>
+          <li><strong>Engajamento</strong> — estimular comentários e compartilhamentos.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- STAGE 3 -->
+    <section class="stage">
+      <div class="stage-head">
+        <span class="stage-num">03</span>
+        <h2 class="stage-title">Fundo de funil</h2>
+      </div>
+      <p class="stage-goal">Performance &amp; venda — conversão imediata</p>
+
+      <div class="stage-body">
+        <ul class="spec-list">
+          <li><span class="spec-key">Duração</span><span class="spec-val">Curtos e diretos</span></li>
+          <li><span class="spec-key">Gancho magnético</span><span class="spec-val">Em promoções, o preço estampado no primeiro frame, em destaque grande</span></li>
+          <li><span class="spec-key">CTA visual</span><span class="spec-val">Texto claro na tela, sempre com escassez — ex.: "Vagas Limitadas — Reserve no Direct"</span></li>
+        </ul>
+
+        <p class="block-label">Mecânica de reserva</p>
+        <div class="master-mechanic">
+          <div class="mechanic-flow">
+            <span class="step">Anúncio</span>
+            <span class="arrow">→</span>
+            <span class="step">Direct</span>
+            <span class="arrow">→</span>
+            <span class="step">Confirmação de reserva</span>
+            <span class="arrow">→</span>
+            <span class="step">Lembrete via WhatsApp na véspera</span>
+          </div>
+        </div>
+        <p class="lede" style="font-size:13.5px; margin-bottom:32px;">Campanhas de reserva são o foco principal para mover o salão. Toda campanha direciona para o Direct — permite medir volume de conversas geradas, otimizar criativos e escalar o que funciona.</p>
+
+        <!-- A) Aniversariantes -->
+        <div class="campaign-card">
+          <div class="campaign-head">
+            <p class="campaign-title">A · Aniversariantes</p>
+            <span class="pill pill-retarget">Conversão</span>
+          </div>
+          <div class="campaign-grid">
+            <div class="campaign-field">
+              <p class="k">Roteiro</p>
+              <p class="v">Gancho ("Vai fazer aniversário?") → benefício claro (chope grátis / porção / decoração) → CTA</p>
+            </div>
+            <div class="campaign-field">
+              <p class="k">CTA</p>
+              <p class="v cta">Reserva liberada só até sexta — chama no Direct</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- B1 -->
+        <div class="campaign-card">
+          <div class="campaign-head">
+            <p class="campaign-title">B1 · Reserva simples — jantar à noite</p>
+            <span class="pill pill-retarget">Retargeting</span>
+          </div>
+          <div class="campaign-grid">
+            <div class="campaign-field">
+              <p class="k">Gancho</p>
+              <p class="v">Imagem ou vídeo do salão animado + chope e carne de porco em destaque</p>
+            </div>
+            <div class="campaign-field">
+              <p class="k">Roteiro</p>
+              <p class="v">"Quer garantir sua mesa hoje à noite? Últimas mesas disponíveis — chama no Direct."</p>
+            </div>
+            <div class="campaign-field">
+              <p class="k">Público</p>
+              <p class="v">Engajou nos últimos 30 dias</p>
+            </div>
+          </div>
+          <div class="campaign-note">CTA: Últimas mesas para hoje — reserve no Direct</div>
+        </div>
+
+        <!-- B2 -->
+        <div class="campaign-card">
+          <div class="campaign-head">
+            <p class="campaign-title">B2 · Reserva de fim de semana — urgência</p>
+            <span class="pill pill-cold">Frio + Retargeting</span>
+          </div>
+          <div class="campaign-grid">
+            <div class="campaign-field">
+              <p class="k">Gancho</p>
+              <p class="v">"As mesas do final de semana estão quase esgotadas."</p>
+            </div>
+            <div class="campaign-field">
+              <p class="k">Roteiro</p>
+              <p class="v">Vídeo curto do salão cheio + frase de escassez real → CTA direta</p>
+            </div>
+            <div class="campaign-field">
+              <p class="k">Público</p>
+              <p class="v">Frio — moradores de Ceilândia e região + retargeting</p>
+            </div>
+          </div>
+          <div class="campaign-note">CTA: Vagas limitadas para o fim de semana — garanta a sua no Direct</div>
+        </div>
+
+        <!-- B3 -->
+        <div class="campaign-card">
+          <div class="campaign-head">
+            <p class="campaign-title">B3 · Reserva para o bando — família ou amigos</p>
+            <span class="pill pill-group">Grupos</span>
+          </div>
+          <div class="campaign-grid">
+            <div class="campaign-field">
+              <p class="k">Gancho</p>
+              <p class="v">"Vai reunir o bando? Garanta uma mesa pra todo mundo."</p>
+            </div>
+            <div class="campaign-field">
+              <p class="k">Roteiro</p>
+              <p class="v">Cena de grupo celebrando com chope e petiscos + destaque para o espaço do salão → CTA</p>
+            </div>
+            <div class="campaign-field">
+              <p class="k">Público</p>
+              <p class="v">25–45 anos, Ceilândia e entorno, interesse em gastronomia e saídas noturnas</p>
+            </div>
+          </div>
+          <div class="campaign-note">CTA: Mesas grandes são as primeiras a esgotar — reserve no Direct</div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span>Ricco Negócios Digitais</span>
+      <span>Documento confidencial — Porks Casarão</span>
+    </footer>
+
+  </div>
+</div>
