@@ -2,7 +2,7 @@
 
 | Cliente | URL | Senha | Plataformas |
 |---|---|---|---|
-| Bar do Açougueiro — Água Verde | dash.raulricco.com.br/acougueiro-agua-verde | acougueiro2026 | Meta · Google · GA4 · GMB |
+| Bar do Açougueiro — Água Verde | dash.raulricco.com.br/acougueiro-agua-verde | aguaverde2026 | Meta · Google · GA4 · GMB |
 
 ## Adicionar novo cliente
 
