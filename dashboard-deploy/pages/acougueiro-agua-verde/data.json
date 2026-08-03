@@ -4,7 +4,7 @@
     "start": "2026-07-01",
     "end": "2026-07-31"
   },
-  "gerado_em": "2026-08-03T19:41:42.518963",
+  "gerado_em": "2026-08-03T20:17:55.066159",
   "consolidado": {
     "spend": 1990.85,
     "reach": 88066,
@@ -810,16 +810,238 @@
     ]
   },
   "ga4": {
-    "sessions": 0,
-    "users": 0,
-    "new_users": 0,
-    "pageviews": 0,
-    "bounce_rate": 0.0,
-    "duration": "0m 0s",
-    "events": 0,
-    "conversions": 0,
-    "sources": [],
-    "event_list": []
+    "sessions": 5758,
+    "users": 5199,
+    "new_users": 5087,
+    "pageviews": 6431,
+    "bounce_rate": 62.57,
+    "duration": "1m 27s",
+    "events": 33529,
+    "conversions": 1987,
+    "sources": [
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 1016,
+        "pct": 18.5
+      },
+      {
+        "source": "ig",
+        "medium": "paid",
+        "sessions": 837,
+        "pct": 15.2
+      },
+      {
+        "source": "ig",
+        "medium": "social",
+        "sessions": 519,
+        "pct": 9.4
+      },
+      {
+        "source": "google",
+        "medium": "cpc",
+        "sessions": 399,
+        "pct": 7.3
+      },
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 388,
+        "pct": 7.1
+      },
+      {
+        "source": "meta_batel",
+        "medium": "vd_promo_domingo",
+        "sessions": 251,
+        "pct": 4.6
+      },
+      {
+        "source": "meta_baca",
+        "medium": "vd_almoço_4_jul",
+        "sessions": 223,
+        "pct": 4.1
+      },
+      {
+        "source": "fb",
+        "medium": "paid",
+        "sessions": 222,
+        "pct": 4.0
+      },
+      {
+        "source": "meta_av",
+        "medium": "vd_almoço_4_jul",
+        "sessions": 181,
+        "pct": 3.3
+      },
+      {
+        "source": "meta-batel",
+        "medium": "volta_open_wine",
+        "sessions": 162,
+        "pct": 2.9
+      },
+      {
+        "source": "meta_av",
+        "medium": "vd_carne_de_onca_jul_26",
+        "sessions": 154,
+        "pct": 2.8
+      },
+      {
+        "source": "meta_av",
+        "medium": "vd_domingo_promo",
+        "sessions": 143,
+        "pct": 2.6
+      },
+      {
+        "source": "meta_baca",
+        "medium": "volta_open_wine",
+        "sessions": 107,
+        "pct": 1.9
+      },
+      {
+        "source": "meta_batel",
+        "medium": "vd_carne_de_onca_jul",
+        "sessions": 106,
+        "pct": 1.9
+      },
+      {
+        "source": "meta_bacacheri",
+        "medium": "carne_de_onca_jul_26",
+        "sessions": 104,
+        "pct": 1.9
+      },
+      {
+        "source": "meta_av",
+        "medium": "vd_almoço_3_jan",
+        "sessions": 90,
+        "pct": 1.6
+      },
+      {
+        "source": "meta_av",
+        "medium": "vd_happy_hour_01_04",
+        "sessions": 85,
+        "pct": 1.5
+      },
+      {
+        "source": "meta_baca",
+        "medium": "vd_niver_jul",
+        "sessions": 84,
+        "pct": 1.5
+      },
+      {
+        "source": "meta_baca",
+        "medium": "vd_fernando_copa",
+        "sessions": 78,
+        "pct": 1.4
+      },
+      {
+        "source": "meta_bacacheri",
+        "medium": "carne_de_onca_jul_26_2.0",
+        "sessions": 69,
+        "pct": 1.3
+      }
+    ],
+    "event_list": [
+      {
+        "name": "form_start",
+        "count": 2060
+      },
+      {
+        "name": "click",
+        "count": 423
+      },
+      {
+        "name": "Clicou_wttp",
+        "count": 235
+      },
+      {
+        "name": "generate_lead",
+        "count": 233
+      },
+      {
+        "name": "whatsapp_redirect",
+        "count": 114
+      }
+    ]
   },
-  "gmb": null
+  "gmb": {
+    "visitas": 0,
+    "rotas": 0,
+    "cliques_site": 0,
+    "ligacoes": 0,
+    "nota": 4.5,
+    "total_avaliacoes": 2883,
+    "avaliacoes_mes": 89,
+    "avaliacoes": [
+      {
+        "author": "Sandra Bielinki",
+        "stars": 5,
+        "text": "Lugar maravilhoso ,comiga gostosa,bom atendimento",
+        "date": "31/07/2026",
+        "replied": true
+      },
+      {
+        "author": "Edne Costanski",
+        "stars": 5,
+        "text": "Lugar maravilhoso, ambiente lindo, mesmo no inverno a temperatura é agradável,  comida excelente, sensacional e com certeza voltarei e indicarei para os amigos. O atendimento dos garçons é perfeito, com elogios para o Gerson",
+        "date": "31/07/2026",
+        "replied": false
+      },
+      {
+        "author": "Yan gustavo Martins soares",
+        "stars": 5,
+        "text": "Muito bom o atendimento!",
+        "date": "31/07/2026",
+        "replied": false
+      },
+      {
+        "author": "Thaina Antunes de Mello",
+        "stars": 5,
+        "text": "o garçom Gerson é muito prestativo, educado! amei o atendimento!",
+        "date": "31/07/2026",
+        "replied": false
+      },
+      {
+        "author": "Maria Vitória Bertoja",
+        "stars": 5,
+        "text": "O garçom Gerson é incrível! Muito educado e atencioso! Recomendo!",
+        "date": "31/07/2026",
+        "replied": false
+      },
+      {
+        "author": "Alexandre",
+        "stars": 5,
+        "text": "",
+        "date": "31/07/2026",
+        "replied": false
+      },
+      {
+        "author": "Solange Darold",
+        "stars": 5,
+        "text": "Amei a experiencia. O bar e maravilhoso, atendimento perfeito. Vou voltar com certeza. O Gerson e maravikhoso, amei o atenfimento.",
+        "date": "31/07/2026",
+        "replied": false
+      },
+      {
+        "author": "Isabela Carolina Martins",
+        "stars": 5,
+        "text": "Excelente local!",
+        "date": "31/07/2026",
+        "replied": false
+      },
+      {
+        "author": "JEAN ZANETTI",
+        "stars": 5,
+        "text": "",
+        "date": "31/07/2026",
+        "replied": false
+      },
+      {
+        "author": "Ari Cidral",
+        "stars": 5,
+        "text": "O Gerson, e o Funcinario que eu gostaria na minha empresa..",
+        "date": "31/07/2026",
+        "replied": false
+      }
+    ]
+  }
 }

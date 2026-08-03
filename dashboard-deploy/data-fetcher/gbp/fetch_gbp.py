@@ -36,7 +36,7 @@ def call_tool(name, arguments):
         "Accept":        "application/json, text/event-stream",
     })
     try:
-        resp = urllib.request.urlopen(req, timeout=45)
+        resp = urllib.request.urlopen(req, timeout=90)
         data = json.loads(resp.read())
         content = data.get("result", {}).get("content", [])
         if not content:
@@ -67,7 +67,8 @@ def main():
     reviews_data = call_tool("google_reviews", {
         "business_name": BUSINESS_NAME,
         "location":      LOCATION,
-        "limit":         100,
+        "place_id":      PLACE_ID,
+        "limit":         30,
         "sort":          "newest",
     })
 
