@@ -448,6 +448,43 @@
     </div>
   </section>
 
+  <!-- ═══════════════════════════════════════════════
+       SEÇÃO 5 — GOOGLE MEU NEGÓCIO
+  ════════════════════════════════════════════════ -->
+  <section class="section" id="gmb-section" style="display:none;">
+    <div class="section-header">
+      <div class="platform-icon icon-gmb">M</div>
+      <h2 class="section-title">Google Meu Negócio</h2>
+      <span class="section-badge">Perfil local</span>
+    </div>
+
+    <div class="cards-grid">
+      <div class="card card-accent-gmb">
+        <div class="card-label">Nota Atual</div>
+        <div class="card-value" style="display:flex;align-items:baseline;gap:6px;">
+          <span id="gmb-nota">—</span><span style="color:var(--analytics-orange);font-size:18px;">★</span>
+        </div>
+        <div class="card-sub" id="gmb-total">—</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Avaliações no Mês<span id="gmb-period-label"></span></div>
+        <div class="card-value" id="gmb-avaliacoes-mes">—</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Visitas ao Perfil<span class="tip" data-tip="Não disponível via API de avaliações — requer acesso ao Google Business Profile do cliente.">?</span></div>
+        <div class="card-value gmb-unavailable">—</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Rotas Solicitadas<span class="tip" data-tip="Não disponível via API de avaliações — requer acesso ao Google Business Profile do cliente.">?</span></div>
+        <div class="card-value gmb-unavailable">—</div>
+      </div>
+    </div>
+
+    <div class="table-title" style="margin-bottom:12px;">Novas Avaliações do Mês <span style="color:var(--text-sub);font-weight:400;text-transform:none;letter-spacing:0;" id="gmb-month-label"></span></div>
+    <div class="reviews-list" id="gmb-reviews-list"></div>
+    <p class="gmb-unavailable" id="gmb-reviews-count"></p>
+  </section>
+
   <footer class="footer">
     <p>Dashboard por <strong>Ricco Negócios Digitais</strong> · <span id="footer-period"></span></p>
   </footer>
@@ -845,6 +882,41 @@
     scales:{x:{grid:{color:'#1a1a1a'},ticks:{color:'#555',font:{size:11},maxTicksLimit:10}},y:{grid:{color:'#1a1a1a'},ticks:{color:'#555',font:{size:11}},beginAtZero:true}}
   };
 
+
+function renderGmbSection(gmb) {
+  const section = document.getElementById('gmb-section');
+  if (!gmb) {
+    if (section) section.style.display = 'none';
+    return;
+  }
+  section.style.display = '';
+
+  setCard('gmb-nota', Number(gmb.nota || 0).toFixed(1).replace('.', ','));
+  setCard('gmb-total', `total acumulado: ${fInt(gmb.total_avaliacoes || 0)}`);
+  setCard('gmb-avaliacoes-mes', fInt(gmb.avaliacoes_mes || 0));
+
+  const reviews = gmb.avaliacoes || [];
+  const list = document.getElementById('gmb-reviews-list');
+  if (list) {
+    list.innerHTML = reviews.map(r => `
+      <div class="review-item">
+        <div class="review-top">
+          <span class="review-author">${r.author}</span>
+          <span class="review-date">${r.date}</span>
+        </div>
+        <div class="review-stars">${'★'.repeat(r.stars)}${'☆'.repeat(Math.max(0, 5 - r.stars))}</div>
+        <div class="review-text">${r.text || '(sem comentário)'}</div>
+      </div>`).join('');
+  }
+
+  const countEl = document.getElementById('gmb-reviews-count');
+  if (countEl) {
+    countEl.textContent = reviews.length < (gmb.avaliacoes_mes || 0)
+      ? `Exibindo ${reviews.length} de ${gmb.avaliacoes_mes} avaliações recebidas no período. Visitas, rotas e ligações não disponíveis via esta fonte de dados.`
+      : `Visitas, rotas e ligações não disponíveis via esta fonte de dados.`;
+  }
+}
+
   function populateDashboard(d){
     _D=d;
     const m=d.meta||{}; const g=d.google||{}; const a=d.ga4||{};
@@ -917,6 +989,7 @@
     buildCharts(labels);
 
     renderTable('kw'); renderTable('terms'); renderTable('origem');
+    renderGmbSection(d.gmb);
   }
 
   const SENHA_HASH = "b9308cd120d04969264d65e36c435a19936b08f2f5ee73d2a787e5af18e75f51";
