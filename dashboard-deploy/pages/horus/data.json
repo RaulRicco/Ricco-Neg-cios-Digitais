@@ -1,61 +1,74 @@
 {
   "cliente": "Hórus Treinamento Físico",
   "periodo": {
-    "start": "2026-06-01",
-    "end": "2026-06-30"
+    "start": "2026-07-01",
+    "end": "2026-07-31"
   },
-  "gerado_em": "2026-07-06T09:58:44.346667",
+  "gerado_em": "2026-08-05T17:15:43.732925",
   "consolidado": null,
   "meta": {
-    "spend": 346.26,
-    "reach": 4739,
-    "impressions": 12946,
-    "clicks": 286,
-    "cpm": 26.75,
-    "cpc": 1.21,
-    "ctr": 2.21,
-    "frequency": 2.73,
+    "spend": 391.2,
+    "reach": 5682,
+    "impressions": 14426,
+    "clicks": 365,
+    "cpm": 27.12,
+    "cpc": 1.07,
+    "ctr": 2.53,
+    "frequency": 2.54,
     "campaigns": [
       {
         "name": "[CBO] [DOG HORUS] [MENSAGEM]",
         "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 346.26,
-        "reach": 4739,
-        "impressions": 12946,
-        "clicks": 286,
-        "ctr": 2.21,
-        "cpc": 1.21,
+        "spend": 391.2,
+        "reach": 5682,
+        "impressions": 14426,
+        "clicks": 365,
+        "ctr": 2.53,
+        "cpc": 1.07,
         "result_label": "Mensagens",
-        "result_qty": 20,
-        "result_cpr": 17.31
+        "result_qty": 29,
+        "result_cpr": 13.49
       }
     ],
     "ads": [
       {
         "name": "VIDEO DOG HORUS",
         "campaign": "[CBO] [DOG HORUS] [MENSAGEM]",
-        "spend": 257.2,
-        "impressions": 8595,
-        "clicks": 218,
-        "ctr": 2.54,
-        "cpc": 1.18,
-        "frequency": 2.34,
+        "spend": 255.17,
+        "impressions": 8455,
+        "clicks": 285,
+        "ctr": 3.37,
+        "cpc": 0.9,
+        "frequency": 1.97,
         "result_label": "Mensagens",
-        "result_qty": 12,
-        "result_cpr": 21.43
+        "result_qty": 17,
+        "result_cpr": 15.01
       },
       {
         "name": "academias_vendem",
         "campaign": "[CBO] [DOG HORUS] [MENSAGEM]",
-        "spend": 89.06,
-        "impressions": 4351,
-        "clicks": 68,
-        "ctr": 1.56,
-        "cpc": 1.31,
-        "frequency": 2.4,
+        "spend": 121.91,
+        "impressions": 5477,
+        "clicks": 62,
+        "ctr": 1.13,
+        "cpc": 1.97,
+        "frequency": 2.39,
         "result_label": "Mensagens",
-        "result_qty": 8,
-        "result_cpr": 11.13
+        "result_qty": 10,
+        "result_cpr": 12.19
+      },
+      {
+        "name": "VD DOC DENNISE",
+        "campaign": "[CBO] [DOG HORUS] [MENSAGEM]",
+        "spend": 14.12,
+        "impressions": 494,
+        "clicks": 18,
+        "ctr": 3.64,
+        "cpc": 0.78,
+        "frequency": 1.31,
+        "result_label": "Mensagens",
+        "result_qty": 2,
+        "result_cpr": 7.06
       }
     ]
   },

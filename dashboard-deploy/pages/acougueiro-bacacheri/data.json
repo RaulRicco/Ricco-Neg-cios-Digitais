@@ -1,1196 +1,996 @@
 {
   "cliente": "Bar do Açougueiro — Bacacheri",
   "periodo": {
-    "start": "2026-06-01",
-    "end": "2026-06-30"
+    "start": "2026-07-01",
+    "end": "2026-07-31"
   },
-  "gerado_em": "2026-07-06T10:35:05.447491",
+  "gerado_em": "2026-08-05T17:12:33.334650",
   "consolidado": {
-    "spend": 1693.38,
-    "reach": 105222,
-    "impressions": 184089,
-    "clicks": 5633,
-    "meta_spend": 1200.87,
-    "google_spend": 492.51
+    "spend": 2202.25,
+    "reach": 113006,
+    "impressions": 205035,
+    "clicks": 5980,
+    "meta_spend": 1683.46,
+    "google_spend": 518.79
   },
   "meta": {
-    "spend": 1200.87,
-    "reach": 105222,
-    "impressions": 162105,
-    "clicks": 4642,
-    "cpm": 7.41,
-    "cpc": 0.26,
-    "ctr": 2.86,
-    "frequency": 1.54,
+    "spend": 1683.46,
+    "reach": 113006,
+    "impressions": 182804,
+    "clicks": 5115,
+    "cpm": 9.21,
+    "cpc": 0.33,
+    "ctr": 2.8,
+    "frequency": 1.62,
     "campaigns": [
       {
         "name": "[CBO] [TOPO DE FUNIL 2.0] [TRAFEGO]",
         "objective": "LINK_CLICKS",
-        "spend": 209.97,
-        "reach": 25260,
-        "impressions": 29435,
-        "clicks": 998,
-        "ctr": 3.39,
-        "cpc": 0.21,
+        "spend": 216.39,
+        "reach": 26631,
+        "impressions": 30911,
+        "clicks": 995,
+        "ctr": 3.22,
+        "cpc": 0.22,
         "result_label": "Cliques",
-        "result_qty": 956,
-        "result_cpr": 0.22
+        "result_qty": 940,
+        "result_cpr": 0.23
       },
       {
         "name": "[CBO] [HAPPY HOUR] [TRAFEGO]",
         "objective": "LINK_CLICKS",
-        "spend": 199.91,
-        "reach": 23009,
-        "impressions": 33281,
-        "clicks": 1012,
-        "ctr": 3.04,
+        "spend": 200.01,
+        "reach": 23335,
+        "impressions": 31221,
+        "clicks": 978,
+        "ctr": 3.13,
         "cpc": 0.2,
         "result_label": "Cliques",
-        "result_qty": 1017,
+        "result_qty": 996,
         "result_cpr": 0.2
       },
       {
         "name": "[CBO] [VIDEO BURGUER] [ENGAJEMNTO",
         "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 209.45,
-        "reach": 38327,
-        "impressions": 53512,
-        "clicks": 979,
-        "ctr": 1.83,
-        "cpc": 0.21,
+        "spend": 215.65,
+        "reach": 41298,
+        "impressions": 55049,
+        "clicks": 769,
+        "ctr": 1.4,
+        "cpc": 0.28,
         "result_label": "Engajamentos",
-        "result_qty": 24702,
+        "result_qty": 26459,
         "result_cpr": 0.01
-      },
-      {
-        "name": "[CBO] [OPEN DE QUENTAO MAI/26] [RESERVAS]",
-        "objective": "OUTCOME_LEADS",
-        "spend": 200.04,
-        "reach": 11894,
-        "impressions": 17494,
-        "clicks": 435,
-        "ctr": 2.49,
-        "cpc": 0.46,
-        "result_label": "Leads",
-        "result_qty": 9,
-        "result_cpr": 22.23
-      },
-      {
-        "name": "[CBO] [DIA DOS NAMORADOS 26] [RESERVAS]",
-        "objective": "OUTCOME_LEADS",
-        "spend": 37.52,
-        "reach": 2767,
-        "impressions": 3376,
-        "clicks": 208,
-        "ctr": 6.16,
-        "cpc": 0.18,
-        "result_label": "Leads",
-        "result_qty": 11,
-        "result_cpr": 3.41
       },
       {
         "name": "[CARNE DE ONÇA] [RESERVA]",
         "objective": "OUTCOME_LEADS",
-        "spend": 143.98,
-        "reach": 8547,
-        "impressions": 11306,
-        "clicks": 551,
-        "ctr": 4.87,
-        "cpc": 0.26,
+        "spend": 13.27,
+        "reach": 744,
+        "impressions": 798,
+        "clicks": 41,
+        "ctr": 5.14,
+        "cpc": 0.32,
         "result_label": "Leads",
-        "result_qty": 2,
-        "result_cpr": 71.99
+        "result_qty": 1,
+        "result_cpr": 13.27
       },
       {
         "name": "[COPA DO MUNDO] [RESERVAS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 150.0,
-        "reach": 6821,
-        "impressions": 9849,
-        "clicks": 279,
-        "ctr": 2.83,
-        "cpc": 0.54,
-        "result_label": "Leads",
-        "result_qty": 25,
-        "result_cpr": 6.0
-      },
-      {
-        "name": "[JOGO BRASILXJAPA] [RESERVAS]",
-        "objective": "OUTCOME_LEADS",
         "spend": 50.0,
-        "reach": 3314,
-        "impressions": 3852,
-        "clicks": 180,
-        "ctr": 4.67,
-        "cpc": 0.28,
+        "reach": 2548,
+        "impressions": 3160,
+        "clicks": 109,
+        "ctr": 3.45,
+        "cpc": 0.46,
         "result_label": "Leads",
         "result_qty": 9,
         "result_cpr": 5.56
+      },
+      {
+        "name": "[NIVER] [RESERVAS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 193.09,
+        "reach": 8946,
+        "impressions": 12928,
+        "clicks": 211,
+        "ctr": 1.63,
+        "cpc": 0.92,
+        "result_label": "Leads",
+        "result_qty": 3,
+        "result_cpr": 64.36
+      },
+      {
+        "name": "[ALMOÇO] [RESERVAS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 199.83,
+        "reach": 9677,
+        "impressions": 12550,
+        "clicks": 612,
+        "ctr": 4.88,
+        "cpc": 0.33,
+        "result_label": "Leads",
+        "result_qty": 5,
+        "result_cpr": 39.97
+      },
+      {
+        "name": "[CARNE DE ONÇA 2.0] [RESERVAS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 227.27,
+        "reach": 9698,
+        "impressions": 13403,
+        "clicks": 394,
+        "ctr": 2.94,
+        "cpc": 0.58,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
+      },
+      {
+        "name": "[OPEN WINE] [RESERVAS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 149.83,
+        "reach": 4667,
+        "impressions": 7459,
+        "clicks": 178,
+        "ctr": 2.39,
+        "cpc": 0.84,
+        "result_label": "Leads",
+        "result_qty": 5,
+        "result_cpr": 29.97
+      },
+      {
+        "name": "[SERTANEJO SEXTA] [RESERVAS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 199.89,
+        "reach": 7035,
+        "impressions": 14160,
+        "clicks": 797,
+        "ctr": 5.63,
+        "cpc": 0.25,
+        "result_label": "Leads",
+        "result_qty": 16,
+        "result_cpr": 12.49
+      },
+      {
+        "name": "[FESTIVAL PASTRAMI] [RESERVAS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 18.23,
+        "reach": 906,
+        "impressions": 1165,
+        "clicks": 31,
+        "ctr": 2.66,
+        "cpc": 0.59,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
       }
     ],
     "ads": [
       {
         "name": "VIDEO TOPO BACACHERI",
         "campaign": "[CBO] [TOPO DE FUNIL 2.0] [TRAFEGO]",
-        "spend": 209.97,
-        "impressions": 29435,
-        "clicks": 998,
-        "ctr": 3.39,
-        "cpc": 0.21,
-        "frequency": 1.17,
+        "spend": 216.39,
+        "impressions": 30911,
+        "clicks": 995,
+        "ctr": 3.22,
+        "cpc": 0.22,
+        "frequency": 1.16,
         "result_label": "Cliques",
-        "result_qty": 956,
-        "result_cpr": 0.22
+        "result_qty": 940,
+        "result_cpr": 0.23
       },
       {
         "name": "HAPPY HOUR REELS",
         "campaign": "[CBO] [HAPPY HOUR] [TRAFEGO]",
-        "spend": 199.3,
-        "impressions": 33205,
-        "clicks": 1008,
-        "ctr": 3.04,
+        "spend": 198.59,
+        "impressions": 31028,
+        "clicks": 971,
+        "ctr": 3.13,
         "cpc": 0.2,
-        "frequency": 1.45,
+        "frequency": 1.33,
         "result_label": "Cliques",
-        "result_qty": 1015,
+        "result_qty": 988,
         "result_cpr": 0.2
       },
       {
         "name": "HAPPY HOUR REELS JAN 26",
         "campaign": "[CBO] [HAPPY HOUR] [TRAFEGO]",
-        "spend": 0.61,
-        "impressions": 76,
-        "clicks": 4,
-        "ctr": 5.26,
-        "cpc": 0.15,
-        "frequency": 1.01,
+        "spend": 1.42,
+        "impressions": 193,
+        "clicks": 7,
+        "ctr": 3.63,
+        "cpc": 0.2,
+        "frequency": 1.14,
         "result_label": "Cliques",
-        "result_qty": 2,
-        "result_cpr": 0.3
+        "result_qty": 8,
+        "result_cpr": 0.18
       },
       {
         "name": "VIDEO BURGUER",
         "campaign": "[CBO] [VIDEO BURGUER] [ENGAJEMNTO",
-        "spend": 209.45,
-        "impressions": 53512,
-        "clicks": 979,
-        "ctr": 1.83,
-        "cpc": 0.21,
-        "frequency": 1.4,
+        "spend": 215.65,
+        "impressions": 55049,
+        "clicks": 769,
+        "ctr": 1.4,
+        "cpc": 0.28,
+        "frequency": 1.33,
         "result_label": "Engajamentos",
-        "result_qty": 24702,
+        "result_qty": 26459,
         "result_cpr": 0.01
-      },
-      {
-        "name": "video_01_open_quentao",
-        "campaign": "[CBO] [OPEN DE QUENTAO MAI/26] [RESERVAS]",
-        "spend": 57.05,
-        "impressions": 4464,
-        "clicks": 112,
-        "ctr": 2.51,
-        "cpc": 0.51,
-        "frequency": 1.37,
-        "result_label": "Leads",
-        "result_qty": 2,
-        "result_cpr": 28.52
-      },
-      {
-        "name": "video_02_open_quentao",
-        "campaign": "[CBO] [OPEN DE QUENTAO MAI/26] [RESERVAS]",
-        "spend": 142.99,
-        "impressions": 13030,
-        "clicks": 323,
-        "ctr": 2.48,
-        "cpc": 0.44,
-        "frequency": 1.38,
-        "result_label": "Leads",
-        "result_qty": 7,
-        "result_cpr": 20.43
-      },
-      {
-        "name": "vd_namorados_26",
-        "campaign": "[CBO] [DIA DOS NAMORADOS 26] [RESERVAS]",
-        "spend": 37.52,
-        "impressions": 3376,
-        "clicks": 208,
-        "ctr": 6.16,
-        "cpc": 0.18,
-        "frequency": 1.22,
-        "result_label": "Leads",
-        "result_qty": 11,
-        "result_cpr": 3.41
       },
       {
         "name": "vd_carne_de_onca_influencer",
         "campaign": "[CARNE DE ONÇA] [RESERVA]",
-        "spend": 143.98,
-        "impressions": 11306,
-        "clicks": 551,
-        "ctr": 4.87,
-        "cpc": 0.26,
-        "frequency": 1.32,
+        "spend": 13.27,
+        "impressions": 798,
+        "clicks": 41,
+        "ctr": 5.14,
+        "cpc": 0.32,
+        "frequency": 1.07,
         "result_label": "Leads",
-        "result_qty": 2,
-        "result_cpr": 71.99
+        "result_qty": 1,
+        "result_cpr": 13.27
       },
       {
         "name": "vd_fernando_copa",
         "campaign": "[COPA DO MUNDO] [RESERVAS]",
-        "spend": 150.0,
-        "impressions": 9849,
-        "clicks": 279,
-        "ctr": 2.83,
-        "cpc": 0.54,
-        "frequency": 1.44,
-        "result_label": "Leads",
-        "result_qty": 25,
-        "result_cpr": 6.0
-      },
-      {
-        "name": "vd_jogo_bra_japao",
-        "campaign": "[JOGO BRASILXJAPA] [RESERVAS]",
         "spend": 50.0,
-        "impressions": 3852,
-        "clicks": 180,
-        "ctr": 4.67,
-        "cpc": 0.28,
-        "frequency": 1.16,
+        "impressions": 3160,
+        "clicks": 109,
+        "ctr": 3.45,
+        "cpc": 0.46,
+        "frequency": 1.24,
         "result_label": "Leads",
         "result_qty": 9,
         "result_cpr": 5.56
+      },
+      {
+        "name": "vd_niver_11_ago",
+        "campaign": "[NIVER] [RESERVAS]",
+        "spend": 64.24,
+        "impressions": 4619,
+        "clicks": 72,
+        "ctr": 1.56,
+        "cpc": 0.89,
+        "frequency": 1.24,
+        "result_label": "Leads",
+        "result_qty": 1,
+        "result_cpr": 64.24
+      },
+      {
+        "name": "vd_almoço_3_jan",
+        "campaign": "[ALMOÇO] [RESERVAS]",
+        "spend": 53.6,
+        "impressions": 3219,
+        "clicks": 103,
+        "ctr": 3.2,
+        "cpc": 0.52,
+        "frequency": 1.14,
+        "result_label": "Leads",
+        "result_qty": 1,
+        "result_cpr": 53.6
+      },
+      {
+        "name": "vd_almoço_4_jul",
+        "campaign": "[ALMOÇO] [RESERVAS]",
+        "spend": 146.23,
+        "impressions": 9331,
+        "clicks": 509,
+        "ctr": 5.45,
+        "cpc": 0.29,
+        "frequency": 1.24,
+        "result_label": "Leads",
+        "result_qty": 4,
+        "result_cpr": 36.56
+      },
+      {
+        "name": "carne_de_onca_jul_26",
+        "campaign": "[CARNE DE ONÇA 2.0] [RESERVAS]",
+        "spend": 145.66,
+        "impressions": 8903,
+        "clicks": 286,
+        "ctr": 3.21,
+        "cpc": 0.51,
+        "frequency": 1.31,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
+      },
+      {
+        "name": "vd_niver_jul",
+        "campaign": "[NIVER] [RESERVAS]",
+        "spend": 115.72,
+        "impressions": 7691,
+        "clicks": 131,
+        "ctr": 1.7,
+        "cpc": 0.88,
+        "frequency": 1.37,
+        "result_label": "Leads",
+        "result_qty": 1,
+        "result_cpr": 115.72
+      },
+      {
+        "name": "volta_open_wine",
+        "campaign": "[OPEN WINE] [RESERVAS]",
+        "spend": 149.83,
+        "impressions": 7459,
+        "clicks": 178,
+        "ctr": 2.39,
+        "cpc": 0.84,
+        "frequency": 1.6,
+        "result_label": "Leads",
+        "result_qty": 5,
+        "result_cpr": 29.97
+      },
+      {
+        "name": "VIDEO 01 SERTANEJO",
+        "campaign": "[SERTANEJO SEXTA] [RESERVAS]",
+        "spend": 199.89,
+        "impressions": 14160,
+        "clicks": 797,
+        "ctr": 5.63,
+        "cpc": 0.25,
+        "frequency": 2.01,
+        "result_label": "Leads",
+        "result_qty": 16,
+        "result_cpr": 12.49
+      },
+      {
+        "name": "carne_de_onca_jul_26_2.0",
+        "campaign": "[CARNE DE ONÇA 2.0] [RESERVAS]",
+        "spend": 81.61,
+        "impressions": 4500,
+        "clicks": 108,
+        "ctr": 2.4,
+        "cpc": 0.76,
+        "frequency": 1.41,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
+      },
+      {
+        "name": "vd_niver_11_ago",
+        "campaign": "[NIVER] [RESERVAS]",
+        "spend": 13.13,
+        "impressions": 618,
+        "clicks": 8,
+        "ctr": 1.29,
+        "cpc": 1.64,
+        "frequency": 1.15,
+        "result_label": "Leads",
+        "result_qty": 1,
+        "result_cpr": 13.13
+      },
+      {
+        "name": "feed_festival_de_pastrami",
+        "campaign": "[FESTIVAL PASTRAMI] [RESERVAS]",
+        "spend": 18.23,
+        "impressions": 1165,
+        "clicks": 31,
+        "ctr": 2.66,
+        "cpc": 0.59,
+        "frequency": 1.29,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
       }
     ]
   },
   "google": {
-    "spend": 492.51,
-    "impressions": 21984,
-    "clicks": 991,
-    "ctr": 4.51,
-    "cpc": 0.5,
-    "conversions": 173,
-    "cpa": 2.85,
+    "spend": 518.79,
+    "impressions": 22231,
+    "clicks": 865,
+    "ctr": 3.89,
+    "cpc": 0.6,
+    "conversions": 81,
+    "cpa": 6.4,
     "campaigns": [
       {
         "name": "[REDE DE PESQUISAS 3.0] [RESERVAS]",
         "type": "Search",
         "status": "Enabled",
-        "spend": 249.77,
-        "impressions": 8297,
-        "clicks": 469,
-        "ctr": 5.65,
-        "cpc": 0.53,
-        "conversions": 52
-      },
-      {
-        "name": "[PESQUISAS] [VISITAS LOJA] [2026]",
-        "type": "Search",
-        "status": "Paused",
-        "spend": 242.74,
-        "impressions": 13687,
-        "clicks": 522,
-        "ctr": 3.81,
-        "cpc": 0.47,
-        "conversions": 121
+        "spend": 518.79,
+        "impressions": 22231,
+        "clicks": 865,
+        "ctr": 3.89,
+        "cpc": 0.6,
+        "conversions": 81
       }
     ],
     "keywords": [
       {
-        "keyword": "bar curitiba",
-        "match": "Exact",
-        "impressions": 1905,
-        "clicks": 144,
-        "ctr": 7.56,
-        "cpc": 0.75,
-        "conversions": 21
-      },
-      {
         "keyword": "restaurante curitiba",
         "match": "Exact",
-        "impressions": 3234,
-        "clicks": 127,
-        "ctr": 3.93,
-        "cpc": 0.67,
-        "conversions": 15
-      },
-      {
-        "keyword": "bares em curitiba",
-        "match": "Exact",
-        "impressions": 1090,
-        "clicks": 105,
-        "ctr": 9.63,
-        "cpc": 0.53,
-        "conversions": 28
+        "impressions": 9487,
+        "clicks": 342,
+        "ctr": 3.6,
+        "cpc": 0.63,
+        "conversions": 40
       },
       {
         "keyword": "restaurante em curitiba",
         "match": "Exact",
-        "impressions": 3227,
-        "clicks": 104,
-        "ctr": 3.22,
-        "cpc": 0.49,
-        "conversions": 35
-      },
-      {
-        "keyword": "bar em curitiba",
-        "match": "Exact",
-        "impressions": 929,
-        "clicks": 49,
-        "ctr": 5.27,
+        "impressions": 5588,
+        "clicks": 206,
+        "ctr": 3.69,
         "cpc": 0.56,
-        "conversions": 10
-      },
-      {
-        "keyword": "melhores restaurantes de curitiba",
-        "match": "Exact",
-        "impressions": 1177,
-        "clicks": 38,
-        "ctr": 3.23,
-        "cpc": 0.49,
-        "conversions": 10
-      },
-      {
-        "keyword": "Bar em Curitiba",
-        "match": "Exact",
-        "impressions": 400,
-        "clicks": 23,
-        "ctr": 5.75,
-        "cpc": 0.62,
-        "conversions": 2
-      },
-      {
-        "keyword": "churrascaria em curitiba",
-        "match": "Exact",
-        "impressions": 800,
-        "clicks": 31,
-        "ctr": 3.88,
-        "cpc": 0.42,
-        "conversions": 5
-      },
-      {
-        "keyword": "restaurante em curitiba",
-        "match": "Exact",
-        "impressions": 679,
-        "clicks": 17,
-        "ctr": 2.5,
-        "cpc": 0.64,
-        "conversions": 0
-      },
-      {
-        "keyword": "restaurante no bacacheri",
-        "match": "Exact",
-        "impressions": 543,
-        "clicks": 24,
-        "ctr": 4.42,
-        "cpc": 0.45,
-        "conversions": 5
-      },
-      {
-        "keyword": "melhor bar de curitiba",
-        "match": "Exact",
-        "impressions": 258,
-        "clicks": 23,
-        "ctr": 8.91,
-        "cpc": 0.44,
-        "conversions": 1
-      },
-      {
-        "keyword": "restaurante com churrasco em curitiba",
-        "match": "Exact",
-        "impressions": 703,
-        "clicks": 17,
-        "ctr": 2.42,
-        "cpc": 0.4,
-        "conversions": 3
-      },
-      {
-        "keyword": "O Bar do Açougueiro",
-        "match": "Broad",
-        "impressions": 435,
-        "clicks": 64,
-        "ctr": 14.71,
-        "cpc": 0.1,
-        "conversions": 0
-      },
-      {
-        "keyword": "bar em curitiba",
-        "match": "Exact",
-        "impressions": 471,
-        "clicks": 18,
-        "ctr": 3.82,
-        "cpc": 0.31,
-        "conversions": 5
-      },
-      {
-        "keyword": "O Bar do Açougueiro",
-        "match": "Exact",
-        "impressions": 32,
-        "clicks": 5,
-        "ctr": 15.62,
-        "cpc": 1.0,
-        "conversions": 2
-      },
-      {
-        "keyword": "O bar do açougueiro",
-        "match": "Exact",
-        "impressions": 33,
-        "clicks": 5,
-        "ctr": 15.15,
-        "cpc": 0.96,
-        "conversions": 4
-      },
-      {
-        "keyword": "onde sair em curitiba",
-        "match": "Exact",
-        "impressions": 554,
-        "clicks": 12,
-        "ctr": 2.17,
-        "cpc": 0.39,
-        "conversions": 0
-      },
-      {
-        "keyword": "bar com churrasco em curitiba",
-        "match": "Exact",
-        "impressions": 144,
-        "clicks": 7,
-        "ctr": 4.86,
-        "cpc": 0.37,
-        "conversions": 3
-      },
-      {
-        "keyword": "batel bares",
-        "match": "Exact",
-        "impressions": 215,
-        "clicks": 7,
-        "ctr": 3.26,
-        "cpc": 0.33,
-        "conversions": 2
+        "conversions": 13
       },
       {
         "keyword": "bar curitiba",
         "match": "Exact",
-        "impressions": 342,
-        "clicks": 6,
-        "ctr": 1.75,
-        "cpc": 0.19,
-        "conversions": 2
+        "impressions": 4170,
+        "clicks": 179,
+        "ctr": 4.29,
+        "cpc": 0.59,
+        "conversions": 16
       },
       {
-        "keyword": "bar para aniversário curitiba",
+        "keyword": "bar em curitiba",
         "match": "Exact",
-        "impressions": 55,
-        "clicks": 5,
-        "ctr": 9.09,
-        "cpc": 0.18,
-        "conversions": 0
-      },
-      {
-        "keyword": "barzinho curitiba",
-        "match": "Exact",
-        "impressions": 202,
-        "clicks": 5,
-        "ctr": 2.48,
-        "cpc": 0.12,
-        "conversions": 0
-      },
-      {
-        "keyword": "melhor bar curitiba",
-        "match": "Exact",
-        "impressions": 115,
-        "clicks": 4,
-        "ctr": 3.48,
-        "cpc": 0.15,
-        "conversions": 0
-      },
-      {
-        "keyword": "churrascaria no bacacheri",
-        "match": "Exact",
-        "impressions": 332,
-        "clicks": 2,
-        "ctr": 0.6,
-        "cpc": 0.14,
-        "conversions": 0
-      },
-      {
-        "keyword": "melhores bares curitiba",
-        "match": "Exact",
-        "impressions": 125,
-        "clicks": 1,
-        "ctr": 0.8,
-        "cpc": 0.27,
-        "conversions": 2
-      },
-      {
-        "keyword": "batel curitiba bares",
-        "match": "Exact",
-        "impressions": 243,
-        "clicks": 2,
-        "ctr": 0.82,
-        "cpc": 0.1,
-        "conversions": 1
-      },
-      {
-        "keyword": "onde sair curitiba",
-        "match": "Exact",
-        "impressions": 128,
-        "clicks": 1,
-        "ctr": 0.78,
-        "cpc": 0.08,
-        "conversions": 0
-      },
-      {
-        "keyword": "restaurante com churrasco curitiba",
-        "match": "Exact",
-        "impressions": 14,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "happy hour em curitiba",
-        "match": "Exact",
-        "impressions": 3,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "happy hour curitiba",
-        "match": "Exact",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "bar no bacacheri",
-        "match": "Exact",
-        "impressions": 5,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "bares no agua verde curitiba",
-        "match": "Exact",
-        "impressions": 30,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "melhor bar em curitiba",
-        "match": "Exact",
-        "impressions": 89,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "bares no batel em curitiba",
-        "match": "Exact",
-        "impressions": 133,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "bar na batel",
-        "match": "Exact",
-        "impressions": 42,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "bares no bairro batel",
-        "match": "Exact",
-        "impressions": 45,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "bar e churrascaria em curitiba",
-        "match": "Exact",
-        "impressions": 4,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "bar para confraternização curitiba",
-        "match": "Exact",
-        "impressions": 114,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
+        "impressions": 2986,
+        "clicks": 138,
+        "ctr": 4.62,
+        "cpc": 0.6,
+        "conversions": 12
       }
     ],
     "search_terms": [
       {
-        "term": "bar do açougueiro",
-        "keyword": "—",
-        "impressions": 387,
-        "clicks": 59,
-        "ctr": 15.25,
-        "cpc": 0.59
-      },
-      {
-        "term": "bar do açougueiro",
-        "keyword": "—",
-        "impressions": 426,
-        "clicks": 64,
-        "ctr": 15.02,
-        "cpc": 0.34
-      },
-      {
         "term": "restaurante curitiba",
         "keyword": "—",
-        "impressions": 1164,
-        "clicks": 28,
-        "ctr": 2.41,
-        "cpc": 0.74
-      },
-      {
-        "term": "bar do açougueiro batel",
-        "keyword": "—",
-        "impressions": 139,
-        "clicks": 20,
-        "ctr": 14.39,
-        "cpc": 0.81
+        "impressions": 5312,
+        "clicks": 153,
+        "ctr": 2.88,
+        "cpc": 0.61
       },
       {
         "term": "restaurantes em curitiba",
         "keyword": "—",
-        "impressions": 369,
-        "clicks": 18,
-        "ctr": 4.88,
+        "impressions": 1680,
+        "clicks": 80,
+        "ctr": 4.76,
         "cpc": 0.66
-      },
-      {
-        "term": "bares em curitiba",
-        "keyword": "—",
-        "impressions": 329,
-        "clicks": 16,
-        "ctr": 4.86,
-        "cpc": 0.74
       },
       {
         "term": "restaurantes curitiba",
         "keyword": "—",
-        "impressions": 539,
-        "clicks": 12,
-        "ctr": 2.23,
-        "cpc": 0.84
+        "impressions": 2703,
+        "clicks": 86,
+        "ctr": 3.18,
+        "cpc": 0.55
       },
       {
-        "term": "bar do açougueiro agua verde",
+        "term": "bares em curitiba",
         "keyword": "—",
-        "impressions": 93,
-        "clicks": 12,
-        "ctr": 12.9,
-        "cpc": 0.81
-      },
-      {
-        "term": "bares curitiba",
-        "keyword": "—",
-        "impressions": 320,
-        "clicks": 13,
-        "ctr": 4.06,
-        "cpc": 0.74
-      },
-      {
-        "term": "bar do açougueiro batel",
-        "keyword": "—",
-        "impressions": 83,
-        "clicks": 10,
-        "ctr": 12.05,
-        "cpc": 0.76
-      },
-      {
-        "term": "bar do acougueiro",
-        "keyword": "—",
-        "impressions": 42,
-        "clicks": 9,
-        "ctr": 21.43,
-        "cpc": 0.84
-      },
-      {
-        "term": "barzinhos em curitiba",
-        "keyword": "—",
-        "impressions": 149,
-        "clicks": 10,
-        "ctr": 6.71,
-        "cpc": 0.73
-      },
-      {
-        "term": "barzinho curitiba",
-        "keyword": "—",
-        "impressions": 177,
-        "clicks": 10,
-        "ctr": 5.65,
-        "cpc": 0.72
+        "impressions": 1102,
+        "clicks": 63,
+        "ctr": 5.72,
+        "cpc": 0.6
       },
       {
         "term": "restaurante em curitiba",
         "keyword": "—",
-        "impressions": 221,
-        "clicks": 9,
-        "ctr": 4.07,
-        "cpc": 0.66
+        "impressions": 1212,
+        "clicks": 56,
+        "ctr": 4.62,
+        "cpc": 0.61
       },
       {
-        "term": "bar curitiba",
+        "term": "bares curitiba",
         "keyword": "—",
-        "impressions": 216,
-        "clicks": 8,
-        "ctr": 3.7,
-        "cpc": 0.74
+        "impressions": 1345,
+        "clicks": 49,
+        "ctr": 3.64,
+        "cpc": 0.59
       },
       {
-        "term": "bar do açougueiro agua verde",
+        "term": "barzinho curitiba",
         "keyword": "—",
-        "impressions": 72,
-        "clicks": 9,
-        "ctr": 12.5,
-        "cpc": 0.64
-      },
-      {
-        "term": "bar do açougueiro agua verde",
-        "keyword": "—",
-        "impressions": 54,
-        "clicks": 7,
-        "ctr": 12.96,
-        "cpc": 0.81
-      },
-      {
-        "term": "bar do açougueiro",
-        "keyword": "—",
-        "impressions": 66,
-        "clicks": 9,
-        "ctr": 13.64,
-        "cpc": 0.58
-      },
-      {
-        "term": "bar do açougueiro curitiba",
-        "keyword": "—",
-        "impressions": 35,
-        "clicks": 6,
-        "ctr": 17.14,
-        "cpc": 0.84
-      },
-      {
-        "term": "bar do açougueiro água verde",
-        "keyword": "—",
-        "impressions": 36,
-        "clicks": 4,
-        "ctr": 11.11,
-        "cpc": 1.11
-      },
-      {
-        "term": "bar do açougueiro curitiba",
-        "keyword": "—",
-        "impressions": 19,
-        "clicks": 5,
-        "ctr": 26.32,
-        "cpc": 0.86
-      },
-      {
-        "term": "bar do açougueiro batel",
-        "keyword": "—",
-        "impressions": 48,
-        "clicks": 7,
-        "ctr": 14.58,
-        "cpc": 0.6
-      },
-      {
-        "term": "bar do açougueiro curitiba",
-        "keyword": "—",
-        "impressions": 34,
-        "clicks": 5,
-        "ctr": 14.71,
-        "cpc": 0.71
-      },
-      {
-        "term": "churrascaria curitiba",
-        "keyword": "—",
-        "impressions": 233,
-        "clicks": 7,
-        "ctr": 3.0,
-        "cpc": 0.49
-      },
-      {
-        "term": "barolo curitiba",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 2.58
-      },
-      {
-        "term": "barzinho em curitiba",
-        "keyword": "—",
-        "impressions": 69,
-        "clicks": 4,
-        "ctr": 5.8,
-        "cpc": 0.64
-      },
-      {
-        "term": "restaurantes para conhecer em curitiba",
-        "keyword": "—",
-        "impressions": 7,
-        "clicks": 2,
-        "ctr": 28.57,
-        "cpc": 1.23
-      },
-      {
-        "term": "bar do acougueiro batel",
-        "keyword": "—",
-        "impressions": 19,
-        "clicks": 2,
-        "ctr": 10.53,
-        "cpc": 1.22
-      },
-      {
-        "term": "onde comer em curitiba",
-        "keyword": "—",
-        "impressions": 93,
-        "clicks": 4,
-        "ctr": 4.3,
-        "cpc": 0.6
-      },
-      {
-        "term": "açougueiro batel",
-        "keyword": "—",
-        "impressions": 3,
-        "clicks": 2,
-        "ctr": 66.67,
-        "cpc": 1.15
-      },
-      {
-        "term": "o bar do açougueiro curitiba bacacheri fotos",
-        "keyword": "—",
-        "impressions": 4,
-        "clicks": 1,
-        "ctr": 25.0,
-        "cpc": 2.3
-      },
-      {
-        "term": "onde jantar em curitiba",
-        "keyword": "—",
-        "impressions": 89,
-        "clicks": 4,
-        "ctr": 4.49,
-        "cpc": 0.55
-      },
-      {
-        "term": "cardápio de bar açougueiro",
-        "keyword": "—",
-        "impressions": 11,
-        "clicks": 5,
-        "ctr": 45.45,
-        "cpc": 0.42
-      },
-      {
-        "term": "lugares para comer curitiba",
-        "keyword": "—",
-        "impressions": 105,
-        "clicks": 3,
-        "ctr": 2.86,
-        "cpc": 0.69
-      },
-      {
-        "term": "lugar para comer curitiba",
-        "keyword": "—",
-        "impressions": 36,
-        "clicks": 2,
-        "ctr": 5.56,
-        "cpc": 0.99
-      },
-      {
-        "term": "restaurants curitiba",
-        "keyword": "—",
-        "impressions": 13,
-        "clicks": 2,
-        "ctr": 15.38,
-        "cpc": 0.97
-      },
-      {
-        "term": "bar do acougueiro",
-        "keyword": "—",
-        "impressions": 4,
-        "clicks": 1,
-        "ctr": 25.0,
-        "cpc": 1.94
-      },
-      {
-        "term": "almoço de domingo em curitiba",
-        "keyword": "—",
-        "impressions": 3,
-        "clicks": 3,
-        "ctr": 100.0,
-        "cpc": 0.62
-      },
-      {
-        "term": "cardápio de bar açougueiro",
-        "keyword": "—",
-        "impressions": 11,
-        "clicks": 7,
-        "ctr": 63.64,
-        "cpc": 0.26
-      },
-      {
-        "term": "jantar romantico curitiba",
-        "keyword": "—",
-        "impressions": 3,
-        "clicks": 1,
-        "ctr": 33.33,
-        "cpc": 1.79
-      },
-      {
-        "term": "churrascaria",
-        "keyword": "—",
-        "impressions": 165,
-        "clicks": 7,
-        "ctr": 4.24,
-        "cpc": 0.25
-      },
-      {
-        "term": "bons restaurantes em curitiba",
-        "keyword": "—",
-        "impressions": 23,
-        "clicks": 2,
-        "ctr": 8.7,
-        "cpc": 0.86
-      },
-      {
-        "term": "restaurantes",
-        "keyword": "—",
-        "impressions": 378,
-        "clicks": 12,
-        "ctr": 3.17,
-        "cpc": 0.14
-      },
-      {
-        "term": "bar do açougueiro bacacheri",
-        "keyword": "—",
-        "impressions": 70,
-        "clicks": 11,
-        "ctr": 15.71,
-        "cpc": 0.16
-      },
-      {
-        "term": "bar do açougueiro em curitiba",
-        "keyword": "—",
-        "impressions": 14,
-        "clicks": 6,
-        "ctr": 42.86,
-        "cpc": 0.28
+        "impressions": 956,
+        "clicks": 46,
+        "ctr": 4.81,
+        "cpc": 0.59
       },
       {
         "term": "bar em curitiba",
         "keyword": "—",
-        "impressions": 212,
-        "clicks": 3,
-        "ctr": 1.42,
+        "impressions": 729,
+        "clicks": 36,
+        "ctr": 4.94,
+        "cpc": 0.61
+      },
+      {
+        "term": "onde comer em curitiba",
+        "keyword": "—",
+        "impressions": 571,
+        "clicks": 26,
+        "ctr": 4.55,
+        "cpc": 0.64
+      },
+      {
+        "term": "bar curitiba",
+        "keyword": "—",
+        "impressions": 868,
+        "clicks": 24,
+        "ctr": 2.76,
+        "cpc": 0.65
+      },
+      {
+        "term": "lugares para comer curitiba",
+        "keyword": "—",
+        "impressions": 431,
+        "clicks": 27,
+        "ctr": 6.26,
+        "cpc": 0.55
+      },
+      {
+        "term": "barzinho em curitiba",
+        "keyword": "—",
+        "impressions": 376,
+        "clicks": 23,
+        "ctr": 6.12,
+        "cpc": 0.58
+      },
+      {
+        "term": "onde jantar em curitiba",
+        "keyword": "—",
+        "impressions": 544,
+        "clicks": 21,
+        "ctr": 3.86,
+        "cpc": 0.55
+      },
+      {
+        "term": "barzinhos em curitiba",
+        "keyword": "—",
+        "impressions": 530,
+        "clicks": 14,
+        "ctr": 2.64,
+        "cpc": 0.6
+      },
+      {
+        "term": "lugares para comer em curitiba",
+        "keyword": "—",
+        "impressions": 271,
+        "clicks": 13,
+        "ctr": 4.8,
+        "cpc": 0.54
+      },
+      {
+        "term": "botecos em curitiba",
+        "keyword": "—",
+        "impressions": 119,
+        "clicks": 9,
+        "ctr": 7.56,
         "cpc": 0.56
       },
       {
-        "term": "restaurantes pro dia dos namorados",
+        "term": "barzinhos curitiba",
         "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 1.62
+        "impressions": 225,
+        "clicks": 8,
+        "ctr": 3.56,
+        "cpc": 0.62
       },
       {
-        "term": "tierra del fuego curitiba",
+        "term": "lugares legais para comer em curitiba",
         "keyword": "—",
-        "impressions": 4,
+        "impressions": 46,
+        "clicks": 6,
+        "ctr": 13.04,
+        "cpc": 0.72
+      },
+      {
+        "term": "bares de curitiba",
+        "keyword": "—",
+        "impressions": 78,
+        "clicks": 6,
+        "ctr": 7.69,
+        "cpc": 0.7
+      },
+      {
+        "term": "restaurantes bons em curitiba",
+        "keyword": "—",
+        "impressions": 176,
+        "clicks": 6,
+        "ctr": 3.41,
+        "cpc": 0.7
+      },
+      {
+        "term": "bares legais em curitiba",
+        "keyword": "—",
+        "impressions": 121,
+        "clicks": 6,
+        "ctr": 4.96,
+        "cpc": 0.61
+      },
+      {
+        "term": "restaurante bom em curitiba",
+        "keyword": "—",
+        "impressions": 80,
+        "clicks": 6,
+        "ctr": 7.5,
+        "cpc": 0.59
+      },
+      {
+        "term": "onde comer curitiba",
+        "keyword": "—",
+        "impressions": 191,
+        "clicks": 5,
+        "ctr": 2.62,
+        "cpc": 0.64
+      },
+      {
+        "term": "lugar para comer curitiba",
+        "keyword": "—",
+        "impressions": 135,
+        "clicks": 5,
+        "ctr": 3.7,
+        "cpc": 0.56
+      },
+      {
+        "term": "curitiba restaurantes",
+        "keyword": "—",
+        "impressions": 136,
+        "clicks": 5,
+        "ctr": 3.68,
+        "cpc": 0.56
+      },
+      {
+        "term": "botecos curitiba",
+        "keyword": "—",
+        "impressions": 68,
+        "clicks": 6,
+        "ctr": 8.82,
+        "cpc": 0.45
+      },
+      {
+        "term": "restaurante de curitiba",
+        "keyword": "—",
+        "impressions": 25,
         "clicks": 2,
-        "ctr": 50.0,
-        "cpc": 0.81
+        "ctr": 8.0,
+        "cpc": 0.78
       },
       {
-        "term": "bar do açougueiro água verde",
+        "term": "bar legal em curitiba",
+        "keyword": "—",
+        "impressions": 44,
+        "clicks": 3,
+        "ctr": 6.82,
+        "cpc": 0.49
+      },
+      {
+        "term": "comer em curitiba",
+        "keyword": "—",
+        "impressions": 35,
+        "clicks": 2,
+        "ctr": 5.71,
+        "cpc": 0.72
+      },
+      {
+        "term": "restaurante bons em curitiba",
+        "keyword": "—",
+        "impressions": 21,
+        "clicks": 2,
+        "ctr": 9.52,
+        "cpc": 0.65
+      },
+      {
+        "term": "curitiba restaurante",
+        "keyword": "—",
+        "impressions": 39,
+        "clicks": 2,
+        "ctr": 5.13,
+        "cpc": 0.57
+      },
+      {
+        "term": "onde beber em curitiba",
+        "keyword": "—",
+        "impressions": 15,
+        "clicks": 2,
+        "ctr": 13.33,
+        "cpc": 0.53
+      },
+      {
+        "term": "curitiba bares",
+        "keyword": "—",
+        "impressions": 32,
+        "clicks": 3,
+        "ctr": 9.38,
+        "cpc": 0.31
+      },
+      {
+        "term": "restaurantes em curitiba pr",
+        "keyword": "—",
+        "impressions": 21,
+        "clicks": 1,
+        "ctr": 4.76,
+        "cpc": 0.92
+      },
+      {
+        "term": "bons restaurantes em curitiba",
+        "keyword": "—",
+        "impressions": 78,
+        "clicks": 1,
+        "ctr": 1.28,
+        "cpc": 0.91
+      },
+      {
+        "term": "barzinhos legais em curitiba",
+        "keyword": "—",
+        "impressions": 38,
+        "clicks": 1,
+        "ctr": 2.63,
+        "cpc": 0.88
+      },
+      {
+        "term": "restaurants in curitiba",
+        "keyword": "—",
+        "impressions": 20,
+        "clicks": 1,
+        "ctr": 5.0,
+        "cpc": 0.8
+      },
+      {
+        "term": "restaurantes curitiba pr",
+        "keyword": "—",
+        "impressions": 10,
+        "clicks": 1,
+        "ctr": 10.0,
+        "cpc": 0.76
+      },
+      {
+        "term": "lugares bons para comer em curitiba",
+        "keyword": "—",
+        "impressions": 44,
+        "clicks": 1,
+        "ctr": 2.27,
+        "cpc": 0.74
+      },
+      {
+        "term": "onde jantar curitiba",
+        "keyword": "—",
+        "impressions": 38,
+        "clicks": 2,
+        "ctr": 5.26,
+        "cpc": 0.37
+      },
+      {
+        "term": "barzinho legal em curitiba",
+        "keyword": "—",
+        "impressions": 20,
+        "clicks": 1,
+        "ctr": 5.0,
+        "cpc": 0.7
+      },
+      {
+        "term": "lugares pra comer curitiba",
+        "keyword": "—",
+        "impressions": 19,
+        "clicks": 2,
+        "ctr": 10.53,
+        "cpc": 0.35
+      },
+      {
+        "term": "bares para conhecer em curitiba",
+        "keyword": "—",
+        "impressions": 19,
+        "clicks": 1,
+        "ctr": 5.26,
+        "cpc": 0.69
+      },
+      {
+        "term": "lugares para ir em curitiba comer",
+        "keyword": "—",
+        "impressions": 10,
+        "clicks": 1,
+        "ctr": 10.0,
+        "cpc": 0.69
+      },
+      {
+        "term": "restaurantes legais em curitiba",
+        "keyword": "—",
+        "impressions": 93,
+        "clicks": 1,
+        "ctr": 1.08,
+        "cpc": 0.69
+      },
+      {
+        "term": "bares legais curitiba",
+        "keyword": "—",
+        "impressions": 15,
+        "clicks": 1,
+        "ctr": 6.67,
+        "cpc": 0.68
+      },
+      {
+        "term": "curitiba onde comer",
         "keyword": "—",
         "impressions": 13,
-        "clicks": 2,
-        "ctr": 15.38,
-        "cpc": 0.79
+        "clicks": 1,
+        "ctr": 7.69,
+        "cpc": 0.68
       },
       {
-        "term": "bar do acougueiro agua verde",
+        "term": "curitiba comer",
         "keyword": "—",
-        "impressions": 8,
+        "impressions": 7,
         "clicks": 1,
-        "ctr": 12.5,
-        "cpc": 1.56
+        "ctr": 14.29,
+        "cpc": 0.58
+      },
+      {
+        "term": "curitiba bar",
+        "keyword": "—",
+        "impressions": 50,
+        "clicks": 1,
+        "ctr": 2.0,
+        "cpc": 0.56
+      },
+      {
+        "term": "lugares comer curitiba",
+        "keyword": "—",
+        "impressions": 7,
+        "clicks": 1,
+        "ctr": 14.29,
+        "cpc": 0.54
       }
     ]
   },
   "ga4": {
-    "sessions": 6274,
-    "users": 5725,
-    "new_users": 5629,
-    "pageviews": 7606,
-    "bounce_rate": 62.15,
-    "duration": "1m 15s",
-    "events": 40178,
-    "conversions": 2980,
+    "sessions": 5758,
+    "users": 5199,
+    "new_users": 5087,
+    "pageviews": 6431,
+    "bounce_rate": 62.57,
+    "duration": "1m 27s",
+    "events": 33529,
+    "conversions": 1987,
     "sources": [
       {
         "source": "google",
-        "medium": "cpc",
-        "sessions": 1021,
-        "pct": 16.9
+        "medium": "organic",
+        "sessions": 1016,
+        "pct": 18.5
       },
       {
-        "source": "google",
-        "medium": "organic",
-        "sessions": 708,
-        "pct": 11.7
+        "source": "ig",
+        "medium": "paid",
+        "sessions": 837,
+        "pct": 15.2
       },
       {
         "source": "ig",
         "medium": "social",
-        "sessions": 579,
-        "pct": 9.6
+        "sessions": 519,
+        "pct": 9.4
       },
       {
-        "source": "meta_batel",
-        "medium": "vd_namorados_26",
-        "sessions": 458,
-        "pct": 7.6
-      },
-      {
-        "source": "ig",
-        "medium": "paid",
-        "sessions": 456,
-        "pct": 7.5
+        "source": "google",
+        "medium": "cpc",
+        "sessions": 399,
+        "pct": 7.3
       },
       {
         "source": "(direct)",
         "medium": "(none)",
-        "sessions": 382,
-        "pct": 6.3
-      },
-      {
-        "source": "fb",
-        "medium": "paid",
-        "sessions": 298,
-        "pct": 4.9
-      },
-      {
-        "source": "meta_av",
-        "medium": "vd_domingo_promo",
-        "sessions": 263,
-        "pct": 4.3
-      },
-      {
-        "source": "meta_av",
-        "medium": "ADVANTAGE",
-        "sessions": 236,
-        "pct": 3.9
-      },
-      {
-        "source": "meta_batel",
-        "medium": "vd_carne_de_onca_influencer",
-        "sessions": 206,
-        "pct": 3.4
-      },
-      {
-        "source": "meta_baca",
-        "medium": "video_02_open_quentao",
-        "sessions": 193,
-        "pct": 3.2
-      },
-      {
-        "source": "meta_baca",
-        "medium": "vd_fernando_copa",
-        "sessions": 155,
-        "pct": 2.6
-      },
-      {
-        "source": "meta_baca",
-        "medium": "vd_jogo_bra_japao",
-        "sessions": 131,
-        "pct": 2.2
-      },
-      {
-        "source": "meta_batel",
-        "medium": "vd_02_open_quentao",
-        "sessions": 128,
-        "pct": 2.1
-      },
-      {
-        "source": "meta_bacacheri",
-        "medium": "vd_namorados_26",
-        "sessions": 127,
-        "pct": 2.1
+        "sessions": 388,
+        "pct": 7.1
       },
       {
         "source": "meta_batel",
         "medium": "vd_promo_domingo",
-        "sessions": 115,
+        "sessions": 251,
+        "pct": 4.6
+      },
+      {
+        "source": "meta_baca",
+        "medium": "vd_almoço_4_jul",
+        "sessions": 223,
+        "pct": 4.1
+      },
+      {
+        "source": "fb",
+        "medium": "paid",
+        "sessions": 222,
+        "pct": 4.0
+      },
+      {
+        "source": "meta_av",
+        "medium": "vd_almoço_4_jul",
+        "sessions": 181,
+        "pct": 3.3
+      },
+      {
+        "source": "meta-batel",
+        "medium": "volta_open_wine",
+        "sessions": 162,
+        "pct": 2.9
+      },
+      {
+        "source": "meta_av",
+        "medium": "vd_carne_de_onca_jul_26",
+        "sessions": 154,
+        "pct": 2.8
+      },
+      {
+        "source": "meta_av",
+        "medium": "vd_domingo_promo",
+        "sessions": 143,
+        "pct": 2.6
+      },
+      {
+        "source": "meta_baca",
+        "medium": "volta_open_wine",
+        "sessions": 107,
         "pct": 1.9
       },
       {
         "source": "meta_batel",
-        "medium": "vd_brasil_japao",
-        "sessions": 114,
+        "medium": "vd_carne_de_onca_jul",
+        "sessions": 106,
+        "pct": 1.9
+      },
+      {
+        "source": "meta_bacacheri",
+        "medium": "carne_de_onca_jul_26",
+        "sessions": 104,
         "pct": 1.9
       },
       {
         "source": "meta_av",
-        "medium": "vd_namorados_26",
-        "sessions": 102,
-        "pct": 1.7
+        "medium": "vd_almoço_3_jan",
+        "sessions": 90,
+        "pct": 1.6
       },
       {
         "source": "meta_av",
-        "medium": "video_jogo_japao",
-        "sessions": 92,
+        "medium": "vd_happy_hour_01_04",
+        "sessions": 85,
         "pct": 1.5
       },
       {
-        "source": "meta_batel",
-        "medium": "vd_01_open_quentao",
-        "sessions": 75,
-        "pct": 1.2
+        "source": "meta_baca",
+        "medium": "vd_niver_jul",
+        "sessions": 84,
+        "pct": 1.5
+      },
+      {
+        "source": "meta_baca",
+        "medium": "vd_fernando_copa",
+        "sessions": 78,
+        "pct": 1.4
+      },
+      {
+        "source": "meta_bacacheri",
+        "medium": "carne_de_onca_jul_26_2.0",
+        "sessions": 69,
+        "pct": 1.3
       }
     ],
     "event_list": [
       {
         "name": "form_start",
-        "count": 3151
-      },
-      {
-        "name": "generate_lead",
-        "count": 583
+        "count": 2060
       },
       {
         "name": "click",
-        "count": 582
+        "count": 423
       },
       {
         "name": "Clicou_wttp",
-        "count": 380
+        "count": 235
+      },
+      {
+        "name": "generate_lead",
+        "count": 233
       },
       {
         "name": "whatsapp_redirect",
-        "count": 285
+        "count": 114
       }
     ]
   },

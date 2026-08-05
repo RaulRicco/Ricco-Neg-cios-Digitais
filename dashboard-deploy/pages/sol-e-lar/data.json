@@ -1,136 +1,84 @@
 {
   "cliente": "Casas Sol e Lar",
   "periodo": {
-    "start": "2026-06-01",
-    "end": "2026-06-30"
+    "start": "2026-07-01",
+    "end": "2026-07-31"
   },
-  "gerado_em": "2026-07-06T10:38:07.881067",
+  "gerado_em": "2026-08-05T17:17:02.311085",
   "consolidado": null,
   "meta": {
-    "spend": 626.88,
-    "reach": 13816,
-    "impressions": 19129,
-    "clicks": 937,
-    "cpm": 32.77,
-    "cpc": 0.67,
-    "ctr": 4.9,
-    "frequency": 1.38,
+    "spend": 601.73,
+    "reach": 21310,
+    "impressions": 39852,
+    "clicks": 2485,
+    "cpm": 15.1,
+    "cpc": 0.24,
+    "ctr": 6.24,
+    "frequency": 1.87,
     "campaigns": [
-      {
-        "name": "[CBO] [CP 01] [ENG] [MENSAGEM]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 105.55,
-        "reach": 1855,
-        "impressions": 2219,
-        "clicks": 97,
-        "ctr": 4.37,
-        "cpc": 1.09,
-        "result_label": "Mensagens",
-        "result_qty": 13,
-        "result_cpr": 8.12
-      },
-      {
-        "name": "[CBO] [CP 03] [LEADS]",
-        "objective": "OUTCOME_LEADS",
-        "spend": 225.01,
-        "reach": 4194,
-        "impressions": 5348,
-        "clicks": 244,
-        "ctr": 4.56,
-        "cpc": 0.92,
-        "result_label": "Leads",
-        "result_qty": 3,
-        "result_cpr": 75.0
-      },
       {
         "name": "[CP 04] [LEADS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 296.32,
-        "reach": 8758,
-        "impressions": 11562,
-        "clicks": 596,
-        "ctr": 5.15,
-        "cpc": 0.5,
+        "spend": 601.73,
+        "reach": 21310,
+        "impressions": 39852,
+        "clicks": 2485,
+        "ctr": 6.24,
+        "cpc": 0.24,
         "result_label": "Leads",
-        "result_qty": 32,
-        "result_cpr": 9.26
+        "result_qty": 227,
+        "result_cpr": 2.65
       }
     ],
     "ads": [
       {
-        "name": "VIDEO 01",
-        "campaign": "[CBO] [CP 01] [ENG] [MENSAGEM]",
-        "spend": 105.55,
-        "impressions": 2219,
-        "clicks": 97,
-        "ctr": 4.37,
-        "cpc": 1.09,
-        "frequency": 1.2,
-        "result_label": "Mensagens",
-        "result_qty": 13,
-        "result_cpr": 8.12
-      },
-      {
-        "name": "VIDEO 01",
-        "campaign": "[CBO] [CP 03] [LEADS]",
-        "spend": 225.01,
-        "impressions": 5348,
-        "clicks": 244,
-        "ctr": 4.56,
-        "cpc": 0.92,
-        "frequency": 1.28,
-        "result_label": "Mensagens",
-        "result_qty": 35,
-        "result_cpr": 6.43
-      },
-      {
         "name": "vd_01_bella",
         "campaign": "[CP 04] [LEADS]",
-        "spend": 94.48,
-        "impressions": 4126,
-        "clicks": 227,
-        "ctr": 5.5,
-        "cpc": 0.42,
-        "frequency": 1.1,
+        "spend": 141.88,
+        "impressions": 9466,
+        "clicks": 600,
+        "ctr": 6.34,
+        "cpc": 0.24,
+        "frequency": 1.42,
         "result_label": "Leads",
-        "result_qty": 8,
-        "result_cpr": 11.81
+        "result_qty": 52,
+        "result_cpr": 2.73
       },
       {
         "name": "vd_02",
         "campaign": "[CP 04] [LEADS]",
-        "spend": 68.22,
-        "impressions": 2704,
-        "clicks": 159,
-        "ctr": 5.88,
-        "cpc": 0.43,
-        "frequency": 1.12,
+        "spend": 451.74,
+        "impressions": 30105,
+        "clicks": 1866,
+        "ctr": 6.2,
+        "cpc": 0.24,
+        "frequency": 1.72,
         "result_label": "Leads",
-        "result_qty": 5,
-        "result_cpr": 13.64
+        "result_qty": 172,
+        "result_cpr": 2.63
       },
       {
         "name": "ad_img_01",
         "campaign": "[CP 04] [LEADS]",
-        "spend": 130.04,
-        "impressions": 4667,
-        "clicks": 206,
-        "ctr": 4.41,
-        "cpc": 0.63,
-        "frequency": 1.5,
+        "spend": 7.95,
+        "impressions": 271,
+        "clicks": 17,
+        "ctr": 6.27,
+        "cpc": 0.47,
+        "frequency": 1.24,
         "result_label": "Leads",
-        "result_qty": 19,
-        "result_cpr": 6.84
+        "result_qty": 3,
+        "result_cpr": 2.65
       },
       {
         "name": "ad_img_06",
         "campaign": "[CP 04] [LEADS]",
-        "spend": 3.58,
-        "impressions": 65,
-        "clicks": 4,
-        "ctr": 6.15,
-        "cpc": 0.9,
-        "frequency": 1.05,
+        "spend": 0.16,
+        "impressions": 10,
+        "clicks": 2,
+        "ctr": 20.0,
+        "cpc": 0.08,
+        "frequency": 1.11,
         "result_label": "Leads",
         "result_qty": 0,
         "result_cpr": 0
@@ -139,72 +87,72 @@
   },
   "google": null,
   "ga4": {
-    "sessions": 123,
-    "users": 113,
-    "new_users": 28,
-    "pageviews": 65,
-    "bounce_rate": 86.99,
-    "duration": "1m 17s",
-    "events": 380,
+    "sessions": 553,
+    "users": 525,
+    "new_users": 235,
+    "pageviews": 345,
+    "bounce_rate": 74.5,
+    "duration": "0m 21s",
+    "events": 1940,
     "conversions": 0,
     "sources": [
       {
         "source": "(not set)",
         "medium": "(not set)",
-        "sessions": 86,
-        "pct": 69.9
+        "sessions": 289,
+        "pct": 52.3
       },
       {
         "source": "ig",
         "medium": "social",
-        "sessions": 19,
-        "pct": 15.4
+        "sessions": 205,
+        "pct": 37.1
+      },
+      {
+        "source": "ig",
+        "medium": "paid",
+        "sessions": 29,
+        "pct": 5.2
       },
       {
         "source": "(direct)",
         "medium": "(none)",
-        "sessions": 9,
-        "pct": 7.3
+        "sessions": 25,
+        "pct": 4.5
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 4,
+        "pct": 0.7
       },
       {
         "source": "l.wl.co",
         "medium": "referral",
-        "sessions": 5,
-        "pct": 4.1
-      },
-      {
-        "source": "eventsmanager.facebook.com",
-        "medium": "referral",
-        "sessions": 3,
-        "pct": 2.4
-      },
-      {
-        "source": "meta_ads",
-        "medium": "ad_img_01",
         "sessions": 1,
-        "pct": 0.8
+        "pct": 0.2
       }
     ],
     "event_list": [
       {
         "name": "Page View",
-        "count": 62
+        "count": 358
       },
       {
         "name": "generate_lead",
-        "count": 34
-      },
-      {
-        "name": "família",
-        "count": 32
+        "count": 105
       },
       {
         "name": "leadqualificado",
-        "count": 30
+        "count": 105
+      },
+      {
+        "name": "família",
+        "count": 97
       },
       {
         "name": "click",
-        "count": 9
+        "count": 76
       }
     ]
   },

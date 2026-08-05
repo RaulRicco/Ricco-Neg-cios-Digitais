@@ -109,11 +109,6 @@ Base URL: `https://ricco-dashboards.pages.dev`
 - **Senha:** `fishme2026`
 - **Serviços:** META
 
-## Porks Asa Sul
-- **URL:** https://ricco-dashboards.pages.dev/porks-asa-sul
-- **Senha:** `porksasasul2026`
-- **Serviços:** META · GA4
-
 ## Porks Asa Norte
 - **URL:** https://ricco-dashboards.pages.dev/porks-asa-norte
 - **Senha:** `porksasanorte2026`

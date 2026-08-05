@@ -198,16 +198,6 @@ clientes:
     ga4_property: ""
     servicos: [meta]
 
-  # ── Porks Asa Sul ─────────────────────────────────────────────────────────
-  - slug: porks-asa-sul
-    nome: "Porks Asa Sul"
-    senha: "porksasasul2026"
-    meta_account: "act_2420587051522130"
-    gads_customer: ""
-    ga4_property: "511232648"
-    servicos: [meta, ga4]
-    nota: "GA4 compartilhado Porks Brasil"
-
   # ── Porks Asa Norte ───────────────────────────────────────────────────────
   - slug: porks-asa-norte
     nome: "Porks Asa Norte"

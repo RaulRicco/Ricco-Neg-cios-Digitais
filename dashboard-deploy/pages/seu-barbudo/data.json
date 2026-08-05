@@ -1,104 +1,368 @@
 {
   "cliente": "Seu Barbudo Barbearia",
   "periodo": {
-    "start": "2026-06-01",
-    "end": "2026-06-30"
+    "start": "2026-07-01",
+    "end": "2026-07-31"
   },
-  "gerado_em": "2026-07-06T10:38:00.208716",
+  "gerado_em": "2026-08-05T17:16:54.042255",
   "consolidado": null,
   "meta": {
-    "spend": 750.75,
-    "reach": 19309,
-    "impressions": 44803,
-    "clicks": 751,
-    "cpm": 16.76,
-    "cpc": 1.0,
-    "ctr": 1.68,
-    "frequency": 2.32,
+    "spend": 1029.06,
+    "reach": 21985,
+    "impressions": 46105,
+    "clicks": 946,
+    "cpm": 22.32,
+    "cpc": 1.09,
+    "ctr": 2.05,
+    "frequency": 2.1,
     "campaigns": [
       {
         "name": "[ABO] [CLUBE SEU BARBUDO 3.0] [FORMULARIO]",
         "objective": "OUTCOME_LEADS",
-        "spend": 750.75,
-        "reach": 19309,
-        "impressions": 44803,
-        "clicks": 751,
-        "ctr": 1.68,
-        "cpc": 1.0,
+        "spend": 360.41,
+        "reach": 9854,
+        "impressions": 16804,
+        "clicks": 344,
+        "ctr": 2.05,
+        "cpc": 1.05,
         "result_label": "Leads",
-        "result_qty": 61,
-        "result_cpr": 12.31
+        "result_qty": 23,
+        "result_cpr": 15.67
+      },
+      {
+        "name": "[CLUBE 4.0] [LEADS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 239.32,
+        "reach": 5893,
+        "impressions": 9886,
+        "clicks": 183,
+        "ctr": 1.85,
+        "cpc": 1.31,
+        "result_label": "Leads",
+        "result_qty": 3,
+        "result_cpr": 79.77
+      },
+      {
+        "name": "[CLUBE 4.1] [LEADS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 123.21,
+        "reach": 3421,
+        "impressions": 4894,
+        "clicks": 84,
+        "ctr": 1.72,
+        "cpc": 1.47,
+        "result_label": "Leads",
+        "result_qty": 1,
+        "result_cpr": 123.21
+      },
+      {
+        "name": "[SEU BARBUDO 5.0] [LEADS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 67.44,
+        "reach": 2078,
+        "impressions": 2718,
+        "clicks": 44,
+        "ctr": 1.62,
+        "cpc": 1.53,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
+      },
+      {
+        "name": "[CLUBE 5.0 ESTATICA] [LEADS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 217.0,
+        "reach": 6029,
+        "impressions": 10456,
+        "clicks": 265,
+        "ctr": 2.53,
+        "cpc": 0.82,
+        "result_label": "Leads",
+        "result_qty": 15,
+        "result_cpr": 14.47
+      },
+      {
+        "name": "[PRE SALES CLUBE] [LEADS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 21.68,
+        "reach": 1083,
+        "impressions": 1347,
+        "clicks": 26,
+        "ctr": 1.93,
+        "cpc": 0.83,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
       }
     ],
     "ads": [
       {
         "name": "video_22_05",
         "campaign": "[ABO] [CLUBE SEU BARBUDO 3.0] [FORMULARIO]",
-        "spend": 724.39,
-        "impressions": 43550,
-        "clicks": 726,
-        "ctr": 1.67,
-        "cpc": 1.0,
-        "frequency": 2.28,
+        "spend": 360.41,
+        "impressions": 16804,
+        "clicks": 344,
+        "ctr": 2.05,
+        "cpc": 1.05,
+        "frequency": 1.71,
         "result_label": "Leads",
-        "result_qty": 59,
-        "result_cpr": 12.28
+        "result_qty": 23,
+        "result_cpr": 15.67
       },
       {
-        "name": "video_10_06",
-        "campaign": "[ABO] [CLUBE SEU BARBUDO 3.0] [FORMULARIO]",
-        "spend": 26.36,
-        "impressions": 1253,
-        "clicks": 25,
-        "ctr": 2.0,
-        "cpc": 1.05,
+        "name": "vd_22_05",
+        "campaign": "[CLUBE 4.0] [LEADS]",
+        "spend": 148.02,
+        "impressions": 6083,
+        "clicks": 117,
+        "ctr": 1.92,
+        "cpc": 1.27,
+        "frequency": 1.48,
+        "result_label": "Leads",
+        "result_qty": 3,
+        "result_cpr": 49.34
+      },
+      {
+        "name": "vd_29_05",
+        "campaign": "[CLUBE 4.0] [LEADS]",
+        "spend": 71.39,
+        "impressions": 2803,
+        "clicks": 46,
+        "ctr": 1.64,
+        "cpc": 1.55,
+        "frequency": 1.42,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
+      },
+      {
+        "name": "vd_29_06",
+        "campaign": "[CLUBE 4.0] [LEADS]",
+        "spend": 2.58,
+        "impressions": 110,
+        "clicks": 4,
+        "ctr": 3.64,
+        "cpc": 0.65,
+        "frequency": 1.22,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
+      },
+      {
+        "name": "vd_26_06",
+        "campaign": "[CLUBE 4.0] [LEADS]",
+        "spend": 3.0,
+        "impressions": 142,
+        "clicks": 1,
+        "ctr": 0.7,
+        "cpc": 3.0,
+        "frequency": 1.23,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
+      },
+      {
+        "name": "vd_15_06",
+        "campaign": "[CLUBE 4.0] [LEADS]",
+        "spend": 4.18,
+        "impressions": 193,
+        "clicks": 2,
+        "ctr": 1.04,
+        "cpc": 2.09,
+        "frequency": 1.31,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
+      },
+      {
+        "name": "vd_10_06",
+        "campaign": "[CLUBE 4.0] [LEADS]",
+        "spend": 10.15,
+        "impressions": 555,
+        "clicks": 13,
+        "ctr": 2.34,
+        "cpc": 0.78,
+        "frequency": 1.29,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
+      },
+      {
+        "name": "VIDEO 22/05",
+        "campaign": "[CLUBE 4.1] [LEADS]",
+        "spend": 123.21,
+        "impressions": 4894,
+        "clicks": 84,
+        "ctr": 1.72,
+        "cpc": 1.47,
+        "frequency": 1.43,
+        "result_label": "Leads",
+        "result_qty": 1,
+        "result_cpr": 123.21
+      },
+      {
+        "name": "video_22_05",
+        "campaign": "[SEU BARBUDO 5.0] [LEADS]",
+        "spend": 67.44,
+        "impressions": 2718,
+        "clicks": 44,
+        "ctr": 1.62,
+        "cpc": 1.53,
+        "frequency": 1.31,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
+      },
+      {
+        "name": "estatica_01",
+        "campaign": "[CLUBE 5.0 ESTATICA] [LEADS]",
+        "spend": 20.25,
+        "impressions": 816,
+        "clicks": 20,
+        "ctr": 2.45,
+        "cpc": 1.01,
+        "frequency": 1.29,
+        "result_label": "Leads",
+        "result_qty": 1,
+        "result_cpr": 20.25
+      },
+      {
+        "name": "estatica_02",
+        "campaign": "[CLUBE 5.0 ESTATICA] [LEADS]",
+        "spend": 12.19,
+        "impressions": 689,
+        "clicks": 24,
+        "ctr": 3.48,
+        "cpc": 0.51,
+        "frequency": 1.22,
+        "result_label": "Leads",
+        "result_qty": 4,
+        "result_cpr": 3.05
+      },
+      {
+        "name": "estatica_03",
+        "campaign": "[CLUBE 5.0 ESTATICA] [LEADS]",
+        "spend": 4.95,
+        "impressions": 239,
+        "clicks": 2,
+        "ctr": 0.84,
+        "cpc": 2.48,
         "frequency": 1.16,
         "result_label": "Leads",
-        "result_qty": 2,
-        "result_cpr": 13.18
+        "result_qty": 0,
+        "result_cpr": 0
+      },
+      {
+        "name": "estatica_04",
+        "campaign": "[CLUBE 5.0 ESTATICA] [LEADS]",
+        "spend": 169.48,
+        "impressions": 8244,
+        "clicks": 206,
+        "ctr": 2.5,
+        "cpc": 0.82,
+        "frequency": 1.55,
+        "result_label": "Leads",
+        "result_qty": 10,
+        "result_cpr": 16.95
+      },
+      {
+        "name": "estatica_05",
+        "campaign": "[CLUBE 5.0 ESTATICA] [LEADS]",
+        "spend": 10.13,
+        "impressions": 468,
+        "clicks": 13,
+        "ctr": 2.78,
+        "cpc": 0.78,
+        "frequency": 1.2,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
+      },
+      {
+        "name": "CRIATIVO ESTATICO 2",
+        "campaign": "[PRE SALES CLUBE] [LEADS]",
+        "spend": 21.68,
+        "impressions": 1347,
+        "clicks": 26,
+        "ctr": 1.93,
+        "cpc": 0.83,
+        "frequency": 1.24,
+        "result_label": "Leads",
+        "result_qty": 0,
+        "result_cpr": 0
       }
     ]
   },
   "google": null,
   "ga4": {
-    "sessions": 74,
-    "users": 44,
-    "new_users": 41,
-    "pageviews": 93,
-    "bounce_rate": 50.0,
-    "duration": "1m 48s",
-    "events": 289,
+    "sessions": 103,
+    "users": 77,
+    "new_users": 74,
+    "pageviews": 131,
+    "bounce_rate": 51.46,
+    "duration": "1m 57s",
+    "events": 450,
     "conversions": 0,
     "sources": [
       {
         "source": "google",
         "medium": "organic",
         "sessions": 60,
-        "pct": 81.1
-      },
-      {
-        "source": "ig",
-        "medium": "paid",
-        "sessions": 11,
-        "pct": 14.9
+        "pct": 58.3
       },
       {
         "source": "(direct)",
         "medium": "(none)",
+        "sessions": 28,
+        "pct": 27.2
+      },
+      {
+        "source": "ig",
+        "medium": "paid",
+        "sessions": 6,
+        "pct": 5.8
+      },
+      {
+        "source": "br.search.yahoo.com",
+        "medium": "referral",
         "sessions": 2,
-        "pct": 2.7
+        "pct": 1.9
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "ai-assistant",
+        "sessions": 2,
+        "pct": 1.9
+      },
+      {
+        "source": "fb",
+        "medium": "paid",
+        "sessions": 2,
+        "pct": 1.9
       },
       {
         "source": "bing",
         "medium": "organic",
         "sessions": 1,
-        "pct": 1.4
+        "pct": 1.0
+      },
+      {
+        "source": "facebook.com",
+        "medium": "referral",
+        "sessions": 1,
+        "pct": 1.0
+      },
+      {
+        "source": "gemini.google.com",
+        "medium": "ai-assistant",
+        "sessions": 1,
+        "pct": 1.0
       }
     ],
     "event_list": [
       {
         "name": "click",
-        "count": 26
+        "count": 39
       }
     ]
   },

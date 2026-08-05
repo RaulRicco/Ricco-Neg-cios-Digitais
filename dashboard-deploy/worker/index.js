@@ -36,7 +36,6 @@ const CLIENTES = {
   'sol-e-lar':              'solelar2026',
   'solar-e-cia':            'solarecia2026',
   'fish-me':                'fishme2026',
-  'porks-asa-sul':          'porksasasul2026',
   'porks-asa-norte':        'porksasanorte2026',
   'porks-samambaia':        'porkssam2026',
   'porks-guara':            'porksguara2026',

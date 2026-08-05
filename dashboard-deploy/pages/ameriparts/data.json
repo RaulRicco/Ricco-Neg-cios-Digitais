@@ -1,97 +1,110 @@
 {
   "cliente": "Ameriparts Três Lagoas",
   "periodo": {
-    "start": "2026-06-01",
-    "end": "2026-06-30"
+    "start": "2026-07-01",
+    "end": "2026-07-31"
   },
-  "gerado_em": "2026-07-06T10:37:05.163531",
+  "gerado_em": "2026-08-05T17:13:05.699279",
   "consolidado": {
-    "spend": 268.73,
-    "reach": 14849,
-    "impressions": 22306,
-    "clicks": 378,
-    "meta_spend": 232.32,
-    "google_spend": 36.41
+    "spend": 558.59,
+    "reach": 15598,
+    "impressions": 25012,
+    "clicks": 476,
+    "meta_spend": 299.17,
+    "google_spend": 259.42
   },
   "meta": {
-    "spend": 232.32,
-    "reach": 14849,
-    "impressions": 22248,
-    "clicks": 373,
-    "cpm": 10.44,
-    "cpc": 0.62,
-    "ctr": 1.68,
-    "frequency": 1.5,
+    "spend": 299.17,
+    "reach": 15598,
+    "impressions": 24895,
+    "clicks": 463,
+    "cpm": 12.02,
+    "cpc": 0.65,
+    "ctr": 1.86,
+    "frequency": 1.6,
     "campaigns": [
       {
         "name": "[CBO] [CAMPANHA GRUPO 1.0] [LEAD]",
         "objective": "OUTCOME_LEADS",
-        "spend": 232.32,
-        "reach": 14849,
-        "impressions": 22248,
+        "spend": 242.91,
+        "reach": 13812,
+        "impressions": 21254,
         "clicks": 373,
-        "ctr": 1.68,
-        "cpc": 0.62,
+        "ctr": 1.75,
+        "cpc": 0.65,
         "result_label": "Leads",
-        "result_qty": 16,
-        "result_cpr": 14.52
+        "result_qty": 19,
+        "result_cpr": 12.78
+      },
+      {
+        "name": "[GRUPO VIP 2.0] [LEADS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 56.26,
+        "reach": 2612,
+        "impressions": 3641,
+        "clicks": 90,
+        "ctr": 2.47,
+        "cpc": 0.63,
+        "result_label": "Leads",
+        "result_qty": 1,
+        "result_cpr": 56.26
       }
     ],
     "ads": [
       {
         "name": "VIDEO 1.0 GRUPO",
         "campaign": "[CBO] [CAMPANHA GRUPO 1.0] [LEAD]",
-        "spend": 120.87,
-        "impressions": 11410,
-        "clicks": 176,
-        "ctr": 1.54,
-        "cpc": 0.69,
-        "frequency": 1.33,
+        "spend": 242.91,
+        "impressions": 21254,
+        "clicks": 373,
+        "ctr": 1.75,
+        "cpc": 0.65,
+        "frequency": 1.54,
         "result_label": "Leads",
-        "result_qty": 10,
-        "result_cpr": 12.09
+        "result_qty": 19,
+        "result_cpr": 12.78
       },
       {
-        "name": "VIDEO 1.0 GRUPO",
-        "campaign": "[CBO] [CAMPANHA GRUPO 1.0] [LEAD]",
-        "spend": 111.45,
-        "impressions": 10838,
-        "clicks": 197,
-        "ctr": 1.82,
-        "cpc": 0.57,
-        "frequency": 1.27,
+        "name": "VIDEO VIRAL 01",
+        "campaign": "[GRUPO VIP 2.0] [LEADS]",
+        "spend": 56.26,
+        "impressions": 3641,
+        "clicks": 90,
+        "ctr": 2.47,
+        "cpc": 0.63,
+        "frequency": 1.39,
         "result_label": "Leads",
-        "result_qty": 6,
-        "result_cpr": 18.57
+        "result_qty": 1,
+        "result_cpr": 56.26
       }
     ]
   },
   "google": {
-    "spend": 36.41,
-    "impressions": 58,
-    "clicks": 5,
-    "ctr": 8.62,
-    "cpc": 7.28,
-    "conversions": 0,
-    "cpa": 0,
+    "spend": 259.42,
+    "impressions": 117,
+    "clicks": 13,
+    "ctr": 11.11,
+    "cpc": 19.96,
+    "conversions": 1,
+    "cpa": 259.42,
     "campaigns": [
+      {
+        "name": "Rede de Pesquisas 3.0 - formulario + ver rota",
+        "type": "Search",
+        "status": "Enabled",
+        "spend": 259.42,
+        "impressions": 112,
+        "clicks": 13,
+        "ctr": 11.61,
+        "cpc": 19.96,
+        "conversions": 1
+      },
       {
         "name": "[REDE DE PESQUISAS 1.0] [LEAD]",
         "type": "Search",
         "status": "Paused",
-        "spend": 36.41,
-        "impressions": 57,
-        "clicks": 5,
-        "ctr": 8.77,
-        "cpc": 7.28,
-        "conversions": 0
-      },
-      {
-        "name": "[AD SEARCH 02] [LEADS]",
-        "type": "Search",
-        "status": "Paused",
         "spend": 0.0,
-        "impressions": 1,
+        "impressions": 5,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0,
@@ -100,27 +113,90 @@
     ],
     "keywords": [
       {
-        "keyword": "acessórios para caminhão",
+        "keyword": "peças Volvo",
         "match": "Exact",
-        "impressions": 3,
-        "clicks": 1,
-        "ctr": 33.33,
-        "cpc": 22.4,
+        "impressions": 35,
+        "clicks": 3,
+        "ctr": 8.57,
+        "cpc": 24.67,
         "conversions": 0
       },
       {
-        "keyword": "peças para caminhão",
+        "keyword": "peças Mercedes",
         "match": "Exact",
-        "impressions": 5,
+        "impressions": 9,
+        "clicks": 3,
+        "ctr": 33.33,
+        "cpc": 20.99,
+        "conversions": 1
+      },
+      {
+        "keyword": "peças Iveco",
+        "match": "Exact",
+        "impressions": 2,
+        "clicks": 3,
+        "ctr": 150.0,
+        "cpc": 11.47,
+        "conversions": 0
+      },
+      {
+        "keyword": "peças Ford Cargo",
+        "match": "Exact",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 31.33,
+        "conversions": 0
+      },
+      {
+        "keyword": "peças VW",
+        "match": "Exact",
+        "impressions": 10,
+        "clicks": 1,
+        "ctr": 10.0,
+        "cpc": 24.65,
+        "conversions": 0
+      },
+      {
+        "keyword": "acessorio caminhao",
+        "match": "Exact",
+        "impressions": 19,
+        "clicks": 1,
+        "ctr": 5.26,
+        "cpc": 20.27,
+        "conversions": 0
+      },
+      {
+        "keyword": "acessórios de caminhão",
+        "match": "Exact",
+        "impressions": 9,
+        "clicks": 1,
+        "ctr": 11.11,
+        "cpc": 11.79,
+        "conversions": 0
+      },
+      {
+        "keyword": "peças caminhão Volvo",
+        "match": "Exact",
+        "impressions": 1,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0,
         "conversions": 0
       },
       {
-        "keyword": "freio de caminhão",
+        "keyword": "peças Scania",
         "match": "Exact",
-        "impressions": 2,
+        "impressions": 14,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "acessórios para caminhão",
+        "match": "Exact",
+        "impressions": 12,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0,
@@ -129,15 +205,87 @@
     ],
     "search_terms": [
       {
-        "term": "acessório de caminhão",
+        "term": "volvo peças",
+        "keyword": "—",
+        "impressions": 24,
+        "clicks": 2,
+        "ctr": 8.33,
+        "cpc": 27.0
+      },
+      {
+        "term": "peças para ford cargo",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 31.33
+      },
+      {
+        "term": "peças mercedes",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 30.13
+      },
+      {
+        "term": "iveco pecas",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 2,
+        "ctr": 200.0,
+        "cpc": 10.55
+      },
+      {
+        "term": "acessório para caminhões",
         "keyword": "—",
         "impressions": 1,
         "clicks": 1,
         "ctr": 100.0,
-        "cpc": 22.4
+        "cpc": 20.27
       },
       {
-        "term": "2v3071782",
+        "term": "peças volvo",
+        "keyword": "—",
+        "impressions": 7,
+        "clicks": 1,
+        "ctr": 14.29,
+        "cpc": 19.99
+      },
+      {
+        "term": "mercedes benz pecas",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 19.26
+      },
+      {
+        "term": "mercedes peças",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 13.57
+      },
+      {
+        "term": "pecas iveco",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 13.32
+      },
+      {
+        "term": "acessórios para carretas e caminhões",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 11.79
+      },
+      {
+        "term": "acessório de caminhão",
         "keyword": "—",
         "impressions": 1,
         "clicks": 0,
@@ -145,7 +293,39 @@
         "cpc": 0
       },
       {
-        "term": "acessórios para caminhão",
+        "term": "acessórios para caminhões",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "volvo pecas caminhões",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "auto peças mercedes benz",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "mercedes benz auto peças",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "pecas scania",
         "keyword": "—",
         "impressions": 2,
         "clicks": 0,
@@ -153,15 +333,15 @@
         "cpc": 0
       },
       {
-        "term": "freios de caminhao",
+        "term": "peças de mercedes benz",
         "keyword": "—",
-        "impressions": 2,
+        "impressions": 1,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0
       },
       {
-        "term": "peças para caminhão",
+        "term": "peças scania",
         "keyword": "—",
         "impressions": 3,
         "clicks": 0,
@@ -169,7 +349,15 @@
         "cpc": 0
       },
       {
-        "term": "peças para scania",
+        "term": "peças vw",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "scania pecas",
         "keyword": "—",
         "impressions": 1,
         "clicks": 0,
@@ -177,7 +365,31 @@
         "cpc": 0
       },
       {
-        "term": "polia virabrequim 352",
+        "term": "scania peças",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "volvo pecas",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "vw peças",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "acessorio de caminhao",
         "keyword": "—",
         "impressions": 1,
         "clicks": 0,
@@ -185,9 +397,129 @@
         "cpc": 0
       },
       {
-        "term": "radiador ar quente mb 1620",
+        "term": "acessorios de caminhao",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "acessorios para caminhao",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "acessório caminhão",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "acessório para caminhão",
         "keyword": "—",
         "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "acessórios caminhão",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "acessórios de caminhão",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "acessórios para caminhao",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "acessórios para caminhão",
+        "keyword": "—",
+        "impressions": 8,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "coisa de caminhão",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "coisas de caminhão",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "equipamentos para caminhão",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "loja de acessorios para caminhao",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "loja de acessório para caminhão",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "loja de acessórios de caminhão",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "peças e acessórios para caminhões",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "tudo para caminhão",
+        "keyword": "—",
+        "impressions": 1,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0
@@ -195,96 +527,126 @@
     ]
   },
   "ga4": {
-    "sessions": 242,
-    "users": 238,
-    "new_users": 238,
-    "pageviews": 292,
-    "bounce_rate": 69.42,
-    "duration": "0m 23s",
-    "events": 1185,
-    "conversions": 23,
+    "sessions": 338,
+    "users": 315,
+    "new_users": 308,
+    "pageviews": 412,
+    "bounce_rate": 66.57,
+    "duration": "2m 4s",
+    "events": 1637,
+    "conversions": 32,
     "sources": [
       {
         "source": "ig",
         "medium": "paid",
-        "sessions": 101,
-        "pct": 41.7
+        "sessions": 103,
+        "pct": 30.5
       },
       {
         "source": "fb",
         "medium": "paid",
-        "sessions": 89,
-        "pct": 36.8
-      },
-      {
-        "source": "google",
-        "medium": "organic",
-        "sessions": 14,
-        "pct": 5.8
+        "sessions": 82,
+        "pct": 24.3
       },
       {
         "source": "(direct)",
         "medium": "(none)",
-        "sessions": 12,
-        "pct": 5.0
+        "sessions": 43,
+        "pct": 12.7
       },
       {
-        "source": "facebook.com",
-        "medium": "referral",
-        "sessions": 8,
-        "pct": 3.3
+        "source": "meta_ads",
+        "medium": "VIDEO VIRAL 01",
+        "sessions": 39,
+        "pct": 11.5
       },
       {
-        "source": "m.facebook.com",
-        "medium": "referral",
-        "sessions": 7,
-        "pct": 2.9
+        "source": "google",
+        "medium": "organic",
+        "sessions": 25,
+        "pct": 7.4
       },
       {
         "source": "google",
         "medium": "cpc",
-        "sessions": 5,
-        "pct": 2.1
+        "sessions": 14,
+        "pct": 4.1
       },
       {
-        "source": "(not set)",
-        "medium": "(not set)",
-        "sessions": 3,
+        "source": "facebook.com",
+        "medium": "referral",
+        "sessions": 9,
+        "pct": 2.7
+      },
+      {
+        "source": "ads.google.com",
+        "medium": "referral",
+        "sessions": 5,
+        "pct": 1.5
+      },
+      {
+        "source": "meta_ads",
+        "medium": "VIDEO+VIRAL+01",
+        "sessions": 4,
         "pct": 1.2
       },
       {
         "source": "linktr.ee",
         "medium": "referral",
-        "sessions": 2,
-        "pct": 0.8
+        "sessions": 3,
+        "pct": 0.9
       },
       {
-        "source": "instagram.com",
+        "source": "m.facebook.com",
         "medium": "referral",
-        "sessions": 1,
-        "pct": 0.4
+        "sessions": 3,
+        "pct": 0.9
+      },
+      {
+        "source": "(not set)",
+        "medium": "(not set)",
+        "sessions": 2,
+        "pct": 0.6
+      },
+      {
+        "source": "bing",
+        "medium": "organic",
+        "sessions": 2,
+        "pct": 0.6
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "ai-assistant",
+        "sessions": 2,
+        "pct": 0.6
+      },
+      {
+        "source": "l.facebook.com",
+        "medium": "referral",
+        "sessions": 2,
+        "pct": 0.6
       }
     ],
     "event_list": [
       {
         "name": "form_start",
-        "count": 22
+        "count": 31
       },
       {
         "name": "generate_lead",
-        "count": 20
+        "count": 25
       },
       {
         "name": "click",
-        "count": 20
+        "count": 23
       },
       {
         "name": "popup_opened",
-        "count": 9
+        "count": 19
       },
       {
         "name": "purchase",
-        "count": 3
+        "count": 7
       }
     ]
   },
