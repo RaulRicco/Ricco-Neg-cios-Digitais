@@ -281,3 +281,13 @@ clientes:
     gads_customer: ""
     ga4_property: ""
     servicos: [meta]
+
+  # ── Cervejaria Starken ────────────────────────────────────────────────────
+  - slug: cervejaria-starken
+    nome: "Cervejaria Starken"
+    senha: "cervejaria2026"
+    meta_account: "act_1020477143904346"
+    gads_customer: ""
+    ga4_property: ""
+    servicos: [meta]
+    nota: "Instagram: @starkencervejaria"

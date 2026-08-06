@@ -46,7 +46,7 @@ Base URL: `https://ricco-dashboards.pages.dev`
 
 ## Bebedouro Bar e Fogo — 356
 - **URL:** https://ricco-dashboards.pages.dev/bebedouro-356
-- **Senha:** `lsamvgoy9fwj`
+- **Senha:** `bebedouro356@2026`
 - **Serviços:** META · GOOGLE · GA4
 
 ## Balcão Savassi
@@ -116,7 +116,7 @@ Base URL: `https://ricco-dashboards.pages.dev`
 
 ## Porks Samambaia
 - **URL:** https://ricco-dashboards.pages.dev/porks-samambaia
-- **Senha:** `w622g1syidt3`
+- **Senha:** `porkssam2026`
 - **Serviços:** META · GA4
 
 ## Porks Guará
@@ -126,7 +126,7 @@ Base URL: `https://ricco-dashboards.pages.dev`
 
 ## Porks Três Lagoas
 - **URL:** https://ricco-dashboards.pages.dev/porks-tres-lagoas
-- **Senha:** `iy9abz9g7jg7`
+- **Senha:** `porkstl2026`
 - **Serviços:** META
 
 ## Porks Casarão
@@ -141,12 +141,12 @@ Base URL: `https://ricco-dashboards.pages.dev`
 
 ## Porks Pirenópolis
 - **URL:** https://ricco-dashboards.pages.dev/porks-pirenopolis
-- **Senha:** `eiev53v0seq2`
+- **Senha:** `porkspiri2026`
 - **Serviços:** META
 
 ## Boteco do Quintal
 - **URL:** https://ricco-dashboards.pages.dev/boteco-do-quintal
-- **Senha:** `lwhk8fepfbtx`
+- **Senha:** `botecodomquintal2026`
 - **Serviços:** META
 
 ## O Quintal Piri
@@ -154,22 +154,8 @@ Base URL: `https://ricco-dashboards.pages.dev`
 - **Senha:** `quintalpiri2026`
 - **Serviços:** META
 
-## Porks Ceilândia
-- **URL:** https://ricco-dashboards.pages.dev/porks-ceilandia
-- **Senha:** `wm2vc9f4a66a`
+## Cervejaria Starken
+- **URL:** https://ricco-dashboards.pages.dev/cervejaria-starken
+- **Senha:** `cervejaria2026`
 - **Serviços:** META
-
-## Dog do Cangaceiro
-- **URL:** https://ricco-dashboards.pages.dev/dog-do-cangaceiro
-- **Senha:** `th7vtasa9wk8`
-- **Serviços:** META
-
-## Aditivo de Proposta — Seu Barbudo Barbearia
-- **URL:** https://dash.raulricco.com.br/aditivo-seu-barbudo
-- **Senha:** `seubarbudo2026` (campo único, sem usuário — gate de senha próprio na página)
-- **Tipo:** Aditivo de proposta (página de captura de leads + painel de UTM avançado)
-
-## Porks Casarão — Briefing de Tráfego Pago
-- **URL:** https://dash.raulricco.com.br/porks-casarao-briefing
-- **Senha:** `confidencialcasarao2026`
-- **Tipo:** Briefing de estrutura de funil para criativos de anúncios (documento estático, sem dados de performance)
+- **Instagram:** @starkencervejaria

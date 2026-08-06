@@ -3,6 +3,7 @@
 | Cliente | URL | Senha | Plataformas |
 |---|---|---|---|
 | Bar do Açougueiro — Água Verde | dash.raulricco.com.br/acougueiro-agua-verde | aguaverde2026 | Meta · Google · GA4 · GMB |
+| Cervejaria Starken | dash.raulricco.com.br/cervejaria-starken | cervejaria2026 | Meta |
 
 ## Adicionar novo cliente
 
