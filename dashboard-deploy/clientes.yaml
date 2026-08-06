@@ -291,3 +291,12 @@ clientes:
     ga4_property: ""
     servicos: [meta]
     nota: "Instagram: @starkencervejaria"
+
+  # ── Porks Ceilândia ───────────────────────────────────────────────────────
+  - slug: porks-ceilandia
+    nome: "Porks Ceilândia"
+    senha: "porksceilandia2026"
+    meta_account: "act_1381221816165390"
+    gads_customer: ""
+    ga4_property: ""
+    servicos: [meta]

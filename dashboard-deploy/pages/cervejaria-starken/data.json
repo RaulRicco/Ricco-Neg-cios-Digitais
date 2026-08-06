@@ -1,0 +1,117 @@
+{
+  "cliente": "Cervejaria Starken",
+  "periodo": {
+    "start": "2026-07-01",
+    "end": "2026-07-31"
+  },
+  "gerado_em": "2026-08-06T11:52:04.990310",
+  "consolidado": null,
+  "meta": {
+    "spend": 396.94,
+    "reach": 16112,
+    "impressions": 27575,
+    "clicks": 555,
+    "cpm": 14.39,
+    "cpc": 0.72,
+    "ctr": 2.01,
+    "frequency": 1.71,
+    "campaigns": [
+      {
+        "name": "[NOVOS CLIENTES] [TRAFEGO] [MENSAGEM]",
+        "objective": "LINK_CLICKS",
+        "spend": 254.82,
+        "reach": 9017,
+        "impressions": 16237,
+        "clicks": 220,
+        "ctr": 1.35,
+        "cpc": 1.16,
+        "result_label": "Cliques",
+        "result_qty": 121,
+        "result_cpr": 2.11
+      },
+      {
+        "name": "[TOPO DE FUNIL] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 142.12,
+        "reach": 7663,
+        "impressions": 11338,
+        "clicks": 335,
+        "ctr": 2.95,
+        "cpc": 0.42,
+        "result_label": "Cliques",
+        "result_qty": 336,
+        "result_cpr": 0.42
+      }
+    ],
+    "ads": [
+      {
+        "name": "VD 01",
+        "campaign": "[NOVOS CLIENTES] [TRAFEGO] [MENSAGEM]",
+        "spend": 109.8,
+        "impressions": 8221,
+        "clicks": 118,
+        "ctr": 1.44,
+        "cpc": 0.93,
+        "frequency": 1.5,
+        "result_label": "Mensagens",
+        "result_qty": 3,
+        "result_cpr": 36.6
+      },
+      {
+        "name": "VD 02",
+        "campaign": "[NOVOS CLIENTES] [TRAFEGO] [MENSAGEM]",
+        "spend": 145.02,
+        "impressions": 8016,
+        "clicks": 102,
+        "ctr": 1.27,
+        "cpc": 1.42,
+        "frequency": 1.62,
+        "result_label": "Mensagens",
+        "result_qty": 4,
+        "result_cpr": 36.26
+      },
+      {
+        "name": "VD 22 07",
+        "campaign": "[TOPO DE FUNIL] [TRAFEGO]",
+        "spend": 119.92,
+        "impressions": 9667,
+        "clicks": 296,
+        "ctr": 3.06,
+        "cpc": 0.41,
+        "frequency": 1.39,
+        "result_label": "Cliques",
+        "result_qty": 296,
+        "result_cpr": 0.41
+      },
+      {
+        "name": "VD 30/06",
+        "campaign": "[TOPO DE FUNIL] [TRAFEGO]",
+        "spend": 16.47,
+        "impressions": 1350,
+        "clicks": 31,
+        "ctr": 2.3,
+        "cpc": 0.53,
+        "frequency": 1.18,
+        "result_label": "Cliques",
+        "result_qty": 32,
+        "result_cpr": 0.51
+      },
+      {
+        "name": "VD 02/07",
+        "campaign": "[TOPO DE FUNIL] [TRAFEGO]",
+        "spend": 5.73,
+        "impressions": 321,
+        "clicks": 8,
+        "ctr": 2.49,
+        "cpc": 0.72,
+        "frequency": 1.13,
+        "result_label": "Cliques",
+        "result_qty": 8,
+        "result_cpr": 0.72
+      }
+    ]
+  },
+  "google": null,
+  "ga4": null,
+  "gmb": null
+}

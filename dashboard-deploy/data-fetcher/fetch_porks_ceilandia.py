@@ -1,18 +1,20 @@
 #!/usr/bin/env python3
 """
 Coleta dados para o dashboard de Porks Ceilândia.
-Uso: python3 fetch_porks_ceilandia.py --start 2026-05-01 --end 2026-05-31
+Uso: python3 fetch_porks_ceilandia.py --start 2026-04-01 --end 2026-04-30
 """
 
 import argparse, json, sys, os, subprocess
 from datetime import datetime, date, timedelta
 from pathlib import Path
 
-SKILLS        = Path.home() / ".claude/skills"
+SKILLS       = Path.home() / ".claude/skills"
 META_INSIGHTS = SKILLS / "meta-ads-ratos/scripts/insights.py"
+GADS_READ    = SKILLS / "google-ads-ratos/scripts/read.py"
+GA4_REPORTS  = SKILLS / "ga4-ratos/scripts/reports.py"
 
-OUT_DIR      = Path(__file__).parent.parent / "pages/porks-ceilandia"
-META_ACCOUNT = "act_1381221816165390"
+OUT_DIR = Path(__file__).parent.parent / "pages/porks-ceilandia"
+META_ACCOUNT   = "act_1381221816165390"
 
 def run(cmd, label=""):
     try:
@@ -58,13 +60,7 @@ def extract_result(obj, goal, actions, spend):
     elif goal == "POST_ENGAGEMENT":
         key, label = "post_engagement", "Engajamentos"
     elif obj == "OUTCOME_LEADS":
-        custom_keys = [k for k in action_map if k.startswith("offsite_conversion.custom.")]
-        if custom_keys:
-            key, label = custom_keys[0], "Reservas"
-        elif "onsite_conversion.lead_grouped" in action_map:
-            key, label = "onsite_conversion.lead_grouped", "Leads"
-        else:
-            key, label = "lead", "Leads"
+        key, label = "lead", "Leads"
     elif obj == "OUTCOME_SALES":
         key, label = "purchase", "Vendas"
     elif obj in ("LINK_CLICKS", "OUTCOME_TRAFFIC"):
@@ -72,11 +68,7 @@ def extract_result(obj, goal, actions, spend):
     elif obj == "VIDEO_VIEWS":
         key, label = "video_view", "Views"
     else:
-        custom_keys = [k for k in action_map if k.startswith("offsite_conversion.custom.")]
-        if custom_keys:
-            key, label = custom_keys[0], "Reservas"
-        else:
-            key, label = OBJECTIVE_MAP.get(obj, ("link_click", "Cliques"))
+        key, label = OBJECTIVE_MAP.get(obj, ("link_click", "Cliques"))
     qty = action_map.get(key, 0)
     cpr = round(spend / qty, 2) if qty else 0
     return label, qty, cpr
@@ -96,7 +88,7 @@ def fetch_meta(start, end):
     totals = account[0] if account else {}
     campaigns = []
     if campaigns_raw:
-        for c in campaigns_raw[:200]:
+        for c in campaigns_raw[:20]:
             imp = fmt_int(c.get("impressions",0))
             if imp == 0: continue
             spend = fmt_brl(c.get("spend",0))
@@ -109,7 +101,7 @@ def fetch_meta(start, end):
                 "result_label":label,"result_qty":qty,"result_cpr":cpr})
     ads = []
     if ads_raw:
-        for a in ads_raw[:500]:
+        for a in ads_raw[:50]:
             if fmt_int(a.get("impressions",0)) == 0: continue
             spend = fmt_brl(a.get("spend",0))
             obj = a.get("objective","")
@@ -145,9 +137,13 @@ def main():
     else:
         start=(today-timedelta(days=30)).isoformat(); end=today.isoformat()
     print(f"\n📅 Período: {start} → {end}\n", flush=True)
-    meta = fetch_meta(start, end)
+    meta   = fetch_meta(start, end)
     data = {"cliente":"Porks Ceilândia","periodo":{"start":start,"end":end},"gerado_em":datetime.now().isoformat(),
-        "consolidado":None,"meta":meta,"google":None,"ga4":None,"gmb":None}
+        "consolidado":None,
+        "meta":meta,
+        "google":None,
+        "ga4":None,
+        "gmb":None}
     out_path = OUT_DIR / "data.json"
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(data, ensure_ascii=False, indent=2))

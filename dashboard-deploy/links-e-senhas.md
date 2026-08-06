@@ -158,4 +158,8 @@ Base URL: `https://ricco-dashboards.pages.dev`
 - **URL:** https://ricco-dashboards.pages.dev/cervejaria-starken
 - **Senha:** `cervejaria2026`
 - **Serviços:** META
-- **Instagram:** @starkencervejaria
+
+## Porks Ceilândia
+- **URL:** https://ricco-dashboards.pages.dev/porks-ceilandia
+- **Senha:** `porksceilandia2026`
+- **Serviços:** META

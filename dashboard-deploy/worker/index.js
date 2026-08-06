@@ -46,6 +46,7 @@ const CLIENTES = {
   'boteco-do-quintal':      'botecodomquintal2026',
   'quintal-piri':           'quintalpiri2026',
   'cervejaria-starken':     'cervejaria2026',
+  'porks-ceilandia':        'porksceilandia2026',
 };
 
 const REALM = 'Dashboard Ricco';
