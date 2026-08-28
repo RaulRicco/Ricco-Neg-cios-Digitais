@@ -97,6 +97,12 @@ brew install yt-dlp
 **Configurar:** Salvar `OPENAI_API_KEY` no `.env`
 **Quando usar:** Alternativa ao Gemini pra geracao de imagens
 
+### Higgsfield (MCP)
+**O que faz:** Gera, faz upscale, reframe e remove fundo de imagens (e video/audio/3D) via MCP nativo, com recomendacao automatica de modelo por caso de uso
+**Precisa de conta:** Sim, Higgsfield (ja conectado como MCP `claude.ai Higgsfield`)
+**Como usar numa skill:** `generate_image` / `generate_image_batch` + `models_explore(action:"recommend")` pra escolher modelo, `upscale_image`/`reframe`/`remove_background` pra pos-processar
+**Quando usar:** Skills de geracao de imagem pra site que precisam respeitar um design system especifico (ver skill `higgsfield-images`)
+
 ---
 
 ## Conectar com plataformas (MCPs)
