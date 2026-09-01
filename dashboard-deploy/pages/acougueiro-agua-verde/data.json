@@ -1,1047 +1,302 @@
 {
   "cliente": "Bar do Açougueiro — Água Verde",
   "periodo": {
-    "start": "2026-07-01",
-    "end": "2026-07-31"
+    "start": "2026-08-01",
+    "end": "2026-08-31"
   },
-  "gerado_em": "2026-08-03T20:17:55.066159",
+  "gerado_em": "2026-09-01T06:00:13.041171",
   "consolidado": {
-    "spend": 1990.85,
-    "reach": 88066,
-    "impressions": 151690,
-    "clicks": 4200,
-    "meta_spend": 1469.68,
-    "google_spend": 521.17
+    "spend": 1282.61,
+    "reach": 88153,
+    "impressions": 139842,
+    "clicks": 4212,
+    "meta_spend": 1282.61,
+    "google_spend": 0
   },
   "meta": {
-    "spend": 1469.68,
-    "reach": 88066,
-    "impressions": 138316,
-    "clicks": 3686,
-    "cpm": 10.63,
-    "cpc": 0.4,
-    "ctr": 2.66,
-    "frequency": 1.57,
+    "spend": 1282.61,
+    "reach": 88153,
+    "impressions": 139842,
+    "clicks": 4212,
+    "cpm": 9.17,
+    "cpc": 0.3,
+    "ctr": 3.01,
+    "frequency": 1.59,
     "campaigns": [
       {
         "name": "[CBO] [TOPO DE FUNIL] [TRAFEGO]",
         "objective": "LINK_CLICKS",
-        "spend": 214.84,
-        "reach": 27015,
-        "impressions": 30495,
-        "clicks": 1279,
-        "ctr": 4.19,
-        "cpc": 0.17,
+        "spend": 217.55,
+        "reach": 25298,
+        "impressions": 30003,
+        "clicks": 1340,
+        "ctr": 4.47,
+        "cpc": 0.16,
         "result_label": "Cliques",
-        "result_qty": 1156,
-        "result_cpr": 0.19
+        "result_qty": 1224,
+        "result_cpr": 0.18
       },
       {
         "name": "[PROMO DOMINGO] [LEADS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 109.62,
-        "reach": 4676,
-        "impressions": 7164,
-        "clicks": 250,
-        "ctr": 3.49,
-        "cpc": 0.44,
+        "spend": 90.4,
+        "reach": 3922,
+        "impressions": 5978,
+        "clicks": 185,
+        "ctr": 3.09,
+        "cpc": 0.49,
         "result_label": "Leads",
-        "result_qty": 12,
-        "result_cpr": 9.13
-      },
-      {
-        "name": "[CARNE DE ONÇA] [LEADS]",
-        "objective": "OUTCOME_LEADS",
-        "spend": 2.82,
-        "reach": 148,
-        "impressions": 150,
-        "clicks": 8,
-        "ctr": 5.33,
-        "cpc": 0.35,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_qty": 2,
+        "result_cpr": 45.2
       },
       {
         "name": "[HAPPY HOUR 3.0] [ENGAJAMENTO]",
         "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 215.48,
-        "reach": 31481,
-        "impressions": 45517,
-        "clicks": 433,
-        "ctr": 0.95,
-        "cpc": 0.5,
+        "spend": 216.97,
+        "reach": 45910,
+        "impressions": 66710,
+        "clicks": 1141,
+        "ctr": 1.71,
+        "cpc": 0.19,
         "result_label": "Engajamentos",
-        "result_qty": 20362,
+        "result_qty": 35197,
         "result_cpr": 0.01
-      },
-      {
-        "name": "[COPA DO MUNDO] [RESERVAS]",
-        "objective": "OUTCOME_LEADS",
-        "spend": 49.98,
-        "reach": 2575,
-        "impressions": 3194,
-        "clicks": 115,
-        "ctr": 3.6,
-        "cpc": 0.43,
-        "result_label": "Leads",
-        "result_qty": 5,
-        "result_cpr": 10.0
       },
       {
         "name": "[ALMOÇO FDS] [RESERVAS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 199.09,
-        "reach": 9960,
-        "impressions": 12791,
-        "clicks": 559,
-        "ctr": 4.37,
-        "cpc": 0.36,
+        "spend": 175.87,
+        "reach": 6539,
+        "impressions": 9436,
+        "clicks": 604,
+        "ctr": 6.4,
+        "cpc": 0.29,
         "result_label": "Leads",
-        "result_qty": 8,
-        "result_cpr": 24.89
+        "result_qty": 15,
+        "result_cpr": 11.72
       },
       {
         "name": "[NIVER] [RESERVAS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 148.53,
-        "reach": 6422,
-        "impressions": 9085,
-        "clicks": 165,
-        "ctr": 1.82,
-        "cpc": 0.9,
+        "spend": 111.44,
+        "reach": 3337,
+        "impressions": 5460,
+        "clicks": 197,
+        "ctr": 3.61,
+        "cpc": 0.57,
         "result_label": "Leads",
-        "result_qty": 3,
-        "result_cpr": 49.51
+        "result_qty": 4,
+        "result_cpr": 27.86
       },
       {
         "name": "[CARNE DE ONÇA 2.0] [RESERVAS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 206.75,
-        "reach": 9206,
-        "impressions": 12078,
-        "clicks": 349,
-        "ctr": 2.89,
-        "cpc": 0.59,
+        "spend": 193.22,
+        "reach": 5316,
+        "impressions": 8339,
+        "clicks": 331,
+        "ctr": 3.97,
+        "cpc": 0.58,
         "result_label": "Leads",
-        "result_qty": 3,
-        "result_cpr": 68.92
+        "result_qty": 5,
+        "result_cpr": 38.64
       },
       {
         "name": "[OPEN WINE] [RESERVAS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 149.93,
-        "reach": 4857,
-        "impressions": 8332,
-        "clicks": 209,
-        "ctr": 2.51,
-        "cpc": 0.72,
+        "spend": 150.03,
+        "reach": 4768,
+        "impressions": 7440,
+        "clicks": 193,
+        "ctr": 2.59,
+        "cpc": 0.78,
         "result_label": "Leads",
-        "result_qty": 6,
-        "result_cpr": 24.99
+        "result_qty": 4,
+        "result_cpr": 37.51
       },
       {
-        "name": "[FESTA JULINA] [RESERVAS]",
+        "name": "[FESTIVAL PASTRAMI] [RESERVAS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 149.89,
-        "reach": 4694,
-        "impressions": 7848,
-        "clicks": 259,
-        "ctr": 3.3,
+        "spend": 127.13,
+        "reach": 4162,
+        "impressions": 6476,
+        "clicks": 221,
+        "ctr": 3.41,
         "cpc": 0.58,
         "result_label": "Leads",
-        "result_qty": 6,
-        "result_cpr": 24.98
-      },
-      {
-        "name": "[FESTIVAL PASTRAME] [RESERVAS]",
-        "objective": "OUTCOME_LEADS",
-        "spend": 22.75,
-        "reach": 1279,
-        "impressions": 1662,
-        "clicks": 60,
-        "ctr": 3.61,
-        "cpc": 0.38,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_qty": 2,
+        "result_cpr": 63.56
       }
     ],
     "ads": [
       {
         "name": "VIDEO HAPPY HOUR",
         "campaign": "[CBO] [TOPO DE FUNIL] [TRAFEGO]",
-        "spend": 214.84,
-        "impressions": 30495,
-        "clicks": 1279,
-        "ctr": 4.19,
-        "cpc": 0.17,
-        "frequency": 1.13,
+        "spend": 217.55,
+        "impressions": 30003,
+        "clicks": 1340,
+        "ctr": 4.47,
+        "cpc": 0.16,
+        "frequency": 1.19,
         "result_label": "Cliques",
-        "result_qty": 1156,
-        "result_cpr": 0.19
+        "result_qty": 1224,
+        "result_cpr": 0.18
       },
       {
         "name": "vd_domingo_promo",
         "campaign": "[PROMO DOMINGO] [LEADS]",
-        "spend": 109.62,
-        "impressions": 7164,
-        "clicks": 250,
-        "ctr": 3.49,
-        "cpc": 0.44,
-        "frequency": 1.53,
+        "spend": 90.4,
+        "impressions": 5978,
+        "clicks": 185,
+        "ctr": 3.09,
+        "cpc": 0.49,
+        "frequency": 1.52,
         "result_label": "Leads",
-        "result_qty": 12,
-        "result_cpr": 9.13
-      },
-      {
-        "name": "vd_carne_de_onca_influencers",
-        "campaign": "[CARNE DE ONÇA] [LEADS]",
-        "spend": 2.82,
-        "impressions": 150,
-        "clicks": 8,
-        "ctr": 5.33,
-        "cpc": 0.35,
-        "frequency": 1.01,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_qty": 2,
+        "result_cpr": 45.2
       },
       {
         "name": "vd_happy_hour_01_04",
         "campaign": "[HAPPY HOUR 3.0] [ENGAJAMENTO]",
-        "spend": 198.02,
-        "impressions": 41176,
-        "clicks": 360,
-        "ctr": 0.87,
-        "cpc": 0.55,
-        "frequency": 1.42,
+        "spend": 1.87,
+        "impressions": 421,
+        "clicks": 9,
+        "ctr": 2.14,
+        "cpc": 0.21,
+        "frequency": 1.03,
         "result_label": "Engajamentos",
-        "result_qty": 18016,
+        "result_qty": 199,
         "result_cpr": 0.01
-      },
-      {
-        "name": "vd_fernando_copa",
-        "campaign": "[COPA DO MUNDO] [RESERVAS]",
-        "spend": 49.98,
-        "impressions": 3194,
-        "clicks": 115,
-        "ctr": 3.6,
-        "cpc": 0.43,
-        "frequency": 1.24,
-        "result_label": "Leads",
-        "result_qty": 5,
-        "result_cpr": 10.0
       },
       {
         "name": "vd_almoço_3_jan",
         "campaign": "[ALMOÇO FDS] [RESERVAS]",
-        "spend": 84.6,
-        "impressions": 5135,
-        "clicks": 173,
-        "ctr": 3.37,
-        "cpc": 0.49,
-        "frequency": 1.22,
+        "spend": 50.74,
+        "impressions": 2299,
+        "clicks": 124,
+        "ctr": 5.39,
+        "cpc": 0.41,
+        "frequency": 1.38,
         "result_label": "Leads",
-        "result_qty": 2,
-        "result_cpr": 42.3
-      },
-      {
-        "name": "vd_niver_reservas_11_ago_25",
-        "campaign": "[NIVER] [RESERVAS]",
-        "spend": 50.62,
-        "impressions": 3794,
-        "clicks": 62,
-        "ctr": 1.63,
-        "cpc": 0.82,
-        "frequency": 1.27,
-        "result_label": "Leads",
-        "result_qty": 1,
-        "result_cpr": 50.62
+        "result_qty": 9,
+        "result_cpr": 5.64
       },
       {
         "name": "vd_carne_de_onca_jul_26",
         "campaign": "[CARNE DE ONÇA 2.0] [RESERVAS]",
-        "spend": 206.75,
-        "impressions": 12078,
-        "clicks": 349,
-        "ctr": 2.89,
-        "cpc": 0.59,
-        "frequency": 1.31,
+        "spend": 193.22,
+        "impressions": 8339,
+        "clicks": 331,
+        "ctr": 3.97,
+        "cpc": 0.58,
+        "frequency": 1.57,
         "result_label": "Leads",
-        "result_qty": 3,
-        "result_cpr": 68.92
+        "result_qty": 5,
+        "result_cpr": 38.64
       },
       {
         "name": "vd_almoço_4_jul",
         "campaign": "[ALMOÇO FDS] [RESERVAS]",
-        "spend": 114.49,
-        "impressions": 7656,
-        "clicks": 386,
-        "ctr": 5.04,
-        "cpc": 0.3,
-        "frequency": 1.16,
+        "spend": 125.13,
+        "impressions": 7137,
+        "clicks": 480,
+        "ctr": 6.73,
+        "cpc": 0.26,
+        "frequency": 1.35,
         "result_label": "Leads",
         "result_qty": 6,
-        "result_cpr": 19.08
-      },
-      {
-        "name": "vd_niver_reservas_jul",
-        "campaign": "[NIVER] [RESERVAS]",
-        "spend": 78.87,
-        "impressions": 4591,
-        "clicks": 81,
-        "ctr": 1.76,
-        "cpc": 0.97,
-        "frequency": 1.31,
-        "result_label": "Leads",
-        "result_qty": 2,
-        "result_cpr": 39.44
+        "result_cpr": 20.86
       },
       {
         "name": "volta_open_wine",
         "campaign": "[OPEN WINE] [RESERVAS]",
-        "spend": 149.93,
-        "impressions": 8332,
-        "clicks": 209,
-        "ctr": 2.51,
-        "cpc": 0.72,
-        "frequency": 1.72,
+        "spend": 150.03,
+        "impressions": 7440,
+        "clicks": 193,
+        "ctr": 2.59,
+        "cpc": 0.78,
+        "frequency": 1.56,
         "result_label": "Leads",
-        "result_qty": 6,
-        "result_cpr": 24.99
-      },
-      {
-        "name": "MOTION FESTA JULINA",
-        "campaign": "[FESTA JULINA] [RESERVAS]",
-        "spend": 149.89,
-        "impressions": 7848,
-        "clicks": 259,
-        "ctr": 3.3,
-        "cpc": 0.58,
-        "frequency": 1.67,
-        "result_label": "Leads",
-        "result_qty": 6,
-        "result_cpr": 24.98
+        "result_qty": 4,
+        "result_cpr": 37.51
       },
       {
         "name": "vd_niver_reservas_11_ago_25",
         "campaign": "[NIVER] [RESERVAS]",
-        "spend": 19.04,
-        "impressions": 700,
-        "clicks": 22,
-        "ctr": 3.14,
-        "cpc": 0.87,
-        "frequency": 1.46,
+        "spend": 111.44,
+        "impressions": 5460,
+        "clicks": 197,
+        "ctr": 3.61,
+        "cpc": 0.57,
+        "frequency": 1.64,
         "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_qty": 4,
+        "result_cpr": 27.86
       },
       {
         "name": "vd_happy_hour_23_07",
         "campaign": "[HAPPY HOUR 3.0] [ENGAJAMENTO]",
-        "spend": 17.46,
-        "impressions": 4341,
-        "clicks": 73,
-        "ctr": 1.68,
-        "cpc": 0.24,
-        "frequency": 1.13,
+        "spend": 215.1,
+        "impressions": 66289,
+        "clicks": 1132,
+        "ctr": 1.71,
+        "cpc": 0.19,
+        "frequency": 1.45,
         "result_label": "Engajamentos",
-        "result_qty": 2346,
+        "result_qty": 34998,
         "result_cpr": 0.01
       },
       {
         "name": "feed_festival_pastrami",
-        "campaign": "[FESTIVAL PASTRAME] [RESERVAS]",
-        "spend": 22.75,
-        "impressions": 1662,
-        "clicks": 60,
-        "ctr": 3.61,
-        "cpc": 0.38,
-        "frequency": 1.3,
+        "campaign": "[FESTIVAL PASTRAMI] [RESERVAS]",
+        "spend": 59.15,
+        "impressions": 4200,
+        "clicks": 112,
+        "ctr": 2.67,
+        "cpc": 0.53,
+        "frequency": 1.55,
         "result_label": "Leads",
         "result_qty": 0,
         "result_cpr": 0
+      },
+      {
+        "name": "reels_festival_pastrami",
+        "campaign": "[FESTIVAL PASTRAMI] [RESERVAS]",
+        "spend": 67.98,
+        "impressions": 2276,
+        "clicks": 109,
+        "ctr": 4.79,
+        "cpc": 0.62,
+        "frequency": 1.22,
+        "result_label": "Leads",
+        "result_qty": 2,
+        "result_cpr": 33.99
       }
     ]
   },
   "google": {
-    "spend": 521.17,
-    "impressions": 13374,
-    "clicks": 514,
-    "ctr": 3.84,
-    "cpc": 1.01,
-    "conversions": 131,
-    "cpa": 3.98,
-    "campaigns": [
-      {
-        "name": "[REDE DE PESQUISAS] [2.0]",
-        "type": "Search",
-        "status": "Enabled",
-        "spend": 521.17,
-        "impressions": 13374,
-        "clicks": 514,
-        "ctr": 3.84,
-        "cpc": 1.01,
-        "conversions": 131
-      }
-    ],
-    "keywords": [
-      {
-        "keyword": "Restaurante em Curitiba",
-        "match": "Exact",
-        "impressions": 8626,
-        "clicks": 311,
-        "ctr": 3.61,
-        "cpc": 1.04,
-        "conversions": 78
-      },
-      {
-        "keyword": "Bar Curitiba",
-        "match": "Exact",
-        "impressions": 4748,
-        "clicks": 203,
-        "ctr": 4.28,
-        "cpc": 0.97,
-        "conversions": 53
-      }
-    ],
-    "search_terms": [
-      {
-        "term": "restaurante curitiba",
-        "keyword": "—",
-        "impressions": 3785,
-        "clicks": 131,
-        "ctr": 3.46,
-        "cpc": 1.15
-      },
-      {
-        "term": "bar curitiba",
-        "keyword": "—",
-        "impressions": 855,
-        "clicks": 45,
-        "ctr": 5.26,
-        "cpc": 1.09
-      },
-      {
-        "term": "restaurantes em curitiba",
-        "keyword": "—",
-        "impressions": 887,
-        "clicks": 37,
-        "ctr": 4.17,
-        "cpc": 0.88
-      },
-      {
-        "term": "bares em curitiba",
-        "keyword": "—",
-        "impressions": 629,
-        "clicks": 31,
-        "ctr": 4.93,
-        "cpc": 1.02
-      },
-      {
-        "term": "restaurantes curitiba",
-        "keyword": "—",
-        "impressions": 1229,
-        "clicks": 36,
-        "ctr": 2.93,
-        "cpc": 0.84
-      },
-      {
-        "term": "bares curitiba",
-        "keyword": "—",
-        "impressions": 957,
-        "clicks": 33,
-        "ctr": 3.45,
-        "cpc": 0.8
-      },
-      {
-        "term": "barzinho curitiba",
-        "keyword": "—",
-        "impressions": 724,
-        "clicks": 31,
-        "ctr": 4.28,
-        "cpc": 0.83
-      },
-      {
-        "term": "bar em curitiba",
-        "keyword": "—",
-        "impressions": 497,
-        "clicks": 20,
-        "ctr": 4.02,
-        "cpc": 1.26
-      },
-      {
-        "term": "onde jantar em curitiba",
-        "keyword": "—",
-        "impressions": 385,
-        "clicks": 22,
-        "ctr": 5.71,
-        "cpc": 0.86
-      },
-      {
-        "term": "barzinho em curitiba",
-        "keyword": "—",
-        "impressions": 210,
-        "clicks": 15,
-        "ctr": 7.14,
-        "cpc": 1.19
-      },
-      {
-        "term": "restaurante em curitiba",
-        "keyword": "—",
-        "impressions": 519,
-        "clicks": 19,
-        "ctr": 3.66,
-        "cpc": 0.93
-      },
-      {
-        "term": "lugares para comer curitiba",
-        "keyword": "—",
-        "impressions": 182,
-        "clicks": 7,
-        "ctr": 3.85,
-        "cpc": 1.18
-      },
-      {
-        "term": "lugar para comer curitiba",
-        "keyword": "—",
-        "impressions": 98,
-        "clicks": 5,
-        "ctr": 5.1,
-        "cpc": 1.57
-      },
-      {
-        "term": "onde comer em curitiba",
-        "keyword": "—",
-        "impressions": 270,
-        "clicks": 7,
-        "ctr": 2.59,
-        "cpc": 1.04
-      },
-      {
-        "term": "barzinhos em curitiba",
-        "keyword": "—",
-        "impressions": 295,
-        "clicks": 9,
-        "ctr": 3.05,
-        "cpc": 0.8
-      },
-      {
-        "term": "restaurante bom em curitiba",
-        "keyword": "—",
-        "impressions": 59,
-        "clicks": 6,
-        "ctr": 10.17,
-        "cpc": 0.78
-      },
-      {
-        "term": "restaurants curitiba",
-        "keyword": "—",
-        "impressions": 60,
-        "clicks": 2,
-        "ctr": 3.33,
-        "cpc": 2.06
-      },
-      {
-        "term": "curitiba restaurante",
-        "keyword": "—",
-        "impressions": 25,
-        "clicks": 1,
-        "ctr": 4.0,
-        "cpc": 3.99
-      },
-      {
-        "term": "onde comer curitiba",
-        "keyword": "—",
-        "impressions": 136,
-        "clicks": 4,
-        "ctr": 2.94,
-        "cpc": 0.96
-      },
-      {
-        "term": "lugares para comer em curitiba",
-        "keyword": "—",
-        "impressions": 116,
-        "clicks": 4,
-        "ctr": 3.45,
-        "cpc": 0.95
-      },
-      {
-        "term": "restaurantes bons em curitiba",
-        "keyword": "—",
-        "impressions": 70,
-        "clicks": 3,
-        "ctr": 4.29,
-        "cpc": 1.26
-      },
-      {
-        "term": "restaurantes en curitiba",
-        "keyword": "—",
-        "impressions": 26,
-        "clicks": 2,
-        "ctr": 7.69,
-        "cpc": 1.88
-      },
-      {
-        "term": "bares de curitiba",
-        "keyword": "—",
-        "impressions": 55,
-        "clicks": 4,
-        "ctr": 7.27,
-        "cpc": 0.93
-      },
-      {
-        "term": "curitiba restaurantes",
-        "keyword": "—",
-        "impressions": 55,
-        "clicks": 4,
-        "ctr": 7.27,
-        "cpc": 0.8
-      },
-      {
-        "term": "restaurant curitiba",
-        "keyword": "—",
-        "impressions": 7,
-        "clicks": 1,
-        "ctr": 14.29,
-        "cpc": 2.61
-      },
-      {
-        "term": "botecos em curitiba",
-        "keyword": "—",
-        "impressions": 83,
-        "clicks": 2,
-        "ctr": 2.41,
-        "cpc": 1.05
-      },
-      {
-        "term": "barzinhos curitiba",
-        "keyword": "—",
-        "impressions": 141,
-        "clicks": 4,
-        "ctr": 2.84,
-        "cpc": 0.5
-      },
-      {
-        "term": "onde jantar curitiba",
-        "keyword": "—",
-        "impressions": 26,
-        "clicks": 3,
-        "ctr": 11.54,
-        "cpc": 0.62
-      },
-      {
-        "term": "bons restaurantes em curitiba",
-        "keyword": "—",
-        "impressions": 60,
-        "clicks": 2,
-        "ctr": 3.33,
-        "cpc": 0.88
-      },
-      {
-        "term": "bom restaurante em curitiba",
-        "keyword": "—",
-        "impressions": 6,
-        "clicks": 1,
-        "ctr": 16.67,
-        "cpc": 1.34
-      },
-      {
-        "term": "restaurantes de curitiba",
-        "keyword": "—",
-        "impressions": 14,
-        "clicks": 1,
-        "ctr": 7.14,
-        "cpc": 1.31
-      },
-      {
-        "term": "curitiba bar",
-        "keyword": "—",
-        "impressions": 41,
-        "clicks": 2,
-        "ctr": 4.88,
-        "cpc": 0.6
-      },
-      {
-        "term": "lugares gastronomicos curitiba",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 1.02
-      },
-      {
-        "term": "restaurants in curitiba",
-        "keyword": "—",
-        "impressions": 42,
-        "clicks": 1,
-        "ctr": 2.38,
-        "cpc": 1.01
-      },
-      {
-        "term": "bares en curitiba",
-        "keyword": "—",
-        "impressions": 5,
-        "clicks": 1,
-        "ctr": 20.0,
-        "cpc": 0.6
-      },
-      {
-        "term": "bar para ir em curitiba",
-        "keyword": "—",
-        "impressions": 4,
-        "clicks": 1,
-        "ctr": 25.0,
-        "cpc": 0.59
-      },
-      {
-        "term": "onde ir jantar em curitiba",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 0.54
-      },
-      {
-        "term": "comer em curitiba",
-        "keyword": "—",
-        "impressions": 16,
-        "clicks": 1,
-        "ctr": 6.25,
-        "cpc": 0.51
-      },
-      {
-        "term": "bares para conhecer em curitiba",
-        "keyword": "—",
-        "impressions": 10,
-        "clicks": 1,
-        "ctr": 10.0,
-        "cpc": 0.48
-      },
-      {
-        "term": "bars curitiba",
-        "keyword": "—",
-        "impressions": 3,
-        "clicks": 1,
-        "ctr": 33.33,
-        "cpc": 0.41
-      },
-      {
-        "term": "bar bom em curitiba",
-        "keyword": "—",
-        "impressions": 5,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "bar curitiba pr",
-        "keyword": "—",
-        "impressions": 6,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "bar de curitiba",
-        "keyword": "—",
-        "impressions": 9,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "bar em curitiba pr",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "bar legal em curitiba",
-        "keyword": "—",
-        "impressions": 14,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "bares bons em curitiba",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "bares curitiba pr",
-        "keyword": "—",
-        "impressions": 4,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "bares e botecos curitiba",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "bares e botecos de curitiba",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "bares e botecos em curitiba",
-        "keyword": "—",
-        "impressions": 3,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      }
-    ]
+    "spend": 0,
+    "impressions": 0,
+    "clicks": 0,
+    "ctr": 0,
+    "cpc": 0,
+    "conversions": 0,
+    "cpa": 0,
+    "campaigns": [],
+    "keywords": [],
+    "search_terms": []
   },
   "ga4": {
-    "sessions": 5758,
-    "users": 5199,
-    "new_users": 5087,
-    "pageviews": 6431,
-    "bounce_rate": 62.57,
-    "duration": "1m 27s",
-    "events": 33529,
-    "conversions": 1987,
-    "sources": [
-      {
-        "source": "google",
-        "medium": "organic",
-        "sessions": 1016,
-        "pct": 18.5
-      },
-      {
-        "source": "ig",
-        "medium": "paid",
-        "sessions": 837,
-        "pct": 15.2
-      },
-      {
-        "source": "ig",
-        "medium": "social",
-        "sessions": 519,
-        "pct": 9.4
-      },
-      {
-        "source": "google",
-        "medium": "cpc",
-        "sessions": 399,
-        "pct": 7.3
-      },
-      {
-        "source": "(direct)",
-        "medium": "(none)",
-        "sessions": 388,
-        "pct": 7.1
-      },
-      {
-        "source": "meta_batel",
-        "medium": "vd_promo_domingo",
-        "sessions": 251,
-        "pct": 4.6
-      },
-      {
-        "source": "meta_baca",
-        "medium": "vd_almoço_4_jul",
-        "sessions": 223,
-        "pct": 4.1
-      },
-      {
-        "source": "fb",
-        "medium": "paid",
-        "sessions": 222,
-        "pct": 4.0
-      },
-      {
-        "source": "meta_av",
-        "medium": "vd_almoço_4_jul",
-        "sessions": 181,
-        "pct": 3.3
-      },
-      {
-        "source": "meta-batel",
-        "medium": "volta_open_wine",
-        "sessions": 162,
-        "pct": 2.9
-      },
-      {
-        "source": "meta_av",
-        "medium": "vd_carne_de_onca_jul_26",
-        "sessions": 154,
-        "pct": 2.8
-      },
-      {
-        "source": "meta_av",
-        "medium": "vd_domingo_promo",
-        "sessions": 143,
-        "pct": 2.6
-      },
-      {
-        "source": "meta_baca",
-        "medium": "volta_open_wine",
-        "sessions": 107,
-        "pct": 1.9
-      },
-      {
-        "source": "meta_batel",
-        "medium": "vd_carne_de_onca_jul",
-        "sessions": 106,
-        "pct": 1.9
-      },
-      {
-        "source": "meta_bacacheri",
-        "medium": "carne_de_onca_jul_26",
-        "sessions": 104,
-        "pct": 1.9
-      },
-      {
-        "source": "meta_av",
-        "medium": "vd_almoço_3_jan",
-        "sessions": 90,
-        "pct": 1.6
-      },
-      {
-        "source": "meta_av",
-        "medium": "vd_happy_hour_01_04",
-        "sessions": 85,
-        "pct": 1.5
-      },
-      {
-        "source": "meta_baca",
-        "medium": "vd_niver_jul",
-        "sessions": 84,
-        "pct": 1.5
-      },
-      {
-        "source": "meta_baca",
-        "medium": "vd_fernando_copa",
-        "sessions": 78,
-        "pct": 1.4
-      },
-      {
-        "source": "meta_bacacheri",
-        "medium": "carne_de_onca_jul_26_2.0",
-        "sessions": 69,
-        "pct": 1.3
-      }
-    ],
-    "event_list": [
-      {
-        "name": "form_start",
-        "count": 2060
-      },
-      {
-        "name": "click",
-        "count": 423
-      },
-      {
-        "name": "Clicou_wttp",
-        "count": 235
-      },
-      {
-        "name": "generate_lead",
-        "count": 233
-      },
-      {
-        "name": "whatsapp_redirect",
-        "count": 114
-      }
-    ]
+    "sessions": 0,
+    "users": 0,
+    "new_users": 0,
+    "pageviews": 0,
+    "bounce_rate": 0.0,
+    "duration": "0m 0s",
+    "events": 0,
+    "conversions": 0,
+    "sources": [],
+    "event_list": []
   },
-  "gmb": {
-    "visitas": 0,
-    "rotas": 0,
-    "cliques_site": 0,
-    "ligacoes": 0,
-    "nota": 4.5,
-    "total_avaliacoes": 2883,
-    "avaliacoes_mes": 89,
-    "avaliacoes": [
-      {
-        "author": "Sandra Bielinki",
-        "stars": 5,
-        "text": "Lugar maravilhoso ,comiga gostosa,bom atendimento",
-        "date": "31/07/2026",
-        "replied": true
-      },
-      {
-        "author": "Edne Costanski",
-        "stars": 5,
-        "text": "Lugar maravilhoso, ambiente lindo, mesmo no inverno a temperatura é agradável,  comida excelente, sensacional e com certeza voltarei e indicarei para os amigos. O atendimento dos garçons é perfeito, com elogios para o Gerson",
-        "date": "31/07/2026",
-        "replied": false
-      },
-      {
-        "author": "Yan gustavo Martins soares",
-        "stars": 5,
-        "text": "Muito bom o atendimento!",
-        "date": "31/07/2026",
-        "replied": false
-      },
-      {
-        "author": "Thaina Antunes de Mello",
-        "stars": 5,
-        "text": "o garçom Gerson é muito prestativo, educado! amei o atendimento!",
-        "date": "31/07/2026",
-        "replied": false
-      },
-      {
-        "author": "Maria Vitória Bertoja",
-        "stars": 5,
-        "text": "O garçom Gerson é incrível! Muito educado e atencioso! Recomendo!",
-        "date": "31/07/2026",
-        "replied": false
-      },
-      {
-        "author": "Alexandre",
-        "stars": 5,
-        "text": "",
-        "date": "31/07/2026",
-        "replied": false
-      },
-      {
-        "author": "Solange Darold",
-        "stars": 5,
-        "text": "Amei a experiencia. O bar e maravilhoso, atendimento perfeito. Vou voltar com certeza. O Gerson e maravikhoso, amei o atenfimento.",
-        "date": "31/07/2026",
-        "replied": false
-      },
-      {
-        "author": "Isabela Carolina Martins",
-        "stars": 5,
-        "text": "Excelente local!",
-        "date": "31/07/2026",
-        "replied": false
-      },
-      {
-        "author": "JEAN ZANETTI",
-        "stars": 5,
-        "text": "",
-        "date": "31/07/2026",
-        "replied": false
-      },
-      {
-        "author": "Ari Cidral",
-        "stars": 5,
-        "text": "O Gerson, e o Funcinario que eu gostaria na minha empresa..",
-        "date": "31/07/2026",
-        "replied": false
-      }
-    ]
-  }
+  "gmb": null
 }
