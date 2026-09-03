@@ -148,6 +148,26 @@ A pasta `templates/` contém modelos prontos pra reutilizar — nunca editar dir
 
 ---
 
+## Relatório de tráfego de todos os clientes (via API, sem CSV)
+
+Para atualizar o relatório mensal de performance de vários/todos os clientes de uma vez, preferir puxar os dados direto via API (skills `google-ads-ratos` e `meta-ads-ratos`) em vez de pedir CSV manual — é mais rápido para o volume de 20+ clientes.
+
+**Ambiente Python:** o Python do sistema (Homebrew) bloqueia `pip install` (PEP 668). Existe uma venv dedicada em `~/.claude/skills/.venv-ads` com `google-ads`, `facebook-business`, `protobuf` e `google-auth-oauthlib` instalados — sempre rodar os scripts dessas skills com `~/.claude/skills/.venv-ads/bin/python3` em vez do `python3` do sistema.
+
+**Contas cadastradas:** `~/.claude/skills/google-ads-ratos/contas.yaml` (15 contas) e `~/.claude/skills/meta-ads-ratos/contas.yaml` (29 contas) já têm o mapeamento cliente → customer_id / conta de anúncio.
+
+**Período do relatório:** usar mês fechado (ex: `--since 2026-08-01 --until 2026-08-31`), não `LAST_30_DAYS` — o relatório é sempre do mês calendário completo, não dos últimos 30 dias corridos.
+
+**Quebra por campanha na Meta:** `insights.py campaign --id <id>` espera o ID de UMA campanha específica. Para listar todas as campanhas de uma conta com métricas, usar `insights.py account --id act_XXX --level campaign --fields campaign_name,spend,...`.
+
+**Google Ads token expira periodicamente** — se der `invalid_grant`, rodar `~/.claude/skills/.venv-ads/bin/python3 setup.py oauth` dentro de `~/.claude/skills/google-ads-ratos/scripts/` para gerar um novo refresh token (abre o browser).
+
+**Padrão de nomenclatura de pastas de cliente:** alguns clientes agrupam múltiplas unidades numa pasta só (ex: `porks-asas` = Asa Norte + Asa Sul; `porks-bdf` = Samambaia + Guará + Pirenópolis) — somar as métricas das contas de anúncio correspondentes antes de gerar o relatório único.
+
+**Formato do relatório:** seguir o HTML dark/verde neon já usado em `clientes/[cliente]/relatorios/relatorio-[mes]-2026.html` (ver qualquer relatório existente como referência de estrutura/CSS).
+
+---
+
 ## Auto-sync
 
 Este projeto tem um hook configurado em `.claude/settings.json` que faz commit e push automático ao final de cada sessão (quando o Claude para). O comportamento é silencioso — não precisa avisar o usuário. Se o repositório remoto ainda não estiver configurado, o hook simplesmente não faz nada.
