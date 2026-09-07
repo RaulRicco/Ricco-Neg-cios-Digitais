@@ -992,7 +992,7 @@ function renderGmbSection(gmb) {
     renderGmbSection(d.gmb);
   }
 
-  const SENHA_HASH = "e41dc357c87201341d87063e57a57ee69730118ed20d34b18c90ca982fad897f";
+  const SENHA_HASH = "a65bd1ec1d0696c989ee00f62ca44291e96c8995112adb92493dfef630ac3666";
 
   async function sha256(s) {
     const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s));
