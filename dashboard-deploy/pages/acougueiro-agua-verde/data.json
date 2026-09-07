@@ -4,20 +4,20 @@
     "start": "2026-08-01",
     "end": "2026-08-31"
   },
-  "gerado_em": "2026-09-01T06:00:13.041171",
+  "gerado_em": "2026-09-07T07:38:24.097506",
   "consolidado": {
-    "spend": 1282.61,
+    "spend": 1774.28,
     "reach": 88153,
-    "impressions": 139842,
-    "clicks": 4212,
-    "meta_spend": 1282.61,
-    "google_spend": 0
+    "impressions": 152258,
+    "clicks": 4743,
+    "meta_spend": 1282.8,
+    "google_spend": 491.48
   },
   "meta": {
-    "spend": 1282.61,
+    "spend": 1282.8,
     "reach": 88153,
-    "impressions": 139842,
-    "clicks": 4212,
+    "impressions": 139879,
+    "clicks": 4213,
     "cpm": 9.17,
     "cpc": 0.3,
     "ctr": 3.01,
@@ -26,9 +26,9 @@
       {
         "name": "[CBO] [TOPO DE FUNIL] [TRAFEGO]",
         "objective": "LINK_CLICKS",
-        "spend": 217.55,
+        "spend": 217.56,
         "reach": 25298,
-        "impressions": 30003,
+        "impressions": 30005,
         "clicks": 1340,
         "ctr": 4.47,
         "cpc": 0.16,
@@ -52,14 +52,14 @@
       {
         "name": "[HAPPY HOUR 3.0] [ENGAJAMENTO]",
         "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 216.97,
+        "spend": 217.15,
         "reach": 45910,
-        "impressions": 66710,
-        "clicks": 1141,
+        "impressions": 66745,
+        "clicks": 1142,
         "ctr": 1.71,
         "cpc": 0.19,
         "result_label": "Engajamentos",
-        "result_qty": 35197,
+        "result_qty": 35211,
         "result_cpr": 0.01
       },
       {
@@ -132,8 +132,8 @@
       {
         "name": "VIDEO HAPPY HOUR",
         "campaign": "[CBO] [TOPO DE FUNIL] [TRAFEGO]",
-        "spend": 217.55,
-        "impressions": 30003,
+        "spend": 217.56,
+        "impressions": 30005,
         "clicks": 1340,
         "ctr": 4.47,
         "cpc": 0.16,
@@ -236,14 +236,14 @@
       {
         "name": "vd_happy_hour_23_07",
         "campaign": "[HAPPY HOUR 3.0] [ENGAJAMENTO]",
-        "spend": 215.1,
-        "impressions": 66289,
-        "clicks": 1132,
+        "spend": 215.28,
+        "impressions": 66324,
+        "clicks": 1133,
         "ctr": 1.71,
         "cpc": 0.19,
         "frequency": 1.45,
         "result_label": "Engajamentos",
-        "result_qty": 34998,
+        "result_qty": 35012,
         "result_cpr": 0.01
       },
       {
@@ -275,28 +275,602 @@
     ]
   },
   "google": {
-    "spend": 0,
-    "impressions": 0,
-    "clicks": 0,
-    "ctr": 0,
-    "cpc": 0,
-    "conversions": 0,
-    "cpa": 0,
-    "campaigns": [],
-    "keywords": [],
-    "search_terms": []
+    "spend": 491.48,
+    "impressions": 12379,
+    "clicks": 530,
+    "ctr": 4.28,
+    "cpc": 0.93,
+    "conversions": 133,
+    "cpa": 3.7,
+    "campaigns": [
+      {
+        "name": "[REDE DE PESQUISAS] [2.0]",
+        "type": "Search",
+        "status": "Enabled",
+        "spend": 491.48,
+        "impressions": 12379,
+        "clicks": 530,
+        "ctr": 4.28,
+        "cpc": 0.93,
+        "conversions": 133
+      }
+    ],
+    "keywords": [
+      {
+        "keyword": "Restaurante em Curitiba",
+        "match": "Exact",
+        "impressions": 8188,
+        "clicks": 329,
+        "ctr": 4.02,
+        "cpc": 0.95,
+        "conversions": 79
+      },
+      {
+        "keyword": "Bar Curitiba",
+        "match": "Exact",
+        "impressions": 4191,
+        "clicks": 201,
+        "ctr": 4.8,
+        "cpc": 0.89,
+        "conversions": 54
+      }
+    ],
+    "search_terms": [
+      {
+        "term": "restaurante curitiba",
+        "keyword": "—",
+        "impressions": 3564,
+        "clicks": 129,
+        "ctr": 3.62,
+        "cpc": 1.01
+      },
+      {
+        "term": "restaurantes em curitiba",
+        "keyword": "—",
+        "impressions": 927,
+        "clicks": 45,
+        "ctr": 4.85,
+        "cpc": 0.98
+      },
+      {
+        "term": "barzinho curitiba",
+        "keyword": "—",
+        "impressions": 609,
+        "clicks": 45,
+        "ctr": 7.39,
+        "cpc": 0.91
+      },
+      {
+        "term": "bares curitiba",
+        "keyword": "—",
+        "impressions": 968,
+        "clicks": 38,
+        "ctr": 3.93,
+        "cpc": 0.89
+      },
+      {
+        "term": "restaurantes curitiba",
+        "keyword": "—",
+        "impressions": 1158,
+        "clicks": 42,
+        "ctr": 3.63,
+        "cpc": 0.78
+      },
+      {
+        "term": "bar curitiba",
+        "keyword": "—",
+        "impressions": 780,
+        "clicks": 27,
+        "ctr": 3.46,
+        "cpc": 1.06
+      },
+      {
+        "term": "bar em curitiba",
+        "keyword": "—",
+        "impressions": 443,
+        "clicks": 33,
+        "ctr": 7.45,
+        "cpc": 0.83
+      },
+      {
+        "term": "bares em curitiba",
+        "keyword": "—",
+        "impressions": 466,
+        "clicks": 21,
+        "ctr": 4.51,
+        "cpc": 1.11
+      },
+      {
+        "term": "onde comer em curitiba",
+        "keyword": "—",
+        "impressions": 223,
+        "clicks": 16,
+        "ctr": 7.17,
+        "cpc": 0.86
+      },
+      {
+        "term": "restaurante em curitiba",
+        "keyword": "—",
+        "impressions": 444,
+        "clicks": 16,
+        "ctr": 3.6,
+        "cpc": 0.75
+      },
+      {
+        "term": "onde jantar em curitiba",
+        "keyword": "—",
+        "impressions": 167,
+        "clicks": 12,
+        "ctr": 7.19,
+        "cpc": 0.88
+      },
+      {
+        "term": "lugares para comer curitiba",
+        "keyword": "—",
+        "impressions": 236,
+        "clicks": 12,
+        "ctr": 5.08,
+        "cpc": 0.85
+      },
+      {
+        "term": "restaurante curitiba perto de mim",
+        "keyword": "—",
+        "impressions": 156,
+        "clicks": 6,
+        "ctr": 3.85,
+        "cpc": 1.43
+      },
+      {
+        "term": "lugar para comer curitiba",
+        "keyword": "—",
+        "impressions": 102,
+        "clicks": 3,
+        "ctr": 2.94,
+        "cpc": 1.85
+      },
+      {
+        "term": "barzinhos em curitiba",
+        "keyword": "—",
+        "impressions": 226,
+        "clicks": 8,
+        "ctr": 3.54,
+        "cpc": 0.67
+      },
+      {
+        "term": "barzinho em curitiba",
+        "keyword": "—",
+        "impressions": 183,
+        "clicks": 6,
+        "ctr": 3.28,
+        "cpc": 0.81
+      },
+      {
+        "term": "restaurantes en curitiba",
+        "keyword": "—",
+        "impressions": 19,
+        "clicks": 3,
+        "ctr": 15.79,
+        "cpc": 1.3
+      },
+      {
+        "term": "restaurantes legais em curitiba",
+        "keyword": "—",
+        "impressions": 26,
+        "clicks": 4,
+        "ctr": 15.38,
+        "cpc": 0.95
+      },
+      {
+        "term": "barzinhos curitiba",
+        "keyword": "—",
+        "impressions": 121,
+        "clicks": 6,
+        "ctr": 4.96,
+        "cpc": 0.61
+      },
+      {
+        "term": "lugares para comer em curitiba",
+        "keyword": "—",
+        "impressions": 99,
+        "clicks": 3,
+        "ctr": 3.03,
+        "cpc": 0.79
+      },
+      {
+        "term": "onde comer curitiba",
+        "keyword": "—",
+        "impressions": 100,
+        "clicks": 2,
+        "ctr": 2.0,
+        "cpc": 1.17
+      },
+      {
+        "term": "botecos em curitiba",
+        "keyword": "—",
+        "impressions": 110,
+        "clicks": 3,
+        "ctr": 2.73,
+        "cpc": 0.72
+      },
+      {
+        "term": "restaurante bom em curitiba",
+        "keyword": "—",
+        "impressions": 57,
+        "clicks": 2,
+        "ctr": 3.51,
+        "cpc": 0.88
+      },
+      {
+        "term": "lugar para comer em curitiba",
+        "keyword": "—",
+        "impressions": 14,
+        "clicks": 2,
+        "ctr": 14.29,
+        "cpc": 0.83
+      },
+      {
+        "term": "bares de curitiba",
+        "keyword": "—",
+        "impressions": 24,
+        "clicks": 2,
+        "ctr": 8.33,
+        "cpc": 0.81
+      },
+      {
+        "term": "lugares para jantar em curitiba",
+        "keyword": "—",
+        "impressions": 27,
+        "clicks": 2,
+        "ctr": 7.41,
+        "cpc": 0.68
+      },
+      {
+        "term": "curitiba barzinho",
+        "keyword": "—",
+        "impressions": 6,
+        "clicks": 2,
+        "ctr": 33.33,
+        "cpc": 0.63
+      },
+      {
+        "term": "restaurantes para jantar em curitiba",
+        "keyword": "—",
+        "impressions": 8,
+        "clicks": 2,
+        "ctr": 25.0,
+        "cpc": 0.63
+      },
+      {
+        "term": "bar bom em curitiba",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 1.21
+      },
+      {
+        "term": "locais para comer curitiba",
+        "keyword": "—",
+        "impressions": 29,
+        "clicks": 2,
+        "ctr": 6.9,
+        "cpc": 0.58
+      },
+      {
+        "term": "restaurantes bom em curitiba",
+        "keyword": "—",
+        "impressions": 5,
+        "clicks": 1,
+        "ctr": 20.0,
+        "cpc": 1.11
+      },
+      {
+        "term": "pub em curitiba",
+        "keyword": "—",
+        "impressions": 6,
+        "clicks": 1,
+        "ctr": 16.67,
+        "cpc": 0.96
+      },
+      {
+        "term": "lugares para ir em curitiba comer",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 0.89
+      },
+      {
+        "term": "restaurantes bons curitiba",
+        "keyword": "—",
+        "impressions": 10,
+        "clicks": 1,
+        "ctr": 10.0,
+        "cpc": 0.88
+      },
+      {
+        "term": "restaurants in curitiba",
+        "keyword": "—",
+        "impressions": 36,
+        "clicks": 1,
+        "ctr": 2.78,
+        "cpc": 0.88
+      },
+      {
+        "term": "lugares para almoçar em curitiba",
+        "keyword": "—",
+        "impressions": 11,
+        "clicks": 1,
+        "ctr": 9.09,
+        "cpc": 0.84
+      },
+      {
+        "term": "restaurantes curitiba pr",
+        "keyword": "—",
+        "impressions": 12,
+        "clicks": 1,
+        "ctr": 8.33,
+        "cpc": 0.81
+      },
+      {
+        "term": "comer curitiba",
+        "keyword": "—",
+        "impressions": 9,
+        "clicks": 1,
+        "ctr": 11.11,
+        "cpc": 0.67
+      },
+      {
+        "term": "curitiba restaurantes",
+        "keyword": "—",
+        "impressions": 32,
+        "clicks": 1,
+        "ctr": 3.12,
+        "cpc": 0.67
+      },
+      {
+        "term": "onde almoçar em curitiba",
+        "keyword": "—",
+        "impressions": 28,
+        "clicks": 1,
+        "ctr": 3.57,
+        "cpc": 0.66
+      },
+      {
+        "term": "bons restaurantes em curitiba",
+        "keyword": "—",
+        "impressions": 41,
+        "clicks": 1,
+        "ctr": 2.44,
+        "cpc": 0.59
+      },
+      {
+        "term": "curitiba bar",
+        "keyword": "—",
+        "impressions": 37,
+        "clicks": 1,
+        "ctr": 2.7,
+        "cpc": 0.59
+      },
+      {
+        "term": "onde jantar curitiba",
+        "keyword": "—",
+        "impressions": 17,
+        "clicks": 1,
+        "ctr": 5.88,
+        "cpc": 0.53
+      },
+      {
+        "term": "bar legal em curitiba",
+        "keyword": "—",
+        "impressions": 8,
+        "clicks": 1,
+        "ctr": 12.5,
+        "cpc": 0.48
+      },
+      {
+        "term": "lugar para almoçar curitiba",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 0.29
+      },
+      {
+        "term": "lugar bom para comer em curitiba",
+        "keyword": "—",
+        "impressions": 10,
+        "clicks": 1,
+        "ctr": 10.0,
+        "cpc": 0.14
+      },
+      {
+        "term": "curitiba bares",
+        "keyword": "—",
+        "impressions": 5,
+        "clicks": 1,
+        "ctr": 20.0,
+        "cpc": 0.05
+      },
+      {
+        "term": "bar curitiba em curitiba",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "bar curitiba paraná",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "bar curitiba pr",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      }
+    ]
   },
   "ga4": {
-    "sessions": 0,
-    "users": 0,
-    "new_users": 0,
-    "pageviews": 0,
-    "bounce_rate": 0.0,
-    "duration": "0m 0s",
-    "events": 0,
-    "conversions": 0,
-    "sources": [],
-    "event_list": []
+    "sessions": 6366,
+    "users": 5582,
+    "new_users": 5427,
+    "pageviews": 7228,
+    "bounce_rate": 56.28,
+    "duration": "1m 20s",
+    "events": 37701,
+    "conversions": 2634,
+    "sources": [
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 1017,
+        "pct": 16.9
+      },
+      {
+        "source": "ig",
+        "medium": "paid",
+        "sessions": 716,
+        "pct": 11.9
+      },
+      {
+        "source": "ig",
+        "medium": "social",
+        "sessions": 591,
+        "pct": 9.8
+      },
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 391,
+        "pct": 6.5
+      },
+      {
+        "source": "meta_baca",
+        "medium": "vd_almoço_4_jul",
+        "sessions": 365,
+        "pct": 6.1
+      },
+      {
+        "source": "fb",
+        "medium": "paid",
+        "sessions": 349,
+        "pct": 5.8
+      },
+      {
+        "source": "google",
+        "medium": "cpc",
+        "sessions": 337,
+        "pct": 5.6
+      },
+      {
+        "source": "meta_av",
+        "medium": "vd_almoço_4_jul",
+        "sessions": 288,
+        "pct": 4.8
+      },
+      {
+        "source": "meta_batel",
+        "medium": "vd_promo_domingo",
+        "sessions": 240,
+        "pct": 4.0
+      },
+      {
+        "source": "meta_batel",
+        "medium": "festival_de_pastrami",
+        "sessions": 192,
+        "pct": 3.2
+      },
+      {
+        "source": "meta_av",
+        "medium": "vd_carne_de_onca_jul_26",
+        "sessions": 180,
+        "pct": 3.0
+      },
+      {
+        "source": "meta_av",
+        "medium": "vd_niver_reservas_11_ago_25",
+        "sessions": 137,
+        "pct": 2.3
+      },
+      {
+        "source": "meta-batel",
+        "medium": "volta_open_wine",
+        "sessions": 127,
+        "pct": 2.1
+      },
+      {
+        "source": "meta_baca",
+        "medium": "reels_festival_de_pastrami",
+        "sessions": 118,
+        "pct": 2.0
+      },
+      {
+        "source": "meta_av",
+        "medium": "vd_domingo_promo",
+        "sessions": 115,
+        "pct": 1.9
+      },
+      {
+        "source": "meta_baca",
+        "medium": "volta_open_wine",
+        "sessions": 112,
+        "pct": 1.9
+      },
+      {
+        "source": "meta_batel",
+        "medium": "vd_carne_de_onca_jul_2.0",
+        "sessions": 112,
+        "pct": 1.9
+      },
+      {
+        "source": "meta_av",
+        "medium": "reels_festival_pastrami",
+        "sessions": 94,
+        "pct": 1.6
+      },
+      {
+        "source": "meta_av",
+        "medium": "vd_happy_hour_23_07",
+        "sessions": 91,
+        "pct": 1.5
+      },
+      {
+        "source": "meta_batel",
+        "medium": "NIVER AGOSTO",
+        "sessions": 91,
+        "pct": 1.5
+      }
+    ],
+    "event_list": [
+      {
+        "name": "form_start",
+        "count": 2511
+      },
+      {
+        "name": "click",
+        "count": 380
+      },
+      {
+        "name": "generate_lead",
+        "count": 266
+      },
+      {
+        "name": "Clicou_wttp",
+        "count": 232
+      },
+      {
+        "name": "whatsapp_redirect",
+        "count": 132
+      }
+    ]
   },
   "gmb": null
 }

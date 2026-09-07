@@ -1,597 +1,558 @@
 {
   "cliente": "Bar do Açougueiro — Batel",
   "periodo": {
-    "start": "2026-07-01",
-    "end": "2026-07-31"
+    "start": "2026-08-01",
+    "end": "2026-08-31"
   },
-  "gerado_em": "2026-08-05T17:12:49.977555",
+  "gerado_em": "2026-09-07T07:39:04.763630",
   "consolidado": {
-    "spend": 1786.53,
-    "reach": 63971,
-    "impressions": 135047,
-    "clicks": 3864,
-    "meta_spend": 1198.3,
-    "google_spend": 588.23
+    "spend": 1710.23,
+    "reach": 65781,
+    "impressions": 127988,
+    "clicks": 3906,
+    "meta_spend": 1170.96,
+    "google_spend": 539.27
   },
   "meta": {
-    "spend": 1198.3,
-    "reach": 63971,
-    "impressions": 109379,
-    "clicks": 2736,
-    "cpm": 10.96,
-    "cpc": 0.44,
-    "ctr": 2.5,
-    "frequency": 1.71,
+    "spend": 1170.96,
+    "reach": 65781,
+    "impressions": 105251,
+    "clicks": 2867,
+    "cpm": 11.13,
+    "cpc": 0.41,
+    "ctr": 2.72,
+    "frequency": 1.6,
     "campaigns": [
       {
         "name": "[CBO] [TOPO DE FUNIL] [TRAFEGO]",
         "objective": "LINK_CLICKS",
-        "spend": 215.3,
-        "reach": 23659,
-        "impressions": 29435,
-        "clicks": 977,
-        "ctr": 3.32,
+        "spend": 217.26,
+        "reach": 25334,
+        "impressions": 30065,
+        "clicks": 1007,
+        "ctr": 3.35,
         "cpc": 0.22,
         "result_label": "Cliques",
-        "result_qty": 994,
-        "result_cpr": 0.22
+        "result_qty": 1047,
+        "result_cpr": 0.21
       },
       {
         "name": "[CBO] [HAPPY HOUR 2.0] [TRAFEGO]",
         "objective": "LINK_CLICKS",
-        "spend": 210.71,
-        "reach": 16570,
-        "impressions": 27852,
-        "clicks": 378,
-        "ctr": 1.36,
-        "cpc": 0.56,
+        "spend": 118.32,
+        "reach": 13780,
+        "impressions": 18566,
+        "clicks": 244,
+        "ctr": 1.31,
+        "cpc": 0.48,
         "result_label": "Cliques",
-        "result_qty": 374,
-        "result_cpr": 0.56
-      },
-      {
-        "name": "[CARNE DE ONÇA] [RESERVAS]",
-        "objective": "OUTCOME_LEADS",
-        "spend": 8.1,
-        "reach": 400,
-        "impressions": 421,
-        "clicks": 7,
-        "ctr": 1.66,
-        "cpc": 1.16,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_qty": 244,
+        "result_cpr": 0.48
       },
       {
         "name": "[PROMO DOMINGO] [LEADS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 164.43,
-        "reach": 7479,
-        "impressions": 12017,
-        "clicks": 403,
-        "ctr": 3.35,
-        "cpc": 0.41,
+        "spend": 135.53,
+        "reach": 6546,
+        "impressions": 10297,
+        "clicks": 406,
+        "ctr": 3.94,
+        "cpc": 0.33,
         "result_label": "Leads",
-        "result_qty": 11,
-        "result_cpr": 14.95
-      },
-      {
-        "name": "[COPA DO MUNDO] [RESERVAS]",
-        "objective": "OUTCOME_LEADS",
-        "spend": 50.0,
-        "reach": 2576,
-        "impressions": 3246,
-        "clicks": 119,
-        "ctr": 3.67,
-        "cpc": 0.42,
-        "result_label": "Leads",
-        "result_qty": 9,
-        "result_cpr": 5.56
+        "result_qty": 6,
+        "result_cpr": 22.59
       },
       {
         "name": "[NIVER] [RESERVAS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 183.69,
-        "reach": 9471,
-        "impressions": 13950,
-        "clicks": 229,
-        "ctr": 1.64,
-        "cpc": 0.8,
+        "spend": 116.25,
+        "reach": 3421,
+        "impressions": 5083,
+        "clicks": 127,
+        "ctr": 2.5,
+        "cpc": 0.92,
         "result_label": "Leads",
-        "result_qty": 1,
-        "result_cpr": 183.69
+        "result_qty": 2,
+        "result_cpr": 58.12
       },
       {
         "name": "[CARNE DE ONÇA] [RESERVAS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 203.02,
-        "reach": 10635,
-        "impressions": 14240,
-        "clicks": 356,
-        "ctr": 2.5,
-        "cpc": 0.57,
+        "spend": 146.92,
+        "reach": 4125,
+        "impressions": 6723,
+        "clicks": 175,
+        "ctr": 2.6,
+        "cpc": 0.84,
         "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_qty": 6,
+        "result_cpr": 24.49
       },
       {
         "name": "[OPEN WINE] [RESERVAS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 149.87,
-        "reach": 4595,
-        "impressions": 7193,
-        "clicks": 232,
-        "ctr": 3.23,
-        "cpc": 0.65,
+        "spend": 150.07,
+        "reach": 3975,
+        "impressions": 5916,
+        "clicks": 219,
+        "ctr": 3.7,
+        "cpc": 0.69,
         "result_label": "Leads",
         "result_qty": 4,
-        "result_cpr": 37.47
+        "result_cpr": 37.52
       },
       {
         "name": "[FESTIVAL PASTRAMI] [RESERVAS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 13.18,
-        "reach": 858,
-        "impressions": 1025,
-        "clicks": 35,
-        "ctr": 3.41,
-        "cpc": 0.38,
+        "spend": 136.75,
+        "reach": 4600,
+        "impressions": 6701,
+        "clicks": 329,
+        "ctr": 4.91,
+        "cpc": 0.42,
         "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_qty": 5,
+        "result_cpr": 27.35
+      },
+      {
+        "name": "[HAPPY HOUR 3.0] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 149.86,
+        "reach": 15091,
+        "impressions": 21900,
+        "clicks": 360,
+        "ctr": 1.64,
+        "cpc": 0.42,
+        "result_label": "Cliques",
+        "result_qty": 335,
+        "result_cpr": 0.45
       }
     ],
     "ads": [
       {
         "name": "VIDEO TABUAS DE COMBINADOS",
         "campaign": "[CBO] [TOPO DE FUNIL] [TRAFEGO]",
-        "spend": 215.3,
-        "impressions": 29435,
-        "clicks": 977,
-        "ctr": 3.32,
+        "spend": 217.26,
+        "impressions": 30065,
+        "clicks": 1007,
+        "ctr": 3.35,
         "cpc": 0.22,
-        "frequency": 1.24,
+        "frequency": 1.19,
         "result_label": "Cliques",
-        "result_qty": 994,
-        "result_cpr": 0.22
+        "result_qty": 1047,
+        "result_cpr": 0.21
       },
       {
         "name": "HAPPY HOUR REELS ABR/26",
         "campaign": "[CBO] [HAPPY HOUR 2.0] [TRAFEGO]",
-        "spend": 210.71,
-        "impressions": 27852,
-        "clicks": 378,
-        "ctr": 1.36,
-        "cpc": 0.56,
-        "frequency": 1.68,
+        "spend": 118.32,
+        "impressions": 18566,
+        "clicks": 244,
+        "ctr": 1.31,
+        "cpc": 0.48,
+        "frequency": 1.35,
         "result_label": "Cliques",
-        "result_qty": 374,
-        "result_cpr": 0.56
-      },
-      {
-        "name": "vd_carne_de_onca_influencer",
-        "campaign": "[CARNE DE ONÇA] [RESERVAS]",
-        "spend": 8.1,
-        "impressions": 421,
-        "clicks": 7,
-        "ctr": 1.66,
-        "cpc": 1.16,
-        "frequency": 1.05,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_qty": 244,
+        "result_cpr": 0.48
       },
       {
         "name": "vd_promo_domingo",
         "campaign": "[PROMO DOMINGO] [LEADS]",
-        "spend": 164.43,
-        "impressions": 12017,
-        "clicks": 403,
-        "ctr": 3.35,
-        "cpc": 0.41,
-        "frequency": 1.61,
+        "spend": 135.53,
+        "impressions": 10297,
+        "clicks": 406,
+        "ctr": 3.94,
+        "cpc": 0.33,
+        "frequency": 1.57,
         "result_label": "Leads",
-        "result_qty": 11,
-        "result_cpr": 14.95
-      },
-      {
-        "name": "vd_fernando_copa",
-        "campaign": "[COPA DO MUNDO] [RESERVAS]",
-        "spend": 50.0,
-        "impressions": 3246,
-        "clicks": 119,
-        "ctr": 3.67,
-        "cpc": 0.42,
-        "frequency": 1.26,
-        "result_label": "Leads",
-        "result_qty": 9,
-        "result_cpr": 5.56
-      },
-      {
-        "name": "vd_aniversario_jul_26",
-        "campaign": "[NIVER] [RESERVAS]",
-        "spend": 179.15,
-        "impressions": 13801,
-        "clicks": 227,
-        "ctr": 1.64,
-        "cpc": 0.79,
-        "frequency": 1.47,
-        "result_label": "Leads",
-        "result_qty": 1,
-        "result_cpr": 179.15
-      },
-      {
-        "name": "vd_carne_de_onca_jul",
-        "campaign": "[CARNE DE ONÇA] [RESERVAS]",
-        "spend": 134.81,
-        "impressions": 10240,
-        "clicks": 281,
-        "ctr": 2.74,
-        "cpc": 0.48,
-        "frequency": 1.27,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_qty": 6,
+        "result_cpr": 22.59
       },
       {
         "name": "volta_open_wine",
         "campaign": "[OPEN WINE] [RESERVAS]",
-        "spend": 149.87,
-        "impressions": 7193,
-        "clicks": 232,
-        "ctr": 3.23,
-        "cpc": 0.65,
-        "frequency": 1.57,
+        "spend": 150.07,
+        "impressions": 5916,
+        "clicks": 219,
+        "ctr": 3.7,
+        "cpc": 0.69,
+        "frequency": 1.49,
         "result_label": "Leads",
         "result_qty": 4,
-        "result_cpr": 37.47
+        "result_cpr": 37.52
       },
       {
         "name": "vd_carne_de_onca_jul_2.0",
         "campaign": "[CARNE DE ONÇA] [RESERVAS]",
-        "spend": 68.21,
-        "impressions": 4000,
-        "clicks": 75,
-        "ctr": 1.88,
-        "cpc": 0.91,
-        "frequency": 1.31,
+        "spend": 146.92,
+        "impressions": 6723,
+        "clicks": 175,
+        "ctr": 2.6,
+        "cpc": 0.84,
+        "frequency": 1.63,
         "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_qty": 6,
+        "result_cpr": 24.49
       },
       {
         "name": "NIVER AGOSTO",
         "campaign": "[NIVER] [RESERVAS]",
-        "spend": 4.54,
-        "impressions": 149,
-        "clicks": 2,
-        "ctr": 1.34,
-        "cpc": 2.27,
-        "frequency": 1.07,
+        "spend": 116.25,
+        "impressions": 5083,
+        "clicks": 127,
+        "ctr": 2.5,
+        "cpc": 0.92,
+        "frequency": 1.49,
         "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_qty": 2,
+        "result_cpr": 58.12
       },
       {
         "name": "festival_de_pastrami",
         "campaign": "[FESTIVAL PASTRAMI] [RESERVAS]",
-        "spend": 13.18,
-        "impressions": 1025,
-        "clicks": 35,
-        "ctr": 3.41,
-        "cpc": 0.38,
-        "frequency": 1.19,
+        "spend": 46.03,
+        "impressions": 3698,
+        "clicks": 108,
+        "ctr": 2.92,
+        "cpc": 0.43,
+        "frequency": 1.47,
         "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_qty": 1,
+        "result_cpr": 46.03
+      },
+      {
+        "name": "festival_de_pastrami",
+        "campaign": "[FESTIVAL PASTRAMI] [RESERVAS]",
+        "spend": 90.72,
+        "impressions": 3003,
+        "clicks": 221,
+        "ctr": 7.36,
+        "cpc": 0.41,
+        "frequency": 1.27,
+        "result_label": "Leads",
+        "result_qty": 4,
+        "result_cpr": 22.68
+      },
+      {
+        "name": "HAPPY HOUR AGOSTO/26",
+        "campaign": "[HAPPY HOUR 3.0] [TRAFEGO]",
+        "spend": 149.86,
+        "impressions": 21900,
+        "clicks": 360,
+        "ctr": 1.64,
+        "cpc": 0.42,
+        "frequency": 1.45,
+        "result_label": "Cliques",
+        "result_qty": 335,
+        "result_cpr": 0.45
       }
     ]
   },
   "google": {
-    "spend": 588.23,
-    "impressions": 25668,
-    "clicks": 1128,
-    "ctr": 4.39,
+    "spend": 539.27,
+    "impressions": 22737,
+    "clicks": 1039,
+    "ctr": 4.57,
     "cpc": 0.52,
-    "conversions": 49,
-    "cpa": 12.0,
+    "conversions": 38,
+    "cpa": 14.19,
     "campaigns": [
       {
         "name": "SEARCH 26 RESERVAS + LOJA",
         "type": "Search",
         "status": "Enabled",
-        "spend": 588.23,
-        "impressions": 25668,
-        "clicks": 1128,
-        "ctr": 4.39,
+        "spend": 539.27,
+        "impressions": 22737,
+        "clicks": 1039,
+        "ctr": 4.57,
         "cpc": 0.52,
-        "conversions": 49
+        "conversions": 38
       }
     ],
     "keywords": [
       {
+        "keyword": "bares chiques em curitiba",
+        "match": "Phrase",
+        "impressions": 3917,
+        "clicks": 115,
+        "ctr": 2.94,
+        "cpc": 0.76,
+        "conversions": 8
+      },
+      {
         "keyword": "Bar em curitiba",
         "match": "Exact",
-        "impressions": 4636,
-        "clicks": 202,
-        "ctr": 4.36,
-        "cpc": 0.52,
-        "conversions": 10
+        "impressions": 2875,
+        "clicks": 144,
+        "ctr": 5.01,
+        "cpc": 0.58,
+        "conversions": 5
       },
       {
         "keyword": "bares em batel",
         "match": "Exact",
-        "impressions": 1725,
-        "clicks": 103,
-        "ctr": 5.97,
-        "cpc": 0.72,
-        "conversions": 7
-      },
-      {
-        "keyword": "bares chiques em curitiba",
-        "match": "Phrase",
-        "impressions": 3023,
-        "clicks": 89,
-        "ctr": 2.94,
-        "cpc": 0.82,
-        "conversions": 4
+        "impressions": 1436,
+        "clicks": 115,
+        "ctr": 8.01,
+        "cpc": 0.59,
+        "conversions": 9
       },
       {
         "keyword": "barzinhos em curitiba música ao vivo",
         "match": "Exact",
-        "impressions": 2450,
-        "clicks": 155,
-        "ctr": 6.33,
-        "cpc": 0.45,
-        "conversions": 6
+        "impressions": 2265,
+        "clicks": 136,
+        "ctr": 6.0,
+        "cpc": 0.43,
+        "conversions": 5
       },
       {
         "keyword": "barzinhos em curitiba aberto hoje",
         "match": "Phrase",
-        "impressions": 2329,
-        "clicks": 130,
-        "ctr": 5.58,
-        "cpc": 0.42,
-        "conversions": 2
-      },
-      {
-        "keyword": "melhores bares de curitiba",
-        "match": "Exact",
-        "impressions": 1101,
-        "clicks": 89,
-        "ctr": 8.08,
-        "cpc": 0.5,
-        "conversions": 0
-      },
-      {
-        "keyword": "bares em curitiba no batel",
-        "match": "Exact",
-        "impressions": 896,
-        "clicks": 73,
-        "ctr": 8.15,
-        "cpc": 0.45,
-        "conversions": 9
+        "impressions": 2090,
+        "clicks": 134,
+        "ctr": 6.41,
+        "cpc": 0.38,
+        "conversions": 5
       },
       {
         "keyword": "melhores bares em curitiba",
         "match": "Exact",
-        "impressions": 935,
-        "clicks": 68,
-        "ctr": 7.27,
-        "cpc": 0.45,
-        "conversions": 2
+        "impressions": 1158,
+        "clicks": 79,
+        "ctr": 6.82,
+        "cpc": 0.46,
+        "conversions": 3
       },
       {
         "keyword": "bares em curitiba para happy hour",
         "match": "Exact",
-        "impressions": 703,
-        "clicks": 44,
-        "ctr": 6.26,
-        "cpc": 0.5,
-        "conversions": 3
-      },
-      {
-        "keyword": "barzinhos em curitiba",
-        "match": "Exact",
-        "impressions": 1109,
+        "impressions": 606,
         "clicks": 36,
-        "ctr": 3.25,
-        "cpc": 0.48,
-        "conversions": 1
-      },
-      {
-        "keyword": "melhor bar de curitiba",
-        "match": "Exact",
-        "impressions": 277,
-        "clicks": 20,
-        "ctr": 7.22,
-        "cpc": 0.54,
+        "ctr": 5.94,
+        "cpc": 0.67,
         "conversions": 0
       },
       {
         "keyword": "bares em curitiba pr",
         "match": "Exact",
-        "impressions": 939,
-        "clicks": 20,
-        "ctr": 2.13,
-        "cpc": 0.42,
+        "impressions": 1392,
+        "clicks": 57,
+        "ctr": 4.09,
+        "cpc": 0.4,
         "conversions": 0
       },
       {
-        "keyword": "bares domingo em curitiba",
+        "keyword": "melhores bares de curitiba",
         "match": "Exact",
-        "impressions": 252,
-        "clicks": 17,
-        "ctr": 6.75,
-        "cpc": 0.36,
-        "conversions": 1
-      },
-      {
-        "keyword": "barzinho em curitiba para ir a dois",
-        "match": "Exact",
-        "impressions": 288,
-        "clicks": 11,
-        "ctr": 3.82,
-        "cpc": 0.5,
-        "conversions": 1
-      },
-      {
-        "keyword": "bares para comer em curitiba",
-        "match": "Exact",
-        "impressions": 184,
-        "clicks": 11,
-        "ctr": 5.98,
-        "cpc": 0.5,
+        "impressions": 670,
+        "clicks": 31,
+        "ctr": 4.63,
+        "cpc": 0.63,
         "conversions": 0
       },
       {
-        "keyword": "barzinhos abertos em curitiba",
+        "keyword": "bares em curitiba no batel",
         "match": "Exact",
-        "impressions": 346,
-        "clicks": 5,
-        "ctr": 1.45,
-        "cpc": 0.73,
+        "impressions": 436,
+        "clicks": 36,
+        "ctr": 8.26,
+        "cpc": 0.43,
         "conversions": 0
       },
       {
-        "keyword": "melhores barzinhos em curitiba",
+        "keyword": "melhor bar de curitiba",
         "match": "Exact",
-        "impressions": 238,
-        "clicks": 9,
-        "ctr": 3.78,
-        "cpc": 0.39,
+        "impressions": 222,
+        "clicks": 22,
+        "ctr": 9.91,
+        "cpc": 0.47,
+        "conversions": 0
+      },
+      {
+        "keyword": "barzinhos em curitiba",
+        "match": "Exact",
+        "impressions": 833,
+        "clicks": 21,
+        "ctr": 2.52,
+        "cpc": 0.38,
         "conversions": 0
       },
       {
         "keyword": "barzinhos para ir em curitiba",
         "match": "Exact",
-        "impressions": 823,
-        "clicks": 7,
-        "ctr": 0.85,
-        "cpc": 0.44,
-        "conversions": 0
-      },
-      {
-        "keyword": "barzinhos legais em curitiba",
-        "match": "Exact",
-        "impressions": 820,
-        "clicks": 7,
-        "ctr": 0.85,
-        "cpc": 0.4,
-        "conversions": 0
-      },
-      {
-        "keyword": "bares aberto hoje em curitiba",
-        "match": "Exact",
-        "impressions": 104,
-        "clicks": 5,
-        "ctr": 4.81,
-        "cpc": 0.53,
-        "conversions": 1
-      },
-      {
-        "keyword": "bares para conhecer em curitiba",
-        "match": "Exact",
-        "impressions": 689,
-        "clicks": 7,
-        "ctr": 1.02,
-        "cpc": 0.36,
-        "conversions": 0
-      },
-      {
-        "keyword": "bares abertos agora em curitiba",
-        "match": "Exact",
-        "impressions": 175,
-        "clicks": 4,
-        "ctr": 2.29,
-        "cpc": 0.61,
-        "conversions": 0
-      },
-      {
-        "keyword": "bares em curitiba domingo",
-        "match": "Exact",
-        "impressions": 54,
-        "clicks": 2,
-        "ctr": 3.7,
-        "cpc": 0.71,
-        "conversions": 0
-      },
-      {
-        "keyword": "bar famoso em curitiba",
-        "match": "Exact",
-        "impressions": 165,
-        "clicks": 4,
-        "ctr": 2.42,
-        "cpc": 0.33,
-        "conversions": 0
-      },
-      {
-        "keyword": "bar aberto em curitiba hoje",
-        "match": "Exact",
-        "impressions": 89,
-        "clicks": 2,
-        "ctr": 2.25,
-        "cpc": 0.3,
-        "conversions": 0
-      },
-      {
-        "keyword": "bar em curitiba aberto",
-        "match": "Exact",
-        "impressions": 190,
-        "clicks": 2,
-        "ctr": 1.05,
-        "cpc": 0.25,
-        "conversions": 0
-      },
-      {
-        "keyword": "bares tranquilos em curitiba",
-        "match": "Exact",
-        "impressions": 67,
-        "clicks": 2,
-        "ctr": 2.99,
-        "cpc": 0.21,
-        "conversions": 0
-      },
-      {
-        "keyword": "bares para happy hour em curitiba",
-        "match": "Exact",
-        "impressions": 199,
-        "clicks": 1,
-        "ctr": 0.5,
+        "impressions": 791,
+        "clicks": 17,
+        "ctr": 2.15,
         "cpc": 0.42,
-        "conversions": 0
-      },
-      {
-        "keyword": "bares bons em curitiba",
-        "match": "Exact",
-        "impressions": 632,
-        "clicks": 2,
-        "ctr": 0.32,
-        "cpc": 0.17,
         "conversions": 0
       },
       {
         "keyword": "bares no batel em curitiba",
         "match": "Exact",
-        "impressions": 133,
+        "impressions": 127,
+        "clicks": 8,
+        "ctr": 6.3,
+        "cpc": 0.84,
+        "conversions": 1
+      },
+      {
+        "keyword": "barzinhos legais em curitiba",
+        "match": "Exact",
+        "impressions": 587,
+        "clicks": 8,
+        "ctr": 1.36,
+        "cpc": 0.78,
+        "conversions": 0
+      },
+      {
+        "keyword": "bares para happy hour em curitiba",
+        "match": "Exact",
+        "impressions": 317,
+        "clicks": 14,
+        "ctr": 4.42,
+        "cpc": 0.44,
+        "conversions": 0
+      },
+      {
+        "keyword": "bares domingo em curitiba",
+        "match": "Exact",
+        "impressions": 278,
+        "clicks": 9,
+        "ctr": 3.24,
+        "cpc": 0.42,
+        "conversions": 0
+      },
+      {
+        "keyword": "melhores barzinhos em curitiba",
+        "match": "Exact",
+        "impressions": 194,
+        "clicks": 8,
+        "ctr": 4.12,
+        "cpc": 0.43,
+        "conversions": 0
+      },
+      {
+        "keyword": "bares aberto hoje em curitiba",
+        "match": "Exact",
+        "impressions": 122,
+        "clicks": 5,
+        "ctr": 4.1,
+        "cpc": 0.6,
+        "conversions": 0
+      },
+      {
+        "keyword": "bar famoso em curitiba",
+        "match": "Exact",
+        "impressions": 130,
+        "clicks": 7,
+        "ctr": 5.38,
+        "cpc": 0.33,
+        "conversions": 0
+      },
+      {
+        "keyword": "bares para comer em curitiba",
+        "match": "Exact",
+        "impressions": 143,
+        "clicks": 6,
+        "ctr": 4.2,
+        "cpc": 0.38,
+        "conversions": 0
+      },
+      {
+        "keyword": "bar aberto em curitiba hoje",
+        "match": "Exact",
+        "impressions": 158,
+        "clicks": 8,
+        "ctr": 5.06,
+        "cpc": 0.29,
+        "conversions": 0
+      },
+      {
+        "keyword": "bares em curitiba domingo",
+        "match": "Exact",
+        "impressions": 75,
+        "clicks": 5,
+        "ctr": 6.67,
+        "cpc": 0.45,
+        "conversions": 0
+      },
+      {
+        "keyword": "bares para conhecer em curitiba",
+        "match": "Exact",
+        "impressions": 490,
+        "clicks": 3,
+        "ctr": 0.61,
+        "cpc": 0.63,
+        "conversions": 0
+      },
+      {
+        "keyword": "bar em curitiba aberto",
+        "match": "Exact",
+        "impressions": 176,
+        "clicks": 4,
+        "ctr": 2.27,
+        "cpc": 0.41,
+        "conversions": 0
+      },
+      {
+        "keyword": "barzinho em curitiba para ir a dois",
+        "match": "Exact",
+        "impressions": 237,
+        "clicks": 4,
+        "ctr": 1.69,
+        "cpc": 0.31,
+        "conversions": 0
+      },
+      {
+        "keyword": "bares bons em curitiba",
+        "match": "Exact",
+        "impressions": 476,
+        "clicks": 3,
+        "ctr": 0.63,
+        "cpc": 0.38,
+        "conversions": 0
+      },
+      {
+        "keyword": "bares abertos em curitiba domingo",
+        "match": "Exact",
+        "impressions": 58,
         "clicks": 1,
-        "ctr": 0.75,
-        "cpc": 0.04,
+        "ctr": 1.72,
+        "cpc": 0.97,
+        "conversions": 0
+      },
+      {
+        "keyword": "barzinhos abertos em curitiba",
+        "match": "Exact",
+        "impressions": 314,
+        "clicks": 2,
+        "ctr": 0.64,
+        "cpc": 0.36,
         "conversions": 0
       },
       {
         "keyword": "bares aconchegantes em curitiba",
         "match": "Exact",
-        "impressions": 40,
+        "impressions": 45,
+        "clicks": 1,
+        "ctr": 2.22,
+        "cpc": 0.61,
+        "conversions": 0
+      },
+      {
+        "keyword": "bares abertos agora em curitiba",
+        "match": "Exact",
+        "impressions": 63,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0,
         "conversions": 0
       },
       {
-        "keyword": "bares abertos em curitiba domingo",
+        "keyword": "bares tranquilos em curitiba",
         "match": "Exact",
-        "impressions": 57,
+        "impressions": 56,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0,
@@ -600,558 +561,558 @@
     ],
     "search_terms": [
       {
-        "term": "barzinho curitiba",
+        "term": "bares curitiba",
         "keyword": "—",
-        "impressions": 1285,
+        "impressions": 1709,
         "clicks": 56,
-        "ctr": 4.36,
-        "cpc": 0.54
+        "ctr": 3.28,
+        "cpc": 0.57
       },
       {
         "term": "bares em curitiba",
         "keyword": "—",
-        "impressions": 1824,
-        "clicks": 58,
-        "ctr": 3.18,
-        "cpc": 0.52
+        "impressions": 1381,
+        "clicks": 46,
+        "ctr": 3.33,
+        "cpc": 0.49
       },
       {
-        "term": "bares curitiba",
+        "term": "barzinho curitiba",
         "keyword": "—",
-        "impressions": 2198,
-        "clicks": 51,
-        "ctr": 2.32,
-        "cpc": 0.52
-      },
-      {
-        "term": "melhores bares de curitiba",
-        "keyword": "—",
-        "impressions": 543,
-        "clicks": 38,
-        "ctr": 7.0,
+        "impressions": 958,
+        "clicks": 33,
+        "ctr": 3.44,
         "cpc": 0.54
-      },
-      {
-        "term": "melhores bares em curitiba",
-        "keyword": "—",
-        "impressions": 452,
-        "clicks": 30,
-        "ctr": 6.64,
-        "cpc": 0.5
-      },
-      {
-        "term": "bar batel curitiba",
-        "keyword": "—",
-        "impressions": 131,
-        "clicks": 22,
-        "ctr": 16.79,
-        "cpc": 0.65
-      },
-      {
-        "term": "barzinhos em curitiba",
-        "keyword": "—",
-        "impressions": 532,
-        "clicks": 23,
-        "ctr": 4.32,
-        "cpc": 0.5
       },
       {
         "term": "bar em curitiba",
         "keyword": "—",
-        "impressions": 997,
+        "impressions": 740,
+        "clicks": 32,
+        "ctr": 4.32,
+        "cpc": 0.52
+      },
+      {
+        "term": "melhores bares em curitiba",
+        "keyword": "—",
+        "impressions": 402,
+        "clicks": 22,
+        "ctr": 5.47,
+        "cpc": 0.59
+      },
+      {
+        "term": "bar com musica ao vivo curitiba",
+        "keyword": "—",
+        "impressions": 338,
         "clicks": 24,
-        "ctr": 2.41,
+        "ctr": 7.1,
         "cpc": 0.48
       },
       {
-        "term": "bares batel curitiba",
+        "term": "melhores bares de curitiba",
         "keyword": "—",
-        "impressions": 177,
-        "clicks": 16,
-        "ctr": 9.04,
-        "cpc": 0.68
+        "impressions": 372,
+        "clicks": 19,
+        "ctr": 5.11,
+        "cpc": 0.53
       },
       {
-        "term": "happy hour curitiba",
+        "term": "bares no batel curitiba",
         "keyword": "—",
-        "impressions": 363,
-        "clicks": 17,
-        "ctr": 4.68,
-        "cpc": 0.61
+        "impressions": 113,
+        "clicks": 14,
+        "ctr": 12.39,
+        "cpc": 0.63
       },
       {
         "term": "barzinhos em curitiba música ao vivo",
         "keyword": "—",
         "impressions": 280,
-        "clicks": 22,
-        "ctr": 7.86,
-        "cpc": 0.38
+        "clicks": 21,
+        "ctr": 7.5,
+        "cpc": 0.39
       },
       {
-        "term": "bar com musica ao vivo curitiba",
+        "term": "happy hour curitiba",
         "keyword": "—",
-        "impressions": 296,
-        "clicks": 16,
-        "ctr": 5.41,
-        "cpc": 0.48
+        "impressions": 350,
+        "clicks": 17,
+        "ctr": 4.86,
+        "cpc": 0.46
       },
       {
-        "term": "bares batel",
+        "term": "bares batel curitiba",
         "keyword": "—",
-        "impressions": 249,
-        "clicks": 10,
-        "ctr": 4.02,
-        "cpc": 0.61
+        "impressions": 132,
+        "clicks": 11,
+        "ctr": 8.33,
+        "cpc": 0.7
       },
       {
-        "term": "seu prudente curitiba",
+        "term": "trago bar curitiba",
         "keyword": "—",
-        "impressions": 12,
-        "clicks": 2,
-        "ctr": 16.67,
-        "cpc": 2.68
-      },
-      {
-        "term": "bares no batel curitiba",
-        "keyword": "—",
-        "impressions": 109,
-        "clicks": 9,
-        "ctr": 8.26,
-        "cpc": 0.57
-      },
-      {
-        "term": "barzinhos em curitiba aberto hoje",
-        "keyword": "—",
-        "impressions": 185,
-        "clicks": 13,
-        "ctr": 7.03,
-        "cpc": 0.38
-      },
-      {
-        "term": "bares com musica ao vivo em curitiba",
-        "keyword": "—",
-        "impressions": 181,
-        "clicks": 12,
-        "ctr": 6.63,
-        "cpc": 0.4
+        "impressions": 23,
+        "clicks": 3,
+        "ctr": 13.04,
+        "cpc": 2.52
       },
       {
         "term": "barzinho em curitiba",
         "keyword": "—",
-        "impressions": 410,
-        "clicks": 9,
-        "ctr": 2.2,
-        "cpc": 0.54
+        "impressions": 371,
+        "clicks": 16,
+        "ctr": 4.31,
+        "cpc": 0.46
       },
       {
-        "term": "melhores barzinhos de curitiba",
+        "term": "bares no batel",
         "keyword": "—",
-        "impressions": 80,
-        "clicks": 9,
-        "ctr": 11.25,
-        "cpc": 0.53
+        "impressions": 200,
+        "clicks": 13,
+        "ctr": 6.5,
+        "cpc": 0.52
+      },
+      {
+        "term": "barzinhos em curitiba aberto hoje",
+        "keyword": "—",
+        "impressions": 167,
+        "clicks": 16,
+        "ctr": 9.58,
+        "cpc": 0.36
       },
       {
         "term": "melhores bares curitiba",
         "keyword": "—",
-        "impressions": 257,
+        "impressions": 196,
         "clicks": 10,
-        "ctr": 3.89,
-        "cpc": 0.45
+        "ctr": 5.1,
+        "cpc": 0.55
       },
       {
-        "term": "barzinho em curitiba aberto hoje",
+        "term": "bares em curitiba hoje",
         "keyword": "—",
-        "impressions": 59,
+        "impressions": 159,
+        "clicks": 10,
+        "ctr": 6.29,
+        "cpc": 0.54
+      },
+      {
+        "term": "barzinho no batel",
+        "keyword": "—",
+        "impressions": 52,
         "clicks": 7,
-        "ctr": 11.86,
-        "cpc": 0.63
-      },
-      {
-        "term": "bar no batel",
-        "keyword": "—",
-        "impressions": 179,
-        "clicks": 5,
-        "ctr": 2.79,
-        "cpc": 0.86
-      },
-      {
-        "term": "bar curitiba",
-        "keyword": "—",
-        "impressions": 547,
-        "clicks": 11,
-        "ctr": 2.01,
-        "cpc": 0.39
-      },
-      {
-        "term": "barzinho batel curitiba",
-        "keyword": "—",
-        "impressions": 43,
-        "clicks": 7,
-        "ctr": 16.28,
-        "cpc": 0.59
+        "ctr": 13.46,
+        "cpc": 0.75
       },
       {
         "term": "melhor bar de curitiba",
         "keyword": "—",
-        "impressions": 99,
-        "clicks": 5,
-        "ctr": 5.05,
-        "cpc": 0.82
+        "impressions": 63,
+        "clicks": 10,
+        "ctr": 15.87,
+        "cpc": 0.5
       },
       {
-        "term": "boteco em curitiba",
+        "term": "o bar do açougueiro batel",
         "keyword": "—",
-        "impressions": 157,
-        "clicks": 8,
-        "ctr": 5.1,
-        "cpc": 0.51
+        "impressions": 3,
+        "clicks": 3,
+        "ctr": 100.0,
+        "cpc": 1.61
       },
       {
-        "term": "bar com música ao vivo em curitiba",
+        "term": "barzinhos em curitiba",
         "keyword": "—",
-        "impressions": 123,
+        "impressions": 434,
+        "clicks": 11,
+        "ctr": 2.53,
+        "cpc": 0.43
+      },
+      {
+        "term": "bar no batel",
+        "keyword": "—",
+        "impressions": 138,
         "clicks": 7,
-        "ctr": 5.69,
-        "cpc": 0.58
+        "ctr": 5.07,
+        "cpc": 0.63
       },
       {
-        "term": "yard rua presidente taunay batel curitiba pr",
+        "term": "bares batel",
+        "keyword": "—",
+        "impressions": 115,
+        "clicks": 7,
+        "ctr": 6.09,
+        "cpc": 0.63
+      },
+      {
+        "term": "catu bar curitiba",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 2,
+        "ctr": 66.67,
+        "cpc": 1.86
+      },
+      {
+        "term": "ginger curitiba",
         "keyword": "—",
         "impressions": 7,
         "clicks": 1,
         "ctr": 14.29,
-        "cpc": 3.95
+        "cpc": 3.71
       },
       {
-        "term": "barzinho com musica ao vivo curitiba",
-        "keyword": "—",
-        "impressions": 87,
-        "clicks": 8,
-        "ctr": 9.2,
-        "cpc": 0.49
-      },
-      {
-        "term": "bar no batel curitiba",
-        "keyword": "—",
-        "impressions": 65,
-        "clicks": 6,
-        "ctr": 9.23,
-        "cpc": 0.65
-      },
-      {
-        "term": "bar curitiba batel",
-        "keyword": "—",
-        "impressions": 66,
-        "clicks": 3,
-        "ctr": 4.55,
-        "cpc": 1.23
-      },
-      {
-        "term": "bar batel",
-        "keyword": "—",
-        "impressions": 183,
-        "clicks": 6,
-        "ctr": 3.28,
-        "cpc": 0.56
-      },
-      {
-        "term": "sheridans batel",
-        "keyword": "—",
-        "impressions": 17,
-        "clicks": 1,
-        "ctr": 5.88,
-        "cpc": 3.35
-      },
-      {
-        "term": "bares legais em curitiba",
-        "keyword": "—",
-        "impressions": 184,
-        "clicks": 7,
-        "ctr": 3.8,
-        "cpc": 0.46
-      },
-      {
-        "term": "bares curitiba música ao vivo",
-        "keyword": "—",
-        "impressions": 50,
-        "clicks": 5,
-        "ctr": 10.0,
-        "cpc": 0.57
-      },
-      {
-        "term": "bares em curitiba batel",
-        "keyword": "—",
-        "impressions": 24,
-        "clicks": 2,
-        "ctr": 8.33,
-        "cpc": 1.37
-      },
-      {
-        "term": "continental bar batel alameda doutor carlos de carvalho centro curitiba pr",
-        "keyword": "—",
-        "impressions": 3,
-        "clicks": 1,
-        "ctr": 33.33,
-        "cpc": 2.7
-      },
-      {
-        "term": "melhor happy hour curitiba",
-        "keyword": "—",
-        "impressions": 39,
-        "clicks": 3,
-        "ctr": 7.69,
-        "cpc": 0.87
-      },
-      {
-        "term": "melhores pubs de curitiba",
-        "keyword": "—",
-        "impressions": 41,
-        "clicks": 5,
-        "ctr": 12.2,
-        "cpc": 0.52
-      },
-      {
-        "term": "bares curitiba batel",
-        "keyword": "—",
-        "impressions": 98,
-        "clicks": 5,
-        "ctr": 5.1,
-        "cpc": 0.52
-      },
-      {
-        "term": "sheridans bar curitiba",
-        "keyword": "—",
-        "impressions": 24,
-        "clicks": 1,
-        "ctr": 4.17,
-        "cpc": 2.57
-      },
-      {
-        "term": "bar de drinks curitiba",
-        "keyword": "—",
-        "impressions": 50,
-        "clicks": 4,
-        "ctr": 8.0,
-        "cpc": 0.63
-      },
-      {
-        "term": "barzinhos curitiba",
-        "keyword": "—",
-        "impressions": 269,
-        "clicks": 4,
-        "ctr": 1.49,
-        "cpc": 0.61
-      },
-      {
-        "term": "bar restaurante curitiba",
-        "keyword": "—",
-        "impressions": 30,
-        "clicks": 5,
-        "ctr": 16.67,
-        "cpc": 0.48
-      },
-      {
-        "term": "vila madalena curitiba",
-        "keyword": "—",
-        "impressions": 33,
-        "clicks": 1,
-        "ctr": 3.03,
-        "cpc": 2.39
-      },
-      {
-        "term": "o canto bar curitiba",
+        "term": "slainte curitiba",
         "keyword": "—",
         "impressions": 5,
         "clicks": 1,
         "ctr": 20.0,
-        "cpc": 2.33
+        "cpc": 3.7
       },
       {
         "term": "happy hour em curitiba",
         "keyword": "—",
-        "impressions": 97,
-        "clicks": 7,
-        "ctr": 7.22,
-        "cpc": 0.32
+        "impressions": 105,
+        "clicks": 6,
+        "ctr": 5.71,
+        "cpc": 0.55
       },
       {
-        "term": "aqui é batel bar",
+        "term": "melhores happy hour curitiba",
         "keyword": "—",
-        "impressions": 6,
+        "impressions": 28,
+        "clicks": 3,
+        "ctr": 10.71,
+        "cpc": 1.09
+      },
+      {
+        "term": "barzinho com música ao vivo em curitiba",
+        "keyword": "—",
+        "impressions": 83,
+        "clicks": 9,
+        "ctr": 10.84,
+        "cpc": 0.36
+      },
+      {
+        "term": "melhor boteco de curitiba",
+        "keyword": "—",
+        "impressions": 31,
+        "clicks": 6,
+        "ctr": 19.35,
+        "cpc": 0.53
+      },
+      {
+        "term": "bar com música ao vivo em curitiba",
+        "keyword": "—",
+        "impressions": 95,
+        "clicks": 7,
+        "ctr": 7.37,
+        "cpc": 0.44
+      },
+      {
+        "term": "cantuca curitiba",
+        "keyword": "—",
+        "impressions": 23,
         "clicks": 1,
-        "ctr": 16.67,
-        "cpc": 2.13
+        "ctr": 4.35,
+        "cpc": 3.05
+      },
+      {
+        "term": "bares com musica ao vivo em curitiba",
+        "keyword": "—",
+        "impressions": 171,
+        "clicks": 9,
+        "ctr": 5.26,
+        "cpc": 0.33
+      },
+      {
+        "term": "bares no batel em curitiba",
+        "keyword": "—",
+        "impressions": 20,
+        "clicks": 4,
+        "ctr": 20.0,
+        "cpc": 0.72
+      },
+      {
+        "term": "bares com música ao vivo em curitiba",
+        "keyword": "—",
+        "impressions": 41,
+        "clicks": 5,
+        "ctr": 12.2,
+        "cpc": 0.53
       },
       {
         "term": "bar musica ao vivo curitiba",
         "keyword": "—",
-        "impressions": 94,
-        "clicks": 6,
-        "ctr": 6.38,
-        "cpc": 0.33
+        "impressions": 88,
+        "clicks": 5,
+        "ctr": 5.68,
+        "cpc": 0.51
       },
       {
-        "term": "melhores botecos de curitiba",
+        "term": "happy hour curitiba hoje",
         "keyword": "—",
-        "impressions": 58,
-        "clicks": 6,
+        "impressions": 56,
+        "clicks": 7,
+        "ctr": 12.5,
+        "cpc": 0.35
+      },
+      {
+        "term": "bar curitiba batel",
+        "keyword": "—",
+        "impressions": 44,
+        "clicks": 4,
+        "ctr": 9.09,
+        "cpc": 0.61
+      },
+      {
+        "term": "pub curitiba",
+        "keyword": "—",
+        "impressions": 29,
+        "clicks": 3,
         "ctr": 10.34,
-        "cpc": 0.33
+        "cpc": 0.8
+      },
+      {
+        "term": "melhores barzinhos em curitiba",
+        "keyword": "—",
+        "impressions": 32,
+        "clicks": 5,
+        "ctr": 15.62,
+        "cpc": 0.46
+      },
+      {
+        "term": "bares em curitiba com música ao vivo",
+        "keyword": "—",
+        "impressions": 26,
+        "clicks": 5,
+        "ctr": 19.23,
+        "cpc": 0.46
+      },
+      {
+        "term": "bar curitiba",
+        "keyword": "—",
+        "impressions": 423,
+        "clicks": 4,
+        "ctr": 0.95,
+        "cpc": 0.56
+      },
+      {
+        "term": "batel bares",
+        "keyword": "—",
+        "impressions": 35,
+        "clicks": 3,
+        "ctr": 8.57,
+        "cpc": 0.75
+      },
+      {
+        "term": "bar happy hour curitiba",
+        "keyword": "—",
+        "impressions": 23,
+        "clicks": 2,
+        "ctr": 8.7,
+        "cpc": 1.09
+      },
+      {
+        "term": "o bar do açougueiro batel fotos",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 2.19
+      },
+      {
+        "term": "sheridans bar curitiba",
+        "keyword": "—",
+        "impressions": 21,
+        "clicks": 1,
+        "ctr": 4.76,
+        "cpc": 2.11
+      },
+      {
+        "term": "barzinho com musica ao vivo curitiba",
+        "keyword": "—",
+        "impressions": 42,
+        "clicks": 5,
+        "ctr": 11.9,
+        "cpc": 0.42
+      },
+      {
+        "term": "melhor happy hour curitiba",
+        "keyword": "—",
+        "impressions": 25,
+        "clicks": 3,
+        "ctr": 12.0,
+        "cpc": 0.7
+      },
+      {
+        "term": "barzinho curitiba perto de mim",
+        "keyword": "—",
+        "impressions": 24,
+        "clicks": 5,
+        "ctr": 20.83,
+        "cpc": 0.41
+      },
+      {
+        "term": "barzinho no batel curitiba",
+        "keyword": "—",
+        "impressions": 24,
+        "clicks": 5,
+        "ctr": 20.83,
+        "cpc": 0.39
       }
     ]
   },
   "ga4": {
-    "sessions": 5758,
-    "users": 5199,
-    "new_users": 5087,
-    "pageviews": 6431,
-    "bounce_rate": 62.57,
-    "duration": "1m 27s",
-    "events": 33529,
-    "conversions": 1987,
+    "sessions": 6366,
+    "users": 5582,
+    "new_users": 5427,
+    "pageviews": 7228,
+    "bounce_rate": 56.28,
+    "duration": "1m 20s",
+    "events": 37701,
+    "conversions": 2634,
     "sources": [
       {
         "source": "google",
         "medium": "organic",
-        "sessions": 1016,
-        "pct": 18.5
+        "sessions": 1017,
+        "pct": 16.9
       },
       {
         "source": "ig",
         "medium": "paid",
-        "sessions": 837,
-        "pct": 15.2
+        "sessions": 716,
+        "pct": 11.9
       },
       {
         "source": "ig",
         "medium": "social",
-        "sessions": 519,
-        "pct": 9.4
-      },
-      {
-        "source": "google",
-        "medium": "cpc",
-        "sessions": 399,
-        "pct": 7.3
+        "sessions": 591,
+        "pct": 9.8
       },
       {
         "source": "(direct)",
         "medium": "(none)",
-        "sessions": 388,
-        "pct": 7.1
-      },
-      {
-        "source": "meta_batel",
-        "medium": "vd_promo_domingo",
-        "sessions": 251,
-        "pct": 4.6
+        "sessions": 391,
+        "pct": 6.5
       },
       {
         "source": "meta_baca",
         "medium": "vd_almoço_4_jul",
-        "sessions": 223,
-        "pct": 4.1
+        "sessions": 365,
+        "pct": 6.1
       },
       {
         "source": "fb",
         "medium": "paid",
-        "sessions": 222,
-        "pct": 4.0
+        "sessions": 349,
+        "pct": 5.8
+      },
+      {
+        "source": "google",
+        "medium": "cpc",
+        "sessions": 337,
+        "pct": 5.6
       },
       {
         "source": "meta_av",
         "medium": "vd_almoço_4_jul",
-        "sessions": 181,
-        "pct": 3.3
+        "sessions": 288,
+        "pct": 4.8
       },
       {
-        "source": "meta-batel",
-        "medium": "volta_open_wine",
-        "sessions": 162,
-        "pct": 2.9
+        "source": "meta_batel",
+        "medium": "vd_promo_domingo",
+        "sessions": 240,
+        "pct": 4.0
+      },
+      {
+        "source": "meta_batel",
+        "medium": "festival_de_pastrami",
+        "sessions": 192,
+        "pct": 3.2
       },
       {
         "source": "meta_av",
         "medium": "vd_carne_de_onca_jul_26",
-        "sessions": 154,
-        "pct": 2.8
+        "sessions": 180,
+        "pct": 3.0
+      },
+      {
+        "source": "meta_av",
+        "medium": "vd_niver_reservas_11_ago_25",
+        "sessions": 137,
+        "pct": 2.3
+      },
+      {
+        "source": "meta-batel",
+        "medium": "volta_open_wine",
+        "sessions": 127,
+        "pct": 2.1
+      },
+      {
+        "source": "meta_baca",
+        "medium": "reels_festival_de_pastrami",
+        "sessions": 118,
+        "pct": 2.0
       },
       {
         "source": "meta_av",
         "medium": "vd_domingo_promo",
-        "sessions": 143,
-        "pct": 2.6
+        "sessions": 115,
+        "pct": 1.9
       },
       {
         "source": "meta_baca",
         "medium": "volta_open_wine",
-        "sessions": 107,
+        "sessions": 112,
         "pct": 1.9
       },
       {
         "source": "meta_batel",
-        "medium": "vd_carne_de_onca_jul",
-        "sessions": 106,
-        "pct": 1.9
-      },
-      {
-        "source": "meta_bacacheri",
-        "medium": "carne_de_onca_jul_26",
-        "sessions": 104,
+        "medium": "vd_carne_de_onca_jul_2.0",
+        "sessions": 112,
         "pct": 1.9
       },
       {
         "source": "meta_av",
-        "medium": "vd_almoço_3_jan",
-        "sessions": 90,
+        "medium": "reels_festival_pastrami",
+        "sessions": 94,
         "pct": 1.6
       },
       {
         "source": "meta_av",
-        "medium": "vd_happy_hour_01_04",
-        "sessions": 85,
+        "medium": "vd_happy_hour_23_07",
+        "sessions": 91,
         "pct": 1.5
       },
       {
-        "source": "meta_baca",
-        "medium": "vd_niver_jul",
-        "sessions": 84,
+        "source": "meta_batel",
+        "medium": "NIVER AGOSTO",
+        "sessions": 91,
         "pct": 1.5
-      },
-      {
-        "source": "meta_baca",
-        "medium": "vd_fernando_copa",
-        "sessions": 78,
-        "pct": 1.4
-      },
-      {
-        "source": "meta_bacacheri",
-        "medium": "carne_de_onca_jul_26_2.0",
-        "sessions": 69,
-        "pct": 1.3
       }
     ],
     "event_list": [
       {
         "name": "form_start",
-        "count": 2060
+        "count": 2511
       },
       {
         "name": "click",
-        "count": 423
-      },
-      {
-        "name": "Clicou_wttp",
-        "count": 235
+        "count": 380
       },
       {
         "name": "generate_lead",
-        "count": 233
+        "count": 266
+      },
+      {
+        "name": "Clicou_wttp",
+        "count": 232
       },
       {
         "name": "whatsapp_redirect",
-        "count": 114
+        "count": 132
       }
     ]
   },

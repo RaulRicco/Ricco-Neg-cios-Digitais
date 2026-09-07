@@ -1,52 +1,41 @@
 {
   "cliente": "Balcão Savassi",
   "periodo": {
-    "start": "2026-07-01",
-    "end": "2026-07-31"
+    "start": "2026-08-01",
+    "end": "2026-08-31"
   },
-  "gerado_em": "2026-08-05T17:13:18.320847",
+  "gerado_em": "2026-09-07T07:39:32.932921",
   "consolidado": null,
   "meta": null,
   "google": {
-    "spend": 561.19,
-    "impressions": 7107,
-    "clicks": 174,
-    "ctr": 2.45,
-    "cpc": 3.23,
-    "conversions": 33,
-    "cpa": 17.01,
+    "spend": 540.65,
+    "impressions": 7207,
+    "clicks": 158,
+    "ctr": 2.19,
+    "cpc": 3.42,
+    "conversions": 18,
+    "cpa": 30.04,
     "campaigns": [
       {
         "name": "[REDE DE PESQUISAS 01] [COMO CHEGAR]",
         "type": "Search",
         "status": "Enabled",
-        "spend": 524.78,
-        "impressions": 6052,
-        "clicks": 134,
-        "ctr": 2.21,
-        "cpc": 3.92,
+        "spend": 531.22,
+        "impressions": 6369,
+        "clicks": 143,
+        "ctr": 2.25,
+        "cpc": 3.71,
         "conversions": 18
-      },
-      {
-        "name": "SEARCH COPA NA PRACA",
-        "type": "Search",
-        "status": "Paused",
-        "spend": 35.88,
-        "impressions": 790,
-        "clicks": 39,
-        "ctr": 4.94,
-        "cpc": 0.92,
-        "conversions": 15
       },
       {
         "name": "[PMAX] [VISITAS AO LOCAL]",
         "type": "Performance_Max",
         "status": "Enabled",
-        "spend": 0.53,
-        "impressions": 265,
-        "clicks": 1,
-        "ctr": 0.38,
-        "cpc": 0.53,
+        "spend": 9.43,
+        "impressions": 838,
+        "clicks": 15,
+        "ctr": 1.79,
+        "cpc": 0.63,
         "conversions": 0
       }
     ],
@@ -54,172 +43,73 @@
       {
         "keyword": "bares em belo horizonte",
         "match": "Exact",
-        "impressions": 2776,
-        "clicks": 68,
-        "ctr": 2.45,
-        "cpc": 3.85,
-        "conversions": 6
-      },
-      {
-        "keyword": "barzinho savassi",
-        "match": "Exact",
-        "impressions": 617,
-        "clicks": 21,
-        "ctr": 3.4,
-        "cpc": 4.02,
-        "conversions": 4
+        "impressions": 3336,
+        "clicks": 89,
+        "ctr": 2.67,
+        "cpc": 3.62,
+        "conversions": 11
       },
       {
         "keyword": "bar savassi bh",
         "match": "Exact",
-        "impressions": 612,
-        "clicks": 16,
-        "ctr": 2.61,
-        "cpc": 3.98,
-        "conversions": 4
-      },
-      {
-        "keyword": "onde comer na savassi",
-        "match": "Exact",
-        "impressions": 973,
-        "clicks": 12,
-        "ctr": 1.23,
-        "cpc": 3.95,
-        "conversions": 3
-      },
-      {
-        "keyword": "restaurante savassi bh",
-        "match": "Exact",
-        "impressions": 478,
-        "clicks": 6,
-        "ctr": 1.26,
-        "cpc": 4.42,
-        "conversions": 0
-      },
-      {
-        "keyword": "ver jogo brasil bh",
-        "match": "Exact",
-        "impressions": 488,
-        "clicks": 20,
-        "ctr": 4.1,
-        "cpc": 0.89,
-        "conversions": 7
-      },
-      {
-        "keyword": "onde jantar savassi",
-        "match": "Exact",
-        "impressions": 151,
-        "clicks": 5,
-        "ctr": 3.31,
-        "cpc": 3.38,
-        "conversions": 0
-      },
-      {
-        "keyword": "bar na savassi",
-        "match": "Exact",
-        "impressions": 287,
-        "clicks": 3,
-        "ctr": 1.05,
-        "cpc": 4.17,
+        "impressions": 623,
+        "clicks": 10,
+        "ctr": 1.61,
+        "cpc": 4.29,
         "conversions": 0
       },
       {
         "keyword": "happy hour bh",
         "match": "Exact",
-        "impressions": 158,
-        "clicks": 3,
-        "ctr": 1.9,
-        "cpc": 3.87,
+        "impressions": 179,
+        "clicks": 10,
+        "ctr": 5.59,
+        "cpc": 3.93,
+        "conversions": 3
+      },
+      {
+        "keyword": "onde comer na savassi",
+        "match": "Exact",
+        "impressions": 791,
+        "clicks": 10,
+        "ctr": 1.26,
+        "cpc": 3.84,
+        "conversions": 2
+      },
+      {
+        "keyword": "restaurante savassi bh",
+        "match": "Exact",
+        "impressions": 392,
+        "clicks": 9,
+        "ctr": 2.3,
+        "cpc": 3.85,
         "conversions": 0
       },
       {
-        "keyword": "evento copa bh",
+        "keyword": "barzinho savassi",
         "match": "Exact",
-        "impressions": 89,
-        "clicks": 8,
-        "ctr": 8.99,
-        "cpc": 0.89,
-        "conversions": 4
+        "impressions": 670,
+        "clicks": 9,
+        "ctr": 1.34,
+        "cpc": 3.77,
+        "conversions": 1
       },
       {
-        "keyword": "copa na praça bh",
+        "keyword": "bar na savassi",
         "match": "Exact",
-        "impressions": 62,
+        "impressions": 290,
         "clicks": 5,
-        "ctr": 8.06,
-        "cpc": 0.71,
+        "ctr": 1.72,
+        "cpc": 3.17,
         "conversions": 1
       },
       {
-        "keyword": "ingresso copa na praça",
+        "keyword": "onde jantar savassi",
         "match": "Exact",
-        "impressions": 10,
-        "clicks": 2,
-        "ctr": 20.0,
-        "cpc": 1.28,
-        "conversions": 1
-      },
-      {
-        "keyword": "assistir copa 2026 bh",
-        "match": "Exact",
-        "impressions": 28,
-        "clicks": 2,
-        "ctr": 7.14,
-        "cpc": 0.93,
-        "conversions": 0
-      },
-      {
-        "keyword": "copa savassi",
-        "match": "Exact",
-        "impressions": 16,
+        "impressions": 88,
         "clicks": 1,
-        "ctr": 6.25,
-        "cpc": 1.54,
-        "conversions": 1
-      },
-      {
-        "keyword": "copa na praça belo horizonte",
-        "match": "Exact",
-        "impressions": 9,
-        "clicks": 1,
-        "ctr": 11.11,
-        "cpc": 1.3,
-        "conversions": 1
-      },
-      {
-        "keyword": "copa 2026 belo horizonte",
-        "match": "Exact",
-        "impressions": 45,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "ver jogo brasil bar",
-        "match": "Exact",
-        "impressions": 27,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "copa do mundo bar belo horizonte",
-        "match": "Exact",
-        "impressions": 13,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "balcão savassi copa",
-        "match": "Exact",
-        "impressions": 3,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
+        "ctr": 1.14,
+        "cpc": 3.54,
         "conversions": 0
       }
     ],
@@ -227,282 +117,194 @@
       {
         "term": "bares em bh",
         "keyword": "—",
-        "impressions": 507,
-        "clicks": 14,
-        "ctr": 2.76,
-        "cpc": 4.06
+        "impressions": 561,
+        "clicks": 16,
+        "ctr": 2.85,
+        "cpc": 4.1
+      },
+      {
+        "term": "barzinho belo horizonte",
+        "keyword": "—",
+        "impressions": 279,
+        "clicks": 8,
+        "ctr": 2.87,
+        "cpc": 3.77
+      },
+      {
+        "term": "bares legais em bh",
+        "keyword": "—",
+        "impressions": 113,
+        "clicks": 8,
+        "ctr": 7.08,
+        "cpc": 3.58
+      },
+      {
+        "term": "barzinho em bh",
+        "keyword": "—",
+        "impressions": 152,
+        "clicks": 6,
+        "ctr": 3.95,
+        "cpc": 3.39
       },
       {
         "term": "bares belo horizonte",
         "keyword": "—",
         "impressions": 293,
-        "clicks": 10,
-        "ctr": 3.41,
-        "cpc": 3.66
+        "clicks": 5,
+        "ctr": 1.71,
+        "cpc": 3.59
       },
       {
-        "term": "barzinho belo horizonte",
+        "term": "bar belo horizonte",
         "keyword": "—",
-        "impressions": 271,
-        "clicks": 8,
-        "ctr": 2.95,
-        "cpc": 3.95
-      },
-      {
-        "term": "bares legais em bh",
-        "keyword": "—",
-        "impressions": 107,
+        "impressions": 81,
         "clicks": 4,
-        "ctr": 3.74,
-        "cpc": 3.74
-      },
-      {
-        "term": "barzinho em bh",
-        "keyword": "—",
-        "impressions": 110,
-        "clicks": 4,
-        "ctr": 3.64,
-        "cpc": 3.34
-      },
-      {
-        "term": "barzinhos em bh",
-        "keyword": "—",
-        "impressions": 139,
-        "clicks": 3,
-        "ctr": 2.16,
-        "cpc": 4.14
-      },
-      {
-        "term": "bares em belo horizonte",
-        "keyword": "—",
-        "impressions": 116,
-        "clicks": 3,
-        "ctr": 2.59,
-        "cpc": 3.69
-      },
-      {
-        "term": "savassi bares",
-        "keyword": "—",
-        "impressions": 64,
-        "clicks": 3,
-        "ctr": 4.69,
-        "cpc": 3.29
-      },
-      {
-        "term": "barzinho bom em bh",
-        "keyword": "—",
-        "impressions": 18,
-        "clicks": 2,
-        "ctr": 11.11,
-        "cpc": 4.91
-      },
-      {
-        "term": "bar em bh",
-        "keyword": "—",
-        "impressions": 234,
-        "clicks": 3,
-        "ctr": 1.28,
-        "cpc": 3.18
-      },
-      {
-        "term": "bar savassi bh",
-        "keyword": "—",
-        "impressions": 41,
-        "clicks": 2,
-        "ctr": 4.88,
-        "cpc": 4.35
-      },
-      {
-        "term": "bares savassi bh",
-        "keyword": "—",
-        "impressions": 82,
-        "clicks": 2,
-        "ctr": 2.44,
-        "cpc": 4.31
+        "ctr": 4.94,
+        "cpc": 4.28
       },
       {
         "term": "bares na savassi",
         "keyword": "—",
-        "impressions": 160,
+        "impressions": 146,
+        "clicks": 5,
+        "ctr": 3.42,
+        "cpc": 3.17
+      },
+      {
+        "term": "barzinhos em bh",
+        "keyword": "—",
+        "impressions": 182,
+        "clicks": 4,
+        "ctr": 2.2,
+        "cpc": 3.58
+      },
+      {
+        "term": "bares em bh hoje",
+        "keyword": "—",
+        "impressions": 31,
+        "clicks": 4,
+        "ctr": 12.9,
+        "cpc": 3.32
+      },
+      {
+        "term": "bar em bh",
+        "keyword": "—",
+        "impressions": 228,
+        "clicks": 3,
+        "ctr": 1.32,
+        "cpc": 3.63
+      },
+      {
+        "term": "restaurante na savassi",
+        "keyword": "—",
+        "impressions": 54,
+        "clicks": 3,
+        "ctr": 5.56,
+        "cpc": 3.43
+      },
+      {
+        "term": "bares savassi bh",
+        "keyword": "—",
+        "impressions": 86,
         "clicks": 2,
-        "ctr": 1.25,
-        "cpc": 4.19
-      },
-      {
-        "term": "bares belo horizonte savassi",
-        "keyword": "—",
-        "impressions": 6,
-        "clicks": 1,
-        "ctr": 16.67,
-        "cpc": 8.07
-      },
-      {
-        "term": "bares bh savassi",
-        "keyword": "—",
-        "impressions": 37,
-        "clicks": 2,
-        "ctr": 5.41,
-        "cpc": 3.88
-      },
-      {
-        "term": "onde comer na savassi",
-        "keyword": "—",
-        "impressions": 20,
-        "clicks": 2,
-        "ctr": 10.0,
-        "cpc": 3.84
-      },
-      {
-        "term": "bares no bairro savassi bh",
-        "keyword": "—",
-        "impressions": 4,
-        "clicks": 2,
-        "ctr": 50.0,
-        "cpc": 3.66
-      },
-      {
-        "term": "onde assistir o jogo do brasil em bh",
-        "keyword": "—",
-        "impressions": 109,
-        "clicks": 8,
-        "ctr": 7.34,
-        "cpc": 0.91
-      },
-      {
-        "term": "barzinho savassi",
-        "keyword": "—",
-        "impressions": 43,
-        "clicks": 1,
         "ctr": 2.33,
-        "cpc": 6.98
+        "cpc": 4.73
       },
       {
-        "term": "bares de belo horizonte",
+        "term": "happy hour bh",
         "keyword": "—",
-        "impressions": 27,
+        "impressions": 31,
         "clicks": 2,
-        "ctr": 7.41,
-        "cpc": 3.41
+        "ctr": 6.45,
+        "cpc": 4.67
       },
       {
-        "term": "savassi bar",
+        "term": "bares em belo horizonte",
+        "keyword": "—",
+        "impressions": 106,
+        "clicks": 3,
+        "ctr": 2.83,
+        "cpc": 3.11
+      },
+      {
+        "term": "restaurante savassi",
+        "keyword": "—",
+        "impressions": 130,
+        "clicks": 2,
+        "ctr": 1.54,
+        "cpc": 4.43
+      },
+      {
+        "term": "barzinhos belo horizonte",
         "keyword": "—",
         "impressions": 41,
-        "clicks": 1,
-        "ctr": 2.44,
-        "cpc": 6.59
-      },
-      {
-        "term": "barzinho na savassi bh",
-        "keyword": "—",
-        "impressions": 9,
         "clicks": 2,
-        "ctr": 22.22,
-        "cpc": 3.0
-      },
-      {
-        "term": "bares da savassi",
-        "keyword": "—",
-        "impressions": 14,
-        "clicks": 1,
-        "ctr": 7.14,
-        "cpc": 5.79
-      },
-      {
-        "term": "savassi restaurante bh",
-        "keyword": "—",
-        "impressions": 9,
-        "clicks": 1,
-        "ctr": 11.11,
-        "cpc": 5.32
-      },
-      {
-        "term": "lugares para happy hour em bh",
-        "keyword": "—",
-        "impressions": 10,
-        "clicks": 1,
-        "ctr": 10.0,
-        "cpc": 5.04
-      },
-      {
-        "term": "restaurantes na savassi",
-        "keyword": "—",
-        "impressions": 68,
-        "clicks": 1,
-        "ctr": 1.47,
-        "cpc": 5.04
-      },
-      {
-        "term": "bares na savassi bh",
-        "keyword": "—",
-        "impressions": 95,
-        "clicks": 1,
-        "ctr": 1.05,
-        "cpc": 4.89
+        "ctr": 4.88,
+        "cpc": 4.2
       },
       {
         "term": "restaurantes savassi bh",
         "keyword": "—",
-        "impressions": 79,
-        "clicks": 1,
-        "ctr": 1.27,
-        "cpc": 4.86
+        "impressions": 62,
+        "clicks": 2,
+        "ctr": 3.23,
+        "cpc": 3.75
       },
       {
-        "term": "bar savassi",
+        "term": "restaurante em savassi bh",
         "keyword": "—",
-        "impressions": 118,
-        "clicks": 1,
-        "ctr": 0.85,
-        "cpc": 4.83
+        "impressions": 5,
+        "clicks": 2,
+        "ctr": 40.0,
+        "cpc": 3.58
       },
       {
-        "term": "bares para conhecer em bh",
+        "term": "bares para ir em bh",
         "keyword": "—",
-        "impressions": 17,
-        "clicks": 1,
-        "ctr": 5.88,
-        "cpc": 4.8
+        "impressions": 39,
+        "clicks": 2,
+        "ctr": 5.13,
+        "cpc": 3.58
       },
       {
-        "term": "barzinhos savassi",
+        "term": "bares legais bh",
         "keyword": "—",
-        "impressions": 20,
-        "clicks": 1,
-        "ctr": 5.0,
-        "cpc": 4.77
-      },
-      {
-        "term": "restaurantes savassi",
-        "keyword": "—",
-        "impressions": 113,
-        "clicks": 1,
-        "ctr": 0.88,
-        "cpc": 4.67
+        "impressions": 18,
+        "clicks": 2,
+        "ctr": 11.11,
+        "cpc": 3.5
       },
       {
         "term": "savassi restaurantes",
         "keyword": "—",
-        "impressions": 59,
+        "impressions": 58,
         "clicks": 1,
-        "ctr": 1.69,
-        "cpc": 4.63
+        "ctr": 1.72,
+        "cpc": 6.34
       },
       {
-        "term": "barzinho bom na savassi",
+        "term": "bares bons em bh",
         "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 4.39
+        "impressions": 48,
+        "clicks": 2,
+        "ctr": 4.17,
+        "cpc": 3.14
       },
       {
-        "term": "bar na savassi",
+        "term": "happy hour bh hoje",
         "keyword": "—",
-        "impressions": 96,
+        "impressions": 3,
         "clicks": 1,
-        "ctr": 1.04,
-        "cpc": 4.14
+        "ctr": 33.33,
+        "cpc": 5.6
+      },
+      {
+        "term": "happy hour em belo horizonte",
+        "keyword": "—",
+        "impressions": 5,
+        "clicks": 1,
+        "ctr": 20.0,
+        "cpc": 4.97
       },
       {
         "term": "barzinhos na savassi",
@@ -510,209 +312,305 @@
         "impressions": 22,
         "clicks": 1,
         "ctr": 4.55,
-        "cpc": 3.88
+        "cpc": 4.93
       },
       {
-        "term": "bares em bh savassi",
+        "term": "bares na savassi bh",
         "keyword": "—",
-        "impressions": 18,
+        "impressions": 119,
         "clicks": 1,
-        "ctr": 5.56,
-        "cpc": 3.87
-      },
-      {
-        "term": "restaurante bh savassi",
-        "keyword": "—",
-        "impressions": 11,
-        "clicks": 1,
-        "ctr": 9.09,
-        "cpc": 3.72
-      },
-      {
-        "term": "bares belo horizonte mg",
-        "keyword": "—",
-        "impressions": 6,
-        "clicks": 1,
-        "ctr": 16.67,
-        "cpc": 3.71
-      },
-      {
-        "term": "bares em belo horizonte savassi",
-        "keyword": "—",
-        "impressions": 15,
-        "clicks": 1,
-        "ctr": 6.67,
-        "cpc": 3.67
-      },
-      {
-        "term": "restaurante na savassi",
-        "keyword": "—",
-        "impressions": 73,
-        "clicks": 1,
-        "ctr": 1.37,
-        "cpc": 3.66
-      },
-      {
-        "term": "restaurantes na savassi bh",
-        "keyword": "—",
-        "impressions": 56,
-        "clicks": 1,
-        "ctr": 1.79,
-        "cpc": 3.62
-      },
-      {
-        "term": "onde comer na savassi bh",
-        "keyword": "—",
-        "impressions": 12,
-        "clicks": 1,
-        "ctr": 8.33,
-        "cpc": 3.51
+        "ctr": 0.84,
+        "cpc": 4.87
       },
       {
         "term": "restaurante na savassi bh",
         "keyword": "—",
-        "impressions": 41,
+        "impressions": 46,
         "clicks": 1,
-        "ctr": 2.44,
-        "cpc": 3.44
+        "ctr": 2.17,
+        "cpc": 4.8
       },
       {
-        "term": "savassi bh bares",
+        "term": "bares em bh savassi",
         "keyword": "—",
-        "impressions": 31,
+        "impressions": 11,
         "clicks": 1,
-        "ctr": 3.23,
-        "cpc": 3.42
+        "ctr": 9.09,
+        "cpc": 4.72
       },
       {
-        "term": "happy hour belo horizonte",
+        "term": "restaurantes bh savassi",
         "keyword": "—",
-        "impressions": 29,
+        "impressions": 13,
         "clicks": 1,
-        "ctr": 3.45,
-        "cpc": 3.33
+        "ctr": 7.69,
+        "cpc": 4.61
       },
       {
-        "term": "bar de bh",
+        "term": "bares em savassi",
         "keyword": "—",
-        "impressions": 6,
+        "impressions": 4,
         "clicks": 1,
-        "ctr": 16.67,
-        "cpc": 3.31
+        "ctr": 25.0,
+        "cpc": 4.6
       },
       {
-        "term": "restaurante savassi jantar",
+        "term": "bares bom em bh",
         "keyword": "—",
-        "impressions": 20,
+        "impressions": 8,
         "clicks": 1,
-        "ctr": 5.0,
-        "cpc": 3.31
+        "ctr": 12.5,
+        "cpc": 4.54
       },
       {
-        "term": "bar na savassi bh",
+        "term": "bares em savassi bh",
         "keyword": "—",
-        "impressions": 33,
+        "impressions": 14,
         "clicks": 1,
-        "ctr": 3.03,
-        "cpc": 3.28
+        "ctr": 7.14,
+        "cpc": 4.31
       },
       {
-        "term": "bares para happy hour em bh",
+        "term": "restaurante savassi bh",
+        "keyword": "—",
+        "impressions": 65,
+        "clicks": 1,
+        "ctr": 1.54,
+        "cpc": 4.08
+      },
+      {
+        "term": "botecos bh savassi",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 4.04
+      },
+      {
+        "term": "happy hour em bh",
+        "keyword": "—",
+        "impressions": 37,
+        "clicks": 1,
+        "ctr": 2.7,
+        "cpc": 4.04
+      },
+      {
+        "term": "bar bh",
+        "keyword": "—",
+        "impressions": 132,
+        "clicks": 1,
+        "ctr": 0.76,
+        "cpc": 4.01
+      },
+      {
+        "term": "restaurantes no savassi",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 4.01
+      },
+      {
+        "term": "bares no savassi bh",
+        "keyword": "—",
+        "impressions": 7,
+        "clicks": 1,
+        "ctr": 14.29,
+        "cpc": 4.0
+      },
+      {
+        "term": "bar na savassi belo horizonte",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 3.92
+      },
+      {
+        "term": "bar savassi bh",
+        "keyword": "—",
+        "impressions": 23,
+        "clicks": 1,
+        "ctr": 4.35,
+        "cpc": 3.66
+      },
+      {
+        "term": "bares savassi",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 3.64
+      },
+      {
+        "term": "restaurante savassi belo horizonte",
+        "keyword": "—",
+        "impressions": 8,
+        "clicks": 1,
+        "ctr": 12.5,
+        "cpc": 3.64
+      },
+      {
+        "term": "bar aberto em bh",
         "keyword": "—",
         "impressions": 5,
         "clicks": 1,
         "ctr": 20.0,
-        "cpc": 3.24
+        "cpc": 3.63
+      },
+      {
+        "term": "bares legais belo horizonte",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 3.49
+      },
+      {
+        "term": "boteco savassi",
+        "keyword": "—",
+        "impressions": 9,
+        "clicks": 1,
+        "ctr": 11.11,
+        "cpc": 3.27
+      },
+      {
+        "term": "barzinhos savassi",
+        "keyword": "—",
+        "impressions": 9,
+        "clicks": 1,
+        "ctr": 11.11,
+        "cpc": 3.21
+      },
+      {
+        "term": "barzinho bh",
+        "keyword": "—",
+        "impressions": 82,
+        "clicks": 1,
+        "ctr": 1.22,
+        "cpc": 3.2
+      },
+      {
+        "term": "savassi belo horizonte bares",
+        "keyword": "—",
+        "impressions": 19,
+        "clicks": 1,
+        "ctr": 5.26,
+        "cpc": 3.15
+      },
+      {
+        "term": "barzinho em belo horizonte",
+        "keyword": "—",
+        "impressions": 38,
+        "clicks": 1,
+        "ctr": 2.63,
+        "cpc": 3.05
+      },
+      {
+        "term": "bar bom em bh",
+        "keyword": "—",
+        "impressions": 5,
+        "clicks": 1,
+        "ctr": 20.0,
+        "cpc": 2.99
       }
     ]
   },
   "ga4": {
-    "sessions": 2403,
-    "users": 2019,
-    "new_users": 2003,
-    "pageviews": 2656,
-    "bounce_rate": 25.05,
-    "duration": "2m 29s",
-    "events": 11508,
-    "conversions": 2369,
+    "sessions": 1762,
+    "users": 1491,
+    "new_users": 1470,
+    "pageviews": 1962,
+    "bounce_rate": 25.43,
+    "duration": "2m 56s",
+    "events": 8493,
+    "conversions": 1703,
     "sources": [
       {
         "source": "ig",
         "medium": "social",
-        "sessions": 1654,
-        "pct": 68.8
+        "sessions": 1150,
+        "pct": 65.2
       },
       {
         "source": "google",
         "medium": "organic",
-        "sessions": 371,
-        "pct": 15.4
-      },
-      {
-        "source": "(direct)",
-        "medium": "(none)",
-        "sessions": 182,
-        "pct": 7.6
+        "sessions": 275,
+        "pct": 15.6
       },
       {
         "source": "google",
         "medium": "cpc",
-        "sessions": 175,
-        "pct": 7.3
+        "sessions": 160,
+        "pct": 9.1
       },
       {
-        "source": "chatgpt.com",
-        "medium": "ai-assistant",
-        "sessions": 11,
-        "pct": 0.5
-      },
-      {
-        "source": "bing",
-        "medium": "organic",
-        "sessions": 6,
-        "pct": 0.2
-      },
-      {
-        "source": "facebook.com",
-        "medium": "referral",
-        "sessions": 2,
-        "pct": 0.1
-      },
-      {
-        "source": "(data not available)",
-        "medium": "(data not available)",
-        "sessions": 1,
-        "pct": 0.0
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 157,
+        "pct": 8.9
       },
       {
         "source": "l.instagram.com",
         "medium": "referral",
+        "sessions": 7,
+        "pct": 0.4
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "ai-assistant",
+        "sessions": 5,
+        "pct": 0.3
+      },
+      {
+        "source": "(data not available)",
+        "medium": "(data not available)",
+        "sessions": 3,
+        "pct": 0.2
+      },
+      {
+        "source": "bing",
+        "medium": "organic",
+        "sessions": 2,
+        "pct": 0.1
+      },
+      {
+        "source": "facebook.com",
+        "medium": "referral",
         "sessions": 1,
-        "pct": 0.0
+        "pct": 0.1
+      },
+      {
+        "source": "gemini.google.com",
+        "medium": "ai-assistant",
+        "sessions": 1,
+        "pct": 0.1
+      },
+      {
+        "source": "google_ads",
+        "medium": "search",
+        "sessions": 1,
+        "pct": 0.1
       },
       {
         "source": "tagassistant.google.com",
         "medium": "referral",
         "sessions": 1,
-        "pct": 0.0
+        "pct": 0.1
       }
     ],
     "event_list": [
       {
         "name": "clicou_cardapio",
-        "count": 1986
+        "count": 1494
       },
       {
         "name": "click",
-        "count": 281
+        "count": 134
       },
       {
         "name": "como_chegar",
-        "count": 102
-      },
-      {
-        "name": "https://www.sympla.com.br/evento/copa-na",
-        "count": 12
+        "count": 75
       }
     ]
   },

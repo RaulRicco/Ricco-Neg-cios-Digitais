@@ -156,15 +156,31 @@ Para atualizar o relatório mensal de performance de vários/todos os clientes d
 
 **Contas cadastradas:** `~/.claude/skills/google-ads-ratos/contas.yaml` (15 contas) e `~/.claude/skills/meta-ads-ratos/contas.yaml` (29 contas) já têm o mapeamento cliente → customer_id / conta de anúncio.
 
-**Período do relatório:** usar mês fechado (ex: `--since 2026-08-01 --until 2026-08-31`), não `LAST_30_DAYS` — o relatório é sempre do mês calendário completo, não dos últimos 30 dias corridos.
+**Período do relatório:** usar mês fechado, não `LAST_30_DAYS`. No `insights.py` da skill `meta-ads-ratos`, `--since`/`--until` são só para paginação temporal e NÃO fixam o período do relatório (a API ignora e cai no default `last_30d`) — o jeito certo é `--time-range '{"since":"2026-08-01","until":"2026-08-31"}'`. Sempre conferir `date_start`/`date_stop` no JSON retornado bate com o mês pedido antes de usar os números.
 
 **Quebra por campanha na Meta:** `insights.py campaign --id <id>` espera o ID de UMA campanha específica. Para listar todas as campanhas de uma conta com métricas, usar `insights.py account --id act_XXX --level campaign --fields campaign_name,spend,...`.
 
-**Google Ads token expira periodicamente** — se der `invalid_grant`, rodar `~/.claude/skills/.venv-ads/bin/python3 setup.py oauth` dentro de `~/.claude/skills/google-ads-ratos/scripts/` para gerar um novo refresh token (abre o browser).
+**Google Ads token expira periodicamente** — se der `invalid_grant`, rodar `~/.claude/skills/.venv-ads/bin/python3 setup.py oauth` dentro de `~/.claude/skills/google-ads-ratos/scripts/` para gerar um novo refresh token (abre o browser). O **GA4 tem o mesmo problema** (usado só no `dashboard-deploy/`) — reautorizar com `~/.claude/skills/.venv-ads/bin/python3 ~/.claude/skills/ga4-ratos/scripts/auth.py`.
 
 **Padrão de nomenclatura de pastas de cliente:** alguns clientes agrupam múltiplas unidades numa pasta só (ex: `porks-asas` = Asa Norte + Asa Sul; `porks-bdf` = Samambaia + Guará + Pirenópolis) — somar as métricas das contas de anúncio correspondentes antes de gerar o relatório único.
 
 **Formato do relatório:** seguir o HTML dark/verde neon já usado em `clientes/[cliente]/relatorios/relatorio-[mes]-2026.html` (ver qualquer relatório existente como referência de estrutura/CSS).
+
+**Conferir contas com erro de permissão antes de excluir do relatório:** se uma conta der erro `ads_management or ads_read` na API, checar se o account_id está correto comparando `~/.claude/skills/meta-ads-ratos/contas.yaml` com `dashboard-deploy/clientes.yaml` (os dois cadastros podem divergir e um estar desatualizado) antes de assumir que é falta de acesso real.
+
+---
+
+## Dashboards interativos (dashboard-deploy/)
+
+Além dos relatórios HTML estáticos, cada cliente tem um dashboard interativo publicado no Cloudflare Pages (`ricco-dashboards`, domínio `dash.raulricco.com.br`) — pipeline **separado** dos relatórios, com fonte de dados própria (`dashboard-deploy/clientes.yaml`). Sempre que o usuário pedir "fechamento do mês" ou "relatório do mês anterior", isso inclui atualizar os dois, não só os HTMLs.
+
+**Atualizar um dashboard:** rodar `~/.claude/skills/.venv-ads/bin/python3 dashboard-deploy/data-fetcher/fetch_<cliente>.py --start AAAA-MM-01 --end AAAA-MM-DD` (mês fechado). Cada script já sabe puxar Meta Ads + Google Ads + GA4 e salva em `dashboard-deploy/pages/<slug>/data.json`.
+
+**Publicar depois de atualizar todos os data.json:** dentro de `dashboard-deploy/worker`, rodar `npx wrangler pages deploy ../pages --project-name ricco-dashboards --commit-message "auto-update AAAA-MM" --branch main`. Um único deploy publica todos os clientes de uma vez.
+
+**Não confiar no crontab do sistema:** existe um `dashboard-deploy/auto-update.sh` cadastrado no crontab (dia 1, 06h), mas ele nunca gerou log em `/tmp/dashboard-update.log` e só cobre 1 cliente — tratar a atualização mensal do dashboard como manual.
+
+**Adicionar cliente novo:** copiar um `fetch_*.py` existente como base, ajustar `META_ACCOUNT`/`GADS_CUSTOMER`/`GA4_PROPERTY`, e cadastrar em `dashboard-deploy/clientes.yaml` (slug, senha, contas).
 
 ---
 

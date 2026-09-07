@@ -1,429 +1,433 @@
 {
   "cliente": "BsBichos PetShop",
   "periodo": {
-    "start": "2026-07-01",
-    "end": "2026-07-31"
+    "start": "2026-08-01",
+    "end": "2026-08-31"
   },
-  "gerado_em": "2026-08-05T17:14:13.873219",
+  "gerado_em": "2026-09-07T07:40:51.885816",
   "consolidado": {
-    "spend": 1230.03,
-    "reach": 20822,
-    "impressions": 37168,
-    "clicks": 706,
-    "meta_spend": 556.99,
-    "google_spend": 673.04
+    "spend": 1107.6,
+    "reach": 10809,
+    "impressions": 19035,
+    "clicks": 510,
+    "meta_spend": 302.45,
+    "google_spend": 805.15
   },
   "meta": {
-    "spend": 556.99,
-    "reach": 20822,
-    "impressions": 33441,
-    "clicks": 412,
-    "cpm": 16.66,
-    "cpc": 1.35,
-    "ctr": 1.23,
-    "frequency": 1.61,
+    "spend": 302.45,
+    "reach": 10809,
+    "impressions": 15187,
+    "clicks": 192,
+    "cpm": 19.92,
+    "cpc": 1.58,
+    "ctr": 1.26,
+    "frequency": 1.41,
     "campaigns": [
       {
         "name": "[CBO] [PROMO 20% PRIMEIRO BANHO] [VENDAS]",
         "objective": "OUTCOME_SALES",
-        "spend": 328.16,
-        "reach": 12906,
-        "impressions": 18991,
-        "clicks": 253,
-        "ctr": 1.33,
-        "cpc": 1.3,
+        "spend": 302.45,
+        "reach": 10809,
+        "impressions": 15187,
+        "clicks": 192,
+        "ctr": 1.26,
+        "cpc": 1.58,
         "result_label": "Mensagens",
-        "result_qty": 37,
-        "result_cpr": 8.87
-      },
-      {
-        "name": "[CBO] [20% PRIMEIRO BANHO] [LEADS]",
-        "objective": "OUTCOME_LEADS",
-        "spend": 228.83,
-        "reach": 8615,
-        "impressions": 14450,
-        "clicks": 159,
-        "ctr": 1.1,
-        "cpc": 1.44,
-        "result_label": "Leads",
-        "result_qty": 4,
-        "result_cpr": 57.21
+        "result_qty": 33,
+        "result_cpr": 9.17
       }
     ],
     "ads": [
       {
         "name": "AD 02 ESTATICO 20OFF",
         "campaign": "[CBO] [PROMO 20% PRIMEIRO BANHO] [VENDAS]",
-        "spend": 328.16,
-        "impressions": 18991,
-        "clicks": 253,
-        "ctr": 1.33,
-        "cpc": 1.3,
-        "frequency": 1.47,
+        "spend": 302.45,
+        "impressions": 15187,
+        "clicks": 192,
+        "ctr": 1.26,
+        "cpc": 1.58,
+        "frequency": 1.41,
         "result_label": "Mensagens",
-        "result_qty": 37,
-        "result_cpr": 8.87
-      },
-      {
-        "name": "motion_dog_01",
-        "campaign": "[CBO] [20% PRIMEIRO BANHO] [LEADS]",
-        "spend": 31.1,
-        "impressions": 1859,
-        "clicks": 22,
-        "ctr": 1.18,
-        "cpc": 1.41,
-        "frequency": 1.19,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
-      },
-      {
-        "name": "motion_dog_02",
-        "campaign": "[CBO] [20% PRIMEIRO BANHO] [LEADS]",
-        "spend": 189.76,
-        "impressions": 12235,
-        "clicks": 127,
-        "ctr": 1.04,
-        "cpc": 1.49,
-        "frequency": 1.58,
-        "result_label": "Leads",
-        "result_qty": 4,
-        "result_cpr": 47.44
-      },
-      {
-        "name": "video_valeria",
-        "campaign": "[CBO] [20% PRIMEIRO BANHO] [LEADS]",
-        "spend": 7.97,
-        "impressions": 356,
-        "clicks": 10,
-        "ctr": 2.81,
-        "cpc": 0.8,
-        "frequency": 1.06,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_qty": 33,
+        "result_cpr": 9.17
       }
     ]
   },
   "google": {
-    "spend": 673.04,
-    "impressions": 3727,
-    "clicks": 294,
-    "ctr": 7.89,
-    "cpc": 2.29,
-    "conversions": 18,
-    "cpa": 37.39,
+    "spend": 805.15,
+    "impressions": 3848,
+    "clicks": 318,
+    "ctr": 8.26,
+    "cpc": 2.53,
+    "conversions": 23,
+    "cpa": 35.01,
     "campaigns": [
       {
         "name": "[SEARCH] [VETERINARIOS] [LEAD]",
         "type": "Search",
         "status": "Enabled",
-        "spend": 673.04,
-        "impressions": 3727,
-        "clicks": 294,
-        "ctr": 7.89,
-        "cpc": 2.29,
-        "conversions": 18
+        "spend": 805.15,
+        "impressions": 3848,
+        "clicks": 318,
+        "ctr": 8.26,
+        "cpc": 2.53,
+        "conversions": 23
       }
     ],
     "keywords": [
       {
-        "keyword": "petshop asa norte",
-        "match": "Phrase",
-        "impressions": 806,
-        "clicks": 94,
-        "ctr": 11.66,
-        "cpc": 2.34,
-        "conversions": 4
-      },
-      {
         "keyword": "petshop perto de mim",
         "match": "Phrase",
-        "impressions": 1237,
-        "clicks": 85,
-        "ctr": 6.87,
-        "cpc": 2.21,
+        "impressions": 1298,
+        "clicks": 95,
+        "ctr": 7.32,
+        "cpc": 2.56,
+        "conversions": 6
+      },
+      {
+        "keyword": "petshop asa norte",
+        "match": "Phrase",
+        "impressions": 894,
+        "clicks": 100,
+        "ctr": 11.19,
+        "cpc": 2.3,
+        "conversions": 7
+      },
+      {
+        "keyword": "petshop asa sul",
+        "match": "Phrase",
+        "impressions": 1053,
+        "clicks": 73,
+        "ctr": 6.93,
+        "cpc": 2.36,
+        "conversions": 6
+      },
+      {
+        "keyword": "petshop asa norte",
+        "match": "Exact",
+        "impressions": 379,
+        "clicks": 36,
+        "ctr": 9.5,
+        "cpc": 2.88,
         "conversions": 3
       },
       {
         "keyword": "petshop asa sul",
-        "match": "Phrase",
-        "impressions": 1120,
-        "clicks": 87,
-        "ctr": 7.77,
-        "cpc": 1.96,
-        "conversions": 8
-      },
-      {
-        "keyword": "petshop asa norte",
         "match": "Exact",
-        "impressions": 302,
-        "clicks": 15,
-        "ctr": 4.97,
-        "cpc": 3.96,
+        "impressions": 224,
+        "clicks": 14,
+        "ctr": 6.25,
+        "cpc": 4.06,
         "conversions": 1
-      },
-      {
-        "keyword": "petshop asa sul",
-        "match": "Exact",
-        "impressions": 262,
-        "clicks": 13,
-        "ctr": 4.96,
-        "cpc": 2.68,
-        "conversions": 2
       }
     ],
     "search_terms": [
       {
-        "term": "banho e tosa perto de mim",
-        "keyword": "—",
-        "impressions": 160,
-        "clicks": 21,
-        "ctr": 13.12,
-        "cpc": 3.01
-      },
-      {
-        "term": "bsbichos asa norte",
-        "keyword": "—",
-        "impressions": 113,
-        "clicks": 30,
-        "ctr": 26.55,
-        "cpc": 1.83
-      },
-      {
-        "term": "banho e tosa asa norte",
-        "keyword": "—",
-        "impressions": 75,
-        "clicks": 15,
-        "ctr": 20.0,
-        "cpc": 3.1
-      },
-      {
         "term": "pet shop perto de mim",
         "keyword": "—",
-        "impressions": 463,
-        "clicks": 24,
-        "ctr": 5.18,
-        "cpc": 1.81
-      },
-      {
-        "term": "petshop asa norte",
-        "keyword": "—",
-        "impressions": 66,
-        "clicks": 6,
-        "ctr": 9.09,
-        "cpc": 3.88
-      },
-      {
-        "term": "pet shop asa sul",
-        "keyword": "—",
-        "impressions": 132,
-        "clicks": 8,
-        "ctr": 6.06,
-        "cpc": 2.45
-      },
-      {
-        "term": "bsbichos asa sul",
-        "keyword": "—",
-        "impressions": 35,
-        "clicks": 15,
-        "ctr": 42.86,
-        "cpc": 1.17
-      },
-      {
-        "term": "pet asa norte",
-        "keyword": "—",
-        "impressions": 25,
-        "clicks": 3,
-        "ctr": 12.0,
-        "cpc": 5.41
-      },
-      {
-        "term": "telefone petz asa norte",
-        "keyword": "—",
-        "impressions": 5,
-        "clicks": 3,
-        "ctr": 60.0,
-        "cpc": 4.58
-      },
-      {
-        "term": "petshop asa sul",
-        "keyword": "—",
-        "impressions": 87,
-        "clicks": 5,
-        "ctr": 5.75,
-        "cpc": 2.74
-      },
-      {
-        "term": "pet shop delivery perto de mim",
-        "keyword": "—",
-        "impressions": 5,
-        "clicks": 1,
-        "ctr": 20.0,
-        "cpc": 12.04
+        "impressions": 493,
+        "clicks": 42,
+        "ctr": 8.52,
+        "cpc": 2.34
       },
       {
         "term": "pet shop asa norte",
         "keyword": "—",
-        "impressions": 165,
-        "clicks": 4,
-        "ctr": 2.42,
-        "cpc": 2.43
+        "impressions": 205,
+        "clicks": 17,
+        "ctr": 8.29,
+        "cpc": 3.36
+      },
+      {
+        "term": "banho e tosa asa norte",
+        "keyword": "—",
+        "impressions": 92,
+        "clicks": 12,
+        "ctr": 13.04,
+        "cpc": 3.51
+      },
+      {
+        "term": "bsbichos asa norte",
+        "keyword": "—",
+        "impressions": 92,
+        "clicks": 21,
+        "ctr": 22.83,
+        "cpc": 1.79
       },
       {
         "term": "banho e tosa asa sul",
         "keyword": "—",
-        "impressions": 53,
+        "impressions": 113,
+        "clicks": 11,
+        "ctr": 9.73,
+        "cpc": 3.25
+      },
+      {
+        "term": "petshop asa sul",
+        "keyword": "—",
+        "impressions": 74,
         "clicks": 5,
-        "ctr": 9.43,
-        "cpc": 1.84
+        "ctr": 6.76,
+        "cpc": 5.54
       },
       {
-        "term": "banho pet perto de mim",
+        "term": "petshop asa norte",
         "keyword": "—",
-        "impressions": 20,
-        "clicks": 3,
-        "ctr": 15.0,
-        "cpc": 2.91
+        "impressions": 72,
+        "clicks": 12,
+        "ctr": 16.67,
+        "cpc": 2.12
       },
       {
-        "term": "pet shop banho e tosa perto de mim",
+        "term": "banho e tosa perto de mim",
         "keyword": "—",
-        "impressions": 32,
-        "clicks": 3,
-        "ctr": 9.38,
-        "cpc": 2.53
+        "impressions": 177,
+        "clicks": 13,
+        "ctr": 7.34,
+        "cpc": 1.7
       },
       {
-        "term": "caotinho dos bichos asa norte",
+        "term": "bsbichos asa sul",
         "keyword": "—",
-        "impressions": 3,
-        "clicks": 1,
-        "ctr": 33.33,
-        "cpc": 7.34
+        "impressions": 33,
+        "clicks": 8,
+        "ctr": 24.24,
+        "cpc": 2.76
+      },
+      {
+        "term": "pet shop asa sul",
+        "keyword": "—",
+        "impressions": 119,
+        "clicks": 6,
+        "ctr": 5.04,
+        "cpc": 2.79
       },
       {
         "term": "petz asa sul",
         "keyword": "—",
-        "impressions": 88,
-        "clicks": 3,
-        "ctr": 3.41,
-        "cpc": 2.38
+        "impressions": 62,
+        "clicks": 5,
+        "ctr": 8.06,
+        "cpc": 3.13
       },
       {
-        "term": "pet perto de mim",
+        "term": "bsb bichos",
         "keyword": "—",
-        "impressions": 7,
-        "clicks": 2,
-        "ctr": 28.57,
-        "cpc": 3.4
+        "impressions": 28,
+        "clicks": 7,
+        "ctr": 25.0,
+        "cpc": 2.11
       },
       {
-        "term": "banho e tosa perto de mim abertos agora",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 6.18
-      },
-      {
-        "term": "pets place asa norte",
-        "keyword": "—",
-        "impressions": 9,
-        "clicks": 3,
-        "ctr": 33.33,
-        "cpc": 1.81
-      },
-      {
-        "term": "planeta pet asa sul",
+        "term": "banho e tosa hoje perto de mim",
         "keyword": "—",
         "impressions": 4,
-        "clicks": 2,
-        "ctr": 50.0,
-        "cpc": 2.68
-      },
-      {
-        "term": "bsbichos pet shop tosa e banho veterinária asa norte brasília",
-        "keyword": "—",
-        "impressions": 30,
-        "clicks": 6,
-        "ctr": 20.0,
-        "cpc": 0.84
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 11.97
       },
       {
         "term": "bsb bichos asa sul",
         "keyword": "—",
         "impressions": 9,
-        "clicks": 4,
-        "ctr": 44.44,
-        "cpc": 1.15
+        "clicks": 6,
+        "ctr": 66.67,
+        "cpc": 1.43
       },
       {
-        "term": "banho e tosa barato perto de mim",
+        "term": "petshop perto de mim",
         "keyword": "—",
-        "impressions": 2,
+        "impressions": 30,
         "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 4.25
+        "ctr": 3.33,
+        "cpc": 7.49
       },
       {
-        "term": "banho e tosa hoje perto de mim",
+        "term": "pet shop proximo a mim",
         "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 3.96
+        "impressions": 7,
+        "clicks": 2,
+        "ctr": 28.57,
+        "cpc": 3.69
       },
       {
-        "term": "pet capital asa norte",
+        "term": "pet shop asa sul 413",
         "keyword": "—",
-        "impressions": 13,
+        "impressions": 15,
         "clicks": 1,
-        "ctr": 7.69,
-        "cpc": 3.95
+        "ctr": 6.67,
+        "cpc": 6.91
       },
       {
-        "term": "pet shop 413 sul",
+        "term": "bsbichos pet shop tosa e banho veterinária asa norte brasília",
         "keyword": "—",
-        "impressions": 5,
-        "clicks": 1,
-        "ctr": 20.0,
-        "cpc": 3.79
+        "impressions": 19,
+        "clicks": 7,
+        "ctr": 36.84,
+        "cpc": 0.97
       },
       {
-        "term": "banho e tosa para gatos perto de mim",
+        "term": "pet shop na asa norte",
+        "keyword": "—",
+        "impressions": 11,
+        "clicks": 2,
+        "ctr": 18.18,
+        "cpc": 3.06
+      },
+      {
+        "term": "farmvet asa norte",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 5.32
+      },
+      {
+        "term": "banho para cachorro perto de mim",
+        "keyword": "—",
+        "impressions": 9,
+        "clicks": 1,
+        "ctr": 11.11,
+        "cpc": 4.66
+      },
+      {
+        "term": "farmvet pet store",
         "keyword": "—",
         "impressions": 1,
         "clicks": 1,
         "ctr": 100.0,
+        "cpc": 4.27
+      },
+      {
+        "term": "banho pet perto de mim",
+        "keyword": "—",
+        "impressions": 17,
+        "clicks": 2,
+        "ctr": 11.76,
+        "cpc": 2.1
+      },
+      {
+        "term": "pet capital asa norte",
+        "keyword": "—",
+        "impressions": 11,
+        "clicks": 1,
+        "ctr": 9.09,
+        "cpc": 4.03
+      },
+      {
+        "term": "pet shop perto de mim aberto hoje",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 3.49
+      },
+      {
+        "term": "banho e tosa aqui perto de mim",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 3.43
+      },
+      {
+        "term": "pet shop 306 sul",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 3.3
+      },
+      {
+        "term": "pet shop com taxi dog perto de mim",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 3.22
+      },
+      {
+        "term": "lojas pet perto de mim",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 3.03
+      },
+      {
+        "term": "pet shop aberto agora perto de mim",
+        "keyword": "—",
+        "impressions": 5,
+        "clicks": 1,
+        "ctr": 20.0,
         "cpc": 3.01
       },
       {
-        "term": "pet shop mais próximo dentro de 400 m",
+        "term": "petz perto de mim",
         "keyword": "—",
-        "impressions": 1,
-        "clicks": 2,
-        "ctr": 200.0,
-        "cpc": 1.43
+        "impressions": 20,
+        "clicks": 1,
+        "ctr": 5.0,
+        "cpc": 2.91
       },
       {
-        "term": "pet shop 109 sul",
+        "term": "casa de ração próximo",
         "keyword": "—",
-        "impressions": 5,
-        "clicks": 2,
-        "ctr": 40.0,
-        "cpc": 1.39
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 2.71
       },
       {
-        "term": "dog tique asa sul",
+        "term": "pet shop brasilia asa norte",
+        "keyword": "—",
+        "impressions": 7,
+        "clicks": 1,
+        "ctr": 14.29,
+        "cpc": 2.67
+      },
+      {
+        "term": "cãotinho dos bichos 313 norte",
+        "keyword": "—",
+        "impressions": 12,
+        "clicks": 2,
+        "ctr": 16.67,
+        "cpc": 1.26
+      },
+      {
+        "term": "pet perto de mim",
+        "keyword": "—",
+        "impressions": 7,
+        "clicks": 1,
+        "ctr": 14.29,
+        "cpc": 2.51
+      },
+      {
+        "term": "pet para banho perto de mim",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 2.45
+      },
+      {
+        "term": "pets place asa norte",
         "keyword": "—",
         "impressions": 6,
         "clicks": 1,
         "ctr": 16.67,
-        "cpc": 2.19
+        "cpc": 2.31
       },
       {
-        "term": "pet shop aberto agora perto de mim",
+        "term": "pet shop aberto perto de mim",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 2.18
+      },
+      {
+        "term": "petz banho e tosa perto de mim",
         "keyword": "—",
         "impressions": 2,
         "clicks": 1,
@@ -431,294 +435,208 @@
         "cpc": 2.14
       },
       {
-        "term": "pet 108 sul",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 2.09
-      },
-      {
-        "term": "petz perto de mim",
-        "keyword": "—",
-        "impressions": 32,
-        "clicks": 1,
-        "ctr": 3.12,
-        "cpc": 2.08
-      },
-      {
-        "term": "pet asa sul",
-        "keyword": "—",
-        "impressions": 104,
-        "clicks": 1,
-        "ctr": 0.96,
-        "cpc": 2.05
-      },
-      {
-        "term": "pet shop asa norte 715",
+        "term": "banho e tosa gatos perto de mim",
         "keyword": "—",
         "impressions": 1,
         "clicks": 1,
         "ctr": 100.0,
-        "cpc": 1.83
+        "cpc": 1.99
       },
       {
-        "term": "loja para cachorro perto de mim",
+        "term": "pet shop na asa sul",
         "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 1.67
+        "impressions": 7,
+        "clicks": 2,
+        "ctr": 28.57,
+        "cpc": 0.99
       },
       {
-        "term": "banho gatos perto de mim",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 1.64
-      },
-      {
-        "term": "pet shop que busca em casa perto de mim",
-        "keyword": "—",
-        "impressions": 3,
-        "clicks": 1,
-        "ctr": 33.33,
-        "cpc": 1.53
-      },
-      {
-        "term": "pet shop perto",
-        "keyword": "—",
-        "impressions": 9,
-        "clicks": 1,
-        "ctr": 11.11,
-        "cpc": 1.21
-      },
-      {
-        "term": "cãotinho dos bichos 313 norte",
-        "keyword": "—",
-        "impressions": 8,
-        "clicks": 1,
-        "ctr": 12.5,
-        "cpc": 1.16
-      },
-      {
-        "term": "petshop banho e tosa perto de mim",
+        "term": "pet show asa sul",
         "keyword": "—",
         "impressions": 5,
         "clicks": 1,
         "ctr": 20.0,
-        "cpc": 1.0
+        "cpc": 1.75
       },
       {
-        "term": "bsb bichos",
+        "term": "pet shop asa norte 206",
         "keyword": "—",
-        "impressions": 19,
-        "clicks": 2,
-        "ctr": 10.53,
-        "cpc": 0.5
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 1.73
       },
       {
-        "term": "pet 212 sul",
+        "term": "caotinho dos bichos asa norte",
+        "keyword": "—",
+        "impressions": 10,
+        "clicks": 1,
+        "ctr": 10.0,
+        "cpc": 1.68
+      },
+      {
+        "term": "cobasi 516 norte",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 1.66
+      },
+      {
+        "term": "banho e tosa perto de mim leva e traz",
         "keyword": "—",
         "impressions": 1,
         "clicks": 1,
         "ctr": 100.0,
-        "cpc": 0.94
+        "cpc": 1.49
       },
       {
-        "term": "pet banho e tosa perto de mim",
+        "term": "pet shop mais próximo",
         "keyword": "—",
-        "impressions": 9,
+        "impressions": 6,
         "clicks": 1,
-        "ctr": 11.11,
-        "cpc": 0.87
+        "ctr": 16.67,
+        "cpc": 1.45
       },
       {
-        "term": "pet shop por perto",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 0.79
-      },
-      {
-        "term": "telefone pet shop perto de mim",
+        "term": "pet shop dentro de 400 m abertos agora",
         "keyword": "—",
         "impressions": 1,
         "clicks": 1,
         "ctr": 100.0,
-        "cpc": 0.75
+        "cpc": 1.02
       },
       {
-        "term": "petz mais perto de mim",
+        "term": "pet shop banho e tosa perto de mim",
         "keyword": "—",
-        "impressions": 1,
+        "impressions": 14,
         "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 0.43
+        "ctr": 7.14,
+        "cpc": 0.86
       },
       {
-        "term": "loja de ração perto de mim",
+        "term": "pet shop perto",
         "keyword": "—",
-        "impressions": 9,
-        "clicks": 2,
-        "ctr": 22.22,
-        "cpc": 0.2
-      },
-      {
-        "term": "petshop perto de mim",
-        "keyword": "—",
-        "impressions": 22,
+        "impressions": 5,
         "clicks": 1,
-        "ctr": 4.55,
-        "cpc": 0.32
+        "ctr": 20.0,
+        "cpc": 0.78
       }
     ]
   },
   "ga4": {
-    "sessions": 715,
-    "users": 614,
-    "new_users": 599,
-    "pageviews": 811,
-    "bounce_rate": 58.32,
-    "duration": "1m 14s",
-    "events": 2670,
-    "conversions": 36,
+    "sessions": 577,
+    "users": 476,
+    "new_users": 456,
+    "pageviews": 666,
+    "bounce_rate": 46.62,
+    "duration": "1m 53s",
+    "events": 2242,
+    "conversions": 31,
     "sources": [
-      {
-        "source": "(direct)",
-        "medium": "(none)",
-        "sessions": 236,
-        "pct": 33.1
-      },
       {
         "source": "google",
         "medium": "cpc",
-        "sessions": 177,
-        "pct": 24.8
+        "sessions": 238,
+        "pct": 41.3
+      },
+      {
+        "source": "(direct)",
+        "medium": "(none)",
+        "sessions": 158,
+        "pct": 27.4
       },
       {
         "source": "google",
         "medium": "organic",
-        "sessions": 115,
-        "pct": 16.1
-      },
-      {
-        "source": "meta_ads",
-        "medium": "motion_dog_02",
-        "sessions": 75,
-        "pct": 10.5
+        "sessions": 113,
+        "pct": 19.6
       },
       {
         "source": "pagina-de-links",
         "medium": "link-bio",
-        "sessions": 25,
-        "pct": 3.5
-      },
-      {
-        "source": "(not set)",
-        "medium": "(not set)",
-        "sessions": 19,
-        "pct": 2.7
-      },
-      {
-        "source": "meta_ads",
-        "medium": "motion_dog_01",
-        "sessions": 14,
-        "pct": 2.0
+        "sessions": 28,
+        "pct": 4.9
       },
       {
         "source": "l.wl.co",
         "medium": "referral",
-        "sessions": 12,
-        "pct": 1.7
-      },
-      {
-        "source": "l.facebook.com",
-        "medium": "referral",
-        "sessions": 5,
-        "pct": 0.7
-      },
-      {
-        "source": "facebook.com",
-        "medium": "referral",
-        "sessions": 4,
-        "pct": 0.6
-      },
-      {
-        "source": "meta_ads",
-        "medium": "video_valeria",
-        "sessions": 4,
-        "pct": 0.6
-      },
-      {
-        "source": "ad_petshop",
-        "medium": "search",
-        "sessions": 3,
-        "pct": 0.4
-      },
-      {
-        "source": "fb",
-        "medium": "paid",
-        "sessions": 3,
-        "pct": 0.4
-      },
-      {
-        "source": "m.facebook.com",
-        "medium": "referral",
-        "sessions": 3,
-        "pct": 0.4
-      },
-      {
-        "source": "search.brave.com",
-        "medium": "referral",
-        "sessions": 3,
-        "pct": 0.4
+        "sessions": 13,
+        "pct": 2.3
       },
       {
         "source": "(data not available)",
         "medium": "(data not available)",
+        "sessions": 6,
+        "pct": 1.0
+      },
+      {
+        "source": "ad_petshop",
+        "medium": "search",
+        "sessions": 6,
+        "pct": 1.0
+      },
+      {
+        "source": "chatgpt.com",
+        "medium": "ai-assistant",
+        "sessions": 3,
+        "pct": 0.5
+      },
+      {
+        "source": "facebook.com",
+        "medium": "referral",
+        "sessions": 3,
+        "pct": 0.5
+      },
+      {
+        "source": "grupo-ideal-trends.lightning.force.com",
+        "medium": "referral",
+        "sessions": 2,
+        "pct": 0.3
+      },
+      {
+        "source": "l.facebook.com",
+        "medium": "referral",
         "sessions": 2,
         "pct": 0.3
       },
       {
         "source": "bing",
         "medium": "organic",
-        "sessions": 2,
-        "pct": 0.3
+        "sessions": 1,
+        "pct": 0.2
       },
       {
-        "source": "ig",
-        "medium": "social",
-        "sessions": 2,
-        "pct": 0.3
-      },
-      {
-        "source": "teste",
-        "medium": "teste",
-        "sessions": 2,
-        "pct": 0.3
-      },
-      {
-        "source": "tiktok.com",
+        "source": "br.search.yahoo.com",
         "medium": "referral",
-        "sessions": 2,
-        "pct": 0.3
+        "sessions": 1,
+        "pct": 0.2
+      },
+      {
+        "source": "meta_ads",
+        "medium": "motion_dog_02",
+        "sessions": 1,
+        "pct": 0.2
+      },
+      {
+        "source": "saayig.com",
+        "medium": "referral",
+        "sessions": 1,
+        "pct": 0.2
       }
     ],
     "event_list": [
       {
         "name": "click",
-        "count": 94
+        "count": 88
       },
       {
         "name": "form_start",
-        "count": 44
+        "count": 39
       },
       {
         "name": "generate_lead",
-        "count": 36
+        "count": 31
       }
     ]
   },

@@ -1,183 +1,139 @@
 {
   "cliente": "Ameriparts Três Lagoas",
   "periodo": {
-    "start": "2026-07-01",
-    "end": "2026-07-31"
+    "start": "2026-08-01",
+    "end": "2026-08-31"
   },
-  "gerado_em": "2026-08-05T17:13:05.699279",
+  "gerado_em": "2026-09-07T07:39:19.552095",
   "consolidado": {
-    "spend": 558.59,
-    "reach": 15598,
-    "impressions": 25012,
-    "clicks": 476,
-    "meta_spend": 299.17,
-    "google_spend": 259.42
+    "spend": 940.3,
+    "reach": 24184,
+    "impressions": 44317,
+    "clicks": 798,
+    "meta_spend": 468.53,
+    "google_spend": 471.77
   },
   "meta": {
-    "spend": 299.17,
-    "reach": 15598,
-    "impressions": 24895,
-    "clicks": 463,
-    "cpm": 12.02,
-    "cpc": 0.65,
-    "ctr": 1.86,
-    "frequency": 1.6,
+    "spend": 468.53,
+    "reach": 24184,
+    "impressions": 42577,
+    "clicks": 737,
+    "cpm": 11.0,
+    "cpc": 0.64,
+    "ctr": 1.73,
+    "frequency": 1.76,
     "campaigns": [
       {
         "name": "[CBO] [CAMPANHA GRUPO 1.0] [LEAD]",
         "objective": "OUTCOME_LEADS",
-        "spend": 242.91,
-        "reach": 13812,
-        "impressions": 21254,
-        "clicks": 373,
-        "ctr": 1.75,
-        "cpc": 0.65,
+        "spend": 468.53,
+        "reach": 24184,
+        "impressions": 42577,
+        "clicks": 737,
+        "ctr": 1.73,
+        "cpc": 0.64,
         "result_label": "Leads",
-        "result_qty": 19,
-        "result_cpr": 12.78
-      },
-      {
-        "name": "[GRUPO VIP 2.0] [LEADS]",
-        "objective": "OUTCOME_LEADS",
-        "spend": 56.26,
-        "reach": 2612,
-        "impressions": 3641,
-        "clicks": 90,
-        "ctr": 2.47,
-        "cpc": 0.63,
-        "result_label": "Leads",
-        "result_qty": 1,
-        "result_cpr": 56.26
+        "result_qty": 54,
+        "result_cpr": 8.68
       }
     ],
     "ads": [
       {
         "name": "VIDEO 1.0 GRUPO",
         "campaign": "[CBO] [CAMPANHA GRUPO 1.0] [LEAD]",
-        "spend": 242.91,
-        "impressions": 21254,
-        "clicks": 373,
-        "ctr": 1.75,
-        "cpc": 0.65,
-        "frequency": 1.54,
+        "spend": 468.53,
+        "impressions": 42577,
+        "clicks": 737,
+        "ctr": 1.73,
+        "cpc": 0.64,
+        "frequency": 1.76,
         "result_label": "Leads",
-        "result_qty": 19,
-        "result_cpr": 12.78
-      },
-      {
-        "name": "VIDEO VIRAL 01",
-        "campaign": "[GRUPO VIP 2.0] [LEADS]",
-        "spend": 56.26,
-        "impressions": 3641,
-        "clicks": 90,
-        "ctr": 2.47,
-        "cpc": 0.63,
-        "frequency": 1.39,
-        "result_label": "Leads",
-        "result_qty": 1,
-        "result_cpr": 56.26
+        "result_qty": 54,
+        "result_cpr": 8.68
       }
     ]
   },
   "google": {
-    "spend": 259.42,
-    "impressions": 117,
-    "clicks": 13,
-    "ctr": 11.11,
-    "cpc": 19.96,
+    "spend": 471.77,
+    "impressions": 1740,
+    "clicks": 61,
+    "ctr": 3.51,
+    "cpc": 7.73,
     "conversions": 1,
-    "cpa": 259.42,
+    "cpa": 471.77,
     "campaigns": [
       {
         "name": "Rede de Pesquisas 3.0 - formulario + ver rota",
         "type": "Search",
-        "status": "Enabled",
-        "spend": 259.42,
-        "impressions": 112,
-        "clicks": 13,
-        "ctr": 11.61,
-        "cpc": 19.96,
+        "status": "Paused",
+        "spend": 338.38,
+        "impressions": 1515,
+        "clicks": 52,
+        "ctr": 3.43,
+        "cpc": 6.51,
         "conversions": 1
       },
       {
-        "name": "[REDE DE PESQUISAS 1.0] [LEAD]",
+        "name": "REDE DE PESQUISAS 4.0",
         "type": "Search",
-        "status": "Paused",
-        "spend": 0.0,
-        "impressions": 5,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
+        "status": "Enabled",
+        "spend": 133.39,
+        "impressions": 225,
+        "clicks": 9,
+        "ctr": 4.0,
+        "cpc": 14.82,
         "conversions": 0
       }
     ],
     "keywords": [
       {
         "keyword": "peças Volvo",
-        "match": "Exact",
-        "impressions": 35,
-        "clicks": 3,
-        "ctr": 8.57,
-        "cpc": 24.67,
-        "conversions": 0
-      },
-      {
-        "keyword": "peças Mercedes",
-        "match": "Exact",
-        "impressions": 9,
-        "clicks": 3,
-        "ctr": 33.33,
-        "cpc": 20.99,
+        "match": "Broad",
+        "impressions": 1483,
+        "clicks": 47,
+        "ctr": 3.17,
+        "cpc": 4.7,
         "conversions": 1
       },
       {
-        "keyword": "peças Iveco",
-        "match": "Exact",
-        "impressions": 2,
-        "clicks": 3,
-        "ctr": 150.0,
-        "cpc": 11.47,
+        "keyword": "cinta com catraca caminhão",
+        "match": "Phrase",
+        "impressions": 100,
+        "clicks": 4,
+        "ctr": 4.0,
+        "cpc": 18.16,
         "conversions": 0
       },
       {
-        "keyword": "peças Ford Cargo",
+        "keyword": "tambor de freio caminhão",
+        "match": "Phrase",
+        "impressions": 110,
+        "clicks": 4,
+        "ctr": 3.64,
+        "cpc": 12.56,
+        "conversions": 0
+      },
+      {
+        "keyword": "peças Scania",
         "match": "Exact",
-        "impressions": 2,
+        "impressions": 6,
+        "clicks": 2,
+        "ctr": 33.33,
+        "cpc": 16.96,
+        "conversions": 0
+      },
+      {
+        "keyword": "tambor de freio carreta",
+        "match": "Phrase",
+        "impressions": 1,
         "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 31.33,
+        "ctr": 100.0,
+        "cpc": 10.53,
         "conversions": 0
       },
       {
         "keyword": "peças VW",
-        "match": "Exact",
-        "impressions": 10,
-        "clicks": 1,
-        "ctr": 10.0,
-        "cpc": 24.65,
-        "conversions": 0
-      },
-      {
-        "keyword": "acessorio caminhao",
-        "match": "Exact",
-        "impressions": 19,
-        "clicks": 1,
-        "ctr": 5.26,
-        "cpc": 20.27,
-        "conversions": 0
-      },
-      {
-        "keyword": "acessórios de caminhão",
-        "match": "Exact",
-        "impressions": 9,
-        "clicks": 1,
-        "ctr": 11.11,
-        "cpc": 11.79,
-        "conversions": 0
-      },
-      {
-        "keyword": "peças caminhão Volvo",
-        "match": "Exact",
+        "match": "Phrase",
         "impressions": 1,
         "clicks": 0,
         "ctr": 0.0,
@@ -185,9 +141,27 @@
         "conversions": 0
       },
       {
-        "keyword": "peças Scania",
+        "keyword": "peças Mercedes",
         "match": "Exact",
-        "impressions": 14,
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "cinta de amarração 10 toneladas",
+        "match": "Phrase",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "para-lama de caminhão",
+        "match": "Exact",
+        "impressions": 8,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0,
@@ -196,7 +170,34 @@
       {
         "keyword": "acessórios para caminhão",
         "match": "Exact",
-        "impressions": 12,
+        "impressions": 6,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "acessorios caminhao",
+        "match": "Exact",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "acessorio caminhao",
+        "match": "Exact",
+        "impressions": 4,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "para-lama volvo fh",
+        "match": "Phrase",
+        "impressions": 5,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0,
@@ -205,223 +206,87 @@
     ],
     "search_terms": [
       {
-        "term": "volvo peças",
-        "keyword": "—",
-        "impressions": 24,
-        "clicks": 2,
-        "ctr": 8.33,
-        "cpc": 27.0
-      },
-      {
-        "term": "peças para ford cargo",
+        "term": "jogo de cinta com catraca",
         "keyword": "—",
         "impressions": 2,
         "clicks": 1,
         "ctr": 50.0,
-        "cpc": 31.33
-      },
-      {
-        "term": "peças mercedes",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 30.13
-      },
-      {
-        "term": "iveco pecas",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 2,
-        "ctr": 200.0,
-        "cpc": 10.55
-      },
-      {
-        "term": "acessório para caminhões",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 20.27
-      },
-      {
-        "term": "peças volvo",
-        "keyword": "—",
-        "impressions": 7,
-        "clicks": 1,
-        "ctr": 14.29,
-        "cpc": 19.99
-      },
-      {
-        "term": "mercedes benz pecas",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 19.26
-      },
-      {
-        "term": "mercedes peças",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 13.57
-      },
-      {
-        "term": "pecas iveco",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 13.32
-      },
-      {
-        "term": "acessórios para carretas e caminhões",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 11.79
-      },
-      {
-        "term": "acessório de caminhão",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "acessórios para caminhões",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "volvo pecas caminhões",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "auto peças mercedes benz",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "mercedes benz auto peças",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "pecas scania",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "peças de mercedes benz",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
+        "cpc": 39.88
       },
       {
         "term": "peças scania",
         "keyword": "—",
-        "impressions": 3,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
+        "impressions": 6,
+        "clicks": 2,
+        "ctr": 33.33,
+        "cpc": 16.96
       },
       {
-        "term": "peças vw",
+        "term": "vw brasil peças",
         "keyword": "—",
-        "impressions": 4,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "scania pecas",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "scania peças",
-        "keyword": "—",
-        "impressions": 3,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "volvo pecas",
-        "keyword": "—",
-        "impressions": 4,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 30.32
       },
       {
         "term": "vw peças",
         "keyword": "—",
         "impressions": 4,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 19.33
       },
       {
-        "term": "acessorio de caminhao",
+        "term": "cinta catraca 10 toneladas",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 12.62
+      },
+      {
+        "term": "cinta e catraca",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 11.05
+      },
+      {
+        "term": "tambor de freio carreta librelato",
         "keyword": "—",
         "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 10.53
       },
       {
-        "term": "acessorios de caminhao",
+        "term": "painel do volvo vm 270",
         "keyword": "—",
         "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 10.13
       },
       {
-        "term": "acessorios para caminhao",
+        "term": "maleiro fh teto alto",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 9.59
+      },
+      {
+        "term": "maleiro original volvo fh",
         "keyword": "—",
         "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
+        "clicks": 1,
+        "ctr": 100.0,
+        "cpc": 3.06
       },
       {
-        "term": "acessório caminhão",
-        "keyword": "—",
-        "impressions": 3,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "acessório para caminhão",
+        "term": "3748",
         "keyword": "—",
         "impressions": 2,
         "clicks": 0,
@@ -429,39 +294,7 @@
         "cpc": 0
       },
       {
-        "term": "acessórios caminhão",
-        "keyword": "—",
-        "impressions": 3,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "acessórios de caminhão",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "acessórios para caminhao",
-        "keyword": "—",
-        "impressions": 3,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "acessórios para caminhão",
-        "keyword": "—",
-        "impressions": 8,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "coisa de caminhão",
+        "term": "a3054230701",
         "keyword": "—",
         "impressions": 4,
         "clicks": 0,
@@ -469,7 +302,31 @@
         "cpc": 0
       },
       {
-        "term": "coisas de caminhão",
+        "term": "campana de caminhão",
+        "keyword": "—",
+        "impressions": 5,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "campana de freio de caminhão",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "frum 3694",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "t345",
         "keyword": "—",
         "impressions": 1,
         "clicks": 0,
@@ -477,7 +334,23 @@
         "cpc": 0
       },
       {
-        "term": "equipamentos para caminhão",
+        "term": "tambor de freio de caminhão",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "tambor facchini",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "tambor freio carreta guerra",
         "keyword": "—",
         "impressions": 1,
         "clicks": 0,
@@ -485,7 +358,7 @@
         "cpc": 0
       },
       {
-        "term": "loja de acessorios para caminhao",
+        "term": "tambor freio carreta guerra 10 furos",
         "keyword": "—",
         "impressions": 1,
         "clicks": 0,
@@ -493,7 +366,7 @@
         "cpc": 0
       },
       {
-        "term": "loja de acessório para caminhão",
+        "term": "alternador do volvo fh 540",
         "keyword": "—",
         "impressions": 1,
         "clicks": 0,
@@ -501,7 +374,7 @@
         "cpc": 0
       },
       {
-        "term": "loja de acessórios de caminhão",
+        "term": "amortecedor cabine volvo fh original",
         "keyword": "—",
         "impressions": 1,
         "clicks": 0,
@@ -509,7 +382,7 @@
         "cpc": 0
       },
       {
-        "term": "peças e acessórios para caminhões",
+        "term": "ar condicionado do volvo fh parou de gelar",
         "keyword": "—",
         "impressions": 1,
         "clicks": 0,
@@ -517,7 +390,215 @@
         "cpc": 0
       },
       {
-        "term": "tudo para caminhão",
+        "term": "bico dosador arla volvo fh",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "botao estacionario volvo fh",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "brucutu volvo fh",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "caminhão fh",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "caminhão volvo",
+        "keyword": "—",
+        "impressions": 7,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "caminhão volvo 2026",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "caminhão volvo 270",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "carter volvo fh d13",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "catalisador fh 440",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "catalogo volvo",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "cavalo volvo",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "chicote volvo",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "como fazer a regeneração do volvo 290",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "compressor de ar volvo fh 440",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "concessionária volvo peças",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "correia alternador volvo vm 270 com ar",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "correia volvo vm 260",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "cubo redutor volvo",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "defletor fh teto alto",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "diferencial canelinha volvo",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "diferencial do volvo fh 440 a venda",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "diferencial do volvo fh canelinha",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "escape volvo fh",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "farol de milha fh 440",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "farol fh 2006",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "farol vm 330",
+        "keyword": "—",
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "fh",
         "keyword": "—",
         "impressions": 1,
         "clicks": 0,
@@ -527,126 +608,126 @@
     ]
   },
   "ga4": {
-    "sessions": 338,
-    "users": 315,
-    "new_users": 308,
-    "pageviews": 412,
-    "bounce_rate": 66.57,
-    "duration": "2m 4s",
-    "events": 1637,
-    "conversions": 32,
+    "sessions": 592,
+    "users": 571,
+    "new_users": 559,
+    "pageviews": 709,
+    "bounce_rate": 66.89,
+    "duration": "0m 37s",
+    "events": 2815,
+    "conversions": 82,
     "sources": [
       {
         "source": "ig",
         "medium": "paid",
-        "sessions": 103,
-        "pct": 30.5
+        "sessions": 215,
+        "pct": 36.3
       },
       {
         "source": "fb",
         "medium": "paid",
-        "sessions": 82,
-        "pct": 24.3
+        "sessions": 173,
+        "pct": 29.2
       },
       {
         "source": "(direct)",
         "medium": "(none)",
-        "sessions": 43,
-        "pct": 12.7
-      },
-      {
-        "source": "meta_ads",
-        "medium": "VIDEO VIRAL 01",
-        "sessions": 39,
-        "pct": 11.5
-      },
-      {
-        "source": "google",
-        "medium": "organic",
-        "sessions": 25,
-        "pct": 7.4
+        "sessions": 64,
+        "pct": 10.8
       },
       {
         "source": "google",
         "medium": "cpc",
-        "sessions": 14,
-        "pct": 4.1
+        "sessions": 57,
+        "pct": 9.6
+      },
+      {
+        "source": "google",
+        "medium": "organic",
+        "sessions": 20,
+        "pct": 3.4
+      },
+      {
+        "source": "an",
+        "medium": "paid",
+        "sessions": 16,
+        "pct": 2.7
       },
       {
         "source": "facebook.com",
         "medium": "referral",
-        "sessions": 9,
-        "pct": 2.7
+        "sessions": 13,
+        "pct": 2.2
       },
       {
-        "source": "ads.google.com",
+        "source": "(not set)",
+        "medium": "(not set)",
+        "sessions": 8,
+        "pct": 1.4
+      },
+      {
+        "source": "google ads",
+        "medium": "Para-lama",
+        "sessions": 7,
+        "pct": 1.2
+      },
+      {
+        "source": "m.facebook.com",
         "medium": "referral",
-        "sessions": 5,
-        "pct": 1.5
-      },
-      {
-        "source": "meta_ads",
-        "medium": "VIDEO+VIRAL+01",
-        "sessions": 4,
+        "sessions": 7,
         "pct": 1.2
       },
       {
         "source": "linktr.ee",
         "medium": "referral",
-        "sessions": 3,
-        "pct": 0.9
-      },
-      {
-        "source": "m.facebook.com",
-        "medium": "referral",
-        "sessions": 3,
-        "pct": 0.9
-      },
-      {
-        "source": "(not set)",
-        "medium": "(not set)",
-        "sessions": 2,
-        "pct": 0.6
+        "sessions": 6,
+        "pct": 1.0
       },
       {
         "source": "bing",
         "medium": "organic",
         "sessions": 2,
-        "pct": 0.6
+        "pct": 0.3
+      },
+      {
+        "source": "eventsmanager.facebook.com",
+        "medium": "referral",
+        "sessions": 2,
+        "pct": 0.3
+      },
+      {
+        "source": "ads.google.com",
+        "medium": "referral",
+        "sessions": 1,
+        "pct": 0.2
       },
       {
         "source": "chatgpt.com",
         "medium": "ai-assistant",
-        "sessions": 2,
-        "pct": 0.6
-      },
-      {
-        "source": "l.facebook.com",
-        "medium": "referral",
-        "sessions": 2,
-        "pct": 0.6
+        "sessions": 1,
+        "pct": 0.2
       }
     ],
     "event_list": [
       {
-        "name": "form_start",
-        "count": 31
-      },
-      {
         "name": "generate_lead",
-        "count": 25
+        "count": 75
       },
       {
-        "name": "click",
-        "count": 23
+        "name": "form_start",
+        "count": 18
       },
       {
         "name": "popup_opened",
-        "count": 19
+        "count": 17
       },
       {
         "name": "purchase",
         "count": 7
+      },
+      {
+        "name": "click",
+        "count": 6
       }
     ]
   },
