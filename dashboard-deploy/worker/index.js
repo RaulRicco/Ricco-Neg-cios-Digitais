@@ -23,7 +23,7 @@ const CLIENTES = {
   'floreria':               'floreria2026',
   'boi-dourado':            'boidourado2026',
   'bebedouro':              'bebedouro2026',
-  'bebedouro-356':          'bebedouro356@2026',
+  'bebedouro-356':          'bebedouro356-2026',
   'balcao-savassi':         'balcaosavassi2026',
   'ameriparts':             'ameriparts2026',
   'comodoro-burguer':       'comodoro2026',
