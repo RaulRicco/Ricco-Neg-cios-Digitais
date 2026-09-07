@@ -35,3 +35,6 @@ tarefas.md
 # Sistema
 .DS_Store
 node_modules/
+
+# Estado local de hooks (não é conteúdo do projeto)
+.claude/.ultimo-relatorio-mensal
