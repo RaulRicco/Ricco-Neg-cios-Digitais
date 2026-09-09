@@ -28,3 +28,4 @@ Profissional, analítico e tecnicamente preciso. Direto ao ponto, sem rodeios. F
 
 - A CTA de legendas deve sempre direcionar para clicar no link (ex: "Clique no link", "Acesse pelo link", "Link na bio") — os anúncios são sempre para tráfego (cliques no link)
 - Nunca usar a expressão "é isso mesmo" em legendas, mesmo que apareça em algum texto de referência enviado pelo usuário
+- Nunca mencionar dia da semana, data ou feriado em legendas sem confirmar antes se a casa está aberta naquele dia/horário — evita postar "vem hoje" quando o estabelecimento está fechado
