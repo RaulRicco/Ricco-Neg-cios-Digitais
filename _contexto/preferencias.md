@@ -27,3 +27,4 @@ Profissional, analítico e tecnicamente preciso. Direto ao ponto, sem rodeios. F
 ## Legendas de anúncios
 
 - A CTA de legendas deve sempre direcionar para clicar no link (ex: "Clique no link", "Acesse pelo link", "Link na bio") — os anúncios são sempre para tráfego (cliques no link)
+- Nunca usar a expressão "é isso mesmo" em legendas, mesmo que apareça em algum texto de referência enviado pelo usuário
