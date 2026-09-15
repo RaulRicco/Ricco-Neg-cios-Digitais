@@ -88,6 +88,15 @@ clientes:
     servicos: [meta, google, ga4]
     nota: "Bebedouro 356 — customer_id separado no Google Ads"
 
+  # ── Semper Fidelis ────────────────────────────────────────────────────────
+  - slug: semper-fidelis
+    nome: "Semper Fidelis"
+    senha: "semperfidelis2026"
+    meta_account: ""
+    gads_customer: "6779674397"
+    ga4_property: ""
+    servicos: [google]
+
   # ── Balcão Savassi ────────────────────────────────────────────────────────
   - slug: balcao-savassi
     nome: "Balcão Savassi"
