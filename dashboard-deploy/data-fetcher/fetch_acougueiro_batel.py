@@ -18,7 +18,19 @@ META_ACCOUNT   = "act_1496111171808827"
 GADS_CUSTOMER  = "1245380413"
 GA4_PROPERTY   = "513684569"
 
+FALHAS = []
+
 def run(cmd, label=""):
+    """Executa _run e registra falhas (sem retorno ou {"error": true}) em FALHAS."""
+    data = _run(cmd, label)
+    if data is None or (isinstance(data, dict) and data.get("error")):
+        FALHAS.append(label)
+        if isinstance(data, dict) and data.get("message"):
+            print(f"⚠️  {label}: {str(data['message'])[:300]}", file=sys.stderr)
+        return None
+    return data
+
+def _run(cmd, label=""):
     try:
         result = subprocess.run([sys.executable]+cmd, capture_output=True, text=True, timeout=60)
         if result.returncode != 0:
@@ -207,6 +219,8 @@ def main():
     parser.add_argument("--end",   default="")
     parser.add_argument("--preset", default="last_month",
                         choices=["last_month","this_month","last_7d","last_30d"])
+    parser.add_argument("--allow-partial", action="store_true",
+                        help="Grava data.json mesmo se alguma chamada de API falhar")
     args = parser.parse_args()
     today = date.today()
     if args.start and args.end:
@@ -232,6 +246,13 @@ def main():
         "google":google,
         "ga4":ga4,
         "gmb":None}
+    # Trava: não sobrescreve data.json com zeros se alguma API falhou (ex: token expirado)
+    if FALHAS and not args.allow_partial:
+        print(f"\n❌ {len(FALHAS)} chamada(s) falharam: {', '.join(FALHAS)}", file=sys.stderr)
+        print("   data.json NÃO foi gravado (versão anterior mantida). "
+              "Use --allow-partial para gravar mesmo assim.", file=sys.stderr)
+        sys.exit(1)
+
     out_path = OUT_DIR / "data.json"
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(data, ensure_ascii=False, indent=2))
