@@ -1,17 +1,17 @@
 {
   "cliente": "Bebedouro Bar e Fogo",
   "periodo": {
-    "start": "2026-08-01",
-    "end": "2026-08-31"
+    "start": "2026-09-01",
+    "end": "2026-09-30"
   },
-  "gerado_em": "2026-09-07T07:39:51.922740",
+  "gerado_em": "2026-10-05T09:01:53.797239",
   "consolidado": {
-    "spend": 492.17,
+    "spend": 517.01,
     "reach": 0,
-    "impressions": 11222,
-    "clicks": 289,
+    "impressions": 18888,
+    "clicks": 467,
     "meta_spend": 0.0,
-    "google_spend": 492.17
+    "google_spend": 517.01
   },
   "meta": {
     "spend": 0.0,
@@ -26,148 +26,166 @@
     "ads": []
   },
   "google": {
-    "spend": 492.17,
-    "impressions": 11222,
-    "clicks": 289,
-    "ctr": 2.58,
-    "cpc": 1.7,
-    "conversions": 0,
-    "cpa": 0,
+    "spend": 517.01,
+    "impressions": 18888,
+    "clicks": 467,
+    "ctr": 2.47,
+    "cpc": 1.11,
+    "conversions": 4,
+    "cpa": 129.25,
     "campaigns": [
       {
         "name": "[REDE DE PESQUISAS 2.0] [RESERVAS]",
         "type": "Search",
         "status": "Enabled",
-        "spend": 492.17,
-        "impressions": 11222,
-        "clicks": 289,
-        "ctr": 2.58,
-        "cpc": 1.7,
-        "conversions": 0
+        "spend": 517.01,
+        "impressions": 18888,
+        "clicks": 467,
+        "ctr": 2.47,
+        "cpc": 1.11,
+        "conversions": 4
       }
     ],
     "keywords": [
       {
-        "keyword": "restaurantes em belo horizonte",
-        "match": "Exact",
-        "impressions": 458,
-        "clicks": 33,
-        "ctr": 7.21,
-        "cpc": 2.47,
-        "conversions": 0
+        "keyword": "bar com vista em belo horizonte",
+        "match": "Phrase",
+        "impressions": 398,
+        "clicks": 32,
+        "ctr": 8.04,
+        "cpc": 2.51,
+        "conversions": 3
       },
       {
-        "keyword": "pampulha restaurantes",
+        "keyword": "restaurantes em belo horizonte",
         "match": "Exact",
-        "impressions": 760,
-        "clicks": 30,
-        "ctr": 3.95,
-        "cpc": 2.57,
+        "impressions": 722,
+        "clicks": 43,
+        "ctr": 5.96,
+        "cpc": 1.47,
         "conversions": 0
       },
       {
         "keyword": "melhores restaurantes belo horizonte",
         "match": "Exact",
-        "impressions": 482,
-        "clicks": 26,
-        "ctr": 5.39,
-        "cpc": 1.93,
+        "impressions": 601,
+        "clicks": 44,
+        "ctr": 7.32,
+        "cpc": 1.34,
+        "conversions": 0
+      },
+      {
+        "keyword": "pampulha restaurantes",
+        "match": "Exact",
+        "impressions": 472,
+        "clicks": 22,
+        "ctr": 4.66,
+        "cpc": 1.29,
         "conversions": 0
       },
       {
         "keyword": "belo horizonte bar",
         "match": "Exact",
-        "impressions": 503,
-        "clicks": 16,
-        "ctr": 3.18,
-        "cpc": 2.23,
+        "impressions": 471,
+        "clicks": 14,
+        "ctr": 2.97,
+        "cpc": 1.61,
         "conversions": 0
       },
       {
-        "keyword": "bar pampulha",
-        "match": "Exact",
-        "impressions": 411,
-        "clicks": 9,
-        "ctr": 2.19,
-        "cpc": 2.73,
-        "conversions": 0
-      },
-      {
-        "keyword": "bh restaurante",
-        "match": "Exact",
-        "impressions": 140,
-        "clicks": 7,
-        "ctr": 5.0,
-        "cpc": 3.22,
+        "keyword": "restaurante com vista em belo horizonte",
+        "match": "Phrase",
+        "impressions": 207,
+        "clicks": 14,
+        "ctr": 6.76,
+        "cpc": 1.59,
         "conversions": 0
       },
       {
         "keyword": "restaurante belo horizonte",
         "match": "Exact",
-        "impressions": 184,
-        "clicks": 7,
-        "ctr": 3.8,
-        "cpc": 2.63,
+        "impressions": 245,
+        "clicks": 13,
+        "ctr": 5.31,
+        "cpc": 1.68,
         "conversions": 0
       },
       {
-        "keyword": "bar em belo horizonte",
+        "keyword": "bar pampulha",
         "match": "Exact",
-        "impressions": 132,
-        "clicks": 6,
-        "ctr": 4.55,
-        "cpc": 2.63,
+        "impressions": 297,
+        "clicks": 14,
+        "ctr": 4.71,
+        "cpc": 1.44,
         "conversions": 0
+      },
+      {
+        "keyword": "restaurante com vista bh",
+        "match": "Phrase",
+        "impressions": 325,
+        "clicks": 10,
+        "ctr": 3.08,
+        "cpc": 1.22,
+        "conversions": 1
       },
       {
         "keyword": "belo horizonte restaurantes",
         "match": "Exact",
-        "impressions": 146,
-        "clicks": 6,
-        "ctr": 4.11,
-        "cpc": 2.06,
+        "impressions": 204,
+        "clicks": 9,
+        "ctr": 4.41,
+        "cpc": 1.33,
+        "conversions": 0
+      },
+      {
+        "keyword": "bh restaurante",
+        "match": "Exact",
+        "impressions": 114,
+        "clicks": 8,
+        "ctr": 7.02,
+        "cpc": 1.36,
         "conversions": 0
       },
       {
         "keyword": "melhores restaurantes em belo horizonte",
         "match": "Exact",
-        "impressions": 28,
-        "clicks": 4,
-        "ctr": 14.29,
-        "cpc": 1.96,
+        "impressions": 16,
+        "clicks": 1,
+        "ctr": 6.25,
+        "cpc": 1.15,
+        "conversions": 0
+      },
+      {
+        "keyword": "bar em belo horizonte",
+        "match": "Exact",
+        "impressions": 48,
+        "clicks": 1,
+        "ctr": 2.08,
+        "cpc": 1.01,
         "conversions": 0
       },
       {
         "keyword": "restaurantes pampulha",
         "match": "Exact",
-        "impressions": 144,
-        "clicks": 1,
-        "ctr": 0.69,
-        "cpc": 3.51,
-        "conversions": 0
-      },
-      {
-        "keyword": "bar com vista em bh",
-        "match": "Exact",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 2.1,
+        "impressions": 42,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
         "conversions": 0
       },
       {
         "keyword": "bar belo horizonte",
         "match": "Exact",
-        "impressions": 19,
-        "clicks": 1,
-        "ctr": 5.26,
-        "cpc": 2.03,
+        "impressions": 12,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
         "conversions": 0
       },
       {
-        "keyword": "belo horizonte restaurant",
+        "keyword": "belo horizonte melhores restaurantes",
         "match": "Exact",
-        "impressions": 1,
+        "impressions": 2,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0,
@@ -175,6 +193,78 @@
       },
       {
         "keyword": "restaurantes belo horizonte melhores",
+        "match": "Exact",
+        "impressions": 5,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "bar com vista em bh",
+        "match": "Exact",
+        "impressions": 5,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "vista pampulha belo horizonte",
+        "match": "Phrase",
+        "impressions": 11,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "bar com vista em belo horizonte",
+        "match": "Exact",
+        "impressions": 5,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "vista pampulha bh",
+        "match": "Exact",
+        "impressions": 3,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "vista em bh",
+        "match": "Exact",
+        "impressions": 3,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "melhor vista bh",
+        "match": "Exact",
+        "impressions": 5,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "onde ver o pôr do sol em bh",
+        "match": "Exact",
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0,
+        "conversions": 0
+      },
+      {
+        "keyword": "vista da lagoa da pampulha",
         "match": "Exact",
         "impressions": 1,
         "clicks": 0,
@@ -185,474 +275,480 @@
     ],
     "search_terms": [
       {
-        "term": "restaurantes em bh",
-        "keyword": "—",
-        "impressions": 119,
-        "clicks": 10,
-        "ctr": 8.4,
-        "cpc": 2.16
-      },
-      {
         "term": "restaurante belo horizonte",
         "keyword": "—",
-        "impressions": 169,
-        "clicks": 6,
-        "ctr": 3.55,
-        "cpc": 2.82
+        "impressions": 228,
+        "clicks": 13,
+        "ctr": 5.7,
+        "cpc": 1.68
       },
       {
-        "term": "restaurante na pampulha",
+        "term": "bar bebedouro 356",
         "keyword": "—",
-        "impressions": 121,
+        "impressions": 43,
         "clicks": 5,
-        "ctr": 4.13,
-        "cpc": 3.09
+        "ctr": 11.63,
+        "cpc": 3.19
       },
       {
-        "term": "restaurante bh",
+        "term": "bebedouro 356",
         "keyword": "—",
-        "impressions": 76,
-        "clicks": 4,
-        "ctr": 5.26,
-        "cpc": 2.89
-      },
-      {
-        "term": "restaurante bom na pampulha",
-        "keyword": "—",
-        "impressions": 6,
-        "clicks": 1,
-        "ctr": 16.67,
-        "cpc": 11.47
-      },
-      {
-        "term": "melhores restaurantes belo horizonte",
-        "keyword": "—",
-        "impressions": 130,
-        "clicks": 6,
-        "ctr": 4.62,
-        "cpc": 1.71
-      },
-      {
-        "term": "restaurantes em belo horizonte",
-        "keyword": "—",
-        "impressions": 29,
-        "clicks": 3,
-        "ctr": 10.34,
-        "cpc": 3.32
-      },
-      {
-        "term": "restaurante pampulha",
-        "keyword": "—",
-        "impressions": 187,
-        "clicks": 3,
-        "ctr": 1.6,
-        "cpc": 2.67
-      },
-      {
-        "term": "restaurante bom em bh",
-        "keyword": "—",
-        "impressions": 20,
-        "clicks": 4,
-        "ctr": 20.0,
-        "cpc": 1.98
-      },
-      {
-        "term": "restaurante em bh",
-        "keyword": "—",
-        "impressions": 70,
-        "clicks": 3,
-        "ctr": 4.29,
-        "cpc": 2.52
-      },
-      {
-        "term": "restaurantes em belo horizonte mg",
-        "keyword": "—",
-        "impressions": 6,
-        "clicks": 1,
-        "ctr": 16.67,
-        "cpc": 7.53
-      },
-      {
-        "term": "restaurantes na pampulha bh",
-        "keyword": "—",
-        "impressions": 26,
-        "clicks": 4,
-        "ctr": 15.38,
-        "cpc": 1.88
-      },
-      {
-        "term": "restaurante na região da pampulha",
-        "keyword": "—",
-        "impressions": 8,
-        "clicks": 3,
-        "ctr": 37.5,
-        "cpc": 2.45
-      },
-      {
-        "term": "bares em bh",
-        "keyword": "—",
-        "impressions": 119,
-        "clicks": 3,
-        "ctr": 2.52,
-        "cpc": 2.4
-      },
-      {
-        "term": "restaurantesbh",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 6.85
-      },
-      {
-        "term": "restaurantes bh",
-        "keyword": "—",
-        "impressions": 79,
-        "clicks": 3,
-        "ctr": 3.8,
-        "cpc": 2.21
-      },
-      {
-        "term": "melhores restaurantes em belo horizonte",
-        "keyword": "—",
-        "impressions": 14,
-        "clicks": 3,
-        "ctr": 21.43,
-        "cpc": 2.02
-      },
-      {
-        "term": "restaurantes na pampulha",
-        "keyword": "—",
-        "impressions": 92,
-        "clicks": 2,
-        "ctr": 2.17,
-        "cpc": 2.72
-      },
-      {
-        "term": "restaurante bh mg",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 4.91
-      },
-      {
-        "term": "bar em bh",
-        "keyword": "—",
-        "impressions": 45,
-        "clicks": 2,
-        "ctr": 4.44,
-        "cpc": 2.42
-      },
-      {
-        "term": "restaurantes legais em bh",
-        "keyword": "—",
-        "impressions": 11,
-        "clicks": 2,
-        "ctr": 18.18,
-        "cpc": 2.35
+        "impressions": 124,
+        "clicks": 9,
+        "ctr": 7.26,
+        "cpc": 1.37
       },
       {
         "term": "restaurantes belo horizonte",
         "keyword": "—",
-        "impressions": 78,
-        "clicks": 2,
-        "ctr": 2.56,
-        "cpc": 2.09
+        "impressions": 123,
+        "clicks": 8,
+        "ctr": 6.5,
+        "cpc": 1.34
       },
       {
-        "term": "restaurantes top em bh",
+        "term": "bar bebedouro 356 belo horizonte fotos",
         "keyword": "—",
-        "impressions": 5,
-        "clicks": 2,
-        "ctr": 40.0,
-        "cpc": 2.05
+        "impressions": 23,
+        "clicks": 3,
+        "ctr": 13.04,
+        "cpc": 3.54
       },
       {
-        "term": "barzinhos em bh",
+        "term": "melhor restaurante de bh",
         "keyword": "—",
-        "impressions": 28,
-        "clicks": 2,
-        "ctr": 7.14,
-        "cpc": 1.86
-      },
-      {
-        "term": "bares belo horizonte",
-        "keyword": "—",
-        "impressions": 36,
-        "clicks": 2,
-        "ctr": 5.56,
-        "cpc": 1.86
-      },
-      {
-        "term": "bares na pampulha",
-        "keyword": "—",
-        "impressions": 47,
-        "clicks": 1,
-        "ctr": 2.13,
-        "cpc": 3.72
-      },
-      {
-        "term": "barzinho belo horizonte",
-        "keyword": "—",
-        "impressions": 53,
-        "clicks": 2,
-        "ctr": 3.77,
-        "cpc": 1.79
-      },
-      {
-        "term": "restaurantes pampulha",
-        "keyword": "—",
-        "impressions": 102,
-        "clicks": 1,
-        "ctr": 0.98,
-        "cpc": 3.51
+        "impressions": 49,
+        "clicks": 6,
+        "ctr": 12.24,
+        "cpc": 1.28
       },
       {
         "term": "melhores restaurantes de bh",
         "keyword": "—",
-        "impressions": 51,
-        "clicks": 2,
-        "ctr": 3.92,
-        "cpc": 1.72
+        "impressions": 60,
+        "clicks": 5,
+        "ctr": 8.33,
+        "cpc": 1.53
       },
       {
-        "term": "restaurante na pampulha bh",
+        "term": "restaurantes em bh",
+        "keyword": "—",
+        "impressions": 100,
+        "clicks": 5,
+        "ctr": 5.0,
+        "cpc": 1.45
+      },
+      {
+        "term": "bares na pampulha",
         "keyword": "—",
         "impressions": 31,
-        "clicks": 2,
-        "ctr": 6.45,
-        "cpc": 1.7
+        "clicks": 5,
+        "ctr": 16.13,
+        "cpc": 1.35
       },
       {
-        "term": "bares legais em bh",
+        "term": "restaurantes bons em bh",
         "keyword": "—",
-        "impressions": 15,
-        "clicks": 1,
-        "ctr": 6.67,
-        "cpc": 3.31
+        "impressions": 29,
+        "clicks": 4,
+        "ctr": 13.79,
+        "cpc": 1.4
       },
       {
-        "term": "bar legal em bh",
+        "term": "restaurante bh",
         "keyword": "—",
-        "impressions": 10,
-        "clicks": 1,
+        "impressions": 52,
+        "clicks": 4,
+        "ctr": 7.69,
+        "cpc": 1.4
+      },
+      {
+        "term": "melhores restaurantes belo horizonte",
+        "keyword": "—",
+        "impressions": 108,
+        "clicks": 4,
+        "ctr": 3.7,
+        "cpc": 1.36
+      },
+      {
+        "term": "restaurante bom em bh",
+        "keyword": "—",
+        "impressions": 22,
+        "clicks": 4,
+        "ctr": 18.18,
+        "cpc": 1.36
+      },
+      {
+        "term": "restaurante em bh",
+        "keyword": "—",
+        "impressions": 61,
+        "clicks": 4,
+        "ctr": 6.56,
+        "cpc": 1.32
+      },
+      {
+        "term": "bar em bh",
+        "keyword": "—",
+        "impressions": 29,
+        "clicks": 3,
+        "ctr": 10.34,
+        "cpc": 1.74
+      },
+      {
+        "term": "bar bebedouro 356 belo horizonte",
+        "keyword": "—",
+        "impressions": 24,
+        "clicks": 4,
+        "ctr": 16.67,
+        "cpc": 1.25
+      },
+      {
+        "term": "restaurantes em belo horizonte",
+        "keyword": "—",
+        "impressions": 30,
+        "clicks": 3,
         "ctr": 10.0,
-        "cpc": 3.22
+        "cpc": 1.66
       },
       {
-        "term": "restaurantes pampulha bh",
+        "term": "melhores restaurantes de belo horizonte",
         "keyword": "—",
-        "impressions": 35,
-        "clicks": 2,
-        "ctr": 5.71,
-        "cpc": 1.5
+        "impressions": 18,
+        "clicks": 4,
+        "ctr": 22.22,
+        "cpc": 1.17
       },
       {
-        "term": "qual o melhor restaurante de bh",
-        "keyword": "—",
-        "impressions": 7,
-        "clicks": 1,
-        "ctr": 14.29,
-        "cpc": 2.97
-      },
-      {
-        "term": "barzinho na pampulha bh",
-        "keyword": "—",
-        "impressions": 8,
-        "clicks": 1,
-        "ctr": 12.5,
-        "cpc": 2.93
-      },
-      {
-        "term": "bons restaurantes bh",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 2.82
-      },
-      {
-        "term": "bar bom em bh",
-        "keyword": "—",
-        "impressions": 3,
-        "clicks": 1,
-        "ctr": 33.33,
-        "cpc": 2.66
-      },
-      {
-        "term": "barzinhos bh",
+        "term": "bebedouro restaurante 356",
         "keyword": "—",
         "impressions": 4,
         "clicks": 1,
         "ctr": 25.0,
-        "cpc": 2.62
+        "cpc": 4.23
       },
       {
-        "term": "best restaurant belo horizonte",
+        "term": "bares em bh",
         "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 2.43
+        "impressions": 91,
+        "clicks": 2,
+        "ctr": 2.2,
+        "cpc": 1.99
       },
       {
-        "term": "bares e botecos em belo horizonte",
+        "term": "melhores restaurantes bh",
         "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 2.42
+        "impressions": 53,
+        "clicks": 3,
+        "ctr": 5.66,
+        "cpc": 1.29
       },
       {
-        "term": "restaurantes bh melhores",
+        "term": "restaurante pampulha bh",
+        "keyword": "—",
+        "impressions": 31,
+        "clicks": 2,
+        "ctr": 6.45,
+        "cpc": 1.92
+      },
+      {
+        "term": "restaurante pampulha",
+        "keyword": "—",
+        "impressions": 90,
+        "clicks": 3,
+        "ctr": 3.33,
+        "cpc": 1.21
+      },
+      {
+        "term": "barzinho pampulha",
+        "keyword": "—",
+        "impressions": 25,
+        "clicks": 3,
+        "ctr": 12.0,
+        "cpc": 1.16
+      },
+      {
+        "term": "onde jantar em belo horizonte",
         "keyword": "—",
         "impressions": 10,
         "clicks": 1,
         "ctr": 10.0,
-        "cpc": 2.3
+        "cpc": 3.48
       },
       {
-        "term": "bares bons em bh",
+        "term": "restaurantes bh",
         "keyword": "—",
-        "impressions": 14,
+        "impressions": 46,
+        "clicks": 2,
+        "ctr": 4.35,
+        "cpc": 1.66
+      },
+      {
+        "term": "restaurante com vista bonita em bh",
+        "keyword": "—",
+        "impressions": 10,
+        "clicks": 2,
+        "ctr": 20.0,
+        "cpc": 1.64
+      },
+      {
+        "term": "bares bh",
+        "keyword": "—",
+        "impressions": 22,
         "clicks": 1,
-        "ctr": 7.14,
-        "cpc": 2.22
+        "ctr": 4.55,
+        "cpc": 3.27
+      },
+      {
+        "term": "restaurantes na pampulha em bh",
+        "keyword": "—",
+        "impressions": 17,
+        "clicks": 2,
+        "ctr": 11.76,
+        "cpc": 1.56
+      },
+      {
+        "term": "lugares para almoçar em belo horizonte",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 2,
+        "ctr": 100.0,
+        "cpc": 1.56
       },
       {
         "term": "onde almoçar em bh",
         "keyword": "—",
-        "impressions": 8,
-        "clicks": 1,
-        "ctr": 12.5,
-        "cpc": 2.13
+        "impressions": 38,
+        "clicks": 2,
+        "ctr": 5.26,
+        "cpc": 1.45
       },
       {
-        "term": "bar com vista em bh",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 2.1
-      },
-      {
-        "term": "os melhores restaurantes de bh",
-        "keyword": "—",
-        "impressions": 8,
-        "clicks": 1,
-        "ctr": 12.5,
-        "cpc": 2.07
-      },
-      {
-        "term": "bar belo horizonte",
-        "keyword": "—",
-        "impressions": 15,
-        "clicks": 1,
-        "ctr": 6.67,
-        "cpc": 2.03
-      },
-      {
-        "term": "restaurante bh melhores",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 1,
-        "ctr": 50.0,
-        "cpc": 2.02
-      },
-      {
-        "term": "bar na pampulha bh",
+        "term": "onde jantar em bh",
         "keyword": "—",
         "impressions": 17,
-        "clicks": 1,
-        "ctr": 5.88,
-        "cpc": 1.97
+        "clicks": 2,
+        "ctr": 11.76,
+        "cpc": 1.42
       },
       {
-        "term": "bares de bh",
+        "term": "picco bh",
         "keyword": "—",
-        "impressions": 7,
+        "impressions": 3,
         "clicks": 1,
-        "ctr": 14.29,
-        "cpc": 1.83
+        "ctr": 33.33,
+        "cpc": 2.84
       },
       {
-        "term": "melhores restaurante de bh",
+        "term": "barzinhos em bh",
+        "keyword": "—",
+        "impressions": 30,
+        "clicks": 2,
+        "ctr": 6.67,
+        "cpc": 1.38
+      },
+      {
+        "term": "restaurantes bh melhores",
+        "keyword": "—",
+        "impressions": 13,
+        "clicks": 2,
+        "ctr": 15.38,
+        "cpc": 1.37
+      },
+      {
+        "term": "melhores restaurantes para jantar em bh",
+        "keyword": "—",
+        "impressions": 22,
+        "clicks": 2,
+        "ctr": 9.09,
+        "cpc": 1.25
+      },
+      {
+        "term": "lugares para comer belo horizonte",
+        "keyword": "—",
+        "impressions": 25,
+        "clicks": 2,
+        "ctr": 8.0,
+        "cpc": 1.19
+      },
+      {
+        "term": "bebedouro espaco 356",
+        "keyword": "—",
+        "impressions": 5,
+        "clicks": 1,
+        "ctr": 20.0,
+        "cpc": 2.32
+      },
+      {
+        "term": "bares belo horizonte",
+        "keyword": "—",
+        "impressions": 42,
+        "clicks": 2,
+        "ctr": 4.76,
+        "cpc": 1.14
+      },
+      {
+        "term": "restaurantes pampulha bh",
+        "keyword": "—",
+        "impressions": 21,
+        "clicks": 2,
+        "ctr": 9.52,
+        "cpc": 1.14
+      },
+      {
+        "term": "picco restaurante bh",
         "keyword": "—",
         "impressions": 2,
         "clicks": 1,
         "ctr": 50.0,
+        "cpc": 2.23
+      },
+      {
+        "term": "restaurante bebedouro 356",
+        "keyword": "—",
+        "impressions": 20,
+        "clicks": 2,
+        "ctr": 10.0,
+        "cpc": 1.03
+      },
+      {
+        "term": "bons restaurantes em bh",
+        "keyword": "—",
+        "impressions": 23,
+        "clicks": 1,
+        "ctr": 4.35,
+        "cpc": 2.0
+      },
+      {
+        "term": "espaço 356 bebedouro",
+        "keyword": "—",
+        "impressions": 31,
+        "clicks": 1,
+        "ctr": 3.23,
         "cpc": 1.66
+      },
+      {
+        "term": "restaurantes em bh melhores",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 1,
+        "ctr": 25.0,
+        "cpc": 1.66
+      },
+      {
+        "term": "bares belo horizonte mg",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 1.63
+      },
+      {
+        "term": "restaurantes bons na pampulha",
+        "keyword": "—",
+        "impressions": 3,
+        "clicks": 1,
+        "ctr": 33.33,
+        "cpc": 1.45
+      },
+      {
+        "term": "restaurante bom bh",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 1.41
+      },
+      {
+        "term": "barzinhos na pampulha",
+        "keyword": "—",
+        "impressions": 6,
+        "clicks": 1,
+        "ctr": 16.67,
+        "cpc": 1.35
+      },
+      {
+        "term": "bar pampulha bh",
+        "keyword": "—",
+        "impressions": 9,
+        "clicks": 1,
+        "ctr": 11.11,
+        "cpc": 1.34
       }
     ]
   },
   "ga4": {
-    "sessions": 2024,
-    "users": 1705,
-    "new_users": 1679,
-    "pageviews": 2303,
-    "bounce_rate": 52.52,
-    "duration": "1m 42s",
-    "events": 7718,
-    "conversions": 113,
+    "sessions": 2264,
+    "users": 1929,
+    "new_users": 1912,
+    "pageviews": 2725,
+    "bounce_rate": 54.02,
+    "duration": "1m 44s",
+    "events": 8768,
+    "conversions": 104,
     "sources": [
       {
         "source": "google",
         "medium": "organic",
-        "sessions": 1145,
-        "pct": 56.6
+        "sessions": 1191,
+        "pct": 52.7
       },
       {
         "source": "google",
         "medium": "cpc",
-        "sessions": 508,
-        "pct": 25.1
+        "sessions": 708,
+        "pct": 31.3
       },
       {
         "source": "(direct)",
         "medium": "(none)",
-        "sessions": 255,
-        "pct": 12.6
+        "sessions": 248,
+        "pct": 11.0
       },
       {
         "source": "chatgpt.com",
         "medium": "ai-assistant",
-        "sessions": 64,
-        "pct": 3.2
+        "sessions": 58,
+        "pct": 2.6
       },
       {
         "source": "bing",
         "medium": "organic",
-        "sessions": 20,
-        "pct": 1.0
+        "sessions": 25,
+        "pct": 1.1
       },
       {
         "source": "(data not available)",
         "medium": "(data not available)",
-        "sessions": 13,
+        "sessions": 14,
         "pct": 0.6
       },
       {
-        "source": "tagassistant.google.com",
-        "medium": "referral",
+        "source": "Google ads",
+        "medium": "search",
         "sessions": 8,
         "pct": 0.4
       },
       {
-        "source": "teams.public.onecdn.static.microsoft",
+        "source": "br.search.yahoo.com",
         "medium": "referral",
-        "sessions": 6,
-        "pct": 0.3
+        "sessions": 3,
+        "pct": 0.1
+      },
+      {
+        "source": "tagassistant.google.com",
+        "medium": "referral",
+        "sessions": 3,
+        "pct": 0.1
+      },
+      {
+        "source": "clib.com.br",
+        "medium": "referral",
+        "sessions": 1,
+        "pct": 0.0
       },
       {
         "source": "gemini.google.com",
         "medium": "ai-assistant",
-        "sessions": 4,
-        "pct": 0.2
-      },
-      {
-        "source": "(not set)",
-        "medium": "(not set)",
         "sessions": 1,
         "pct": 0.0
       }
@@ -660,19 +756,19 @@
     "event_list": [
       {
         "name": "inicio_preenchimento_reserva",
-        "count": 171
+        "count": 143
       },
       {
         "name": "form_start",
-        "count": 155
-      },
-      {
-        "name": "conversao_reserva",
-        "count": 57
+        "count": 127
       },
       {
         "name": "click",
-        "count": 56
+        "count": 54
+      },
+      {
+        "name": "conversao_reserva",
+        "count": 50
       }
     ]
   },

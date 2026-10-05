@@ -4,7 +4,7 @@
     "start": "2026-09-01",
     "end": "2026-09-30"
   },
-  "gerado_em": "2026-10-05T08:07:39.280038",
+  "gerado_em": "2026-10-05T09:04:47.972055",
   "consolidado": null,
   "meta": {
     "spend": 988.35,
@@ -18,7 +18,7 @@
     "campaigns": [
       {
         "name": "[TOPO DE FUNIL] [TRAFEGO]",
-        "objective": "OUTCOME_TRAFFIC",
+        "objective": "LINK_CLICKS",
         "spend": 156.52,
         "reach": 14175,
         "impressions": 24639,
@@ -43,71 +43,6 @@
         "result_cpr": 8.78
       },
       {
-        "name": "[ESPECIAL MATANZA] [MENSAGEM]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 79.92,
-        "reach": 2587,
-        "impressions": 7020,
-        "clicks": 130,
-        "ctr": 1.85,
-        "cpc": 0.61,
-        "result_label": "Mensagens",
-        "result_qty": 8,
-        "result_cpr": 9.99
-      },
-      {
-        "name": "[EMO NIGHT] [MENSAGEM]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 74.82,
-        "reach": 2722,
-        "impressions": 6296,
-        "clicks": 172,
-        "ctr": 2.73,
-        "cpc": 0.44,
-        "result_label": "Mensagens",
-        "result_qty": 17,
-        "result_cpr": 4.4
-      },
-      {
-        "name": "[ROCK GENERATION] [MENSAGEM]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 74.22,
-        "reach": 2221,
-        "impressions": 4434,
-        "clicks": 72,
-        "ctr": 1.62,
-        "cpc": 1.03,
-        "result_label": "Mensagens",
-        "result_qty": 8,
-        "result_cpr": 9.28
-      },
-      {
-        "name": "[ESQUENTA VIROU] [ENGAJAMENTO]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 64.37,
-        "reach": 1992,
-        "impressions": 3659,
-        "clicks": 111,
-        "ctr": 3.03,
-        "cpc": 0.58,
-        "result_label": "Mensagens",
-        "result_qty": 11,
-        "result_cpr": 5.85
-      },
-      {
-        "name": "[ESPECIAL METAL FEST] [MENSAGEM]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 62.26,
-        "reach": 2157,
-        "impressions": 4676,
-        "clicks": 91,
-        "ctr": 1.95,
-        "cpc": 0.68,
-        "result_label": "Mensagens",
-        "result_qty": 9,
-        "result_cpr": 6.92
-      },
-      {
         "name": "[VIBE NACIONAL] [MENSAGEM]",
         "objective": "OUTCOME_ENGAGEMENT",
         "spend": 59.84,
@@ -119,19 +54,6 @@
         "result_label": "Mensagens",
         "result_qty": 5,
         "result_cpr": 11.97
-      },
-      {
-        "name": "[POP ROCK SHOW] [MENSAGEM]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 53.92,
-        "reach": 2160,
-        "impressions": 3631,
-        "clicks": 136,
-        "ctr": 3.75,
-        "cpc": 0.4,
-        "result_label": "Mensagens",
-        "result_qty": 17,
-        "result_cpr": 3.17
       },
       {
         "name": "[CHARLIE BROWN] [RESERVAS]",
@@ -147,32 +69,6 @@
         "result_cpr": 4.02
       },
       {
-        "name": "[LEGADO 18/09] [ENGAJAMENTO]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 49.87,
-        "reach": 7128,
-        "impressions": 10251,
-        "clicks": 370,
-        "ctr": 3.61,
-        "cpc": 0.13,
-        "result_label": "Engajamentos",
-        "result_qty": 4929,
-        "result_cpr": 0.01
-      },
-      {
-        "name": "[FESTIVAL DE COMIDA MEXICANA] [TRAFEGO]",
-        "objective": "OUTCOME_TRAFFIC",
-        "spend": 41.68,
-        "reach": 3997,
-        "impressions": 5509,
-        "clicks": 209,
-        "ctr": 3.79,
-        "cpc": 0.2,
-        "result_label": "Cliques",
-        "result_qty": 176,
-        "result_cpr": 0.24
-      },
-      {
         "name": "[FLASHBACK] [MENSAGEM]",
         "objective": "OUTCOME_ENGAGEMENT",
         "spend": 38.15,
@@ -186,6 +82,58 @@
         "result_cpr": 2.38
       },
       {
+        "name": "[ESPECIAL MATANZA] [MENSAGEM]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 79.92,
+        "reach": 2587,
+        "impressions": 7020,
+        "clicks": 130,
+        "ctr": 1.85,
+        "cpc": 0.61,
+        "result_label": "Mensagens",
+        "result_qty": 8,
+        "result_cpr": 9.99
+      },
+      {
+        "name": "[ESPECIAL METAL FEST] [MENSAGEM]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 62.26,
+        "reach": 2157,
+        "impressions": 4676,
+        "clicks": 91,
+        "ctr": 1.95,
+        "cpc": 0.68,
+        "result_label": "Mensagens",
+        "result_qty": 9,
+        "result_cpr": 6.92
+      },
+      {
+        "name": "[LEGADO 18/09] [ENGAJAMENTO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 49.87,
+        "reach": 7128,
+        "impressions": 10251,
+        "clicks": 370,
+        "ctr": 3.61,
+        "cpc": 0.13,
+        "result_label": "Engajamentos",
+        "result_qty": 4929,
+        "result_cpr": 0.01
+      },
+      {
+        "name": "[EMO NIGHT] [MENSAGEM]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 74.82,
+        "reach": 2722,
+        "impressions": 6296,
+        "clicks": 172,
+        "ctr": 2.73,
+        "cpc": 0.43,
+        "result_label": "Mensagens",
+        "result_qty": 17,
+        "result_cpr": 4.4
+      },
+      {
         "name": "[FESTIVAL DE LANCHES SET/26] [RESERVAS]",
         "objective": "OUTCOME_ENGAGEMENT",
         "spend": 28.04,
@@ -197,6 +145,58 @@
         "result_label": "Mensagens",
         "result_qty": 2,
         "result_cpr": 14.02
+      },
+      {
+        "name": "[ESQUENTA VIROU] [ENGAJAMENTO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 64.37,
+        "reach": 1992,
+        "impressions": 3659,
+        "clicks": 111,
+        "ctr": 3.03,
+        "cpc": 0.58,
+        "result_label": "Mensagens",
+        "result_qty": 11,
+        "result_cpr": 5.85
+      },
+      {
+        "name": "[ROCK GENERATION] [MENSAGEM]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 74.22,
+        "reach": 2221,
+        "impressions": 4434,
+        "clicks": 72,
+        "ctr": 1.62,
+        "cpc": 1.03,
+        "result_label": "Mensagens",
+        "result_qty": 8,
+        "result_cpr": 9.28
+      },
+      {
+        "name": "[FESTIVAL DE COMIDA MEXICANA] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 41.68,
+        "reach": 3997,
+        "impressions": 5509,
+        "clicks": 209,
+        "ctr": 3.79,
+        "cpc": 0.2,
+        "result_label": "Cliques",
+        "result_qty": 176,
+        "result_cpr": 0.24
+      },
+      {
+        "name": "[POP ROCK SHOW] [MENSAGEM]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 53.92,
+        "reach": 2160,
+        "impressions": 3631,
+        "clicks": 136,
+        "ctr": 3.75,
+        "cpc": 0.4,
+        "result_label": "Mensagens",
+        "result_qty": 17,
+        "result_cpr": 3.17
       },
       {
         "name": "[JUDAS PRIEST COVER] [RESERVAS]",
@@ -240,71 +240,6 @@
         "result_cpr": 8.78
       },
       {
-        "name": "ESPECIAL MATANZA",
-        "campaign": "[ESPECIAL MATANZA] [MENSAGEM]",
-        "spend": 79.92,
-        "impressions": 7020,
-        "clicks": 130,
-        "ctr": 1.85,
-        "cpc": 0.61,
-        "frequency": 2.71,
-        "result_label": "Mensagens",
-        "result_qty": 8,
-        "result_cpr": 9.99
-      },
-      {
-        "name": "VIDEO EMO NIGHT",
-        "campaign": "[EMO NIGHT] [MENSAGEM]",
-        "spend": 74.82,
-        "impressions": 6296,
-        "clicks": 172,
-        "ctr": 2.73,
-        "cpc": 0.44,
-        "frequency": 2.31,
-        "result_label": "Mensagens",
-        "result_qty": 17,
-        "result_cpr": 4.4
-      },
-      {
-        "name": "ROCK GENERATION",
-        "campaign": "[ROCK GENERATION] [MENSAGEM]",
-        "spend": 74.22,
-        "impressions": 4434,
-        "clicks": 72,
-        "ctr": 1.62,
-        "cpc": 1.03,
-        "frequency": 2.0,
-        "result_label": "Mensagens",
-        "result_qty": 8,
-        "result_cpr": 9.28
-      },
-      {
-        "name": "ESQUENTA VIROU",
-        "campaign": "[ESQUENTA VIROU] [ENGAJAMENTO]",
-        "spend": 64.37,
-        "impressions": 3659,
-        "clicks": 111,
-        "ctr": 3.03,
-        "cpc": 0.58,
-        "frequency": 1.84,
-        "result_label": "Mensagens",
-        "result_qty": 11,
-        "result_cpr": 5.85
-      },
-      {
-        "name": "VIDEO ESPECIAL METAL FEST",
-        "campaign": "[ESPECIAL METAL FEST] [MENSAGEM]",
-        "spend": 62.26,
-        "impressions": 4676,
-        "clicks": 91,
-        "ctr": 1.95,
-        "cpc": 0.68,
-        "frequency": 2.17,
-        "result_label": "Mensagens",
-        "result_qty": 9,
-        "result_cpr": 6.92
-      },
-      {
         "name": "video_vibe_nacional",
         "campaign": "[VIBE NACIONAL] [MENSAGEM]",
         "spend": 59.84,
@@ -316,19 +251,6 @@
         "result_label": "Mensagens",
         "result_qty": 5,
         "result_cpr": 11.97
-      },
-      {
-        "name": "POP ROCK SHOW",
-        "campaign": "[POP ROCK SHOW] [MENSAGEM]",
-        "spend": 53.92,
-        "impressions": 3631,
-        "clicks": 136,
-        "ctr": 3.75,
-        "cpc": 0.4,
-        "frequency": 1.68,
-        "result_label": "Mensagens",
-        "result_qty": 17,
-        "result_cpr": 3.17
       },
       {
         "name": "CHARLIE BROWN",
@@ -344,6 +266,45 @@
         "result_cpr": 4.02
       },
       {
+        "name": "VIDEO FLASHBACK",
+        "campaign": "[FLASHBACK] [MENSAGEM]",
+        "spend": 38.15,
+        "impressions": 2593,
+        "clicks": 82,
+        "ctr": 3.16,
+        "cpc": 0.47,
+        "frequency": 1.5,
+        "result_label": "Mensagens",
+        "result_qty": 16,
+        "result_cpr": 2.38
+      },
+      {
+        "name": "ESPECIAL MATANZA",
+        "campaign": "[ESPECIAL MATANZA] [MENSAGEM]",
+        "spend": 79.92,
+        "impressions": 7020,
+        "clicks": 130,
+        "ctr": 1.85,
+        "cpc": 0.61,
+        "frequency": 2.71,
+        "result_label": "Mensagens",
+        "result_qty": 8,
+        "result_cpr": 9.99
+      },
+      {
+        "name": "VIDEO ESPECIAL METAL FEST",
+        "campaign": "[ESPECIAL METAL FEST] [MENSAGEM]",
+        "spend": 62.26,
+        "impressions": 4676,
+        "clicks": 91,
+        "ctr": 1.95,
+        "cpc": 0.68,
+        "frequency": 2.17,
+        "result_label": "Mensagens",
+        "result_qty": 9,
+        "result_cpr": 6.92
+      },
+      {
         "name": "O LEGADO 18/09",
         "campaign": "[LEGADO 18/09] [ENGAJAMENTO]",
         "spend": 49.87,
@@ -357,17 +318,17 @@
         "result_cpr": 0.01
       },
       {
-        "name": "VIDEO FLASHBACK",
-        "campaign": "[FLASHBACK] [MENSAGEM]",
-        "spend": 38.15,
-        "impressions": 2593,
-        "clicks": 82,
-        "ctr": 3.16,
-        "cpc": 0.47,
-        "frequency": 1.5,
+        "name": "VIDEO EMO NIGHT",
+        "campaign": "[EMO NIGHT] [MENSAGEM]",
+        "spend": 74.82,
+        "impressions": 6296,
+        "clicks": 172,
+        "ctr": 2.73,
+        "cpc": 0.43,
+        "frequency": 2.31,
         "result_label": "Mensagens",
-        "result_qty": 16,
-        "result_cpr": 2.38
+        "result_qty": 17,
+        "result_cpr": 4.4
       },
       {
         "name": "VIDEO FESTIVAL",
@@ -383,6 +344,32 @@
         "result_cpr": 14.02
       },
       {
+        "name": "ESQUENTA VIROU",
+        "campaign": "[ESQUENTA VIROU] [ENGAJAMENTO]",
+        "spend": 64.37,
+        "impressions": 3659,
+        "clicks": 111,
+        "ctr": 3.03,
+        "cpc": 0.58,
+        "frequency": 1.84,
+        "result_label": "Mensagens",
+        "result_qty": 11,
+        "result_cpr": 5.85
+      },
+      {
+        "name": "ROCK GENERATION",
+        "campaign": "[ROCK GENERATION] [MENSAGEM]",
+        "spend": 74.22,
+        "impressions": 4434,
+        "clicks": 72,
+        "ctr": 1.62,
+        "cpc": 1.03,
+        "frequency": 2.0,
+        "result_label": "Mensagens",
+        "result_qty": 8,
+        "result_cpr": 9.28
+      },
+      {
         "name": "FESTIVAL DE COMIDA MEXICANA",
         "campaign": "[FESTIVAL DE COMIDA MEXICANA] [TRAFEGO]",
         "spend": 24.38,
@@ -394,6 +381,19 @@
         "result_label": "Cliques",
         "result_qty": 133,
         "result_cpr": 0.18
+      },
+      {
+        "name": "POP ROCK SHOW",
+        "campaign": "[POP ROCK SHOW] [MENSAGEM]",
+        "spend": 53.92,
+        "impressions": 3631,
+        "clicks": 136,
+        "ctr": 3.75,
+        "cpc": 0.4,
+        "frequency": 1.68,
+        "result_label": "Mensagens",
+        "result_qty": 17,
+        "result_cpr": 3.17
       },
       {
         "name": "FEED FESTIVAL DE COMIDA MEXICANA",

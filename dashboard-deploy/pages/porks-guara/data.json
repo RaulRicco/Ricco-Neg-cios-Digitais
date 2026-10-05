@@ -4,7 +4,7 @@
     "start": "2026-09-01",
     "end": "2026-09-30"
   },
-  "gerado_em": "2026-10-05T08:07:39.279109",
+  "gerado_em": "2026-10-05T09:04:31.786246",
   "consolidado": null,
   "meta": {
     "spend": 1450.92,
@@ -17,19 +17,6 @@
     "frequency": 1.82,
     "campaigns": [
       {
-        "name": "[PORKS CARD BLACK] [ENGAJAMENTO]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 300.01,
-        "reach": 40022,
-        "impressions": 51657,
-        "clicks": 775,
-        "ctr": 1.5,
-        "cpc": 0.39,
-        "result_label": "Engajamentos",
-        "result_qty": 22667,
-        "result_cpr": 0.01
-      },
-      {
         "name": "[ANIVERSARIANTES] [RESERVAS]",
         "objective": "OUTCOME_LEADS",
         "spend": 297.59,
@@ -41,6 +28,19 @@
         "result_label": "Reservas",
         "result_qty": 2,
         "result_cpr": 148.79
+      },
+      {
+        "name": "[PORKS CARD BLACK] [ENGAJAMENTO]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 300.01,
+        "reach": 40022,
+        "impressions": 51657,
+        "clicks": 775,
+        "ctr": 1.5,
+        "cpc": 0.39,
+        "result_label": "Engajamentos",
+        "result_qty": 22667,
+        "result_cpr": 0.01
       },
       {
         "name": "[FESTIVAL I LOVE BACON] [ENGAJAMENTO]",
@@ -69,19 +69,6 @@
         "result_cpr": 14.15
       },
       {
-        "name": "[ESPECIAL PEARL JAM] [RESERVAS]",
-        "objective": "OUTCOME_LEADS",
-        "spend": 149.95,
-        "reach": 4977,
-        "impressions": 9122,
-        "clicks": 253,
-        "ctr": 2.77,
-        "cpc": 0.59,
-        "result_label": "Reservas",
-        "result_qty": 12,
-        "result_cpr": 12.5
-      },
-      {
         "name": "[BDAY 4 ANOS CHOPE R$1] [ENGAJAMENTO]",
         "objective": "OUTCOME_ENGAGEMENT",
         "spend": 149.5,
@@ -108,6 +95,19 @@
         "result_cpr": 0.02
       },
       {
+        "name": "[ESPECIAL PEARL JAM] [RESERVAS]",
+        "objective": "OUTCOME_LEADS",
+        "spend": 149.95,
+        "reach": 4977,
+        "impressions": 9122,
+        "clicks": 253,
+        "ctr": 2.77,
+        "cpc": 0.59,
+        "result_label": "Reservas",
+        "result_qty": 13,
+        "result_cpr": 11.53
+      },
+      {
         "name": "[ESPECIAL SERENISSIMA] [RESERVAS]",
         "objective": "OUTCOME_LEADS",
         "spend": 36.13,
@@ -117,24 +117,11 @@
         "ctr": 2.8,
         "cpc": 0.66,
         "result_label": "Reservas",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_qty": 1,
+        "result_cpr": 36.13
       }
     ],
     "ads": [
-      {
-        "name": "PORKS CARD BLACK",
-        "campaign": "[PORKS CARD BLACK] [ENGAJAMENTO]",
-        "spend": 300.01,
-        "impressions": 51657,
-        "clicks": 775,
-        "ctr": 1.5,
-        "cpc": 0.39,
-        "frequency": 1.29,
-        "result_label": "Engajamentos",
-        "result_qty": 22667,
-        "result_cpr": 0.01
-      },
       {
         "name": "VIDEO ANIVERSARIO",
         "campaign": "[ANIVERSARIANTES] [RESERVAS]",
@@ -149,95 +136,17 @@
         "result_cpr": 148.79
       },
       {
-        "name": "FEED MAMONAS ASSASSINAS",
-        "campaign": "[ESPECIAL MAMONAS ASSASSINAS] [RESERVAS]",
-        "spend": 169.8,
-        "impressions": 10055,
-        "clicks": 185,
-        "ctr": 1.84,
-        "cpc": 0.92,
-        "frequency": 1.77,
-        "result_label": "Reservas",
-        "result_qty": 12,
-        "result_cpr": 14.15
-      },
-      {
-        "name": "VIDEO FESTIVAL I LOVE BACON",
-        "campaign": "[FESTIVAL I LOVE BACON] [ENGAJAMENTO]",
-        "spend": 166.37,
-        "impressions": 23456,
-        "clicks": 161,
-        "ctr": 0.69,
-        "cpc": 1.03,
-        "frequency": 1.3,
+        "name": "PORKS CARD BLACK",
+        "campaign": "[PORKS CARD BLACK] [ENGAJAMENTO]",
+        "spend": 300.01,
+        "impressions": 51657,
+        "clicks": 775,
+        "ctr": 1.5,
+        "cpc": 0.39,
+        "frequency": 1.29,
         "result_label": "Engajamentos",
-        "result_qty": 10717,
-        "result_cpr": 0.02
-      },
-      {
-        "name": "ESPECIAL PEARL JAM",
-        "campaign": "[ESPECIAL PEARL JAM] [RESERVAS]",
-        "spend": 149.95,
-        "impressions": 9122,
-        "clicks": 253,
-        "ctr": 2.77,
-        "cpc": 0.59,
-        "frequency": 1.83,
-        "result_label": "Reservas",
-        "result_qty": 12,
-        "result_cpr": 12.5
-      },
-      {
-        "name": "VIDEO SEMANA DE ANIVERSARIO",
-        "campaign": "[SEMANA DE ANIVERSARIO",
-        "spend": 148.81,
-        "impressions": 11288,
-        "clicks": 218,
-        "ctr": 1.93,
-        "cpc": 0.68,
-        "frequency": 1.37,
-        "result_label": "Engajamentos",
-        "result_qty": 7168,
-        "result_cpr": 0.02
-      },
-      {
-        "name": "BDAY 4 ANOS VD 2",
-        "campaign": "[BDAY 4 ANOS CHOPE R$1] [ENGAJAMENTO]",
-        "spend": 90.19,
-        "impressions": 16293,
-        "clicks": 169,
-        "ctr": 1.04,
-        "cpc": 0.53,
-        "frequency": 1.24,
-        "result_label": "Engajamentos",
-        "result_qty": 6031,
+        "result_qty": 22667,
         "result_cpr": 0.01
-      },
-      {
-        "name": "BDAY 4 ANOS",
-        "campaign": "[BDAY 4 ANOS CHOPE R$1] [ENGAJAMENTO]",
-        "spend": 59.31,
-        "impressions": 11715,
-        "clicks": 198,
-        "ctr": 1.69,
-        "cpc": 0.3,
-        "frequency": 1.2,
-        "result_label": "Engajamentos",
-        "result_qty": 4751,
-        "result_cpr": 0.01
-      },
-      {
-        "name": "ESPECIAL LEGIAO",
-        "campaign": "[ESPECIAL SERENISSIMA] [RESERVAS]",
-        "spend": 36.13,
-        "impressions": 1966,
-        "clicks": 55,
-        "ctr": 2.8,
-        "cpc": 0.66,
-        "frequency": 1.42,
-        "result_label": "Reservas",
-        "result_qty": 0,
-        "result_cpr": 0
       },
       {
         "name": "MOTION FESTIVAL I LOVE BACON",
@@ -253,17 +162,108 @@
         "result_cpr": 0.02
       },
       {
+        "name": "VIDEO FESTIVAL I LOVE BACON",
+        "campaign": "[FESTIVAL I LOVE BACON] [ENGAJAMENTO]",
+        "spend": 166.37,
+        "impressions": 23456,
+        "clicks": 161,
+        "ctr": 0.69,
+        "cpc": 1.03,
+        "frequency": 1.3,
+        "result_label": "Engajamentos",
+        "result_qty": 10717,
+        "result_cpr": 0.02
+      },
+      {
+        "name": "FEED MAMONAS ASSASSINAS",
+        "campaign": "[ESPECIAL MAMONAS ASSASSINAS] [RESERVAS]",
+        "spend": 169.8,
+        "impressions": 10055,
+        "clicks": 185,
+        "ctr": 1.84,
+        "cpc": 0.92,
+        "frequency": 1.77,
+        "result_label": "Reservas",
+        "result_qty": 12,
+        "result_cpr": 14.15
+      },
+      {
+        "name": "BDAY 4 ANOS",
+        "campaign": "[BDAY 4 ANOS CHOPE R$1] [ENGAJAMENTO]",
+        "spend": 59.31,
+        "impressions": 11715,
+        "clicks": 198,
+        "ctr": 1.69,
+        "cpc": 0.3,
+        "frequency": 1.2,
+        "result_label": "Engajamentos",
+        "result_qty": 4751,
+        "result_cpr": 0.01
+      },
+      {
+        "name": "VIDEO SEMANA DE ANIVERSARIO",
+        "campaign": "[SEMANA DE ANIVERSARIO",
+        "spend": 148.81,
+        "impressions": 11288,
+        "clicks": 218,
+        "ctr": 1.93,
+        "cpc": 0.68,
+        "frequency": 1.37,
+        "result_label": "Engajamentos",
+        "result_qty": 7168,
+        "result_cpr": 0.02
+      },
+      {
         "name": "VIDEO SEMANA DE ANIVERSARIO",
         "campaign": "[SEMANA DE ANIVERSARIO",
         "spend": 0.57,
         "impressions": 62,
         "clicks": 2,
         "ctr": 3.23,
-        "cpc": 0.29,
+        "cpc": 0.28,
         "frequency": 1.44,
         "result_label": "Engajamentos",
         "result_qty": 9,
         "result_cpr": 0.06
+      },
+      {
+        "name": "BDAY 4 ANOS VD 2",
+        "campaign": "[BDAY 4 ANOS CHOPE R$1] [ENGAJAMENTO]",
+        "spend": 90.19,
+        "impressions": 16293,
+        "clicks": 169,
+        "ctr": 1.04,
+        "cpc": 0.53,
+        "frequency": 1.24,
+        "result_label": "Engajamentos",
+        "result_qty": 6031,
+        "result_cpr": 0.01
+      },
+      {
+        "name": "ESPECIAL PEARL JAM",
+        "campaign": "[ESPECIAL PEARL JAM] [RESERVAS]",
+        "spend": 149.95,
+        "impressions": 9122,
+        "clicks": 253,
+        "ctr": 2.77,
+        "cpc": 0.59,
+        "frequency": 1.83,
+        "result_label": "Reservas",
+        "result_qty": 13,
+        "result_cpr": 11.53
+      },
+      {
+        "name": "ESPECIAL LEGIAO",
+        "campaign": "[ESPECIAL SERENISSIMA] [RESERVAS]",
+        "spend": 36.13,
+        "impressions": 1966,
+        "clicks": 55,
+        "ctr": 2.8,
+        "cpc": 0.66,
+        "frequency": 1.42,
+        "result_label": "Reservas",
+        "result_qty": 1,
+        "result_cpr": 36.13
       }
     ]
   },

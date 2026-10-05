@@ -1,291 +1,289 @@
 {
   "cliente": "Churrascaria Boi Dourado",
   "periodo": {
-    "start": "2026-08-01",
-    "end": "2026-08-31"
+    "start": "2026-09-01",
+    "end": "2026-09-30"
   },
-  "gerado_em": "2026-09-07T07:40:29.435438",
+  "gerado_em": "2026-10-05T09:02:34.512149",
   "consolidado": {
-    "spend": 3787.33,
-    "reach": 166575,
-    "impressions": 444504,
-    "clicks": 13295,
-    "meta_spend": 2633.15,
-    "google_spend": 1154.18
+    "spend": 3174.83,
+    "reach": 121512,
+    "impressions": 273713,
+    "clicks": 8324,
+    "meta_spend": 1884.75,
+    "google_spend": 1290.08
   },
   "meta": {
-    "spend": 2633.15,
-    "reach": 166575,
-    "impressions": 416014,
-    "clicks": 11673,
-    "cpm": 6.33,
-    "cpc": 0.23,
-    "ctr": 2.81,
-    "frequency": 2.5,
+    "spend": 1884.75,
+    "reach": 121512,
+    "impressions": 259992,
+    "clicks": 7284,
+    "cpm": 7.25,
+    "cpc": 0.26,
+    "ctr": 2.8,
+    "frequency": 2.14,
     "campaigns": [
       {
         "name": "[CBO] [TOPO NOV/25] [TRAFEGO]",
         "objective": "LINK_CLICKS",
-        "spend": 314.89,
-        "reach": 47174,
-        "impressions": 67726,
-        "clicks": 3461,
+        "spend": 298.97,
+        "reach": 34166,
+        "impressions": 46123,
+        "clicks": 2359,
         "ctr": 5.11,
-        "cpc": 0.09,
+        "cpc": 0.13,
         "result_label": "Cliques",
-        "result_qty": 1133,
-        "result_cpr": 0.28
+        "result_qty": 988,
+        "result_cpr": 0.3
       },
       {
         "name": "[CBO] [MEIO DE FUNIL JAN/26] [ENGAJAMENTO]",
         "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 223.41,
-        "reach": 46258,
-        "impressions": 72613,
-        "clicks": 1668,
-        "ctr": 2.3,
-        "cpc": 0.13,
+        "spend": 208.27,
+        "reach": 37369,
+        "impressions": 50741,
+        "clicks": 1159,
+        "ctr": 2.28,
+        "cpc": 0.18,
         "result_label": "Engajamentos",
-        "result_qty": 31369,
+        "result_qty": 23420,
         "result_cpr": 0.01
       },
       {
         "name": "[CBO] [ANIVERSARIOS 26] [LEADS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 315.38,
-        "reach": 29657,
-        "impressions": 50032,
-        "clicks": 1015,
-        "ctr": 2.03,
-        "cpc": 0.31,
+        "spend": 299.97,
+        "reach": 23316,
+        "impressions": 39979,
+        "clicks": 892,
+        "ctr": 2.23,
+        "cpc": 0.34,
         "result_label": "Leads",
-        "result_qty": 23,
-        "result_cpr": 13.71
+        "result_qty": 39,
+        "result_cpr": 7.69
       },
       {
         "name": "[CBO] [PROMO CASAL MAI/26] [LEADS",
         "objective": "OUTCOME_LEADS",
-        "spend": 590.62,
-        "reach": 35033,
-        "impressions": 88718,
-        "clicks": 1498,
-        "ctr": 1.69,
-        "cpc": 0.39,
+        "spend": 593.14,
+        "reach": 30847,
+        "impressions": 78276,
+        "clicks": 1364,
+        "ctr": 1.74,
+        "cpc": 0.43,
         "result_label": "Leads",
-        "result_qty": 92,
-        "result_cpr": 6.42
-      },
-      {
-        "name": "[PROMO REL. DOURADO SEGAQUI26] [RESERVAS]",
-        "objective": "OUTCOME_LEADS",
-        "spend": 594.35,
-        "reach": 32483,
-        "impressions": 66669,
-        "clicks": 2046,
-        "ctr": 3.07,
-        "cpc": 0.29,
-        "result_label": "Leads",
-        "result_qty": 295,
-        "result_cpr": 2.01
+        "result_qty": 70,
+        "result_cpr": 8.47
       },
       {
         "name": "[CBO] [PROMO FDS 26] [LEADS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 594.5,
-        "reach": 35707,
-        "impressions": 70256,
-        "clicks": 1985,
-        "ctr": 2.83,
-        "cpc": 0.3,
+        "spend": 484.4,
+        "reach": 20005,
+        "impressions": 44873,
+        "clicks": 1510,
+        "ctr": 3.37,
+        "cpc": 0.32,
         "result_label": "Leads",
-        "result_qty": 326,
-        "result_cpr": 1.82
+        "result_qty": 275,
+        "result_cpr": 1.76
       }
     ],
     "ads": [
       {
         "name": "VIDEO 23 OUT",
         "campaign": "[CBO] [TOPO NOV/25] [TRAFEGO]",
-        "spend": 313.18,
-        "impressions": 67483,
-        "clicks": 3445,
+        "spend": 298.13,
+        "impressions": 46003,
+        "clicks": 2346,
         "ctr": 5.1,
-        "cpc": 0.09,
-        "frequency": 1.43,
+        "cpc": 0.13,
+        "frequency": 1.35,
         "result_label": "Cliques",
-        "result_qty": 1127,
-        "result_cpr": 0.28
+        "result_qty": 982,
+        "result_cpr": 0.3
       },
       {
         "name": "VIDEO 17.11 TOPO DE FUNIL",
         "campaign": "[CBO] [TOPO NOV/25] [TRAFEGO]",
-        "spend": 1.71,
-        "impressions": 243,
-        "clicks": 16,
-        "ctr": 6.58,
-        "cpc": 0.11,
-        "frequency": 1.06,
+        "spend": 0.84,
+        "impressions": 120,
+        "clicks": 13,
+        "ctr": 10.83,
+        "cpc": 0.06,
+        "frequency": 1.08,
         "result_label": "Cliques",
         "result_qty": 6,
-        "result_cpr": 0.28
+        "result_cpr": 0.14
       },
       {
         "name": "VIDEO 4 JAN",
         "campaign": "[CBO] [MEIO DE FUNIL JAN/26] [ENGAJAMENTO]",
-        "spend": 0.35,
-        "impressions": 95,
-        "clicks": 7,
-        "ctr": 7.37,
-        "cpc": 0.05,
-        "frequency": 1.06,
+        "spend": 0.45,
+        "impressions": 104,
+        "clicks": 2,
+        "ctr": 1.92,
+        "cpc": 0.23,
+        "frequency": 1.12,
         "result_label": "Engajamentos",
-        "result_qty": 60,
+        "result_qty": 55,
         "result_cpr": 0.01
       },
       {
         "name": "VIDEO 30 DEZ",
         "campaign": "[CBO] [MEIO DE FUNIL JAN/26] [ENGAJAMENTO]",
-        "spend": 1.96,
-        "impressions": 481,
-        "clicks": 10,
-        "ctr": 2.08,
-        "cpc": 0.2,
-        "frequency": 1.07,
+        "spend": 2.38,
+        "impressions": 544,
+        "clicks": 6,
+        "ctr": 1.1,
+        "cpc": 0.4,
+        "frequency": 1.04,
         "result_label": "Engajamentos",
-        "result_qty": 241,
+        "result_qty": 247,
         "result_cpr": 0.01
       },
       {
         "name": "VIDEO 22 DEZ",
         "campaign": "[CBO] [MEIO DE FUNIL JAN/26] [ENGAJAMENTO]",
-        "spend": 0.42,
-        "impressions": 118,
-        "clicks": 7,
-        "ctr": 5.93,
-        "cpc": 0.06,
-        "frequency": 1.04,
+        "spend": 0.45,
+        "impressions": 106,
+        "clicks": 4,
+        "ctr": 3.77,
+        "cpc": 0.11,
+        "frequency": 1.06,
         "result_label": "Engajamentos",
-        "result_qty": 54,
+        "result_qty": 58,
         "result_cpr": 0.01
       },
       {
         "name": "VIDEO 8 DEZ",
         "campaign": "[CBO] [MEIO DE FUNIL JAN/26] [ENGAJAMENTO]",
-        "spend": 0.94,
-        "impressions": 255,
-        "clicks": 3,
-        "ctr": 1.18,
-        "cpc": 0.31,
-        "frequency": 1.02,
+        "spend": 1.59,
+        "impressions": 370,
+        "clicks": 4,
+        "ctr": 1.08,
+        "cpc": 0.4,
+        "frequency": 1.06,
         "result_label": "Engajamentos",
-        "result_qty": 132,
+        "result_qty": 171,
         "result_cpr": 0.01
       },
       {
         "name": "VIDEO 3 DEZ",
         "campaign": "[CBO] [MEIO DE FUNIL JAN/26] [ENGAJAMENTO]",
-        "spend": 219.74,
-        "impressions": 71664,
-        "clicks": 1641,
-        "ctr": 2.29,
-        "cpc": 0.13,
-        "frequency": 1.56,
+        "spend": 203.4,
+        "impressions": 49617,
+        "clicks": 1143,
+        "ctr": 2.3,
+        "cpc": 0.18,
+        "frequency": 1.34,
         "result_label": "Engajamentos",
-        "result_qty": 30882,
+        "result_qty": 22889,
         "result_cpr": 0.01
       },
       {
         "name": "VIDEO ANIVERSARIO",
         "campaign": "[CBO] [ANIVERSARIOS 26] [LEADS]",
-        "spend": 315.38,
-        "impressions": 50032,
-        "clicks": 1015,
-        "ctr": 2.03,
-        "cpc": 0.31,
-        "frequency": 1.69,
+        "spend": 299.97,
+        "impressions": 39979,
+        "clicks": 892,
+        "ctr": 2.23,
+        "cpc": 0.34,
+        "frequency": 1.71,
         "result_label": "Leads",
-        "result_qty": 23,
-        "result_cpr": 13.71
+        "result_qty": 39,
+        "result_cpr": 7.69
       },
       {
-        "name": "motion_promo_casal_agosto",
+        "name": "motion_promo_casal_set_01",
         "campaign": "[CBO] [PROMO CASAL MAI/26] [LEADS",
-        "spend": 590.62,
-        "impressions": 88718,
-        "clicks": 1498,
-        "ctr": 1.69,
-        "cpc": 0.39,
-        "frequency": 2.53,
+        "spend": 527.38,
+        "impressions": 69974,
+        "clicks": 1223,
+        "ctr": 1.75,
+        "cpc": 0.43,
+        "frequency": 2.4,
         "result_label": "Leads",
-        "result_qty": 91,
-        "result_cpr": 6.49
+        "result_qty": 67,
+        "result_cpr": 7.87
       },
       {
-        "name": "motion_rd_2_ago_26_qui",
-        "campaign": "[PROMO REL. DOURADO SEGAQUI26] [RESERVAS]",
-        "spend": 594.35,
-        "impressions": 66669,
-        "clicks": 2046,
-        "ctr": 3.07,
-        "cpc": 0.29,
-        "frequency": 2.05,
+        "name": "motion_promo_casal_set_02",
+        "campaign": "[CBO] [PROMO CASAL MAI/26] [LEADS",
+        "spend": 65.76,
+        "impressions": 8302,
+        "clicks": 141,
+        "ctr": 1.7,
+        "cpc": 0.47,
+        "frequency": 1.55,
         "result_label": "Leads",
-        "result_qty": 295,
-        "result_cpr": 2.01
+        "result_qty": 3,
+        "result_cpr": 21.92
       },
       {
-        "name": "relampago_fds_2_ago_26",
+        "name": "promo_reserva_inteligente",
         "campaign": "[CBO] [PROMO FDS 26] [LEADS]",
-        "spend": 594.5,
-        "impressions": 70256,
-        "clicks": 1985,
-        "ctr": 2.83,
-        "cpc": 0.3,
-        "frequency": 1.97,
+        "spend": 484.4,
+        "impressions": 44873,
+        "clicks": 1510,
+        "ctr": 3.37,
+        "cpc": 0.32,
+        "frequency": 2.24,
         "result_label": "Leads",
-        "result_qty": 326,
-        "result_cpr": 1.82
+        "result_qty": 271,
+        "result_cpr": 1.79
       }
     ]
   },
   "google": {
-    "spend": 1154.18,
-    "impressions": 28490,
-    "clicks": 1622,
-    "ctr": 5.69,
-    "cpc": 0.71,
-    "conversions": 25,
-    "cpa": 46.17,
+    "spend": 1290.08,
+    "impressions": 13721,
+    "clicks": 1040,
+    "ctr": 7.58,
+    "cpc": 1.24,
+    "conversions": 21,
+    "cpa": 61.43,
     "campaigns": [
       {
         "name": "[REDE DE PESQUISA] [FECHADA]",
         "type": "Search",
         "status": "Enabled",
-        "spend": 1154.18,
-        "impressions": 28490,
-        "clicks": 1622,
-        "ctr": 5.69,
-        "cpc": 0.71,
-        "conversions": 25
+        "spend": 1256.36,
+        "impressions": 12446,
+        "clicks": 985,
+        "ctr": 7.91,
+        "cpc": 1.28,
+        "conversions": 21
+      },
+      {
+        "name": "PMAX 2.0",
+        "type": "Performance_Max",
+        "status": "Enabled",
+        "spend": 33.72,
+        "impressions": 1275,
+        "clicks": 55,
+        "ctr": 4.31,
+        "cpc": 0.61,
+        "conversions": 0
       }
     ],
     "keywords": [
       {
         "keyword": "churrascaria curitiba",
         "match": "Exact",
-        "impressions": 13384,
-        "clicks": 1051,
-        "ctr": 7.85,
-        "cpc": 0.83,
-        "conversions": 17
+        "impressions": 11091,
+        "clicks": 884,
+        "ctr": 7.97,
+        "cpc": 1.24,
+        "conversions": 19
       },
       {
         "keyword": "rodizios em curitiba",
         "match": "Exact",
-        "impressions": 1192,
-        "clicks": 81,
-        "ctr": 6.8,
-        "cpc": 1.47,
+        "impressions": 1355,
+        "clicks": 101,
+        "ctr": 7.45,
+        "cpc": 1.59,
         "conversions": 2
       }
     ],
@@ -293,261 +291,229 @@
       {
         "term": "churrascaria curitiba",
         "keyword": "—",
-        "impressions": 8497,
-        "clicks": 646,
-        "ctr": 7.6,
-        "cpc": 0.8
+        "impressions": 7121,
+        "clicks": 519,
+        "ctr": 7.29,
+        "cpc": 1.3
       },
       {
         "term": "churrascaria em curitiba",
         "keyword": "—",
-        "impressions": 2798,
-        "clicks": 240,
-        "ctr": 8.58,
-        "cpc": 0.96
+        "impressions": 2198,
+        "clicks": 222,
+        "ctr": 10.1,
+        "cpc": 1.1
       },
       {
         "term": "churrascarias em curitiba",
         "keyword": "—",
-        "impressions": 1087,
-        "clicks": 84,
-        "ctr": 7.73,
-        "cpc": 0.76
+        "impressions": 824,
+        "clicks": 67,
+        "ctr": 8.13,
+        "cpc": 1.2
       },
       {
         "term": "rodizio curitiba",
         "keyword": "—",
-        "impressions": 367,
-        "clicks": 19,
-        "ctr": 5.18,
-        "cpc": 1.21
-      },
-      {
-        "term": "rodizios em curitiba",
-        "keyword": "—",
-        "impressions": 156,
-        "clicks": 14,
-        "ctr": 8.97,
-        "cpc": 1.63
-      },
-      {
-        "term": "churrascarias curitiba",
-        "keyword": "—",
-        "impressions": 427,
-        "clicks": 28,
-        "ctr": 6.56,
-        "cpc": 0.65
+        "impressions": 471,
+        "clicks": 33,
+        "ctr": 7.01,
+        "cpc": 1.58
       },
       {
         "term": "rodizio em curitiba",
         "keyword": "—",
-        "impressions": 180,
-        "clicks": 10,
-        "ctr": 5.56,
-        "cpc": 1.5
+        "impressions": 208,
+        "clicks": 19,
+        "ctr": 9.13,
+        "cpc": 1.49
       },
       {
-        "term": "rodízios em curitiba",
+        "term": "rodizios em curitiba",
         "keyword": "—",
-        "impressions": 82,
-        "clicks": 7,
-        "ctr": 8.54,
-        "cpc": 1.8
+        "impressions": 170,
+        "clicks": 13,
+        "ctr": 7.65,
+        "cpc": 2.09
+      },
+      {
+        "term": "churrascarias curitiba",
+        "keyword": "—",
+        "impressions": 234,
+        "clicks": 12,
+        "ctr": 5.13,
+        "cpc": 2.02
+      },
+      {
+        "term": "churrascaria curitiba pr",
+        "keyword": "—",
+        "impressions": 37,
+        "clicks": 8,
+        "ctr": 21.62,
+        "cpc": 1.43
       },
       {
         "term": "rodízio em curitiba",
         "keyword": "—",
-        "impressions": 91,
-        "clicks": 9,
-        "ctr": 9.89,
-        "cpc": 1.3
-      },
-      {
-        "term": "churrascaria de curitiba",
-        "keyword": "—",
-        "impressions": 44,
-        "clicks": 4,
-        "ctr": 9.09,
-        "cpc": 2.32
-      },
-      {
-        "term": "rodízios curitiba",
-        "keyword": "—",
-        "impressions": 14,
-        "clicks": 2,
-        "ctr": 14.29,
-        "cpc": 3.46
+        "impressions": 78,
+        "clicks": 7,
+        "ctr": 8.97,
+        "cpc": 1.57
       },
       {
         "term": "churrascaria boa em curitiba",
         "keyword": "—",
-        "impressions": 113,
-        "clicks": 13,
-        "ctr": 11.5,
-        "cpc": 0.52
+        "impressions": 77,
+        "clicks": 7,
+        "ctr": 9.09,
+        "cpc": 1.31
       },
       {
-        "term": "churrascarias em curitiba pr",
+        "term": "restaurantes churrascaria curitiba",
         "keyword": "—",
-        "impressions": 24,
-        "clicks": 2,
-        "ctr": 8.33,
-        "cpc": 3.26
-      },
-      {
-        "term": "churrascarias boas em curitiba",
-        "keyword": "—",
-        "impressions": 11,
-        "clicks": 3,
-        "ctr": 27.27,
-        "cpc": 1.26
-      },
-      {
-        "term": "churrascarias de curitiba",
-        "keyword": "—",
-        "impressions": 22,
-        "clicks": 3,
-        "ctr": 13.64,
-        "cpc": 1.21
-      },
-      {
-        "term": "onde comer churrasco em curitiba",
-        "keyword": "—",
-        "impressions": 15,
+        "impressions": 6,
         "clicks": 4,
-        "ctr": 26.67,
-        "cpc": 0.89
+        "ctr": 66.67,
+        "cpc": 2.07
       },
       {
-        "term": "churrascaria curitiba paraná",
+        "term": "restaurante rodizio curitiba",
         "keyword": "—",
-        "impressions": 7,
-        "clicks": 3,
-        "ctr": 42.86,
-        "cpc": 1.14
+        "impressions": 42,
+        "clicks": 4,
+        "ctr": 9.52,
+        "cpc": 1.72
       },
       {
-        "term": "lugares com rodizio em curitiba",
+        "term": "rodízio curitiba",
         "keyword": "—",
-        "impressions": 5,
-        "clicks": 1,
-        "ctr": 20.0,
-        "cpc": 1.68
+        "impressions": 67,
+        "clicks": 4,
+        "ctr": 5.97,
+        "cpc": 1.42
       },
       {
-        "term": "churrasco em curitiba",
+        "term": "restaurante churrascaria em curitiba",
         "keyword": "—",
         "impressions": 6,
         "clicks": 1,
         "ctr": 16.67,
-        "cpc": 1.54
+        "cpc": 4.13
+      },
+      {
+        "term": "restaurantes rodizio curitiba",
+        "keyword": "—",
+        "impressions": 17,
+        "clicks": 2,
+        "ctr": 11.76,
+        "cpc": 1.84
       },
       {
         "term": "rodizios curitiba",
         "keyword": "—",
         "impressions": 28,
-        "clicks": 1,
-        "ctr": 3.57,
-        "cpc": 1.53
-      },
-      {
-        "term": "rodízio curitiba",
-        "keyword": "—",
-        "impressions": 69,
-        "clicks": 3,
-        "ctr": 4.35,
-        "cpc": 0.43
-      },
-      {
-        "term": "restaurante curitiba rodizio",
-        "keyword": "—",
-        "impressions": 21,
-        "clicks": 1,
-        "ctr": 4.76,
-        "cpc": 0.53
-      },
-      {
-        "term": "churrascaria curitiba pr",
-        "keyword": "—",
-        "impressions": 57,
         "clicks": 2,
-        "ctr": 3.51,
-        "cpc": 0.12
+        "ctr": 7.14,
+        "cpc": 1.48
       },
       {
-        "term": "restaurante curitiba churrascaria",
+        "term": "rodízios em curitiba",
         "keyword": "—",
-        "impressions": 13,
-        "clicks": 1,
-        "ctr": 7.69,
-        "cpc": 0.19
+        "impressions": 77,
+        "clicks": 4,
+        "ctr": 5.19,
+        "cpc": 0.71
       },
       {
-        "term": "restaurante churrascaria em curitiba",
+        "term": "lugares com rodizio em curitiba",
         "keyword": "—",
-        "impressions": 12,
+        "impressions": 18,
         "clicks": 1,
-        "ctr": 8.33,
-        "cpc": 0.15
+        "ctr": 5.56,
+        "cpc": 2.53
       },
       {
         "term": "churrasco curitiba",
         "keyword": "—",
-        "impressions": 8,
-        "clicks": 1,
-        "ctr": 12.5,
-        "cpc": 0.1
+        "impressions": 70,
+        "clicks": 4,
+        "ctr": 5.71,
+        "cpc": 0.36
       },
       {
-        "term": "churrascaria aberta curitiba",
+        "term": "churrasco em curitiba",
         "keyword": "—",
-        "impressions": 1,
+        "impressions": 44,
+        "clicks": 2,
+        "ctr": 4.55,
+        "cpc": 0.62
+      },
+      {
+        "term": "churrascarias de curitiba",
+        "keyword": "—",
+        "impressions": 27,
         "clicks": 1,
-        "ctr": 100.0,
-        "cpc": 0.04
+        "ctr": 3.7,
+        "cpc": 0.85
+      },
+      {
+        "term": "churrascaria em curitiba pr",
+        "keyword": "—",
+        "impressions": 8,
+        "clicks": 2,
+        "ctr": 25.0,
+        "cpc": 0.36
+      },
+      {
+        "term": "rodízios curitiba",
+        "keyword": "—",
+        "impressions": 13,
+        "clicks": 1,
+        "ctr": 7.69,
+        "cpc": 0.68
+      },
+      {
+        "term": "restaurante churrascaria curitiba",
+        "keyword": "—",
+        "impressions": 17,
+        "clicks": 1,
+        "ctr": 5.88,
+        "cpc": 0.48
+      },
+      {
+        "term": "restaurante curitiba rodizio",
+        "keyword": "—",
+        "impressions": 15,
+        "clicks": 1,
+        "ctr": 6.67,
+        "cpc": 0.29
+      },
+      {
+        "term": "curitiba churrascaria",
+        "keyword": "—",
+        "impressions": 17,
+        "clicks": 2,
+        "ctr": 11.76,
+        "cpc": 0.09
+      },
+      {
+        "term": "churrascarias em curitiba pr",
+        "keyword": "—",
+        "impressions": 27,
+        "clicks": 2,
+        "ctr": 7.41,
+        "cpc": 0.08
       },
       {
         "term": "boas churrascarias em curitiba",
         "keyword": "—",
-        "impressions": 1,
+        "impressions": 5,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0
       },
       {
-        "term": "chirrascaria em curitiba",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "churascaria curitiba",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "churascaria em curitiba",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "churracaria curitiba",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "churracaria em curitiba",
+        "term": "churrascaria aberta curitiba",
         "keyword": "—",
         "impressions": 1,
         "clicks": 0,
@@ -557,29 +523,13 @@
       {
         "term": "churrascaria aberta em curitiba",
         "keyword": "—",
-        "impressions": 2,
+        "impressions": 6,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0
       },
       {
-        "term": "churrascaria abertas em curitiba",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "churrascaria em curitiba pr",
-        "keyword": "—",
-        "impressions": 10,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "churrascarias restaurantes curitiba",
+        "term": "churrascaria curitiba paraná",
         "keyword": "—",
         "impressions": 1,
         "clicks": 0,
@@ -587,9 +537,49 @@
         "cpc": 0
       },
       {
-        "term": "curitiba churrascaria",
+        "term": "churrascaria cwb",
         "keyword": "—",
-        "impressions": 19,
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "churrascaria de curitiba",
+        "keyword": "—",
+        "impressions": 18,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "churrascaria em curitiba boa",
+        "keyword": "—",
+        "impressions": 5,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "churrascaria em curitiba jantar",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "churrascarias boas em curitiba",
+        "keyword": "—",
+        "impressions": 24,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "churrascarias e restaurantes em curitiba",
+        "keyword": "—",
+        "impressions": 2,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0
@@ -597,7 +587,15 @@
       {
         "term": "curitiba churrascarias",
         "keyword": "—",
-        "impressions": 3,
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "curitiba churrasco",
+        "keyword": "—",
+        "impressions": 1,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0
@@ -605,23 +603,23 @@
       {
         "term": "curitiba rodizio",
         "keyword": "—",
-        "impressions": 2,
+        "impressions": 1,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0
       },
       {
-        "term": "restaurante churrascaria curitiba",
+        "term": "onde comer churrasco em curitiba",
         "keyword": "—",
-        "impressions": 13,
+        "impressions": 8,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0
       },
       {
-        "term": "restaurante churrasco curitiba",
+        "term": "restaurante curitiba churrascaria",
         "keyword": "—",
-        "impressions": 13,
+        "impressions": 11,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0
@@ -629,21 +627,13 @@
       {
         "term": "restaurante curitiba churrasco",
         "keyword": "—",
-        "impressions": 7,
+        "impressions": 8,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0
       },
       {
-        "term": "restaurante rodizio curitiba",
-        "keyword": "—",
-        "impressions": 14,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "restaurantes churrascaria curitiba",
+        "term": "restaurante e churrascaria em curitiba",
         "keyword": "—",
         "impressions": 2,
         "clicks": 0,
@@ -651,9 +641,17 @@
         "cpc": 0
       },
       {
-        "term": "restaurantes rodizio curitiba",
+        "term": "restaurante rodízio curitiba",
         "keyword": "—",
-        "impressions": 20,
+        "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "restaurantes e churrascarias em curitiba",
+        "keyword": "—",
+        "impressions": 7,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0
@@ -661,156 +659,156 @@
     ]
   },
   "ga4": {
-    "sessions": 12100,
-    "users": 8494,
-    "new_users": 16389,
-    "pageviews": 27660,
-    "bounce_rate": 28.21,
-    "duration": "2m 36s",
-    "events": 96152,
-    "conversions": 3291,
+    "sessions": 8726,
+    "users": 6345,
+    "new_users": 12103,
+    "pageviews": 19638,
+    "bounce_rate": 29.01,
+    "duration": "2m 25s",
+    "events": 69415,
+    "conversions": 2378,
     "sources": [
       {
         "source": "google",
         "medium": "organic",
-        "sessions": 2697,
-        "pct": 22.6
+        "sessions": 2294,
+        "pct": 26.2
       },
       {
         "source": "ig",
         "medium": "social",
-        "sessions": 2277,
-        "pct": 19.1
+        "sessions": 1956,
+        "pct": 22.4
       },
       {
         "source": "meta_ads",
-        "medium": "relampago_fds_2_ago_26",
-        "sessions": 1505,
-        "pct": 12.6
+        "medium": "promo_reserva_inteligente",
+        "sessions": 1219,
+        "pct": 13.9
       },
       {
         "source": "meta",
-        "medium": "motion_rd_2_ago_26_qui",
-        "sessions": 1393,
-        "pct": 11.7
-      },
-      {
-        "source": "google",
-        "medium": "cpc",
-        "sessions": 1089,
-        "pct": 9.1
-      },
-      {
-        "source": "meta",
-        "medium": "motion_promo_casal_agosto",
-        "sessions": 1022,
-        "pct": 8.6
+        "medium": "motion_promo_casal_set_01",
+        "sessions": 868,
+        "pct": 9.9
       },
       {
         "source": "(direct)",
         "medium": "(none)",
-        "sessions": 787,
-        "pct": 6.6
+        "sessions": 678,
+        "pct": 7.8
+      },
+      {
+        "source": "google",
+        "medium": "cpc",
+        "sessions": 641,
+        "pct": 7.3
       },
       {
         "source": "META ADS",
         "medium": "[CBO] [ANIVERSARIOS 26] [LEADS]",
-        "sessions": 511,
-        "pct": 4.3
+        "sessions": 572,
+        "pct": 6.5
       },
       {
-        "source": "fb",
+        "source": "meta",
+        "medium": "motion_promo_casal_set_02",
+        "sessions": 95,
+        "pct": 1.1
+      },
+      {
+        "source": "ig",
         "medium": "paid",
-        "sessions": 111,
-        "pct": 0.9
-      },
-      {
-        "source": "(not set)",
-        "medium": "(not set)",
-        "sessions": 97,
-        "pct": 0.8
+        "sessions": 65,
+        "pct": 0.7
       },
       {
         "source": "l.facebook.com",
         "medium": "referral",
-        "sessions": 84,
+        "sessions": 58,
         "pct": 0.7
       },
       {
         "source": "chatgpt.com",
         "medium": "ai-assistant",
-        "sessions": 72,
+        "sessions": 50,
         "pct": 0.6
       },
       {
-        "source": "ig",
+        "source": "bing",
+        "medium": "organic",
+        "sessions": 47,
+        "pct": 0.5
+      },
+      {
+        "source": "(not set)",
+        "medium": "(not set)",
+        "sessions": 46,
+        "pct": 0.5
+      },
+      {
+        "source": "fb",
         "medium": "paid",
-        "sessions": 45,
+        "sessions": 32,
         "pct": 0.4
       },
       {
         "source": "(data not available)",
         "medium": "(data not available)",
-        "sessions": 42,
-        "pct": 0.4
-      },
-      {
-        "source": "bing",
-        "medium": "organic",
-        "sessions": 40,
+        "sessions": 26,
         "pct": 0.3
       },
       {
-        "source": "l.instagram.com",
+        "source": "facebook.com",
         "medium": "referral",
-        "sessions": 27,
+        "sessions": 24,
+        "pct": 0.3
+      },
+      {
+        "source": "google_ads",
+        "medium": "search",
+        "sessions": 15,
         "pct": 0.2
       },
       {
         "source": "m.facebook.com",
         "medium": "referral",
-        "sessions": 24,
-        "pct": 0.2
-      },
-      {
-        "source": "google_ads",
-        "medium": "search",
-        "sessions": 23,
-        "pct": 0.2
-      },
-      {
-        "source": "facebook.com",
-        "medium": "referral",
-        "sessions": 20,
+        "sessions": 15,
         "pct": 0.2
       },
       {
         "source": "muralzinhodeideias.com.br",
         "medium": "referral",
-        "sessions": 18,
+        "sessions": 14,
         "pct": 0.2
+      },
+      {
+        "source": "Google ads",
+        "medium": "pmax",
+        "sessions": 11,
+        "pct": 0.1
       }
     ],
     "event_list": [
       {
         "name": "click",
-        "count": 5990
-      },
-      {
-        "name": "form_start",
-        "count": 2510
+        "count": 4979
       },
       {
         "name": "clicou_reserva_hero",
-        "count": 1783
+        "count": 1493
+      },
+      {
+        "name": "form_start",
+        "count": 941
       },
       {
         "name": "clicou_wttp",
-        "count": 809
+        "count": 599
       },
       {
         "name": "generate_lead",
-        "count": 699
+        "count": 286
       }
     ]
   },

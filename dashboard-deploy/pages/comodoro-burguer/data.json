@@ -1,406 +1,1083 @@
 {
   "cliente": "Comodoro Burguer",
   "periodo": {
-    "start": "2026-08-01",
-    "end": "2026-08-31"
+    "start": "2026-09-01",
+    "end": "2026-09-30"
   },
-  "gerado_em": "2026-09-07T07:41:19.175469",
+  "gerado_em": "2026-10-05T09:03:26.204191",
   "consolidado": {
-    "spend": 3861.93,
-    "reach": 214877,
-    "impressions": 441724,
-    "clicks": 6394,
-    "meta_spend": 3778.93,
-    "google_spend": 83.0
+    "spend": 9339.93,
+    "reach": 354364,
+    "impressions": 852634,
+    "clicks": 21940,
+    "meta_spend": 8426.49,
+    "google_spend": 913.44
   },
   "meta": {
-    "spend": 3778.93,
-    "reach": 214877,
-    "impressions": 440713,
-    "clicks": 6337,
-    "cpm": 8.57,
-    "cpc": 0.6,
-    "ctr": 1.44,
-    "frequency": 2.05,
+    "spend": 8426.49,
+    "reach": 354364,
+    "impressions": 845343,
+    "clicks": 21566,
+    "cpm": 9.97,
+    "cpc": 0.39,
+    "ctr": 2.55,
+    "frequency": 2.39,
     "campaigns": [
       {
-        "name": "[CURITIBA] [PINK PROMO JULIO] [ENGAJAMENTO]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 1978.21,
-        "reach": 131270,
-        "impressions": 235176,
-        "clicks": 3609,
-        "ctr": 1.53,
-        "cpc": 0.55,
-        "result_label": "Engajamentos",
-        "result_qty": 128077,
-        "result_cpr": 0.02
+        "name": "[CURITBA] PINK LEMONADE] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 1684.29,
+        "reach": 94576,
+        "impressions": 192508,
+        "clicks": 3423,
+        "ctr": 1.78,
+        "cpc": 0.49,
+        "result_label": "Cliques",
+        "result_qty": 3222,
+        "result_cpr": 0.52
       },
       {
-        "name": "[COLOMBO] [PINK PROMO JULIO] [ENGAJAMENTO]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 257.34,
-        "reach": 17069,
-        "impressions": 31152,
-        "clicks": 421,
-        "ctr": 1.35,
-        "cpc": 0.61,
-        "result_label": "Engajamentos",
-        "result_qty": 15955,
-        "result_cpr": 0.02
+        "name": "[COLOMBO] PINK LEMONADE] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 210.41,
+        "reach": 15521,
+        "impressions": 30120,
+        "clicks": 351,
+        "ctr": 1.17,
+        "cpc": 0.6,
+        "result_label": "Cliques",
+        "result_qty": 344,
+        "result_cpr": 0.61
       },
       {
-        "name": "[PONTA GROSSA] [PINK PROMO JULIO] [ENGAJAMENTO]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 257.2,
-        "reach": 20678,
-        "impressions": 39906,
-        "clicks": 457,
-        "ctr": 1.15,
-        "cpc": 0.56,
-        "result_label": "Engajamentos",
-        "result_qty": 18478,
-        "result_cpr": 0.01
+        "name": "[PONTA GROSSA] PINK LEMONADE] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 210.49,
+        "reach": 13213,
+        "impressions": 29843,
+        "clicks": 353,
+        "ctr": 1.18,
+        "cpc": 0.6,
+        "result_label": "Cliques",
+        "result_qty": 346,
+        "result_cpr": 0.61
       },
       {
-        "name": "[PINHAIS] [PINK PROMO JULIO] [ENGAJAMENTO]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 257.22,
-        "reach": 15088,
-        "impressions": 25632,
-        "clicks": 364,
-        "ctr": 1.42,
-        "cpc": 0.71,
-        "result_label": "Engajamentos",
-        "result_qty": 14807,
-        "result_cpr": 0.02
-      },
-      {
-        "name": "[ARAUCARIA] [PINK PROMO JULIO] [ENGAJAMENTO]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 257.24,
-        "reach": 15853,
-        "impressions": 30104,
-        "clicks": 440,
-        "ctr": 1.46,
+        "name": "[PINHAIS] PINK LEMONADE] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 210.5,
+        "reach": 14486,
+        "impressions": 28879,
+        "clicks": 362,
+        "ctr": 1.25,
         "cpc": 0.58,
-        "result_label": "Engajamentos",
-        "result_qty": 15063,
-        "result_cpr": 0.02
+        "result_label": "Cliques",
+        "result_qty": 351,
+        "result_cpr": 0.6
       },
       {
-        "name": "[FRG] [PINK PROMO JULIO] [ENGAJAMENTO]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 257.25,
-        "reach": 13533,
-        "impressions": 25646,
-        "clicks": 331,
-        "ctr": 1.29,
-        "cpc": 0.78,
-        "result_label": "Engajamentos",
-        "result_qty": 13828,
-        "result_cpr": 0.02
+        "name": "[ARAUCARIA] PINK LEMONADE] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 210.5,
+        "reach": 11980,
+        "impressions": 28212,
+        "clicks": 297,
+        "ctr": 1.05,
+        "cpc": 0.71,
+        "result_label": "Cliques",
+        "result_qty": 286,
+        "result_cpr": 0.74
       },
       {
-        "name": "[CGS] [PINK PROMO JULIO] [ENGAJAMENTO]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 257.17,
-        "reach": 16276,
-        "impressions": 29341,
-        "clicks": 375,
-        "ctr": 1.28,
-        "cpc": 0.69,
-        "result_label": "Engajamentos",
-        "result_qty": 14849,
-        "result_cpr": 0.02
+        "name": "[FRG] PINK LEMONADE] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 210.48,
+        "reach": 11380,
+        "impressions": 30934,
+        "clicks": 315,
+        "ctr": 1.02,
+        "cpc": 0.67,
+        "result_label": "Cliques",
+        "result_qty": 303,
+        "result_cpr": 0.69
       },
       {
-        "name": "[AT] [PINK PROMO JULIO] [ENGAJAMENTO]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 257.3,
-        "reach": 10928,
-        "impressions": 23756,
-        "clicks": 340,
-        "ctr": 1.43,
-        "cpc": 0.76,
-        "result_label": "Engajamentos",
-        "result_qty": 13502,
-        "result_cpr": 0.02
+        "name": "[CGS] PINK LEMONADE] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 210.42,
+        "reach": 13698,
+        "impressions": 30316,
+        "clicks": 373,
+        "ctr": 1.23,
+        "cpc": 0.56,
+        "result_label": "Cliques",
+        "result_qty": 363,
+        "result_cpr": 0.58
+      },
+      {
+        "name": "[AT] PINK LEMONADE] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 210.45,
+        "reach": 16044,
+        "impressions": 30965,
+        "clicks": 319,
+        "ctr": 1.03,
+        "cpc": 0.66,
+        "result_label": "Cliques",
+        "result_qty": 311,
+        "result_cpr": 0.68
+      },
+      {
+        "name": "[CURITIBA] [GONGONZOLA + COSTELA] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 2308.75,
+        "reach": 81569,
+        "impressions": 140102,
+        "clicks": 5876,
+        "ctr": 4.19,
+        "cpc": 0.39,
+        "result_label": "Cliques",
+        "result_qty": 5010,
+        "result_cpr": 0.46
+      },
+      {
+        "name": "[COLOMBO] [GONGONZOLA + COSTELA] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 288.48,
+        "reach": 14491,
+        "impressions": 24075,
+        "clicks": 760,
+        "ctr": 3.16,
+        "cpc": 0.38,
+        "result_label": "Cliques",
+        "result_qty": 576,
+        "result_cpr": 0.5
+      },
+      {
+        "name": "[PONTA GROSSA] [GONGONZOLA + COSTELA] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 288.49,
+        "reach": 13112,
+        "impressions": 24911,
+        "clicks": 872,
+        "ctr": 3.5,
+        "cpc": 0.33,
+        "result_label": "Cliques",
+        "result_qty": 669,
+        "result_cpr": 0.43
+      },
+      {
+        "name": "[PINHAIS] [GONGONZOLA + COSTELA] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 288.55,
+        "reach": 13829,
+        "impressions": 22901,
+        "clicks": 665,
+        "ctr": 2.9,
+        "cpc": 0.43,
+        "result_label": "Cliques",
+        "result_qty": 550,
+        "result_cpr": 0.52
+      },
+      {
+        "name": "[ARAUCARIA] [GONGONZOLA + COSTELA] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 288.5,
+        "reach": 15479,
+        "impressions": 27959,
+        "clicks": 618,
+        "ctr": 2.21,
+        "cpc": 0.47,
+        "result_label": "Cliques",
+        "result_qty": 515,
+        "result_cpr": 0.56
+      },
+      {
+        "name": "[FRG] [GONGONZOLA + COSTELA] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 288.53,
+        "reach": 15951,
+        "impressions": 27685,
+        "clicks": 688,
+        "ctr": 2.49,
+        "cpc": 0.42,
+        "result_label": "Cliques",
+        "result_qty": 570,
+        "result_cpr": 0.51
+      },
+      {
+        "name": "[CGS] [GONGONZOLA + COSTELA] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 288.5,
+        "reach": 16234,
+        "impressions": 29982,
+        "clicks": 645,
+        "ctr": 2.15,
+        "cpc": 0.45,
+        "result_label": "Cliques",
+        "result_qty": 588,
+        "result_cpr": 0.49
+      },
+      {
+        "name": "[AT] [GONGONZOLA + COSTELA] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 288.45,
+        "reach": 13792,
+        "impressions": 31591,
+        "clicks": 628,
+        "ctr": 1.99,
+        "cpc": 0.46,
+        "result_label": "Cliques",
+        "result_qty": 550,
+        "result_cpr": 0.52
+      },
+      {
+        "name": "[CURITIBA] [TERÇA KIDS] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 506.88,
+        "reach": 40865,
+        "impressions": 56251,
+        "clicks": 2956,
+        "ctr": 5.26,
+        "cpc": 0.17,
+        "result_label": "Cliques",
+        "result_qty": 2713,
+        "result_cpr": 0.19
+      },
+      {
+        "name": "[COLOMBO] [TERÇA KIDS] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 63.18,
+        "reach": 6418,
+        "impressions": 7558,
+        "clicks": 370,
+        "ctr": 4.9,
+        "cpc": 0.17,
+        "result_label": "Cliques",
+        "result_qty": 317,
+        "result_cpr": 0.2
+      },
+      {
+        "name": "[PONTA GROSSA] [TERÇA KIDS] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 61.98,
+        "reach": 5580,
+        "impressions": 7803,
+        "clicks": 364,
+        "ctr": 4.66,
+        "cpc": 0.17,
+        "result_label": "Cliques",
+        "result_qty": 313,
+        "result_cpr": 0.2
+      },
+      {
+        "name": "[PINHAIS] [TERÇA KIDS] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 62.85,
+        "reach": 5608,
+        "impressions": 7497,
+        "clicks": 298,
+        "ctr": 3.97,
+        "cpc": 0.21,
+        "result_label": "Cliques",
+        "result_qty": 264,
+        "result_cpr": 0.24
+      },
+      {
+        "name": "[ARAUCARIA] [TERÇA KIDS] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 60.92,
+        "reach": 6162,
+        "impressions": 9319,
+        "clicks": 275,
+        "ctr": 2.95,
+        "cpc": 0.22,
+        "result_label": "Cliques",
+        "result_qty": 229,
+        "result_cpr": 0.27
+      },
+      {
+        "name": "[FRG] [TERÇA KIDS] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 62.05,
+        "reach": 5584,
+        "impressions": 8611,
+        "clicks": 237,
+        "ctr": 2.75,
+        "cpc": 0.26,
+        "result_label": "Cliques",
+        "result_qty": 204,
+        "result_cpr": 0.3
+      },
+      {
+        "name": "[CGS] [TERÇA KIDS] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 59.72,
+        "reach": 5231,
+        "impressions": 7736,
+        "clicks": 278,
+        "ctr": 3.59,
+        "cpc": 0.21,
+        "result_label": "Cliques",
+        "result_qty": 256,
+        "result_cpr": 0.23
+      },
+      {
+        "name": "[AT] [TERÇA KIDS] [TRAFEGO]",
+        "objective": "LINK_CLICKS",
+        "spend": 63.12,
+        "reach": 5706,
+        "impressions": 9585,
+        "clicks": 243,
+        "ctr": 2.54,
+        "cpc": 0.26,
+        "result_label": "Cliques",
+        "result_qty": 200,
+        "result_cpr": 0.32
       }
     ],
     "ads": [
       {
-        "name": "PINK LEMONADE HAPPY HOUR",
-        "campaign": "[CURITIBA] [PINK PROMO JULIO] [ENGAJAMENTO]",
-        "spend": 1978.21,
-        "impressions": 235176,
-        "clicks": 3609,
-        "ctr": 1.53,
-        "cpc": 0.55,
-        "frequency": 1.79,
-        "result_label": "Engajamentos",
-        "result_qty": 128077,
-        "result_cpr": 0.02
+        "name": "VIDEO JULIO PINK LEMONADE",
+        "campaign": "[CURITBA] PINK LEMONADE] [TRAFEGO]",
+        "spend": 1684.29,
+        "impressions": 192508,
+        "clicks": 3423,
+        "ctr": 1.78,
+        "cpc": 0.49,
+        "frequency": 2.04,
+        "result_label": "Cliques",
+        "result_qty": 3222,
+        "result_cpr": 0.52
       },
       {
-        "name": "PINK LEMONADE HAPPY HOUR",
-        "campaign": "[COLOMBO] [PINK PROMO JULIO] [ENGAJAMENTO]",
-        "spend": 257.34,
-        "impressions": 31152,
-        "clicks": 421,
-        "ctr": 1.35,
-        "cpc": 0.61,
-        "frequency": 1.83,
-        "result_label": "Engajamentos",
-        "result_qty": 15955,
-        "result_cpr": 0.02
+        "name": "VIDEO JULIO PINK LEMONADE",
+        "campaign": "[COLOMBO] PINK LEMONADE] [TRAFEGO]",
+        "spend": 210.41,
+        "impressions": 30120,
+        "clicks": 351,
+        "ctr": 1.17,
+        "cpc": 0.6,
+        "frequency": 1.94,
+        "result_label": "Cliques",
+        "result_qty": 344,
+        "result_cpr": 0.61
       },
       {
-        "name": "PINK LEMONADE HAPPY HOUR",
-        "campaign": "[PONTA GROSSA] [PINK PROMO JULIO] [ENGAJAMENTO]",
-        "spend": 257.2,
-        "impressions": 39906,
-        "clicks": 457,
-        "ctr": 1.15,
-        "cpc": 0.56,
-        "frequency": 1.93,
-        "result_label": "Engajamentos",
-        "result_qty": 18478,
-        "result_cpr": 0.01
+        "name": "VIDEO JULIO PINK LEMONADE",
+        "campaign": "[PONTA GROSSA] PINK LEMONADE] [TRAFEGO]",
+        "spend": 210.49,
+        "impressions": 29843,
+        "clicks": 353,
+        "ctr": 1.18,
+        "cpc": 0.6,
+        "frequency": 2.26,
+        "result_label": "Cliques",
+        "result_qty": 346,
+        "result_cpr": 0.61
       },
       {
-        "name": "PINK LEMONADE HAPPY HOUR",
-        "campaign": "[PINHAIS] [PINK PROMO JULIO] [ENGAJAMENTO]",
-        "spend": 257.22,
-        "impressions": 25632,
-        "clicks": 364,
-        "ctr": 1.42,
-        "cpc": 0.71,
-        "frequency": 1.7,
-        "result_label": "Engajamentos",
-        "result_qty": 14807,
-        "result_cpr": 0.02
-      },
-      {
-        "name": "PINK LEMONADE HAPPY HOUR",
-        "campaign": "[ARAUCARIA] [PINK PROMO JULIO] [ENGAJAMENTO]",
-        "spend": 257.24,
-        "impressions": 30104,
-        "clicks": 440,
-        "ctr": 1.46,
+        "name": "VIDEO JULIO PINK LEMONADE",
+        "campaign": "[PINHAIS] PINK LEMONADE] [TRAFEGO]",
+        "spend": 210.5,
+        "impressions": 28879,
+        "clicks": 362,
+        "ctr": 1.25,
         "cpc": 0.58,
-        "frequency": 1.9,
-        "result_label": "Engajamentos",
-        "result_qty": 15063,
-        "result_cpr": 0.02
+        "frequency": 1.99,
+        "result_label": "Cliques",
+        "result_qty": 351,
+        "result_cpr": 0.6
       },
       {
-        "name": "PINK LEMONADE HAPPY HOUR",
-        "campaign": "[FRG] [PINK PROMO JULIO] [ENGAJAMENTO]",
-        "spend": 257.25,
-        "impressions": 25646,
-        "clicks": 331,
-        "ctr": 1.29,
-        "cpc": 0.78,
-        "frequency": 1.9,
-        "result_label": "Engajamentos",
-        "result_qty": 13828,
-        "result_cpr": 0.02
+        "name": "VIDEO JULIO PINK LEMONADE",
+        "campaign": "[ARAUCARIA] PINK LEMONADE] [TRAFEGO]",
+        "spend": 210.5,
+        "impressions": 28212,
+        "clicks": 297,
+        "ctr": 1.05,
+        "cpc": 0.71,
+        "frequency": 2.35,
+        "result_label": "Cliques",
+        "result_qty": 286,
+        "result_cpr": 0.74
       },
       {
-        "name": "PINK LEMONADE HAPPY HOUR",
-        "campaign": "[CGS] [PINK PROMO JULIO] [ENGAJAMENTO]",
-        "spend": 257.17,
-        "impressions": 29341,
-        "clicks": 375,
-        "ctr": 1.28,
-        "cpc": 0.69,
-        "frequency": 1.8,
-        "result_label": "Engajamentos",
-        "result_qty": 14849,
-        "result_cpr": 0.02
+        "name": "VIDEO JULIO PINK LEMONADE",
+        "campaign": "[FRG] PINK LEMONADE] [TRAFEGO]",
+        "spend": 210.48,
+        "impressions": 30934,
+        "clicks": 315,
+        "ctr": 1.02,
+        "cpc": 0.67,
+        "frequency": 2.72,
+        "result_label": "Cliques",
+        "result_qty": 303,
+        "result_cpr": 0.69
       },
       {
-        "name": "PINK LEMONADE HAPPY HOUR",
-        "campaign": "[AT] [PINK PROMO JULIO] [ENGAJAMENTO]",
-        "spend": 257.3,
-        "impressions": 23756,
-        "clicks": 340,
-        "ctr": 1.43,
-        "cpc": 0.76,
-        "frequency": 2.17,
-        "result_label": "Engajamentos",
-        "result_qty": 13502,
-        "result_cpr": 0.02
+        "name": "VIDEO JULIO PINK LEMONADE",
+        "campaign": "[CGS] PINK LEMONADE] [TRAFEGO]",
+        "spend": 210.42,
+        "impressions": 30316,
+        "clicks": 373,
+        "ctr": 1.23,
+        "cpc": 0.56,
+        "frequency": 2.21,
+        "result_label": "Cliques",
+        "result_qty": 363,
+        "result_cpr": 0.58
+      },
+      {
+        "name": "VIDEO JULIO PINK LEMONADE",
+        "campaign": "[AT] PINK LEMONADE] [TRAFEGO]",
+        "spend": 210.45,
+        "impressions": 30965,
+        "clicks": 319,
+        "ctr": 1.03,
+        "cpc": 0.66,
+        "frequency": 1.93,
+        "result_label": "Cliques",
+        "result_qty": 311,
+        "result_cpr": 0.68
+      },
+      {
+        "name": "VIDEO COSTELA",
+        "campaign": "[CURITIBA] [GONGONZOLA + COSTELA] [TRAFEGO]",
+        "spend": 1575.17,
+        "impressions": 88861,
+        "clicks": 3864,
+        "ctr": 4.35,
+        "cpc": 0.41,
+        "frequency": 1.52,
+        "result_label": "Cliques",
+        "result_qty": 3306,
+        "result_cpr": 0.48
+      },
+      {
+        "name": "VIDEO GORGONZOLA",
+        "campaign": "[CURITIBA] [GONGONZOLA + COSTELA] [TRAFEGO]",
+        "spend": 733.58,
+        "impressions": 51241,
+        "clicks": 2012,
+        "ctr": 3.93,
+        "cpc": 0.36,
+        "frequency": 1.35,
+        "result_label": "Cliques",
+        "result_qty": 1704,
+        "result_cpr": 0.43
+      },
+      {
+        "name": "VIDEO GORGONZOLA",
+        "campaign": "[COLOMBO] [GONGONZOLA + COSTELA] [TRAFEGO]",
+        "spend": 93.45,
+        "impressions": 9063,
+        "clicks": 255,
+        "ctr": 2.81,
+        "cpc": 0.37,
+        "frequency": 1.4,
+        "result_label": "Cliques",
+        "result_qty": 187,
+        "result_cpr": 0.5
+      },
+      {
+        "name": "VIDEO COSTELA",
+        "campaign": "[COLOMBO] [GONGONZOLA + COSTELA] [TRAFEGO]",
+        "spend": 195.03,
+        "impressions": 15012,
+        "clicks": 505,
+        "ctr": 3.36,
+        "cpc": 0.39,
+        "frequency": 1.41,
+        "result_label": "Cliques",
+        "result_qty": 389,
+        "result_cpr": 0.5
+      },
+      {
+        "name": "VIDEO COSTELA",
+        "campaign": "[PONTA GROSSA] [GONGONZOLA + COSTELA] [TRAFEGO]",
+        "spend": 195.44,
+        "impressions": 15275,
+        "clicks": 578,
+        "ctr": 3.78,
+        "cpc": 0.34,
+        "frequency": 1.6,
+        "result_label": "Cliques",
+        "result_qty": 458,
+        "result_cpr": 0.43
+      },
+      {
+        "name": "VIDEO GORGONZOLA",
+        "campaign": "[PONTA GROSSA] [GONGONZOLA + COSTELA] [TRAFEGO]",
+        "spend": 93.05,
+        "impressions": 9636,
+        "clicks": 294,
+        "ctr": 3.05,
+        "cpc": 0.32,
+        "frequency": 1.48,
+        "result_label": "Cliques",
+        "result_qty": 211,
+        "result_cpr": 0.44
+      },
+      {
+        "name": "VIDEO GORGONZOLA",
+        "campaign": "[PINHAIS] [GONGONZOLA + COSTELA] [TRAFEGO]",
+        "spend": 95.68,
+        "impressions": 9324,
+        "clicks": 224,
+        "ctr": 2.4,
+        "cpc": 0.43,
+        "frequency": 1.37,
+        "result_label": "Cliques",
+        "result_qty": 174,
+        "result_cpr": 0.55
+      },
+      {
+        "name": "VIDEO COSTELA",
+        "campaign": "[PINHAIS] [GONGONZOLA + COSTELA] [TRAFEGO]",
+        "spend": 192.87,
+        "impressions": 13577,
+        "clicks": 441,
+        "ctr": 3.25,
+        "cpc": 0.44,
+        "frequency": 1.42,
+        "result_label": "Cliques",
+        "result_qty": 376,
+        "result_cpr": 0.51
+      },
+      {
+        "name": "VIDEO COSTELA",
+        "campaign": "[ARAUCARIA] [GONGONZOLA + COSTELA] [TRAFEGO]",
+        "spend": 205.63,
+        "impressions": 18872,
+        "clicks": 427,
+        "ctr": 2.26,
+        "cpc": 0.48,
+        "frequency": 1.64,
+        "result_label": "Cliques",
+        "result_qty": 364,
+        "result_cpr": 0.56
+      },
+      {
+        "name": "VIDEO GORGONZOLA",
+        "campaign": "[ARAUCARIA] [GONGONZOLA + COSTELA] [TRAFEGO]",
+        "spend": 82.87,
+        "impressions": 9087,
+        "clicks": 191,
+        "ctr": 2.1,
+        "cpc": 0.43,
+        "frequency": 1.43,
+        "result_label": "Cliques",
+        "result_qty": 151,
+        "result_cpr": 0.55
+      },
+      {
+        "name": "VIDEO GORGONZOLA",
+        "campaign": "[FRG] [GONGONZOLA + COSTELA] [TRAFEGO]",
+        "spend": 92.23,
+        "impressions": 10545,
+        "clicks": 215,
+        "ctr": 2.04,
+        "cpc": 0.43,
+        "frequency": 1.41,
+        "result_label": "Cliques",
+        "result_qty": 173,
+        "result_cpr": 0.53
+      },
+      {
+        "name": "VIDEO COSTELA",
+        "campaign": "[FRG] [GONGONZOLA + COSTELA] [TRAFEGO]",
+        "spend": 196.3,
+        "impressions": 17140,
+        "clicks": 473,
+        "ctr": 2.76,
+        "cpc": 0.42,
+        "frequency": 1.6,
+        "result_label": "Cliques",
+        "result_qty": 397,
+        "result_cpr": 0.49
+      },
+      {
+        "name": "VIDEO COSTELA",
+        "campaign": "[CGS] [GONGONZOLA + COSTELA] [TRAFEGO]",
+        "spend": 196.55,
+        "impressions": 19256,
+        "clicks": 442,
+        "ctr": 2.3,
+        "cpc": 0.44,
+        "frequency": 1.64,
+        "result_label": "Cliques",
+        "result_qty": 398,
+        "result_cpr": 0.49
+      },
+      {
+        "name": "VIDEO GORGONZOLA",
+        "campaign": "[CGS] [GONGONZOLA + COSTELA] [TRAFEGO]",
+        "spend": 91.95,
+        "impressions": 10726,
+        "clicks": 203,
+        "ctr": 1.89,
+        "cpc": 0.45,
+        "frequency": 1.44,
+        "result_label": "Cliques",
+        "result_qty": 190,
+        "result_cpr": 0.48
+      },
+      {
+        "name": "VIDEO GORGONZOLA",
+        "campaign": "[AT] [GONGONZOLA + COSTELA] [TRAFEGO]",
+        "spend": 93.35,
+        "impressions": 11472,
+        "clicks": 214,
+        "ctr": 1.87,
+        "cpc": 0.44,
+        "frequency": 1.58,
+        "result_label": "Cliques",
+        "result_qty": 181,
+        "result_cpr": 0.52
+      },
+      {
+        "name": "VIDEO COSTELA",
+        "campaign": "[AT] [GONGONZOLA + COSTELA] [TRAFEGO]",
+        "spend": 195.1,
+        "impressions": 20119,
+        "clicks": 414,
+        "ctr": 2.06,
+        "cpc": 0.47,
+        "frequency": 1.98,
+        "result_label": "Cliques",
+        "result_qty": 369,
+        "result_cpr": 0.53
+      },
+      {
+        "name": "TERÇA KIDS AD 01",
+        "campaign": "[CURITIBA] [TERÇA KIDS] [TRAFEGO]",
+        "spend": 14.34,
+        "impressions": 2737,
+        "clicks": 112,
+        "ctr": 4.09,
+        "cpc": 0.13,
+        "frequency": 1.16,
+        "result_label": "Cliques",
+        "result_qty": 54,
+        "result_cpr": 0.27
+      },
+      {
+        "name": "TERÇA KIDS AD 01 STORIES",
+        "campaign": "[CURITIBA] [TERÇA KIDS] [TRAFEGO]",
+        "spend": 492.54,
+        "impressions": 53514,
+        "clicks": 2844,
+        "ctr": 5.31,
+        "cpc": 0.17,
+        "frequency": 1.36,
+        "result_label": "Cliques",
+        "result_qty": 2659,
+        "result_cpr": 0.19
+      },
+      {
+        "name": "TERÇA KIDS AD 01",
+        "campaign": "[COLOMBO] [TERÇA KIDS] [TRAFEGO]",
+        "spend": 63.18,
+        "impressions": 7558,
+        "clicks": 370,
+        "ctr": 4.9,
+        "cpc": 0.17,
+        "frequency": 1.18,
+        "result_label": "Cliques",
+        "result_qty": 317,
+        "result_cpr": 0.2
+      },
+      {
+        "name": "TERÇA KIDS AD 01",
+        "campaign": "[PONTA GROSSA] [TERÇA KIDS] [TRAFEGO]",
+        "spend": 61.98,
+        "impressions": 7803,
+        "clicks": 364,
+        "ctr": 4.66,
+        "cpc": 0.17,
+        "frequency": 1.4,
+        "result_label": "Cliques",
+        "result_qty": 313,
+        "result_cpr": 0.2
+      },
+      {
+        "name": "TERÇA KIDS AD 01",
+        "campaign": "[PINHAIS] [TERÇA KIDS] [TRAFEGO]",
+        "spend": 62.85,
+        "impressions": 7497,
+        "clicks": 298,
+        "ctr": 3.97,
+        "cpc": 0.21,
+        "frequency": 1.34,
+        "result_label": "Cliques",
+        "result_qty": 264,
+        "result_cpr": 0.24
+      },
+      {
+        "name": "TERÇA KIDS AD 01",
+        "campaign": "[ARAUCARIA] [TERÇA KIDS] [TRAFEGO]",
+        "spend": 60.92,
+        "impressions": 9319,
+        "clicks": 275,
+        "ctr": 2.95,
+        "cpc": 0.22,
+        "frequency": 1.51,
+        "result_label": "Cliques",
+        "result_qty": 229,
+        "result_cpr": 0.27
+      },
+      {
+        "name": "TERÇA KIDS AD 01",
+        "campaign": "[FRG] [TERÇA KIDS] [TRAFEGO]",
+        "spend": 62.05,
+        "impressions": 8611,
+        "clicks": 237,
+        "ctr": 2.75,
+        "cpc": 0.26,
+        "frequency": 1.54,
+        "result_label": "Cliques",
+        "result_qty": 204,
+        "result_cpr": 0.3
+      },
+      {
+        "name": "TERÇA KIDS AD 01",
+        "campaign": "[CGS] [TERÇA KIDS] [TRAFEGO]",
+        "spend": 59.72,
+        "impressions": 7736,
+        "clicks": 278,
+        "ctr": 3.59,
+        "cpc": 0.21,
+        "frequency": 1.48,
+        "result_label": "Cliques",
+        "result_qty": 256,
+        "result_cpr": 0.23
+      },
+      {
+        "name": "TERÇA KIDS AD 01",
+        "campaign": "[AT] [TERÇA KIDS] [TRAFEGO]",
+        "spend": 63.12,
+        "impressions": 9585,
+        "clicks": 243,
+        "ctr": 2.54,
+        "cpc": 0.26,
+        "frequency": 1.68,
+        "result_label": "Cliques",
+        "result_qty": 200,
+        "result_cpr": 0.32
       }
     ]
   },
   "google": {
-    "spend": 83.0,
-    "impressions": 1011,
-    "clicks": 57,
-    "ctr": 5.64,
-    "cpc": 1.46,
-    "conversions": 0,
-    "cpa": 0,
+    "spend": 913.44,
+    "impressions": 7291,
+    "clicks": 374,
+    "ctr": 5.13,
+    "cpc": 2.44,
+    "conversions": 2,
+    "cpa": 456.72,
     "campaigns": [
       {
         "name": "[REDE DE PESQUISAS] [RESERVAS]",
         "type": "Search",
         "status": "Enabled",
-        "spend": 83.0,
-        "impressions": 1011,
-        "clicks": 57,
-        "ctr": 5.64,
-        "cpc": 1.46,
-        "conversions": 0
+        "spend": 913.44,
+        "impressions": 7291,
+        "clicks": 374,
+        "ctr": 5.13,
+        "cpc": 2.44,
+        "conversions": 2
       }
     ],
     "keywords": [
       {
         "keyword": "hamburguer em curitiba",
         "match": "Exact",
-        "impressions": 386,
-        "clicks": 33,
-        "ctr": 8.55,
-        "cpc": 1.56,
+        "impressions": 2878,
+        "clicks": 184,
+        "ctr": 6.39,
+        "cpc": 2.65,
         "conversions": 0
       },
       {
         "keyword": "Melhores hamburguerias de curitiba",
         "match": "Exact",
-        "impressions": 338,
-        "clicks": 13,
-        "ctr": 3.85,
-        "cpc": 1.62,
-        "conversions": 0
+        "impressions": 2536,
+        "clicks": 113,
+        "ctr": 4.46,
+        "cpc": 2.75,
+        "conversions": 1
       },
       {
         "keyword": "burguer curitiba",
         "match": "Exact",
-        "impressions": 246,
-        "clicks": 9,
-        "ctr": 3.66,
-        "cpc": 0.97,
-        "conversions": 0
+        "impressions": 1492,
+        "clicks": 57,
+        "ctr": 3.82,
+        "cpc": 1.21,
+        "conversions": 1
       },
       {
         "keyword": "hamburgueria artesanal curitiba",
         "match": "Exact",
-        "impressions": 41,
-        "clicks": 2,
-        "ctr": 4.88,
-        "cpc": 0.81,
+        "impressions": 377,
+        "clicks": 20,
+        "ctr": 5.31,
+        "cpc": 2.31,
         "conversions": 0
       }
     ],
     "search_terms": [
       {
+        "term": "hamburgueria curitiba",
+        "keyword": "—",
+        "impressions": 1115,
+        "clicks": 57,
+        "ctr": 5.11,
+        "cpc": 1.99
+      },
+      {
         "term": "hambúrguer curitiba",
         "keyword": "—",
-        "impressions": 161,
-        "clicks": 11,
-        "ctr": 6.83,
-        "cpc": 1.35
-      },
-      {
-        "term": "hamburgueria curitiba perto de mim",
-        "keyword": "—",
-        "impressions": 40,
-        "clicks": 6,
-        "ctr": 15.0,
-        "cpc": 1.64
-      },
-      {
-        "term": "hamburguerias em curitiba",
-        "keyword": "—",
-        "impressions": 41,
-        "clicks": 5,
-        "ctr": 12.2,
-        "cpc": 1.38
+        "impressions": 716,
+        "clicks": 37,
+        "ctr": 5.17,
+        "cpc": 2.92
       },
       {
         "term": "melhor hamburgueria de curitiba",
         "keyword": "—",
-        "impressions": 61,
-        "clicks": 4,
-        "ctr": 6.56,
-        "cpc": 1.66
+        "impressions": 553,
+        "clicks": 28,
+        "ctr": 5.06,
+        "cpc": 2.76
+      },
+      {
+        "term": "hamburgueria curitiba perto de mim",
+        "keyword": "—",
+        "impressions": 302,
+        "clicks": 33,
+        "ctr": 10.93,
+        "cpc": 2.19
       },
       {
         "term": "hamburgueria em curitiba",
         "keyword": "—",
-        "impressions": 92,
-        "clicks": 5,
-        "ctr": 5.43,
-        "cpc": 1.25
+        "impressions": 531,
+        "clicks": 36,
+        "ctr": 6.78,
+        "cpc": 1.98
       },
       {
-        "term": "hambúrguer em curitiba",
+        "term": "melhores hamburguerias de curitiba",
         "keyword": "—",
-        "impressions": 21,
-        "clicks": 3,
-        "ctr": 14.29,
-        "cpc": 1.96
-      },
-      {
-        "term": "hamburgueria curitiba",
-        "keyword": "—",
-        "impressions": 142,
-        "clicks": 5,
-        "ctr": 3.52,
-        "cpc": 1.08
-      },
-      {
-        "term": "melhor hamburgueria curitiba",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 2,
-        "ctr": 100.0,
-        "cpc": 2.13
+        "impressions": 590,
+        "clicks": 18,
+        "ctr": 3.05,
+        "cpc": 3.45
       },
       {
         "term": "hamburguerias curitiba",
         "keyword": "—",
-        "impressions": 26,
-        "clicks": 2,
-        "ctr": 7.69,
-        "cpc": 2.01
+        "impressions": 324,
+        "clicks": 10,
+        "ctr": 3.09,
+        "cpc": 2.69
       },
       {
-        "term": "hamburgueria curitiba bem avaliados",
+        "term": "hamburguerias em curitiba",
         "keyword": "—",
-        "impressions": 12,
-        "clicks": 3,
-        "ctr": 25.0,
-        "cpc": 1.15
-      },
-      {
-        "term": "hamburguer curitiba",
-        "keyword": "—",
-        "impressions": 32,
-        "clicks": 1,
-        "ctr": 3.12,
-        "cpc": 1.94
+        "impressions": 190,
+        "clicks": 8,
+        "ctr": 4.21,
+        "cpc": 3.0
       },
       {
         "term": "hambúrguer artesanal curitiba",
         "keyword": "—",
-        "impressions": 17,
-        "clicks": 1,
-        "ctr": 5.88,
-        "cpc": 1.16
+        "impressions": 117,
+        "clicks": 7,
+        "ctr": 5.98,
+        "cpc": 2.9
       },
       {
-        "term": "curitiba hamburgueria",
+        "term": "hamburgueria curitiba pr",
         "keyword": "—",
-        "impressions": 3,
+        "impressions": 51,
+        "clicks": 7,
+        "ctr": 13.73,
+        "cpc": 2.65
+      },
+      {
+        "term": "hamburguer curitiba",
+        "keyword": "—",
+        "impressions": 262,
+        "clicks": 12,
+        "ctr": 4.58,
+        "cpc": 1.17
+      },
+      {
+        "term": "melhor hambúrguer de curitiba",
+        "keyword": "—",
+        "impressions": 136,
+        "clicks": 8,
+        "ctr": 5.88,
+        "cpc": 1.68
+      },
+      {
+        "term": "hamburgueria artesanal curitiba",
+        "keyword": "—",
+        "impressions": 80,
+        "clicks": 4,
+        "ctr": 5.0,
+        "cpc": 2.73
+      },
+      {
+        "term": "melhores hamburguerias curitiba",
+        "keyword": "—",
+        "impressions": 104,
+        "clicks": 5,
+        "ctr": 4.81,
+        "cpc": 2.06
+      },
+      {
+        "term": "hamburger curitiba",
+        "keyword": "—",
+        "impressions": 43,
+        "clicks": 3,
+        "ctr": 6.98,
+        "cpc": 3.2
+      },
+      {
+        "term": "hambúrguer em curitiba",
+        "keyword": "—",
+        "impressions": 143,
+        "clicks": 7,
+        "ctr": 4.9,
+        "cpc": 1.28
+      },
+      {
+        "term": "burger curitiba",
+        "keyword": "—",
+        "impressions": 67,
+        "clicks": 3,
+        "ctr": 4.48,
+        "cpc": 2.74
+      },
+      {
+        "term": "hambúrgueria em curitiba",
+        "keyword": "—",
+        "impressions": 42,
+        "clicks": 3,
+        "ctr": 7.14,
+        "cpc": 2.51
+      },
+      {
+        "term": "melhor hamburguer curitiba",
+        "keyword": "—",
+        "impressions": 85,
+        "clicks": 2,
+        "ctr": 2.35,
+        "cpc": 2.75
+      },
+      {
+        "term": "hamburgueria curitiba melhores",
+        "keyword": "—",
+        "impressions": 43,
+        "clicks": 4,
+        "ctr": 9.3,
+        "cpc": 1.31
+      },
+      {
+        "term": "hamburguerias de curitiba",
+        "keyword": "—",
+        "impressions": 9,
         "clicks": 1,
-        "ctr": 33.33,
-        "cpc": 0.38
+        "ctr": 11.11,
+        "cpc": 3.6
+      },
+      {
+        "term": "hamburgueria boa em curitiba",
+        "keyword": "—",
+        "impressions": 31,
+        "clicks": 1,
+        "ctr": 3.23,
+        "cpc": 3.57
+      },
+      {
+        "term": "hambúrguer artesanal em curitiba",
+        "keyword": "—",
+        "impressions": 24,
+        "clicks": 2,
+        "ctr": 8.33,
+        "cpc": 1.78
+      },
+      {
+        "term": "melhores hambúrgueres curitiba",
+        "keyword": "—",
+        "impressions": 17,
+        "clicks": 2,
+        "ctr": 11.76,
+        "cpc": 0.99
+      },
+      {
+        "term": "melhores hamburgueria curitiba",
+        "keyword": "—",
+        "impressions": 18,
+        "clicks": 2,
+        "ctr": 11.11,
+        "cpc": 0.95
+      },
+      {
+        "term": "burguer curitiba",
+        "keyword": "—",
+        "impressions": 39,
+        "clicks": 2,
+        "ctr": 5.13,
+        "cpc": 0.94
       },
       {
         "term": "as melhores hamburguerias de curitiba",
+        "keyword": "—",
+        "impressions": 7,
+        "clicks": 1,
+        "ctr": 14.29,
+        "cpc": 1.31
+      },
+      {
+        "term": "melhores hamburguerias em curitiba",
+        "keyword": "—",
+        "impressions": 35,
+        "clicks": 2,
+        "ctr": 5.71,
+        "cpc": 0.53
+      },
+      {
+        "term": "melhores hamburgueria de curitiba",
+        "keyword": "—",
+        "impressions": 27,
+        "clicks": 1,
+        "ctr": 3.7,
+        "cpc": 0.92
+      },
+      {
+        "term": "hamburgueria aberta em curitiba",
+        "keyword": "—",
+        "impressions": 9,
+        "clicks": 1,
+        "ctr": 11.11,
+        "cpc": 0.25
+      },
+      {
+        "term": "burger em curitiba",
+        "keyword": "—",
+        "impressions": 11,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "curitiba burguer",
         "keyword": "—",
         "impressions": 4,
         "clicks": 0,
@@ -408,17 +1085,17 @@
         "cpc": 0
       },
       {
-        "term": "burger curitiba",
+        "term": "curitiba hamburguer",
         "keyword": "—",
-        "impressions": 1,
+        "impressions": 3,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0
       },
       {
-        "term": "hamburger curitiba",
+        "term": "curitiba hamburgueria",
         "keyword": "—",
-        "impressions": 5,
+        "impressions": 14,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0
@@ -426,13 +1103,13 @@
       {
         "term": "hamburger em curitiba",
         "keyword": "—",
-        "impressions": 1,
+        "impressions": 3,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0
       },
       {
-        "term": "hamburgers curitiba",
+        "term": "hamburgeria curitiba",
         "keyword": "—",
         "impressions": 2,
         "clicks": 0,
@@ -442,7 +1119,7 @@
       {
         "term": "hamburguer artesanal curitiba",
         "keyword": "—",
-        "impressions": 2,
+        "impressions": 12,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0
@@ -450,7 +1127,7 @@
       {
         "term": "hamburguer artesanal em curitiba",
         "keyword": "—",
-        "impressions": 4,
+        "impressions": 7,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0
@@ -458,37 +1135,13 @@
       {
         "term": "hamburguer em curitiba",
         "keyword": "—",
-        "impressions": 3,
+        "impressions": 56,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0
       },
       {
-        "term": "hamburgueria artesanal curitiba",
-        "keyword": "—",
-        "impressions": 9,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "hamburgueria curitiba melhores",
-        "keyword": "—",
-        "impressions": 9,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "hamburgueria de curitiba",
-        "keyword": "—",
-        "impressions": 3,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "hambúrgueria curitiba",
+        "term": "hamburguer gourmet curitiba",
         "keyword": "—",
         "impressions": 4,
         "clicks": 0,
@@ -496,47 +1149,7 @@
         "cpc": 0
       },
       {
-        "term": "hambúrgueria em curitiba",
-        "keyword": "—",
-        "impressions": 16,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "melhor hamburguer curitiba",
-        "keyword": "—",
-        "impressions": 14,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "melhor hamburguer de curitiba",
-        "keyword": "—",
-        "impressions": 10,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "melhor hambúrguer curitiba",
-        "keyword": "—",
-        "impressions": 6,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "melhor hambúrguer de curitiba",
-        "keyword": "—",
-        "impressions": 10,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "melhores hamburgueres curitiba",
+        "term": "hamburgueres curitiba",
         "keyword": "—",
         "impressions": 3,
         "clicks": 0,
@@ -544,31 +1157,7 @@
         "cpc": 0
       },
       {
-        "term": "melhores hamburgueria de curitiba",
-        "keyword": "—",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "melhores hamburguerias curitiba",
-        "keyword": "—",
-        "impressions": 12,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "melhores hamburguerias de curitiba",
-        "keyword": "—",
-        "impressions": 73,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0
-      },
-      {
-        "term": "melhores hamburguerias em curitiba",
+        "term": "hamburgueria artesanal curitiba pr",
         "keyword": "—",
         "impressions": 5,
         "clicks": 0,
@@ -576,17 +1165,65 @@
         "cpc": 0
       },
       {
-        "term": "onde comer hamburguer em curitiba",
+        "term": "hamburgueria artesanal em curitiba",
         "keyword": "—",
-        "impressions": 2,
+        "impressions": 5,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0
       },
       {
-        "term": "qual a melhor hamburgueria de curitiba",
+        "term": "hamburgueria curitiba bem avaliados",
+        "keyword": "—",
+        "impressions": 34,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "hamburgueria de curitiba",
+        "keyword": "—",
+        "impressions": 17,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "hamburgueria em curitiba bem avaliados",
+        "keyword": "—",
+        "impressions": 5,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "hamburgueria em curitiba pr",
+        "keyword": "—",
+        "impressions": 4,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "hamburgueria gourmet curitiba",
+        "keyword": "—",
+        "impressions": 21,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "hamburguers curitiba",
         "keyword": "—",
         "impressions": 1,
+        "clicks": 0,
+        "ctr": 0.0,
+        "cpc": 0
+      },
+      {
+        "term": "hambúrgueres curitiba",
+        "keyword": "—",
+        "impressions": 11,
         "clicks": 0,
         "ctr": 0.0,
         "cpc": 0
@@ -594,78 +1231,96 @@
     ]
   },
   "ga4": {
-    "sessions": 8055,
-    "users": 7212,
-    "new_users": 6981,
-    "pageviews": 16133,
-    "bounce_rate": 25.36,
-    "duration": "1m 47s",
-    "events": 53239,
-    "conversions": 1,
+    "sessions": 9676,
+    "users": 8442,
+    "new_users": 8218,
+    "pageviews": 15408,
+    "bounce_rate": 50.5,
+    "duration": "1m 37s",
+    "events": 58803,
+    "conversions": 18,
     "sources": [
-      {
-        "source": "meta_ads",
-        "medium": "PINK LEMONADE HAPPY HOUR",
-        "sessions": 3143,
-        "pct": 39.0
-      },
       {
         "source": "ig",
         "medium": "social",
-        "sessions": 1993,
-        "pct": 24.7
+        "sessions": 2611,
+        "pct": 26.9
       },
       {
         "source": "google",
         "medium": "organic",
-        "sessions": 1744,
-        "pct": 21.6
+        "sessions": 2162,
+        "pct": 22.3
+      },
+      {
+        "source": "meta",
+        "medium": "TERÇA KIDS AD 01 STORIES",
+        "sessions": 1615,
+        "pct": 16.7
       },
       {
         "source": "(direct)",
         "medium": "(none)",
-        "sessions": 561,
-        "pct": 7.0
+        "sessions": 1302,
+        "pct": 13.4
+      },
+      {
+        "source": "meta",
+        "medium": "TERÇA KIDS AD 01",
+        "sessions": 1133,
+        "pct": 11.7
       },
       {
         "source": "l.instagram.com",
         "medium": "referral",
-        "sessions": 415,
-        "pct": 5.1
-      },
-      {
-        "source": "meta_ads",
-        "medium": "PINK+LEMONADE+HAPPY+HOUR",
-        "sessions": 44,
-        "pct": 0.5
+        "sessions": 450,
+        "pct": 4.6
       },
       {
         "source": "google",
         "medium": "cpc",
-        "sessions": 27,
+        "sessions": 171,
+        "pct": 1.8
+      },
+      {
+        "source": "meta",
+        "medium": "TERÇA+KIDS+AD+01",
+        "sessions": 42,
+        "pct": 0.4
+      },
+      {
+        "source": "facebook.com",
+        "medium": "referral",
+        "sessions": 34,
+        "pct": 0.4
+      },
+      {
+        "source": "l.wl.co",
+        "medium": "referral",
+        "sessions": 31,
         "pct": 0.3
       },
       {
         "source": "bing",
         "medium": "organic",
-        "sessions": 24,
+        "sessions": 26,
         "pct": 0.3
       },
       {
-        "source": "l.facebook.com",
+        "source": "lm.facebook.com",
         "medium": "referral",
-        "sessions": 23,
-        "pct": 0.3
-      },
-      {
-        "source": "l.wl.co",
-        "medium": "referral",
-        "sessions": 20,
+        "sessions": 17,
         "pct": 0.2
       },
       {
-        "source": "facebook.com",
+        "source": "m.facebook.com",
         "medium": "referral",
+        "sessions": 17,
+        "pct": 0.2
+      },
+      {
+        "source": "(not set)",
+        "medium": "(not set)",
         "sessions": 16,
         "pct": 0.2
       },
@@ -676,70 +1331,48 @@
         "pct": 0.2
       },
       {
-        "source": "(not set)",
+        "source": "gemini",
         "medium": "(not set)",
-        "sessions": 9,
+        "sessions": 12,
         "pct": 0.1
       },
       {
         "source": "meta",
-        "medium": "vd_costelinha_julio",
-        "sessions": 8,
+        "medium": "{{ad.name}}",
+        "sessions": 9,
         "pct": 0.1
       },
       {
-        "source": "(data not available)",
-        "medium": "(data not available)",
+        "source": "gemini",
+        "medium": "referral",
         "sessions": 6,
         "pct": 0.1
       },
       {
-        "source": "m.facebook.com",
+        "source": "l.facebook.com",
         "medium": "referral",
-        "sessions": 3,
-        "pct": 0.0
+        "sessions": 6,
+        "pct": 0.1
       },
       {
-        "source": "restaurantguru",
-        "medium": "referral",
-        "sessions": 3,
-        "pct": 0.0
-      },
-      {
-        "source": "instagram.com",
-        "medium": "referral",
-        "sessions": 2,
-        "pct": 0.0
-      },
-      {
-        "source": "br.search.yahoo.com",
-        "medium": "referral",
-        "sessions": 1,
-        "pct": 0.0
-      },
-      {
-        "source": "gemini.google.com",
-        "medium": "ai-assistant",
-        "sessions": 1,
-        "pct": 0.0
+        "source": "meta_ads",
+        "medium": "aberto",
+        "sessions": 6,
+        "pct": 0.1
       }
     ],
     "event_list": [
       {
         "name": "click",
-        "count": 2717
-      },
-      {
-        "name": "file_download",
-        "count": 1972
+        "count": 799
       },
       {
         "name": "form_start",
-        "count": 26
+        "count": 87
       },
       {
         "name": "lead_generated",
-        "count": 1
+        "count": 18
       }
     ]
   },

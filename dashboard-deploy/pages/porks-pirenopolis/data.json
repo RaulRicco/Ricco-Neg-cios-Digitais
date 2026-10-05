@@ -4,7 +4,7 @@
     "start": "2026-09-01",
     "end": "2026-09-30"
   },
-  "gerado_em": "2026-10-05T08:07:39.279531",
+  "gerado_em": "2026-10-05T09:04:35.747968",
   "consolidado": null,
   "meta": {
     "spend": 904.25,
@@ -18,7 +18,7 @@
     "campaigns": [
       {
         "name": "[CBO] [NOVO TOPO PARIS] [TRAFEGO]",
-        "objective": "OUTCOME_TRAFFIC",
+        "objective": "LINK_CLICKS",
         "spend": 301.82,
         "reach": 18340,
         "impressions": 37811,
@@ -31,7 +31,7 @@
       },
       {
         "name": "[CBO] [BALADINHA PORKS] [TRAFEGO]",
-        "objective": "OUTCOME_TRAFFIC",
+        "objective": "LINK_CLICKS",
         "spend": 301.19,
         "reach": 21375,
         "impressions": 31852,
@@ -56,16 +56,16 @@
         "result_cpr": 1.95
       },
       {
-        "name": "[BANDA SONHODORA] [ENGAJAMENTO]",
+        "name": "Nova campanha de Engajamento",
         "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 79.96,
-        "reach": 4144,
-        "impressions": 6731,
-        "clicks": 28,
-        "ctr": 0.42,
-        "cpc": 2.86,
+        "spend": 59.52,
+        "reach": 2166,
+        "impressions": 4667,
+        "clicks": 38,
+        "ctr": 0.81,
+        "cpc": 1.57,
         "result_label": "Engajamentos",
-        "result_qty": 847,
+        "result_qty": 698,
         "result_cpr": 0.09
       },
       {
@@ -82,16 +82,16 @@
         "result_cpr": 0
       },
       {
-        "name": "Nova campanha de Engajamento",
+        "name": "[BANDA SONHODORA] [ENGAJAMENTO]",
         "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 59.52,
-        "reach": 2166,
-        "impressions": 4667,
-        "clicks": 38,
-        "ctr": 0.81,
-        "cpc": 1.57,
+        "spend": 79.96,
+        "reach": 4144,
+        "impressions": 6731,
+        "clicks": 28,
+        "ctr": 0.42,
+        "cpc": 2.86,
         "result_label": "Engajamentos",
-        "result_qty": 698,
+        "result_qty": 847,
         "result_cpr": 0.09
       }
     ],
@@ -123,6 +123,19 @@
         "result_cpr": 0.54
       },
       {
+        "name": "VIDEO LOUNGE",
+        "campaign": "[CBO] [BALADINHA PORKS] [TRAFEGO]",
+        "spend": 2.81,
+        "impressions": 360,
+        "clicks": 4,
+        "ctr": 1.11,
+        "cpc": 0.7,
+        "frequency": 1.07,
+        "result_label": "Cliques",
+        "result_qty": 3,
+        "result_cpr": 0.94
+      },
+      {
         "name": "VIDEO VAVA INDEPENDENCIA",
         "campaign": "[FERIADO INDEPENDENCIA 26] [ALCANCE]",
         "spend": 93.36,
@@ -134,32 +147,6 @@
         "result_label": "Cliques",
         "result_qty": 48,
         "result_cpr": 1.95
-      },
-      {
-        "name": "BANDA SONHADORA",
-        "campaign": "[BANDA SONHODORA] [ENGAJAMENTO]",
-        "spend": 79.96,
-        "impressions": 6731,
-        "clicks": 28,
-        "ctr": 0.42,
-        "cpc": 2.86,
-        "frequency": 1.62,
-        "result_label": "Engajamentos",
-        "result_qty": 847,
-        "result_cpr": 0.09
-      },
-      {
-        "name": "MOTION JESUS LUZ",
-        "campaign": "[JESUS LUZ] [ALCANCE]",
-        "spend": 68.4,
-        "impressions": 13105,
-        "clicks": 72,
-        "ctr": 0.55,
-        "cpc": 0.95,
-        "frequency": 1.07,
-        "result_label": "Cliques",
-        "result_qty": 0,
-        "result_cpr": 0
       },
       {
         "name": "BANDA LIEBE FERIADO",
@@ -175,17 +162,30 @@
         "result_cpr": 0.09
       },
       {
-        "name": "VIDEO LOUNGE",
-        "campaign": "[CBO] [BALADINHA PORKS] [TRAFEGO]",
-        "spend": 2.81,
-        "impressions": 360,
-        "clicks": 4,
-        "ctr": 1.11,
-        "cpc": 0.7,
-        "frequency": 1.07,
+        "name": "MOTION JESUS LUZ",
+        "campaign": "[JESUS LUZ] [ALCANCE]",
+        "spend": 68.4,
+        "impressions": 13105,
+        "clicks": 72,
+        "ctr": 0.55,
+        "cpc": 0.95,
+        "frequency": 1.08,
         "result_label": "Cliques",
-        "result_qty": 3,
-        "result_cpr": 0.94
+        "result_qty": 0,
+        "result_cpr": 0
+      },
+      {
+        "name": "BANDA SONHADORA",
+        "campaign": "[BANDA SONHODORA] [ENGAJAMENTO]",
+        "spend": 79.96,
+        "impressions": 6731,
+        "clicks": 28,
+        "ctr": 0.42,
+        "cpc": 2.86,
+        "frequency": 1.62,
+        "result_label": "Engajamentos",
+        "result_qty": 847,
+        "result_cpr": 0.09
       }
     ]
   },

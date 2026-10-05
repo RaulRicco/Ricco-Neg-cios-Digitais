@@ -4,7 +4,7 @@
     "start": "2026-09-01",
     "end": "2026-09-30"
   },
-  "gerado_em": "2026-10-05T08:07:39.277493",
+  "gerado_em": "2026-10-05T09:04:07.392049",
   "consolidado": null,
   "meta": {
     "spend": 351.38,
@@ -45,19 +45,6 @@
         "result_cpr": 15.34
       },
       {
-        "name": "VD DOC DENNISE",
-        "campaign": "[CBO] [DOG HORUS] [MENSAGEM]",
-        "spend": 157.96,
-        "impressions": 4275,
-        "clicks": 84,
-        "ctr": 1.96,
-        "cpc": 1.88,
-        "frequency": 1.81,
-        "result_label": "Mensagens",
-        "result_qty": 11,
-        "result_cpr": 14.36
-      },
-      {
         "name": "academias_vendem",
         "campaign": "[CBO] [DOG HORUS] [MENSAGEM]",
         "spend": 24.68,
@@ -69,6 +56,19 @@
         "result_label": "Mensagens",
         "result_qty": 0,
         "result_cpr": 0
+      },
+      {
+        "name": "VD DOC DENNISE",
+        "campaign": "[CBO] [DOG HORUS] [MENSAGEM]",
+        "spend": 157.96,
+        "impressions": 4275,
+        "clicks": 84,
+        "ctr": 1.96,
+        "cpc": 1.88,
+        "frequency": 1.81,
+        "result_label": "Mensagens",
+        "result_qty": 11,
+        "result_cpr": 14.36
       }
     ]
   },

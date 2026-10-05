@@ -4,10 +4,10 @@
     "start": "2026-09-01",
     "end": "2026-09-30"
   },
-  "gerado_em": "2026-10-05T08:07:39.277791",
+  "gerado_em": "2026-10-05T09:04:11.937482",
   "consolidado": null,
   "meta": {
-    "spend": 31,
+    "spend": 31.0,
     "reach": 3220,
     "impressions": 3517,
     "clicks": 35,
@@ -16,19 +16,6 @@
     "ctr": 1.0,
     "frequency": 1.09,
     "campaigns": [
-      {
-        "name": "[FESTIVAL DE BACON] [ENGAJAMENTO]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 19.37,
-        "reach": 2601,
-        "impressions": 2754,
-        "clicks": 24,
-        "ctr": 0.87,
-        "cpc": 0.81,
-        "result_label": "Engajamentos",
-        "result_qty": 1299,
-        "result_cpr": 0.01
-      },
       {
         "name": "[RESERVA 10 PESSOAS] [MENSAGEM]",
         "objective": "OUTCOME_ENGAGEMENT",
@@ -41,22 +28,22 @@
         "result_label": "Mensagens",
         "result_qty": 1,
         "result_cpr": 11.63
-      }
-    ],
-    "ads": [
+      },
       {
-        "name": "MOTION I LOVE BACON",
-        "campaign": "[FESTIVAL DE BACON] [ENGAJAMENTO]",
+        "name": "[FESTIVAL DE BACON] [ENGAJAMENTO]",
+        "objective": "OUTCOME_ENGAGEMENT",
         "spend": 19.37,
+        "reach": 2601,
         "impressions": 2754,
         "clicks": 24,
         "ctr": 0.87,
         "cpc": 0.81,
-        "frequency": 1.06,
         "result_label": "Engajamentos",
         "result_qty": 1299,
         "result_cpr": 0.01
-      },
+      }
+    ],
+    "ads": [
       {
         "name": "VIDEO 18 ABRIL RESERVA 10 PESSOAS",
         "campaign": "[RESERVA 10 PESSOAS] [MENSAGEM]",
@@ -69,6 +56,19 @@
         "result_label": "Mensagens",
         "result_qty": 1,
         "result_cpr": 11.63
+      },
+      {
+        "name": "MOTION I LOVE BACON",
+        "campaign": "[FESTIVAL DE BACON] [ENGAJAMENTO]",
+        "spend": 19.37,
+        "impressions": 2754,
+        "clicks": 24,
+        "ctr": 0.87,
+        "cpc": 0.81,
+        "frequency": 1.06,
+        "result_label": "Engajamentos",
+        "result_qty": 1299,
+        "result_cpr": 0.01
       }
     ]
   },

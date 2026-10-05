@@ -4,7 +4,7 @@
     "start": "2026-09-01",
     "end": "2026-09-30"
   },
-  "gerado_em": "2026-10-05T08:07:39.280553",
+  "gerado_em": "2026-10-05T09:05:27.417164",
   "consolidado": null,
   "meta": {
     "spend": 1215.93,
@@ -17,21 +17,8 @@
     "frequency": 3.12,
     "campaigns": [
       {
-        "name": "[DEU PAGODE NO FERIADO] [VENDAS]",
-        "objective": "OUTCOME_SALES",
-        "spend": 350,
-        "reach": 8439,
-        "impressions": 31007,
-        "clicks": 849,
-        "ctr": 2.74,
-        "cpc": 0.41,
-        "result_label": "Vendas",
-        "result_qty": 4,
-        "result_cpr": 87.5
-      },
-      {
         "name": "[CBO] [TOPO PIRIDICAS] [TRAFEGO]",
-        "objective": "OUTCOME_TRAFFIC",
+        "objective": "LINK_CLICKS",
         "spend": 290.52,
         "reach": 15920,
         "impressions": 21903,
@@ -43,21 +30,21 @@
         "result_cpr": 0.46
       },
       {
-        "name": "[PAGODE PAKITOS] [VENDAS]",
+        "name": "[DEU PAGODE NO FERIADO] [VENDAS]",
         "objective": "OUTCOME_SALES",
-        "spend": 249.99,
-        "reach": 6018,
-        "impressions": 22928,
-        "clicks": 174,
-        "ctr": 0.76,
-        "cpc": 1.44,
+        "spend": 350.0,
+        "reach": 8439,
+        "impressions": 31007,
+        "clicks": 849,
+        "ctr": 2.74,
+        "cpc": 0.41,
         "result_label": "Vendas",
         "result_qty": 4,
-        "result_cpr": 62.5
+        "result_cpr": 87.5
       },
       {
         "name": "[UM PAGODE DU NADA] [TRAFEGO]",
-        "objective": "OUTCOME_TRAFFIC",
+        "objective": "LINK_CLICKS",
         "spend": 207.58,
         "reach": 6963,
         "impressions": 19167,
@@ -82,6 +69,19 @@
         "result_cpr": 0.11
       },
       {
+        "name": "[PAGODE PAKITOS] [VENDAS]",
+        "objective": "OUTCOME_SALES",
+        "spend": 249.99,
+        "reach": 6018,
+        "impressions": 22928,
+        "clicks": 174,
+        "ctr": 0.76,
+        "cpc": 1.44,
+        "result_label": "Vendas",
+        "result_qty": 4,
+        "result_cpr": 62.5
+      },
+      {
         "name": "[PAGODE 03/10] [VENDAS]",
         "objective": "OUTCOME_SALES",
         "spend": 17.17,
@@ -97,43 +97,17 @@
     ],
     "ads": [
       {
-        "name": "DEU PAGODE NO FERIADO",
-        "campaign": "[DEU PAGODE NO FERIADO] [VENDAS]",
-        "spend": 350,
-        "impressions": 31007,
-        "clicks": 849,
-        "ctr": 2.74,
-        "cpc": 0.41,
-        "frequency": 3.67,
-        "result_label": "Vendas",
-        "result_qty": 4,
-        "result_cpr": 87.5
-      },
-      {
-        "name": "PAGODE PAKITOS",
-        "campaign": "[PAGODE PAKITOS] [VENDAS]",
-        "spend": 249.99,
-        "impressions": 22928,
-        "clicks": 174,
-        "ctr": 0.76,
-        "cpc": 1.44,
-        "frequency": 3.81,
-        "result_label": "Vendas",
-        "result_qty": 4,
-        "result_cpr": 62.5
-      },
-      {
-        "name": "MOTION PAGODE DU NADA",
-        "campaign": "[UM PAGODE DU NADA] [TRAFEGO]",
-        "spend": 207.58,
-        "impressions": 19167,
-        "clicks": 171,
-        "ctr": 0.89,
-        "cpc": 1.21,
-        "frequency": 2.75,
+        "name": "vd_piri_dicas",
+        "campaign": "[CBO] [TOPO PIRIDICAS] [TRAFEGO]",
+        "spend": 103.07,
+        "impressions": 6614,
+        "clicks": 271,
+        "ctr": 4.1,
+        "cpc": 0.38,
+        "frequency": 1.33,
         "result_label": "Cliques",
-        "result_qty": 164,
-        "result_cpr": 1.27
+        "result_qty": 217,
+        "result_cpr": 0.47
       },
       {
         "name": "vd_piri_dicas_2",
@@ -149,17 +123,30 @@
         "result_cpr": 0.45
       },
       {
-        "name": "vd_piri_dicas",
-        "campaign": "[CBO] [TOPO PIRIDICAS] [TRAFEGO]",
-        "spend": 103.07,
-        "impressions": 6614,
-        "clicks": 271,
-        "ctr": 4.1,
-        "cpc": 0.38,
-        "frequency": 1.33,
+        "name": "DEU PAGODE NO FERIADO",
+        "campaign": "[DEU PAGODE NO FERIADO] [VENDAS]",
+        "spend": 350.0,
+        "impressions": 31007,
+        "clicks": 849,
+        "ctr": 2.74,
+        "cpc": 0.41,
+        "frequency": 3.67,
+        "result_label": "Vendas",
+        "result_qty": 4,
+        "result_cpr": 87.5
+      },
+      {
+        "name": "MOTION PAGODE DU NADA",
+        "campaign": "[UM PAGODE DU NADA] [TRAFEGO]",
+        "spend": 207.58,
+        "impressions": 19167,
+        "clicks": 171,
+        "ctr": 0.89,
+        "cpc": 1.21,
+        "frequency": 2.75,
         "result_label": "Cliques",
-        "result_qty": 217,
-        "result_cpr": 0.47
+        "result_qty": 164,
+        "result_cpr": 1.27
       },
       {
         "name": "Novo anúncio de Engajamento",
@@ -173,6 +160,19 @@
         "result_label": "Engajamentos",
         "result_qty": 900,
         "result_cpr": 0.11
+      },
+      {
+        "name": "PAGODE PAKITOS",
+        "campaign": "[PAGODE PAKITOS] [VENDAS]",
+        "spend": 249.99,
+        "impressions": 22928,
+        "clicks": 174,
+        "ctr": 0.76,
+        "cpc": 1.44,
+        "frequency": 3.81,
+        "result_label": "Vendas",
+        "result_qty": 4,
+        "result_cpr": 62.5
       },
       {
         "name": "VIDEO PAGODE 03/10",

@@ -1,445 +1,447 @@
 {
   "cliente": "Floreria Café.Bar",
   "periodo": {
-    "start": "2026-08-01",
-    "end": "2026-08-31"
+    "start": "2026-09-01",
+    "end": "2026-09-30"
   },
-  "gerado_em": "2026-09-07T07:44:05.484505",
+  "gerado_em": "2026-10-05T09:03:53.931156",
   "consolidado": {
-    "spend": 2111.61,
-    "reach": 76068,
-    "impressions": 219399,
-    "clicks": 5180,
-    "meta_spend": 1608.3,
-    "google_spend": 503.31
+    "spend": 2364.46,
+    "reach": 64348,
+    "impressions": 329594,
+    "clicks": 4613,
+    "meta_spend": 1830.07,
+    "google_spend": 534.39
   },
   "meta": {
-    "spend": 1608.3,
-    "reach": 76068,
-    "impressions": 191267,
-    "clicks": 4542,
-    "cpm": 8.41,
-    "cpc": 0.35,
-    "ctr": 2.37,
-    "frequency": 2.51,
+    "spend": 1830.07,
+    "reach": 64348,
+    "impressions": 303519,
+    "clicks": 3751,
+    "cpm": 6.03,
+    "cpc": 0.49,
+    "ctr": 1.24,
+    "frequency": 4.72,
     "campaigns": [
       {
         "name": "[CBO] [TOPO DE FUNIL] [TRAFEGO]",
         "objective": "LINK_CLICKS",
-        "spend": 217.04,
-        "reach": 13269,
-        "impressions": 18692,
-        "clicks": 848,
-        "ctr": 4.54,
-        "cpc": 0.26,
+        "spend": 210.97,
+        "reach": 10257,
+        "impressions": 14644,
+        "clicks": 644,
+        "ctr": 4.4,
+        "cpc": 0.33,
         "result_label": "Cliques",
-        "result_qty": 838,
-        "result_cpr": 0.26
+        "result_qty": 639,
+        "result_cpr": 0.33
       },
       {
         "name": "[CBO] [MEIO DE FUNIL] [ENGAJAMENTO]",
         "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 218.6,
-        "reach": 19591,
-        "impressions": 35672,
-        "clicks": 597,
-        "ctr": 1.67,
-        "cpc": 0.37,
+        "spend": 210.45,
+        "reach": 15579,
+        "impressions": 24774,
+        "clicks": 584,
+        "ctr": 2.36,
+        "cpc": 0.36,
         "result_label": "Engajamentos",
-        "result_qty": 5544,
-        "result_cpr": 0.04
+        "result_qty": 3610,
+        "result_cpr": 0.06
       },
       {
         "name": "[CBO] [ALMOÇO MAR/26] [ENGAJAMENTO]",
         "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 217.54,
-        "reach": 22350,
-        "impressions": 39931,
-        "clicks": 456,
-        "ctr": 1.14,
-        "cpc": 0.48,
+        "spend": 211.45,
+        "reach": 15629,
+        "impressions": 25134,
+        "clicks": 587,
+        "ctr": 2.34,
+        "cpc": 0.36,
         "result_label": "Engajamentos",
-        "result_qty": 3892,
+        "result_qty": 3607,
         "result_cpr": 0.06
       },
       {
         "name": "[CBO] [DO BRUNCH AO HAPPY HOUR] [RESERVAS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 305.26,
-        "reach": 11755,
-        "impressions": 29131,
-        "clicks": 798,
-        "ctr": 2.74,
-        "cpc": 0.38,
+        "spend": 304.67,
+        "reach": 10374,
+        "impressions": 25349,
+        "clicks": 662,
+        "ctr": 2.61,
+        "cpc": 0.46,
         "result_label": "Leads",
-        "result_qty": 20,
-        "result_cpr": 15.26
+        "result_qty": 23,
+        "result_cpr": 13.25
       },
       {
         "name": "[CBO] [ALMOÇO] [RESERVAS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 303.93,
-        "reach": 12102,
-        "impressions": 26782,
-        "clicks": 652,
-        "ctr": 2.43,
-        "cpc": 0.47,
+        "spend": 305.85,
+        "reach": 10465,
+        "impressions": 24750,
+        "clicks": 552,
+        "ctr": 2.23,
+        "cpc": 0.55,
         "result_label": "Leads",
-        "result_qty": 14,
-        "result_cpr": 21.71
-      },
-      {
-        "name": "[TOPO DE FUNIL 2.0] [TRAFEGO]",
-        "objective": "LINK_CLICKS",
-        "spend": 199.84,
-        "reach": 12050,
-        "impressions": 17482,
-        "clicks": 799,
-        "ctr": 4.57,
-        "cpc": 0.25,
-        "result_label": "Cliques",
-        "result_qty": 787,
-        "result_cpr": 0.25
-      },
-      {
-        "name": "[BURGUER CHICAGO] [TRAFEGO]",
-        "objective": "LINK_CLICKS",
-        "spend": 69.91,
-        "reach": 4277,
-        "impressions": 5195,
-        "clicks": 222,
-        "ctr": 4.27,
-        "cpc": 0.31,
-        "result_label": "Cliques",
-        "result_qty": 219,
-        "result_cpr": 0.32
+        "result_qty": 10,
+        "result_cpr": 30.59
       },
       {
         "name": "[CAMPANHA RMKT] [ALCANCE]",
         "objective": "OUTCOME_AWARENESS",
-        "spend": 36.97,
-        "reach": 7164,
-        "impressions": 16373,
-        "clicks": 44,
+        "spend": 436.79,
+        "reach": 18367,
+        "impressions": 180306,
+        "clicks": 480,
         "ctr": 0.27,
-        "cpc": 0.84,
+        "cpc": 0.91,
         "result_label": "Cliques",
-        "result_qty": 21,
-        "result_cpr": 1.76
+        "result_qty": 218,
+        "result_cpr": 2.0
       },
       {
-        "name": "[HAPPY HOUR E JAZZ] [LEADS]",
+        "name": "[NOITE NA ITALIA] [RESERVAS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 39.21,
-        "reach": 1615,
-        "impressions": 2009,
-        "clicks": 126,
-        "ctr": 6.27,
-        "cpc": 0.31,
+        "spend": 149.89,
+        "reach": 5661,
+        "impressions": 8562,
+        "clicks": 242,
+        "ctr": 2.83,
+        "cpc": 0.62,
         "result_label": "Leads",
-        "result_qty": 1,
-        "result_cpr": 39.21
+        "result_qty": 3,
+        "result_cpr": 49.96
       }
     ],
     "ads": [
       {
         "name": "VIDEO 21 JAN",
         "campaign": "[CBO] [MEIO DE FUNIL] [ENGAJAMENTO]",
-        "spend": 14.71,
-        "impressions": 3039,
-        "clicks": 27,
-        "ctr": 0.89,
-        "cpc": 0.54,
-        "frequency": 1.13,
+        "spend": 173.18,
+        "impressions": 19301,
+        "clicks": 468,
+        "ctr": 2.42,
+        "cpc": 0.37,
+        "frequency": 1.57,
         "result_label": "Engajamentos",
-        "result_qty": 322,
-        "result_cpr": 0.05
+        "result_qty": 2608,
+        "result_cpr": 0.07
       },
       {
         "name": "VIDEO 01 MAR",
         "campaign": "[CBO] [MEIO DE FUNIL] [ENGAJAMENTO]",
-        "spend": 4.96,
-        "impressions": 933,
-        "clicks": 14,
-        "ctr": 1.5,
-        "cpc": 0.35,
-        "frequency": 1.11,
+        "spend": 8.95,
+        "impressions": 1129,
+        "clicks": 30,
+        "ctr": 2.66,
+        "cpc": 0.3,
+        "frequency": 1.05,
         "result_label": "Engajamentos",
-        "result_qty": 119,
-        "result_cpr": 0.04
+        "result_qty": 181,
+        "result_cpr": 0.05
       },
       {
         "name": "VIDEO 11 FEV",
         "campaign": "[CBO] [MEIO DE FUNIL] [ENGAJAMENTO]",
-        "spend": 196.37,
-        "impressions": 31155,
-        "clicks": 550,
-        "ctr": 1.77,
-        "cpc": 0.36,
-        "frequency": 1.82,
+        "spend": 17.7,
+        "impressions": 2615,
+        "clicks": 63,
+        "ctr": 2.41,
+        "cpc": 0.28,
+        "frequency": 1.09,
         "result_label": "Engajamentos",
-        "result_qty": 5007,
+        "result_qty": 503,
         "result_cpr": 0.04
       },
       {
         "name": "VIDEO 7 FEV",
         "campaign": "[CBO] [MEIO DE FUNIL] [ENGAJAMENTO]",
-        "spend": 2.56,
-        "impressions": 545,
-        "clicks": 6,
-        "ctr": 1.1,
-        "cpc": 0.43,
+        "spend": 10.62,
+        "impressions": 1729,
+        "clicks": 23,
+        "ctr": 1.33,
+        "cpc": 0.46,
         "frequency": 1.06,
         "result_label": "Engajamentos",
-        "result_qty": 96,
+        "result_qty": 318,
         "result_cpr": 0.03
       },
       {
         "name": "VIDEO 21 JAN",
         "campaign": "[CBO] [ALMOÇO MAR/26] [ENGAJAMENTO]",
-        "spend": 66.97,
-        "impressions": 11777,
-        "clicks": 153,
-        "ctr": 1.3,
-        "cpc": 0.44,
-        "frequency": 1.3,
+        "spend": 182.54,
+        "impressions": 21120,
+        "clicks": 514,
+        "ctr": 2.43,
+        "cpc": 0.36,
+        "frequency": 1.57,
         "result_label": "Engajamentos",
-        "result_qty": 1300,
-        "result_cpr": 0.05
+        "result_qty": 3132,
+        "result_cpr": 0.06
       },
       {
         "name": "VIDEO 27 FEV",
         "campaign": "[CBO] [ALMOÇO MAR/26] [ENGAJAMENTO]",
-        "spend": 150.57,
-        "impressions": 28154,
-        "clicks": 303,
-        "ctr": 1.08,
-        "cpc": 0.5,
-        "frequency": 1.65,
+        "spend": 28.91,
+        "impressions": 4014,
+        "clicks": 73,
+        "ctr": 1.82,
+        "cpc": 0.4,
+        "frequency": 1.12,
         "result_label": "Engajamentos",
-        "result_qty": 2592,
+        "result_qty": 475,
         "result_cpr": 0.06
       },
       {
         "name": "VIDEO DO BRUNCH AO HAPPY HOUR",
         "campaign": "[CBO] [DO BRUNCH AO HAPPY HOUR] [RESERVAS]",
-        "spend": 305.26,
-        "impressions": 29131,
-        "clicks": 798,
-        "ctr": 2.74,
-        "cpc": 0.38,
-        "frequency": 2.48,
+        "spend": 304.67,
+        "impressions": 25349,
+        "clicks": 662,
+        "ctr": 2.61,
+        "cpc": 0.46,
+        "frequency": 2.44,
         "result_label": "Leads",
-        "result_qty": 20,
-        "result_cpr": 15.26
+        "result_qty": 23,
+        "result_cpr": 13.25
       },
       {
         "name": "vd_tour_floreria",
         "campaign": "[CBO] [TOPO DE FUNIL] [TRAFEGO]",
-        "spend": 216.98,
-        "impressions": 18683,
-        "clicks": 848,
-        "ctr": 4.54,
-        "cpc": 0.26,
-        "frequency": 1.41,
+        "spend": 147.11,
+        "impressions": 10990,
+        "clicks": 516,
+        "ctr": 4.7,
+        "cpc": 0.29,
+        "frequency": 1.33,
         "result_label": "Cliques",
-        "result_qty": 838,
-        "result_cpr": 0.26
+        "result_qty": 516,
+        "result_cpr": 0.29
       },
       {
         "name": "vd_21_jan",
         "campaign": "[CBO] [ALMOÇO] [RESERVAS]",
-        "spend": 303.93,
-        "impressions": 26782,
-        "clicks": 652,
-        "ctr": 2.43,
-        "cpc": 0.47,
-        "frequency": 2.21,
+        "spend": 305.85,
+        "impressions": 24750,
+        "clicks": 552,
+        "ctr": 2.23,
+        "cpc": 0.55,
+        "frequency": 2.37,
         "result_label": "Leads",
-        "result_qty": 14,
-        "result_cpr": 21.71
+        "result_qty": 10,
+        "result_cpr": 30.59
       },
       {
         "name": "vd_seu_dia_pede",
         "campaign": "[CBO] [TOPO DE FUNIL] [TRAFEGO]",
-        "spend": 0.06,
-        "impressions": 8,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0.0,
+        "spend": 0.2,
+        "impressions": 17,
+        "clicks": 1,
+        "ctr": 5.88,
+        "cpc": 0.2,
         "frequency": 1.0,
         "result_label": "Cliques",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_qty": 1,
+        "result_cpr": 0.2
       },
       {
         "name": "vd_pratos_tiago",
         "campaign": "[CBO] [TOPO DE FUNIL] [TRAFEGO]",
-        "spend": 0.0,
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0.0,
-        "frequency": 1.0,
-        "result_label": "Cliques",
-        "result_qty": 0,
-        "result_cpr": 0
-      },
-      {
-        "name": "TOPO DE FUNIL",
-        "campaign": "[TOPO DE FUNIL 2.0] [TRAFEGO]",
-        "spend": 199.84,
-        "impressions": 17482,
-        "clicks": 799,
-        "ctr": 4.57,
+        "spend": 0.99,
+        "impressions": 60,
+        "clicks": 4,
+        "ctr": 6.67,
         "cpc": 0.25,
-        "frequency": 1.45,
+        "frequency": 1.03,
         "result_label": "Cliques",
-        "result_qty": 787,
-        "result_cpr": 0.25
-      },
-      {
-        "name": "BURGUER CHICAGO",
-        "campaign": "[BURGUER CHICAGO] [TRAFEGO]",
-        "spend": 69.91,
-        "impressions": 5195,
-        "clicks": 222,
-        "ctr": 4.27,
-        "cpc": 0.31,
-        "frequency": 1.21,
-        "result_label": "Cliques",
-        "result_qty": 219,
-        "result_cpr": 0.32
+        "result_qty": 5,
+        "result_cpr": 0.2
       },
       {
         "name": "EP 01 ALMOÇO NO FLORERIA",
         "campaign": "[CAMPANHA RMKT] [ALCANCE]",
-        "spend": 36.97,
-        "impressions": 16373,
-        "clicks": 44,
+        "spend": 244.59,
+        "impressions": 101152,
+        "clicks": 270,
         "ctr": 0.27,
-        "cpc": 0.84,
-        "frequency": 2.29,
+        "cpc": 0.91,
+        "frequency": 6.58,
         "result_label": "Cliques",
-        "result_qty": 21,
-        "result_cpr": 1.76
+        "result_qty": 125,
+        "result_cpr": 1.96
       },
       {
-        "name": "HAPPY HOUR E JAZZ",
-        "campaign": "[HAPPY HOUR E JAZZ] [LEADS]",
-        "spend": 39.21,
-        "impressions": 2009,
-        "clicks": 126,
-        "ctr": 6.27,
-        "cpc": 0.31,
-        "frequency": 1.24,
+        "name": "EP 02 ALMOÇO NO FLORERIA",
+        "campaign": "[CAMPANHA RMKT] [ALCANCE]",
+        "spend": 134.27,
+        "impressions": 57972,
+        "clicks": 139,
+        "ctr": 0.24,
+        "cpc": 0.97,
+        "frequency": 4.67,
+        "result_label": "Cliques",
+        "result_qty": 70,
+        "result_cpr": 1.92
+      },
+      {
+        "name": "EP 03 ALMOÇO NO FLORERIA",
+        "campaign": "[CAMPANHA RMKT] [ALCANCE]",
+        "spend": 3.45,
+        "impressions": 1360,
+        "clicks": 8,
+        "ctr": 0.59,
+        "cpc": 0.43,
+        "frequency": 1.23,
+        "result_label": "Cliques",
+        "result_qty": 2,
+        "result_cpr": 1.73
+      },
+      {
+        "name": "vd_todos_horarios",
+        "campaign": "[CBO] [TOPO DE FUNIL] [TRAFEGO]",
+        "spend": 62.67,
+        "impressions": 3577,
+        "clicks": 123,
+        "ctr": 3.44,
+        "cpc": 0.51,
+        "frequency": 1.23,
+        "result_label": "Cliques",
+        "result_qty": 117,
+        "result_cpr": 0.54
+      },
+      {
+        "name": "EP 04 ALMOÇO NO FLORERIA",
+        "campaign": "[CAMPANHA RMKT] [ALCANCE]",
+        "spend": 54.48,
+        "impressions": 19822,
+        "clicks": 63,
+        "ctr": 0.32,
+        "cpc": 0.86,
+        "frequency": 2.58,
+        "result_label": "Cliques",
+        "result_qty": 21,
+        "result_cpr": 2.59
+      },
+      {
+        "name": "NOITE NA ITALIA",
+        "campaign": "[NOITE NA ITALIA] [RESERVAS]",
+        "spend": 149.89,
+        "impressions": 8562,
+        "clicks": 242,
+        "ctr": 2.83,
+        "cpc": 0.62,
+        "frequency": 1.51,
         "result_label": "Leads",
-        "result_qty": 1,
-        "result_cpr": 39.21
+        "result_qty": 3,
+        "result_cpr": 49.96
       }
     ]
   },
   "google": {
-    "spend": 503.31,
-    "impressions": 28132,
-    "clicks": 638,
-    "ctr": 2.27,
-    "cpc": 0.79,
-    "conversions": 21,
-    "cpa": 23.97,
+    "spend": 534.39,
+    "impressions": 26075,
+    "clicks": 862,
+    "ctr": 3.31,
+    "cpc": 0.62,
+    "conversions": 25,
+    "cpa": 21.38,
     "campaigns": [
       {
         "name": "REDE DE PESQUISAS 2.0",
         "type": "Search",
         "status": "Enabled",
-        "spend": 503.31,
-        "impressions": 28132,
-        "clicks": 638,
-        "ctr": 2.27,
-        "cpc": 0.79,
-        "conversions": 21
+        "spend": 517.92,
+        "impressions": 24961,
+        "clicks": 812,
+        "ctr": 3.25,
+        "cpc": 0.64,
+        "conversions": 24
+      },
+      {
+        "name": "[PMAX] [RESERVAS]",
+        "type": "Performance_Max",
+        "status": "Enabled",
+        "spend": 16.47,
+        "impressions": 1114,
+        "clicks": 50,
+        "ctr": 4.49,
+        "cpc": 0.33,
+        "conversions": 1
       }
     ],
     "keywords": [
       {
         "keyword": "restaurante curitiba",
         "match": "Exact",
-        "impressions": 7370,
+        "impressions": 6531,
         "clicks": 197,
-        "ctr": 2.67,
-        "cpc": 0.97,
-        "conversions": 13
+        "ctr": 3.02,
+        "cpc": 0.93,
+        "conversions": 6
       },
       {
         "keyword": "melhores restaurantes curitiba",
         "match": "Exact",
-        "impressions": 3545,
-        "clicks": 85,
-        "ctr": 2.4,
-        "cpc": 0.98,
-        "conversions": 2
+        "impressions": 3430,
+        "clicks": 86,
+        "ctr": 2.51,
+        "cpc": 0.77,
+        "conversions": 3
       },
       {
         "keyword": "restaurantes em curitiba",
         "match": "Exact",
-        "impressions": 3591,
-        "clicks": 65,
-        "ctr": 1.81,
-        "cpc": 0.91,
-        "conversions": 1
-      },
-      {
-        "keyword": "onde comer em curitiba",
-        "match": "Exact",
-        "impressions": 2559,
-        "clicks": 19,
-        "ctr": 0.74,
-        "cpc": 0.92,
-        "conversions": 5
+        "impressions": 4005,
+        "clicks": 67,
+        "ctr": 1.67,
+        "cpc": 0.96,
+        "conversions": 7
       },
       {
         "keyword": "Brunch Curitiba",
         "match": "Exact",
-        "impressions": 255,
-        "clicks": 15,
-        "ctr": 5.88,
-        "cpc": 0.55,
-        "conversions": 0
+        "impressions": 1304,
+        "clicks": 77,
+        "ctr": 5.9,
+        "cpc": 0.69,
+        "conversions": 1
       },
       {
         "keyword": "brunch em curitiba",
         "match": "Exact",
-        "impressions": 85,
-        "clicks": 4,
-        "ctr": 4.71,
-        "cpc": 0.64,
-        "conversions": 0
+        "impressions": 554,
+        "clicks": 35,
+        "ctr": 6.32,
+        "cpc": 0.81,
+        "conversions": 2
+      },
+      {
+        "keyword": "onde comer em curitiba",
+        "match": "Exact",
+        "impressions": 2340,
+        "clicks": 22,
+        "ctr": 0.94,
+        "cpc": 0.89,
+        "conversions": 3
       },
       {
         "keyword": "brunch em curitiba domingo",
         "match": "Phrase",
-        "impressions": 16,
-        "clicks": 3,
-        "ctr": 18.75,
-        "cpc": 0.5,
-        "conversions": 0
+        "impressions": 275,
+        "clicks": 25,
+        "ctr": 9.09,
+        "cpc": 0.69,
+        "conversions": 2
       },
       {
-        "keyword": "museu oscar niemeyer",
+        "keyword": "o melhor brunch de curitiba",
         "match": "Exact",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "museu oscar niemeyer curitiba",
-        "match": "Exact",
-        "impressions": 2,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
+        "impressions": 155,
+        "clicks": 8,
+        "ctr": 5.16,
+        "cpc": 0.9,
         "conversions": 0
       }
     ],
@@ -447,474 +449,474 @@
       {
         "term": "restaurante curitiba",
         "keyword": "—",
-        "impressions": 5124,
-        "clicks": 77,
-        "ctr": 1.5,
-        "cpc": 1.0
+        "impressions": 4739,
+        "clicks": 76,
+        "ctr": 1.6,
+        "cpc": 0.89
       },
       {
         "term": "restaurantes curitiba",
         "keyword": "—",
-        "impressions": 2777,
-        "clicks": 60,
-        "ctr": 2.16,
-        "cpc": 0.9
-      },
-      {
-        "term": "restaurantes em curitiba",
-        "keyword": "—",
-        "impressions": 1718,
-        "clicks": 49,
-        "ctr": 2.85,
+        "impressions": 2486,
+        "clicks": 53,
+        "ctr": 2.13,
         "cpc": 0.89
-      },
-      {
-        "term": "melhores restaurantes curitiba",
-        "keyword": "—",
-        "impressions": 812,
-        "clicks": 24,
-        "ctr": 2.96,
-        "cpc": 1.02
-      },
-      {
-        "term": "restaurante em curitiba",
-        "keyword": "—",
-        "impressions": 852,
-        "clicks": 20,
-        "ctr": 2.35,
-        "cpc": 0.89
-      },
-      {
-        "term": "melhores restaurantes de curitiba",
-        "keyword": "—",
-        "impressions": 293,
-        "clicks": 9,
-        "ctr": 3.07,
-        "cpc": 1.01
-      },
-      {
-        "term": "lugares para comer curitiba",
-        "keyword": "—",
-        "impressions": 476,
-        "clicks": 8,
-        "ctr": 1.68,
-        "cpc": 1.12
-      },
-      {
-        "term": "curitiba restaurantes",
-        "keyword": "—",
-        "impressions": 149,
-        "clicks": 9,
-        "ctr": 6.04,
-        "cpc": 0.91
       },
       {
         "term": "brunch curitiba",
         "keyword": "—",
-        "impressions": 209,
-        "clicks": 12,
-        "ctr": 5.74,
-        "cpc": 0.54
+        "impressions": 1073,
+        "clicks": 55,
+        "ctr": 5.13,
+        "cpc": 0.7
       },
       {
-        "term": "bons restaurantes em curitiba",
+        "term": "restaurantes em curitiba",
         "keyword": "—",
-        "impressions": 63,
-        "clicks": 4,
-        "ctr": 6.35,
-        "cpc": 1.37
-      },
-      {
-        "term": "onde comer curitiba",
-        "keyword": "—",
-        "impressions": 117,
-        "clicks": 3,
-        "ctr": 2.56,
-        "cpc": 1.43
-      },
-      {
-        "term": "restaurantes curitiba melhores",
-        "keyword": "—",
-        "impressions": 131,
-        "clicks": 4,
-        "ctr": 3.05,
-        "cpc": 1.0
-      },
-      {
-        "term": "melhor restaurante de curitiba bem avaliados",
-        "keyword": "—",
-        "impressions": 13,
-        "clicks": 2,
-        "ctr": 15.38,
-        "cpc": 1.38
-      },
-      {
-        "term": "onde comer em curitiba",
-        "keyword": "—",
-        "impressions": 301,
-        "clicks": 3,
-        "ctr": 1.0,
-        "cpc": 0.89
-      },
-      {
-        "term": "melhores restaurantes em curitiba",
-        "keyword": "—",
-        "impressions": 163,
-        "clicks": 3,
-        "ctr": 1.84,
-        "cpc": 0.87
-      },
-      {
-        "term": "melhor restaurante de curitiba",
-        "keyword": "—",
-        "impressions": 205,
-        "clicks": 2,
-        "ctr": 0.98,
-        "cpc": 1.3
-      },
-      {
-        "term": "curitiba restaurante",
-        "keyword": "—",
-        "impressions": 53,
-        "clicks": 3,
-        "ctr": 5.66,
-        "cpc": 0.8
-      },
-      {
-        "term": "lugar para comer curitiba",
-        "keyword": "—",
-        "impressions": 120,
-        "clicks": 2,
-        "ctr": 1.67,
-        "cpc": 1.17
-      },
-      {
-        "term": "melhores lugares para comer em curitiba",
-        "keyword": "—",
-        "impressions": 37,
-        "clicks": 3,
-        "ctr": 8.11,
-        "cpc": 0.77
-      },
-      {
-        "term": "restaurantes bons em curitiba",
-        "keyword": "—",
-        "impressions": 93,
-        "clicks": 2,
-        "ctr": 2.15,
-        "cpc": 1.12
-      },
-      {
-        "term": "restaurante curitiba bem avaliados",
-        "keyword": "—",
-        "impressions": 103,
-        "clicks": 3,
-        "ctr": 2.91,
-        "cpc": 0.71
-      },
-      {
-        "term": "restaurantes top em curitiba",
-        "keyword": "—",
-        "impressions": 14,
-        "clicks": 2,
-        "ctr": 14.29,
-        "cpc": 1.04
-      },
-      {
-        "term": "lugar bom para jantar em curitiba",
-        "keyword": "—",
-        "impressions": 2,
-        "clicks": 2,
-        "ctr": 100.0,
-        "cpc": 0.99
-      },
-      {
-        "term": "locais para comer curitiba",
-        "keyword": "—",
-        "impressions": 36,
-        "clicks": 2,
-        "ctr": 5.56,
-        "cpc": 0.97
-      },
-      {
-        "term": "restaurantes en curitiba",
-        "keyword": "—",
-        "impressions": 30,
-        "clicks": 2,
-        "ctr": 6.67,
-        "cpc": 0.96
+        "impressions": 1439,
+        "clicks": 39,
+        "ctr": 2.71,
+        "cpc": 0.93
       },
       {
         "term": "brunch em curitiba",
         "keyword": "—",
-        "impressions": 64,
-        "clicks": 3,
-        "ctr": 4.69,
-        "cpc": 0.6
-      },
-      {
-        "term": "lugar pra comer em curitiba",
-        "keyword": "—",
-        "impressions": 8,
-        "clicks": 1,
-        "ctr": 12.5,
-        "cpc": 1.75
-      },
-      {
-        "term": "restaurantes legais em curitiba",
-        "keyword": "—",
-        "impressions": 88,
-        "clicks": 2,
-        "ctr": 2.27,
-        "cpc": 0.8
-      },
-      {
-        "term": "restaurantes mais famosos de curitiba",
-        "keyword": "—",
-        "impressions": 6,
-        "clicks": 2,
-        "ctr": 33.33,
+        "impressions": 383,
+        "clicks": 27,
+        "ctr": 7.05,
         "cpc": 0.79
+      },
+      {
+        "term": "restaurante em curitiba",
+        "keyword": "—",
+        "impressions": 611,
+        "clicks": 16,
+        "ctr": 2.62,
+        "cpc": 1.0
+      },
+      {
+        "term": "melhores restaurantes curitiba",
+        "keyword": "—",
+        "impressions": 689,
+        "clicks": 24,
+        "ctr": 3.48,
+        "cpc": 0.55
+      },
+      {
+        "term": "melhores restaurantes em curitiba",
+        "keyword": "—",
+        "impressions": 165,
+        "clicks": 8,
+        "ctr": 4.85,
+        "cpc": 1.15
       },
       {
         "term": "lugares para jantar em curitiba",
         "keyword": "—",
-        "impressions": 69,
-        "clicks": 1,
-        "ctr": 1.45,
-        "cpc": 1.5
-      },
-      {
-        "term": "comida curitiba",
-        "keyword": "—",
-        "impressions": 25,
-        "clicks": 1,
-        "ctr": 4.0,
-        "cpc": 1.48
-      },
-      {
-        "term": "restaurantes em curitiba paraná",
-        "keyword": "—",
-        "impressions": 12,
-        "clicks": 1,
-        "ctr": 8.33,
-        "cpc": 1.29
-      },
-      {
-        "term": "melhor restaurante em curitiba",
-        "keyword": "—",
-        "impressions": 27,
-        "clicks": 1,
-        "ctr": 3.7,
-        "cpc": 1.27
-      },
-      {
-        "term": "melhores restaurantes curitiba pr",
-        "keyword": "—",
-        "impressions": 38,
-        "clicks": 1,
-        "ctr": 2.63,
-        "cpc": 1.24
-      },
-      {
-        "term": "dicas de restaurantes em curitiba",
-        "keyword": "—",
-        "impressions": 11,
-        "clicks": 1,
-        "ctr": 9.09,
-        "cpc": 1.16
-      },
-      {
-        "term": "onde comer em curitiba agora",
-        "keyword": "—",
-        "impressions": 8,
-        "clicks": 1,
-        "ctr": 12.5,
-        "cpc": 1.16
-      },
-      {
-        "term": "restaurantes tops em curitiba",
-        "keyword": "—",
-        "impressions": 6,
-        "clicks": 1,
-        "ctr": 16.67,
-        "cpc": 1.16
-      },
-      {
-        "term": "qual é o melhor restaurante de curitiba",
-        "keyword": "—",
-        "impressions": 7,
-        "clicks": 1,
-        "ctr": 14.29,
-        "cpc": 1.1
-      },
-      {
-        "term": "restaurantes melhores curitiba",
-        "keyword": "—",
-        "impressions": 6,
-        "clicks": 1,
-        "ctr": 16.67,
-        "cpc": 1.06
-      },
-      {
-        "term": "restaurante bons em curitiba",
-        "keyword": "—",
-        "impressions": 10,
-        "clicks": 1,
-        "ctr": 10.0,
-        "cpc": 1.05
-      },
-      {
-        "term": "comer curitiba",
-        "keyword": "—",
-        "impressions": 21,
-        "clicks": 1,
-        "ctr": 4.76,
-        "cpc": 1.04
-      },
-      {
-        "term": "restaurants in curitiba",
-        "keyword": "—",
-        "impressions": 36,
-        "clicks": 1,
-        "ctr": 2.78,
-        "cpc": 0.96
-      },
-      {
-        "term": "brunch em curitiba domingo",
-        "keyword": "—",
-        "impressions": 12,
-        "clicks": 2,
-        "ctr": 16.67,
-        "cpc": 0.47
+        "impressions": 218,
+        "clicks": 8,
+        "ctr": 3.67,
+        "cpc": 0.86
       },
       {
         "term": "onde jantar em curitiba",
         "keyword": "—",
-        "impressions": 145,
-        "clicks": 1,
-        "ctr": 0.69,
-        "cpc": 0.86
+        "impressions": 143,
+        "clicks": 6,
+        "ctr": 4.2,
+        "cpc": 1.13
       },
       {
-        "term": "restaurantes em curitiba bem avaliados",
+        "term": "restaurante em curitiba pr",
         "keyword": "—",
-        "impressions": 22,
-        "clicks": 1,
-        "ctr": 4.55,
-        "cpc": 0.79
+        "impressions": 29,
+        "clicks": 9,
+        "ctr": 31.03,
+        "cpc": 0.7
+      },
+      {
+        "term": "melhores restaurantes de curitiba",
+        "keyword": "—",
+        "impressions": 298,
+        "clicks": 5,
+        "ctr": 1.68,
+        "cpc": 1.02
+      },
+      {
+        "term": "brunch em curitiba domingo",
+        "keyword": "—",
+        "impressions": 58,
+        "clicks": 6,
+        "ctr": 10.34,
+        "cpc": 0.84
       },
       {
         "term": "restaurants curitiba",
         "keyword": "—",
-        "impressions": 66,
-        "clicks": 1,
-        "ctr": 1.52,
-        "cpc": 0.79
+        "impressions": 102,
+        "clicks": 5,
+        "ctr": 4.9,
+        "cpc": 0.95
       },
       {
-        "term": "onde comer bem em curitiba",
+        "term": "melhor restaurante curitiba",
         "keyword": "—",
-        "impressions": 15,
-        "clicks": 1,
-        "ctr": 6.67,
-        "cpc": 0.77
+        "impressions": 28,
+        "clicks": 4,
+        "ctr": 14.29,
+        "cpc": 1.12
       },
       {
-        "term": "restaurante curitiba pr",
+        "term": "lugares para comer em curitiba",
         "keyword": "—",
-        "impressions": 33,
-        "clicks": 1,
-        "ctr": 3.03,
-        "cpc": 0.77
+        "impressions": 185,
+        "clicks": 4,
+        "ctr": 2.16,
+        "cpc": 0.98
       },
       {
-        "term": "melhores restaurantes de curitiba bem avaliados",
+        "term": "lugares para comer curitiba",
         "keyword": "—",
-        "impressions": 1,
-        "clicks": 1,
-        "ctr": 100.0,
+        "impressions": 362,
+        "clicks": 5,
+        "ctr": 1.38,
         "cpc": 0.74
       },
       {
-        "term": "restaurants curitiba state of paraná",
+        "term": "lugar para comer curitiba",
         "keyword": "—",
-        "impressions": 4,
+        "impressions": 94,
+        "clicks": 3,
+        "ctr": 3.19,
+        "cpc": 1.2
+      },
+      {
+        "term": "restaurantes para conhecer em curitiba",
+        "keyword": "—",
+        "impressions": 27,
+        "clicks": 3,
+        "ctr": 11.11,
+        "cpc": 1.15
+      },
+      {
+        "term": "curitiba restaurantes",
+        "keyword": "—",
+        "impressions": 145,
+        "clicks": 4,
+        "ctr": 2.76,
+        "cpc": 0.86
+      },
+      {
+        "term": "onde almoçar em curitiba",
+        "keyword": "—",
+        "impressions": 188,
+        "clicks": 3,
+        "ctr": 1.6,
+        "cpc": 1.02
+      },
+      {
+        "term": "restaurante curitiba perto de mim",
+        "keyword": "—",
+        "impressions": 206,
+        "clicks": 3,
+        "ctr": 1.46,
+        "cpc": 1.0
+      },
+      {
+        "term": "comida curitiba",
+        "keyword": "—",
+        "impressions": 31,
+        "clicks": 2,
+        "ctr": 6.45,
+        "cpc": 1.28
+      },
+      {
+        "term": "brunch curitiba domingo",
+        "keyword": "—",
+        "impressions": 57,
+        "clicks": 3,
+        "ctr": 5.26,
+        "cpc": 0.8
+      },
+      {
+        "term": "onde comer brunch em curitiba",
+        "keyword": "—",
+        "impressions": 16,
+        "clicks": 3,
+        "ctr": 18.75,
+        "cpc": 0.8
+      },
+      {
+        "term": "restaurante bom em curitiba",
+        "keyword": "—",
+        "impressions": 65,
+        "clicks": 2,
+        "ctr": 3.08,
+        "cpc": 1.2
+      },
+      {
+        "term": "locais para brunch em curitiba",
+        "keyword": "—",
+        "impressions": 14,
+        "clicks": 2,
+        "ctr": 14.29,
+        "cpc": 1.19
+      },
+      {
+        "term": "lugares para brunch em curitiba",
+        "keyword": "—",
+        "impressions": 36,
+        "clicks": 4,
+        "ctr": 11.11,
+        "cpc": 0.59
+      },
+      {
+        "term": "onde comer em curitiba",
+        "keyword": "—",
+        "impressions": 248,
+        "clicks": 3,
+        "ctr": 1.21,
+        "cpc": 0.75
+      },
+      {
+        "term": "curitiba restaurantes melhores",
+        "keyword": "—",
+        "impressions": 6,
+        "clicks": 2,
+        "ctr": 33.33,
+        "cpc": 1.08
+      },
+      {
+        "term": "brunch domingo curitiba",
+        "keyword": "—",
+        "impressions": 33,
+        "clicks": 3,
+        "ctr": 9.09,
+        "cpc": 0.68
+      },
+      {
+        "term": "onde almocar em curitiba",
+        "keyword": "—",
+        "impressions": 55,
+        "clicks": 2,
+        "ctr": 3.64,
+        "cpc": 0.99
+      },
+      {
+        "term": "melhor restaurante de curitiba",
+        "keyword": "—",
+        "impressions": 162,
+        "clicks": 2,
+        "ctr": 1.23,
+        "cpc": 0.94
+      },
+      {
+        "term": "restaurantes legais em curitiba",
+        "keyword": "—",
+        "impressions": 66,
+        "clicks": 2,
+        "ctr": 3.03,
+        "cpc": 0.92
+      },
+      {
+        "term": "restaurantes bons em curitiba",
+        "keyword": "—",
+        "impressions": 83,
+        "clicks": 2,
+        "ctr": 2.41,
+        "cpc": 0.89
+      },
+      {
+        "term": "lugares para almoçar em curitiba",
+        "keyword": "—",
+        "impressions": 116,
+        "clicks": 2,
+        "ctr": 1.72,
+        "cpc": 0.85
+      },
+      {
+        "term": "onde comer curitiba",
+        "keyword": "—",
+        "impressions": 107,
+        "clicks": 2,
+        "ctr": 1.87,
+        "cpc": 0.8
+      },
+      {
+        "term": "bons lugares para comer em curitiba",
+        "keyword": "—",
+        "impressions": 12,
         "clicks": 1,
-        "ctr": 25.0,
-        "cpc": 0.73
+        "ctr": 8.33,
+        "cpc": 1.48
+      },
+      {
+        "term": "lugares jantar curitiba",
+        "keyword": "—",
+        "impressions": 5,
+        "clicks": 1,
+        "ctr": 20.0,
+        "cpc": 1.48
+      },
+      {
+        "term": "melhores restaurantes curitiba pr",
+        "keyword": "—",
+        "impressions": 44,
+        "clicks": 2,
+        "ctr": 4.55,
+        "cpc": 0.72
+      },
+      {
+        "term": "onde jantar curitiba",
+        "keyword": "—",
+        "impressions": 16,
+        "clicks": 1,
+        "ctr": 6.25,
+        "cpc": 1.38
+      },
+      {
+        "term": "lugares bons para comer em curitiba",
+        "keyword": "—",
+        "impressions": 23,
+        "clicks": 1,
+        "ctr": 4.35,
+        "cpc": 1.35
+      },
+      {
+        "term": "bons restaurantes curitiba",
+        "keyword": "—",
+        "impressions": 12,
+        "clicks": 1,
+        "ctr": 8.33,
+        "cpc": 1.33
+      },
+      {
+        "term": "lugares para almocar em curitiba",
+        "keyword": "—",
+        "impressions": 30,
+        "clicks": 1,
+        "ctr": 3.33,
+        "cpc": 1.23
+      },
+      {
+        "term": "qual é o melhor restaurante de curitiba",
+        "keyword": "—",
+        "impressions": 9,
+        "clicks": 1,
+        "ctr": 11.11,
+        "cpc": 1.2
+      },
+      {
+        "term": "restaurante bom curitiba",
+        "keyword": "—",
+        "impressions": 21,
+        "clicks": 1,
+        "ctr": 4.76,
+        "cpc": 1.19
+      },
+      {
+        "term": "qual melhor restaurante de curitiba",
+        "keyword": "—",
+        "impressions": 13,
+        "clicks": 1,
+        "ctr": 7.69,
+        "cpc": 1.01
+      },
+      {
+        "term": "restaurantes en curitiba",
+        "keyword": "—",
+        "impressions": 34,
+        "clicks": 1,
+        "ctr": 2.94,
+        "cpc": 0.96
+      },
+      {
+        "term": "comida boa em curitiba",
+        "keyword": "—",
+        "impressions": 2,
+        "clicks": 1,
+        "ctr": 50.0,
+        "cpc": 0.93
+      },
+      {
+        "term": "restaurantes de curitiba",
+        "keyword": "—",
+        "impressions": 26,
+        "clicks": 1,
+        "ctr": 3.85,
+        "cpc": 0.91
       }
     ]
   },
   "ga4": {
-    "sessions": 3994,
-    "users": 3437,
-    "new_users": 3344,
-    "pageviews": 10952,
-    "bounce_rate": 12.57,
-    "duration": "2m 28s",
-    "events": 28121,
-    "conversions": 6746,
+    "sessions": 4039,
+    "users": 3449,
+    "new_users": 3387,
+    "pageviews": 10580,
+    "bounce_rate": 14.09,
+    "duration": "2m 4s",
+    "events": 27450,
+    "conversions": 6434,
     "sources": [
       {
         "source": "ig",
         "medium": "social",
-        "sessions": 1484,
-        "pct": 36.7
+        "sessions": 1289,
+        "pct": 32.3
       },
       {
         "source": "google",
         "medium": "organic",
-        "sessions": 845,
-        "pct": 20.9
+        "sessions": 859,
+        "pct": 21.5
       },
       {
         "source": "(direct)",
         "medium": "(none)",
-        "sessions": 440,
-        "pct": 10.9
-      },
-      {
-        "source": "ig",
-        "medium": "paid",
-        "sessions": 373,
-        "pct": 9.2
-      },
-      {
-        "source": "meta",
-        "medium": "vd_21_jan",
-        "sessions": 325,
-        "pct": 8.0
+        "sessions": 495,
+        "pct": 12.4
       },
       {
         "source": "google",
         "medium": "cpc",
-        "sessions": 323,
-        "pct": 8.0
+        "sessions": 445,
+        "pct": 11.1
+      },
+      {
+        "source": "ig",
+        "medium": "paid",
+        "sessions": 288,
+        "pct": 7.2
+      },
+      {
+        "source": "meta",
+        "medium": "vd_21_jan",
+        "sessions": 252,
+        "pct": 6.3
       },
       {
         "source": "meta_ads",
-        "medium": "HAPPY HOUR E JAZZ",
-        "sessions": 60,
-        "pct": 1.5
+        "medium": "NOITE NA ITALIA",
+        "sessions": 81,
+        "pct": 2.0
+      },
+      {
+        "source": "meta_ads",
+        "medium": "EP 01 ALMOÇO NO FLORERIA",
+        "sessions": 70,
+        "pct": 1.8
+      },
+      {
+        "source": "meta_ads",
+        "medium": "EP 02 ALMOÇO NO FLORERIA",
+        "sessions": 41,
+        "pct": 1.0
       },
       {
         "source": "chatgpt.com",
         "medium": "ai-assistant",
-        "sessions": 40,
-        "pct": 1.0
-      },
-      {
-        "source": "fb",
-        "medium": "paid",
-        "sessions": 21,
-        "pct": 0.5
-      },
-      {
-        "source": "bing",
-        "medium": "organic",
-        "sessions": 19,
-        "pct": 0.5
+        "sessions": 34,
+        "pct": 0.9
       },
       {
         "source": "l.instagram.com",
@@ -923,84 +925,84 @@
         "pct": 0.5
       },
       {
-        "source": "(not set)",
-        "medium": "(not set)",
-        "sessions": 13,
-        "pct": 0.3
+        "source": "fb",
+        "medium": "paid",
+        "sessions": 15,
+        "pct": 0.4
       },
       {
         "source": "meta_ads",
-        "medium": "HAPPY+HOUR+E+JAZZ",
+        "medium": "NOITE+NA+ITALIA",
         "sessions": 13,
-        "pct": 0.3
-      },
-      {
-        "source": "m.facebook.com",
-        "medium": "referral",
-        "sessions": 12,
-        "pct": 0.3
-      },
-      {
-        "source": "instagram.com",
-        "medium": "referral",
-        "sessions": 11,
         "pct": 0.3
       },
       {
         "source": "(data not available)",
         "medium": "(data not available)",
+        "sessions": 11,
+        "pct": 0.3
+      },
+      {
+        "source": "bing",
+        "medium": "organic",
+        "sessions": 11,
+        "pct": 0.3
+      },
+      {
+        "source": "meta_ads",
+        "medium": "EP 04 ALMOÇO NO FLORERIA",
+        "sessions": 10,
+        "pct": 0.3
+      },
+      {
+        "source": "(not set)",
+        "medium": "(not set)",
         "sessions": 9,
         "pct": 0.2
       },
       {
-        "source": "facebook.com",
+        "source": "instagram.com",
         "medium": "referral",
         "sessions": 9,
         "pct": 0.2
       },
       {
-        "source": "google_ads",
-        "medium": "ads",
+        "source": "meta_ads",
+        "medium": "EP+03+ALMOÇO+NO+FLORERIA",
         "sessions": 9,
         "pct": 0.2
       },
       {
-        "source": "google",
-        "medium": "search",
-        "sessions": 6,
-        "pct": 0.1
-      },
-      {
-        "source": "br.search.yahoo.com",
-        "medium": "referral",
-        "sessions": 4,
-        "pct": 0.1
+        "source": "meta_ads",
+        "medium": "EP+02+ALMOÇO+NO+FLORERIA",
+        "sessions": 8,
+        "pct": 0.2
       }
     ],
     "event_list": [
       {
         "name": "scroll_50",
-        "count": 1716
+        "count": 1471
       },
       {
         "name": "form_start",
-        "count": 1103
+        "count": 1219
       },
       {
         "name": "lead_generated",
-        "count": 487
-      },
-      {
-        "name": "select_content",
-        "count": 209
+        "count": 245
       },
       {
         "name": "generate_lead",
-        "count": 153
+        "count": 152
       },
       {
         "name": "click",
-        "count": 96
+        "count": 112
+      },
+      {
+        "name": "select_content",
+        "count": 38
       }
     ]
   },

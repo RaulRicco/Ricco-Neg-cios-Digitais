@@ -4,7 +4,7 @@
     "start": "2026-09-01",
     "end": "2026-09-30"
   },
-  "gerado_em": "2026-10-05T08:07:39.277176",
+  "gerado_em": "2026-10-05T09:03:37.108523",
   "consolidado": null,
   "meta": {
     "spend": 449.09,
@@ -17,19 +17,6 @@
     "frequency": 2.38,
     "campaigns": [
       {
-        "name": "[FDS OPEN WINE] [ENGAJAMENTO]",
-        "objective": "OUTCOME_TRAFFIC",
-        "spend": 149.84,
-        "reach": 9856,
-        "impressions": 17679,
-        "clicks": 374,
-        "ctr": 2.12,
-        "cpc": 0.4,
-        "result_label": "Cliques",
-        "result_qty": 327,
-        "result_cpr": 0.46
-      },
-      {
         "name": "[CBO] [OPEN WINE MAI/26] [MENSAGEM]",
         "objective": "OUTCOME_ENGAGEMENT",
         "spend": 120.63,
@@ -41,6 +28,19 @@
         "result_label": "Mensagens",
         "result_qty": 10,
         "result_cpr": 12.06
+      },
+      {
+        "name": "[CBO] [WINTER WINE MAI/26] [MENSAGEM]",
+        "objective": "OUTCOME_ENGAGEMENT",
+        "spend": 78.89,
+        "reach": 2009,
+        "impressions": 4827,
+        "clicks": 93,
+        "ctr": 1.93,
+        "cpc": 0.85,
+        "result_label": "Mensagens",
+        "result_qty": 7,
+        "result_cpr": 11.27
       },
       {
         "name": "[SETEMBRO DO CLIENTE] [ENGAJAMENTO]",
@@ -56,32 +56,32 @@
         "result_cpr": 24.93
       },
       {
-        "name": "[CBO] [WINTER WINE MAI/26] [MENSAGEM]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 78.89,
-        "reach": 2009,
-        "impressions": 4827,
-        "clicks": 93,
-        "ctr": 1.93,
-        "cpc": 0.85,
-        "result_label": "Mensagens",
-        "result_qty": 7,
-        "result_cpr": 11.27
-      }
-    ],
-    "ads": [
-      {
-        "name": "OPEN WINE",
-        "campaign": "[FDS OPEN WINE] [ENGAJAMENTO]",
+        "name": "[FDS OPEN WINE] [ENGAJAMENTO]",
+        "objective": "LINK_CLICKS",
         "spend": 149.84,
+        "reach": 9856,
         "impressions": 17679,
         "clicks": 374,
         "ctr": 2.12,
         "cpc": 0.4,
-        "frequency": 1.79,
         "result_label": "Cliques",
         "result_qty": 327,
         "result_cpr": 0.46
+      }
+    ],
+    "ads": [
+      {
+        "name": "open_wine_feed_mai",
+        "campaign": "[CBO] [OPEN WINE MAI/26] [MENSAGEM]",
+        "spend": 8.17,
+        "impressions": 372,
+        "clicks": 13,
+        "ctr": 3.49,
+        "cpc": 0.63,
+        "frequency": 1.45,
+        "result_label": "Mensagens",
+        "result_qty": 2,
+        "result_cpr": 4.08
       },
       {
         "name": "winter_wine_mai_26.2",
@@ -97,17 +97,17 @@
         "result_cpr": 11.27
       },
       {
-        "name": "FEED SETEMBRO DO CLIENTE",
-        "campaign": "[SETEMBRO DO CLIENTE] [ENGAJAMENTO]",
-        "spend": 61.54,
-        "impressions": 2714,
-        "clicks": 39,
-        "ctr": 1.44,
-        "cpc": 1.58,
-        "frequency": 1.59,
+        "name": "open_wine_feed_set_01",
+        "campaign": "[CBO] [OPEN WINE MAI/26] [MENSAGEM]",
+        "spend": 13.35,
+        "impressions": 865,
+        "clicks": 19,
+        "ctr": 2.2,
+        "cpc": 0.7,
+        "frequency": 1.52,
         "result_label": "Mensagens",
-        "result_qty": 3,
-        "result_cpr": 20.51
+        "result_qty": 2,
+        "result_cpr": 6.67
       },
       {
         "name": "open_wine_feed_set_02",
@@ -136,6 +136,19 @@
         "result_cpr": 23.24
       },
       {
+        "name": "FEED SETEMBRO DO CLIENTE",
+        "campaign": "[SETEMBRO DO CLIENTE] [ENGAJAMENTO]",
+        "spend": 61.54,
+        "impressions": 2714,
+        "clicks": 39,
+        "ctr": 1.44,
+        "cpc": 1.58,
+        "frequency": 1.59,
+        "result_label": "Mensagens",
+        "result_qty": 3,
+        "result_cpr": 20.51
+      },
+      {
         "name": "REELS SETEMBRO DO CLIENTE",
         "campaign": "[SETEMBRO DO CLIENTE] [ENGAJAMENTO]",
         "spend": 38.19,
@@ -149,30 +162,17 @@
         "result_cpr": 38.19
       },
       {
-        "name": "open_wine_feed_set_01",
-        "campaign": "[CBO] [OPEN WINE MAI/26] [MENSAGEM]",
-        "spend": 13.35,
-        "impressions": 865,
-        "clicks": 19,
-        "ctr": 2.2,
-        "cpc": 0.7,
-        "frequency": 1.52,
-        "result_label": "Mensagens",
-        "result_qty": 2,
-        "result_cpr": 6.67
-      },
-      {
-        "name": "open_wine_feed_mai",
-        "campaign": "[CBO] [OPEN WINE MAI/26] [MENSAGEM]",
-        "spend": 8.17,
-        "impressions": 372,
-        "clicks": 13,
-        "ctr": 3.49,
-        "cpc": 0.63,
-        "frequency": 1.45,
-        "result_label": "Mensagens",
-        "result_qty": 2,
-        "result_cpr": 4.08
+        "name": "OPEN WINE",
+        "campaign": "[FDS OPEN WINE] [ENGAJAMENTO]",
+        "spend": 149.84,
+        "impressions": 17679,
+        "clicks": 374,
+        "ctr": 2.12,
+        "cpc": 0.4,
+        "frequency": 1.79,
+        "result_label": "Cliques",
+        "result_qty": 327,
+        "result_cpr": 0.46
       }
     ]
   },

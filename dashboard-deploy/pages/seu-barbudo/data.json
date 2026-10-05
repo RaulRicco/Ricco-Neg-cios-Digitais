@@ -1,175 +1,71 @@
 {
   "cliente": "Seu Barbudo Barbearia",
   "periodo": {
-    "start": "2026-08-01",
-    "end": "2026-08-31"
+    "start": "2026-09-01",
+    "end": "2026-09-30"
   },
-  "gerado_em": "2026-09-07T07:45:46.664256",
+  "gerado_em": "2026-10-05T09:05:43.001137",
   "consolidado": null,
   "meta": {
-    "spend": 2057.27,
-    "reach": 31955,
-    "impressions": 102918,
-    "clicks": 1777,
-    "cpm": 19.99,
-    "cpc": 1.16,
-    "ctr": 1.73,
-    "frequency": 3.22,
+    "spend": 4517.43,
+    "reach": 75779,
+    "impressions": 237533,
+    "clicks": 2840,
+    "cpm": 19.02,
+    "cpc": 1.59,
+    "ctr": 1.2,
+    "frequency": 3.13,
     "campaigns": [
-      {
-        "name": "[CLUBE 5.0 ESTATICA] [LEADS]",
-        "objective": "OUTCOME_LEADS",
-        "spend": 711.5,
-        "reach": 14040,
-        "impressions": 34427,
-        "clicks": 600,
-        "ctr": 1.74,
-        "cpc": 1.19,
-        "result_label": "Leads",
-        "result_qty": 22,
-        "result_cpr": 32.34
-      },
       {
         "name": "[PRE SALES CLUBE] [LEADS]",
         "objective": "OUTCOME_LEADS",
-        "spend": 1342.09,
-        "reach": 25975,
-        "impressions": 68232,
-        "clicks": 1169,
-        "ctr": 1.71,
-        "cpc": 1.15,
+        "spend": 4517.43,
+        "reach": 75779,
+        "impressions": 237533,
+        "clicks": 2840,
+        "ctr": 1.2,
+        "cpc": 1.59,
         "result_label": "Leads",
-        "result_qty": 59,
-        "result_cpr": 22.75
-      },
-      {
-        "name": "[VAGAS] [MENSAGEM",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 3.68,
-        "reach": 229,
-        "impressions": 259,
-        "clicks": 8,
-        "ctr": 3.09,
-        "cpc": 0.46,
-        "result_label": "Mensagens",
-        "result_qty": 2,
-        "result_cpr": 1.84
+        "result_qty": 108,
+        "result_cpr": 41.83
       }
     ],
     "ads": [
       {
-        "name": "estatica_01",
-        "campaign": "[CLUBE 5.0 ESTATICA] [LEADS]",
-        "spend": 32.64,
-        "impressions": 1572,
-        "clicks": 28,
-        "ctr": 1.78,
-        "cpc": 1.17,
-        "frequency": 1.31,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
-      },
-      {
-        "name": "estatica_02",
-        "campaign": "[CLUBE 5.0 ESTATICA] [LEADS]",
-        "spend": 47.76,
-        "impressions": 3276,
-        "clicks": 36,
-        "ctr": 1.1,
-        "cpc": 1.33,
-        "frequency": 1.35,
-        "result_label": "Leads",
-        "result_qty": 2,
-        "result_cpr": 23.88
-      },
-      {
-        "name": "estatica_03",
-        "campaign": "[CLUBE 5.0 ESTATICA] [LEADS]",
-        "spend": 3.92,
-        "impressions": 210,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0.0,
-        "frequency": 1.12,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
-      },
-      {
-        "name": "estatica_04",
-        "campaign": "[CLUBE 5.0 ESTATICA] [LEADS]",
-        "spend": 595.6,
-        "impressions": 27682,
-        "clicks": 509,
-        "ctr": 1.84,
-        "cpc": 1.17,
-        "frequency": 2.19,
-        "result_label": "Leads",
-        "result_qty": 18,
-        "result_cpr": 33.09
-      },
-      {
-        "name": "estatica_05",
-        "campaign": "[CLUBE 5.0 ESTATICA] [LEADS]",
-        "spend": 31.58,
-        "impressions": 1687,
-        "clicks": 27,
-        "ctr": 1.6,
-        "cpc": 1.17,
-        "frequency": 1.3,
-        "result_label": "Leads",
-        "result_qty": 2,
-        "result_cpr": 15.79
-      },
-      {
         "name": "CRIATIVO ESTATICO 2",
         "campaign": "[PRE SALES CLUBE] [LEADS]",
-        "spend": 1335.49,
-        "impressions": 67981,
-        "clicks": 1166,
-        "ctr": 1.72,
-        "cpc": 1.15,
-        "frequency": 2.63,
+        "spend": 4371.61,
+        "impressions": 230890,
+        "clicks": 2737,
+        "ctr": 1.19,
+        "cpc": 1.6,
+        "frequency": 3.08,
         "result_label": "Leads",
-        "result_qty": 59,
-        "result_cpr": 22.64
-      },
-      {
-        "name": "VIDEO VAGAS",
-        "campaign": "[VAGAS] [MENSAGEM",
-        "spend": 3.68,
-        "impressions": 259,
-        "clicks": 8,
-        "ctr": 3.09,
-        "cpc": 0.46,
-        "frequency": 1.13,
-        "result_label": "Mensagens",
-        "result_qty": 2,
-        "result_cpr": 1.84
+        "result_qty": 106,
+        "result_cpr": 41.24
       },
       {
         "name": "CRIATIVO ESTATICO 1",
         "campaign": "[PRE SALES CLUBE] [LEADS]",
-        "spend": 2.09,
-        "impressions": 131,
-        "clicks": 1,
-        "ctr": 0.76,
-        "cpc": 2.09,
-        "frequency": 1.05,
+        "spend": 114.41,
+        "impressions": 5658,
+        "clicks": 88,
+        "ctr": 1.56,
+        "cpc": 1.3,
+        "frequency": 1.46,
         "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
+        "result_qty": 2,
+        "result_cpr": 57.2
       },
       {
         "name": "CRIATIVO ESTATICO 3",
         "campaign": "[PRE SALES CLUBE] [LEADS]",
-        "spend": 4.51,
-        "impressions": 120,
-        "clicks": 2,
-        "ctr": 1.67,
-        "cpc": 2.25,
-        "frequency": 1.01,
+        "spend": 31.41,
+        "impressions": 985,
+        "clicks": 15,
+        "ctr": 1.52,
+        "cpc": 2.09,
+        "frequency": 1.16,
         "result_label": "Leads",
         "result_qty": 0,
         "result_cpr": 0
@@ -178,50 +74,48 @@
   },
   "google": null,
   "ga4": {
-    "sessions": 114,
-    "users": 89,
-    "new_users": 83,
-    "pageviews": 156,
-    "bounce_rate": 44.74,
-    "duration": "1m 46s",
-    "events": 531,
+    "sessions": 198,
+    "users": 149,
+    "new_users": 143,
+    "pageviews": 260,
+    "bounce_rate": 42.93,
+    "duration": "2m 13s",
+    "events": 900,
     "conversions": 0,
     "sources": [
       {
         "source": "google",
         "medium": "organic",
-        "sessions": 81,
-        "pct": 71.1
+        "sessions": 134,
+        "pct": 67.7
       },
       {
         "source": "(direct)",
         "medium": "(none)",
-        "sessions": 26,
-        "pct": 22.8
+        "sessions": 58,
+        "pct": 29.3
       },
       {
-        "source": "l.instagram.com",
-        "medium": "referral",
+        "source": "chatgpt.com",
+        "medium": "ai-assistant",
         "sessions": 5,
-        "pct": 4.4
+        "pct": 2.5
       },
       {
         "source": "bing",
         "medium": "organic",
         "sessions": 1,
-        "pct": 0.9
-      },
-      {
-        "source": "chatgpt.com",
-        "medium": "ai-assistant",
-        "sessions": 1,
-        "pct": 0.9
+        "pct": 0.5
       }
     ],
     "event_list": [
       {
         "name": "click",
-        "count": 44
+        "count": 87
+      },
+      {
+        "name": "form_start",
+        "count": 1
       }
     ]
   },
