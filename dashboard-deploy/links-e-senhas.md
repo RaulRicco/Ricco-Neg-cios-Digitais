@@ -101,6 +101,7 @@ Base URL: `https://ricco-dashboards.pages.dev`
 
 ## Vanguard Seguros
 - **URL:** https://ricco-dashboards.pages.dev/vanguard-seguros
+- **Usuário:** `vanguard`
 - **Senha:** `vanguard2026`
 - **Serviços:** META
 

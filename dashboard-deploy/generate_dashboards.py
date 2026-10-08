@@ -1437,6 +1437,7 @@ def build_doc(clientes):
         lines += [
             f"## {nome}",
             f"- **URL:** {BASE_URL}/{slug}",
+            *([f"- **Usuário:** `{c['usuario']}`"] if c.get("usuario") else []),
             f"- **Senha:** `{senha}`",
             f"- **Serviços:** {badge}",
             "",

@@ -183,6 +183,7 @@ clientes:
   # ── Vanguard Seguros ──────────────────────────────────────────────────────
   - slug: vanguard-seguros
     nome: "Vanguard Seguros"
+    usuario: "vanguard"
     senha: "vanguard2026"
     meta_account: "act_1046588991752558"
     gads_customer: ""
