@@ -33,6 +33,7 @@ const CLIENTES = {
   'dona-cleide':            'donacleide2026',
   'seu-barbudo':            'barbudo2026',
   'horus':                  'horus2026',
+  'vanguard-seguros':       'vanguard2026',
   'sol-e-lar':              'solelar2026',
   'solar-e-cia':            'solarecia2026',
   'fish-me':                'fishme2026',

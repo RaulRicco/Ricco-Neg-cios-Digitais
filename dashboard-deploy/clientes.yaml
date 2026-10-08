@@ -180,6 +180,15 @@ clientes:
     ga4_property: ""
     servicos: [meta]
 
+  # ── Vanguard Seguros ──────────────────────────────────────────────────────
+  - slug: vanguard-seguros
+    nome: "Vanguard Seguros"
+    senha: "vanguard2026"
+    meta_account: "act_1046588991752558"
+    gads_customer: ""
+    ga4_property: ""
+    servicos: [meta]
+
   # ── Sol e Lar ─────────────────────────────────────────────────────────────
   - slug: sol-e-lar
     nome: "Casas Sol e Lar"

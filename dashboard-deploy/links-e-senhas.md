@@ -46,8 +46,13 @@ Base URL: `https://ricco-dashboards.pages.dev`
 
 ## Bebedouro Bar e Fogo — 356
 - **URL:** https://ricco-dashboards.pages.dev/bebedouro-356
-- **Senha:** `bebedouro356-2026`
+- **Senha:** `bebedouro356@2026`
 - **Serviços:** META · GOOGLE · GA4
+
+## Semper Fidelis
+- **URL:** https://ricco-dashboards.pages.dev/semper-fidelis
+- **Senha:** `semperfidelis2026`
+- **Serviços:** GOOGLE
 
 ## Balcão Savassi
 - **URL:** https://ricco-dashboards.pages.dev/balcao-savassi
@@ -92,6 +97,11 @@ Base URL: `https://ricco-dashboards.pages.dev`
 ## Hórus Treinamento Físico
 - **URL:** https://ricco-dashboards.pages.dev/horus
 - **Senha:** `horus2026`
+- **Serviços:** META
+
+## Vanguard Seguros
+- **URL:** https://ricco-dashboards.pages.dev/vanguard-seguros
+- **Senha:** `vanguard2026`
 - **Serviços:** META
 
 ## Casas Sol e Lar
