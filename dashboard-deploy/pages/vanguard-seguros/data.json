@@ -1,15 +1,15 @@
 {
   "cliente": "Vanguard Seguros",
   "periodo": {
-    "start": "2026-10-01",
+    "start": "2026-09-08",
     "end": "2026-10-08"
   },
-  "gerado_em": "2026-10-08T11:54:16.549127",
+  "gerado_em": "2026-10-08T11:56:02.838108",
   "consolidado": null,
   "meta": {
-    "spend": 136.35,
+    "spend": 136.37,
     "reach": 1693,
-    "impressions": 6308,
+    "impressions": 6309,
     "clicks": 146,
     "cpm": 21.62,
     "cpc": 0.93,
@@ -19,9 +19,9 @@
       {
         "name": "[CAIXA DE PERGUNTAS] [MENSAGEM]",
         "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 136.35,
+        "spend": 136.37,
         "reach": 1693,
-        "impressions": 6308,
+        "impressions": 6309,
         "clicks": 146,
         "ctr": 2.31,
         "cpc": 0.93,
@@ -34,8 +34,8 @@
       {
         "name": "ad_01_story",
         "campaign": "[CAIXA DE PERGUNTAS] [MENSAGEM]",
-        "spend": 136.35,
-        "impressions": 6308,
+        "spend": 136.37,
+        "impressions": 6309,
         "clicks": 146,
         "ctr": 2.31,
         "cpc": 0.93,
