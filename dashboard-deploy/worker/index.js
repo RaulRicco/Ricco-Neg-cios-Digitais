@@ -50,11 +50,6 @@ const CLIENTES = {
   'porks-ceilandia':        'porksceilandia2026',
 };
 
-// Usuário opcional por cliente — se definido, o Basic Auth exige usuário + senha.
-const USUARIOS = {
-  'vanguard-seguros': 'vanguard',
-};
-
 const REALM = 'Dashboard Ricco';
 
 export default {
@@ -82,10 +77,8 @@ export default {
     const authHeader = request.headers.get('Authorization') ?? '';
     if (authHeader.startsWith('Basic ')) {
       const decoded   = atob(authHeader.slice(6));
-      const [usuario, ...resto] = decoded.split(':');
-      const senha = resto.join(':');
-      const usuarioCorreto = USUARIOS[slug];
-      if (senha === senhaCorreta && (!usuarioCorreto || usuario === usuarioCorreto)) {
+      const [, senha] = decoded.split(':');
+      if (senha === senhaCorreta) {
         // Autenticado — faz proxy para o Cloudflare Pages
         return fetch(request);
       }
