@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>br.com.raulricco.checar-tokens</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/raulricco/.claude/skills/.venv-ads/bin/python3</string>
+        <string>/Users/raulricco/ricco-negocios/scripts/checar-tokens.py</string>
+    </array>
+    <!-- Todo dia às 09:00. Se o Mac estiver dormindo, roda assim que acordar. -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>9</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+    <key>StandardOutPath</key>
+    <string>/Users/raulricco/Library/Logs/ricco-tokens.launchd.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/raulricco/Library/Logs/ricco-tokens.launchd.log</string>
+</dict>
+</plist>
