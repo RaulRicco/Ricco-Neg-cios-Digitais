@@ -3,7 +3,7 @@
 Para cada conta: no BM do cliente → Contas de anúncios → selecionar a conta → Atribuir parceiro →
 "ID do portfólio empresarial" = ID do raulriccopro → permissão Gerenciar contas de anúncios.
 
-Depois de todas: raulriccopro → Usuários do sistema → claude-api → Atribuir ativos → Contas de anúncios → marcar todas.
+Não precisa atribuir ao claude-api depois: como ele é Admin do raulriccopro, já lê a conta assim que ela é compartilhada (testado com Boi Dourado em 09/11/2026).
 
 | ✓ | Cliente | ID da conta |
 |---|---|---|
@@ -28,7 +28,7 @@ Depois de todas: raulriccopro → Usuários do sistema → claude-api → Atribu
 | [ ] | Quermesse Bar — Bom Retiro | 2101384330709220 |
 | [ ] | Quermesse Bar — Ecoville | 2347752075729504 |
 | [ ] | Floreria Café.Bar | 1472457341555059 |
-| [ ] | Churrascaria Boi Dourado | 167436168170959 |
+| [x] | Churrascaria Boi Dourado | 167436168170959 |
 | [ ] | Comodoro Burguer | 4617297935009077 |
 | [ ] | Bebedouro Bar e Fogo | 904480561216184 |
 | [ ] | Ameriparts Três Lagoas | 476310531948549 |
