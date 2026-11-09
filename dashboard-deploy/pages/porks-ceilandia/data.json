@@ -1,156 +1,534 @@
 {
-  "cliente": "Porks Ceilândia",
-  "periodo": {
-    "start": "2026-09-01",
-    "end": "2026-09-30"
-  },
-  "gerado_em": "2026-10-05T09:04:26.331333",
-  "consolidado": null,
+ "versao": 2,
+ "cliente": "Porks Ceilândia",
+ "periodo": {
+  "start": "2026-10-01",
+  "end": "2026-10-31"
+ },
+ "periodo_anterior": {
+  "start": "2026-09-01",
+  "end": "2026-09-30"
+ },
+ "gerado_em": "2026-11-09T12:21:06",
+ "meta": {
+  "spend": 535.56,
+  "reach": 32102,
+  "impressions": 65327,
+  "clicks": 1431,
+  "cpm": 8.2,
+  "cpc": 0.37,
+  "ctr": 2.19,
+  "frequency": 2.03,
+  "campaigns": [
+   {
+    "name": "[ESPECIAL LEGIAO URBANA] [RESERVAS]",
+    "objective": "OUTCOME_LEADS",
+    "spend": 150.0,
+    "reach": 9836,
+    "impressions": 13245,
+    "clicks": 354,
+    "ctr": 2.67,
+    "cpc": 0.42,
+    "result_label": "Leads",
+    "result_qty": 0,
+    "result_cpr": 0
+   },
+   {
+    "name": "[REAL HIP HOP] [RESERVAS]",
+    "objective": "OUTCOME_LEADS",
+    "spend": 190.49,
+    "reach": 15342,
+    "impressions": 27417,
+    "clicks": 616,
+    "ctr": 2.25,
+    "cpc": 0.31,
+    "result_label": "Leads",
+    "result_qty": 0,
+    "result_cpr": 0
+   },
+   {
+    "name": "[CBJR 24/10] [RESERVAS]",
+    "objective": "OUTCOME_LEADS",
+    "spend": 155.74,
+    "reach": 13000,
+    "impressions": 21029,
+    "clicks": 406,
+    "ctr": 1.93,
+    "cpc": 0.38,
+    "result_label": "Leads",
+    "result_qty": 0,
+    "result_cpr": 0
+   },
+   {
+    "name": "[CANÇÕES ESPECIAIS] [RESERVAS]",
+    "objective": "OUTCOME_LEADS",
+    "spend": 39.33,
+    "reach": 2646,
+    "impressions": 3636,
+    "clicks": 55,
+    "ctr": 1.51,
+    "cpc": 0.72,
+    "result_label": "Leads",
+    "result_qty": 0,
+    "result_cpr": 0
+   }
+  ],
+  "ads": [
+   {
+    "name": "ESPECIAL LEGIAO URBANA",
+    "campaign": "[ESPECIAL LEGIAO URBANA] [RESERVAS]",
+    "spend": 150.0,
+    "impressions": 13245,
+    "clicks": 354,
+    "ctr": 2.67,
+    "cpc": 0.42,
+    "frequency": 1.35,
+    "result_label": "Leads",
+    "result_qty": 0,
+    "result_cpr": 0
+   },
+   {
+    "name": "REAL HIP HOP",
+    "campaign": "[REAL HIP HOP] [RESERVAS]",
+    "spend": 190.49,
+    "impressions": 27417,
+    "clicks": 616,
+    "ctr": 2.25,
+    "cpc": 0.31,
+    "frequency": 1.79,
+    "result_label": "Leads",
+    "result_qty": 0,
+    "result_cpr": 0
+   },
+   {
+    "name": "CBJR MOTION",
+    "campaign": "[CBJR 24/10] [RESERVAS]",
+    "spend": 155.74,
+    "impressions": 21029,
+    "clicks": 406,
+    "ctr": 1.93,
+    "cpc": 0.38,
+    "frequency": 1.62,
+    "result_label": "Leads",
+    "result_qty": 0,
+    "result_cpr": 0
+   },
+   {
+    "name": "CANCOES ESPECIAIS",
+    "campaign": "[CANÇÕES ESPECIAIS] [RESERVAS]",
+    "spend": 39.33,
+    "impressions": 3636,
+    "clicks": 55,
+    "ctr": 1.51,
+    "cpc": 0.72,
+    "frequency": 1.37,
+    "result_label": "Leads",
+    "result_qty": 0,
+    "result_cpr": 0
+   }
+  ]
+ },
+ "google": null,
+ "ga4": null,
+ "anterior": {
   "meta": {
-    "spend": 491.69,
-    "reach": 19767,
-    "impressions": 36275,
-    "clicks": 856,
-    "cpm": 13.55,
-    "cpc": 0.57,
-    "ctr": 2.36,
-    "frequency": 1.84,
-    "campaigns": [
-      {
-        "name": "[ABO] [KARAOKE MAR/26] [ENGAJAMENTO]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 44.89,
-        "reach": 3413,
-        "impressions": 4182,
-        "clicks": 68,
-        "ctr": 1.63,
-        "cpc": 0.66,
-        "result_label": "Engajamentos",
-        "result_qty": 295,
-        "result_cpr": 0.15
-      },
-      {
-        "name": "[ESPECIAL EVANESCENCE] [RESERVAS]",
-        "objective": "OUTCOME_LEADS",
-        "spend": 198.85,
-        "reach": 10963,
-        "impressions": 17051,
-        "clicks": 368,
-        "ctr": 2.16,
-        "cpc": 0.54,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
-      },
-      {
-        "name": "[ESPECIAL GUNS N ROSES] [RESERVAS]",
-        "objective": "OUTCOME_LEADS",
-        "spend": 149.84,
-        "reach": 6063,
-        "impressions": 9078,
-        "clicks": 235,
-        "ctr": 2.59,
-        "cpc": 0.64,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
-      },
-      {
-        "name": "[ESPECIAL ZE RAMALHO E FAGNER] [RESERVAS]",
-        "objective": "OUTCOME_LEADS",
-        "spend": 79.91,
-        "reach": 2877,
-        "impressions": 4823,
-        "clicks": 174,
-        "ctr": 3.61,
-        "cpc": 0.46,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
-      },
-      {
-        "name": "[SPRING DRINKS SET/26] [ENGAJAMENTO]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 18.2,
-        "reach": 1058,
-        "impressions": 1141,
-        "clicks": 11,
-        "ctr": 0.96,
-        "cpc": 1.65,
-        "result_label": "Engajamentos",
-        "result_qty": 90,
-        "result_cpr": 0.2
-      }
-    ],
-    "ads": [
-      {
-        "name": "KARAOKE TODA QUINTA",
-        "campaign": "[ABO] [KARAOKE MAR/26] [ENGAJAMENTO]",
-        "spend": 44.89,
-        "impressions": 4182,
-        "clicks": 68,
-        "ctr": 1.63,
-        "cpc": 0.66,
-        "frequency": 1.23,
-        "result_label": "Engajamentos",
-        "result_qty": 295,
-        "result_cpr": 0.15
-      },
-      {
-        "name": "ESPECIAL EVANESCENCE",
-        "campaign": "[ESPECIAL EVANESCENCE] [RESERVAS]",
-        "spend": 198.85,
-        "impressions": 17051,
-        "clicks": 368,
-        "ctr": 2.16,
-        "cpc": 0.54,
-        "frequency": 1.56,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
-      },
-      {
-        "name": "ESPECIAL GUNS N ROSES",
-        "campaign": "[ESPECIAL GUNS N ROSES] [RESERVAS]",
-        "spend": 149.84,
-        "impressions": 9078,
-        "clicks": 235,
-        "ctr": 2.59,
-        "cpc": 0.64,
-        "frequency": 1.5,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
-      },
-      {
-        "name": "ESPECIAL ZE RAMALHO E FAGNER",
-        "campaign": "[ESPECIAL ZE RAMALHO E FAGNER] [RESERVAS]",
-        "spend": 79.91,
-        "impressions": 4823,
-        "clicks": 174,
-        "ctr": 3.61,
-        "cpc": 0.46,
-        "frequency": 1.68,
-        "result_label": "Leads",
-        "result_qty": 0,
-        "result_cpr": 0
-      },
-      {
-        "name": "SPRING DRINKS SET/26",
-        "campaign": "[SPRING DRINKS SET/26] [ENGAJAMENTO]",
-        "spend": 18.2,
-        "impressions": 1141,
-        "clicks": 11,
-        "ctr": 0.96,
-        "cpc": 1.65,
-        "frequency": 1.08,
-        "result_label": "Engajamentos",
-        "result_qty": 90,
-        "result_cpr": 0.2
-      }
-    ]
+   "spend": 491.69,
+   "reach": 19767,
+   "impressions": 36275,
+   "clicks": 856,
+   "cpm": 13.55,
+   "cpc": 0.57,
+   "ctr": 2.36,
+   "frequency": 1.84,
+   "campaigns": [
+    {
+     "name": "[ABO] [KARAOKE MAR/26] [ENGAJAMENTO]",
+     "objective": "OUTCOME_ENGAGEMENT",
+     "spend": 44.89,
+     "reach": 3413,
+     "impressions": 4182,
+     "clicks": 68,
+     "ctr": 1.63,
+     "cpc": 0.66,
+     "result_label": "Engajamentos",
+     "result_qty": 295,
+     "result_cpr": 0.15
+    },
+    {
+     "name": "[ESPECIAL EVANESCENCE] [RESERVAS]",
+     "objective": "OUTCOME_LEADS",
+     "spend": 198.85,
+     "reach": 10963,
+     "impressions": 17051,
+     "clicks": 368,
+     "ctr": 2.16,
+     "cpc": 0.54,
+     "result_label": "Leads",
+     "result_qty": 0,
+     "result_cpr": 0
+    },
+    {
+     "name": "[ESPECIAL GUNS N ROSES] [RESERVAS]",
+     "objective": "OUTCOME_LEADS",
+     "spend": 149.84,
+     "reach": 6063,
+     "impressions": 9078,
+     "clicks": 235,
+     "ctr": 2.59,
+     "cpc": 0.64,
+     "result_label": "Leads",
+     "result_qty": 0,
+     "result_cpr": 0
+    },
+    {
+     "name": "[ESPECIAL ZE RAMALHO E FAGNER] [RESERVAS]",
+     "objective": "OUTCOME_LEADS",
+     "spend": 79.91,
+     "reach": 2877,
+     "impressions": 4823,
+     "clicks": 174,
+     "ctr": 3.61,
+     "cpc": 0.46,
+     "result_label": "Leads",
+     "result_qty": 0,
+     "result_cpr": 0
+    },
+    {
+     "name": "[SPRING DRINKS SET/26] [ENGAJAMENTO]",
+     "objective": "OUTCOME_ENGAGEMENT",
+     "spend": 18.2,
+     "reach": 1058,
+     "impressions": 1141,
+     "clicks": 11,
+     "ctr": 0.96,
+     "cpc": 1.65,
+     "result_label": "Engajamentos",
+     "result_qty": 90,
+     "result_cpr": 0.2
+    }
+   ],
+   "ads": [
+    {
+     "name": "KARAOKE TODA QUINTA",
+     "campaign": "[ABO] [KARAOKE MAR/26] [ENGAJAMENTO]",
+     "spend": 44.89,
+     "impressions": 4182,
+     "clicks": 68,
+     "ctr": 1.63,
+     "cpc": 0.66,
+     "frequency": 1.23,
+     "result_label": "Engajamentos",
+     "result_qty": 295,
+     "result_cpr": 0.15
+    },
+    {
+     "name": "ESPECIAL EVANESCENCE",
+     "campaign": "[ESPECIAL EVANESCENCE] [RESERVAS]",
+     "spend": 198.85,
+     "impressions": 17051,
+     "clicks": 368,
+     "ctr": 2.16,
+     "cpc": 0.54,
+     "frequency": 1.56,
+     "result_label": "Leads",
+     "result_qty": 0,
+     "result_cpr": 0
+    },
+    {
+     "name": "ESPECIAL GUNS N ROSES",
+     "campaign": "[ESPECIAL GUNS N ROSES] [RESERVAS]",
+     "spend": 149.84,
+     "impressions": 9078,
+     "clicks": 235,
+     "ctr": 2.59,
+     "cpc": 0.64,
+     "frequency": 1.5,
+     "result_label": "Leads",
+     "result_qty": 0,
+     "result_cpr": 0
+    },
+    {
+     "name": "ESPECIAL ZE RAMALHO E FAGNER",
+     "campaign": "[ESPECIAL ZE RAMALHO E FAGNER] [RESERVAS]",
+     "spend": 79.91,
+     "impressions": 4823,
+     "clicks": 174,
+     "ctr": 3.61,
+     "cpc": 0.46,
+     "frequency": 1.68,
+     "result_label": "Leads",
+     "result_qty": 0,
+     "result_cpr": 0
+    },
+    {
+     "name": "SPRING DRINKS SET/26",
+     "campaign": "[SPRING DRINKS SET/26] [ENGAJAMENTO]",
+     "spend": 18.2,
+     "impressions": 1141,
+     "clicks": 11,
+     "ctr": 0.96,
+     "cpc": 1.65,
+     "frequency": 1.08,
+     "result_label": "Engajamentos",
+     "result_qty": 90,
+     "result_cpr": 0.2
+    }
+   ]
   },
   "google": null,
-  "ga4": null,
-  "gmb": null
+  "ga4": null
+ },
+ "diario": [
+  {
+   "date": "2026-10-01",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-02",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-03",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-04",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-05",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-06",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-07",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-08",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-09",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-10",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-11",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-12",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-13",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-14",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-15",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-16",
+   "meta_spend": 248.81,
+   "google_spend": 0.0,
+   "clicks": 695,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-17",
+   "meta_spend": 91.68,
+   "google_spend": 0.0,
+   "clicks": 275,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-18",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-19",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-20",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-21",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-22",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-23",
+   "meta_spend": 131.61,
+   "google_spend": 0.0,
+   "clicks": 334,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-24",
+   "meta_spend": 63.46,
+   "google_spend": 0.0,
+   "clicks": 127,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-25",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-26",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-27",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-28",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-29",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-30",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-31",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  }
+ ],
+ "config": {
+  "nome": "Porks Ceilândia"
+ }
 }

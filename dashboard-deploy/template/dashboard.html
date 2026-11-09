@@ -128,7 +128,7 @@ footer{color:var(--faint);font-size:13px;padding:48px 0 40px;display:flex;justif
 footer b{color:var(--accent)}
 @media (max-width:820px){
   .kpis,.grid2,.next{grid-template-columns:1fr}
-  .funnel{grid-template-columns:1fr}
+  .funnel{grid-template-columns:1fr !important}
   .arrow{flex-direction:row;gap:10px;padding:10px 0;min-width:0}
   .arrow svg{transform:rotate(90deg)}
   .gloss{grid-template-columns:1fr}
@@ -335,16 +335,20 @@ function render(){
   // funil
   const arrow=(txt,sub)=>`<div class="arrow"><b>${txt}</b><svg width="22" height="14" viewBox="0 0 22 14"><path d="M1 7h18m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2" fill="none"/></svg>${sub}</div>`;
   const r1=Math.max(1,Math.round(T.impr/Math.max(T.clicks,1)));
-  let fim, fimL, r2txt;
-  if(modo==='resultado'){fim=T.res;fimL=palavra+(palavra==='contatos'?' de clientes':'');r2txt=`1 a cada ${Math.max(1,Math.round(T.clicks/Math.max(T.res,1)))}`;$('funnel-sub').textContent='O caminho de quem viu seus anúncios até entrar em contato com você.';}
-  else if(D.ga4&&D.ga4.sessions){fim=D.ga4.sessions;fimL='visitas ao seu site';r2txt='';$('funnel-sub').textContent='O caminho de quem viu seus anúncios até conhecer o seu negócio.';}
-  else {fim=S.meta.reach||0;fimL='pessoas diferentes alcançadas';r2txt='';$('funnel-sub').textContent='Quantas pessoas seus anúncios alcançaram e quantas clicaram.';}
-  $('funnel').innerHTML=
-    `<div class="step"><div class="v num">${compact(T.impr)}</div><div class="l">vezes que seus anúncios apareceram</div></div>`+
+  const sing=palavra==='vendas'?'venda':palavra==='reservas'?'reserva':palavra==='cadastros'?'cadastro':'contato';
+  let html=`<div class="step"><div class="v num">${compact(T.impr)}</div><div class="l">vezes que seus anúncios apareceram</div></div>`+
     arrow(`1 a cada ${r1}`,'clicou no anúncio')+
-    `<div class="step"><div class="v num">${int(T.clicks)}</div><div class="l">cliques nos anúncios</div></div>`+
-    arrow(r2txt||'&nbsp;',modo==='resultado'?'virou '+(palavra==='vendas'?'venda':palavra==='reservas'?'reserva':'contato'):'')+
-    `<div class="step last"><div class="v num">${int(fim)}</div><div class="l">${fimL}</div></div>`;
+    `<div class="step${T.res?'':' last'}"><div class="v num">${int(T.clicks)}</div><div class="l">cliques nos anúncios</div></div>`;
+  if(T.res){
+    const lbl=modo==='resultado'?palavra+(palavra==='contatos'?' de clientes':''):lista(Object.keys(T.byKind).concat(T.gRes?['contatos pelo Google']:[]));
+    html+=arrow(`1 a cada ${Math.max(1,Math.round(T.clicks/T.res))}`,'virou '+(modo==='resultado'?sing:'resultado'))+
+      `<div class="step last"><div class="v num">${int(T.res)}</div><div class="l">${lbl}</div></div>`;
+    $('funnel-sub').textContent='O caminho de quem viu seus anúncios até entrar em contato com você.';
+  } else {
+    $('funnel').style.gridTemplateColumns='1fr auto 1fr';
+    $('funnel-sub').textContent='Quantas vezes seus anúncios apareceram e quantas pessoas clicaram.';
+  }
+  $('funnel').innerHTML=html;
 
   // dia a dia
   const days=D.diario||[];
@@ -417,7 +421,7 @@ function render(){
       return['Outros','#555c54']};
     (g.sources||[]).forEach(x=>{const [l,c]=label(x.source,x.medium);grp[l]=grp[l]||{c,n:0};grp[l].n+=x.sessions});
     const tot=Object.values(grp).reduce((a,b)=>a+b.n,0)||1;
-    $('sources').innerHTML=Object.entries(grp).sort((a,b)=>b[1].n-a[1].n).slice(0,6).map(([l,o])=>`<div class="src"><div class="h"><span>${l}</span><span class="num">${int(o.n)} · ${(o.n/tot*100).toFixed(0)}%</span></div><div class="bar" style="margin:0"><i style="width:${o.n/tot*100}%;background:${o.c}"></i></div></div>`).join('');
+    $('sources').innerHTML=Object.entries(grp).filter(([,o])=>o.n/tot>=0.01).sort((a,b)=>b[1].n-a[1].n).slice(0,6).map(([l,o])=>`<div class="src"><div class="h"><span>${l}</span><span class="num">${int(o.n)} · ${(o.n/tot*100).toFixed(0)}%</span></div><div class="bar" style="margin:0"><i style="width:${o.n/tot*100}%;background:${o.c}"></i></div></div>`).join('');
     const EV=Object.assign({
       generate_lead:'Enviaram o formulário',lead_generated:'Enviaram o formulário',form_start:'Começaram a preencher o formulário',
       clicou_wttp:'Chamaram no WhatsApp',whatsapp_redirect:'Chamaram no WhatsApp',clicou_reserva_hero:'Clicaram em “Reservar”',

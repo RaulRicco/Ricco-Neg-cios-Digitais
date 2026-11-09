@@ -1,195 +1,612 @@
 {
-  "cliente": "Porks Pirenópolis",
-  "periodo": {
-    "start": "2026-09-01",
-    "end": "2026-09-30"
-  },
-  "gerado_em": "2026-10-05T09:04:35.747968",
-  "consolidado": null,
+ "versao": 2,
+ "cliente": "Porks Pirenópolis",
+ "periodo": {
+  "start": "2026-10-01",
+  "end": "2026-10-31"
+ },
+ "periodo_anterior": {
+  "start": "2026-09-01",
+  "end": "2026-09-30"
+ },
+ "gerado_em": "2026-11-09T12:20:52",
+ "meta": {
+  "spend": 1016.61,
+  "reach": 48399,
+  "impressions": 133733,
+  "clicks": 3203,
+  "cpm": 7.6,
+  "cpc": 0.32,
+  "ctr": 2.4,
+  "frequency": 2.76,
+  "campaigns": [
+   {
+    "name": "[CBO] [NOVO TOPO PARIS] [TRAFEGO]",
+    "objective": "LINK_CLICKS",
+    "spend": 66.71,
+    "reach": 6043,
+    "impressions": 9718,
+    "clicks": 194,
+    "ctr": 2.0,
+    "cpc": 0.34,
+    "result_label": "Cliques",
+    "result_qty": 192,
+    "result_cpr": 0.35
+   },
+   {
+    "name": "[CBO] [BALADINHA PORKS] [TRAFEGO]",
+    "objective": "LINK_CLICKS",
+    "spend": 335.52,
+    "reach": 26040,
+    "impressions": 46918,
+    "clicks": 877,
+    "ctr": 1.87,
+    "cpc": 0.38,
+    "result_label": "Cliques",
+    "result_qty": 797,
+    "result_cpr": 0.42
+   },
+   {
+    "name": "[VIDEO HAPPY HOUR 50TAO] [TRAFEGO]",
+    "objective": "LINK_CLICKS",
+    "spend": 256.71,
+    "reach": 22100,
+    "impressions": 36566,
+    "clicks": 1650,
+    "ctr": 4.51,
+    "cpc": 0.16,
+    "result_label": "Cliques",
+    "result_qty": 1441,
+    "result_cpr": 0.18
+   },
+   {
+    "name": "[FERIADAO OUT/26] [ENGAJAMENTO]",
+    "objective": "OUTCOME_ENGAGEMENT",
+    "spend": 119.97,
+    "reach": 6019,
+    "impressions": 21381,
+    "clicks": 129,
+    "ctr": 0.6,
+    "cpc": 0.93,
+    "result_label": "Engajamentos",
+    "result_qty": 196,
+    "result_cpr": 0.61
+   },
+   {
+    "name": "[HALLOWEEN NOV/26] [ENGAJAMENTO]",
+    "objective": "OUTCOME_ENGAGEMENT",
+    "spend": 237.7,
+    "reach": 7100,
+    "impressions": 19150,
+    "clicks": 353,
+    "ctr": 1.84,
+    "cpc": 0.67,
+    "result_label": "Engajamentos",
+    "result_qty": 5359,
+    "result_cpr": 0.04
+   }
+  ],
+  "ads": [
+   {
+    "name": "PIRI COM PRECO DE PARRI",
+    "campaign": "[CBO] [NOVO TOPO PARIS] [TRAFEGO]",
+    "spend": 66.71,
+    "impressions": 9718,
+    "clicks": 194,
+    "ctr": 2.0,
+    "cpc": 0.34,
+    "frequency": 1.61,
+    "result_label": "Cliques",
+    "result_qty": 192,
+    "result_cpr": 0.35
+   },
+   {
+    "name": "BALADINHA PORKS",
+    "campaign": "[CBO] [BALADINHA PORKS] [TRAFEGO]",
+    "spend": 238.33,
+    "impressions": 29942,
+    "clicks": 611,
+    "ctr": 2.04,
+    "cpc": 0.39,
+    "frequency": 1.54,
+    "result_label": "Cliques",
+    "result_qty": 553,
+    "result_cpr": 0.43
+   },
+   {
+    "name": "VIDEO LOUNGE",
+    "campaign": "[CBO] [BALADINHA PORKS] [TRAFEGO]",
+    "spend": 97.19,
+    "impressions": 16976,
+    "clicks": 266,
+    "ctr": 1.57,
+    "cpc": 0.37,
+    "frequency": 1.71,
+    "result_label": "Cliques",
+    "result_qty": 244,
+    "result_cpr": 0.4
+   },
+   {
+    "name": "HAPPY HOUR 50TAO",
+    "campaign": "[VIDEO HAPPY HOUR 50TAO] [TRAFEGO]",
+    "spend": 256.71,
+    "impressions": 36566,
+    "clicks": 1650,
+    "ctr": 4.51,
+    "cpc": 0.16,
+    "frequency": 1.65,
+    "result_label": "Cliques",
+    "result_qty": 1441,
+    "result_cpr": 0.18
+   },
+   {
+    "name": "FERIADAO OUT/26",
+    "campaign": "[FERIADAO OUT/26] [ENGAJAMENTO]",
+    "spend": 119.97,
+    "impressions": 21381,
+    "clicks": 129,
+    "ctr": 0.6,
+    "cpc": 0.93,
+    "frequency": 3.55,
+    "result_label": "Engajamentos",
+    "result_qty": 196,
+    "result_cpr": 0.61
+   },
+   {
+    "name": "VIDEO HALLOWEEN",
+    "campaign": "[HALLOWEEN NOV/26] [ENGAJAMENTO]",
+    "spend": 237.7,
+    "impressions": 19150,
+    "clicks": 353,
+    "ctr": 1.84,
+    "cpc": 0.67,
+    "frequency": 2.7,
+    "result_label": "Engajamentos",
+    "result_qty": 5359,
+    "result_cpr": 0.04
+   }
+  ]
+ },
+ "google": null,
+ "ga4": null,
+ "anterior": {
   "meta": {
-    "spend": 904.25,
-    "reach": 56218,
-    "impressions": 117635,
-    "clicks": 1589,
-    "cpm": 7.69,
-    "cpc": 0.57,
-    "ctr": 1.35,
-    "frequency": 2.09,
-    "campaigns": [
-      {
-        "name": "[CBO] [NOVO TOPO PARIS] [TRAFEGO]",
-        "objective": "LINK_CLICKS",
-        "spend": 301.82,
-        "reach": 18340,
-        "impressions": 37811,
-        "clicks": 706,
-        "ctr": 1.87,
-        "cpc": 0.43,
-        "result_label": "Cliques",
-        "result_qty": 711,
-        "result_cpr": 0.42
-      },
-      {
-        "name": "[CBO] [BALADINHA PORKS] [TRAFEGO]",
-        "objective": "LINK_CLICKS",
-        "spend": 301.19,
-        "reach": 21375,
-        "impressions": 31852,
-        "clicks": 640,
-        "ctr": 2.01,
-        "cpc": 0.47,
-        "result_label": "Cliques",
-        "result_qty": 554,
-        "result_cpr": 0.54
-      },
-      {
-        "name": "[FERIADO INDEPENDENCIA 26] [ALCANCE]",
-        "objective": "OUTCOME_AWARENESS",
-        "spend": 93.36,
-        "reach": 22927,
-        "impressions": 23469,
-        "clicks": 105,
-        "ctr": 0.45,
-        "cpc": 0.89,
-        "result_label": "Cliques",
-        "result_qty": 48,
-        "result_cpr": 1.95
-      },
-      {
-        "name": "Nova campanha de Engajamento",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 59.52,
-        "reach": 2166,
-        "impressions": 4667,
-        "clicks": 38,
-        "ctr": 0.81,
-        "cpc": 1.57,
-        "result_label": "Engajamentos",
-        "result_qty": 698,
-        "result_cpr": 0.09
-      },
-      {
-        "name": "[JESUS LUZ] [ALCANCE]",
-        "objective": "OUTCOME_AWARENESS",
-        "spend": 68.4,
-        "reach": 12139,
-        "impressions": 13105,
-        "clicks": 72,
-        "ctr": 0.55,
-        "cpc": 0.95,
-        "result_label": "Cliques",
-        "result_qty": 0,
-        "result_cpr": 0
-      },
-      {
-        "name": "[BANDA SONHODORA] [ENGAJAMENTO]",
-        "objective": "OUTCOME_ENGAGEMENT",
-        "spend": 79.96,
-        "reach": 4144,
-        "impressions": 6731,
-        "clicks": 28,
-        "ctr": 0.42,
-        "cpc": 2.86,
-        "result_label": "Engajamentos",
-        "result_qty": 847,
-        "result_cpr": 0.09
-      }
-    ],
-    "ads": [
-      {
-        "name": "PIRI COM PRECO DE PARRI",
-        "campaign": "[CBO] [NOVO TOPO PARIS] [TRAFEGO]",
-        "spend": 301.82,
-        "impressions": 37811,
-        "clicks": 706,
-        "ctr": 1.87,
-        "cpc": 0.43,
-        "frequency": 2.06,
-        "result_label": "Cliques",
-        "result_qty": 711,
-        "result_cpr": 0.42
-      },
-      {
-        "name": "BALADINHA PORKS",
-        "campaign": "[CBO] [BALADINHA PORKS] [TRAFEGO]",
-        "spend": 298.38,
-        "impressions": 31492,
-        "clicks": 636,
-        "ctr": 2.02,
-        "cpc": 0.47,
-        "frequency": 1.49,
-        "result_label": "Cliques",
-        "result_qty": 551,
-        "result_cpr": 0.54
-      },
-      {
-        "name": "VIDEO LOUNGE",
-        "campaign": "[CBO] [BALADINHA PORKS] [TRAFEGO]",
-        "spend": 2.81,
-        "impressions": 360,
-        "clicks": 4,
-        "ctr": 1.11,
-        "cpc": 0.7,
-        "frequency": 1.07,
-        "result_label": "Cliques",
-        "result_qty": 3,
-        "result_cpr": 0.94
-      },
-      {
-        "name": "VIDEO VAVA INDEPENDENCIA",
-        "campaign": "[FERIADO INDEPENDENCIA 26] [ALCANCE]",
-        "spend": 93.36,
-        "impressions": 23469,
-        "clicks": 105,
-        "ctr": 0.45,
-        "cpc": 0.89,
-        "frequency": 1.02,
-        "result_label": "Cliques",
-        "result_qty": 48,
-        "result_cpr": 1.95
-      },
-      {
-        "name": "BANDA LIEBE FERIADO",
-        "campaign": "Nova campanha de Engajamento",
-        "spend": 59.52,
-        "impressions": 4667,
-        "clicks": 38,
-        "ctr": 0.81,
-        "cpc": 1.57,
-        "frequency": 2.15,
-        "result_label": "Engajamentos",
-        "result_qty": 698,
-        "result_cpr": 0.09
-      },
-      {
-        "name": "MOTION JESUS LUZ",
-        "campaign": "[JESUS LUZ] [ALCANCE]",
-        "spend": 68.4,
-        "impressions": 13105,
-        "clicks": 72,
-        "ctr": 0.55,
-        "cpc": 0.95,
-        "frequency": 1.08,
-        "result_label": "Cliques",
-        "result_qty": 0,
-        "result_cpr": 0
-      },
-      {
-        "name": "BANDA SONHADORA",
-        "campaign": "[BANDA SONHODORA] [ENGAJAMENTO]",
-        "spend": 79.96,
-        "impressions": 6731,
-        "clicks": 28,
-        "ctr": 0.42,
-        "cpc": 2.86,
-        "frequency": 1.62,
-        "result_label": "Engajamentos",
-        "result_qty": 847,
-        "result_cpr": 0.09
-      }
-    ]
+   "spend": 904.25,
+   "reach": 56218,
+   "impressions": 117635,
+   "clicks": 1589,
+   "cpm": 7.69,
+   "cpc": 0.57,
+   "ctr": 1.35,
+   "frequency": 2.09,
+   "campaigns": [
+    {
+     "name": "[CBO] [NOVO TOPO PARIS] [TRAFEGO]",
+     "objective": "LINK_CLICKS",
+     "spend": 301.82,
+     "reach": 18340,
+     "impressions": 37811,
+     "clicks": 706,
+     "ctr": 1.87,
+     "cpc": 0.43,
+     "result_label": "Cliques",
+     "result_qty": 711,
+     "result_cpr": 0.42
+    },
+    {
+     "name": "[CBO] [BALADINHA PORKS] [TRAFEGO]",
+     "objective": "LINK_CLICKS",
+     "spend": 301.19,
+     "reach": 21375,
+     "impressions": 31852,
+     "clicks": 640,
+     "ctr": 2.01,
+     "cpc": 0.47,
+     "result_label": "Cliques",
+     "result_qty": 554,
+     "result_cpr": 0.54
+    },
+    {
+     "name": "[FERIADO INDEPENDENCIA 26] [ALCANCE]",
+     "objective": "OUTCOME_AWARENESS",
+     "spend": 93.36,
+     "reach": 22927,
+     "impressions": 23469,
+     "clicks": 105,
+     "ctr": 0.45,
+     "cpc": 0.89,
+     "result_label": "Cliques",
+     "result_qty": 48,
+     "result_cpr": 1.95
+    },
+    {
+     "name": "Nova campanha de Engajamento",
+     "objective": "OUTCOME_ENGAGEMENT",
+     "spend": 59.52,
+     "reach": 2166,
+     "impressions": 4667,
+     "clicks": 38,
+     "ctr": 0.81,
+     "cpc": 1.57,
+     "result_label": "Engajamentos",
+     "result_qty": 698,
+     "result_cpr": 0.09
+    },
+    {
+     "name": "[JESUS LUZ] [ALCANCE]",
+     "objective": "OUTCOME_AWARENESS",
+     "spend": 68.4,
+     "reach": 12139,
+     "impressions": 13105,
+     "clicks": 72,
+     "ctr": 0.55,
+     "cpc": 0.95,
+     "result_label": "Cliques",
+     "result_qty": 0,
+     "result_cpr": 0
+    },
+    {
+     "name": "[BANDA SONHODORA] [ENGAJAMENTO]",
+     "objective": "OUTCOME_ENGAGEMENT",
+     "spend": 79.96,
+     "reach": 4144,
+     "impressions": 6731,
+     "clicks": 28,
+     "ctr": 0.42,
+     "cpc": 2.86,
+     "result_label": "Engajamentos",
+     "result_qty": 847,
+     "result_cpr": 0.09
+    }
+   ],
+   "ads": [
+    {
+     "name": "PIRI COM PRECO DE PARRI",
+     "campaign": "[CBO] [NOVO TOPO PARIS] [TRAFEGO]",
+     "spend": 301.82,
+     "impressions": 37811,
+     "clicks": 706,
+     "ctr": 1.87,
+     "cpc": 0.43,
+     "frequency": 2.06,
+     "result_label": "Cliques",
+     "result_qty": 711,
+     "result_cpr": 0.42
+    },
+    {
+     "name": "BALADINHA PORKS",
+     "campaign": "[CBO] [BALADINHA PORKS] [TRAFEGO]",
+     "spend": 298.38,
+     "impressions": 31492,
+     "clicks": 636,
+     "ctr": 2.02,
+     "cpc": 0.47,
+     "frequency": 1.49,
+     "result_label": "Cliques",
+     "result_qty": 551,
+     "result_cpr": 0.54
+    },
+    {
+     "name": "VIDEO LOUNGE",
+     "campaign": "[CBO] [BALADINHA PORKS] [TRAFEGO]",
+     "spend": 2.81,
+     "impressions": 360,
+     "clicks": 4,
+     "ctr": 1.11,
+     "cpc": 0.7,
+     "frequency": 1.07,
+     "result_label": "Cliques",
+     "result_qty": 3,
+     "result_cpr": 0.94
+    },
+    {
+     "name": "VIDEO VAVA INDEPENDENCIA",
+     "campaign": "[FERIADO INDEPENDENCIA 26] [ALCANCE]",
+     "spend": 93.36,
+     "impressions": 23469,
+     "clicks": 105,
+     "ctr": 0.45,
+     "cpc": 0.89,
+     "frequency": 1.02,
+     "result_label": "Cliques",
+     "result_qty": 48,
+     "result_cpr": 1.95
+    },
+    {
+     "name": "BANDA LIEBE FERIADO",
+     "campaign": "Nova campanha de Engajamento",
+     "spend": 59.52,
+     "impressions": 4667,
+     "clicks": 38,
+     "ctr": 0.81,
+     "cpc": 1.57,
+     "frequency": 2.15,
+     "result_label": "Engajamentos",
+     "result_qty": 698,
+     "result_cpr": 0.09
+    },
+    {
+     "name": "MOTION JESUS LUZ",
+     "campaign": "[JESUS LUZ] [ALCANCE]",
+     "spend": 68.4,
+     "impressions": 13105,
+     "clicks": 72,
+     "ctr": 0.55,
+     "cpc": 0.95,
+     "frequency": 1.08,
+     "result_label": "Cliques",
+     "result_qty": 0,
+     "result_cpr": 0
+    },
+    {
+     "name": "BANDA SONHADORA",
+     "campaign": "[BANDA SONHODORA] [ENGAJAMENTO]",
+     "spend": 79.96,
+     "impressions": 6731,
+     "clicks": 28,
+     "ctr": 0.42,
+     "cpc": 2.86,
+     "frequency": 1.62,
+     "result_label": "Engajamentos",
+     "result_qty": 847,
+     "result_cpr": 0.09
+    }
+   ]
   },
   "google": null,
-  "ga4": null,
-  "gmb": null
+  "ga4": null
+ },
+ "diario": [
+  {
+   "date": "2026-10-01",
+   "meta_spend": 23.49,
+   "google_spend": 0.0,
+   "clicks": 55,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-02",
+   "meta_spend": 20.77,
+   "google_spend": 0.0,
+   "clicks": 56,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-03",
+   "meta_spend": 14.65,
+   "google_spend": 0.0,
+   "clicks": 33,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-04",
+   "meta_spend": 20.56,
+   "google_spend": 0.0,
+   "clicks": 60,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-05",
+   "meta_spend": 21.3,
+   "google_spend": 0.0,
+   "clicks": 59,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-06",
+   "meta_spend": 20.82,
+   "google_spend": 0.0,
+   "clicks": 55,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-07",
+   "meta_spend": 27.23,
+   "google_spend": 0.0,
+   "clicks": 89,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-08",
+   "meta_spend": 53.02,
+   "google_spend": 0.0,
+   "clicks": 150,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-09",
+   "meta_spend": 51.08,
+   "google_spend": 0.0,
+   "clicks": 150,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-10",
+   "meta_spend": 46.63,
+   "google_spend": 0.0,
+   "clicks": 126,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-11",
+   "meta_spend": 38.81,
+   "google_spend": 0.0,
+   "clicks": 159,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-12",
+   "meta_spend": 10.64,
+   "google_spend": 0.0,
+   "clicks": 49,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-13",
+   "meta_spend": 10.4,
+   "google_spend": 0.0,
+   "clicks": 30,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-14",
+   "meta_spend": 9.04,
+   "google_spend": 0.0,
+   "clicks": 42,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-15",
+   "meta_spend": 24.69,
+   "google_spend": 0.0,
+   "clicks": 123,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-16",
+   "meta_spend": 25.26,
+   "google_spend": 0.0,
+   "clicks": 109,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-17",
+   "meta_spend": 26.92,
+   "google_spend": 0.0,
+   "clicks": 132,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-18",
+   "meta_spend": 19.11,
+   "google_spend": 0.0,
+   "clicks": 72,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-19",
+   "meta_spend": 17.63,
+   "google_spend": 0.0,
+   "clicks": 97,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-20",
+   "meta_spend": 23.31,
+   "google_spend": 0.0,
+   "clicks": 91,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-21",
+   "meta_spend": 27.95,
+   "google_spend": 0.0,
+   "clicks": 125,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-22",
+   "meta_spend": 27.97,
+   "google_spend": 0.0,
+   "clicks": 137,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-23",
+   "meta_spend": 30.65,
+   "google_spend": 0.0,
+   "clicks": 111,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-24",
+   "meta_spend": 22.44,
+   "google_spend": 0.0,
+   "clicks": 81,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-25",
+   "meta_spend": 30.67,
+   "google_spend": 0.0,
+   "clicks": 131,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-26",
+   "meta_spend": 24.38,
+   "google_spend": 0.0,
+   "clicks": 112,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-27",
+   "meta_spend": 29.67,
+   "google_spend": 0.0,
+   "clicks": 109,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-28",
+   "meta_spend": 90.45,
+   "google_spend": 0.0,
+   "clicks": 247,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-29",
+   "meta_spend": 161.15,
+   "google_spend": 0.0,
+   "clicks": 290,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-30",
+   "meta_spend": 65.92,
+   "google_spend": 0.0,
+   "clicks": 123,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-31",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  }
+ ],
+ "config": {
+  "nome": "Porks Pirenópolis"
+ }
 }
