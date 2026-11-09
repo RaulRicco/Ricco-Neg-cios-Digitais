@@ -86,7 +86,7 @@ def checar_ga4():
         return "ERRO", "sem credencial configurada"
     ok, msg = testar_refresh(cid, sec, refresh)
     if ok:
-        return "AVISO", "OAuth OK, mas ainda sem Service Account (pode expirar)"
+        return "OK", "refresh token OK (app OAuth em produção)"
     return "ERRO", msg + " → rodar ga4-ratos/scripts/auth.py ou migrar p/ Service Account"
 
 
