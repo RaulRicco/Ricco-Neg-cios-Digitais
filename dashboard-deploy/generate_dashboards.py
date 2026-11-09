@@ -1469,10 +1469,11 @@ def main():
                 print(f"⏭  {slug} — já existe, pulando")
                 continue
 
-            # HTML
+            # HTML — dashboard v2 (template/dashboard.html). build_html() antigo ficou só como referência.
             page_dir = PAGES_DIR / slug
             page_dir.mkdir(parents=True, exist_ok=True)
-            html = build_html(c)
+            from gerar_paginas import render as render_v2
+            html = render_v2(c)
             (page_dir / "index.html").write_text(html, encoding="utf-8")
 
             # Fetch script
