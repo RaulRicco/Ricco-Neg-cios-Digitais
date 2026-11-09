@@ -7,16 +7,16 @@ Não precisa atribuir ao claude-api depois: como ele é Admin do raulriccopro, j
 
 | ✓ | Cliente | ID da conta |
 |---|---|---|
-| [ ] | Supermercado Bistecão 01 | 164474806974058 |
+| [x] | Supermercado Bistecão 01 | 164474806974058 |
 | [ ] | Supermercado Bistecão 02 | 1499019707471692 |
 | [ ] | Porks Asa Norte | 1805040963337330 |
-| [ ] | Porks Samambaia | 1035595840205318 |
-| [ ] | Porks Guará | 1515848412209603 |
-| [ ] | Porks Pirenópolis | 278928591684240 |
-| [ ] | Porks Ceilândia | 1381221816165390 |
-| [ ] | Porks Casarão | 1721342555031533 |
-| [ ] | Porks Castelo | 735816737938125 |
-| [ ] | Porks Três Lagoas | 3654839554842218 |
+| [x] | Porks Samambaia | 1035595840205318 |
+| [x] | Porks Guará | 1515848412209603 |
+| [x] | Porks Pirenópolis | 278928591684240 |
+| [x] | Porks Ceilândia | 1381221816165390 |
+| [x] | Porks Casarão | 1721342555031533 |
+| [x] | Porks Castelo | 735816737938125 |
+| [x] | Porks Três Lagoas | 3654839554842218 |
 | [ ] | BsBichos PetShop | 237794567104760 |
 | [ ] | Seu Barbudo Barbearia | 453553515121883 |
 | [ ] | Burger Garage | 556754907414470 |
