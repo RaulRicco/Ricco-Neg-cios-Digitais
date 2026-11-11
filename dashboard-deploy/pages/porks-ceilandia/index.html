@@ -301,9 +301,9 @@ function render(){
 
   let frase;
   if(modo==='resultado'){
-    frase=`Em ${mes}, seus anúncios trouxeram <em>${int(T.res)} ${palavra}</em> de clientes interessados, a <em>${brl(T.cpr)}</em> cada.`;
+    frase=`Em ${mes}, seus anúncios trouxeram <em>${int(T.res)} ${palavra}</em>${palavra==='contatos'?' de clientes interessados':''}, a <em>${brl(T.cpr)}</em> cada.`;
     if(P&&P.res){const p=(T.res-P.res)/P.res*100;
-      if(Math.abs(p)>=1) frase+=` São ${Math.abs(p).toFixed(0)}% ${p>0?'a mais':'a menos'} que em ${pm}${p>0&&T.cpr<P.cpr?', e cada um saiu mais barato':''}.`;}
+      if(Math.abs(p)>=1) frase+=` São ${Math.abs(p).toFixed(0)}% ${p>0?'a mais':'a menos'} que em ${pm}${p>0&&T.cpr<P.cpr?(/^(vendas|reservas|conversas)$/.test(palavra)?', e cada uma saiu mais barata':', e cada um saiu mais barato'):''}.`;}
   } else {
     const alc=S.meta.reach?`, alcançaram <em>${int(S.meta.reach)} pessoas</em>`:'';
     frase=`Em ${mes}, seus anúncios apareceram <em>${compact(T.impr)} vezes</em>${alc} e levaram <em>${int(T.clicks)} cliques</em>, a ${brl(T.cpc)} cada.`;
@@ -354,7 +354,7 @@ function render(){
   const days=D.diario||[];
   if(days.length){
     const key=modo==='resultado'?'results':'clicks', lbl=modo==='resultado'?palavra:'cliques';
-    $('daily-sub').textContent=`Quanto foi investido e quantos ${lbl} vieram em cada dia do mês.`;
+    $('daily-sub').textContent=`Quanto foi investido e ${/^(vendas|reservas|conversas)$/.test(lbl)?'quantas':'quantos'} ${lbl} vieram em cada dia do mês.`;
     $('legend').innerHTML=(temMeta?'<span><i style="background:var(--meta)"></i>Investimento Instagram/Facebook</span>':'')+(temGoogle?'<span><i style="background:var(--google)"></i>Investimento Google</span>':'')+`<span><i style="background:var(--accent)"></i>${lbl[0].toUpperCase()+lbl.slice(1)}</span>`;
     const best=days.reduce((a,b)=>(b[key]||0)>(a[key]||0)?b:a);
     const dia=new Date(best.date+'T12:00:00').toLocaleDateString('pt-BR',{weekday:'long',day:'2-digit',month:'2-digit'});

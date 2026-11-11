@@ -1,255 +1,750 @@
 {
-  "cliente": "Burger Garage",
-  "periodo": {
-    "start": "2026-09-01",
-    "end": "2026-09-30"
-  },
-  "gerado_em": "2026-10-05T09:04:04.630765",
-  "consolidado": null,
+ "versao": 2,
+ "cliente": "Burger Garage",
+ "periodo": {
+  "start": "2026-10-01",
+  "end": "2026-10-31"
+ },
+ "periodo_anterior": {
+  "start": "2026-09-01",
+  "end": "2026-09-30"
+ },
+ "gerado_em": "2026-11-11T12:04:26",
+ "meta": {
+  "spend": 2892.56,
+  "reach": 78377,
+  "impressions": 267998,
+  "clicks": 3355,
+  "cpm": 10.79,
+  "cpc": 0.86,
+  "ctr": 1.25,
+  "frequency": 3.42,
+  "campaigns": [
+   {
+    "name": "[GUARA] [ANOTA AI 2.0 SEG A QUI] [VENDAS]",
+    "objective": "OUTCOME_SALES",
+    "spend": 1842.56,
+    "reach": 49838,
+    "impressions": 164652,
+    "clicks": 1396,
+    "ctr": 0.85,
+    "cpc": 1.32,
+    "result_label": "Vendas",
+    "result_qty": 112,
+    "result_cpr": 16.45
+   },
+   {
+    "name": "[TAG] [ANOTA AI 6.1] [VENDAS]",
+    "objective": "OUTCOME_SALES",
+    "spend": 1050.0,
+    "reach": 44863,
+    "impressions": 103346,
+    "clicks": 1959,
+    "ctr": 1.9,
+    "cpc": 0.54,
+    "result_label": "Vendas",
+    "result_qty": 33,
+    "result_cpr": 31.82
+   }
+  ],
+  "ads": [
+   {
+    "name": "CRIATIVO 03",
+    "campaign": "[GUARA] [ANOTA AI 2.0 SEG A QUI] [VENDAS]",
+    "spend": 1842.56,
+    "impressions": 164652,
+    "clicks": 1396,
+    "ctr": 0.85,
+    "cpc": 1.32,
+    "frequency": 3.3,
+    "result_label": "Vendas",
+    "result_qty": 112,
+    "result_cpr": 16.45
+   },
+   {
+    "name": "PAGUE 1 LEVE ORG",
+    "campaign": "[TAG] [ANOTA AI 6.1] [VENDAS]",
+    "spend": 225.1,
+    "impressions": 23379,
+    "clicks": 472,
+    "ctr": 2.02,
+    "cpc": 0.48,
+    "frequency": 1.6,
+    "result_label": "Vendas",
+    "result_qty": 10,
+    "result_cpr": 22.51
+   },
+   {
+    "name": "PAGUE 1 LEVE ARTE",
+    "campaign": "[TAG] [ANOTA AI 6.1] [VENDAS]",
+    "spend": 89.66,
+    "impressions": 6873,
+    "clicks": 89,
+    "ctr": 1.29,
+    "cpc": 1.01,
+    "frequency": 1.39,
+    "result_label": "Vendas",
+    "result_qty": 2,
+    "result_cpr": 44.83
+   },
+   {
+    "name": "PAGUE 1 LEVE ARTE CORTE",
+    "campaign": "[TAG] [ANOTA AI 6.1] [VENDAS]",
+    "spend": 735.24,
+    "impressions": 73094,
+    "clicks": 1398,
+    "ctr": 1.91,
+    "cpc": 0.53,
+    "frequency": 2.01,
+    "result_label": "Vendas",
+    "result_qty": 21,
+    "result_cpr": 35.01
+   }
+  ]
+ },
+ "google": null,
+ "ga4": {
+  "sessions": 2646,
+  "users": 2397,
+  "new_users": 2154,
+  "pageviews": 10825,
+  "bounce_rate": 9.33,
+  "duration": "1m 45s",
+  "events": 17977,
+  "conversions": 73,
+  "sources": [
+   {
+    "source": "ig",
+    "medium": "paid",
+    "sessions": 1419,
+    "pct": 53.7
+   },
+   {
+    "source": "instagram.com",
+    "medium": "referral",
+    "sessions": 684,
+    "pct": 25.9
+   },
+   {
+    "source": "(direct)",
+    "medium": "(none)",
+    "sessions": 226,
+    "pct": 8.6
+   },
+   {
+    "source": "linktr.ee",
+    "medium": "referral",
+    "sessions": 82,
+    "pct": 3.1
+   },
+   {
+    "source": "fb",
+    "medium": "paid",
+    "sessions": 71,
+    "pct": 2.7
+   },
+   {
+    "source": "l.facebook.com",
+    "medium": "referral",
+    "sessions": 50,
+    "pct": 1.9
+   },
+   {
+    "source": "m.facebook.com",
+    "medium": "referral",
+    "sessions": 31,
+    "pct": 1.2
+   },
+   {
+    "source": "google",
+    "medium": "organic",
+    "sessions": 28,
+    "pct": 1.1
+   },
+   {
+    "source": "facebook.com",
+    "medium": "referral",
+    "sessions": 20,
+    "pct": 0.8
+   },
+   {
+    "source": "(not set)",
+    "medium": "(not set)",
+    "sessions": 10,
+    "pct": 0.4
+   },
+   {
+    "source": "ig",
+    "medium": "social",
+    "sessions": 9,
+    "pct": 0.3
+   },
+   {
+    "source": "an",
+    "medium": "paid",
+    "sessions": 5,
+    "pct": 0.2
+   },
+   {
+    "source": "th",
+    "medium": "paid",
+    "sessions": 3,
+    "pct": 0.1
+   },
+   {
+    "source": "threads.com",
+    "medium": "referral",
+    "sessions": 2,
+    "pct": 0.1
+   },
+   {
+    "source": "lm.facebook.com",
+    "medium": "referral",
+    "sessions": 1,
+    "pct": 0.0
+   }
+  ],
+  "event_list": [
+   {
+    "name": "initiate_checkout",
+    "count": 391
+   },
+   {
+    "name": "add_to_cart",
+    "count": 330
+   },
+   {
+    "name": "delivery_method_selected",
+    "count": 170
+   },
+   {
+    "name": "payment_method_selected",
+    "count": 140
+   },
+   {
+    "name": "form_start",
+    "count": 119
+   },
+   {
+    "name": "purchase",
+    "count": 73
+   },
+   {
+    "name": "remove_from_cart",
+    "count": 72
+   },
+   {
+    "name": "clear_cart",
+    "count": 7
+   },
+   {
+    "name": "click",
+    "count": 1
+   },
+   {
+    "name": "error_order",
+    "count": 1
+   }
+  ]
+ },
+ "anterior": {
   "meta": {
-    "spend": 2887.67,
-    "reach": 56433,
-    "impressions": 218328,
-    "clicks": 3152,
-    "cpm": 13.23,
-    "cpc": 0.92,
-    "ctr": 1.44,
-    "frequency": 3.87,
-    "campaigns": [
-      {
-        "name": "[GUARA] [ANOTA AI 2.0 SEG A QUI] [VENDAS]",
-        "objective": "OUTCOME_SALES",
-        "spend": 1643.89,
-        "reach": 30588,
-        "impressions": 120347,
-        "clicks": 1149,
-        "ctr": 0.95,
-        "cpc": 1.43,
-        "result_label": "Vendas",
-        "result_qty": 91,
-        "result_cpr": 18.06
-      },
-      {
-        "name": "[TAG] [ANOTA AI 6.1] [VENDAS]",
-        "objective": "OUTCOME_SALES",
-        "spend": 1243.78,
-        "reach": 37379,
-        "impressions": 97981,
-        "clicks": 2003,
-        "ctr": 2.04,
-        "cpc": 0.62,
-        "result_label": "Vendas",
-        "result_qty": 28,
-        "result_cpr": 44.42
-      }
-    ],
-    "ads": [
-      {
-        "name": "CRIATIVO 03",
-        "campaign": "[GUARA] [ANOTA AI 2.0 SEG A QUI] [VENDAS]",
-        "spend": 1643.89,
-        "impressions": 120347,
-        "clicks": 1149,
-        "ctr": 0.95,
-        "cpc": 1.43,
-        "frequency": 3.93,
-        "result_label": "Vendas",
-        "result_qty": 91,
-        "result_cpr": 18.06
-      },
-      {
-        "name": "PAGUE 1 LEVE ORG",
-        "campaign": "[TAG] [ANOTA AI 6.1] [VENDAS]",
-        "spend": 374.96,
-        "impressions": 29932,
-        "clicks": 594,
-        "ctr": 1.98,
-        "cpc": 0.63,
-        "frequency": 1.73,
-        "result_label": "Vendas",
-        "result_qty": 14,
-        "result_cpr": 26.78
-      },
-      {
-        "name": "PAGUE 1 LEVE ARTE",
-        "campaign": "[TAG] [ANOTA AI 6.1] [VENDAS]",
-        "spend": 55.1,
-        "impressions": 3494,
-        "clicks": 32,
-        "ctr": 0.92,
-        "cpc": 1.72,
-        "frequency": 1.36,
-        "result_label": "Vendas",
-        "result_qty": 0,
-        "result_cpr": 0
-      },
-      {
-        "name": "PAGUE 1 LEVE ARTE CORTE",
-        "campaign": "[TAG] [ANOTA AI 6.1] [VENDAS]",
-        "spend": 813.72,
-        "impressions": 64555,
-        "clicks": 1377,
-        "ctr": 2.13,
-        "cpc": 0.59,
-        "frequency": 2.16,
-        "result_label": "Vendas",
-        "result_qty": 14,
-        "result_cpr": 58.12
-      }
-    ]
+   "spend": 2887.67,
+   "reach": 56433,
+   "impressions": 218328,
+   "clicks": 3152,
+   "cpm": 13.23,
+   "cpc": 0.92,
+   "ctr": 1.44,
+   "frequency": 3.87,
+   "campaigns": [
+    {
+     "name": "[GUARA] [ANOTA AI 2.0 SEG A QUI] [VENDAS]",
+     "objective": "OUTCOME_SALES",
+     "spend": 1643.89,
+     "reach": 30588,
+     "impressions": 120347,
+     "clicks": 1149,
+     "ctr": 0.95,
+     "cpc": 1.43,
+     "result_label": "Vendas",
+     "result_qty": 91,
+     "result_cpr": 18.06
+    },
+    {
+     "name": "[TAG] [ANOTA AI 6.1] [VENDAS]",
+     "objective": "OUTCOME_SALES",
+     "spend": 1243.78,
+     "reach": 37379,
+     "impressions": 97981,
+     "clicks": 2003,
+     "ctr": 2.04,
+     "cpc": 0.62,
+     "result_label": "Vendas",
+     "result_qty": 28,
+     "result_cpr": 44.42
+    }
+   ],
+   "ads": [
+    {
+     "name": "CRIATIVO 03",
+     "campaign": "[GUARA] [ANOTA AI 2.0 SEG A QUI] [VENDAS]",
+     "spend": 1643.89,
+     "impressions": 120347,
+     "clicks": 1149,
+     "ctr": 0.95,
+     "cpc": 1.43,
+     "frequency": 3.93,
+     "result_label": "Vendas",
+     "result_qty": 91,
+     "result_cpr": 18.06
+    },
+    {
+     "name": "PAGUE 1 LEVE ORG",
+     "campaign": "[TAG] [ANOTA AI 6.1] [VENDAS]",
+     "spend": 374.96,
+     "impressions": 29932,
+     "clicks": 594,
+     "ctr": 1.98,
+     "cpc": 0.63,
+     "frequency": 1.73,
+     "result_label": "Vendas",
+     "result_qty": 14,
+     "result_cpr": 26.78
+    },
+    {
+     "name": "PAGUE 1 LEVE ARTE",
+     "campaign": "[TAG] [ANOTA AI 6.1] [VENDAS]",
+     "spend": 55.1,
+     "impressions": 3494,
+     "clicks": 32,
+     "ctr": 0.92,
+     "cpc": 1.72,
+     "frequency": 1.36,
+     "result_label": "Vendas",
+     "result_qty": 0,
+     "result_cpr": 0
+    },
+    {
+     "name": "PAGUE 1 LEVE ARTE CORTE",
+     "campaign": "[TAG] [ANOTA AI 6.1] [VENDAS]",
+     "spend": 813.72,
+     "impressions": 64555,
+     "clicks": 1377,
+     "ctr": 2.13,
+     "cpc": 0.59,
+     "frequency": 2.16,
+     "result_label": "Vendas",
+     "result_qty": 14,
+     "result_cpr": 58.12
+    }
+   ]
   },
   "google": null,
   "ga4": {
-    "sessions": 2637,
-    "users": 2347,
-    "new_users": 2108,
-    "pageviews": 10612,
-    "bounce_rate": 8.8,
-    "duration": "1m 39s",
-    "events": 17298,
-    "conversions": 70,
-    "sources": [
-      {
-        "source": "ig",
-        "medium": "paid",
-        "sessions": 1503,
-        "pct": 57.0
-      },
-      {
-        "source": "instagram.com",
-        "medium": "referral",
-        "sessions": 600,
-        "pct": 22.8
-      },
-      {
-        "source": "(direct)",
-        "medium": "(none)",
-        "sessions": 237,
-        "pct": 9.0
-      },
-      {
-        "source": "fb",
-        "medium": "paid",
-        "sessions": 87,
-        "pct": 3.3
-      },
-      {
-        "source": "linktr.ee",
-        "medium": "referral",
-        "sessions": 85,
-        "pct": 3.2
-      },
-      {
-        "source": "google",
-        "medium": "organic",
-        "sessions": 37,
-        "pct": 1.4
-      },
-      {
-        "source": "m.facebook.com",
-        "medium": "referral",
-        "sessions": 27,
-        "pct": 1.0
-      },
-      {
-        "source": "facebook.com",
-        "medium": "referral",
-        "sessions": 17,
-        "pct": 0.6
-      },
-      {
-        "source": "l.facebook.com",
-        "medium": "referral",
-        "sessions": 16,
-        "pct": 0.6
-      },
-      {
-        "source": "(not set)",
-        "medium": "(not set)",
-        "sessions": 8,
-        "pct": 0.3
-      },
-      {
-        "source": "ig",
-        "medium": "social",
-        "sessions": 6,
-        "pct": 0.2
-      },
-      {
-        "source": "th",
-        "medium": "paid",
-        "sessions": 4,
-        "pct": 0.2
-      },
-      {
-        "source": "threads.com",
-        "medium": "referral",
-        "sessions": 3,
-        "pct": 0.1
-      },
-      {
-        "source": "an",
-        "medium": "paid",
-        "sessions": 2,
-        "pct": 0.1
-      },
-      {
-        "source": "lm.facebook.com",
-        "medium": "referral",
-        "sessions": 2,
-        "pct": 0.1
-      },
-      {
-        "source": "nuapp.nubank.com.br",
-        "medium": "referral",
-        "sessions": 1,
-        "pct": 0.0
-      },
-      {
-        "source": "payment-link.ifood.com.br",
-        "medium": "referral",
-        "sessions": 1,
-        "pct": 0.0
-      }
-    ],
-    "event_list": [
-      {
-        "name": "initiate_checkout",
-        "count": 360
-      },
-      {
-        "name": "add_to_cart",
-        "count": 307
-      },
-      {
-        "name": "payment_method_selected",
-        "count": 125
-      },
-      {
-        "name": "form_start",
-        "count": 109
-      },
-      {
-        "name": "purchase",
-        "count": 70
-      },
-      {
-        "name": "remove_from_cart",
-        "count": 46
-      },
-      {
-        "name": "delivery_method_selected",
-        "count": 22
-      },
-      {
-        "name": "clear_cart",
-        "count": 12
-      },
-      {
-        "name": "error_order",
-        "count": 4
-      }
-    ]
+   "sessions": 2637,
+   "users": 2347,
+   "new_users": 2108,
+   "pageviews": 10612,
+   "bounce_rate": 8.8,
+   "duration": "1m 39s",
+   "events": 17298,
+   "conversions": 70,
+   "sources": [
+    {
+     "source": "ig",
+     "medium": "paid",
+     "sessions": 1503,
+     "pct": 57.0
+    },
+    {
+     "source": "instagram.com",
+     "medium": "referral",
+     "sessions": 600,
+     "pct": 22.8
+    },
+    {
+     "source": "(direct)",
+     "medium": "(none)",
+     "sessions": 237,
+     "pct": 9.0
+    },
+    {
+     "source": "fb",
+     "medium": "paid",
+     "sessions": 87,
+     "pct": 3.3
+    },
+    {
+     "source": "linktr.ee",
+     "medium": "referral",
+     "sessions": 85,
+     "pct": 3.2
+    },
+    {
+     "source": "google",
+     "medium": "organic",
+     "sessions": 37,
+     "pct": 1.4
+    },
+    {
+     "source": "m.facebook.com",
+     "medium": "referral",
+     "sessions": 27,
+     "pct": 1.0
+    },
+    {
+     "source": "facebook.com",
+     "medium": "referral",
+     "sessions": 17,
+     "pct": 0.6
+    },
+    {
+     "source": "l.facebook.com",
+     "medium": "referral",
+     "sessions": 16,
+     "pct": 0.6
+    },
+    {
+     "source": "(not set)",
+     "medium": "(not set)",
+     "sessions": 8,
+     "pct": 0.3
+    },
+    {
+     "source": "ig",
+     "medium": "social",
+     "sessions": 6,
+     "pct": 0.2
+    },
+    {
+     "source": "th",
+     "medium": "paid",
+     "sessions": 4,
+     "pct": 0.2
+    },
+    {
+     "source": "threads.com",
+     "medium": "referral",
+     "sessions": 3,
+     "pct": 0.1
+    },
+    {
+     "source": "an",
+     "medium": "paid",
+     "sessions": 2,
+     "pct": 0.1
+    },
+    {
+     "source": "lm.facebook.com",
+     "medium": "referral",
+     "sessions": 2,
+     "pct": 0.1
+    },
+    {
+     "source": "nuapp.nubank.com.br",
+     "medium": "referral",
+     "sessions": 1,
+     "pct": 0.0
+    },
+    {
+     "source": "payment-link.ifood.com.br",
+     "medium": "referral",
+     "sessions": 1,
+     "pct": 0.0
+    }
+   ],
+   "event_list": [
+    {
+     "name": "initiate_checkout",
+     "count": 360
+    },
+    {
+     "name": "add_to_cart",
+     "count": 307
+    },
+    {
+     "name": "payment_method_selected",
+     "count": 125
+    },
+    {
+     "name": "form_start",
+     "count": 109
+    },
+    {
+     "name": "purchase",
+     "count": 70
+    },
+    {
+     "name": "remove_from_cart",
+     "count": 46
+    },
+    {
+     "name": "delivery_method_selected",
+     "count": 22
+    },
+    {
+     "name": "clear_cart",
+     "count": 12
+    },
+    {
+     "name": "error_order",
+     "count": 4
+    }
+   ]
+  }
+ },
+ "diario": [
+  {
+   "date": "2026-10-01",
+   "meta_spend": 92.79,
+   "google_spend": 0.0,
+   "clicks": 37,
+   "results": 4,
+   "sessions": 33
   },
-  "gmb": null
+  {
+   "date": "2026-10-02",
+   "meta_spend": 181.97,
+   "google_spend": 0.0,
+   "clicks": 201,
+   "results": 10,
+   "sessions": 154
+  },
+  {
+   "date": "2026-10-03",
+   "meta_spend": 190.78,
+   "google_spend": 0.0,
+   "clicks": 247,
+   "results": 5,
+   "sessions": 206
+  },
+  {
+   "date": "2026-10-04",
+   "meta_spend": 188.82,
+   "google_spend": 0.0,
+   "clicks": 279,
+   "results": 19,
+   "sessions": 237
+  },
+  {
+   "date": "2026-10-05",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 6
+  },
+  {
+   "date": "2026-10-06",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 4
+  },
+  {
+   "date": "2026-10-07",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 3
+  },
+  {
+   "date": "2026-10-08",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 9
+  },
+  {
+   "date": "2026-10-09",
+   "meta_spend": 197.18,
+   "google_spend": 0.0,
+   "clicks": 207,
+   "results": 4,
+   "sessions": 162
+  },
+  {
+   "date": "2026-10-10",
+   "meta_spend": 211.95,
+   "google_spend": 0.0,
+   "clicks": 260,
+   "results": 9,
+   "sessions": 206
+  },
+  {
+   "date": "2026-10-11",
+   "meta_spend": 237.34,
+   "google_spend": 0.0,
+   "clicks": 290,
+   "results": 14,
+   "sessions": 221
+  },
+  {
+   "date": "2026-10-12",
+   "meta_spend": 53.17,
+   "google_spend": 0.0,
+   "clicks": 163,
+   "results": 4,
+   "sessions": 131
+  },
+  {
+   "date": "2026-10-13",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 1,
+   "sessions": 9
+  },
+  {
+   "date": "2026-10-14",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 3
+  },
+  {
+   "date": "2026-10-15",
+   "meta_spend": 93.94,
+   "google_spend": 0.0,
+   "clicks": 67,
+   "results": 2,
+   "sessions": 48
+  },
+  {
+   "date": "2026-10-16",
+   "meta_spend": 131.51,
+   "google_spend": 0.0,
+   "clicks": 158,
+   "results": 3,
+   "sessions": 111
+  },
+  {
+   "date": "2026-10-17",
+   "meta_spend": 155.85,
+   "google_spend": 0.0,
+   "clicks": 218,
+   "results": 4,
+   "sessions": 168
+  },
+  {
+   "date": "2026-10-18",
+   "meta_spend": 167.9,
+   "google_spend": 0.0,
+   "clicks": 213,
+   "results": 13,
+   "sessions": 173
+  },
+  {
+   "date": "2026-10-19",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 2,
+   "sessions": 9
+  },
+  {
+   "date": "2026-10-20",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 9
+  },
+  {
+   "date": "2026-10-21",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 4
+  },
+  {
+   "date": "2026-10-22",
+   "meta_spend": 65.06,
+   "google_spend": 0.0,
+   "clicks": 70,
+   "results": 3,
+   "sessions": 42
+  },
+  {
+   "date": "2026-10-23",
+   "meta_spend": 109.71,
+   "google_spend": 0.0,
+   "clicks": 111,
+   "results": 12,
+   "sessions": 61
+  },
+  {
+   "date": "2026-10-24",
+   "meta_spend": 123.52,
+   "google_spend": 0.0,
+   "clicks": 99,
+   "results": 10,
+   "sessions": 62
+  },
+  {
+   "date": "2026-10-25",
+   "meta_spend": 110.56,
+   "google_spend": 0.0,
+   "clicks": 96,
+   "results": 2,
+   "sessions": 71
+  },
+  {
+   "date": "2026-10-26",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 4,
+   "sessions": 5
+  },
+  {
+   "date": "2026-10-27",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 4
+  },
+  {
+   "date": "2026-10-28",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 4
+  },
+  {
+   "date": "2026-10-29",
+   "meta_spend": 58.04,
+   "google_spend": 0.0,
+   "clicks": 60,
+   "results": 2,
+   "sessions": 44
+  },
+  {
+   "date": "2026-10-30",
+   "meta_spend": 237.0,
+   "google_spend": 0.0,
+   "clicks": 191,
+   "results": 4,
+   "sessions": 150
+  },
+  {
+   "date": "2026-10-31",
+   "meta_spend": 285.47,
+   "google_spend": 0.0,
+   "clicks": 388,
+   "results": 14,
+   "sessions": 295
+  }
+ ],
+ "config": {
+  "nome": "Burger Garage"
+ }
 }
