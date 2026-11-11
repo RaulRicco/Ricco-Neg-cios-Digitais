@@ -297,7 +297,7 @@ function render(){
   const kinds=Object.keys(T.byKind);
   let palavra=CFG.palavra_resultado||'contatos';
   if(!CFG.palavra_resultado&&!T.gRes&&kinds.length===1&&(kinds[0]==='vendas'||kinds[0]==='reservas')) palavra=kinds[0];
-  const plataformas=lista([temMeta&&'Instagram e Facebook',temGoogle&&'Google'].filter(Boolean));
+  const plataformas=lista([temMeta&&'Instagram/Facebook',temGoogle&&'Google'].filter(Boolean));
 
   let frase;
   if(modo==='resultado'){
