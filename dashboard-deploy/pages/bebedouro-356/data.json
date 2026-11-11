@@ -1,659 +1,1515 @@
 {
-  "cliente": "Bebedouro Bar e Fogo — 356",
-  "periodo": {
-    "start": "2026-09-01",
-    "end": "2026-09-30"
-  },
-  "gerado_em": "2026-10-05T09:02:10.579238",
-  "consolidado": {
-    "spend": 485.44,
-    "reach": 0,
-    "impressions": 5146,
-    "clicks": 325,
-    "meta_spend": 0.0,
-    "google_spend": 485.44
-  },
-  "meta": {
-    "spend": 0.0,
-    "reach": 0,
-    "impressions": 0,
-    "clicks": 0,
-    "cpm": 0.0,
-    "cpc": 0.0,
-    "ctr": 0.0,
-    "frequency": 0.0,
-    "campaigns": [],
-    "ads": []
-  },
+ "versao": 2,
+ "cliente": "Bebedouro Bar e Fogo — 356",
+ "periodo": {
+  "start": "2026-10-01",
+  "end": "2026-10-31"
+ },
+ "periodo_anterior": {
+  "start": "2026-09-01",
+  "end": "2026-09-30"
+ },
+ "gerado_em": "2026-11-11T12:21:59",
+ "meta": null,
+ "google": {
+  "spend": 486.39,
+  "impressions": 5735,
+  "clicks": 382,
+  "ctr": 6.66,
+  "cpc": 1.27,
+  "conversions": 0,
+  "cpa": 0,
+  "campaigns": [
+   {
+    "name": "[REDE DE PESQUISAS] [2026]",
+    "type": "Search",
+    "status": "Enabled",
+    "spend": 486.39,
+    "impressions": 5735,
+    "clicks": 382,
+    "ctr": 6.66,
+    "cpc": 1.27,
+    "conversions": 0
+   }
+  ],
+  "keywords": [
+   {
+    "keyword": "Restaurante em Belo Horizonte",
+    "match": "Exact",
+    "impressions": 2699,
+    "clicks": 110,
+    "ctr": 4.08,
+    "cpc": 1.29,
+    "conversions": 0
+   },
+   {
+    "keyword": "Barzinhos em Belo Horizonte",
+    "match": "Exact",
+    "impressions": 1064,
+    "clicks": 87,
+    "ctr": 8.18,
+    "cpc": 1.33,
+    "conversions": 0
+   },
+   {
+    "keyword": "Bar em BH",
+    "match": "Exact",
+    "impressions": 784,
+    "clicks": 71,
+    "ctr": 9.06,
+    "cpc": 1.33,
+    "conversions": 0
+   },
+   {
+    "keyword": "Barzinhos em BH",
+    "match": "Exact",
+    "impressions": 438,
+    "clicks": 37,
+    "ctr": 8.45,
+    "cpc": 1.27,
+    "conversions": 0
+   },
+   {
+    "keyword": "rooftop bh",
+    "match": "Exact",
+    "impressions": 240,
+    "clicks": 22,
+    "ctr": 9.17,
+    "cpc": 1.05,
+    "conversions": 0
+   },
+   {
+    "keyword": "Happy Hour em Belo Horizonte",
+    "match": "Exact",
+    "impressions": 155,
+    "clicks": 11,
+    "ctr": 7.1,
+    "cpc": 1.28,
+    "conversions": 0
+   },
+   {
+    "keyword": "rooftop em belo horizonte",
+    "match": "Exact",
+    "impressions": 81,
+    "clicks": 13,
+    "ctr": 16.05,
+    "cpc": 1.07,
+    "conversions": 0
+   },
+   {
+    "keyword": "bar rooftop bh",
+    "match": "Exact",
+    "impressions": 99,
+    "clicks": 12,
+    "ctr": 12.12,
+    "cpc": 1.08,
+    "conversions": 0
+   },
+   {
+    "keyword": "melhor rooftop bh",
+    "match": "Exact",
+    "impressions": 89,
+    "clicks": 10,
+    "ctr": 11.24,
+    "cpc": 1.01,
+    "conversions": 0
+   },
+   {
+    "keyword": "Bar em Belo Horizonte",
+    "match": "Exact",
+    "impressions": 83,
+    "clicks": 7,
+    "ctr": 8.43,
+    "cpc": 1.42,
+    "conversions": 0
+   },
+   {
+    "keyword": "vista rooftop bh",
+    "match": "Exact",
+    "impressions": 3,
+    "clicks": 2,
+    "ctr": 66.67,
+    "cpc": 1.03,
+    "conversions": 0
+   }
+  ],
+  "search_terms": [
+   {
+    "term": "bares em bh",
+    "keyword": "—",
+    "impressions": 300,
+    "clicks": 22,
+    "ctr": 7.33,
+    "cpc": 1.34
+   },
+   {
+    "term": "bares belo horizonte",
+    "keyword": "—",
+    "impressions": 170,
+    "clicks": 15,
+    "ctr": 8.82,
+    "cpc": 1.42
+   },
+   {
+    "term": "rooftop belo horizonte",
+    "keyword": "—",
+    "impressions": 127,
+    "clicks": 15,
+    "ctr": 11.81,
+    "cpc": 1.06
+   },
+   {
+    "term": "restaurante belo horizonte",
+    "keyword": "—",
+    "impressions": 456,
+    "clicks": 13,
+    "ctr": 2.85,
+    "cpc": 1.21
+   },
+   {
+    "term": "rooftop bh",
+    "keyword": "—",
+    "impressions": 131,
+    "clicks": 13,
+    "ctr": 9.92,
+    "cpc": 1.11
+   },
+   {
+    "term": "bar em bh",
+    "keyword": "—",
+    "impressions": 130,
+    "clicks": 10,
+    "ctr": 7.69,
+    "cpc": 1.35
+   },
+   {
+    "term": "bares em bh hoje",
+    "keyword": "—",
+    "impressions": 65,
+    "clicks": 10,
+    "ctr": 15.38,
+    "cpc": 1.3
+   },
+   {
+    "term": "barzinho belo horizonte",
+    "keyword": "—",
+    "impressions": 135,
+    "clicks": 9,
+    "ctr": 6.67,
+    "cpc": 1.39
+   },
+   {
+    "term": "lugares para comer belo horizonte",
+    "keyword": "—",
+    "impressions": 109,
+    "clicks": 9,
+    "ctr": 8.26,
+    "cpc": 1.3
+   },
+   {
+    "term": "bares bh",
+    "keyword": "—",
+    "impressions": 144,
+    "clicks": 8,
+    "ctr": 5.56,
+    "cpc": 1.37
+   },
+   {
+    "term": "restaurantes belo horizonte",
+    "keyword": "—",
+    "impressions": 208,
+    "clicks": 7,
+    "ctr": 3.37,
+    "cpc": 1.42
+   },
+   {
+    "term": "barzinhos em bh",
+    "keyword": "—",
+    "impressions": 100,
+    "clicks": 8,
+    "ctr": 8.0,
+    "cpc": 1.22
+   },
+   {
+    "term": "onde jantar em bh",
+    "keyword": "—",
+    "impressions": 64,
+    "clicks": 8,
+    "ctr": 12.5,
+    "cpc": 1.1
+   },
+   {
+    "term": "bar em belo horizonte",
+    "keyword": "—",
+    "impressions": 41,
+    "clicks": 6,
+    "ctr": 14.63,
+    "cpc": 1.45
+   },
+   {
+    "term": "bares legais em bh",
+    "keyword": "—",
+    "impressions": 43,
+    "clicks": 6,
+    "ctr": 13.95,
+    "cpc": 1.41
+   },
+   {
+    "term": "restaurante em belo horizonte",
+    "keyword": "—",
+    "impressions": 40,
+    "clicks": 6,
+    "ctr": 15.0,
+    "cpc": 1.3
+   },
+   {
+    "term": "barzinho em bh",
+    "keyword": "—",
+    "impressions": 82,
+    "clicks": 6,
+    "ctr": 7.32,
+    "cpc": 1.28
+   },
+   {
+    "term": "rooftop em bh",
+    "keyword": "—",
+    "impressions": 54,
+    "clicks": 8,
+    "ctr": 14.81,
+    "cpc": 0.94
+   },
+   {
+    "term": "onde comer em bh",
+    "keyword": "—",
+    "impressions": 75,
+    "clicks": 5,
+    "ctr": 6.67,
+    "cpc": 1.3
+   },
+   {
+    "term": "restaurantes em bh",
+    "keyword": "—",
+    "impressions": 175,
+    "clicks": 5,
+    "ctr": 2.86,
+    "cpc": 1.28
+   },
+   {
+    "term": "onde almoçar em bh",
+    "keyword": "—",
+    "impressions": 51,
+    "clicks": 5,
+    "ctr": 9.8,
+    "cpc": 1.21
+   },
+   {
+    "term": "bares em belo horizonte",
+    "keyword": "—",
+    "impressions": 55,
+    "clicks": 5,
+    "ctr": 9.09,
+    "cpc": 1.18
+   },
+   {
+    "term": "bares de bh",
+    "keyword": "—",
+    "impressions": 38,
+    "clicks": 4,
+    "ctr": 10.53,
+    "cpc": 1.35
+   },
+   {
+    "term": "bar belo horizonte",
+    "keyword": "—",
+    "impressions": 68,
+    "clicks": 4,
+    "ctr": 5.88,
+    "cpc": 1.35
+   },
+   {
+    "term": "barzinho bom em bh",
+    "keyword": "—",
+    "impressions": 16,
+    "clicks": 4,
+    "ctr": 25.0,
+    "cpc": 1.35
+   },
+   {
+    "term": "boteco belo horizonte",
+    "keyword": "—",
+    "impressions": 27,
+    "clicks": 4,
+    "ctr": 14.81,
+    "cpc": 1.19
+   },
+   {
+    "term": "bar bh",
+    "keyword": "—",
+    "impressions": 71,
+    "clicks": 3,
+    "ctr": 4.23,
+    "cpc": 1.49
+   },
+   {
+    "term": "bar legal em bh",
+    "keyword": "—",
+    "impressions": 14,
+    "clicks": 3,
+    "ctr": 21.43,
+    "cpc": 1.38
+   },
+   {
+    "term": "bons restaurantes em bh",
+    "keyword": "—",
+    "impressions": 39,
+    "clicks": 3,
+    "ctr": 7.69,
+    "cpc": 1.36
+   },
+   {
+    "term": "barzinhos belo horizonte",
+    "keyword": "—",
+    "impressions": 27,
+    "clicks": 3,
+    "ctr": 11.11,
+    "cpc": 1.32
+   },
+   {
+    "term": "restaurante bh",
+    "keyword": "—",
+    "impressions": 149,
+    "clicks": 3,
+    "ctr": 2.01,
+    "cpc": 1.26
+   },
+   {
+    "term": "rooftops em bh",
+    "keyword": "—",
+    "impressions": 19,
+    "clicks": 3,
+    "ctr": 15.79,
+    "cpc": 1.08
+   },
+   {
+    "term": "bares bons em bh",
+    "keyword": "—",
+    "impressions": 25,
+    "clicks": 2,
+    "ctr": 8.0,
+    "cpc": 1.56
+   },
+   {
+    "term": "bares de belo horizonte",
+    "keyword": "—",
+    "impressions": 12,
+    "clicks": 2,
+    "ctr": 16.67,
+    "cpc": 1.54
+   },
+   {
+    "term": "roof top em bh",
+    "keyword": "—",
+    "impressions": 14,
+    "clicks": 3,
+    "ctr": 21.43,
+    "cpc": 0.99
+   },
+   {
+    "term": "botecos em bh",
+    "keyword": "—",
+    "impressions": 36,
+    "clicks": 2,
+    "ctr": 5.56,
+    "cpc": 1.47
+   },
+   {
+    "term": "bares para ir em bh",
+    "keyword": "—",
+    "impressions": 15,
+    "clicks": 2,
+    "ctr": 13.33,
+    "cpc": 1.43
+   },
+   {
+    "term": "restaurantes bh",
+    "keyword": "—",
+    "impressions": 181,
+    "clicks": 2,
+    "ctr": 1.1,
+    "cpc": 1.42
+   },
+   {
+    "term": "restaurantes em belo horizonte",
+    "keyword": "—",
+    "impressions": 64,
+    "clicks": 2,
+    "ctr": 3.12,
+    "cpc": 1.42
+   },
+   {
+    "term": "restaurante em bh",
+    "keyword": "—",
+    "impressions": 126,
+    "clicks": 2,
+    "ctr": 1.59,
+    "cpc": 1.4
+   },
+   {
+    "term": "lugares para almoçar em bh",
+    "keyword": "—",
+    "impressions": 11,
+    "clicks": 2,
+    "ctr": 18.18,
+    "cpc": 1.38
+   },
+   {
+    "term": "boteco em belo horizonte",
+    "keyword": "—",
+    "impressions": 9,
+    "clicks": 2,
+    "ctr": 22.22,
+    "cpc": 1.37
+   },
+   {
+    "term": "restaurantes belo horizonte mg",
+    "keyword": "—",
+    "impressions": 14,
+    "clicks": 2,
+    "ctr": 14.29,
+    "cpc": 1.37
+   },
+   {
+    "term": "lugares para comer em bh",
+    "keyword": "—",
+    "impressions": 40,
+    "clicks": 2,
+    "ctr": 5.0,
+    "cpc": 1.27
+   },
+   {
+    "term": "barzinhos top em bh",
+    "keyword": "—",
+    "impressions": 4,
+    "clicks": 2,
+    "ctr": 50.0,
+    "cpc": 1.25
+   },
+   {
+    "term": "happy hour bh",
+    "keyword": "—",
+    "impressions": 24,
+    "clicks": 2,
+    "ctr": 8.33,
+    "cpc": 1.23
+   },
+   {
+    "term": "bar bom em bh",
+    "keyword": "—",
+    "impressions": 22,
+    "clicks": 2,
+    "ctr": 9.09,
+    "cpc": 1.16
+   },
+   {
+    "term": "rooftop bh outlet",
+    "keyword": "—",
+    "impressions": 1,
+    "clicks": 2,
+    "ctr": 200.0,
+    "cpc": 1.03
+   },
+   {
+    "term": "bar rooftop bh",
+    "keyword": "—",
+    "impressions": 12,
+    "clicks": 2,
+    "ctr": 16.67,
+    "cpc": 0.98
+   },
+   {
+    "term": "restaurantes para ir em bh",
+    "keyword": "—",
+    "impressions": 11,
+    "clicks": 1,
+    "ctr": 9.09,
+    "cpc": 1.63
+   }
+  ]
+ },
+ "ga4": {
+  "sessions": 2161,
+  "users": 1887,
+  "new_users": 1863,
+  "pageviews": 2550,
+  "bounce_rate": 49.24,
+  "duration": "1m 49s",
+  "events": 8642,
+  "conversions": 88,
+  "sources": [
+   {
+    "source": "google",
+    "medium": "organic",
+    "sessions": 935,
+    "pct": 43.3
+   },
+   {
+    "source": "google",
+    "medium": "cpc",
+    "sessions": 850,
+    "pct": 39.3
+   },
+   {
+    "source": "(direct)",
+    "medium": "(none)",
+    "sessions": 269,
+    "pct": 12.4
+   },
+   {
+    "source": "chatgpt.com",
+    "medium": "ai-assistant",
+    "sessions": 49,
+    "pct": 2.3
+   },
+   {
+    "source": "(data not available)",
+    "medium": "(data not available)",
+    "sessions": 30,
+    "pct": 1.4
+   },
+   {
+    "source": "bing",
+    "medium": "organic",
+    "sessions": 23,
+    "pct": 1.1
+   },
+   {
+    "source": "Google ads",
+    "medium": "search",
+    "sessions": 2,
+    "pct": 0.1
+   },
+   {
+    "source": "br.search.yahoo.com",
+    "medium": "referral",
+    "sessions": 1,
+    "pct": 0.0
+   },
+   {
+    "source": "duckduckgo",
+    "medium": "organic",
+    "sessions": 1,
+    "pct": 0.0
+   },
+   {
+    "source": "teams.public.onecdn.static.microsoft",
+    "medium": "referral",
+    "sessions": 1,
+    "pct": 0.0
+   }
+  ],
+  "event_list": [
+   {
+    "name": "inicio_preenchimento_reserva",
+    "count": 149
+   },
+   {
+    "name": "form_start",
+    "count": 125
+   },
+   {
+    "name": "conversao_reserva",
+    "count": 45
+   },
+   {
+    "name": "click",
+    "count": 43
+   }
+  ]
+ },
+ "anterior": {
+  "meta": null,
   "google": {
-    "spend": 485.44,
-    "impressions": 5146,
-    "clicks": 325,
-    "ctr": 6.32,
-    "cpc": 1.49,
-    "conversions": 2,
-    "cpa": 242.72,
-    "campaigns": [
-      {
-        "name": "[REDE DE PESQUISAS] [2026]",
-        "type": "Search",
-        "status": "Enabled",
-        "spend": 485.44,
-        "impressions": 5146,
-        "clicks": 325,
-        "ctr": 6.32,
-        "cpc": 1.49,
-        "conversions": 2
-      }
-    ],
-    "keywords": [
-      {
-        "keyword": "Restaurante em Belo Horizonte",
-        "match": "Exact",
-        "impressions": 2523,
-        "clicks": 117,
-        "ctr": 4.64,
-        "cpc": 1.53,
-        "conversions": 1
-      },
-      {
-        "keyword": "Barzinhos em Belo Horizonte",
-        "match": "Exact",
-        "impressions": 967,
-        "clicks": 72,
-        "ctr": 7.45,
-        "cpc": 1.54,
-        "conversions": 0
-      },
-      {
-        "keyword": "Bar em BH",
-        "match": "Exact",
-        "impressions": 743,
-        "clicks": 59,
-        "ctr": 7.94,
-        "cpc": 1.51,
-        "conversions": 0
-      },
-      {
-        "keyword": "Barzinhos em BH",
-        "match": "Exact",
-        "impressions": 331,
-        "clicks": 32,
-        "ctr": 9.67,
-        "cpc": 1.49,
-        "conversions": 0
-      },
-      {
-        "keyword": "rooftop bh",
-        "match": "Exact",
-        "impressions": 201,
-        "clicks": 16,
-        "ctr": 7.96,
-        "cpc": 1.22,
-        "conversions": 0
-      },
-      {
-        "keyword": "rooftop em belo horizonte",
-        "match": "Exact",
-        "impressions": 111,
-        "clicks": 11,
-        "ctr": 9.91,
-        "cpc": 1.27,
-        "conversions": 1
-      },
-      {
-        "keyword": "Bar em Belo Horizonte",
-        "match": "Exact",
-        "impressions": 87,
-        "clicks": 8,
-        "ctr": 9.2,
-        "cpc": 1.51,
-        "conversions": 0
-      },
-      {
-        "keyword": "Happy Hour em Belo Horizonte",
-        "match": "Exact",
-        "impressions": 124,
-        "clicks": 4,
-        "ctr": 3.23,
-        "cpc": 1.56,
-        "conversions": 0
-      },
-      {
-        "keyword": "bar rooftop bh",
-        "match": "Exact",
-        "impressions": 46,
-        "clicks": 4,
-        "ctr": 8.7,
-        "cpc": 1.09,
-        "conversions": 0
-      },
-      {
-        "keyword": "rooftop bh",
-        "match": "Exact",
-        "impressions": 11,
-        "clicks": 2,
-        "ctr": 18.18,
-        "cpc": 1.49,
-        "conversions": 0
-      },
-      {
-        "keyword": "vista rooftop bh",
-        "match": "Exact",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      },
-      {
-        "keyword": "rooftop em belo horizonte",
-        "match": "Exact",
-        "impressions": 1,
-        "clicks": 0,
-        "ctr": 0.0,
-        "cpc": 0,
-        "conversions": 0
-      }
-    ],
-    "search_terms": [
-      {
-        "term": "bares em bh",
-        "keyword": "—",
-        "impressions": 292,
-        "clicks": 24,
-        "ctr": 8.22,
-        "cpc": 1.49
-      },
-      {
-        "term": "barzinhos em bh",
-        "keyword": "—",
-        "impressions": 111,
-        "clicks": 16,
-        "ctr": 14.41,
-        "cpc": 1.59
-      },
-      {
-        "term": "barzinho belo horizonte",
-        "keyword": "—",
-        "impressions": 140,
-        "clicks": 16,
-        "ctr": 11.43,
-        "cpc": 1.58
-      },
-      {
-        "term": "bares belo horizonte",
-        "keyword": "—",
-        "impressions": 152,
-        "clicks": 14,
-        "ctr": 9.21,
-        "cpc": 1.5
-      },
-      {
-        "term": "restaurantes belo horizonte",
-        "keyword": "—",
-        "impressions": 221,
-        "clicks": 11,
-        "ctr": 4.98,
-        "cpc": 1.55
-      },
-      {
-        "term": "restaurante belo horizonte",
-        "keyword": "—",
-        "impressions": 343,
-        "clicks": 12,
-        "ctr": 3.5,
-        "cpc": 1.41
-      },
-      {
-        "term": "restaurantes em bh",
-        "keyword": "—",
-        "impressions": 198,
-        "clicks": 11,
-        "ctr": 5.56,
-        "cpc": 1.51
-      },
-      {
-        "term": "onde almoçar em bh",
-        "keyword": "—",
-        "impressions": 84,
-        "clicks": 8,
-        "ctr": 9.52,
-        "cpc": 1.75
-      },
-      {
-        "term": "rooftop bh",
-        "keyword": "—",
-        "impressions": 100,
-        "clicks": 9,
-        "ctr": 9.0,
-        "cpc": 1.23
-      },
-      {
-        "term": "botecos em bh",
-        "keyword": "—",
-        "impressions": 48,
-        "clicks": 6,
-        "ctr": 12.5,
-        "cpc": 1.47
-      },
-      {
-        "term": "restaurantes bons em bh",
-        "keyword": "—",
-        "impressions": 33,
-        "clicks": 5,
-        "ctr": 15.15,
-        "cpc": 1.51
-      },
-      {
-        "term": "rooftop belo horizonte",
-        "keyword": "—",
-        "impressions": 89,
-        "clicks": 7,
-        "ctr": 7.87,
-        "cpc": 1.07
-      },
-      {
-        "term": "bar bh",
-        "keyword": "—",
-        "impressions": 54,
-        "clicks": 5,
-        "ctr": 9.26,
-        "cpc": 1.45
-      },
-      {
-        "term": "bares em bh hoje",
-        "keyword": "—",
-        "impressions": 65,
-        "clicks": 5,
-        "ctr": 7.69,
-        "cpc": 1.41
-      },
-      {
-        "term": "onde comer em belo horizonte",
-        "keyword": "—",
-        "impressions": 44,
-        "clicks": 4,
-        "ctr": 9.09,
-        "cpc": 1.66
-      },
-      {
-        "term": "bares legais em bh",
-        "keyword": "—",
-        "impressions": 40,
-        "clicks": 4,
-        "ctr": 10.0,
-        "cpc": 1.6
-      },
-      {
-        "term": "onde comer em bh",
-        "keyword": "—",
-        "impressions": 77,
-        "clicks": 4,
-        "ctr": 5.19,
-        "cpc": 1.51
-      },
-      {
-        "term": "bar em belo horizonte",
-        "keyword": "—",
-        "impressions": 32,
-        "clicks": 4,
-        "ctr": 12.5,
-        "cpc": 1.51
-      },
-      {
-        "term": "bar em bh",
-        "keyword": "—",
-        "impressions": 96,
-        "clicks": 4,
-        "ctr": 4.17,
-        "cpc": 1.5
-      },
-      {
-        "term": "restaurante em bh",
-        "keyword": "—",
-        "impressions": 113,
-        "clicks": 4,
-        "ctr": 3.54,
-        "cpc": 1.44
-      },
-      {
-        "term": "restaurantes bh",
-        "keyword": "—",
-        "impressions": 118,
-        "clicks": 4,
-        "ctr": 3.39,
-        "cpc": 1.31
-      },
-      {
-        "term": "onde jantar em bh",
-        "keyword": "—",
-        "impressions": 46,
-        "clicks": 3,
-        "ctr": 6.52,
-        "cpc": 1.73
-      },
-      {
-        "term": "barzinho bh",
-        "keyword": "—",
-        "impressions": 38,
-        "clicks": 3,
-        "ctr": 7.89,
-        "cpc": 1.72
-      },
-      {
-        "term": "bares em belo horizonte",
-        "keyword": "—",
-        "impressions": 57,
-        "clicks": 3,
-        "ctr": 5.26,
-        "cpc": 1.67
-      },
-      {
-        "term": "barzinhos em belo horizonte",
-        "keyword": "—",
-        "impressions": 14,
-        "clicks": 3,
-        "ctr": 21.43,
-        "cpc": 1.67
-      },
-      {
-        "term": "barzinho bom em bh",
-        "keyword": "—",
-        "impressions": 20,
-        "clicks": 3,
-        "ctr": 15.0,
-        "cpc": 1.59
-      },
-      {
-        "term": "rooftop em belo horizonte",
-        "keyword": "—",
-        "impressions": 14,
-        "clicks": 4,
-        "ctr": 28.57,
-        "cpc": 1.17
-      },
-      {
-        "term": "restaurante belo horizonte perto de mim",
-        "keyword": "—",
-        "impressions": 9,
-        "clicks": 3,
-        "ctr": 33.33,
-        "cpc": 1.53
-      },
-      {
-        "term": "bar bom em bh",
-        "keyword": "—",
-        "impressions": 18,
-        "clicks": 3,
-        "ctr": 16.67,
-        "cpc": 1.49
-      },
-      {
-        "term": "restaurantes em belo horizonte",
-        "keyword": "—",
-        "impressions": 61,
-        "clicks": 3,
-        "ctr": 4.92,
-        "cpc": 1.47
-      },
-      {
-        "term": "barzinhos bh",
-        "keyword": "—",
-        "impressions": 18,
-        "clicks": 2,
-        "ctr": 11.11,
-        "cpc": 1.72
-      },
-      {
-        "term": "lugares pra comer em bh",
-        "keyword": "—",
-        "impressions": 17,
-        "clicks": 2,
-        "ctr": 11.76,
-        "cpc": 1.72
-      },
-      {
-        "term": "belo horizonte restaurantes",
-        "keyword": "—",
-        "impressions": 12,
-        "clicks": 2,
-        "ctr": 16.67,
-        "cpc": 1.68
-      },
-      {
-        "term": "barzinho em belo horizonte",
-        "keyword": "—",
-        "impressions": 19,
-        "clicks": 2,
-        "ctr": 10.53,
-        "cpc": 1.67
-      },
-      {
-        "term": "bares para ir em bh",
-        "keyword": "—",
-        "impressions": 12,
-        "clicks": 2,
-        "ctr": 16.67,
-        "cpc": 1.62
-      },
-      {
-        "term": "boteco em bh",
-        "keyword": "—",
-        "impressions": 24,
-        "clicks": 2,
-        "ctr": 8.33,
-        "cpc": 1.62
-      },
-      {
-        "term": "restaurante bom em bh",
-        "keyword": "—",
-        "impressions": 26,
-        "clicks": 2,
-        "ctr": 7.69,
-        "cpc": 1.58
-      },
-      {
-        "term": "bares bh",
-        "keyword": "—",
-        "impressions": 117,
-        "clicks": 2,
-        "ctr": 1.71,
-        "cpc": 1.57
-      },
-      {
-        "term": "rooftop em bh",
-        "keyword": "—",
-        "impressions": 29,
-        "clicks": 2,
-        "ctr": 6.9,
-        "cpc": 1.54
-      },
-      {
-        "term": "bares bons em bh",
-        "keyword": "—",
-        "impressions": 26,
-        "clicks": 2,
-        "ctr": 7.69,
-        "cpc": 1.54
-      },
-      {
-        "term": "onde comer bem em bh",
-        "keyword": "—",
-        "impressions": 10,
-        "clicks": 2,
-        "ctr": 20.0,
-        "cpc": 1.5
-      },
-      {
-        "term": "lugares para comer belo horizonte",
-        "keyword": "—",
-        "impressions": 96,
-        "clicks": 2,
-        "ctr": 2.08,
-        "cpc": 1.49
-      },
-      {
-        "term": "bar legal em bh",
-        "keyword": "—",
-        "impressions": 15,
-        "clicks": 2,
-        "ctr": 13.33,
-        "cpc": 1.45
-      },
-      {
-        "term": "barzinho em bh",
-        "keyword": "—",
-        "impressions": 58,
-        "clicks": 2,
-        "ctr": 3.45,
-        "cpc": 1.4
-      },
-      {
-        "term": "botecos de bh",
-        "keyword": "—",
-        "impressions": 4,
-        "clicks": 2,
-        "ctr": 50.0,
-        "cpc": 1.37
-      },
-      {
-        "term": "restaurante em belo horizonte",
-        "keyword": "—",
-        "impressions": 46,
-        "clicks": 2,
-        "ctr": 4.35,
-        "cpc": 1.27
-      },
-      {
-        "term": "roof top bh",
-        "keyword": "—",
-        "impressions": 4,
-        "clicks": 2,
-        "ctr": 50.0,
-        "cpc": 1.27
-      },
-      {
-        "term": "restaurantes bons em belo horizonte",
-        "keyword": "—",
-        "impressions": 21,
-        "clicks": 1,
-        "ctr": 4.76,
-        "cpc": 2.16
-      },
-      {
-        "term": "bh bares",
-        "keyword": "—",
-        "impressions": 3,
-        "clicks": 1,
-        "ctr": 33.33,
-        "cpc": 2.05
-      },
-      {
-        "term": "bons restaurantes em belo horizonte",
-        "keyword": "—",
-        "impressions": 10,
-        "clicks": 1,
-        "ctr": 10.0,
-        "cpc": 1.95
-      }
-    ]
+   "spend": 485.44,
+   "impressions": 5146,
+   "clicks": 325,
+   "ctr": 6.32,
+   "cpc": 1.49,
+   "conversions": 2,
+   "cpa": 242.72,
+   "campaigns": [
+    {
+     "name": "[REDE DE PESQUISAS] [2026]",
+     "type": "Search",
+     "status": "Enabled",
+     "spend": 485.44,
+     "impressions": 5146,
+     "clicks": 325,
+     "ctr": 6.32,
+     "cpc": 1.49,
+     "conversions": 2
+    }
+   ],
+   "keywords": [
+    {
+     "keyword": "Restaurante em Belo Horizonte",
+     "match": "Exact",
+     "impressions": 2523,
+     "clicks": 117,
+     "ctr": 4.64,
+     "cpc": 1.53,
+     "conversions": 1
+    },
+    {
+     "keyword": "Barzinhos em Belo Horizonte",
+     "match": "Exact",
+     "impressions": 967,
+     "clicks": 72,
+     "ctr": 7.45,
+     "cpc": 1.54,
+     "conversions": 0
+    },
+    {
+     "keyword": "Bar em BH",
+     "match": "Exact",
+     "impressions": 743,
+     "clicks": 59,
+     "ctr": 7.94,
+     "cpc": 1.51,
+     "conversions": 0
+    },
+    {
+     "keyword": "Barzinhos em BH",
+     "match": "Exact",
+     "impressions": 331,
+     "clicks": 32,
+     "ctr": 9.67,
+     "cpc": 1.49,
+     "conversions": 0
+    },
+    {
+     "keyword": "rooftop bh",
+     "match": "Exact",
+     "impressions": 201,
+     "clicks": 16,
+     "ctr": 7.96,
+     "cpc": 1.22,
+     "conversions": 0
+    },
+    {
+     "keyword": "rooftop em belo horizonte",
+     "match": "Exact",
+     "impressions": 111,
+     "clicks": 11,
+     "ctr": 9.91,
+     "cpc": 1.27,
+     "conversions": 1
+    },
+    {
+     "keyword": "Bar em Belo Horizonte",
+     "match": "Exact",
+     "impressions": 87,
+     "clicks": 8,
+     "ctr": 9.2,
+     "cpc": 1.51,
+     "conversions": 0
+    },
+    {
+     "keyword": "Happy Hour em Belo Horizonte",
+     "match": "Exact",
+     "impressions": 124,
+     "clicks": 4,
+     "ctr": 3.23,
+     "cpc": 1.56,
+     "conversions": 0
+    },
+    {
+     "keyword": "bar rooftop bh",
+     "match": "Exact",
+     "impressions": 46,
+     "clicks": 4,
+     "ctr": 8.7,
+     "cpc": 1.09,
+     "conversions": 0
+    },
+    {
+     "keyword": "rooftop bh",
+     "match": "Exact",
+     "impressions": 11,
+     "clicks": 2,
+     "ctr": 18.18,
+     "cpc": 1.49,
+     "conversions": 0
+    },
+    {
+     "keyword": "vista rooftop bh",
+     "match": "Exact",
+     "impressions": 1,
+     "clicks": 0,
+     "ctr": 0.0,
+     "cpc": 0,
+     "conversions": 0
+    },
+    {
+     "keyword": "rooftop em belo horizonte",
+     "match": "Exact",
+     "impressions": 1,
+     "clicks": 0,
+     "ctr": 0.0,
+     "cpc": 0,
+     "conversions": 0
+    }
+   ],
+   "search_terms": [
+    {
+     "term": "bares em bh",
+     "keyword": "—",
+     "impressions": 292,
+     "clicks": 24,
+     "ctr": 8.22,
+     "cpc": 1.49
+    },
+    {
+     "term": "barzinhos em bh",
+     "keyword": "—",
+     "impressions": 111,
+     "clicks": 16,
+     "ctr": 14.41,
+     "cpc": 1.59
+    },
+    {
+     "term": "barzinho belo horizonte",
+     "keyword": "—",
+     "impressions": 140,
+     "clicks": 16,
+     "ctr": 11.43,
+     "cpc": 1.58
+    },
+    {
+     "term": "bares belo horizonte",
+     "keyword": "—",
+     "impressions": 152,
+     "clicks": 14,
+     "ctr": 9.21,
+     "cpc": 1.5
+    },
+    {
+     "term": "restaurantes belo horizonte",
+     "keyword": "—",
+     "impressions": 221,
+     "clicks": 11,
+     "ctr": 4.98,
+     "cpc": 1.55
+    },
+    {
+     "term": "restaurante belo horizonte",
+     "keyword": "—",
+     "impressions": 343,
+     "clicks": 12,
+     "ctr": 3.5,
+     "cpc": 1.41
+    },
+    {
+     "term": "restaurantes em bh",
+     "keyword": "—",
+     "impressions": 198,
+     "clicks": 11,
+     "ctr": 5.56,
+     "cpc": 1.51
+    },
+    {
+     "term": "onde almoçar em bh",
+     "keyword": "—",
+     "impressions": 84,
+     "clicks": 8,
+     "ctr": 9.52,
+     "cpc": 1.75
+    },
+    {
+     "term": "rooftop bh",
+     "keyword": "—",
+     "impressions": 100,
+     "clicks": 9,
+     "ctr": 9.0,
+     "cpc": 1.23
+    },
+    {
+     "term": "botecos em bh",
+     "keyword": "—",
+     "impressions": 48,
+     "clicks": 6,
+     "ctr": 12.5,
+     "cpc": 1.47
+    },
+    {
+     "term": "restaurantes bons em bh",
+     "keyword": "—",
+     "impressions": 33,
+     "clicks": 5,
+     "ctr": 15.15,
+     "cpc": 1.51
+    },
+    {
+     "term": "rooftop belo horizonte",
+     "keyword": "—",
+     "impressions": 89,
+     "clicks": 7,
+     "ctr": 7.87,
+     "cpc": 1.07
+    },
+    {
+     "term": "bar bh",
+     "keyword": "—",
+     "impressions": 54,
+     "clicks": 5,
+     "ctr": 9.26,
+     "cpc": 1.45
+    },
+    {
+     "term": "bares em bh hoje",
+     "keyword": "—",
+     "impressions": 65,
+     "clicks": 5,
+     "ctr": 7.69,
+     "cpc": 1.41
+    },
+    {
+     "term": "onde comer em belo horizonte",
+     "keyword": "—",
+     "impressions": 44,
+     "clicks": 4,
+     "ctr": 9.09,
+     "cpc": 1.66
+    },
+    {
+     "term": "bares legais em bh",
+     "keyword": "—",
+     "impressions": 40,
+     "clicks": 4,
+     "ctr": 10.0,
+     "cpc": 1.6
+    },
+    {
+     "term": "onde comer em bh",
+     "keyword": "—",
+     "impressions": 77,
+     "clicks": 4,
+     "ctr": 5.19,
+     "cpc": 1.51
+    },
+    {
+     "term": "bar em belo horizonte",
+     "keyword": "—",
+     "impressions": 32,
+     "clicks": 4,
+     "ctr": 12.5,
+     "cpc": 1.51
+    },
+    {
+     "term": "bar em bh",
+     "keyword": "—",
+     "impressions": 96,
+     "clicks": 4,
+     "ctr": 4.17,
+     "cpc": 1.5
+    },
+    {
+     "term": "restaurante em bh",
+     "keyword": "—",
+     "impressions": 113,
+     "clicks": 4,
+     "ctr": 3.54,
+     "cpc": 1.44
+    },
+    {
+     "term": "restaurantes bh",
+     "keyword": "—",
+     "impressions": 118,
+     "clicks": 4,
+     "ctr": 3.39,
+     "cpc": 1.31
+    },
+    {
+     "term": "onde jantar em bh",
+     "keyword": "—",
+     "impressions": 46,
+     "clicks": 3,
+     "ctr": 6.52,
+     "cpc": 1.73
+    },
+    {
+     "term": "barzinho bh",
+     "keyword": "—",
+     "impressions": 38,
+     "clicks": 3,
+     "ctr": 7.89,
+     "cpc": 1.72
+    },
+    {
+     "term": "bares em belo horizonte",
+     "keyword": "—",
+     "impressions": 57,
+     "clicks": 3,
+     "ctr": 5.26,
+     "cpc": 1.67
+    },
+    {
+     "term": "barzinhos em belo horizonte",
+     "keyword": "—",
+     "impressions": 14,
+     "clicks": 3,
+     "ctr": 21.43,
+     "cpc": 1.67
+    },
+    {
+     "term": "barzinho bom em bh",
+     "keyword": "—",
+     "impressions": 20,
+     "clicks": 3,
+     "ctr": 15.0,
+     "cpc": 1.59
+    },
+    {
+     "term": "rooftop em belo horizonte",
+     "keyword": "—",
+     "impressions": 14,
+     "clicks": 4,
+     "ctr": 28.57,
+     "cpc": 1.17
+    },
+    {
+     "term": "restaurante belo horizonte perto de mim",
+     "keyword": "—",
+     "impressions": 9,
+     "clicks": 3,
+     "ctr": 33.33,
+     "cpc": 1.53
+    },
+    {
+     "term": "bar bom em bh",
+     "keyword": "—",
+     "impressions": 18,
+     "clicks": 3,
+     "ctr": 16.67,
+     "cpc": 1.49
+    },
+    {
+     "term": "restaurantes em belo horizonte",
+     "keyword": "—",
+     "impressions": 61,
+     "clicks": 3,
+     "ctr": 4.92,
+     "cpc": 1.47
+    },
+    {
+     "term": "barzinhos bh",
+     "keyword": "—",
+     "impressions": 18,
+     "clicks": 2,
+     "ctr": 11.11,
+     "cpc": 1.72
+    },
+    {
+     "term": "lugares pra comer em bh",
+     "keyword": "—",
+     "impressions": 17,
+     "clicks": 2,
+     "ctr": 11.76,
+     "cpc": 1.72
+    },
+    {
+     "term": "belo horizonte restaurantes",
+     "keyword": "—",
+     "impressions": 12,
+     "clicks": 2,
+     "ctr": 16.67,
+     "cpc": 1.68
+    },
+    {
+     "term": "barzinho em belo horizonte",
+     "keyword": "—",
+     "impressions": 19,
+     "clicks": 2,
+     "ctr": 10.53,
+     "cpc": 1.67
+    },
+    {
+     "term": "bares para ir em bh",
+     "keyword": "—",
+     "impressions": 12,
+     "clicks": 2,
+     "ctr": 16.67,
+     "cpc": 1.62
+    },
+    {
+     "term": "boteco em bh",
+     "keyword": "—",
+     "impressions": 24,
+     "clicks": 2,
+     "ctr": 8.33,
+     "cpc": 1.62
+    },
+    {
+     "term": "restaurante bom em bh",
+     "keyword": "—",
+     "impressions": 26,
+     "clicks": 2,
+     "ctr": 7.69,
+     "cpc": 1.58
+    },
+    {
+     "term": "bares bh",
+     "keyword": "—",
+     "impressions": 117,
+     "clicks": 2,
+     "ctr": 1.71,
+     "cpc": 1.57
+    },
+    {
+     "term": "rooftop em bh",
+     "keyword": "—",
+     "impressions": 29,
+     "clicks": 2,
+     "ctr": 6.9,
+     "cpc": 1.54
+    },
+    {
+     "term": "bares bons em bh",
+     "keyword": "—",
+     "impressions": 26,
+     "clicks": 2,
+     "ctr": 7.69,
+     "cpc": 1.54
+    },
+    {
+     "term": "onde comer bem em bh",
+     "keyword": "—",
+     "impressions": 10,
+     "clicks": 2,
+     "ctr": 20.0,
+     "cpc": 1.5
+    },
+    {
+     "term": "lugares para comer belo horizonte",
+     "keyword": "—",
+     "impressions": 96,
+     "clicks": 2,
+     "ctr": 2.08,
+     "cpc": 1.49
+    },
+    {
+     "term": "bar legal em bh",
+     "keyword": "—",
+     "impressions": 15,
+     "clicks": 2,
+     "ctr": 13.33,
+     "cpc": 1.45
+    },
+    {
+     "term": "barzinho em bh",
+     "keyword": "—",
+     "impressions": 58,
+     "clicks": 2,
+     "ctr": 3.45,
+     "cpc": 1.4
+    },
+    {
+     "term": "botecos de bh",
+     "keyword": "—",
+     "impressions": 4,
+     "clicks": 2,
+     "ctr": 50.0,
+     "cpc": 1.37
+    },
+    {
+     "term": "restaurante em belo horizonte",
+     "keyword": "—",
+     "impressions": 46,
+     "clicks": 2,
+     "ctr": 4.35,
+     "cpc": 1.27
+    },
+    {
+     "term": "roof top bh",
+     "keyword": "—",
+     "impressions": 4,
+     "clicks": 2,
+     "ctr": 50.0,
+     "cpc": 1.27
+    },
+    {
+     "term": "restaurantes bons em belo horizonte",
+     "keyword": "—",
+     "impressions": 21,
+     "clicks": 1,
+     "ctr": 4.76,
+     "cpc": 2.16
+    },
+    {
+     "term": "bh bares",
+     "keyword": "—",
+     "impressions": 3,
+     "clicks": 1,
+     "ctr": 33.33,
+     "cpc": 2.05
+    },
+    {
+     "term": "bons restaurantes em belo horizonte",
+     "keyword": "—",
+     "impressions": 10,
+     "clicks": 1,
+     "ctr": 10.0,
+     "cpc": 1.95
+    }
+   ]
   },
   "ga4": {
-    "sessions": 2264,
-    "users": 1929,
-    "new_users": 1912,
-    "pageviews": 2725,
-    "bounce_rate": 54.02,
-    "duration": "1m 44s",
-    "events": 8768,
-    "conversions": 104,
-    "sources": [
-      {
-        "source": "google",
-        "medium": "organic",
-        "sessions": 1191,
-        "pct": 52.7
-      },
-      {
-        "source": "google",
-        "medium": "cpc",
-        "sessions": 708,
-        "pct": 31.3
-      },
-      {
-        "source": "(direct)",
-        "medium": "(none)",
-        "sessions": 248,
-        "pct": 11.0
-      },
-      {
-        "source": "chatgpt.com",
-        "medium": "ai-assistant",
-        "sessions": 58,
-        "pct": 2.6
-      },
-      {
-        "source": "bing",
-        "medium": "organic",
-        "sessions": 25,
-        "pct": 1.1
-      },
-      {
-        "source": "(data not available)",
-        "medium": "(data not available)",
-        "sessions": 14,
-        "pct": 0.6
-      },
-      {
-        "source": "Google ads",
-        "medium": "search",
-        "sessions": 8,
-        "pct": 0.4
-      },
-      {
-        "source": "br.search.yahoo.com",
-        "medium": "referral",
-        "sessions": 3,
-        "pct": 0.1
-      },
-      {
-        "source": "tagassistant.google.com",
-        "medium": "referral",
-        "sessions": 3,
-        "pct": 0.1
-      },
-      {
-        "source": "clib.com.br",
-        "medium": "referral",
-        "sessions": 1,
-        "pct": 0.0
-      },
-      {
-        "source": "gemini.google.com",
-        "medium": "ai-assistant",
-        "sessions": 1,
-        "pct": 0.0
-      }
-    ],
-    "event_list": [
-      {
-        "name": "inicio_preenchimento_reserva",
-        "count": 143
-      },
-      {
-        "name": "form_start",
-        "count": 127
-      },
-      {
-        "name": "click",
-        "count": 54
-      },
-      {
-        "name": "conversao_reserva",
-        "count": 50
-      }
-    ]
+   "sessions": 2264,
+   "users": 1929,
+   "new_users": 1912,
+   "pageviews": 2725,
+   "bounce_rate": 54.02,
+   "duration": "1m 44s",
+   "events": 8768,
+   "conversions": 104,
+   "sources": [
+    {
+     "source": "google",
+     "medium": "organic",
+     "sessions": 1191,
+     "pct": 52.7
+    },
+    {
+     "source": "google",
+     "medium": "cpc",
+     "sessions": 708,
+     "pct": 31.3
+    },
+    {
+     "source": "(direct)",
+     "medium": "(none)",
+     "sessions": 248,
+     "pct": 11.0
+    },
+    {
+     "source": "chatgpt.com",
+     "medium": "ai-assistant",
+     "sessions": 58,
+     "pct": 2.6
+    },
+    {
+     "source": "bing",
+     "medium": "organic",
+     "sessions": 25,
+     "pct": 1.1
+    },
+    {
+     "source": "(data not available)",
+     "medium": "(data not available)",
+     "sessions": 14,
+     "pct": 0.6
+    },
+    {
+     "source": "Google ads",
+     "medium": "search",
+     "sessions": 8,
+     "pct": 0.4
+    },
+    {
+     "source": "br.search.yahoo.com",
+     "medium": "referral",
+     "sessions": 3,
+     "pct": 0.1
+    },
+    {
+     "source": "tagassistant.google.com",
+     "medium": "referral",
+     "sessions": 3,
+     "pct": 0.1
+    },
+    {
+     "source": "clib.com.br",
+     "medium": "referral",
+     "sessions": 1,
+     "pct": 0.0
+    },
+    {
+     "source": "gemini.google.com",
+     "medium": "ai-assistant",
+     "sessions": 1,
+     "pct": 0.0
+    }
+   ],
+   "event_list": [
+    {
+     "name": "inicio_preenchimento_reserva",
+     "count": 143
+    },
+    {
+     "name": "form_start",
+     "count": 127
+    },
+    {
+     "name": "click",
+     "count": 54
+    },
+    {
+     "name": "conversao_reserva",
+     "count": 50
+    }
+   ]
+  }
+ },
+ "diario": [
+  {
+   "date": "2026-10-01",
+   "meta_spend": 0.0,
+   "google_spend": 16.14,
+   "clicks": 11,
+   "results": 0,
+   "sessions": 57
   },
-  "gmb": null
+  {
+   "date": "2026-10-02",
+   "meta_spend": 0.0,
+   "google_spend": 16.0,
+   "clicks": 11,
+   "results": 0,
+   "sessions": 59
+  },
+  {
+   "date": "2026-10-03",
+   "meta_spend": 0.0,
+   "google_spend": 15.59,
+   "clicks": 12,
+   "results": 0,
+   "sessions": 61
+  },
+  {
+   "date": "2026-10-04",
+   "meta_spend": 0.0,
+   "google_spend": 17.99,
+   "clicks": 13,
+   "results": 0,
+   "sessions": 45
+  },
+  {
+   "date": "2026-10-05",
+   "meta_spend": 0.0,
+   "google_spend": 13.42,
+   "clicks": 9,
+   "results": 0,
+   "sessions": 71
+  },
+  {
+   "date": "2026-10-06",
+   "meta_spend": 0.0,
+   "google_spend": 18.22,
+   "clicks": 12,
+   "results": 0,
+   "sessions": 70
+  },
+  {
+   "date": "2026-10-07",
+   "meta_spend": 0.0,
+   "google_spend": 15.97,
+   "clicks": 12,
+   "results": 0,
+   "sessions": 67
+  },
+  {
+   "date": "2026-10-08",
+   "meta_spend": 0.0,
+   "google_spend": 16.68,
+   "clicks": 13,
+   "results": 0,
+   "sessions": 65
+  },
+  {
+   "date": "2026-10-09",
+   "meta_spend": 0.0,
+   "google_spend": 20.76,
+   "clicks": 17,
+   "results": 0,
+   "sessions": 69
+  },
+  {
+   "date": "2026-10-10",
+   "meta_spend": 0.0,
+   "google_spend": 17.48,
+   "clicks": 16,
+   "results": 0,
+   "sessions": 92
+  },
+  {
+   "date": "2026-10-11",
+   "meta_spend": 0.0,
+   "google_spend": 18.34,
+   "clicks": 16,
+   "results": 0,
+   "sessions": 83
+  },
+  {
+   "date": "2026-10-12",
+   "meta_spend": 0.0,
+   "google_spend": 13.53,
+   "clicks": 13,
+   "results": 0,
+   "sessions": 70
+  },
+  {
+   "date": "2026-10-13",
+   "meta_spend": 0.0,
+   "google_spend": 11.76,
+   "clicks": 10,
+   "results": 0,
+   "sessions": 60
+  },
+  {
+   "date": "2026-10-14",
+   "meta_spend": 0.0,
+   "google_spend": 14.24,
+   "clicks": 11,
+   "results": 0,
+   "sessions": 52
+  },
+  {
+   "date": "2026-10-15",
+   "meta_spend": 0.0,
+   "google_spend": 15.23,
+   "clicks": 13,
+   "results": 0,
+   "sessions": 73
+  },
+  {
+   "date": "2026-10-16",
+   "meta_spend": 0.0,
+   "google_spend": 22.76,
+   "clicks": 19,
+   "results": 0,
+   "sessions": 93
+  },
+  {
+   "date": "2026-10-17",
+   "meta_spend": 0.0,
+   "google_spend": 18.21,
+   "clicks": 15,
+   "results": 0,
+   "sessions": 82
+  },
+  {
+   "date": "2026-10-18",
+   "meta_spend": 0.0,
+   "google_spend": 13.4,
+   "clicks": 12,
+   "results": 0,
+   "sessions": 72
+  },
+  {
+   "date": "2026-10-19",
+   "meta_spend": 0.0,
+   "google_spend": 12.96,
+   "clicks": 11,
+   "results": 0,
+   "sessions": 72
+  },
+  {
+   "date": "2026-10-20",
+   "meta_spend": 0.0,
+   "google_spend": 12.9,
+   "clicks": 11,
+   "results": 0,
+   "sessions": 62
+  },
+  {
+   "date": "2026-10-21",
+   "meta_spend": 0.0,
+   "google_spend": 15.74,
+   "clicks": 13,
+   "results": 0,
+   "sessions": 74
+  },
+  {
+   "date": "2026-10-22",
+   "meta_spend": 0.0,
+   "google_spend": 15.19,
+   "clicks": 12,
+   "results": 0,
+   "sessions": 85
+  },
+  {
+   "date": "2026-10-23",
+   "meta_spend": 0.0,
+   "google_spend": 17.0,
+   "clicks": 13,
+   "results": 0,
+   "sessions": 68
+  },
+  {
+   "date": "2026-10-24",
+   "meta_spend": 0.0,
+   "google_spend": 18.69,
+   "clicks": 14,
+   "results": 0,
+   "sessions": 94
+  },
+  {
+   "date": "2026-10-25",
+   "meta_spend": 0.0,
+   "google_spend": 18.91,
+   "clicks": 13,
+   "results": 0,
+   "sessions": 54
+  },
+  {
+   "date": "2026-10-26",
+   "meta_spend": 0.0,
+   "google_spend": 11.12,
+   "clicks": 8,
+   "results": 0,
+   "sessions": 49
+  },
+  {
+   "date": "2026-10-27",
+   "meta_spend": 0.0,
+   "google_spend": 10.94,
+   "clicks": 8,
+   "results": 0,
+   "sessions": 68
+  },
+  {
+   "date": "2026-10-28",
+   "meta_spend": 0.0,
+   "google_spend": 13.4,
+   "clicks": 9,
+   "results": 0,
+   "sessions": 81
+  },
+  {
+   "date": "2026-10-29",
+   "meta_spend": 0.0,
+   "google_spend": 12.71,
+   "clicks": 9,
+   "results": 0,
+   "sessions": 65
+  },
+  {
+   "date": "2026-10-30",
+   "meta_spend": 0.0,
+   "google_spend": 18.14,
+   "clicks": 14,
+   "results": 0,
+   "sessions": 75
+  },
+  {
+   "date": "2026-10-31",
+   "meta_spend": 0.0,
+   "google_spend": 12.97,
+   "clicks": 12,
+   "results": 0,
+   "sessions": 71
+  }
+ ],
+ "config": {
+  "nome": "Bebedouro Bar e Fogo — 356"
+ }
 }

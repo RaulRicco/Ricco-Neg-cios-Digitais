@@ -72,20 +72,20 @@ clientes:
   - slug: bebedouro
     nome: "Bebedouro Bar e Fogo"
     senha: "bebedouro2026"
-    meta_account: "act_904480561216184"
+    meta_account: ""  # só Google (confirmado pelo Raul em 11/11/2026)
     gads_customer: "6755763415"
     ga4_property: "527345752"
-    servicos: [meta, google, ga4]
+    servicos: [google, ga4]
     nota: "Bebedouro Pampulha (customer_id principal)"
 
   # ── Bebedouro 356 ─────────────────────────────────────────────────────────
   - slug: bebedouro-356
     nome: "Bebedouro Bar e Fogo — 356"
     senha: "bebedouro356@2026"
-    meta_account: "act_904480561216184"
+    meta_account: ""  # só Google (confirmado pelo Raul em 11/11/2026)
     gads_customer: "8595847876"
     ga4_property: "527345752"
-    servicos: [meta, google, ga4]
+    servicos: [google, ga4]
     nota: "Bebedouro 356 — customer_id separado no Google Ads"
 
   # ── Semper Fidelis ────────────────────────────────────────────────────────

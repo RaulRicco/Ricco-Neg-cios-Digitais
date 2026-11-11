@@ -293,7 +293,7 @@ function render(){
   }
 
   // Modo: "resultado" quando a maior parte da verba foi para campanhas que geram contato/venda; senão "trafego"
-  const modo=CFG.modo||((T.res>0&&T.resSpend/T.spend>=0.4)?'resultado':'trafego');
+  const modo=CFG.modo||((T.res>=(CFG.minimo_resultados||5)&&T.resSpend/T.spend>=0.4)?'resultado':'trafego');
   const kinds=Object.keys(T.byKind);
   let palavra=CFG.palavra_resultado||'contatos';
   if(!CFG.palavra_resultado&&!T.gRes&&kinds.length===1&&(kinds[0]==='vendas'||kinds[0]==='reservas')) palavra=kinds[0];
@@ -313,7 +313,8 @@ function render(){
   $('k-inv').textContent=brl(T.spend); delta($('d-inv'),T.spend,P&&P.spend,null,brl,true);
   $('k-inv-exp').textContent='Soma do que foi investido em anúncios no '+plataformas+'.';
   const partes=[];
-  Object.entries(T.byKind).forEach(([k,q])=>partes.push(`${int(q)} ${k}`));
+  const SG={cadastros:'cadastro',conversas:'conversa',reservas:'reserva',vendas:'venda'};
+  Object.entries(T.byKind).forEach(([k,q])=>partes.push(`${int(q)} ${q===1?SG[k]:k}`));
   const metaTxt=partes.length?lista(partes)+' pelo Instagram/Facebook':'';
   const gTxt=T.gRes?`${int(T.gRes)} ${CFG.google_result_nome||'pelo Google (ligações, rotas e formulários)'}`:'';
   if(modo==='resultado'){
