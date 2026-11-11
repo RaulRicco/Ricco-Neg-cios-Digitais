@@ -318,3 +318,13 @@ clientes:
     gads_customer: ""
     ga4_property: ""
     servicos: [meta]
+
+  # ── Quermesse Bar — BH (Tiradentes) ───────────────────────────────────────
+  - slug: quermesse-bh
+    nome: "Quermesse Bar — BH"
+    senha: "quermessebh2026"
+    meta_account: ""
+    gads_customer: "9434968739"
+    ga4_property: ""
+    servicos: [google]
+    nota: "Só Google (confirmado pelo Raul em 11/11/2026). Conta Google 'Quermesse Tiradentes'. GA4 em configuração — quando tiver o ID, preencher ga4_property, GA4_PROPERTY no fetch e incluir ga4 em servicos."

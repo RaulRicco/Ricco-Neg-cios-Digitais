@@ -1,0 +1,296 @@
+{
+ "versao": 2,
+ "cliente": "Quermesse Bar — BH",
+ "periodo": {
+  "start": "2026-10-01",
+  "end": "2026-10-31"
+ },
+ "periodo_anterior": {
+  "start": "2026-09-01",
+  "end": "2026-09-30"
+ },
+ "gerado_em": "2026-11-11T12:32:10",
+ "meta": null,
+ "google": {
+  "spend": 0,
+  "impressions": 0,
+  "clicks": 0,
+  "ctr": 0,
+  "cpc": 0,
+  "conversions": 0,
+  "cpa": 0,
+  "campaigns": [],
+  "keywords": [],
+  "search_terms": []
+ },
+ "ga4": null,
+ "anterior": {
+  "meta": null,
+  "google": {
+   "spend": 0,
+   "impressions": 0,
+   "clicks": 0,
+   "ctr": 0,
+   "cpc": 0,
+   "conversions": 0,
+   "cpa": 0,
+   "campaigns": [],
+   "keywords": [],
+   "search_terms": []
+  },
+  "ga4": null
+ },
+ "diario": [
+  {
+   "date": "2026-10-01",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-02",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-03",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-04",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-05",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-06",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-07",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-08",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-09",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-10",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-11",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-12",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-13",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-14",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-15",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-16",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-17",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-18",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-19",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-20",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-21",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-22",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-23",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-24",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-25",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-26",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-27",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-28",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-29",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-30",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  },
+  {
+   "date": "2026-10-31",
+   "meta_spend": 0.0,
+   "google_spend": 0.0,
+   "clicks": 0,
+   "results": 0,
+   "sessions": 0
+  }
+ ],
+ "config": {
+  "nome": "Quermesse Bar — BH"
+ }
+}

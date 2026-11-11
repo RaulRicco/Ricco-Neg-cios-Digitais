@@ -42,12 +42,12 @@ Base URL: `https://ricco-dashboards.pages.dev`
 ## Bebedouro Bar e Fogo
 - **URL:** https://ricco-dashboards.pages.dev/bebedouro
 - **Senha:** `bebedouro2026`
-- **Serviços:** META · GOOGLE · GA4
+- **Serviços:** GOOGLE · GA4
 
 ## Bebedouro Bar e Fogo — 356
 - **URL:** https://ricco-dashboards.pages.dev/bebedouro-356
 - **Senha:** `bebedouro356@2026`
-- **Serviços:** META · GOOGLE · GA4
+- **Serviços:** GOOGLE · GA4
 
 ## Semper Fidelis
 - **URL:** https://ricco-dashboards.pages.dev/semper-fidelis
@@ -173,3 +173,8 @@ Base URL: `https://ricco-dashboards.pages.dev`
 - **URL:** https://ricco-dashboards.pages.dev/porks-ceilandia
 - **Senha:** `porksceilandia2026`
 - **Serviços:** META
+
+## Quermesse Bar — BH
+- **URL:** https://ricco-dashboards.pages.dev/quermesse-bh
+- **Senha:** `quermessebh2026`
+- **Serviços:** GOOGLE

@@ -25,6 +25,7 @@ const CLIENTES = {
   'bebedouro':              'bebedouro2026',
   'bebedouro-356':          'bebedouro356-2026',
   'balcao-savassi':         'balcaosavassi2026',
+  'quermesse-bh':           'quermessebh2026',
   'ameriparts':             'ameriparts2026',
   'comodoro-burguer':       'comodoro2026',
   'bsbichos':               'bsbichos2026',
