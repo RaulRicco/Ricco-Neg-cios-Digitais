@@ -180,15 +180,6 @@ clientes:
     ga4_property: ""
     servicos: [meta]
 
-  # ── Vanguard Seguros ──────────────────────────────────────────────────────
-  - slug: vanguard-seguros
-    nome: "Vanguard Seguros"
-    senha: "vanguard2026"
-    meta_account: "act_1046588991752558"
-    gads_customer: ""
-    ga4_property: ""
-    servicos: [meta]
-
   # ── Sol e Lar ─────────────────────────────────────────────────────────────
   - slug: sol-e-lar
     nome: "Casas Sol e Lar"
@@ -215,16 +206,6 @@ clientes:
     gads_customer: ""
     ga4_property: ""
     servicos: [meta]
-
-  # ── Porks Asa Norte ───────────────────────────────────────────────────────
-  - slug: porks-asa-norte
-    nome: "Porks Asa Norte"
-    senha: "porksasanorte2026"
-    meta_account: "act_1805040963337330"
-    gads_customer: ""
-    ga4_property: "511232648"
-    servicos: [meta, ga4]
-    nota: "GA4 compartilhado Porks Brasil"
 
   # ── Porks Samambaia ───────────────────────────────────────────────────────
   - slug: porks-samambaia

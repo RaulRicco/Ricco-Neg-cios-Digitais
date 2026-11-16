@@ -162,7 +162,7 @@ Para atualizar o relatório mensal de performance de vários/todos os clientes d
 
 **Google Ads token expira periodicamente** — se der `invalid_grant`, rodar `~/.claude/skills/.venv-ads/bin/python3 setup.py oauth` dentro de `~/.claude/skills/google-ads-ratos/scripts/` para gerar um novo refresh token (abre o browser). O **GA4 tem o mesmo problema** (usado só no `dashboard-deploy/`) — reautorizar com `~/.claude/skills/.venv-ads/bin/python3 ~/.claude/skills/ga4-ratos/scripts/auth.py`.
 
-**Padrão de nomenclatura de pastas de cliente:** alguns clientes agrupam múltiplas unidades numa pasta só (ex: `porks-asas` = Asa Norte + Asa Sul; `porks-bdf` = Samambaia + Guará + Pirenópolis) — somar as métricas das contas de anúncio correspondentes antes de gerar o relatório único.
+**Padrão de nomenclatura de pastas de cliente:** alguns clientes agrupam múltiplas unidades numa pasta só (ex: `porks-bdf` = Samambaia + Guará + Pirenópolis). Porks Asa Norte e Vanguard Seguros saíram da carteira em 16/11/2026 — removidos de toda a estrutura; relatórios antigos do Asa Norte em `clientes/_arquivados/` — somar as métricas das contas de anúncio correspondentes antes de gerar o relatório único.
 
 **Formato do relatório:** seguir o HTML dark/verde neon já usado em `clientes/[cliente]/relatorios/relatorio-[mes]-2026.html` (ver qualquer relatório existente como referência de estrutura/CSS).
 

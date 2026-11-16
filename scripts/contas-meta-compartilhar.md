@@ -9,7 +9,6 @@ Não precisa atribuir ao claude-api depois: como ele é Admin do raulriccopro, j
 |---|---|---|
 | [x] | Supermercado Bistecão 01 | 164474806974058 |
 | [ ] | Supermercado Bistecão 02 | 1499019707471692 |
-| [ ] | Porks Asa Norte | 1805040963337330 |
 | [x] | Porks Samambaia | 1035595840205318 |
 | [x] | Porks Guará | 1515848412209603 |
 | [x] | Porks Pirenópolis | 278928591684240 |
@@ -37,5 +36,4 @@ Não precisa atribuir ao claude-api depois: como ele é Admin do raulriccopro, j
 | [x] | O Quintal Piri | 1800093304167869 |
 | [x] | Boteco do Quintal | 1437070783628710 |
 | [ ] | FishMe Bar e Cozinha | 488123552728918 |
-| [ ] | Vanguard Seguros | 1046588991752558 |
 | [x] | Cervejaria Starken | 1020477143904346 |

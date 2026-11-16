@@ -99,11 +99,6 @@ Base URL: `https://ricco-dashboards.pages.dev`
 - **Senha:** `horus2026`
 - **Serviços:** META
 
-## Vanguard Seguros
-- **URL:** https://ricco-dashboards.pages.dev/vanguard-seguros
-- **Senha:** `vanguard2026`
-- **Serviços:** META
-
 ## Casas Sol e Lar
 - **URL:** https://ricco-dashboards.pages.dev/sol-e-lar
 - **Senha:** `solelar2026`
@@ -118,11 +113,6 @@ Base URL: `https://ricco-dashboards.pages.dev`
 - **URL:** https://ricco-dashboards.pages.dev/fish-me
 - **Senha:** `fishme2026`
 - **Serviços:** META
-
-## Porks Asa Norte
-- **URL:** https://ricco-dashboards.pages.dev/porks-asa-norte
-- **Senha:** `porksasanorte2026`
-- **Serviços:** META · GA4
 
 ## Porks Samambaia
 - **URL:** https://ricco-dashboards.pages.dev/porks-samambaia
